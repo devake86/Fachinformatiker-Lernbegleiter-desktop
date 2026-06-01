@@ -1,6 +1,6 @@
-# projectFIQA (Desktop) [**Desktop EXE (v1.0-beta2)**](https://github.com/devake86/projectFIQA-desktop/releases/download/v1.0-beta2/projectFIQA-desktop_v1-beta2a.zip)
+# projectFIQA (Desktop)
 
-A Desktop version of the Android App as an alternative for iOS users to prepare for the IHK FISI/FIAE final exams (AP1 / AP2) with JSON-/Gson-based question handling. Reuses the Java Core-logic of the Android App and uses JavaFX (FXML) to build the UI.
+[**Desktop EXE (v1.0-beta2)**](https://github.com/devake86/projectFIQA-desktop/releases/download/v1.0-beta2/projectFIQA-desktop_v1-beta2a.zip) A Desktop version of the Android App as an alternative for iOS users to prepare for the IHK FISI/FIAE final exams (AP1 / AP2) with JSON-/Gson-based question handling. Reuses the Java Core-logic of the Android App and uses JavaFX (FXML) to build the UI.
 
 ---
 
