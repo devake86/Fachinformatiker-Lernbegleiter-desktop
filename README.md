@@ -6,8 +6,7 @@ A Desktop version of the Android App as an alternative for iOS users to prepare 
 
 ## Download
 
-[**Desktop EXE (v1.0-beta2)**]
-(link zip)
+[**Desktop EXE (v1.0-beta2)**](https://github.com/devake86/projectFIQA-desktop/releases/download/v1.0-beta2/projectFIQA-desktop_v1-beta2a.zip)
 
 ---
 
