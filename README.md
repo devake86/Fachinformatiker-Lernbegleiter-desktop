@@ -21,7 +21,7 @@ Preview of the UI Flow:
 ---
 
 ## Status
-Current version: v1.0-dev
+Current version: v1.0-dev2
 
 Last stable release: v1.0-beta2
 
