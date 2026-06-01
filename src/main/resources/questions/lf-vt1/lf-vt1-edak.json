@@ -1,0 +1,222 @@
+[
+  {
+    "id": "LF-VT1-EDAK-001",
+    "question": "Welche Windows 11 Edition ist für Einzel- und Heimgebrauch vorgesehen?",
+    "answers": [
+      { "text": "Windows 11 Home", "correct": true },
+      { "text": "Windows 11 Enterprise", "correct": false },
+      { "text": "Windows 11 Education", "correct": false },
+      { "text": "Windows 11 Pro Education", "correct": false }
+    ],
+    "explanation": "Windows 11 Home ist für Einzel- und Heimgebrauch vorgesehen."
+  },
+  {
+    "id": "LF-VT1-EDAK-002",
+    "question": "Welche Windows 11 Edition ist nur für Kunden mit Volumenlizenzen verfügbar?",
+    "answers": [
+      { "text": "Windows 11 Enterprise", "correct": true },
+      { "text": "Windows 11 Home", "correct": false },
+      { "text": "Windows 11 Pro", "correct": false },
+      { "text": "Windows 11 Pro Workstations", "correct": false }
+    ],
+    "explanation": "Windows 11 Enterprise ist für große Unternehmen und nur mit Volumenlizenzen verfügbar."
+  },
+  {
+    "id": "LF-VT1-EDAK-003",
+    "question": "Welche Windows 11 Edition ist für Schulen, Lehrer und Studenten vorgesehen?",
+    "answers": [
+      { "text": "Windows 11 Education", "correct": true },
+      { "text": "Windows 11 Home", "correct": false },
+      { "text": "Windows 11 Enterprise", "correct": false },
+      { "text": "Windows 11 Pro Workstations", "correct": false }
+    ],
+    "explanation": "Windows 11 Education richtet sich an Schulpersonal, Lehrer und Studenten."
+  },
+  {
+    "id": "LF-VT1-EDAK-004",
+    "question": "Welche Windows 11 Edition ist keine genannte Windows 11 Edition?",
+    "answers": [
+      { "text": "Windows 11 Ultimate", "correct": true },
+      { "text": "Windows 11 Pro", "correct": false },
+      { "text": "Windows 11 Education", "correct": false },
+      { "text": "Windows 11 Enterprise", "correct": false }
+    ],
+    "explanation": "Windows 11 Ultimate gehört hier nicht zu den genannten Windows 11 Editionen."
+  },
+  {
+    "id": "LF-VT1-EDAK-005",
+    "question": "Welche Windows 11 Edition ist für kleine und mittlere Unternehmen vorgesehen?",
+    "answers": [
+      { "text": "Windows 11 Pro", "correct": true },
+      { "text": "Windows 11 Home", "correct": false },
+      { "text": "Windows 11 Education", "correct": false },
+      { "text": "Windows 11 Pro Education", "correct": false }
+    ],
+    "explanation": "Windows 11 Pro ist für kleine und mittlere Unternehmen sowie fortgeschrittene Benutzer vorgesehen."
+  },
+  {
+    "id": "LF-VT1-EDAK-006",
+    "question": "Welche Windows 11 Edition ist nur über akademische Volumenlizenzen erhältlich?",
+    "answers": [
+      { "text": "Windows 11 Pro Education", "correct": true },
+      { "text": "Windows 11 Home", "correct": false },
+      { "text": "Windows 11 Pro", "correct": false },
+      { "text": "Windows 11 Enterprise", "correct": false }
+    ],
+    "explanation": "Windows 11 Pro Education ist nur über akademische Volumenlizenzen erhältlich."
+  },
+  {
+    "id": "LF-VT1-EDAK-007",
+    "question": "Welcher Gerätetyp gehört zur Auswahl einer Windows 11 Edition?",
+    "answers": [
+      { "text": "Desktop/Laptop", "correct": true },
+      { "text": "Datei-Server", "correct": false },
+      { "text": "Domänencontroller", "correct": false },
+      { "text": "Netzlaufwerk", "correct": false }
+    ],
+    "explanation": "Desktop/Laptop ist ein Gerätetyp, der bei der Auswahl einer Edition berücksichtigt werden kann."
+  },
+  {
+    "id": "LF-VT1-EDAK-008",
+    "question": "Welche Funktion gehört zur Auswahl einer Windows 11 Edition?",
+    "answers": [
+      { "text": "Kiosk/Shared", "correct": true },
+      { "text": "Scanstate", "correct": false },
+      { "text": "Loadstate", "correct": false },
+      { "text": "BitLocker To Go", "correct": false }
+    ],
+    "explanation": "Kiosk/Shared ist eine mögliche Funktion, die bei der Editionsauswahl berücksichtigt wird."
+  },
+  {
+    "id": "LF-VT1-EDAK-009",
+    "question": "Welche Prozessoranforderung gilt mindestens für Windows 11?",
+    "answers": [
+      { "text": "64-Bit, 1 GHz, 2 Kerne", "correct": true },
+      { "text": "32-Bit, 1 GHz, 1 Kern", "correct": false },
+      { "text": "64-Bit, 500 MHz, 1 Kern", "correct": false },
+      { "text": "32-Bit, 2 GHz, 2 Kerne", "correct": false }
+    ],
+    "explanation": "Windows 11 benötigt einen 64-Bit-Prozessor mit mindestens 1 GHz und 2 Kernen."
+  },
+  {
+    "id": "LF-VT1-EDAK-010",
+    "question": "Wie viel RAM benötigt Windows 11 mindestens?",
+    "answers": [
+      { "text": "4 GB RAM", "correct": true },
+      { "text": "2 GB RAM", "correct": false },
+      { "text": "8 GB RAM", "correct": false },
+      { "text": "16 GB RAM", "correct": false }
+    ],
+    "explanation": "Die minimale Hardwareanforderung für Windows 11 beträgt mindestens 4 GB RAM."
+  },
+  {
+    "id": "LF-VT1-EDAK-011",
+    "question": "Wie viel Festplattenspeicher benötigt Windows 11 mindestens?",
+    "answers": [
+      { "text": "64 GB", "correct": true },
+      { "text": "32 GB", "correct": false },
+      { "text": "128 GB", "correct": false },
+      { "text": "256 GB", "correct": false }
+    ],
+    "explanation": "Windows 11 benötigt mindestens 64 GB Festplattenspeicher."
+  },
+  {
+    "id": "LF-VT1-EDAK-012",
+    "question": "Welche Firmware-Anforderung gilt für Windows 11?",
+    "answers": [
+      { "text": "UEFI mit Secure Boot", "correct": true },
+      { "text": "BIOS ohne Secure Boot", "correct": false },
+      { "text": "MBR mit Legacy Boot", "correct": false },
+      { "text": "PXE ohne Bootschutz", "correct": false }
+    ],
+    "explanation": "UEFI steht für Unified Extensible Firmware Interface und muss mit Secure Boot bootfähig sein."
+  },
+  {
+    "id": "LF-VT1-EDAK-013",
+    "question": "Welche Grafik-Anforderung gilt für Windows 11?",
+    "answers": [
+      { "text": "DirectX 12 mit WDDM 2.0", "correct": true },
+      { "text": "DirectX 9 mit WDDM 1.0", "correct": false },
+      { "text": "OpenGL ohne WDDM", "correct": false },
+      { "text": "VGA ohne Treiber", "correct": false }
+    ],
+    "explanation": "WDDM steht für Windows Display Driver Model; gefordert ist DirectX 12 oder neuer mit WDDM 2.0."
+  },
+  {
+    "id": "LF-VT1-EDAK-014",
+    "question": "Welche Komponente wird als TPM bezeichnet?",
+    "answers": [
+      { "text": "Trusted Platform Module", "correct": true },
+      { "text": "Temporary Profile Manager", "correct": false },
+      { "text": "Transfer Package Mode", "correct": false },
+      { "text": "Trusted Printer Module", "correct": false }
+    ],
+    "explanation": "TPM steht für Trusted Platform Module und gehört zu den Hardwareanforderungen."
+  },
+  {
+    "id": "LF-VT1-EDAK-015",
+    "question": "Was bestätigt die Aktivierung von Windows 11?",
+    "answers": [
+      { "text": "Produkt- und Key-Status", "correct": true },
+      { "text": "Nur die RAM-Größe", "correct": false },
+      { "text": "Nur die IP-Adresse", "correct": false },
+      { "text": "Nur die Benutzerrolle", "correct": false }
+    ],
+    "explanation": "Die Aktivierung bestätigt den Produkt- und Produktschlüsselstatus."
+  },
+  {
+    "id": "LF-VT1-EDAK-016",
+    "question": "Was wird durch die Aktivierung von Windows 11 hergestellt?",
+    "answers": [
+      { "text": "Key-Gerät-Beziehung", "correct": true },
+      { "text": "Benutzer-Domäne-Beziehung", "correct": false },
+      { "text": "Treiber-App-Beziehung", "correct": false },
+      { "text": "Subnetz-Gateway-Beziehung", "correct": false }
+    ],
+    "explanation": "Die Aktivierung stellt eine Beziehung zwischen Produktschlüssel und Installation auf einem Gerät her."
+  },
+  {
+    "id": "LF-VT1-EDAK-017",
+    "question": "Welche Aktivierungsmethode ist eine Hauptmethode für Windows 11?",
+    "answers": [
+      { "text": "OEM", "correct": true },
+      { "text": "DHCP", "correct": false },
+      { "text": "BitLocker", "correct": false },
+      { "text": "AppLocker", "correct": false }
+    ],
+    "explanation": "OEM ist eine der drei Hauptmethoden zur Aktivierung von Windows 11."
+  },
+  {
+    "id": "LF-VT1-EDAK-018",
+    "question": "Was gehört nicht zu den drei Hauptmethoden der Windows 11 Aktivierung?",
+    "answers": [
+      { "text": "Windows Defender", "correct": true },
+      { "text": "Einzelhandel", "correct": false },
+      { "text": "OEM", "correct": false },
+      { "text": "Volume Lizensierung", "correct": false }
+    ],
+    "explanation": "Windows Defender ist Schutzsoftware und keine Aktivierungsmethode."
+  },
+  {
+    "id": "LF-VT1-EDAK-019",
+    "question": "Welche Methode gehört zur Volume Aktivierung von Windows 11?",
+    "answers": [
+      { "text": "KMS", "correct": true },
+      { "text": "APIPA", "correct": false },
+      { "text": "ReFS", "correct": false },
+      { "text": "QoS", "correct": false }
+    ],
+    "explanation": "KMS steht für Key Management Service und wird für Volume Aktivierung genutzt."
+  },
+  {
+    "id": "LF-VT1-EDAK-020",
+    "question": "Welche Rolle wird für die AD-basierte Aktivierung hinzugefügt?",
+    "answers": [
+      { "text": "Volume Activation Services", "correct": true },
+      { "text": "Windows Defender Firewall", "correct": false },
+      { "text": "Remote Desktop Services", "correct": false },
+      { "text": "Windows Update Services", "correct": false }
+    ],
+    "explanation": "Für die AD-basierte Aktivierung wird im Server Manager die Rolle Volume Activation Services hinzugefügt."
+  }
+]

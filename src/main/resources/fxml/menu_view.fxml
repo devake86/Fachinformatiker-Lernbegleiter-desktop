@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane fx:id="rootLayout"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="app.ui.MenuController">
+
+    <!-- ===== TOP: Statusbar Wrapper (zentriert) ===== -->
+    <top>
+        <HBox fx:id="statusBarWrapper"
+              alignment="CENTER"
+              maxWidth="Infinity">
+
+            <!-- Status-Bar selbst -->
+            <HBox fx:id="statusBar"
+                  minHeight="40"
+                  prefWidth="520"
+                  maxWidth="Infinity"
+                  alignment="CENTER"
+                  fillHeight="true"
+                  style="-fx-padding: 16;">
+
+                <Label fx:id="placeholder1"
+                       style="-fx-font-size: 12px;" />
+
+                <!-- spacer horizontal -->
+                <Region HBox.hgrow="ALWAYS"/>
+
+                <Label fx:id="versionIdLabel"
+                       visible="false"
+                       text="beta2"
+                       style="-fx-font-size: 12px;" />
+
+                <Region HBox.hgrow="ALWAYS"/>
+
+                <Label fx:id="placeholder2"
+                       style="-fx-font-size: 12px;" />
+
+            </HBox>
+        </HBox>
+    </top>
+
+    <!-- ===== CENTER: Menu Container (maxWidth 520, top anchored) ===== -->
+    <center>
+        <VBox fx:id="menuContainer"
+              alignment="TOP_CENTER"
+              fillWidth="true"
+              maxWidth="520"
+              maxHeight="920"
+              spacing="8"
+              style="-fx-padding: 8 16 8 16;"
+              BorderPane.alignment="TOP_CENTER">
+
+            <!-- ===== Menu Text Pane ===== -->
+            <VBox fx:id="menuPane"
+                  alignment="TOP_CENTER"
+                  minHeight="520"
+                  prefHeight="520"
+                  style="-fx-padding: 8 16 8 16;">
+
+                <!-- Menu Text Box -->
+                <VBox fx:id="menuTextBox"
+                      alignment="CENTER"
+                      minHeight="380"
+                      prefHeight="380"
+                      fillWidth="true"
+                      style="-fx-padding: 8 16 24 16;"
+                      VBox.vgrow="ALWAYS">
+
+                    <Label fx:id="titleLabel"
+                           text="FIQA"
+                           visible="false"
+                           style="-fx-font-size: 64px;" />
+
+                </VBox>
+
+                <!-- Flavor Text Box -->
+                <VBox fx:id="flavorTextBox"
+                      alignment="CENTER"
+                      minHeight="140"
+                      prefHeight="140"
+                      fillWidth="true"
+                      style="-fx-padding: 24 32 16 32;"
+                      VBox.vgrow="NEVER">
+
+                    <!-- "&amp;" für "&" ohne Error ; amp = ampersand (englischer Name für das "&" Zeichen) -->
+                    <Label fx:id="flavorLabel"
+                           text="(Fach-)Informatiker&#10;Questions &amp; Answers"
+                           style="-fx-font-size: 14px;
+                                  -fx-font-style: italic;
+                                  -fx-opacity: 0.8;" />
+
+                </VBox>
+
+            </VBox>
+
+            <!-- ===== Interaction Pane ===== -->
+            <VBox fx:id="interactionPane"
+                  alignment="TOP_CENTER"
+                  spacing="8"
+                  minHeight="248"
+                  prefHeight="248"
+
+                  style="-fx-padding: 8 16 8 16;">
+
+                <Button fx:id="ap1Button"
+                        text="AP1 PoC (DummyQ)"
+                        prefWidth="174"
+                        managed="true"
+                        style="-fx-font-size: 14px;"/>
+
+                <Button fx:id="start20QuestionsButton"
+                        text="LF-VT1"
+                        prefWidth="174"
+                        managed="true"
+                        style="-fx-font-size: 14px;"/>
+
+                <Button fx:id="startABKZButton"
+                        text="VT1 Abkürzungen"
+                        prefWidth="174"
+                        managed="true"
+                        style="-fx-font-size: 14px;"/>
+
+                <Button fx:id="startFBEGButton"
+                        text="VT1 Fachbegriffe"
+                        prefWidth="174"
+                        managed="true"
+                        style="-fx-font-size: 14px;"/>
+
+                <!-- spacer vertikal -->
+                <Region VBox.vgrow="ALWAYS"/>
+
+                <Button fx:id="exitButton"
+                        text="Beenden"
+                        prefWidth="174"
+                        managed="true"
+                        style="-fx-font-size: 14px;"/>
+
+                <Region VBox.vgrow="ALWAYS"/>
+
+            </VBox>
+
+            <!-- ===== Action Bar ===== -->
+            <HBox fx:id="actionBar"
+                  alignment="CENTER"
+                  minHeight="72"
+                  style="-fx-padding: 8 16 48 16;">
+
+                <Button fx:id="actionButton"
+                        text="Bestätigen"
+                        prefWidth="174"
+                        visible="false"
+                        managed="true"
+                        style="-fx-font-size: 14px;"/>
+
+            </HBox>
+
+        </VBox>
+    </center>
+
+</BorderPane>

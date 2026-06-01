@@ -1,0 +1,222 @@
+[
+  {
+    "id": "LF-VT1-BUMI-001",
+    "question": "Welche Bereitstellungsoption beschreibt ein Upgrade direkt aus einem laufenden Windows heraus?",
+    "answers": [
+      { "text": "In-Place Upgrade", "correct": true },
+      { "text": "Wipe and Load", "correct": false },
+      { "text": "Side by Side", "correct": false },
+      { "text": "Refresh", "correct": false }
+    ],
+    "explanation": "Beim In-Place Upgrade wird ein bestehendes Windows direkt aktualisiert."
+  },
+  {
+    "id": "LF-VT1-BUMI-002",
+    "question": "Welche Bereitstellungsoption nutzt ein Systemabbild eines Referenzsystems?",
+    "answers": [
+      { "text": "Frische Installation", "correct": true },
+      { "text": "Refresh", "correct": false },
+      { "text": "Rollback", "correct": false },
+      { "text": "Loadstate", "correct": false }
+    ],
+    "explanation": "Eine frische Installation kann von einem Installationsmedium oder Systemabbild erfolgen."
+  },
+  {
+    "id": "LF-VT1-BUMI-003",
+    "question": "Welche Bereitstellungsoption ähnelt einem Factory Reset?",
+    "answers": [
+      { "text": "Refresh", "correct": true },
+      { "text": "Migration", "correct": false },
+      { "text": "Provisionierung", "correct": false },
+      { "text": "In-Place Upgrade", "correct": false }
+    ],
+    "explanation": "Refresh bedeutet, ein genutztes Windows aufzufrischen, ähnlich einem Factory Reset."
+  },
+  {
+    "id": "LF-VT1-BUMI-004",
+    "question": "Welche Bereitstellungsoption richtet ein neues oder vorinstalliertes Windows mit Paketen ein?",
+    "answers": [
+      { "text": "Provisionierung", "correct": true },
+      { "text": "Rollback", "correct": false },
+      { "text": "Wipe and Load", "correct": false },
+      { "text": "Scanstate", "correct": false }
+    ],
+    "explanation": "Provisionierung richtet Windows mit Provision Packages ein."
+  },
+  {
+    "id": "LF-VT1-BUMI-005",
+    "question": "Welcher Schritt steht beim Upgrade auf Windows 11 zuerst?",
+    "answers": [
+      { "text": "Evaluieren", "correct": true },
+      { "text": "Upgrade", "correct": false },
+      { "text": "Update", "correct": false },
+      { "text": "Überprüfen", "correct": false }
+    ],
+    "explanation": "Die sinnvolle Reihenfolge ist: Evaluieren, Backup, Upgrade, Überprüfen, Update."
+  },
+  {
+    "id": "LF-VT1-BUMI-006",
+    "question": "Welcher Schritt folgt beim Windows 11 Upgrade direkt nach dem Backup?",
+    "answers": [
+      { "text": "Upgrade", "correct": true },
+      { "text": "Evaluieren", "correct": false },
+      { "text": "Update", "correct": false },
+      { "text": "Überprüfen", "correct": false }
+    ],
+    "explanation": "Nach Evaluieren und Backup folgt das eigentliche Upgrade."
+  },
+  {
+    "id": "LF-VT1-BUMI-007",
+    "question": "Welche Voraussetzung gilt für ein Upgrade von Windows 10 auf Windows 11?",
+    "answers": [
+      { "text": "Unterstütztes Windows 10", "correct": true },
+      { "text": "Windows 8.1 als Basis", "correct": false },
+      { "text": "Nur lokale Konten", "correct": false },
+      { "text": "Dynamisches Laufwerk", "correct": false }
+    ],
+    "explanation": "Das Gerät muss eine derzeit unterstützte Version von Windows 10 ausführen."
+  },
+  {
+    "id": "LF-VT1-BUMI-008",
+    "question": "Was muss ein Windows 10 Gerät zusätzlich erfüllen, um auf Windows 11 aktualisiert zu werden?",
+    "answers": [
+      { "text": "Mindesthardware erfüllen", "correct": true },
+      { "text": "Domäne verlassen", "correct": false },
+      { "text": "FAT32 nutzen", "correct": false },
+      { "text": "Firewall deaktivieren", "correct": false }
+    ],
+    "explanation": "Für Windows 11 müssen die Mindesthardwarespezifikationen erfüllt sein."
+  },
+  {
+    "id": "LF-VT1-BUMI-009",
+    "question": "Welche Methode gehört zur Migration auf Windows 11?",
+    "answers": [
+      { "text": "Side by Side", "correct": true },
+      { "text": "Quality Update", "correct": false },
+      { "text": "Feature Update", "correct": false },
+      { "text": "KMS-Aktivierung", "correct": false }
+    ],
+    "explanation": "Side by Side ist eine Methode der Migration auf Windows 11."
+  },
+  {
+    "id": "LF-VT1-BUMI-010",
+    "question": "Welche Methode gehört ebenfalls zur Migration auf Windows 11?",
+    "answers": [
+      { "text": "Wipe and Load", "correct": true },
+      { "text": "Intranetzone", "correct": false },
+      { "text": "Treiberrollback", "correct": false },
+      { "text": "AppLocker-Regel", "correct": false }
+    ],
+    "explanation": "Wipe and Load ist eine Migrationsmethode."
+  },
+  {
+    "id": "LF-VT1-BUMI-011",
+    "question": "Welcher Vorteil gehört zum Upgrade auf Windows 11?",
+    "answers": [
+      { "text": "Apps bleiben erhalten", "correct": true },
+      { "text": "Malware wird entfernt", "correct": false },
+      { "text": "Edition frei wählbar", "correct": false },
+      { "text": "Hardware wird ersetzt", "correct": false }
+    ],
+    "explanation": "Beim Upgrade bleiben installierte Anwendungen erhalten."
+  },
+  {
+    "id": "LF-VT1-BUMI-012",
+    "question": "Welcher Vorteil gehört nicht zum Upgrade auf Windows 11?",
+    "answers": [
+      { "text": "Edition frei wählbar", "correct": true },
+      { "text": "Dateien bleiben erhalten", "correct": false },
+      { "text": "Rollback ist verfügbar", "correct": false },
+      { "text": "Einrichtung ist einfacher", "correct": false }
+    ],
+    "explanation": "Eine frei wählbare Edition ist ein Vorteil der Migration, nicht des Upgrades."
+  },
+  {
+    "id": "LF-VT1-BUMI-013",
+    "question": "Welcher Vorteil gehört zur Migration auf Windows 11?",
+    "answers": [
+      { "text": "Bereinigte Umgebung", "correct": true },
+      { "text": "Apps bleiben erhalten", "correct": false },
+      { "text": "Kein Speicherbedarf", "correct": false },
+      { "text": "Rollback immer verfügbar", "correct": false }
+    ],
+    "explanation": "Migration kann vorhandene Computer bereinigen und stabilere Umgebungen schaffen."
+  },
+  {
+    "id": "LF-VT1-BUMI-014",
+    "question": "Was migriert bei einer Migration nicht auf die neue Installation?",
+    "answers": [
+      { "text": "Bösartige Software", "correct": true },
+      { "text": "Benutzerdateien", "correct": false },
+      { "text": "OS-Einstellungen", "correct": false },
+      { "text": "Benutzerkonten", "correct": false }
+    ],
+    "explanation": "Ein Vorteil der Migration ist, dass bösartige Software nicht auf die neue Installation migriert."
+  },
+  {
+    "id": "LF-VT1-BUMI-015",
+    "question": "Welcher Nachteil gehört zum Upgrade auf Windows 11?",
+    "answers": [
+      { "text": "Keine Editionsänderung", "correct": true },
+      { "text": "Apps neu installieren", "correct": false },
+      { "text": "Migrationsdateien nötig", "correct": false },
+      { "text": "USMT zwingend nötig", "correct": false }
+    ],
+    "explanation": "Beim Upgrade ist keine Änderung der Edition vorgesehen."
+  },
+  {
+    "id": "LF-VT1-BUMI-016",
+    "question": "Welcher Nachteil gehört zur Migration auf Windows 11?",
+    "answers": [
+      { "text": "Apps neu installieren", "correct": true },
+      { "text": "Keine Editionsänderung", "correct": false },
+      { "text": "Nur unterstützte OS", "correct": false },
+      { "text": "Kein Speicherbedarf", "correct": false }
+    ],
+    "explanation": "Bei der Migration müssen Anwendungen neu installiert werden."
+  },
+  {
+    "id": "LF-VT1-BUMI-017",
+    "question": "Welches Tool dient zur Migration von Benutzerdaten?",
+    "answers": [
+      { "text": "USMT", "correct": true },
+      { "text": "WSUS", "correct": false },
+      { "text": "KMS", "correct": false },
+      { "text": "UAC", "correct": false }
+    ],
+    "explanation": "USMT steht für User State Migration Tool und überträgt Daten und Einstellungen."
+  },
+  {
+    "id": "LF-VT1-BUMI-018",
+    "question": "Was macht Scanstate.exe bei der Windows-Migration?",
+    "answers": [
+      { "text": "Daten sammeln und speichern", "correct": true },
+      { "text": "Daten auf Zielsystem laden", "correct": false },
+      { "text": "Windows aktivieren", "correct": false },
+      { "text": "Treiber installieren", "correct": false }
+    ],
+    "explanation": "Scanstate.exe scannt den Quellcomputer und speichert Dateien und Einstellungen."
+  },
+  {
+    "id": "LF-VT1-BUMI-019",
+    "question": "Was macht Loadstate.exe bei der Windows-Migration?",
+    "answers": [
+      { "text": "Daten auf Zielsystem laden", "correct": true },
+      { "text": "Quellcomputer scannen", "correct": false },
+      { "text": "Image erstellen", "correct": false },
+      { "text": "Updates verschieben", "correct": false }
+    ],
+    "explanation": "Loadstate.exe migriert zuvor gespeicherte Dateien und Einstellungen auf ein neues System."
+  },
+  {
+    "id": "LF-VT1-BUMI-020",
+    "question": "Welche Datei kann USMT genauer steuern?",
+    "answers": [
+      { "text": "MigUser.xml", "correct": true },
+      { "text": "gpedit.msc", "correct": false },
+      { "text": "appwiz.cpl", "correct": false },
+      { "text": "inetcpl.cpl", "correct": false }
+    ],
+    "explanation": "MigUser.xml kann bei USMT festlegen, welche Benutzerdaten gescannt oder migriert werden."
+  }
+]

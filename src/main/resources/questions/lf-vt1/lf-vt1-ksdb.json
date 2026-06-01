@@ -1,0 +1,222 @@
+[
+  {
+    "id": "LF-VT1-KSDB-001",
+    "question": "Welcher Kontotyp wird lokal auf einem Windows 11 Gerät erstellt?",
+    "answers": [
+      { "text": "Lokales Konto", "correct": true },
+      { "text": "Domänenkonto", "correct": false },
+      { "text": "Microsoftkonto", "correct": false },
+      { "text": "Azure-AD-Konto", "correct": false }
+    ],
+    "explanation": "Lokale Konten werden direkt auf dem Gerät erstellt."
+  },
+  {
+    "id": "LF-VT1-KSDB-002",
+    "question": "Welcher Kontotyp wird im Active Directory erstellt und verwaltet?",
+    "answers": [
+      { "text": "Domänenkonto", "correct": true },
+      { "text": "Lokales Konto", "correct": false },
+      { "text": "Microsoftkonto", "correct": false },
+      { "text": "Dienstkonto", "correct": false }
+    ],
+    "explanation": "Domänenkonten werden im Active Directory erstellt und verwaltet."
+  },
+  {
+    "id": "LF-VT1-KSDB-003",
+    "question": "Welcher Kontotyp erlaubt Synchronisation zwischen Geräten?",
+    "answers": [
+      { "text": "Microsoftkonto", "correct": true },
+      { "text": "Lokales Konto", "correct": false },
+      { "text": "Dienstkonto", "correct": false },
+      { "text": "Gastkonto", "correct": false }
+    ],
+    "explanation": "Microsoftkonten werden bei Microsoft erstellt und erlauben Synchronisation zwischen Geräten."
+  },
+  {
+    "id": "LF-VT1-KSDB-004",
+    "question": "Wofür werden Dienstkonten unter Windows 11 genutzt?",
+    "answers": [
+      { "text": "Zugriff für Dienste", "correct": true },
+      { "text": "Normale User-Anmeldung", "correct": false },
+      { "text": "Edge-Favoriten-Sync", "correct": false },
+      { "text": "Partitionierung", "correct": false }
+    ],
+    "explanation": "Dienstkonten geben Diensten Zugriff auf bestimmte Ressourcen und werden nicht von Usern genutzt."
+  },
+  {
+    "id": "LF-VT1-KSDB-005",
+    "question": "Was speichert die Anmeldeinformationsverwaltung?",
+    "answers": [
+      { "text": "Passwörter", "correct": true },
+      { "text": "Treiberpakete", "correct": false },
+      { "text": "Partitionstabellen", "correct": false },
+      { "text": "Firewallprofile", "correct": false }
+    ],
+    "explanation": "Die Anmeldeinformationsverwaltung ist ein integrierter Passwortmanager in Windows."
+  },
+  {
+    "id": "LF-VT1-KSDB-006",
+    "question": "Welche Methode gehört zu Windows Hello?",
+    "answers": [
+      { "text": "Gesichtserkennung", "correct": true },
+      { "text": "MBR-Konvertierung", "correct": false },
+      { "text": "DHCP-Vergabe", "correct": false },
+      { "text": "App-Streaming", "correct": false }
+    ],
+    "explanation": "Windows Hello unterstützt Gesichtserkennung, Fingerabdruck, PIN und Sicherheitsschlüssel."
+  },
+  {
+    "id": "LF-VT1-KSDB-007",
+    "question": "Welche Hardware benötigt Windows Hello für Gesichtserkennung?",
+    "answers": [
+      { "text": "Infrarotfähige Kamera", "correct": true },
+      { "text": "TPM ohne Kamera", "correct": false },
+      { "text": "Ethernet-Adapter", "correct": false },
+      { "text": "Externe Festplatte", "correct": false }
+    ],
+    "explanation": "Für Gesichtserkennung benötigt Windows Hello eine infrarotfähige Kamera."
+  },
+  {
+    "id": "LF-VT1-KSDB-008",
+    "question": "Was macht UAC unter Windows 11 bei Standardbenutzern?",
+    "answers": [
+      { "text": "Admin-Daten anfordern", "correct": true },
+      { "text": "Daten automatisch löschen", "correct": false },
+      { "text": "Firewall abschalten", "correct": false },
+      { "text": "Partitionen spiegeln", "correct": false }
+    ],
+    "explanation": "UAC steht für User Account Control und fordert bei Adminaufgaben administrative Anmeldedaten."
+  },
+  {
+    "id": "LF-VT1-KSDB-009",
+    "question": "Was muss ein Administrator bei einer UAC-Abfrage meist tun?",
+    "answers": [
+      { "text": "Aktion bestätigen", "correct": true },
+      { "text": "Domäne verlassen", "correct": false },
+      { "text": "Treiber migrieren", "correct": false },
+      { "text": "Volume löschen", "correct": false }
+    ],
+    "explanation": "Bei administrativen Nutzern muss die UAC-Aktion meist nur bestätigt werden."
+  },
+  {
+    "id": "LF-VT1-KSDB-010",
+    "question": "Welche Aufgabe nutzt typischerweise UAC unter Windows 11?",
+    "answers": [
+      { "text": "Software installieren", "correct": true },
+      { "text": "Favoriten synchronisieren", "correct": false },
+      { "text": "SSID anzeigen", "correct": false },
+      { "text": "Dateien lesen", "correct": false }
+    ],
+    "explanation": "UAC wird z. B. beim Installieren von Software oder Gerätetreibern verwendet."
+  },
+  {
+    "id": "LF-VT1-KSDB-011",
+    "question": "Welches Dateisystem ist Standarddateisystem in Windows 11?",
+    "answers": [
+      { "text": "NTFS", "correct": true },
+      { "text": "FAT32", "correct": false },
+      { "text": "exFAT", "correct": false },
+      { "text": "ReFS", "correct": false }
+    ],
+    "explanation": "NTFS steht für New Technology File System und ist Standarddateisystem in Windows 11."
+  },
+  {
+    "id": "LF-VT1-KSDB-012",
+    "question": "Welche Einschränkung gilt für FAT32?",
+    "answers": [
+      { "text": "Maximal 4 GB pro Datei", "correct": true },
+      { "text": "Nur mit BitLocker nutzbar", "correct": false },
+      { "text": "Keine USB-Sticks möglich", "correct": false },
+      { "text": "Nur für Domänen geeignet", "correct": false }
+    ],
+    "explanation": "Bei FAT32 können einzelne Dateien maximal 4 GB groß sein."
+  },
+  {
+    "id": "LF-VT1-KSDB-013",
+    "question": "Welche Funktion unterstützt NTFS im Gegensatz zu FAT?",
+    "answers": [
+      { "text": "Verschlüsselung", "correct": true },
+      { "text": "Nur 4 GB Dateigröße", "correct": false },
+      { "text": "Keine Kontingente", "correct": false },
+      { "text": "Keine Komprimierung", "correct": false }
+    ],
+    "explanation": "NTFS unterstützt unter anderem Sicherheit, Kontingente, Komprimierung und Verschlüsselung."
+  },
+  {
+    "id": "LF-VT1-KSDB-014",
+    "question": "Was unterstützt ReFS nicht?",
+    "answers": [
+      { "text": "Komprimierung", "correct": true },
+      { "text": "Fehlerkorrektur", "correct": false },
+      { "text": "Skalierbarkeit", "correct": false },
+      { "text": "Belastbarkeit", "correct": false }
+    ],
+    "explanation": "ReFS unterstützt keine Komprimierung, Kontingente, Verschlüsselung und Volume-Verkleinerung."
+  },
+  {
+    "id": "LF-VT1-KSDB-015",
+    "question": "Wie kann auf einen freigegebenen Ordner zugegriffen werden?",
+    "answers": [
+      { "text": "Per UNC", "correct": true },
+      { "text": "Nur per TPM", "correct": false },
+      { "text": "Nur per BIOS", "correct": false },
+      { "text": "Per DirectX", "correct": false }
+    ],
+    "explanation": "UNC steht für Universal Naming Convention und dient dem Zugriff auf freigegebene Ordner."
+  },
+  {
+    "id": "LF-VT1-KSDB-016",
+    "question": "Wann wirken Freigabeberechtigungen nicht?",
+    "answers": [
+      { "text": "Bei lokalem Zugriff", "correct": true },
+      { "text": "Bei Netzwerkzugriff", "correct": false },
+      { "text": "Bei UNC-Zugriff", "correct": false },
+      { "text": "Bei Ordnerfreigaben", "correct": false }
+    ],
+    "explanation": "Freigabeberechtigungen steuern Netzwerkzugriff, wirken aber nicht bei lokalem Zugriff."
+  },
+  {
+    "id": "LF-VT1-KSDB-017",
+    "question": "Was bedeutet Malware?",
+    "answers": [
+      { "text": "Bösartige Software", "correct": true },
+      { "text": "Geprüfte Systemsoftware", "correct": false },
+      { "text": "Windows Update-Paket", "correct": false },
+      { "text": "Legale Store-App", "correct": false }
+    ],
+    "explanation": "Malware bedeutet Malicious Software, also bösartige Software."
+  },
+  {
+    "id": "LF-VT1-KSDB-018",
+    "question": "Welche Maßnahme schützt offensichtlich vor Malware?",
+    "answers": [
+      { "text": "Updates übernehmen", "correct": true },
+      { "text": "Firewall dauerhaft aus", "correct": false },
+      { "text": "Anhänge immer öffnen", "correct": false },
+      { "text": "Raubkopien nutzen", "correct": false }
+    ],
+    "explanation": "Software- und Betriebssystem-Updates sollen übernommen werden, um das System zu schützen."
+  },
+  {
+    "id": "LF-VT1-KSDB-019",
+    "question": "Wofür dient BitLocker in Windows 11?",
+    "answers": [
+      { "text": "Datenträger verschlüsseln", "correct": true },
+      { "text": "Apps ausführen erlauben", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Dateien freigeben", "correct": false }
+    ],
+    "explanation": "BitLocker verschlüsselt gesamte Datenträger, damit sie z. B. nach Diebstahl nicht lesbar sind."
+  },
+  {
+    "id": "LF-VT1-KSDB-020",
+    "question": "Wofür wird AppLocker eingesetzt?",
+    "answers": [
+      { "text": "Apps gezielt erlauben", "correct": true },
+      { "text": "Datenträger verschlüsseln", "correct": false },
+      { "text": "Benutzer migrieren", "correct": false },
+      { "text": "Dateisystem formatieren", "correct": false }
+    ],
+    "explanation": "AppLocker legt fest, welche Anwendungen auf PCs und Geräten ausgeführt werden dürfen."
+  }
+]

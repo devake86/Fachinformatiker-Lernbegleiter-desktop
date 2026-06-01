@@ -8,9 +8,6 @@ public class QuizQuestion {
     private String id;
     private String question;
 
-    // image kann NULL sein, wenn kein Bild vorhanden.
-    private String image;
-
     // Das Feld answers der Klasse QuizQuestion HAT eine Liste von Objekten der Klasse QuizAnswer (Komposition).
     // QuizQuestion kennt nur die QuizAnswer Objekte, nicht die JSON-Datei.
     // Die Liste (Container) wird später beim Laden der JSON-Datei mit QuizAnswer-Objekten befüllt.
@@ -20,10 +17,9 @@ public class QuizQuestion {
     private List<QuizAnswer> answers;
     private String explanation;
 
-    public QuizQuestion (String id, String question, String image, List<QuizAnswer> answers, String explanation) {
+    public QuizQuestion (String id, String question, List<QuizAnswer> answers, String explanation) {
         this.id = id;
         this.question = question;
-        this.image = image;
         this.answers = answers;
         this.explanation = explanation;
 
@@ -37,13 +33,10 @@ public class QuizQuestion {
         return question;
     }
 
-    public String getImage() {
-        return image;
-    }
-
     public List<QuizAnswer> getAnswers() {
         return answers;
     }
+
     public String getExplanation() {
         return explanation;
     }
@@ -65,7 +58,5 @@ public class QuizQuestion {
         // Rückgabe wenn keine Antwort der Antwortliste richtig (true) ist
         return "Richtige Antwort wurde nicht gefunden. Frage mit ID " + this.id + " scheint fehlerhaft zu sein. ";
     }
-
-
 
 }

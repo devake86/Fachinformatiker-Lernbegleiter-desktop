@@ -1,0 +1,222 @@
+[
+  {
+    "id": "LF-VT1-NAVW-001",
+    "question": "Welche Tastenkombination öffnet in Windows 11 die Einstellungen?",
+    "answers": [
+      { "text": "Windows-Taste + I", "correct": true },
+      { "text": "Windows-Taste + R", "correct": false },
+      { "text": "Strg + Alt + Entf", "correct": false },
+      { "text": "Alt + Tab", "correct": false }
+    ],
+    "explanation": "Mit Windows-Taste + I werden in Windows 11 die Einstellungen geöffnet."
+  },
+  {
+    "id": "LF-VT1-NAVW-002",
+    "question": "Welche Anpassung gehört zur Windows 11 Taskleiste?",
+    "answers": [
+      { "text": "Symbole ausblenden", "correct": true },
+      { "text": "Partitionen löschen", "correct": false },
+      { "text": "Treiber signieren", "correct": false },
+      { "text": "Benutzer migrieren", "correct": false }
+    ],
+    "explanation": "Zur Taskleiste gehören Symbole verschieben, ausblenden, hinzufügen und automatisch ausblenden."
+  },
+  {
+    "id": "LF-VT1-NAVW-003",
+    "question": "Was gehört zur Anpassung des Startmenüs in Windows 11?",
+    "answers": [
+      { "text": "Programme an Start anheften", "correct": true },
+      { "text": "Volumes spiegeln", "correct": false },
+      { "text": "DHCP aktivieren", "correct": false },
+      { "text": "KMS-Schlüssel aktivieren", "correct": false }
+    ],
+    "explanation": "Beim Startmenü können Programme angeheftet und empfohlene Inhalte ausgeblendet werden."
+  },
+  {
+    "id": "LF-VT1-NAVW-004",
+    "question": "Welche Option gehört zu Design und Farben in Windows 11?",
+    "answers": [
+      { "text": "Akzentfarben anpassen", "correct": true },
+      { "text": "Gateway ändern", "correct": false },
+      { "text": "Apps virtualisieren", "correct": false },
+      { "text": "BitLocker aktivieren", "correct": false }
+    ],
+    "explanation": "Bei Design und Farben können helles/dunkles Design und Akzentfarben angepasst werden."
+  },
+  {
+    "id": "LF-VT1-NAVW-005",
+    "question": "Was kann in Windows 11 bei Widgets und Benachrichtigungen angepasst werden?",
+    "answers": [
+      { "text": "Benachrichtigungszentrale", "correct": true },
+      { "text": "Datenträgerstil", "correct": false },
+      { "text": "Domänencontroller", "correct": false },
+      { "text": "Treiber-Repository", "correct": false }
+    ],
+    "explanation": "Widgets können deaktiviert und die Benachrichtigungszentrale angepasst werden."
+  },
+  {
+    "id": "LF-VT1-NAVW-006",
+    "question": "Welche Einstellung gehört zur Optimierung des Datei-Explorers in Windows 11?",
+    "answers": [
+      { "text": "Schnellzugriff deaktivieren", "correct": true },
+      { "text": "Firewallregeln löschen", "correct": false },
+      { "text": "Apps per Store laden", "correct": false },
+      { "text": "TPM-Modus ändern", "correct": false }
+    ],
+    "explanation": "Beim Datei-Explorer können Ansicht und Schnellzugriff angepasst werden."
+  },
+  {
+    "id": "LF-VT1-NAVW-007",
+    "question": "Welcher Energiemodus spart Akku, reduziert aber die Leistung?",
+    "answers": [
+      { "text": "Beste Energieeffizienz", "correct": true },
+      { "text": "Ausbalanciert", "correct": false },
+      { "text": "Beste Leistung", "correct": false },
+      { "text": "Höchstleistung Server", "correct": false }
+    ],
+    "explanation": "Beste Energieeffizienz spart Akku, kann aber die Leistung reduzieren."
+  },
+  {
+    "id": "LF-VT1-NAVW-008",
+    "question": "Welcher Energiemodus ist in Windows 11 empfohlen?",
+    "answers": [
+      { "text": "Ausbalanciert", "correct": true },
+      { "text": "Beste Leistung", "correct": false },
+      { "text": "Energiesparmodus aus", "correct": false },
+      { "text": "Nur Akkubetrieb", "correct": false }
+    ],
+    "explanation": "Ausbalanciert ist der empfohlene Mix aus Leistung und Energieeinsparung."
+  },
+  {
+    "id": "LF-VT1-NAVW-009",
+    "question": "Welcher Befehl öffnet in Windows 11 die Internetoptionen?",
+    "answers": [
+      { "text": "inetcpl.cpl", "correct": true },
+      { "text": "appwiz.cpl", "correct": false },
+      { "text": "gpedit.msc", "correct": false },
+      { "text": "ncpa.cpl", "correct": false }
+    ],
+    "explanation": "inetcpl.cpl öffnet die Internetoptionen über Windows-Taste + R."
+  },
+  {
+    "id": "LF-VT1-NAVW-010",
+    "question": "Welcher Befehl öffnet in Windows 11 Programme und Features?",
+    "answers": [
+      { "text": "appwiz.cpl", "correct": true },
+      { "text": "inetcpl.cpl", "correct": false },
+      { "text": "gpedit.msc", "correct": false },
+      { "text": "diskmgmt.msc", "correct": false }
+    ],
+    "explanation": "appwiz.cpl öffnet Programme und Features."
+  },
+  {
+    "id": "LF-VT1-NAVW-011",
+    "question": "Welche Information findet man in den Windows 11 Systeminformationen?",
+    "answers": [
+      { "text": "Build-Nummer", "correct": true },
+      { "text": "DHCP-Leasezeit", "correct": false },
+      { "text": "BitLocker-PIN", "correct": false },
+      { "text": "Freigabename", "correct": false }
+    ],
+    "explanation": "Systeminformationen zeigen unter anderem Edition, Build-Nummer, Prozessor, RAM und Systemtyp."
+  },
+  {
+    "id": "LF-VT1-NAVW-012",
+    "question": "Was speichert Active Directory über das Netzwerk?",
+    "answers": [
+      { "text": "Objekte in Hierarchie", "correct": true },
+      { "text": "Nur lokale Dateien", "correct": false },
+      { "text": "Nur Treiberpakete", "correct": false },
+      { "text": "Nur Browsercookies", "correct": false }
+    ],
+    "explanation": "Active Directory speichert Netzwerkinformationen als Objekte in einer hierarchischen Struktur."
+  },
+  {
+    "id": "LF-VT1-NAVW-013",
+    "question": "Welche Aussage zu AD DS trifft zu?",
+    "answers": [
+      { "text": "On-Premise mit DCs", "correct": true },
+      { "text": "Cloud ohne Infrastruktur", "correct": false },
+      { "text": "Nur für Webbrowser", "correct": false },
+      { "text": "Nur lokaler Editor", "correct": false }
+    ],
+    "explanation": "AD DS bedeutet Active Directory Domain Services und nutzt lokal Domänencontroller."
+  },
+  {
+    "id": "LF-VT1-NAVW-014",
+    "question": "Welche Aussage zu Azure AD trifft zu?",
+    "answers": [
+      { "text": "Cloud-basiert, keine Infrastruktur", "correct": true },
+      { "text": "Nur mit Domänencontroller", "correct": false },
+      { "text": "Nur für Druckerfreigaben", "correct": false },
+      { "text": "Nur für lokale Treiber", "correct": false }
+    ],
+    "explanation": "AD steht für Active Directory; Azure AD ist cloudbasiert und benötigt keine eigene Infrastruktur."
+  },
+  {
+    "id": "LF-VT1-NAVW-015",
+    "question": "Welche Aussage zu AD DS und Azure AD trifft zu?",
+    "answers": [
+      { "text": "Beide gemeinsam nutzbar", "correct": true },
+      { "text": "Nie gemeinsam nutzbar", "correct": false },
+      { "text": "Nur offline nutzbar", "correct": false },
+      { "text": "Nur für Home-Edition", "correct": false }
+    ],
+    "explanation": "AD DS und Azure AD können gemeinsam genutzt werden."
+  },
+  {
+    "id": "LF-VT1-NAVW-016",
+    "question": "Wofür werden GPOs in Windows-Umgebungen genutzt?",
+    "answers": [
+      { "text": "Einstellungen vorgeben", "correct": true },
+      { "text": "Datenträger formatieren", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Apps streamen", "correct": false }
+    ],
+    "explanation": "GPO steht für Group Policy Objects; damit können viele Einstellungen vorgegeben werden."
+  },
+  {
+    "id": "LF-VT1-NAVW-017",
+    "question": "Welches Tool erstellt lokale Gruppenrichtlinien in Windows 11?",
+    "answers": [
+      { "text": "gpedit.msc", "correct": true },
+      { "text": "inetcpl.cpl", "correct": false },
+      { "text": "appwiz.cpl", "correct": false },
+      { "text": "loadstate.exe", "correct": false }
+    ],
+    "explanation": "gpedit.msc öffnet den Gruppenrichtlinien-Editor für lokale Richtlinien."
+  },
+  {
+    "id": "LF-VT1-NAVW-018",
+    "question": "Für welche Bereiche können Gruppenrichtlinien festgelegt werden?",
+    "answers": [
+      { "text": "Benutzer oder Computer", "correct": true },
+      { "text": "Nur Drucker und Scanner", "correct": false },
+      { "text": "Nur Apps und Browser", "correct": false },
+      { "text": "Nur Volumes und Ordner", "correct": false }
+    ],
+    "explanation": "Gruppenrichtlinien können entweder für Benutzer oder Computer festgelegt werden."
+  },
+  {
+    "id": "LF-VT1-NAVW-019",
+    "question": "Wofür wurde Windows PowerShell entwickelt?",
+    "answers": [
+      { "text": "Systemverwaltung", "correct": true },
+      { "text": "Grafikbearbeitung", "correct": false },
+      { "text": "Datenträgerverschlüsselung", "correct": false },
+      { "text": "Browser-Synchronisierung", "correct": false }
+    ],
+    "explanation": "Windows PowerShell dient dazu, Windows-Systeme per Befehlen effizient zu verwalten."
+  },
+  {
+    "id": "LF-VT1-NAVW-020",
+    "question": "Welches Format haben PowerShell-Cmdlets typischerweise?",
+    "answers": [
+      { "text": "Verb-Substantiv", "correct": true },
+      { "text": "Substantiv-Verb", "correct": false },
+      { "text": "Zahl-Parameter", "correct": false },
+      { "text": "Datei-Erweiterung", "correct": false }
+    ],
+    "explanation": "Cmdlets nutzen ein Verb-Substantiv-Format und können Parameter haben."
+  }
+]

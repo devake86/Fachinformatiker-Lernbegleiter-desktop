@@ -1,0 +1,5107 @@
+[
+  {
+    "id": "LF09-0001",
+    "question": "Was bedeutet die Abkürzung DHCP?",
+    "answers": [
+      { "text": "Dynamic Host Configuration Protocol", "correct": true },
+      { "text": "Distributed Host Control Process", "correct": false },
+      { "text": "Dynamic Host Connection Program", "correct": false },
+      { "text": "Denial Host Configuration Protocol", "correct": false }
+    ],
+    "explanation": "DHCP steht für Dynamic Host Configuration Protocol."
+  },
+  {
+    "id": "LF09-0002",
+    "question": "Ein DHCP-Server vergibt IP-Adressen automatisch.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "DHCP weist Clients automatisch IP-Konfigurationen zu."
+  },
+  {
+    "id": "LF09-0003",
+    "question": "Ein DHCP-Server arbeitet verbindungslos.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "DHCP verwaltet Zustände über Leases."
+  },
+  {
+    "id": "LF09-0004",
+    "question": "Welche Aufgabe hat DNS?",
+    "answers": [
+      { "text": "Namensauflösung", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Routing durchführen", "correct": false },
+      { "text": "Daten verschlüsseln", "correct": false }
+    ],
+    "explanation": "DNS löst Hostnamen in IP-Adressen auf."
+  },
+  {
+    "id": "LF09-0005",
+    "question": "DNS vergibt IP-Adressen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "DNS ist für Namensauflösung zuständig, nicht für IP-Vergabe."
+  },
+  {
+    "id": "LF09-0006",
+    "question": "Was bedeutet die Abkürzung DNS?",
+    "answers": [
+      { "text": "Domain Name System", "correct": true },
+      { "text": "Dynamic Network Service", "correct": false },
+      { "text": "Distributed Name Structure", "correct": false },
+      { "text": "Domain Network Server", "correct": false }
+    ],
+    "explanation": "DNS steht für Domain Name System."
+  },
+  {
+    "id": "LF09-0007",
+    "question": "Ein DNS-Server ist zwingend erforderlich, damit Geräte im LAN kommunizieren können.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "IP-Kommunikation funktioniert auch ohne DNS."
+  },
+  {
+    "id": "LF09-0008",
+    "question": "Welche Komponente trennt Broadcast-Domänen?",
+    "answers": [
+      { "text": "Router", "correct": true },
+      { "text": "Switch", "correct": false },
+      { "text": "Hub", "correct": false },
+      { "text": "Repeater", "correct": false }
+    ],
+    "explanation": "Router leiten Broadcasts nicht weiter."
+  },
+  {
+    "id": "LF09-0009",
+    "question": "Ein Switch arbeitet auf OSI-Layer 2.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Switches arbeiten mit MAC-Adressen auf Layer 2."
+  },
+  {
+    "id": "LF09-0010",
+    "question": "Welche Aufgabe hat ein Standardgateway?",
+    "answers": [
+      { "text": "Weiterleitung in Fremdnetze", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Namensauflösung", "correct": false },
+      { "text": "Broadcasts sperren", "correct": false }
+    ],
+    "explanation": "Das Gateway leitet Daten in andere Netzwerke."
+  },
+  {
+    "id": "LF09-0011",
+    "question": "Was bedeutet die Abkürzung LAN?",
+    "answers": [
+      { "text": "Local Area Network", "correct": true },
+      { "text": "Large Access Network", "correct": false },
+      { "text": "Linked Area Node", "correct": false },
+      { "text": "Logical Access Network", "correct": false }
+    ],
+    "explanation": "LAN steht für Local Area Network."
+  },
+  {
+    "id": "LF09-0012",
+    "question": "Ein WAN verbindet geografisch entfernte Netzwerke.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "WANs verbinden Netze über große Entfernungen."
+  },
+  {
+    "id": "LF09-0013",
+    "question": "Was ist die Hauptfunktion eines VLANs?",
+    "answers": [
+      { "text": "Broadcast-Domänen trennen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Routing ersetzen", "correct": false },
+      { "text": "Daten verschlüsseln", "correct": false }
+    ],
+    "explanation": "VLANs trennen logische Broadcast-Domänen."
+  },
+  {
+    "id": "LF09-0014",
+    "question": "Ein VLAN erhöht die Anzahl physischer Switches.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "VLANs sind logische, keine physische Trennung."
+  },
+  {
+    "id": "LF09-0015",
+    "question": "Was bedeutet die Abkürzung DMZ?",
+    "answers": [
+      { "text": "Demilitarized Zone", "correct": true },
+      { "text": "Distributed Management Zone", "correct": false },
+      { "text": "Dynamic Machine Zone", "correct": false },
+      { "text": "Direct Media Zone", "correct": false }
+    ],
+    "explanation": "DMZ steht für Demilitarized Zone."
+  },
+  {
+    "id": "LF09-0016",
+    "question": "Eine DMZ schützt das interne Netzwerk.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Öffentliche Systeme werden vom internen Netz getrennt."
+  },
+  {
+    "id": "LF09-0017",
+    "question": "Was ist eine ACL?",
+    "answers": [
+      { "text": "Zugriffsliste", "correct": true },
+      { "text": "Routing-Tabelle", "correct": false },
+      { "text": "VLAN-Markierung", "correct": false },
+      { "text": "Namensdienst", "correct": false }
+    ],
+    "explanation": "ACLs regeln den Zugriff auf Netzwerkressourcen."
+  },
+  {
+    "id": "LF09-0018",
+    "question": "Eine ACL entscheidet über erlaubten oder blockierten Verkehr.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "ACLs filtern Netzwerkverkehr anhand von Regeln."
+  },
+  {
+    "id": "LF09-0019",
+    "question": "Was zeigt der Linux-Befehl `pwd` an?",
+    "answers": [
+      { "text": "Aktuelles Verzeichnis", "correct": true },
+      { "text": "Home-Verzeichnis", "correct": false },
+      { "text": "Benutzername", "correct": false },
+      { "text": "Dateiinhalt", "correct": false }
+    ],
+    "explanation": "`pwd` zeigt den Pfad des aktuellen Arbeitsverzeichnisses."
+  },
+  {
+    "id": "LF09-0020",
+    "question": "Der Linux-Befehl `cd ..` wechselt ein Verzeichnis nach oben.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "`cd ..` wechselt in das übergeordnete Verzeichnis."
+  },
+  {
+    "id": "LF09-0021",
+    "question": "Was ist die Hauptaufgabe eines Routers?",
+    "answers": [
+      { "text": "Netzwerke verbinden", "correct": true },
+      { "text": "Broadcasts verteilen", "correct": false },
+      { "text": "MAC-Adressen lernen", "correct": false },
+      { "text": "Ports filtern", "correct": false }
+    ],
+    "explanation": "Router verbinden unterschiedliche IP-Netzwerke."
+  },
+  {
+    "id": "LF09-0022",
+    "question": "Ein Switch arbeitet mit IP-Adressen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Switches arbeiten primär mit MAC-Adressen."
+  },
+  {
+    "id": "LF09-0023",
+    "question": "Was ist die Hauptaufgabe eines Switches?",
+    "answers": [
+      { "text": "Frames weiterleiten", "correct": true },
+      { "text": "Netze trennen", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Pakete filtern", "correct": false }
+    ],
+    "explanation": "Switches leiten Frames anhand von MAC-Adressen weiter."
+  },
+  {
+    "id": "LF09-0024",
+    "question": "Routing findet auf OSI-Layer 3 statt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Layer 3 nutzt IP-Adressen zur Weiterleitung."
+  },
+  {
+    "id": "LF09-0025",
+    "question": "Was bedeutet die Abkürzung IGP?",
+    "answers": [
+      { "text": "Interior Gateway Protocol", "correct": true },
+      { "text": "Internet Global Protocol", "correct": false },
+      { "text": "Internal Gateway Process", "correct": false },
+      { "text": "Integrated Group Protocol", "correct": false }
+    ],
+    "explanation": "IGPs werden innerhalb eines autonomen Systems genutzt."
+  },
+  {
+    "id": "LF09-0026",
+    "question": "IGP-Protokolle werden zwischen autonomen Systemen genutzt.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "IGPs arbeiten innerhalb eines autonomen Systems."
+  },
+  {
+    "id": "LF09-0027",
+    "question": "Was bedeutet die Abkürzung EGP?",
+    "answers": [
+      { "text": "Exterior Gateway Protocol", "correct": true },
+      { "text": "Extended Gateway Process", "correct": false },
+      { "text": "External Group Protocol", "correct": false },
+      { "text": "Encrypted Gateway Port", "correct": false }
+    ],
+    "explanation": "EGPs dienen dem Routing zwischen autonomen Systemen."
+  },
+  {
+    "id": "LF09-0028",
+    "question": "Ein WAN deckt große Entfernungen ab.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "WANs verbinden Netze über weite Distanzen."
+  },
+  {
+    "id": "LF09-0029",
+    "question": "Was bewirkt der Linux-Befehl `ls`?",
+    "answers": [
+      { "text": "Verzeichnisinhalt anzeigen", "correct": true },
+      { "text": "Verzeichnis wechseln", "correct": false },
+      { "text": "Datei löschen", "correct": false },
+      { "text": "Datei erstellen", "correct": false }
+    ],
+    "explanation": "`ls` zeigt Dateien und Ordner eines Verzeichnisses an."
+  },
+  {
+    "id": "LF09-0030",
+    "question": "Der Linux-Befehl `cd -` wechselt ins vorige Verzeichnis.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "`cd -` wechselt in das zuvor genutzte Verzeichnis."
+  },
+  {
+    "id": "LF09-0031",
+    "question": "Was beschreibt der Netzanteil einer IPv4-Adresse?",
+    "answers": [
+      { "text": "Zugehöriges Netzwerk", "correct": true },
+      { "text": "Einzelnen Host", "correct": false },
+      { "text": "DNS-Server", "correct": false },
+      { "text": "Portnummer", "correct": false }
+    ],
+    "explanation": "Der Netzanteil identifiziert das Netzwerk."
+  },
+  {
+    "id": "LF09-0032",
+    "question": "Welche Aufgabe hat die Subnetzmaske?",
+    "answers": [
+      { "text": "Netz und Host trennen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Ports definieren", "correct": false },
+      { "text": "Namen auflösen", "correct": false }
+    ],
+    "explanation": "Die Subnetzmaske trennt Netz- und Hostanteil."
+  },
+  {
+    "id": "LF09-0033",
+    "question": "255.255.255.0 entspricht der CIDR-Notation /24.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "255.255.255.0 hat 24 gesetzte Bits."
+  },
+  {
+    "id": "LF09-0034",
+    "question": "Welche Adresse ist in einem Subnetz nicht nutzbar?",
+    "answers": [
+      { "text": "Netzadresse", "correct": true },
+      { "text": "Erste Hostadresse", "correct": false },
+      { "text": "Standardgateway", "correct": false },
+      { "text": "Letzte Hostadresse", "correct": false }
+    ],
+    "explanation": "Die Netzadresse identifiziert das Subnetz."
+  },
+  {
+    "id": "LF09-0035",
+    "question": "Die Broadcast-Adresse darf einem Host zugewiesen werden.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Broadcast-Adressen sind reserviert."
+  },
+  {
+    "id": "LF09-0036",
+    "question": "Welche Aufgabe hat das Standardgateway?",
+    "answers": [
+      { "text": "Weiterleitung in andere Netze", "correct": true },
+      { "text": "Namensauflösung", "correct": false },
+      { "text": "IP-Vergabe", "correct": false },
+      { "text": "Broadcast filtern", "correct": false }
+    ],
+    "explanation": "Pakete für Fremdnetze gehen über das Gateway."
+  },
+  {
+    "id": "LF09-0037",
+    "question": "Ein Host erreicht Fremdnetze ohne Standardgateway.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Ohne Gateway ist nur das eigene Netz erreichbar."
+  },
+  {
+    "id": "LF09-0038",
+    "question": "Welche Adresse gehört zu einem privaten IPv4-Bereich?",
+    "answers": [
+      { "text": "192.168.1.10", "correct": true },
+      { "text": "8.8.8.8", "correct": false },
+      { "text": "1.1.1.1", "correct": false },
+      { "text": "139.17.20.10", "correct": false }
+    ],
+    "explanation": "192.168.0.0/16 ist ein privater Bereich."
+  },
+  {
+    "id": "LF09-0039",
+    "question": "Private IPv4-Adressen sind im Internet routbar.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Private Adressen sind nicht öffentlich routbar."
+  },
+  {
+    "id": "LF09-0040",
+    "question": "Welche IPv4-Maske erlaubt maximal 254 Hosts?",
+    "answers": [
+      { "text": "/24", "correct": true },
+      { "text": "/30", "correct": false },
+      { "text": "/16", "correct": false },
+      { "text": "/32", "correct": false }
+    ],
+    "explanation": "Ein /24-Netz bietet 254 Hostadressen."
+  },
+  {
+    "id": "LF09-0041",
+    "question": "Was zeigt der Linux-Befehl `whoami` an?",
+    "answers": [
+      { "text": "Aktueller Benutzer", "correct": true },
+      { "text": "Aktives Verzeichnis", "correct": false },
+      { "text": "Shell-Typ", "correct": false },
+      { "text": "Benutzergruppe", "correct": false }
+    ],
+    "explanation": "`whoami` zeigt den aktuell angemeldeten Benutzer an."
+  },
+  {
+    "id": "LF09-0042",
+    "question": "Der Linux-Befehl `cd` ohne Parameter wechselt ins Home-Verzeichnis.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "`cd` ohne Argument wechselt in das Home-Verzeichnis."
+  },
+  {
+    "id": "LF09-0043",
+    "question": "Was bewirkt der Linux-Befehl `rmdir`?",
+    "answers": [
+      { "text": "Leeres Verzeichnis löschen", "correct": true },
+      { "text": "Verzeichnis kopieren", "correct": false },
+      { "text": "Dateien entfernen", "correct": false },
+      { "text": "Rechte ändern", "correct": false }
+    ],
+    "explanation": "`rmdir` löscht ausschließlich leere Verzeichnisse."
+  },
+  {
+    "id": "LF09-0044",
+    "question": "Der Linux-Befehl `ls -a` zeigt auch versteckte Dateien.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Die Option `-a` zeigt auch versteckte Dateien an."
+  },
+  {
+    "id": "LF09-0045",
+    "question": "Was macht der Linux-Befehl `cat`?",
+    "answers": [
+      { "text": "Dateiinhalt anzeigen", "correct": true },
+      { "text": "Datei löschen", "correct": false },
+      { "text": "Datei kopieren", "correct": false },
+      { "text": "Datei verschieben", "correct": false }
+    ],
+    "explanation": "`cat` gibt den Inhalt einer Datei aus."
+  },
+  {
+    "id": "LF09-0046",
+    "question": "Der Linux-Befehl `touch` erstellt ausschließlich neue Dateien.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "`touch` kann auch Zeitstempel bestehender Dateien ändern."
+  },
+  {
+    "id": "LF09-0047",
+    "question": "Was bewirkt der Linux-Befehl `mkdir -p`?",
+    "answers": [
+      { "text": "Elternverzeichnisse anlegen", "correct": true },
+      { "text": "Rechte setzen", "correct": false },
+      { "text": "Dateien kopieren", "correct": false },
+      { "text": "Ordner löschen", "correct": false }
+    ],
+    "explanation": "Mit `-p` werden benötigte Elternverzeichnisse automatisch erstellt."
+  },
+  {
+    "id": "LF09-0048",
+    "question": "Der Linux-Befehl `rm -r` löscht Verzeichnisse inklusive Inhalt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Die Option `-r` löscht rekursiv."
+  },
+  {
+    "id": "LF09-0049",
+    "question": "Welcher Linux-Befehl aktualisiert die Paketlisten?",
+    "answers": [
+      { "text": "apt update", "correct": true },
+      { "text": "apt install", "correct": false },
+      { "text": "apt upgrade", "correct": false },
+      { "text": "apt search", "correct": false }
+    ],
+    "explanation": "`apt update` lädt aktuelle Paketinformationen."
+  },
+  {
+    "id": "LF09-0050",
+    "question": "SSH nutzt standardmäßig Port 22.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Der SSH-Dienst verwendet standardmäßig Port 22."
+  },
+  {
+    "id": "LF09-0051",
+    "question": "Was bedeutet die Abkürzung APIPA?",
+    "answers": [
+      { "text": "Automatic Private IP Addressing", "correct": true },
+      { "text": "Advanced Public IP Assignment", "correct": false },
+      { "text": "Automatic Program Interface Addressing", "correct": false },
+      { "text": "Assigned Private Internet Address", "correct": false }
+    ],
+    "explanation": "APIPA steht für Automatic Private IP Addressing."
+  },
+  {
+    "id": "LF09-0052",
+    "question": "Der IPv4-Bereich 169.254.0.0/16 weist auf APIPA hin.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "APIPA nutzt den Bereich 169.254.0.0/16."
+  },
+  {
+    "id": "LF09-0053",
+    "question": "Wann vergibt ein Client eine APIPA-Adresse?",
+    "answers": [
+      { "text": "Kein DHCP erreichbar", "correct": true },
+      { "text": "DNS nicht erreichbar", "correct": false },
+      { "text": "Gateway fehlt", "correct": false },
+      { "text": "Internet nicht verfügbar", "correct": false }
+    ],
+    "explanation": "APIPA wird vergeben, wenn kein DHCP-Server antwortet."
+  },
+  {
+    "id": "LF09-0054",
+    "question": "Mit einer APIPA-Adresse ist Kommunikation über Netzgrenzen möglich.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "APIPA erlaubt nur lokale Kommunikation im gleichen Netz."
+  },
+  {
+    "id": "LF09-0055",
+    "question": "Welche Ursache führt häufig zu APIPA?",
+    "answers": [
+      { "text": "DHCP-Server ausgefallen", "correct": true },
+      { "text": "DNS falsch konfiguriert", "correct": false },
+      { "text": "Hostname ungültig", "correct": false },
+      { "text": "HTTP-Server nicht erreichbar", "correct": false }
+    ],
+    "explanation": "APIPA entsteht meist durch fehlende DHCP-Antworten."
+  },
+  {
+    "id": "LF09-0056",
+    "question": "Was bewirkt der Linux-Befehl `cp -r`?",
+    "answers": [
+      { "text": "Rekursiv kopieren", "correct": true },
+      { "text": "Datei umbenennen", "correct": false },
+      { "text": "Rechte ändern", "correct": false },
+      { "text": "Ordner löschen", "correct": false }
+    ],
+    "explanation": "`cp -r` kopiert Verzeichnisse inklusive Inhalt."
+  },
+  {
+    "id": "LF09-0057",
+    "question": "Der Linux-Befehl `mv` kann Dateien verschieben und umbenennen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "`mv` dient dem Verschieben oder Umbenennen von Dateien."
+  },
+  {
+    "id": "LF09-0058",
+    "question": "Welche Aufgabe hat DNS primär?",
+    "answers": [
+      { "text": "Namensauflösung", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Paketfilterung", "correct": false },
+      { "text": "Routing durchführen", "correct": false }
+    ],
+    "explanation": "DNS löst Namen in IP-Adressen auf."
+  },
+  {
+    "id": "LF09-0059",
+    "question": "DNS-Probleme verhindern häufig den Zugriff auf Webseiten.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Ohne funktionierendes DNS sind Webseiten oft nicht erreichbar."
+  },
+  {
+    "id": "LF09-0060",
+    "question": "Welche Maßnahme behebt ein APIPA-Problem meist?",
+    "answers": [
+      { "text": "DHCP-Dienst prüfen", "correct": true },
+      { "text": "DNS-Server ändern", "correct": false },
+      { "text": "Browser neu starten", "correct": false },
+      { "text": "Firewall deaktivieren", "correct": false }
+    ],
+    "explanation": "Ein erreichbarer DHCP-Server verhindert APIPA."
+  },
+  {
+    "id": "LF09-0061",
+    "question": "Welche Aufgabe hat DHCP primär?",
+    "answers": [
+      { "text": "IP-Konfiguration vergeben", "correct": true },
+      { "text": "Namensauflösung", "correct": false },
+      { "text": "Paketfilterung", "correct": false },
+      { "text": "Routing durchführen", "correct": false }
+    ],
+    "explanation": "DHCP vergibt automatisch IP-Konfigurationsdaten an Clients."
+  },
+  {
+    "id": "LF09-0062",
+    "question": "DHCP verwendet standardmäßig Broadcasts.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Clients suchen DHCP-Server zunächst per Broadcast."
+  },
+  {
+    "id": "LF09-0063",
+    "question": "Welche Information wird typischerweise per DHCP verteilt?",
+    "answers": [
+      { "text": "Standardgateway", "correct": true },
+      { "text": "Benutzername", "correct": false },
+      { "text": "MAC-Adresse", "correct": false },
+      { "text": "Passwort", "correct": false }
+    ],
+    "explanation": "DHCP kann Gateway-, DNS- und IP-Informationen vergeben."
+  },
+  {
+    "id": "LF09-0064",
+    "question": "Ein DHCP-Server speichert keine Zustände.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "DHCP verwaltet Zustände über zeitlich begrenzte Leases."
+  },
+  {
+    "id": "LF09-0065",
+    "question": "Welche Aufgabe erfüllt ein DNS-Server?",
+    "answers": [
+      { "text": "Hostnamen auflösen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Subnetze berechnen", "correct": false },
+      { "text": "Ports überwachen", "correct": false }
+    ],
+    "explanation": "DNS übersetzt Hostnamen in IP-Adressen."
+  },
+  {
+    "id": "LF09-0066",
+    "question": "DNS-Anfragen werden immer verschlüsselt übertragen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "DNS ist standardmäßig unverschlüsselt."
+  },
+  {
+    "id": "LF09-0067",
+    "question": "Was bewirkt der Linux-Befehl `man`?",
+    "answers": [
+      { "text": "Handbuch anzeigen", "correct": true },
+      { "text": "Prozess starten", "correct": false },
+      { "text": "Datei ändern", "correct": false },
+      { "text": "Verzeichnis wechseln", "correct": false }
+    ],
+    "explanation": "`man` zeigt die Manualseite eines Befehls an."
+  },
+  {
+    "id": "LF09-0068",
+    "question": "Der Befehl `man ls` zeigt die Hilfe zu `ls` an.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "`man ls` öffnet die Dokumentation des Befehls `ls`."
+  },
+  {
+    "id": "LF09-0069",
+    "question": "Welche Komponente leitet DHCP-Anfragen über Netzgrenzen hinweg?",
+    "answers": [
+      { "text": "DHCP-Relay", "correct": true },
+      { "text": "DNS-Server", "correct": false },
+      { "text": "Switch", "correct": false },
+      { "text": "Proxy", "correct": false }
+    ],
+    "explanation": "Ein DHCP-Relay leitet Anfragen an entfernte DHCP-Server weiter."
+  },
+  {
+    "id": "LF09-0070",
+    "question": "Ein DHCP-Relay ersetzt den DHCP-Server.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Relays leiten weiter, vergeben aber keine IP-Adressen."
+  },
+  {
+    "id": "LF09-0071",
+    "question": "Was ist die Hauptaufgabe eines Switches?",
+    "answers": [
+      { "text": "Frames weiterleiten", "correct": true },
+      { "text": "Netze trennen", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Ports sperren", "correct": false }
+    ],
+    "explanation": "Switches leiten Frames anhand von MAC-Adressen weiter."
+  },
+  {
+    "id": "LF09-0072",
+    "question": "Ein Switch arbeitet auf OSI-Layer 2.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Layer 2 ist die Sicherungsschicht."
+  },
+  {
+    "id": "LF09-0073",
+    "question": "Welche Aufgabe hat ein VLAN?",
+    "answers": [
+      { "text": "Broadcast-Domänen trennen", "correct": true },
+      { "text": "Ports filtern", "correct": false },
+      { "text": "Routing ersetzen", "correct": false },
+      { "text": "Pakete verschlüsseln", "correct": false }
+    ],
+    "explanation": "VLANs trennen logische Broadcast-Domänen."
+  },
+  {
+    "id": "LF09-0074",
+    "question": "VLANs sind physische Netzwerke.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "VLANs sind logisch, nicht physisch."
+  },
+  {
+    "id": "LF09-0075",
+    "question": "Was ist eine DMZ?",
+    "answers": [
+      { "text": "Pufferzone im Netzwerk", "correct": true },
+      { "text": "Internes Firmennetz", "correct": false },
+      { "text": "VPN-Tunnel", "correct": false },
+      { "text": "Routing-Protokoll", "correct": false }
+    ],
+    "explanation": "Eine DMZ liegt zwischen internem Netz und Internet."
+  },
+  {
+    "id": "LF09-0076",
+    "question": "Server in einer DMZ sind direkt Teil des internen LANs.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "DMZ-Systeme sind vom internen Netzwerk getrennt."
+  },
+  {
+    "id": "LF09-0077",
+    "question": "Welche Aufgabe hat eine Firewall primär?",
+    "answers": [
+      { "text": "Datenverkehr filtern", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Namen auflösen", "correct": false },
+      { "text": "Pakete routen", "correct": false }
+    ],
+    "explanation": "Firewalls kontrollieren ein- und ausgehenden Verkehr."
+  },
+  {
+    "id": "LF09-0078",
+    "question": "Firewalls entscheiden häufig anhand von Ports.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Portbasierte Regeln sind typisch für Firewalls."
+  },
+  {
+    "id": "LF09-0079",
+    "question": "Wie heißt eine Regel, die Netzwerkverkehr blockiert?",
+    "answers": [
+      { "text": "Deny", "correct": true },
+      { "text": "Permit", "correct": false },
+      { "text": "Accept", "correct": false },
+      { "text": "Forward", "correct": false }
+    ],
+    "explanation": "Deny-Regeln blockieren Netzwerkverkehr."
+  },
+  {
+    "id": "LF09-0080",
+    "question": "Ein abschließendes Permit für allen Verkehr ist sinnvoll.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Ein offenes Permit unterläuft die Sicherheitsfunktion."
+  },
+  {
+    "id": "LF09-0081",
+    "question": "Wie lang ist eine IPv6-Adresse?",
+    "answers": [
+      { "text": "128 Bit", "correct": true },
+      { "text": "64 Bit", "correct": false },
+      { "text": "32 Bit", "correct": false },
+      { "text": "256 Bit", "correct": false }
+    ],
+    "explanation": "IPv6-Adressen bestehen aus 128 Bit."
+  },
+  {
+    "id": "LF09-0082",
+    "question": "IPv6 verwendet eine hexadezimale Schreibweise.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IPv6-Adressen werden hexadezimal dargestellt."
+  },
+  {
+    "id": "LF09-0083",
+    "question": "Welche Schreibweise gehört zu IPv6?",
+    "answers": [
+      { "text": "2001:db8::1", "correct": true },
+      { "text": "192.168.1.1", "correct": false },
+      { "text": "255.255.255.0", "correct": false },
+      { "text": "10.0.0.1", "correct": false }
+    ],
+    "explanation": "IPv6-Adressen bestehen aus hexadezimalen Gruppen."
+  },
+  {
+    "id": "LF09-0084",
+    "question": "IPv6-Adressen können gekürzt werden.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Zusammenhängende Nullblöcke dürfen gekürzt werden."
+  },
+  {
+    "id": "LF09-0085",
+    "question": "Welche Prefix-Länge ist bei IPv6-Netzen üblich?",
+    "answers": [
+      { "text": "/64", "correct": true },
+      { "text": "/48", "correct": false },
+      { "text": "/32", "correct": false },
+      { "text": "/128", "correct": false }
+    ],
+    "explanation": "/64 ist der Standard für IPv6-Subnetze."
+  },
+  {
+    "id": "LF09-0086",
+    "question": "IPv6 benötigt zwingend NAT.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "IPv6 ist für echte Ende-zu-Ende-Kommunikation gedacht."
+  },
+  {
+    "id": "LF09-0087",
+    "question": "Was beschreibt die Netz-ID einer IPv6-Adresse?",
+    "answers": [
+      { "text": "Zugehöriges Netzwerk", "correct": true },
+      { "text": "Einzelner Host", "correct": false },
+      { "text": "Portnummer", "correct": false },
+      { "text": "DNS-Eintrag", "correct": false }
+    ],
+    "explanation": "Die Netz-ID kennzeichnet das IPv6-Netz."
+  },
+  {
+    "id": "LF09-0088",
+    "question": "IPv6 nutzt Broadcast-Adressen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "IPv6 nutzt Multicast statt Broadcast."
+  },
+  {
+    "id": "LF09-0089",
+    "question": "Welche Adressart ersetzt Broadcast in IPv6?",
+    "answers": [
+      { "text": "Multicast", "correct": true },
+      { "text": "Unicast", "correct": false },
+      { "text": "Anycast", "correct": false },
+      { "text": "Loopback", "correct": false }
+    ],
+    "explanation": "Multicast wird für Gruppenkommunikation genutzt."
+  },
+  {
+    "id": "LF09-0090",
+    "question": "IPv6 bietet einen größeren Adressraum als IPv4.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IPv6 wurde als Nachfolger von IPv4 entwickelt."
+  },
+  {
+    "id": "LF09-0091",
+    "question": "Was beschreibt Switching primär?",
+    "answers": [
+      { "text": "Frame-Weiterleitung", "correct": true },
+      { "text": "Paket-Routing", "correct": false },
+      { "text": "IP-Adressvergabe", "correct": false },
+      { "text": "Namensauflösung", "correct": false }
+    ],
+    "explanation": "Switches leiten Frames anhand von MAC-Adressen weiter."
+  },
+  {
+    "id": "LF09-0092",
+    "question": "Ein Switch lernt MAC-Adressen aus Ziel-Adressen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Gelernt wird aus der Source-MAC-Adresse."
+  },
+  {
+    "id": "LF09-0093",
+    "question": "Welche Adresse nutzt ein Switch zur Weiterleitung?",
+    "answers": [
+      { "text": "MAC-Adresse", "correct": true },
+      { "text": "IP-Adresse", "correct": false },
+      { "text": "Portnummer", "correct": false },
+      { "text": "Hostname", "correct": false }
+    ],
+    "explanation": "Switches arbeiten auf OSI-Layer 2 mit MAC-Adressen."
+  },
+  {
+    "id": "LF09-0094",
+    "question": "Ein Router leitet Broadcasts weiter.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Router trennen Broadcast-Domänen."
+  },
+  {
+    "id": "LF09-0095",
+    "question": "Was ist eine Broadcast-Domain?",
+    "answers": [
+      { "text": "Bereich für Broadcasts", "correct": true },
+      { "text": "IP-Adressraum", "correct": false },
+      { "text": "VLAN-ID", "correct": false },
+      { "text": "Routing-Tabelle", "correct": false }
+    ],
+    "explanation": "Broadcasts erreichen alle Geräte innerhalb der Domain."
+  },
+  {
+    "id": "LF09-0096",
+    "question": "ARP nutzt Broadcasts im lokalen Netz.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "ARP-Anfragen werden per Broadcast gesendet."
+  },
+  {
+    "id": "LF09-0097",
+    "question": "Welche Aufgabe hat ARP?",
+    "answers": [
+      { "text": "IP zu MAC", "correct": true },
+      { "text": "MAC zu IP", "correct": false },
+      { "text": "Name zu IP", "correct": false },
+      { "text": "Port zu Dienst", "correct": false }
+    ],
+    "explanation": "ARP ordnet IP-Adressen den zugehörigen MAC-Adressen zu."
+  },
+  {
+    "id": "LF09-0098",
+    "question": "ARP funktioniert über Router hinweg.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "ARP funktioniert nur im lokalen Netzwerk."
+  },
+  {
+    "id": "LF09-0099",
+    "question": "Welche Technik verhindert Schleifen in Switch-Netzen?",
+    "answers": [
+      { "text": "STP", "correct": true },
+      { "text": "ARP", "correct": false },
+      { "text": "NAT", "correct": false },
+      { "text": "DNS", "correct": false }
+    ],
+    "explanation": "Spanning Tree Protocol verhindert Netzwerk-Loops."
+  },
+  {
+    "id": "LF09-0100",
+    "question": "STP blockiert Ports dauerhaft ohne Ausnahme.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Blockierte Ports können bei Topologieänderungen aktiv werden."
+  },
+  {
+    "id": "LF09-0101",
+    "question": "Was beschreibt Routing primär?",
+    "answers": [
+      { "text": "Pakete weiterleiten", "correct": true },
+      { "text": "Frames verteilen", "correct": false },
+      { "text": "MAC-Adressen lernen", "correct": false },
+      { "text": "Broadcasts senden", "correct": false }
+    ],
+    "explanation": "Routing leitet IP-Pakete zwischen Netzwerken weiter."
+  },
+  {
+    "id": "LF09-0102",
+    "question": "Routing findet auf OSI-Layer 3 statt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Router treffen Entscheidungen anhand von IP-Adressen auf Layer 3."
+  },
+  {
+    "id": "LF09-0103",
+    "question": "Welche Information nutzt ein Router zur Weiterleitungsentscheidung?",
+    "answers": [
+      { "text": "IP-Adresse", "correct": true },
+      { "text": "MAC-Adresse", "correct": false },
+      { "text": "Portnummer", "correct": false },
+      { "text": "Hostname", "correct": false }
+    ],
+    "explanation": "Router verwenden IP-Adressen aus Paketen."
+  },
+  {
+    "id": "LF09-0104",
+    "question": "Was ist eine Default Route?",
+    "answers": [
+      { "text": "Route für unbekannte Ziele", "correct": true },
+      { "text": "Route für VLANs", "correct": false },
+      { "text": "Route für Broadcasts", "correct": false },
+      { "text": "Route nur für LAN", "correct": false }
+    ],
+    "explanation": "Die Default Route wird genutzt, wenn kein spezifischer Eintrag passt."
+  },
+  {
+    "id": "LF09-0105",
+    "question": "Die IPv4-Default-Route wird als 0.0.0.0/0 dargestellt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "0.0.0.0/0 deckt alle Ziele ab."
+  },
+  {
+    "id": "LF09-0106",
+    "question": "Was ist statisches Routing?",
+    "answers": [
+      { "text": "Manuell konfigurierte Routen", "correct": true },
+      { "text": "Automatisch gelernte Routen", "correct": false },
+      { "text": "Broadcast-basierte Routen", "correct": false },
+      { "text": "DNS-basierte Routen", "correct": false }
+    ],
+    "explanation": "Statische Routen werden manuell eingetragen."
+  },
+  {
+    "id": "LF09-0107",
+    "question": "Statische Routen passen sich automatisch an Link-Ausfälle an.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Statische Routen reagieren nicht automatisch."
+  },
+  {
+    "id": "LF09-0108",
+    "question": "Welche Aufgabe hat ein dynamisches Routingprotokoll?",
+    "answers": [
+      { "text": "Routen austauschen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Broadcasts filtern", "correct": false },
+      { "text": "Ports überwachen", "correct": false }
+    ],
+    "explanation": "Dynamische Protokolle tauschen Routing-Informationen aus."
+  },
+  {
+    "id": "LF09-0109",
+    "question": "IGP-Protokolle arbeiten innerhalb eines autonomen Systems.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IGPs werden intern innerhalb eines AS verwendet."
+  },
+  {
+    "id": "LF09-0110",
+    "question": "EGP-Protokolle werden hauptsächlich im Internet eingesetzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "EGPs wie BGP verbinden autonome Systeme."
+  },
+  {
+    "id": "LF09-0111",
+    "question": "Welche Aufgabe hat eine Routing-Tabelle?",
+    "answers": [
+      { "text": "Wege zu Zielnetzen speichern", "correct": true },
+      { "text": "MAC-Adressen lernen", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Broadcasts senden", "correct": false }
+    ],
+    "explanation": "Routing-Tabellen enthalten Einträge zu erreichbaren Netzen."
+  },
+  {
+    "id": "LF09-0112",
+    "question": "Ein Router benötigt eine Routing-Tabelle zur Funktion.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Ohne Routing-Tabelle sind keine Weiterleitungsentscheidungen möglich."
+  },
+  {
+    "id": "LF09-0113",
+    "question": "Welche Route wird bei mehreren Treffern bevorzugt?",
+    "answers": [
+      { "text": "Spezifischste Route", "correct": true },
+      { "text": "Default Route", "correct": false },
+      { "text": "Erste gelernte Route", "correct": false },
+      { "text": "Broadcast Route", "correct": false }
+    ],
+    "explanation": "Die Route mit dem längsten Präfix wird gewählt."
+  },
+  {
+    "id": "LF09-0114",
+    "question": "Die Default Route ist die spezifischste Route.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Die Default Route ist die unspezifischste Route."
+  },
+  {
+    "id": "LF09-0115",
+    "question": "Welche Aufgabe hat NAT primär?",
+    "answers": [
+      { "text": "IP-Adressen umsetzen", "correct": true },
+      { "text": "Broadcasts trennen", "correct": false },
+      { "text": "Namen auflösen", "correct": false },
+      { "text": "VLANs bilden", "correct": false }
+    ],
+    "explanation": "NAT übersetzt private in öffentliche IP-Adressen."
+  },
+  {
+    "id": "LF09-0116",
+    "question": "NAT wird vor allem bei IPv4 eingesetzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "NAT kompensiert den begrenzten IPv4-Adressraum."
+  },
+  {
+    "id": "LF09-0117",
+    "question": "NAT ist zwingend erforderlich für IPv6.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "IPv6 ist nicht auf NAT angewiesen."
+  },
+  {
+    "id": "LF09-0118",
+    "question": "Was beschreibt Dual Stack?",
+    "answers": [
+      { "text": "IPv4 und IPv6 parallel", "correct": true },
+      { "text": "Zwei Router", "correct": false },
+      { "text": "Zwei VLANs", "correct": false },
+      { "text": "Zwei Gateways", "correct": false }
+    ],
+    "explanation": "Dual Stack bedeutet parallele Nutzung von IPv4 und IPv6."
+  },
+  {
+    "id": "LF09-0119",
+    "question": "Ein Dual-Stack-System nutzt IPv4 und IPv6 gleichzeitig.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Beide Protokolle sind parallel aktiv."
+  },
+  {
+    "id": "LF09-0120",
+    "question": "WAN-Verbindungen haben meist höhere Latenz als LANs.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "WANs überbrücken große Distanzen und sind langsamer als LANs."
+  },
+  {
+    "id": "LF09-0121",
+    "question": "Was ist ein autonomes System?",
+    "answers": [
+      { "text": "Eigener Routing-Bereich", "correct": true },
+      { "text": "Ein VLAN-Verbund", "correct": false },
+      { "text": "Ein einzelnes LAN", "correct": false },
+      { "text": "Ein Subnetz", "correct": false }
+    ],
+    "explanation": "Ein autonomes System verwaltet Routing eigenständig."
+  },
+  {
+    "id": "LF09-0122",
+    "question": "BGP ist ein Interior Gateway Protocol.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "BGP ist ein Exterior Gateway Protocol."
+  },
+  {
+    "id": "LF09-0123",
+    "question": "Welche Aufgabe hat BGP?",
+    "answers": [
+      { "text": "Routing zwischen AS", "correct": true },
+      { "text": "Broadcasts filtern", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "MAC-Adressen lernen", "correct": false }
+    ],
+    "explanation": "BGP verbindet autonome Systeme im Internet."
+  },
+  {
+    "id": "LF09-0124",
+    "question": "IGPs wie OSPF werden innerhalb eines Netzes eingesetzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IGPs arbeiten innerhalb eines autonomen Systems."
+  },
+  {
+    "id": "LF09-0125",
+    "question": "Welche Route hat die niedrigste Priorität?",
+    "answers": [
+      { "text": "Default Route", "correct": true },
+      { "text": "Direkte Route", "correct": false },
+      { "text": "Statische Route", "correct": false },
+      { "text": "Spezifische Route", "correct": false }
+    ],
+    "explanation": "Die Default Route wird nur gewählt, wenn keine bessere passt."
+  },
+  {
+    "id": "LF09-0126",
+    "question": "Direkt verbundene Netze werden automatisch in die Routing-Tabelle eingetragen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Direkte Routen entstehen automatisch."
+  },
+  {
+    "id": "LF09-0127",
+    "question": "Was beschreibt eine WAN-Verbindung?",
+    "answers": [
+      { "text": "Große Distanz", "correct": true },
+      { "text": "Hohe Switch-Dichte", "correct": false },
+      { "text": "Nur lokale Netze", "correct": false },
+      { "text": "Ohne Router", "correct": false }
+    ],
+    "explanation": "WANs verbinden Netze über große Entfernungen."
+  },
+  {
+    "id": "LF09-0128",
+    "question": "WANs sind in der Regel langsamer als LANs.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "WANs haben höhere Latenz als LANs."
+  },
+  {
+    "id": "LF09-0129",
+    "question": "Welche Komponente verbindet ein internes Netz mit dem Internet?",
+    "answers": [
+      { "text": "Router", "correct": true },
+      { "text": "Switch", "correct": false },
+      { "text": "Hub", "correct": false },
+      { "text": "Repeater", "correct": false }
+    ],
+    "explanation": "Router koppeln interne Netze mit externen."
+  },
+  {
+    "id": "LF09-0130",
+    "question": "Innerhalb eines LANs ist zwingend Routing erforderlich.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Im LAN reicht Switching aus."
+  },
+  {
+    "id": "LF09-0131",
+    "question": "Was unterscheidet LAN und WAN hauptsächlich?",
+    "answers": [
+      { "text": "Geografische Ausdehnung", "correct": true },
+      { "text": "IP-Version", "correct": false },
+      { "text": "OSI-Layer", "correct": false },
+      { "text": "Topologie", "correct": false }
+    ],
+    "explanation": "LANs sind lokal, WANs überregional."
+  },
+  {
+    "id": "LF09-0132",
+    "question": "Ein LAN erstreckt sich über sehr große Entfernungen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "LANs sind räumlich begrenzt."
+  },
+  {
+    "id": "LF09-0133",
+    "question": "Welche Aufgabe hat ein Access Point?",
+    "answers": [
+      { "text": "WLAN bereitstellen", "correct": true },
+      { "text": "Routing durchführen", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Broadcasts trennen", "correct": false }
+    ],
+    "explanation": "Access Points verbinden WLAN-Clients mit dem LAN."
+  },
+  {
+    "id": "LF09-0134",
+    "question": "Ein Access Point ersetzt einen Router.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Access Points stellen nur den Funkzugang bereit."
+  },
+  {
+    "id": "LF09-0135",
+    "question": "Welche Komponente vergibt IP-Adressen in einem Netzwerk?",
+    "answers": [
+      { "text": "DHCP-Server", "correct": true },
+      { "text": "DNS-Server", "correct": false },
+      { "text": "Switch", "correct": false },
+      { "text": "Access Point", "correct": false }
+    ],
+    "explanation": "DHCP vergibt IP-Konfigurationsdaten."
+  },
+  {
+    "id": "LF09-0136",
+    "question": "DHCP ist für die Namensauflösung zuständig.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Die Namensauflösung übernimmt DNS."
+  },
+  {
+    "id": "LF09-0137",
+    "question": "Welche Information liefert DNS als Antwort?",
+    "answers": [
+      { "text": "IP-Adresse", "correct": true },
+      { "text": "MAC-Adresse", "correct": false },
+      { "text": "Subnetzmaske", "correct": false },
+      { "text": "Gateway", "correct": false }
+    ],
+    "explanation": "DNS löst Namen in IP-Adressen auf."
+  },
+  {
+    "id": "LF09-0138",
+    "question": "DNS kann auch ohne Internetverbindung funktionieren.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Ein interner DNS-Server arbeitet unabhängig vom Internet."
+  },
+  {
+    "id": "LF09-0139",
+    "question": "Welche Komponente ermöglicht Kommunikation zwischen VLANs?",
+    "answers": [
+      { "text": "Router", "correct": true },
+      { "text": "Switch", "correct": false },
+      { "text": "Hub", "correct": false },
+      { "text": "Repeater", "correct": false }
+    ],
+    "explanation": "Zwischen VLANs ist Routing erforderlich."
+  },
+  {
+    "id": "LF09-0140",
+    "question": "VLANs können ohne Routing direkt miteinander kommunizieren.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Für VLAN-übergreifende Kommunikation ist Routing nötig."
+  },
+  {
+    "id": "LF09-0141",
+    "question": "Was ist Inter-VLAN-Routing?",
+    "answers": [
+      { "text": "Routing zwischen VLANs", "correct": true },
+      { "text": "Switching im VLAN", "correct": false },
+      { "text": "VLAN-Tagging", "correct": false },
+      { "text": "Port-Spiegelung", "correct": false }
+    ],
+    "explanation": "Inter-VLAN-Routing ermöglicht Kommunikation zwischen VLANs."
+  },
+  {
+    "id": "LF09-0142",
+    "question": "Inter-VLAN-Routing erfolgt auf OSI-Layer 3.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Routing ist eine Funktion der Vermittlungsschicht."
+  },
+  {
+    "id": "LF09-0143",
+    "question": "Welche Komponente kann Inter-VLAN-Routing übernehmen?",
+    "answers": [
+      { "text": "Router", "correct": true },
+      { "text": "Access Point", "correct": false },
+      { "text": "Hub", "correct": false },
+      { "text": "Repeater", "correct": false }
+    ],
+    "explanation": "Router oder Layer-3-Switches routen zwischen VLANs."
+  },
+  {
+    "id": "LF09-0144",
+    "question": "Ein Layer-3-Switch kombiniert Switching und Routing.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Layer-3-Switches beherrschen beide Funktionen."
+  },
+  {
+    "id": "LF09-0145",
+    "question": "Was ist ein Trunk-Port?",
+    "answers": [
+      { "text": "Mehrere VLANs transportieren", "correct": true },
+      { "text": "Ein einzelnes VLAN", "correct": false },
+      { "text": "Nur WAN-Verkehr", "correct": false },
+      { "text": "DMZ-Port", "correct": false }
+    ],
+    "explanation": "Trunk-Ports transportieren Frames aus mehreren VLANs."
+  },
+  {
+    "id": "LF09-0146",
+    "question": "Trunk-Ports werden typischerweise zwischen Switches genutzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Switch-Switch-Verbindungen nutzen häufig Trunks."
+  },
+  {
+    "id": "LF09-0147",
+    "question": "Welche Technik kennzeichnet VLANs auf einem Trunk?",
+    "answers": [
+      { "text": "VLAN-Tagging", "correct": true },
+      { "text": "NAT", "correct": false },
+      { "text": "ARP", "correct": false },
+      { "text": "DHCP", "correct": false }
+    ],
+    "explanation": "VLAN-Tags unterscheiden Frames verschiedener VLANs."
+  },
+  {
+    "id": "LF09-0148",
+    "question": "VLAN-Tagging ist eine Funktion auf OSI-Layer 2.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "VLANs gehören zur Sicherungsschicht."
+  },
+  {
+    "id": "LF09-0149",
+    "question": "Welche Eigenschaft hat ein Access-Port?",
+    "answers": [
+      { "text": "Genau ein VLAN", "correct": true },
+      { "text": "Mehrere VLANs", "correct": false },
+      { "text": "Kein VLAN", "correct": false },
+      { "text": "Nur Internetverkehr", "correct": false }
+    ],
+    "explanation": "Access-Ports sind genau einem VLAN zugeordnet."
+  },
+  {
+    "id": "LF09-0150",
+    "question": "Ein Access-Port kann mehrere VLANs führen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Nur Trunk-Ports transportieren mehrere VLANs."
+  },
+  {
+    "id": "LF09-0151",
+    "question": "Was ist die Hauptaufgabe eines Proxys im Netzwerk?",
+    "answers": [
+      { "text": "Anfragen weiterleiten", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Pakete routen", "correct": false },
+      { "text": "Broadcasts filtern", "correct": false }
+    ],
+    "explanation": "Ein Proxy vermittelt zwischen Client und Ziel."
+  },
+  {
+    "id": "LF09-0152",
+    "question": "Ein Proxy kann Inhalte zwischenspeichern.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Caching ist eine typische Proxy-Funktion."
+  },
+  {
+    "id": "LF09-0153",
+    "question": "Welche Komponente arbeitet hauptsächlich auf OSI-Layer 7?",
+    "answers": [
+      { "text": "Proxy", "correct": true },
+      { "text": "Switch", "correct": false },
+      { "text": "Repeater", "correct": false },
+      { "text": "Hub", "correct": false }
+    ],
+    "explanation": "Proxys analysieren Anwendungsdaten."
+  },
+  {
+    "id": "LF09-0154",
+    "question": "Ein Proxy ersetzt vollständig eine Firewall.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Ein Proxy ergänzt, ersetzt aber keine Firewall."
+  },
+  {
+    "id": "LF09-0155",
+    "question": "Welche Aufgabe hat eine DMZ primär?",
+    "answers": [
+      { "text": "Öffentliche Dienste isolieren", "correct": true },
+      { "text": "Routing beschleunigen", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Backups speichern", "correct": false }
+    ],
+    "explanation": "DMZs trennen öffentliche von internen Systemen."
+  },
+  {
+    "id": "LF09-0156",
+    "question": "Server in einer DMZ haben automatisch Zugriff auf das interne LAN.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Zugriffe aus der DMZ sind stark eingeschränkt."
+  },
+  {
+    "id": "LF09-0157",
+    "question": "Welche Aufgabe hat eine Firewall im Netzwerk?",
+    "answers": [
+      { "text": "Datenverkehr filtern", "correct": true },
+      { "text": "Adressen vergeben", "correct": false },
+      { "text": "Namen auflösen", "correct": false },
+      { "text": "Routing ersetzen", "correct": false }
+    ],
+    "explanation": "Firewalls kontrollieren Netzwerkverkehr."
+  },
+  {
+    "id": "LF09-0158",
+    "question": "Firewall-Regeln basieren häufig auf Portnummern.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Viele Dienste sind über Ports definiert."
+  },
+  {
+    "id": "LF09-0159",
+    "question": "Welche Regel erlaubt Netzwerkverkehr?",
+    "answers": [
+      { "text": "Permit", "correct": true },
+      { "text": "Deny", "correct": false },
+      { "text": "Drop", "correct": false },
+      { "text": "Block", "correct": false }
+    ],
+    "explanation": "Permit-Regeln lassen Verkehr explizit zu."
+  },
+  {
+    "id": "LF09-0160",
+    "question": "Eine Firewall arbeitet ausschließlich auf OSI-Layer 3.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Firewalls können auf mehreren OSI-Layern arbeiten."
+  },
+  {
+    "id": "LF09-0161",
+    "question": "Welcher Dienst ermöglicht einen sicheren Fernzugriff?",
+    "answers": [
+      { "text": "SSH", "correct": true },
+      { "text": "FTP", "correct": false },
+      { "text": "HTTP", "correct": false },
+      { "text": "Telnet", "correct": false }
+    ],
+    "explanation": "SSH bietet verschlüsselten Fernzugriff."
+  },
+  {
+    "id": "LF09-0162",
+    "question": "SSH verwendet standardmäßig Port 22.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Port 22 ist der Standardport für SSH."
+  },
+  {
+    "id": "LF09-0163",
+    "question": "Welcher Dienst überträgt Daten unverschlüsselt?",
+    "answers": [
+      { "text": "FTP", "correct": true },
+      { "text": "SFTP", "correct": false },
+      { "text": "SCP", "correct": false },
+      { "text": "HTTPS", "correct": false }
+    ],
+    "explanation": "FTP überträgt Daten im Klartext."
+  },
+  {
+    "id": "LF09-0164",
+    "question": "Telnet gilt als unsicher.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Telnet überträgt Daten unverschlüsselt."
+  },
+  {
+    "id": "LF09-0165",
+    "question": "Welche Aufgabe hat ein Webserver?",
+    "answers": [
+      { "text": "Webseiten bereitstellen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Namensauflösung durchführen", "correct": false },
+      { "text": "Pakete filtern", "correct": false }
+    ],
+    "explanation": "Webserver stellen Webseiten und Webinhalte bereit."
+  },
+  {
+    "id": "LF09-0166",
+    "question": "Apache ist eine Webserver-Software.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Apache HTTP Server ist eine verbreitete Webserver-Software."
+  },
+  {
+    "id": "LF09-0167",
+    "question": "Welche Aufgabe hat HTTPS?",
+    "answers": [
+      { "text": "Daten verschlüsseln", "correct": true },
+      { "text": "Routing steuern", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Broadcasts filtern", "correct": false }
+    ],
+    "explanation": "HTTPS verschlüsselt die HTTP-Datenübertragung."
+  },
+  {
+    "id": "LF09-0168",
+    "question": "HTTPS nutzt standardmäßig Port 80.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "HTTPS nutzt standardmäßig Port 443."
+  },
+  {
+    "id": "LF09-0169",
+    "question": "Welche Aufgabe hat ein DNS-Cache?",
+    "answers": [
+      { "text": "Antworten zwischenspeichern", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Pakete filtern", "correct": false },
+      { "text": "Ports öffnen", "correct": false }
+    ],
+    "explanation": "DNS-Caches speichern Antworten temporär."
+  },
+  {
+    "id": "LF09-0170",
+    "question": "DNS-Caching beschleunigt Namensauflösung.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Zwischengespeicherte Antworten verkürzen Antwortzeiten."
+  },
+  {
+    "id": "LF09-0171",
+    "question": "Welche Aufgabe hat ein Mailserver?",
+    "answers": [
+      { "text": "E-Mails verarbeiten", "correct": true },
+      { "text": "Webseiten ausliefern", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Dateien sichern", "correct": false }
+    ],
+    "explanation": "Mailserver senden, empfangen und speichern E-Mails."
+  },
+  {
+    "id": "LF09-0172",
+    "question": "SMTP wird zum Versenden von E-Mails genutzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "SMTP ist das Versandprotokoll für E-Mails."
+  },
+  {
+    "id": "LF09-0173",
+    "question": "Welches Protokoll dient primär dem Abrufen von E-Mails?",
+    "answers": [
+      { "text": "IMAP", "correct": true },
+      { "text": "SMTP", "correct": false },
+      { "text": "HTTP", "correct": false },
+      { "text": "FTP", "correct": false }
+    ],
+    "explanation": "IMAP dient dem Abruf von E-Mails vom Server."
+  },
+  {
+    "id": "LF09-0174",
+    "question": "POP3 speichert E-Mails dauerhaft auf dem Server.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "POP3 lädt E-Mails meist lokal herunter."
+  },
+  {
+    "id": "LF09-0175",
+    "question": "Welche Aufgabe hat ein Printserver?",
+    "answers": [
+      { "text": "Druckaufträge verwalten", "correct": true },
+      { "text": "Benutzer authentifizieren", "correct": false },
+      { "text": "Routing durchführen", "correct": false },
+      { "text": "Backups erstellen", "correct": false }
+    ],
+    "explanation": "Printserver koordinieren Druckaufträge im Netzwerk."
+  },
+  {
+    "id": "LF09-0176",
+    "question": "Ein Printserver entlastet Clients.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Clients senden Druckaufträge zentral an den Printserver."
+  },
+  {
+    "id": "LF09-0177",
+    "question": "Welche Aufgabe hat ein Fileserver?",
+    "answers": [
+      { "text": "Dateien bereitstellen", "correct": true },
+      { "text": "Namensauflösung durchführen", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Pakete filtern", "correct": false }
+    ],
+    "explanation": "Fileserver stellen Dateien zentral im Netzwerk bereit."
+  },
+  {
+    "id": "LF09-0178",
+    "question": "Ein Fileserver ermöglicht zentrale Datenhaltung.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Daten liegen zentral statt auf einzelnen Clients."
+  },
+  {
+    "id": "LF09-0179",
+    "question": "Welche Aufgabe hat ein Domain-Controller?",
+    "answers": [
+      { "text": "Benutzer verwalten", "correct": true },
+      { "text": "Webseiten hosten", "correct": false },
+      { "text": "Routing übernehmen", "correct": false },
+      { "text": "Broadcasts filtern", "correct": false }
+    ],
+    "explanation": "Domain-Controller verwalten Benutzerkonten und Zugriffe."
+  },
+  {
+    "id": "LF09-0180",
+    "question": "Ein Domain-Controller ist zwingend erforderlich für ein LAN.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "LANs können auch ohne zentrale Benutzerverwaltung betrieben werden."
+  },
+  {
+    "id": "LF09-0181",
+    "question": "Welche zusätzliche Aufgabe kann ein DNS-Server übernehmen?",
+    "answers": [
+      { "text": "Antworten zwischenspeichern", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Pakete filtern", "correct": false },
+      { "text": "Routing durchführen", "correct": false }
+    ],
+    "explanation": "DNS-Server speichern Antworten temporär im Cache."
+  },
+  {
+    "id": "LF09-0182",
+    "question": "DNS-Caching kann die Auflösung von Hostnamen beschleunigen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Zwischengespeicherte Antworten verkürzen die Antwortzeit."
+  },
+  {
+    "id": "LF09-0183",
+    "question": "Was ist die Folge eines DNS-Timeouts?",
+    "answers": [
+      { "text": "Name nicht auflösbar", "correct": true },
+      { "text": "IP neu vergeben", "correct": false },
+      { "text": "Gateway ausgefallen", "correct": false },
+      { "text": "Verbindung getrennt", "correct": false }
+    ],
+    "explanation": "Ohne DNS-Antwort kann kein Hostname aufgelöst werden."
+  },
+  {
+    "id": "LF09-0184",
+    "question": "DNS-Probleme wirken für Benutzer oft wie ein Internet-Ausfall.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IP-Verbindungen funktionieren, Namen jedoch nicht."
+  },
+  {
+    "id": "LF09-0185",
+    "question": "Welche Aufgabe hat ein DHCP-Lease?",
+    "answers": [
+      { "text": "Gültigkeitsdauer begrenzen", "correct": true },
+      { "text": "IP-Adresse verschlüsseln", "correct": false },
+      { "text": "Gateway sperren", "correct": false },
+      { "text": "Subnetz trennen", "correct": false }
+    ],
+    "explanation": "Leases begrenzen die Dauer einer IP-Zuweisung."
+  },
+  {
+    "id": "LF09-0186",
+    "question": "Ein DHCP-Lease ist zeitlich unbegrenzt gültig.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "DHCP-Leases sind immer zeitlich begrenzt."
+  },
+  {
+    "id": "LF09-0187",
+    "question": "Welche der folgenden Informationen gehört nicht zu DHCP?",
+    "answers": [
+      { "text": "Benutzername", "correct": true },
+      { "text": "IP-Adresse", "correct": false },
+      { "text": "Standardgateway", "correct": false },
+      { "text": "DNS-Server", "correct": false }
+    ],
+    "explanation": "DHCP verteilt keine Benutzerdaten."
+  },
+  {
+    "id": "LF09-0188",
+    "question": "DHCP kann feste IP-Zuordnungen über MAC-Adressen vergeben.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Solche Zuordnungen heißen DHCP-Reservierungen."
+  },
+  {
+    "id": "LF09-0189",
+    "question": "Welche Aufgabe hat ein Zeitserver im Netzwerk?",
+    "answers": [
+      { "text": "Uhrzeit synchronisieren", "correct": true },
+      { "text": "Pakete filtern", "correct": false },
+      { "text": "IPs vergeben", "correct": false },
+      { "text": "Namensauflösung durchführen", "correct": false }
+    ],
+    "explanation": "Zeitserver stellen eine einheitliche Uhrzeit bereit."
+  },
+  {
+    "id": "LF09-0190",
+    "question": "Zeitabweichungen können Probleme bei Anmeldungen verursachen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Viele Authentifizierungsverfahren sind zeitabhängig."
+  },
+  {
+    "id": "LF09-0191",
+    "question": "Welches Protokoll wird zur Zeitsynchronisation genutzt?",
+    "answers": [
+      { "text": "NTP", "correct": true },
+      { "text": "DNS", "correct": false },
+      { "text": "DHCP", "correct": false },
+      { "text": "SNMP", "correct": false }
+    ],
+    "explanation": "NTP synchronisiert Uhren im Netzwerk."
+  },
+  {
+    "id": "LF09-0192",
+    "question": "Zeitserver sind sicherheitsrelevant.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Zertifikate und Logins benötigen korrekte Zeitangaben."
+  },
+  {
+    "id": "LF09-0193",
+    "question": "Welche Aufgabe hat SNMP?",
+    "answers": [
+      { "text": "Netzwerkgeräte überwachen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Webseiten ausliefern", "correct": false },
+      { "text": "Routing durchführen", "correct": false }
+    ],
+    "explanation": "SNMP wird zur Überwachung von Netzwerkkomponenten genutzt."
+  },
+  {
+    "id": "LF09-0194",
+    "question": "SNMP wird häufig für Monitoring eingesetzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Monitoring-Tools nutzen SNMP-Daten."
+  },
+  {
+    "id": "LF09-0195",
+    "question": "Welche Aufgabe hat ein Backup-Server?",
+    "answers": [
+      { "text": "Daten sichern", "correct": true },
+      { "text": "Pakete filtern", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Routing steuern", "correct": false }
+    ],
+    "explanation": "Backup-Server speichern Sicherungskopien von Daten."
+  },
+  {
+    "id": "LF09-0196",
+    "question": "Backups schützen vor Datenverlust.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Backups ermöglichen die Wiederherstellung von Daten."
+  },
+  {
+    "id": "LF09-0197",
+    "question": "Welche Eigenschaft hat ein inkrementelles Backup?",
+    "answers": [
+      { "text": "Nur Änderungen sichern", "correct": true },
+      { "text": "Alle Daten sichern", "correct": false },
+      { "text": "Nur Metadaten sichern", "correct": false },
+      { "text": "Nur Betriebssystem sichern", "correct": false }
+    ],
+    "explanation": "Inkrementelle Backups sichern nur geänderte Daten."
+  },
+  {
+    "id": "LF09-0198",
+    "question": "Ein Vollbackup enthält alle zu sichernden Daten.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Vollbackups enthalten den gesamten Datenbestand."
+  },
+  {
+    "id": "LF09-0199",
+    "question": "Welche Aufgabe hat ein Monitoring-System?",
+    "answers": [
+      { "text": "Systemzustände überwachen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Routing durchführen", "correct": false },
+      { "text": "Daten verschlüsseln", "correct": false }
+    ],
+    "explanation": "Monitoring überwacht Verfügbarkeit und Leistung."
+  },
+  {
+    "id": "LF09-0200",
+    "question": "Monitoring ersetzt keine regelmäßige Wartung.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Monitoring erkennt Probleme, behebt sie aber nicht."
+  },
+  {
+    "id": "LF09-0201",
+    "question": "Welche Aufgabe hat ein DNS-Resolver?",
+    "answers": [
+      { "text": "Namensauflösung durchführen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Pakete filtern", "correct": false },
+      { "text": "Routing steuern", "correct": false }
+    ],
+    "explanation": "Ein DNS-Resolver fragt DNS-Server ab und löst Namen in IPs auf."
+  },
+  {
+    "id": "LF09-0202",
+    "question": "Ein DNS-Resolver arbeitet typischerweise im Clientbetriebssystem.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Clients nutzen lokale Resolver zur Namensauflösung."
+  },
+  {
+    "id": "LF09-0203",
+    "question": "Welche Information speichert ein ARP-Cache?",
+    "answers": [
+      { "text": "IP- und MAC-Zuordnung", "correct": true },
+      { "text": "Hostname und IP", "correct": false },
+      { "text": "Port und Dienst", "correct": false },
+      { "text": "Subnetz und Gateway", "correct": false }
+    ],
+    "explanation": "Der ARP-Cache speichert Zuordnungen zwischen IP- und MAC-Adressen."
+  },
+  {
+    "id": "LF09-0204",
+    "question": "Ein ARP-Cache kann veraltete Einträge enthalten.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "ARP-Einträge haben eine begrenzte Lebensdauer."
+  },
+  {
+    "id": "LF09-0205",
+    "question": "Welche Aufgabe hat ICMP im Netzwerk?",
+    "answers": [
+      { "text": "Fehler und Status melden", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Namen auflösen", "correct": false },
+      { "text": "Ports blockieren", "correct": false }
+    ],
+    "explanation": "ICMP wird für Fehlermeldungen und Diagnose verwendet."
+  },
+  {
+    "id": "LF09-0206",
+    "question": "Das Tool `ping` nutzt ICMP.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "`ping` verwendet ICMP Echo Requests und Replies."
+  },
+  {
+    "id": "LF09-0207",
+    "question": "Welche Information zeigt `ipconfig` unter Windows an?",
+    "answers": [
+      { "text": "IP-Konfiguration", "correct": true },
+      { "text": "DNS-Zonen", "correct": false },
+      { "text": "Routing-Protokolle", "correct": false },
+      { "text": "Firewall-Regeln", "correct": false }
+    ],
+    "explanation": "`ipconfig` zeigt IP-, Gateway- und DNS-Informationen an."
+  },
+  {
+    "id": "LF09-0208",
+    "question": "Der Linux-Befehl `ip a` zeigt Netzwerkschnittstellen an.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "`ip a` listet Netzwerkinterfaces und IP-Adressen."
+  },
+  {
+    "id": "LF09-0209",
+    "question": "Welches Tool dient zur Namensauflösung im Troubleshooting?",
+    "answers": [
+      { "text": "nslookup", "correct": true },
+      { "text": "ping", "correct": false },
+      { "text": "tracert", "correct": false },
+      { "text": "arp", "correct": false }
+    ],
+    "explanation": "`nslookup` fragt DNS-Einträge gezielt ab."
+  },
+  {
+    "id": "LF09-0210",
+    "question": "Mit `tracert` oder `traceroute` kann der Pfad zu einem Ziel angezeigt werden.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Traceroute zeigt die durchlaufenen Router an."
+  },
+  {
+    "id": "LF09-0211",
+    "question": "Welche Aufgabe hat eine MTU?",
+    "answers": [
+      { "text": "Maximale Paketgröße festlegen", "correct": true },
+      { "text": "Ports definieren", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Routing steuern", "correct": false }
+    ],
+    "explanation": "Die MTU bestimmt die maximale Größe eines Frames/Pakets."
+  },
+  {
+    "id": "LF09-0212",
+    "question": "Zu große Pakete können fragmentiert werden.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Fragmentierung tritt auf, wenn Pakete die MTU überschreiten."
+  },
+  {
+    "id": "LF09-0213",
+    "question": "Welche Einheit beschreibt die MTU?",
+    "answers": [
+      { "text": "Byte", "correct": true },
+      { "text": "Bitrate", "correct": false },
+      { "text": "Frequenz", "correct": false },
+      { "text": "Zeit", "correct": false }
+    ],
+    "explanation": "MTU-Werte werden in Byte angegeben."
+  },
+  {
+    "id": "LF09-0214",
+    "question": "Fragmentierung kann sich negativ auf die Performance auswirken.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Mehrere Fragmente erhöhen den Verarbeitungsaufwand."
+  },
+  {
+    "id": "LF09-0215",
+    "question": "Welche Übertragungsart sendet Daten an genau einen Empfänger?",
+    "answers": [
+      { "text": "Unicast", "correct": true },
+      { "text": "Broadcast", "correct": false },
+      { "text": "Multicast", "correct": false },
+      { "text": "Anycast", "correct": false }
+    ],
+    "explanation": "Unicast richtet Daten an einen einzelnen Empfänger."
+  },
+  {
+    "id": "LF09-0216",
+    "question": "IPv4-Broadcasts richten Daten an alle Geräte im lokalen Netz.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Broadcasts erreichen alle Hosts der Broadcast-Domain."
+  },
+  {
+    "id": "LF09-0217",
+    "question": "Welche Übertragungsart nutzt IPv6 anstelle von Broadcast?",
+    "answers": [
+      { "text": "Multicast", "correct": true },
+      { "text": "Unicast", "correct": false },
+      { "text": "Anycast", "correct": false },
+      { "text": "Loopback", "correct": false }
+    ],
+    "explanation": "IPv6 verwendet Multicast für Gruppenkommunikation."
+  },
+  {
+    "id": "LF09-0218",
+    "question": "Anycast adressiert den nächstgelegenen Empfänger.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Anycast wird z.B. bei DNS-Servern genutzt."
+  },
+  {
+    "id": "LF09-0219",
+    "question": "Welche Adresse ist die Loopback-Adresse bei IPv6?",
+    "answers": [
+      { "text": "::1", "correct": true },
+      { "text": "127.0.0.1", "correct": false },
+      { "text": "fe80::1", "correct": false },
+      { "text": "ff02::1", "correct": false }
+    ],
+    "explanation": "::1 ist die IPv6-Loopback-Adresse."
+  },
+  {
+    "id": "LF09-0220",
+    "question": "Die Loopback-Adresse dient zur lokalen Kommunikation eines Systems.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Loopback-Adressen verweisen immer auf das eigene System."
+  },
+  {
+    "id": "LF09-0221",
+    "question": "Welche IPv4-Adresse weist auf eine APIPA-Konfiguration hin?",
+    "answers": [
+      { "text": "169.254.10.5", "correct": true },
+      { "text": "192.168.1.10", "correct": false },
+      { "text": "10.0.0.5", "correct": false },
+      { "text": "172.16.0.20", "correct": false }
+    ],
+    "explanation": "APIPA verwendet den IPv4-Bereich 169.254.0.0/16."
+  },
+  {
+    "id": "LF09-0222",
+    "question": "Was bedeutet es, wenn ein Client eine APIPA-Adresse nutzt?",
+    "answers": [
+      { "text": "Kein DHCP-Server erreichbar", "correct": true },
+      { "text": "DNS-Server antwortet nicht", "correct": false },
+      { "text": "Gateway ist falsch konfiguriert", "correct": false },
+      { "text": "Internetverbindung ist deaktiviert", "correct": false }
+    ],
+    "explanation": "APIPA wird genutzt, wenn kein DHCP-Server erreicht werden kann."
+  },
+  {
+    "id": "LF09-0223",
+    "question": "Welche Aufgabe hat ein DHCP-Server neben der IP-Adresse?",
+    "answers": [
+      { "text": "Netzparameter vergeben", "correct": true },
+      { "text": "Pakete filtern", "correct": false },
+      { "text": "Routing durchführen", "correct": false },
+      { "text": "DNS-Zonen verwalten", "correct": false }
+    ],
+    "explanation": "DHCP kann z.B. Gateway- und DNS-Server-Adressen vergeben."
+  }
+,
+  {
+    "id": "LF09-0224",
+    "question": "DHCP kann sowohl dynamische als auch feste IP-Zuordnungen vergeben.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Feste Zuordnungen erfolgen über DHCP-Reservierungen."
+  },
+  {
+    "id": "LF09-0225",
+    "question": "Welche Aufgabe hat ein Default-Gateway im LAN?",
+    "answers": [
+      { "text": "Pakete ins Fremdnetz weiterleiten", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "DNS-Anfragen bearbeiten", "correct": false },
+      { "text": "Broadcasts verstärken", "correct": false }
+    ],
+    "explanation": "Das Gateway ist der Ausgangspunkt zu anderen Netzwerken."
+  },
+  {
+    "id": "LF09-0226",
+    "question": "Ohne korrektes Default-Gateway ist Internetzugang möglich.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Ohne Gateway sind nur lokale Ziele erreichbar."
+  },
+  {
+    "id": "LF09-0227",
+    "question": "Welche Aufgabe hat eine strukturierte Verkabelung?",
+    "answers": [
+      { "text": "Standardisierte Netzwerkverkabelung", "correct": true },
+      { "text": "Daten verschlüsseln", "correct": false },
+      { "text": "Routing ersetzen", "correct": false },
+      { "text": "IP-Adressen sparen", "correct": false }
+    ],
+    "explanation": "Strukturierte Verkabelung sorgt für Übersicht und Erweiterbarkeit."
+  },
+  {
+    "id": "LF09-0228",
+    "question": "Welche Verkabelungsebene verbindet Arbeitsplätze mit Etagenverteilern?",
+    "answers": [
+      { "text": "Tertiärverkabelung", "correct": true },
+      { "text": "Primärverkabelung", "correct": false },
+      { "text": "Sekundärverkabelung", "correct": false },
+      { "text": "Backbone", "correct": false }
+    ],
+    "explanation": "Die Tertiärverkabelung verbindet Endgeräte mit Etagenverteilern."
+  },
+  {
+    "id": "LF09-0229",
+    "question": "Welche Verkabelungsebene verbindet Gebäude miteinander?",
+    "answers": [
+      { "text": "Primärverkabelung", "correct": true },
+      { "text": "Sekundärverkabelung", "correct": false },
+      { "text": "Tertiärverkabelung", "correct": false },
+      { "text": "Horizontalverkabelung", "correct": false }
+    ],
+    "explanation": "Die Primärverkabelung stellt das Standort-Backbone dar."
+  },
+  {
+    "id": "LF09-0230",
+    "question": "Strukturierte Verkabelung erhöht die Fehlersuche-Transparenz.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Klare Strukturen vereinfachen Wartung und Fehleranalyse."
+  },
+  {
+    "id": "LF09-0231",
+    "question": "Welche WLAN-Frequenz bietet größere Reichweite?",
+    "answers": [
+      { "text": "2,4 GHz", "correct": true },
+      { "text": "5 GHz", "correct": false },
+      { "text": "6 GHz", "correct": false },
+      { "text": "Alle gleich", "correct": false }
+    ],
+    "explanation": "2,4 GHz hat größere Reichweite als höhere Frequenzen."
+  },
+  {
+    "id": "LF09-0232",
+    "question": "Das 5-GHz-Band bietet meist höhere Datenraten als 2,4 GHz.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "5 GHz bietet mehr Kanäle und weniger Störungen."
+  },
+  {
+    "id": "LF09-0233",
+    "question": "Welche WPA-Version gilt aktuell als am sichersten?",
+    "answers": [
+      { "text": "WPA3", "correct": true },
+      { "text": "WPA2", "correct": false },
+      { "text": "WPA", "correct": false },
+      { "text": "WEP", "correct": false }
+    ],
+    "explanation": "WPA3 ist der aktuelle Sicherheitsstandard."
+  },
+  {
+    "id": "LF09-0234",
+    "question": "WEP gilt als unsicher und sollte nicht mehr verwendet werden.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "WEP ist kryptografisch gebrochen."
+  },
+  {
+    "id": "LF09-0235",
+    "question": "Was beschreibt die MTU?",
+    "answers": [
+      { "text": "Maximale Übertragungseinheit", "correct": true },
+      { "text": "Minimale Paketgröße", "correct": false },
+      { "text": "Maximale Latenz", "correct": false },
+      { "text": "Übertragungsfrequenz", "correct": false }
+    ],
+    "explanation": "MTU gibt die maximale Paketgröße in Byte an."
+  },
+  {
+    "id": "LF09-0236",
+    "question": "Eine zu kleine MTU kann die Performance verschlechtern.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Mehr Pakete bedeuten mehr Overhead."
+  },
+  {
+    "id": "LF09-0237",
+    "question": "Welche OSI-Schicht ist für Ende-zu-Ende-Kommunikation zuständig?",
+    "answers": [
+      { "text": "Transportschicht", "correct": true },
+      { "text": "Sicherungsschicht", "correct": false },
+      { "text": "Bitübertragungsschicht", "correct": false },
+      { "text": "Anwendungsschicht", "correct": false }
+    ],
+    "explanation": "TCP und UDP arbeiten auf der Transportschicht."
+  },
+  {
+    "id": "LF09-0238",
+    "question": "TCP ist verbindungsorientiert.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "TCP baut eine Verbindung auf und sichert die Übertragung."
+  },
+  {
+    "id": "LF09-0239",
+    "question": "UDP verzichtet auf Sicherung und Reihenfolge.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "UDP arbeitet verbindungslos und schnell."
+  },
+  {
+    "id": "LF09-0240",
+    "question": "UDP wird häufig für zeitkritische Anwendungen eingesetzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Streaming und VoIP nutzen häufig UDP."
+  },
+  {
+    "id": "LF09-0241",
+    "question": "Welche Aufgabe hat die Sicherungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Fehlererkennung und Zugriffskontrolle", "correct": true },
+      { "text": "IP-Routing", "correct": false },
+      { "text": "Namensauflösung", "correct": false },
+      { "text": "Anwendungslogik", "correct": false }
+    ],
+    "explanation": "Die Sicherungsschicht (Layer 2) behandelt Frames, MAC-Adressen und Fehlererkennung."
+  },
+  {
+    "id": "LF09-0242",
+    "question": "MAC-Adressen werden auf OSI-Layer 2 verwendet.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "MAC-Adressen gehören zur Sicherungsschicht."
+  },
+  {
+    "id": "LF09-0243",
+    "question": "Welche Aufgabe hat die Vermittlungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "IP-basiertes Routing", "correct": true },
+      { "text": "Frame-Übertragung", "correct": false },
+      { "text": "Socket-Verwaltung", "correct": false },
+      { "text": "Verschlüsselung", "correct": false }
+    ],
+    "explanation": "Die Vermittlungsschicht (Layer 3) leitet Pakete zwischen Netzen."
+  },
+  {
+    "id": "LF09-0244",
+    "question": "Die IP-Adresse gehört zur Vermittlungsschicht.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IP-Adressen sind Bestandteil von Layer 3."
+  },
+  {
+    "id": "LF09-0245",
+    "question": "Welche Aufgabe hat die Anwendungsschicht?",
+    "answers": [
+      { "text": "Dienste für Anwendungen bereitstellen", "correct": true },
+      { "text": "Frames weiterleiten", "correct": false },
+      { "text": "IP-Pakete routen", "correct": false },
+      { "text": "MAC-Adressen austauschen", "correct": false }
+    ],
+    "explanation": "Die Anwendungsschicht stellt Netzwerkdienste bereit."
+  },
+  {
+    "id": "LF09-0246",
+    "question": "DNS arbeitet auf der Anwendungsschicht.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "DNS ist ein Protokoll der Anwendungsschicht."
+  },
+  {
+    "id": "LF09-0247",
+    "question": "Welche Aufgabe hat ARP im Netzwerk?",
+    "answers": [
+      { "text": "IP-Adresse in MAC-Adresse auflösen", "correct": true },
+      { "text": "MAC-Adresse in IP-Adresse umwandeln", "correct": false },
+      { "text": "Namensauflösung durchführen", "correct": false },
+      { "text": "Ports filtern", "correct": false }
+    ],
+    "explanation": "ARP ordnet IP-Adressen den passenden MAC-Adressen zu."
+  },
+  {
+    "id": "LF09-0248",
+    "question": "ARP-Anfragen werden per Broadcast gesendet.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "ARP nutzt Broadcasts im lokalen Netzwerk."
+  },
+  {
+    "id": "LF09-0249",
+    "question": "Welche Auswirkung hat eine hohe Netzwerklatenz?",
+    "answers": [
+      { "text": "Verzögerte Datenübertragung", "correct": true },
+      { "text": "Höhere Bandbreite", "correct": false },
+      { "text": "Mehr IP-Adressen", "correct": false },
+      { "text": "Weniger Pakete", "correct": false }
+    ],
+    "explanation": "Hohe Latenz erhöht die Antwortzeit."
+  },
+  {
+    "id": "LF09-0250",
+    "question": "Latenz beschreibt die Zeit zwischen Anfrage und Antwort.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Latenz ist eine Zeitangabe, z.B. in Millisekunden."
+  },
+  {
+    "id": "LF09-0251",
+    "question": "Welche Einheit beschreibt die Bandbreite eines Netzwerks?",
+    "answers": [
+      { "text": "Bit pro Sekunde", "correct": true },
+      { "text": "Byte", "correct": false },
+      { "text": "Millisekunden", "correct": false },
+      { "text": "Pakete", "correct": false }
+    ],
+    "explanation": "Bandbreite wird z.B. in Mbit/s angegeben."
+  },
+  {
+    "id": "LF09-0252",
+    "question": "Hohe Bandbreite bedeutet automatisch geringe Latenz.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Bandbreite und Latenz sind unterschiedliche Eigenschaften."
+  },
+  {
+    "id": "LF09-0253",
+    "question": "Welche Aufgabe hat ein Switch bei unbekannter Ziel-MAC-Adresse?",
+    "answers": [
+      { "text": "Frame an alle Ports senden", "correct": true },
+      { "text": "Frame verwerfen", "correct": false },
+      { "text": "Frame nur an Router senden", "correct": false },
+      { "text": "Routing durchführen", "correct": false }
+    ],
+    "explanation": "Unbekannte Zieladressen führen zu Flooding im Switch."
+  },
+  {
+    "id": "LF09-0254",
+    "question": "Flooding betrifft alle Ports außer dem Eingangsport.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Switches senden Frames nicht zurück an den Ursprung."
+  },
+  {
+    "id": "LF09-0255",
+    "question": "Welche Eigenschaft hat Full-Duplex?",
+    "answers": [
+      { "text": "Senden und Empfangen gleichzeitig", "correct": true },
+      { "text": "Nur eine Richtung gleichzeitig", "correct": false },
+      { "text": "Nur Empfang möglich", "correct": false },
+      { "text": "Nur Senden möglich", "correct": false }
+    ],
+    "explanation": "Full-Duplex erlaubt gleichzeitiges Senden und Empfangen."
+  },
+  {
+    "id": "LF09-0256",
+    "question": "Half-Duplex erlaubt gleichzeitiges Senden und Empfangen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Bei Half-Duplex ist immer nur eine Richtung aktiv."
+  },
+  {
+    "id": "LF09-0257",
+    "question": "Welche Aufgabe hat ein Hub?",
+    "answers": [
+      { "text": "Signale an alle Ports weiterleiten", "correct": true },
+      { "text": "Frames gezielt weiterleiten", "correct": false },
+      { "text": "Routing durchführen", "correct": false },
+      { "text": "Broadcasts filtern", "correct": false }
+    ],
+    "explanation": "Hubs arbeiten als einfache Verteiler."
+  },
+  {
+    "id": "LF09-0258",
+    "question": "Ein Hub arbeitet auf OSI-Layer 1.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Hubs arbeiten auf der Bitübertragungsschicht."
+  },
+  {
+    "id": "LF09-0259",
+    "question": "Welche Eigenschaft unterscheidet Switch und Hub?",
+    "answers": [
+      { "text": "Switch kennt MAC-Adressen", "correct": true },
+      { "text": "Hub nutzt VLANs", "correct": false },
+      { "text": "Hub filtert Pakete", "correct": false },
+      { "text": "Switch arbeitet auf Layer 1", "correct": false }
+    ],
+    "explanation": "Switches arbeiten MAC-basiert, Hubs nicht."
+  },
+  {
+    "id": "LF09-0260",
+    "question": "Hubs werden in modernen Netzwerken kaum noch eingesetzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Hubs sind ineffizient und sicherheitstechnisch problematisch."
+  },
+  {
+    "id": "LF09-0261",
+    "question": "Welche Aufgabe hat ein Switch bei bekannter Ziel-MAC-Adresse?",
+    "answers": [
+      { "text": "Frame gezielt weiterleiten", "correct": true },
+      { "text": "Frame an alle Ports senden", "correct": false },
+      { "text": "Routing durchführen", "correct": false },
+      { "text": "Frame verwerfen", "correct": false }
+    ],
+    "explanation": "Bei bekannter Ziel-MAC-Adresse sendet der Switch nur an den Zielport."
+  },
+  {
+    "id": "LF09-0262",
+    "question": "Ein Switch leitet Frames anhand der Ziel-MAC-Adresse weiter.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Die Forwarding-Entscheidung basiert auf der Ziel-MAC-Adresse."
+  },
+  {
+    "id": "LF09-0263",
+    "question": "Welche Aufgabe hat ein Repeater?",
+    "answers": [
+      { "text": "Signal verstärken", "correct": true },
+      { "text": "Frames filtern", "correct": false },
+      { "text": "Pakete routen", "correct": false },
+      { "text": "Broadcasts trennen", "correct": false }
+    ],
+    "explanation": "Repeater regenerieren elektrische oder optische Signale."
+  },
+  {
+    "id": "LF09-0264",
+    "question": "Ein Repeater arbeitet auf OSI-Layer 1.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Repeater gehören zur Bitübertragungsschicht."
+  },
+  {
+    "id": "LF09-0265",
+    "question": "Welche Aufgabe hat die Sekundärverkabelung?",
+    "answers": [
+      { "text": "Gebäude oder Etagen verbinden", "correct": true },
+      { "text": "Arbeitsplätze anschließen", "correct": false },
+      { "text": "Server direkt anbinden", "correct": false },
+      { "text": "Endgeräte versorgen", "correct": false }
+    ],
+    "explanation": "Die Sekundärverkabelung verbindet Gebäude oder Etagenverteiler."
+  },
+  {
+    "id": "LF09-0266",
+    "question": "Sekundärverkabelung wird auch als vertikale Verkabelung bezeichnet.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Sie verbindet Etagen- oder Gebäudeverteiler."
+  },
+  {
+    "id": "LF09-0267",
+    "question": "Welche Übertragungsart sendet Daten an eine definierte Gruppe?",
+    "answers": [
+      { "text": "Multicast", "correct": true },
+      { "text": "Unicast", "correct": false },
+      { "text": "Broadcast", "correct": false },
+      { "text": "Anycast", "correct": false }
+    ],
+    "explanation": "Multicast adressiert eine bestimmte Empfängergruppe."
+  },
+  {
+    "id": "LF09-0268",
+    "question": "Multicast reduziert unnötigen Netzwerkverkehr.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Nur Teilnehmer der Gruppe empfangen die Daten."
+  },
+  {
+    "id": "LF09-0269",
+    "question": "Welche IPv6-Adresse gehört zu den Link-Local-Adressen?",
+    "answers": [
+      { "text": "fe80::1", "correct": true },
+      { "text": "2001::1", "correct": false },
+      { "text": "ff02::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen beginnen mit fe80::/10."
+  },
+  {
+    "id": "LF09-0270",
+    "question": "IPv6-Link-Local-Adressen werden nicht geroutet.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen gelten nur im lokalen Netz."
+  },
+  {
+    "id": "LF09-0271",
+    "question": "Welche Aufgabe haben Router Advertisements bei IPv6?",
+    "answers": [
+      { "text": "Netzparameter mitteilen", "correct": true },
+      { "text": "MAC-Adressen lernen", "correct": false },
+      { "text": "DNS-Zonen verteilen", "correct": false },
+      { "text": "Ports freigeben", "correct": false }
+    ],
+    "explanation": "Router Advertisements informieren Clients über Präfixe und Gateways."
+  },
+  {
+    "id": "LF09-0272",
+    "question": "SLAAC benötigt keinen DHCPv6-Server.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "SLAAC nutzt Router Advertisements zur Adressvergabe."
+  },
+  {
+    "id": "LF09-0273",
+    "question": "Welche Eigenschaft hat SLAAC?",
+    "answers": [
+      { "text": "Automatische IPv6-Adressvergabe", "correct": true },
+      { "text": "Manuelle Konfiguration", "correct": false },
+      { "text": "IPv4-NAT", "correct": false },
+      { "text": "DNS-Auflösung", "correct": false }
+    ],
+    "explanation": "SLAAC konfiguriert IPv6-Adressen automatisch."
+  },
+  {
+    "id": "LF09-0274",
+    "question": "Welche Portnummer verwendet HTTP standardmäßig?",
+    "answers": [
+      { "text": "80", "correct": true },
+      { "text": "443", "correct": false },
+      { "text": "21", "correct": false },
+      { "text": "22", "correct": false }
+    ],
+    "explanation": "HTTP nutzt standardmäßig Port 80."
+  },
+  {
+    "id": "LF09-0275",
+    "question": "HTTPS nutzt standardmäßig Port 443.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "HTTPS verwendet Port 443."
+  },
+  {
+    "id": "LF09-0276",
+    "question": "Welche Eigenschaft hat FTP?",
+    "answers": [
+      { "text": "Steuer- und Datenverbindung", "correct": true },
+      { "text": "Nur eine Verbindung", "correct": false },
+      { "text": "Vollständig verschlüsselt", "correct": false },
+      { "text": "Nur UDP-basiert", "correct": false }
+    ],
+    "explanation": "FTP nutzt getrennte Steuer- und Datenkanäle."
+  },
+  {
+    "id": "LF09-0277",
+    "question": "FTP überträgt Daten standardmäßig unverschlüsselt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "FTP sendet Daten im Klartext."
+  },
+  {
+    "id": "LF09-0278",
+    "question": "Welche Aufgabe hat ein Portscanner?",
+    "answers": [
+      { "text": "Offene Ports erkennen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Routing durchführen", "correct": false },
+      { "text": "DNS-Zonen verwalten", "correct": false }
+    ],
+    "explanation": "Portscanner zeigen erreichbare Dienste."
+  },
+  {
+    "id": "LF09-0279",
+    "question": "Offene Ports können die Angriffsfläche erhöhen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Jeder offene Port kann ein Angriffsziel darstellen."
+  },
+  {
+    "id": "LF09-0280",
+    "question": "Port-Scanning wird häufig beim Troubleshooting eingesetzt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Portscanner helfen bei der Analyse erreichbarer Dienste."
+  },
+  {
+    "id": "LF09-0281",
+    "question": "Welche Aufgabe hat ICMP im IP-Netzwerk?",
+    "answers": [
+      { "text": "Fehler- und Statusmeldungen übertragen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Namen auflösen", "correct": false },
+      { "text": "Ports filtern", "correct": false }
+    ],
+    "explanation": "ICMP dient der Übermittlung von Status- und Fehlermeldungen."
+  },
+  {
+    "id": "LF09-0282",
+    "question": "Das Programm `ping` nutzt ICMP.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "`ping` verwendet ICMP Echo Requests und Echo Replies."
+  },
+  {
+    "id": "LF09-0283",
+    "question": "Welche Aufgabe hat ARP im lokalen Netz?",
+    "answers": [
+      { "text": "IP-Adresse in MAC-Adresse auflösen", "correct": true },
+      { "text": "Hostname in IP-Adresse auflösen", "correct": false },
+      { "text": "Pakete routen", "correct": false },
+      { "text": "Ports verwalten", "correct": false }
+    ],
+    "explanation": "ARP ordnet IPv4-Adressen den zugehörigen MAC-Adressen zu."
+  },
+  {
+    "id": "LF09-0284",
+    "question": "ARP-Anfragen werden per Broadcast gesendet.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "ARP nutzt Broadcasts innerhalb der Broadcast-Domain."
+  },
+  {
+    "id": "LF09-0285",
+    "question": "ARP funktioniert über Router hinweg.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "ARP ist auf das lokale Netzwerk beschränkt."
+  },
+  {
+    "id": "LF09-0286",
+    "question": "Welche Aufgabe hat NAT?",
+    "answers": [
+      { "text": "Private und öffentliche IP-Adressen umsetzen", "correct": true },
+      { "text": "Broadcasts filtern", "correct": false },
+      { "text": "DNS ersetzen", "correct": false },
+      { "text": "VLANs verbinden", "correct": false }
+    ],
+    "explanation": "NAT übersetzt private in öffentliche IP-Adressen."
+  },
+  {
+    "id": "LF09-0287",
+    "question": "PAT ist eine spezielle Form von NAT.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "PAT nutzt zusätzlich Portnummern zur Unterscheidung."
+  },
+  {
+    "id": "LF09-0288",
+    "question": "Welche Eigenschaft hat PAT?",
+    "answers": [
+      { "text": "Mehrere Hosts teilen sich eine öffentliche IP", "correct": true },
+      { "text": "Jeder Host benötigt eine eigene IP", "correct": false },
+      { "text": "Nur für IPv6 nutzbar", "correct": false },
+      { "text": "Ohne Ports", "correct": false }
+    ],
+    "explanation": "PAT unterscheidet Verbindungen über Portnummern."
+  },
+  {
+    "id": "LF09-0289",
+    "question": "IPv6 wurde entwickelt, um IPv4 zu ersetzen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IPv6 löst den begrenzten Adressraum von IPv4 ab."
+  },
+  {
+    "id": "LF09-0290",
+    "question": "Welche IPv6-Adresse ist die Loopback-Adresse?",
+    "answers": [
+      { "text": "::1", "correct": true },
+      { "text": "127.0.0.1", "correct": false },
+      { "text": "fe80::1", "correct": false },
+      { "text": "ff02::1", "correct": false }
+    ],
+    "explanation": "::1 ist die Loopback-Adresse in IPv6."
+  },
+  {
+    "id": "LF09-0291",
+    "question": "IPv6-Link-Local-Adressen beginnen mit fe80::.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen liegen im Bereich fe80::/10."
+  },
+  {
+    "id": "LF09-0292",
+    "question": "Welche Aufgabe hat SLAAC bei IPv6?",
+    "answers": [
+      { "text": "Automatische Adresskonfiguration", "correct": true },
+      { "text": "DNS-Auflösung", "correct": false },
+      { "text": "NAT für IPv6", "correct": false },
+      { "text": "Routing-Tabellen verteilen", "correct": false }
+    ],
+    "explanation": "SLAAC konfiguriert IPv6-Adressen automatisch."
+  },
+  {
+    "id": "LF09-0293",
+    "question": "SLAAC benötigt keinen DHCPv6-Server.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Die Konfiguration erfolgt über Router Advertisements."
+  },
+  {
+    "id": "LF09-0294",
+    "question": "Welche Portnummer nutzt HTTP standardmäßig?",
+    "answers": [
+      { "text": "80", "correct": true },
+      { "text": "443", "correct": false },
+      { "text": "21", "correct": false },
+      { "text": "22", "correct": false }
+    ],
+    "explanation": "HTTP verwendet standardmäßig Port 80."
+  },
+  {
+    "id": "LF09-0295",
+    "question": "HTTPS nutzt standardmäßig Port 443.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "HTTPS verwendet Port 443."
+  },
+  {
+    "id": "LF09-0296",
+    "question": "Welche Besonderheit hat FTP?",
+    "answers": [
+      { "text": "Getrennte Steuer- und Datenverbindung", "correct": true },
+      { "text": "Nur eine Verbindung", "correct": false },
+      { "text": "Vollständig verschlüsselt", "correct": false },
+      { "text": "Nur UDP-basierend", "correct": false }
+    ],
+    "explanation": "FTP nutzt zwei getrennte Verbindungen."
+  },
+  {
+    "id": "LF09-0297",
+    "question": "FTP überträgt Daten standardmäßig unverschlüsselt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "FTP sendet Daten im Klartext."
+  },
+  {
+    "id": "LF09-0298",
+    "question": "Welche Aufgabe hat ein Portscanner?",
+    "answers": [
+      { "text": "Offene Ports erkennen", "correct": true },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "DNS-Zonen verwalten", "correct": false },
+      { "text": "Routing durchführen", "correct": false }
+    ],
+    "explanation": "Portscanner zeigen erreichbare Netzwerkdienste."
+  },
+  {
+    "id": "LF09-0299",
+    "question": "Offene Ports können die Angriffsfläche eines Systems erhöhen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Jeder offene Port kann ein potenzielles Angriffsziel sein."
+  },
+  {
+    "id": "LF09-0300",
+    "question": "Welche Aussage zu offenen Ports ist korrekt?",
+    "answers": [
+      { "text": "Nicht benötigte Ports schließen", "correct": true },
+      { "text": "Offene Ports erhöhen Leistung", "correct": false },
+      { "text": "Nur bei Routern relevant", "correct": false },
+      { "text": "Keine Sicherheitsrelevanz", "correct": false }
+    ],
+    "explanation": "Nicht benötigte offene Ports erhöhen unnötig die Angriffsfläche."
+  },
+  {
+    "id": "LF09-0301",
+    "question": "Wie viele nutzbare Hosts hat ein /24-Netz?",
+    "answers": [
+      { "text": "254", "correct": true },
+      { "text": "256", "correct": false },
+      { "text": "255", "correct": false },
+      { "text": "128", "correct": false }
+    ],
+    "explanation": "/24 bietet 256 Adressen, davon 254 nutzbar."
+  },
+  {
+    "id": "LF09-0302",
+    "question": "Wie viele nutzbare Hosts hat ein /26-Netz?",
+    "answers": [
+      { "text": "62", "correct": true },
+      { "text": "64", "correct": false },
+      { "text": "30", "correct": false },
+      { "text": "126", "correct": false }
+    ],
+    "explanation": "/26 hat 64 Adressen, davon 62 nutzbar."
+  },
+  {
+    "id": "LF09-0303",
+    "question": "Welche Adresse ist die Netzadresse bei 192.168.1.64/26?",
+    "answers": [
+      { "text": "192.168.1.64", "correct": true },
+      { "text": "192.168.1.65", "correct": false },
+      { "text": "192.168.1.63", "correct": false },
+      { "text": "192.168.1.127", "correct": false }
+    ],
+    "explanation": "Die Netzadresse ist immer die erste Adresse des Subnetzes."
+  },
+  {
+    "id": "LF09-0304",
+    "question": "Welche Adresse ist in 192.168.0.0/30 nutzbar?",
+    "answers": [
+      { "text": "192.168.0.2", "correct": true },
+      { "text": "192.168.0.0", "correct": false },
+      { "text": "192.168.0.3", "correct": false },
+      { "text": "192.168.0.255", "correct": false }
+    ],
+    "explanation": "/30 bietet 2 nutzbare Hostadressen."
+  },
+  {
+    "id": "LF09-0305",
+    "question": "Welches ist das erste Subnetz bei 10.0.0.0/26?",
+    "answers": [
+      { "text": "10.0.0.0", "correct": true },
+      { "text": "10.0.0.64", "correct": false },
+      { "text": "10.0.0.1", "correct": false },
+      { "text": "10.0.0.255", "correct": false }
+    ],
+    "explanation": "Das erste Subnetz beginnt immer bei der Netzadresse."
+  },
+  {
+    "id": "LF09-0306",
+    "question": "Welche IPv6-Adresse ist gültig?",
+    "answers": [
+      { "text": "2001:db8::1", "correct": true },
+      { "text": "2001:::1", "correct": false },
+      { "text": "2001::db8::1", "correct": false },
+      { "text": "2001:db8:1", "correct": false }
+    ],
+    "explanation": "IPv6 erlaubt eine einmalige Kürzung zusammenhängender Nullen."
+  },
+  {
+    "id": "LF09-0307",
+    "question": "Welche Adresse ist korrekt gekürzt?",
+    "answers": [
+      { "text": "fe80::1", "correct": true },
+      { "text": "fe80:::1", "correct": false },
+      { "text": "fe80:0::1::", "correct": false },
+      { "text": "fe80", "correct": false }
+    ],
+    "explanation": "Doppelte Doppelpunkte sind nicht erlaubt."
+  },
+  {
+    "id": "LF09-0308",
+    "question": "Welche IPv6-Adresse ist die Loopback-Adresse?",
+    "answers": [
+      { "text": "::1", "correct": true },
+      { "text": "fe80::1", "correct": false },
+      { "text": "ff02::1", "correct": false },
+      { "text": "2001::1", "correct": false }
+    ],
+    "explanation": "::1 ist die IPv6-Loopback-Adresse."
+  },
+  {
+    "id": "LF09-0309",
+    "question": "Welche IPv6-Adresse ist Link-Local?",
+    "answers": [
+      { "text": "fe80::1", "correct": true },
+      { "text": "2001::1", "correct": false },
+      { "text": "ff00::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen beginnen mit fe80::/10."
+  },
+  {
+    "id": "LF09-0310",
+    "question": "Wie viele Subnetze entstehen bei /64?",
+    "answers": [
+      { "text": "Sehr viele", "correct": true },
+      { "text": "256", "correct": false },
+      { "text": "64", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "explanation": "IPv6 /64 bietet einen extrem großen Subnetzraum."
+  },
+  {
+    "id": "LF09-0311",
+    "question": "Wie viele nutzbare Hosts hat ein /27-Netz?",
+    "answers": [
+      { "text": "30", "correct": true },
+      { "text": "32", "correct": false },
+      { "text": "62", "correct": false },
+      { "text": "14", "correct": false }
+    ],
+    "explanation": "/27 bietet 32 Adressen, davon 30 nutzbar."
+  },
+  {
+    "id": "LF09-0312",
+    "question": "Welche Adresse ist Broadcast bei 192.168.1.0/26?",
+    "answers": [
+      { "text": "192.168.1.63", "correct": true },
+      { "text": "192.168.1.64", "correct": false },
+      { "text": "192.168.1.1", "correct": false },
+      { "text": "192.168.1.255", "correct": false }
+    ],
+    "explanation": "Bei /26 endet das erste Subnetz bei .63."
+  },
+  {
+    "id": "LF09-0313",
+    "question": "Welche Adresse ist in 10.0.0.0/30 nutzbar?",
+    "answers": [
+      { "text": "10.0.0.1", "correct": true },
+      { "text": "10.0.0.0", "correct": false },
+      { "text": "10.0.0.3", "correct": false },
+      { "text": "10.0.0.255", "correct": false }
+    ],
+    "explanation": "/30 hat genau zwei nutzbare Hostadressen."
+  },
+  {
+    "id": "LF09-0314",
+    "question": "Wie viele Subnetze entstehen aus einem /24 bei /26?",
+    "answers": [
+      { "text": "4", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "explanation": "/26 teilt ein /24 in vier Subnetze."
+  },
+  {
+    "id": "LF09-0315",
+    "question": "Welches Subnetz ist das 2. bei 192.168.0.0/26?",
+    "answers": [
+      { "text": "192.168.0.64", "correct": true },
+      { "text": "192.168.0.0", "correct": false },
+      { "text": "192.168.0.128", "correct": false },
+      { "text": "192.168.0.1", "correct": false }
+    ],
+    "explanation": "Subnetze steigen bei /26 in 64er-Schritten."
+  },
+  {
+    "id": "LF09-0316",
+    "question": "Welche IPv6-Adresse ist ungültig?",
+    "answers": [
+      { "text": "2001:::1", "correct": true },
+      { "text": "2001:db8::1", "correct": false },
+      { "text": "fe80::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Mehr als ein doppelter Doppelpunkt ist unzulässig."
+  },
+  {
+    "id": "LF09-0317",
+    "question": "Welche IPv6-Adressart empfängt Router Advertisements?",
+    "answers": [
+      { "text": "Multicast", "correct": true },
+      { "text": "Broadcast", "correct": false },
+      { "text": "Anycast", "correct": false },
+      { "text": "Loopback", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt Multicast für Router Advertisements."
+  },
+  {
+    "id": "LF09-0318",
+    "question": "Welche IPv6-Adresse ist Global Unicast?",
+    "answers": [
+      { "text": "2001:db8::1", "correct": true },
+      { "text": "fe80::1", "correct": false },
+      { "text": "ff02::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Global-Unicast-Adressen liegen z. B. im Bereich 2000::/3."
+  },
+  {
+    "id": "LF09-0319",
+    "question": "Welche IPv6-Adresse ist korrekt gekürzt?",
+    "answers": [
+      { "text": "2001:db8::1", "correct": true },
+      { "text": "2001::db8::1", "correct": false },
+      { "text": "2001:::1", "correct": false },
+      { "text": "2001:db8:1:", "correct": false }
+    ],
+    "explanation": "Nur eine zusammenhängende Nullsequenz darf gekürzt werden."
+  },
+  {
+    "id": "LF09-0320",
+    "question": "Welche Netz-ID gilt typischerweise bei IPv6?",
+    "answers": [
+      { "text": "/64", "correct": true },
+      { "text": "/48", "correct": false },
+      { "text": "/128", "correct": false },
+      { "text": "/32", "correct": false }
+    ],
+    "explanation": "/64 ist Standard bei IPv6-Subnetzen."
+  },
+  {
+    "id": "LF09-0321",
+    "question": "Wie viele Bits hat eine IPv6-Adresse?",
+    "answers": [
+      { "text": "128", "correct": true },
+      { "text": "64", "correct": false },
+      { "text": "32", "correct": false },
+      { "text": "256", "correct": false }
+    ],
+    "explanation": "IPv6-Adressen bestehen aus 128 Bit."
+  },
+  {
+    "id": "LF09-0322",
+    "question": "Welche IPv6-Adresse verweist immer auf das eigene System?",
+    "answers": [
+      { "text": "Loopback", "correct": true },
+      { "text": "Link-Local", "correct": false },
+      { "text": "Multicast", "correct": false },
+      { "text": "Global", "correct": false }
+    ],
+    "explanation": "Loopback-Adressen dienen der lokalen Kommunikation."
+  },
+  {
+    "id": "LF09-0323",
+    "question": "Welche IPv4-Maske entspricht /26?",
+    "answers": [
+      { "text": "255.255.255.192", "correct": true },
+      { "text": "255.255.255.0", "correct": false },
+      { "text": "255.255.255.224", "correct": false },
+      { "text": "255.255.255.128", "correct": false }
+    ],
+    "explanation": "/26 entspricht 192 im letzten Oktett."
+  },
+  {
+    "id": "LF09-0324",
+    "question": "Welches Subnetz folgt auf 192.168.1.128/26?",
+    "answers": [
+      { "text": "192.168.1.192", "correct": true },
+      { "text": "192.168.1.129", "correct": false },
+      { "text": "192.168.1.255", "correct": false },
+      { "text": "192.168.1.0", "correct": false }
+    ],
+    "explanation": "Subnetzgrenze bei /26 liegt im 64er-Rhythmus."
+  },
+  {
+    "id": "LF09-0325",
+    "question": "Welche IPv4-Adresse ist eine gültige Hostadresse?",
+    "answers": [
+      { "text": "192.168.1.10", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.255", "correct": false },
+      { "text": "255.255.255.0", "correct": false }
+    ],
+    "explanation": "Netz- und Broadcast-Adressen sind nicht nutzbar."
+  },
+  {
+    "id": "LF09-0326",
+    "question": "Welche IPv6-Adresse ist keine Unicast-Adresse?",
+    "answers": [
+      { "text": "ff02::1", "correct": true },
+      { "text": "2001::1", "correct": false },
+      { "text": "fe80::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "ff02::1 ist eine Multicast-Adresse."
+  },
+  {
+    "id": "LF09-0327",
+    "question": "Wie viele Hosts sind bei IPv6 /64 möglich?",
+    "answers": [
+      { "text": "Sehr viele", "correct": true },
+      { "text": "256", "correct": false },
+      { "text": "1024", "correct": false },
+      { "text": "65534", "correct": false }
+    ],
+    "explanation": "IPv6 stellt einen extrem großen Hostraum bereit."
+  },
+  {
+    "id": "LF09-0328",
+    "question": "Welche Aussage zu IPv6 ist korrekt?",
+    "answers": [
+      { "text": "Kein Broadcast", "correct": true },
+      { "text": "NAT erforderlich", "correct": false },
+      { "text": "32 Bit", "correct": false },
+      { "text": "Nur lokal", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt Multicast statt Broadcast."
+  },
+  {
+    "id": "LF09-0329",
+    "question": "Welche IPv4-Adresse ist privat?",
+    "answers": [
+      { "text": "10.0.0.1", "correct": true },
+      { "text": "8.8.8.8", "correct": false },
+      { "text": "1.1.1.1", "correct": false },
+      { "text": "9.9.9.9", "correct": false }
+    ],
+    "explanation": "10.0.0.0/8 ist ein privater IPv4-Bereich."
+  },
+  {
+    "id": "LF09-0330",
+    "question": "Welche Aussage zum IPv4-Subnetz /30 ist korrekt?",
+    "answers": [
+      { "text": "2 Hosts", "correct": true },
+      { "text": "14 Hosts", "correct": false },
+      { "text": "30 Hosts", "correct": false },
+      { "text": "62 Hosts", "correct": false }
+    ],
+    "explanation": "/30 bietet genau zwei nutzbare Hostadressen."
+  },
+  {
+    "id": "LF09-0331",
+    "question": "Wie viele IPv4-Subnetze entstehen aus /24 bei /27?",
+    "answers": [
+      { "text": "8", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "2", "correct": false }
+    ],
+    "explanation": "/27 teilt ein /24 in 8 gleich große Subnetze."
+  },
+  {
+    "id": "LF09-0332",
+    "question": "Welches ist das 3. Subnetz bei 192.168.0.0/26?",
+    "answers": [
+      { "text": "192.168.0.128", "correct": true },
+      { "text": "192.168.0.64", "correct": false },
+      { "text": "192.168.0.192", "correct": false },
+      { "text": "192.168.0.1", "correct": false }
+    ],
+    "explanation": "Subnetze steigen bei /26 in 64er-Schritten."
+  },
+  {
+    "id": "LF09-0333",
+    "question": "Welche Adresse ist Broadcast bei 10.0.0.64/26?",
+    "answers": [
+      { "text": "10.0.0.127", "correct": true },
+      { "text": "10.0.0.64", "correct": false },
+      { "text": "10.0.0.65", "correct": false },
+      { "text": "10.0.0.255", "correct": false }
+    ],
+    "explanation": "Broadcast ist immer die letzte Adresse des Subnetzes."
+  },
+  {
+    "id": "LF09-0334",
+    "question": "Welche IPv4-Adresse ist Netzadresse?",
+    "answers": [
+      { "text": "192.168.2.0", "correct": true },
+      { "text": "192.168.2.1", "correct": false },
+      { "text": "192.168.2.254", "correct": false },
+      { "text": "192.168.2.255", "correct": false }
+    ],
+    "explanation": "Die Netzadresse endet bei /24 immer auf .0."
+  },
+  {
+    "id": "LF09-0335",
+    "question": "Wofür wird ein /30-Netz typischerweise genutzt?",
+    "answers": [
+      { "text": "Punkt-zu-Punkt", "correct": true },
+      { "text": "Client-Netz", "correct": false },
+      { "text": "WLAN", "correct": false },
+      { "text": "DMZ", "correct": false }
+    ],
+    "explanation": "/30 eignet sich für Router-Verbindungen."
+  },
+  {
+    "id": "LF09-0336",
+    "question": "Welche IPv6-Adresse ist keine gültige Schreibweise?",
+    "answers": [
+      { "text": "2001::db8::1", "correct": true },
+      { "text": "2001:db8::1", "correct": false },
+      { "text": "fe80::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Die 0-Kürzung (::) darf nur einmal verwendet werden."
+  },
+  {
+    "id": "LF09-0337",
+    "question": "Welche IPv6-Adresse ist Multicast?",
+    "answers": [
+      { "text": "ff02::2", "correct": true },
+      { "text": "fe80::2", "correct": false },
+      { "text": "2001::2", "correct": false },
+      { "text": "::2", "correct": false }
+    ],
+    "explanation": "IPv6-Multicast beginnt mit ff."
+  },
+  {
+    "id": "LF09-0338",
+    "question": "Welche IPv6-Adresse ist Link-Local?",
+    "answers": [
+      { "text": "fe80::abcd", "correct": true },
+      { "text": "2001::abcd", "correct": false },
+      { "text": "ff02::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen beginnen mit fe80::."
+  },
+  {
+    "id": "LF09-0339",
+    "question": "Welche IPv6-Adresse ist Global Unicast?",
+    "answers": [
+      { "text": "2001::1", "correct": true },
+      { "text": "fe80::1", "correct": false },
+      { "text": "ff02::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Global Unicast liegt im Bereich 2000::/3."
+  },
+  {
+    "id": "LF09-0340",
+    "question": "Welche Aussage zu IPv6 ist korrekt?",
+    "answers": [
+      { "text": "Kein Broadcast", "correct": true },
+      { "text": "IPv4-Erweiterung", "correct": false },
+      { "text": "32 Bit", "correct": false },
+      { "text": "Nur lokal", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt Multicast anstelle von Broadcast."
+  },
+  {
+    "id": "LF09-0341",
+    "question": "Welche Prefix-Länge ist Standard bei IPv6?",
+    "answers": [
+      { "text": "/64", "correct": true },
+      { "text": "/48", "correct": false },
+      { "text": "/128", "correct": false },
+      { "text": "/32", "correct": false }
+    ],
+    "explanation": "/64 ist der Standard für IPv6-Subnetze."
+  },
+  {
+    "id": "LF09-0342",
+    "question": "Welche IPv4-Adresse ist ungültig als Host?",
+    "answers": [
+      { "text": "192.168.1.0", "correct": true },
+      { "text": "192.168.1.10", "correct": false },
+      { "text": "192.168.1.20", "correct": false },
+      { "text": "192.168.1.30", "correct": false }
+    ],
+    "explanation": ".0 ist bei /24 die Netzadresse."
+  },
+  {
+    "id": "LF09-0343",
+    "question": "Welche Maske passt zu 30 Hosts?",
+    "answers": [
+      { "text": "/27", "correct": true },
+      { "text": "/26", "correct": false },
+      { "text": "/28", "correct": false },
+      { "text": "/24", "correct": false }
+    ],
+    "explanation": "/27 bietet genau 30 nutzbare Hosts."
+  },
+  {
+    "id": "LF09-0344",
+    "question": "Welche Aussage zu /26 ist korrekt?",
+    "answers": [
+      { "text": "64er Schritte", "correct": true },
+      { "text": "32er Schritte", "correct": false },
+      { "text": "16er Schritte", "correct": false },
+      { "text": "8er Schritte", "correct": false }
+    ],
+    "explanation": "Bei /26 steigen Subnetze im 64er-Rhythmus."
+  },
+  {
+    "id": "LF09-0345",
+    "question": "Welche Aufgabe hat die IPv6-Loopback-Adresse?",
+    "answers": [
+      { "text": "Lokaler Test", "correct": true },
+      { "text": "Routing", "correct": false },
+      { "text": "Gateway", "correct": false },
+      { "text": "Multicast", "correct": false }
+    ],
+    "explanation": "Loopback wird für lokale Tests verwendet."
+  },
+  {
+    "id": "LF09-0346",
+    "question": "Welche IPv6-Adresse ist ungültig?",
+    "answers": [
+      { "text": "fe80:::1", "correct": true },
+      { "text": "fe80::1", "correct": false },
+      { "text": "2001::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Mehr als zwei Doppelpunkte hintereinander sind nicht erlaubt."
+  },
+  {
+    "id": "LF09-0347",
+    "question": "Welches Subnetz folgt auf 10.0.0.128/26?",
+    "answers": [
+      { "text": "10.0.0.192", "correct": true },
+      { "text": "10.0.0.129", "correct": false },
+      { "text": "10.0.0.255", "correct": false },
+      { "text": "10.0.0.0", "correct": false }
+    ],
+    "explanation": "Subnetzgrenzen folgen dem 64er-Raster."
+  },
+  {
+    "id": "LF09-0348",
+    "question": "Welche IPv6-Adresse ist keine Unicast-Adresse?",
+    "answers": [
+      { "text": "ff00::1", "correct": true },
+      { "text": "2001::1", "correct": false },
+      { "text": "fe80::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "ff00::/8 kennzeichnet Multicast."
+  },
+  {
+    "id": "LF09-0349",
+    "question": "Welche Adresse ist bei /24 Broadcast?",
+    "answers": [
+      { "text": "192.168.1.255", "correct": true },
+      { "text": "192.168.1.254", "correct": false },
+      { "text": "192.168.1.1", "correct": false },
+      { "text": "192.168.1.0", "correct": false }
+    ],
+    "explanation": ".255 ist bei /24 die Broadcast-Adresse."
+  },
+  {
+    "id": "LF09-0350",
+    "question": "Welche Aussage zu IPv4-Subnetting ist korrekt?",
+    "answers": [
+      { "text": "Netzadresse unbrauchbar", "correct": true },
+      { "text": "Alle Adressen nutzbar", "correct": false },
+      { "text": "Broadcast nutzbar", "correct": false },
+      { "text": "Keine Netz-ID", "correct": false }
+    ],
+    "explanation": "Netz- und Broadcast-Adresse sind nicht nutzbar."
+  },
+  {
+    "id": "LF09-0351",
+    "question": "Wie viele nutzbare Hosts hat ein /28-Netz?",
+    "answers": [
+      { "text": "14", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "30", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "explanation": "/28 besitzt 16 Adressen, davon 14 nutzbar."
+  },
+  {
+    "id": "LF09-0352",
+    "question": "Welche Adresse ist Broadcast bei 192.168.2.64/28?",
+    "answers": [
+      { "text": "192.168.2.79", "correct": true },
+      { "text": "192.168.2.64", "correct": false },
+      { "text": "192.168.2.65", "correct": false },
+      { "text": "192.168.2.255", "correct": false }
+    ],
+    "explanation": "Bei /28 steigen Subnetze in 16er-Schritten."
+  },
+  {
+    "id": "LF09-0353",
+    "question": "Welche IPv4-Adresse ist Hostadresse?",
+    "answers": [
+      { "text": "10.0.1.10", "correct": true },
+      { "text": "10.0.1.0", "correct": false },
+      { "text": "10.0.1.255", "correct": false },
+      { "text": "255.255.255.0", "correct": false }
+    ],
+    "explanation": ".0 und .255 sind reserviert."
+  },
+  {
+    "id": "LF09-0354",
+    "question": "Welche Maske passt zu 14 Hosts?",
+    "answers": [
+      { "text": "/28", "correct": true },
+      { "text": "/27", "correct": false },
+      { "text": "/29", "correct": false },
+      { "text": "/26", "correct": false }
+    ],
+    "explanation": "/28 bietet genau 14 Hosts."
+  },
+  {
+    "id": "LF09-0355",
+    "question": "Wie viele Subnetze aus /24 bei /28?",
+    "answers": [
+      { "text": "16", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "32", "correct": false }
+    ],
+    "explanation": "/28 teilt ein /24 in 16 Subnetze."
+  },
+  {
+    "id": "LF09-0356",
+    "question": "Welche IPv6-Adresse ist ungültig?",
+    "answers": [
+      { "text": "2001::1::5", "correct": true },
+      { "text": "2001:db8::1", "correct": false },
+      { "text": "fe80::5", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Mehr als eine ::‑Kürzung ist unzulässig."
+  },
+  {
+    "id": "LF09-0357",
+    "question": "Welche IPv6-Adresse ist Multicast?",
+    "answers": [
+      { "text": "ff05::1", "correct": true },
+      { "text": "fe80::1", "correct": false },
+      { "text": "2001::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Multicast beginnt mit ff."
+  },
+  {
+    "id": "LF09-0358",
+    "question": "Welche IPv6-Adresse ist Link-Local?",
+    "answers": [
+      { "text": "fe80::1234", "correct": true },
+      { "text": "2001::1234", "correct": false },
+      { "text": "ff02::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Link‑Local nutzt fe80::/10."
+  },
+  {
+    "id": "LF09-0359",
+    "question": "Welche Aussage zu IPv6 ist korrekt?",
+    "answers": [
+      { "text": "Kein NAT nötig", "correct": true },
+      { "text": "Broadcast Pflicht", "correct": false },
+      { "text": "32 Bit", "correct": false },
+      { "text": "Nur lokal", "correct": false }
+    ],
+    "explanation": "IPv6 ist für Ende‑zu‑Ende‑Kommunikation gedacht."
+  },
+  {
+    "id": "LF09-0360",
+    "question": "Welche IPv6-Adresse ist Global Unicast?",
+    "answers": [
+      { "text": "2001:db8::5", "correct": true },
+      { "text": "fe80::5", "correct": false },
+      { "text": "ff02::5", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "Global Unicast liegt im Bereich 2000::/3."
+  },
+  {
+    "id": "LF09-0361",
+    "question": "Welche Subnetzgröße hat /26?",
+    "answers": [
+      { "text": "64 Adressen", "correct": true },
+      { "text": "32 Adressen", "correct": false },
+      { "text": "128 Adressen", "correct": false },
+      { "text": "16 Adressen", "correct": false }
+    ],
+    "explanation": "/26 bedeutet 2^(32−26)=64."
+  },
+  {
+    "id": "LF09-0362",
+    "question": "Was beschreibt die Netzadresse eines Subnetzes?",
+    "answers": [
+      { "text": "Subnetzbeginn", "correct": true },
+      { "text": "Broadcast", "correct": false },
+      { "text": "Erster Host", "correct": false },
+      { "text": "Gateway", "correct": false }
+    ],
+    "explanation": "Die Netzadresse kennzeichnet den Beginn eines Subnetzes."
+  },
+  {
+    "id": "LF09-0363",
+    "question": "Welche IPv4-Adresse ist keine Hostadresse?",
+    "answers": [
+      { "text": "172.16.0.0", "correct": true },
+      { "text": "172.16.0.1", "correct": false },
+      { "text": "172.16.0.10", "correct": false },
+      { "text": "172.16.0.50", "correct": false }
+    ],
+    "explanation": ".0 ist die Netzadresse."
+  },
+  {
+    "id": "LF09-0364",
+    "question": "Welche Maske passt zu 62 Hosts?",
+    "answers": [
+      { "text": "/26", "correct": true },
+      { "text": "/27", "correct": false },
+      { "text": "/25", "correct": false },
+      { "text": "/28", "correct": false }
+    ],
+    "explanation": "/26 bietet 62 nutzbare Hosts."
+  },
+  {
+    "id": "LF09-0365",
+    "question": "Welche IPv6-Adresse ist korrekt gekürzt?",
+    "answers": [
+      { "text": "2001:db8::a", "correct": true },
+      { "text": "2001:::a", "correct": false },
+      { "text": "2001::db8::a", "correct": false },
+      { "text": "2001:db8:a:", "correct": false }
+    ],
+    "explanation": "Nur eine Nullsequenz darf gekürzt werden."
+  },
+  {
+    "id": "LF09-0366",
+    "question": "Welche IPv6-Adresse ist keine Multicast-Adresse?",
+    "answers": [
+      { "text": "fe80::1", "correct": true },
+      { "text": "ff02::1", "correct": false },
+      { "text": "ff05::2", "correct": false },
+      { "text": "ff00::1", "correct": false }
+    ],
+    "explanation": "fe80:: ist Link‑Local, nicht Multicast."
+  },
+  {
+    "id": "LF09-0367",
+    "question": "Welches Subnetz folgt auf 192.168.3.0/28?",
+    "answers": [
+      { "text": "192.168.3.16", "correct": true },
+      { "text": "192.168.3.1", "correct": false },
+      { "text": "192.168.3.15", "correct": false },
+      { "text": "192.168.3.255", "correct": false }
+    ],
+    "explanation": "/28 nutzt 16er‑Schritte."
+  },
+  {
+    "id": "LF09-0368",
+    "question": "Welche Aussage zu subnetting ist korrekt?",
+    "answers": [
+      { "text": "Broadcast reserviert", "correct": true },
+      { "text": "Alle Adressen nutzbar", "correct": false },
+      { "text": "Netzadresse nutzbar", "correct": false },
+      { "text": "Kein Gateway nötig", "correct": false }
+    ],
+    "explanation": "Broadcast‑Adressen sind nicht nutzbar."
+  },
+  {
+    "id": "LF09-0369",
+    "question": "Welche IPv6-Adresse ist gültig?",
+    "answers": [
+      { "text": "fd00::1", "correct": true },
+      { "text": "fd00:::1", "correct": false },
+      { "text": "fd00::1::", "correct": false },
+      { "text": "fd00", "correct": false }
+    ],
+    "explanation": "fd00:: gehört zu Unique‑Local‑Adressen."
+  },
+  {
+    "id": "LF09-0370",
+    "question": "Welche IPv6-Adressart ist fd00::1?",
+    "answers": [
+      { "text": "Unique Local", "correct": true },
+      { "text": "Multicast", "correct": false },
+      { "text": "Link-Local", "correct": false },
+      { "text": "Loopback", "correct": false }
+    ],
+    "explanation": "fd00::/8 ist für private IPv6‑Netze gedacht."
+  },
+  {
+    "id": "LF09-0371",
+    "question": "Wie viele nutzbare Hosts hat ein /25-Netz?",
+    "answers": [
+      { "text": "126", "correct": true },
+      { "text": "128", "correct": false },
+      { "text": "254", "correct": false },
+      { "text": "62", "correct": false }
+    ],
+    "explanation": "/25 hat 128 Adressen, davon 126 nutzbar."
+  },
+  {
+    "id": "LF09-0372",
+    "question": "Welche Adresse ist Broadcast bei 192.168.4.0/25?",
+    "answers": [
+      { "text": "192.168.4.127", "correct": true },
+      { "text": "192.168.4.128", "correct": false },
+      { "text": "192.168.4.1", "correct": false },
+      { "text": "192.168.4.255", "correct": false }
+    ],
+    "explanation": "Bei /25 endet das erste Subnetz bei .127."
+  },
+  {
+    "id": "LF09-0373",
+    "question": "Welche Maske passt zu ca. 100 Hosts?",
+    "answers": [
+      { "text": "/25", "correct": true },
+      { "text": "/26", "correct": false },
+      { "text": "/24", "correct": false },
+      { "text": "/27", "correct": false }
+    ],
+    "explanation": "/25 bietet 126 nutzbare Hosts."
+  },
+  {
+    "id": "LF09-0374",
+    "question": "Welches Subnetz folgt auf 192.168.4.128/25?",
+    "answers": [
+      { "text": "192.168.4.0", "correct": false },
+      { "text": "192.168.5.0", "correct": true },
+      { "text": "192.168.4.129", "correct": false },
+      { "text": "192.168.4.255", "correct": false }
+    ],
+    "explanation": "/25 deckt zwei Subnetze pro /24 ab."
+  },
+  {
+    "id": "LF09-0375",
+    "question": "Welche IPv4-Adresse ist keine Hostadresse?",
+    "answers": [
+      { "text": "10.1.0.0", "correct": true },
+      { "text": "10.1.0.10", "correct": false },
+      { "text": "10.1.0.20", "correct": false },
+      { "text": "10.1.0.30", "correct": false }
+    ],
+    "explanation": ".0 ist die Netzadresse."
+  },
+  {
+    "id": "LF09-0376",
+    "question": "Welche IPv6-Adresse ist korrekt?",
+    "answers": [
+      { "text": "2001:db8::10", "correct": true },
+      { "text": "2001:::10", "correct": false },
+      { "text": "2001::db8::10", "correct": false },
+      { "text": "2001:db8:10:", "correct": false }
+    ],
+    "explanation": "Die ::‑Kürzung ist nur einmal erlaubt."
+  },
+  {
+    "id": "LF09-0377",
+    "question": "Welche IPv6-Adressart ersetzt ARP?",
+    "answers": [
+      { "text": "Multicast", "correct": true },
+      { "text": "Broadcast", "correct": false },
+      { "text": "Unicast", "correct": false },
+      { "text": "Loopback", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt Multicast statt ARP-Broadcast."
+  },
+  {
+    "id": "LF09-0378",
+    "question": "Welche IPv6-Adresse ist Unique Local?",
+    "answers": [
+      { "text": "fd12::1", "correct": true },
+      { "text": "fe80::1", "correct": false },
+      { "text": "ff02::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "fd00::/8 ist für private IPv6‑Netze."
+  },
+  {
+    "id": "LF09-0379",
+    "question": "Welche Aussage zu IPv6 ist korrekt?",
+    "answers": [
+      { "text": "128 Bit", "correct": true },
+      { "text": "32 Bit", "correct": false },
+      { "text": "Broadcast nötig", "correct": false },
+      { "text": "Nur NAT", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt 128‑Bit‑Adressen."
+  },
+  {
+    "id": "LF09-0380",
+    "question": "Welche IPv6-Adresse ist Link-Local?",
+    "answers": [
+      { "text": "fe80::abcd", "correct": true },
+      { "text": "fd00::abcd", "correct": false },
+      { "text": "2001::abcd", "correct": false },
+      { "text": "ff02::abcd", "correct": false }
+    ],
+    "explanation": "Link‑Local beginnt mit fe80::."
+  },
+  {
+    "id": "LF09-0381",
+    "question": "Wie viele Subnetze entstehen aus /24 bei /25?",
+    "answers": [
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "explanation": "/25 halbiert ein /24."
+  },
+  {
+    "id": "LF09-0382",
+    "question": "Welche IPv4-Adresse ist Host bei /24?",
+    "answers": [
+      { "text": "192.168.10.25", "correct": true },
+      { "text": "192.168.10.0", "correct": false },
+      { "text": "192.168.10.255", "correct": false },
+      { "text": "255.255.255.0", "correct": false }
+    ],
+    "explanation": "Nur Netz- und Broadcast sind gesperrt."
+  },
+  {
+    "id": "LF09-0383",
+    "question": "Welche Maske passt zu 60 Hosts?",
+    "answers": [
+      { "text": "/26", "correct": true },
+      { "text": "/25", "correct": false },
+      { "text": "/27", "correct": false },
+      { "text": "/28", "correct": false }
+    ],
+    "explanation": "/26 bietet 62 nutzbare Hosts."
+  },
+  {
+    "id": "LF09-0384",
+    "question": "Welche Aussage zu /28 ist bei IPv4 Subnetting korrekt?",
+    "answers": [
+      { "text": "16er Schritte", "correct": true },
+      { "text": "32er Schritte", "correct": false },
+      { "text": "64er Schritte", "correct": false },
+      { "text": "8er Schritte", "correct": false }
+    ],
+    "explanation": "/28 nutzt 16er‑Subnetzschritte."
+  },
+  {
+    "id": "LF09-0385",
+    "question": "Welche IPv6-Adresse ist ungültig?",
+    "answers": [
+      { "text": "ff02:::1", "correct": true },
+      { "text": "ff02::1", "correct": false },
+      { "text": "fe80::1", "correct": false },
+      { "text": "::1", "correct": false }
+    ],
+    "explanation": "::: ist keine gültige Schreibweise."
+  },
+  {
+    "id": "LF09-0386",
+    "question": "Welche IPv6‑Adressart ersetzt Broadcast?",
+    "answers": [
+      { "text": "Multicast", "correct": true },
+      { "text": "Unicast", "correct": false },
+      { "text": "Anycast", "correct": false },
+      { "text": "Loopback", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt Multicast statt Broadcast."
+  },
+  {
+    "id": "LF09-0387",
+    "question": "Welche IPv4-Adresse ist privat?",
+    "answers": [
+      { "text": "172.16.5.10", "correct": true },
+      { "text": "8.8.8.8", "correct": false },
+      { "text": "1.1.1.1", "correct": false },
+      { "text": "9.9.9.9", "correct": false }
+    ],
+    "explanation": "172.16.0.0/12 ist privat."
+  },
+  {
+    "id": "LF09-0388",
+    "question": "Welche Adresse identifiziert ein Subnetz eindeutig?",
+    "answers": [
+      { "text": "Netzadresse", "correct": true },
+      { "text": "Broadcast", "correct": false },
+      { "text": "Gateway", "correct": false },
+      { "text": "Letzter Host", "correct": false }
+    ],
+    "explanation": "Die Netzadresse wird zur Identifikation genutzt."
+  },
+  {
+    "id": "LF09-0389",
+    "question": "Welche IPv6-Adresse ist gültig?",
+    "answers": [
+      { "text": "fdab:1234::1", "correct": true },
+      { "text": "fdab:::1", "correct": false },
+      { "text": "fdab::1::", "correct": false },
+      { "text": "fdab", "correct": false }
+    ],
+    "explanation": "fdab:: gehört zu Unique‑Local."
+  },
+  {
+    "id": "LF09-0390",
+    "question": "Welche Eigenschaft macht /30 effizient?",
+    "answers": [
+      { "text": "Wenig Adressen", "correct": true },
+      { "text": "Großes Netz", "correct": false },
+      { "text": "Viele Hosts", "correct": false },
+      { "text": "Broadcastfrei", "correct": false }
+    ],
+    "explanation": "/30 spart Adressen bei Punkt-zu-Punkt-Links."
+  },
+  {
+    "id": "LF09-0391",
+    "question": "Welche Maske passt zu 6 Hosts?",
+    "answers": [
+      { "text": "/29", "correct": true },
+      { "text": "/28", "correct": false },
+      { "text": "/30", "correct": false },
+      { "text": "/27", "correct": false }
+    ],
+    "explanation": "/29 bietet 8 Adressen, davon 6 nutzbar."
+  },
+  {
+    "id": "LF09-0392",
+    "question": "Welche Adresse ist Broadcast bei 10.0.0.8/29?",
+    "answers": [
+      { "text": "10.0.0.15", "correct": true },
+      { "text": "10.0.0.8", "correct": false },
+      { "text": "10.0.0.9", "correct": false },
+      { "text": "10.0.0.255", "correct": false }
+    ],
+    "explanation": "/29 nutzt 8er‑Schritte."
+  },
+  {
+    "id": "LF09-0393",
+    "question": "Welche IPv4-Adresse ist Hostadresse?",
+    "answers": [
+      { "text": "192.168.5.14", "correct": true },
+      { "text": "192.168.5.0", "correct": false },
+      { "text": "192.168.5.15", "correct": false },
+      { "text": "255.255.255.248", "correct": false }
+    ],
+    "explanation": "Netz‑ und Broadcast‑Adresse sind nicht nutzbar."
+  },
+  {
+    "id": "LF09-0394",
+    "question": "Welche IPv6-Adressart wird für Gruppenkommunikation genutzt?",
+    "answers": [
+      { "text": "Multicast", "correct": true },
+      { "text": "Anycast", "correct": false },
+      { "text": "Unicast", "correct": false },
+      { "text": "Link-Local", "correct": false }
+    ],
+    "explanation": "Multicast adressiert eine definierte Empfängergruppe."
+  },
+  {
+    "id": "LF09-0395",
+    "question": "Welche IPv6-Adresse ist korrekt gekürzt?",
+    "answers": [
+      { "text": "2001:db8::5", "correct": true },
+      { "text": "2001:::5", "correct": false },
+      { "text": "2001::db8::5", "correct": false },
+      { "text": "2001:db8:5:", "correct": false }
+    ],
+    "explanation": "Nur eine zusammenhängende Nullsequenz darf gekürzt werden."
+  },
+  {
+    "id": "LF09-0396",
+    "question": "Welche IPv6-Adressart ist fe80::1?",
+    "answers": [
+      { "text": "Link-Local", "correct": true },
+      { "text": "Global Unicast", "correct": false },
+      { "text": "Multicast", "correct": false },
+      { "text": "Loopback", "correct": false }
+    ],
+    "explanation": "fe80::/10 kennzeichnet Link‑Local."
+  },
+  {
+    "id": "LF09-0397",
+    "question": "Welche Aussage zu IPv6 ist korrekt?",
+    "answers": [
+      { "text": "Multicast statt Broadcast", "correct": true },
+      { "text": "Broadcast erforderlich", "correct": false },
+      { "text": "32 Bit", "correct": false },
+      { "text": "Nur NAT", "correct": false }
+    ],
+    "explanation": "IPv6 verzichtet auf Broadcast."
+  },
+  {
+    "id": "LF09-0398",
+    "question": "Welche IPv4-Adresse ist privat?",
+    "answers": [
+      { "text": "192.168.10.1", "correct": true },
+      { "text": "8.8.8.8", "correct": false },
+      { "text": "1.1.1.1", "correct": false },
+      { "text": "9.9.9.9", "correct": false }
+    ],
+    "explanation": "192.168.0.0/16 ist privat."
+  },
+  {
+    "id": "LF09-0399",
+    "question": "Welche IPv4-Adresse ist niemals einem Host zuweisbar?",
+    "answers": [
+      { "text": "Netzadresse", "correct": true },
+      { "text": "Erster Host", "correct": false },
+      { "text": "Letzter Host", "correct": false },
+      { "text": "Gateway", "correct": false }
+    ],
+    "explanation": "Die Netzadresse ist reserviert."
+  },
+  {
+    "id": "LF09-0400",
+    "question": "Welche Eigenschaft hat ein /29-Netz?",
+    "answers": [
+      { "text": "6 Hosts", "correct": true },
+      { "text": "2 Hosts", "correct": false },
+      { "text": "14 Hosts", "correct": false },
+      { "text": "30 Hosts", "correct": false }
+    ],
+    "explanation": "/29 stellt 6 nutzbare Hostadressen bereit."
+  },
+  {
+    "id": "LF09-0401",
+    "question": "DNS übersetzt Hostnamen in IP-Adressen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "DNS dient der Namensauflösung."
+  },
+  {
+    "id": "LF09-0402",
+    "question": "Ein Router verbindet unterschiedliche IP-Netzwerke.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Router arbeiten auf OSI-Layer 3."
+  },
+  {
+    "id": "LF09-0403",
+    "question": "Switches leiten Frames anhand von MAC-Adressen weiter.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Switching erfolgt auf Layer 2."
+  },
+  {
+    "id": "LF09-0404",
+    "question": "IPv6-Adressen werden hexadezimal dargestellt.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt hexadezimale Gruppen."
+  },
+  {
+    "id": "LF09-0405",
+    "question": "DHCP ermöglicht die automatische IP-Konfiguration von Clients.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "DHCP verteilt IP-Parameter automatisch."
+  },
+  {
+    "id": "LF09-0406",
+    "question": "Firewalls überwachen den ein- und ausgehenden Netzwerkverkehr.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Firewalls filtern Traffic anhand von Regeln."
+  },
+  {
+    "id": "LF09-0407",
+    "question": "Ein VLAN trennt logische Broadcast-Domänen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "VLANs segmentieren Netze logisch."
+  },
+  {
+    "id": "LF09-0408",
+    "question": "IPv6 nutzt Multicast anstelle von Broadcast.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "IPv6 kennt kein Broadcast."
+  },
+  {
+    "id": "LF09-0409",
+    "question": "ARP ordnet IPv4-Adressen MAC-Adressen zu.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "ARP verbindet Layer 3 mit Layer 2."
+  },
+  {
+    "id": "LF09-0410",
+    "question": "ICMP dient der Netzwerkdiagnose.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "ICMP meldet Fehler und Status."
+  },
+  {
+    "id": "LF09-0411",
+    "question": "Routing basiert auf IP-Adressen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Router arbeiten IP-basiert."
+  },
+  {
+    "id": "LF09-0412",
+    "question": "Eine DMZ trennt öffentliche von internen Systemen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "DMZ erhöht die Netzwerksicherheit."
+  },
+  {
+    "id": "LF09-0413",
+    "question": "SSH ermöglicht verschlüsselten Fernzugriff.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "SSH arbeitet verschlüsselt."
+  },
+  {
+    "id": "LF09-0414",
+    "question": "HTTPS verschlüsselt die Datenübertragung.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "HTTPS nutzt TLS."
+  },
+  {
+    "id": "LF09-0415",
+    "question": "Subnetting teilt Netzwerke in kleinere Netze.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Subnetze erhöhen Struktur und Effizienz."
+  },
+  {
+    "id": "LF09-0416",
+    "question": "MAC-Adressen werden auf OSI-Layer 2 verwendet.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Layer 2 ist die Sicherungsschicht."
+  },
+  {
+    "id": "LF09-0417",
+    "question": "UDP ist verbindungslos.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "UDP verzichtet auf Verbindungsaufbau."
+  },
+  {
+    "id": "LF09-0418",
+    "question": "TCP stellt eine zuverlässige Übertragung sicher.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "TCP nutzt Bestätigungen und Reihenfolge."
+  },
+  {
+    "id": "LF09-0419",
+    "question": "Link-Local-Adressen sind nur im lokalen Netz gültig.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Link-Local wird nicht geroutet."
+  },
+  {
+    "id": "LF09-0420",
+    "question": "Monitoring überwacht den Zustand von Systemen.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Monitoring erkennt Probleme frühzeitig."
+  },
+  {
+    "id": "LF09-0421",
+    "question": "Private IPv4-Adressen sind direkt im Internet erreichbar.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Private IPs sind nicht öffentlich routbar."
+  },
+  {
+    "id": "LF09-0422",
+    "question": "Ein DNS-Server vergibt IP-Adressen an Clients.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "DHCP vergibt IP-Adressen."
+  },
+  {
+    "id": "LF09-0423",
+    "question": "Ein Switch trifft Weiterleitungsentscheidungen anhand von IP-Adressen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Switches arbeiten MAC-basiert."
+  },
+  {
+    "id": "LF09-0424",
+    "question": "IPv4-Broadcasts werden von Routern weitergeleitet.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Router trennen Broadcast-Domänen."
+  },
+  {
+    "id": "LF09-0425",
+    "question": "Hohe Bandbreite garantiert geringe Latenz.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Bandbreite und Latenz sind unabhängig."
+  },
+  {
+    "id": "LF09-0426",
+    "question": "IPv6 benötigt NAT für Internetkommunikation.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "IPv6 ist nicht auf NAT angewiesen."
+  },
+  {
+    "id": "LF09-0427",
+    "question": "ARP funktioniert über Router hinweg.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "ARP ist lokal begrenzt."
+  },
+  {
+    "id": "LF09-0428",
+    "question": "VLANs ersetzen Routing vollständig.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "VLANs trennen, routen aber nicht."
+  },
+  {
+    "id": "LF09-0429",
+    "question": "HTTPS ist grundsätzlich langsamer als HTTP.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Moderne Verschlüsselung verursacht kaum Mehraufwand."
+  },
+  {
+    "id": "LF09-0430",
+    "question": "Ein Gateway wird nur innerhalb eines LANs benötigt.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Gateways verbinden Netze."
+  },
+  {
+    "id": "LF09-0431",
+    "question": "Mehr Bandbreite reduziert automatisch Paketverluste.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Paketverlust hängt von Überlastung und Fehlern ab."
+  },
+  {
+    "id": "LF09-0432",
+    "question": "Ein VLAN trennt Broadcasts und macht eine Firewall überflüssig.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "VLANs ersetzen keine Sicherheitsmechanismen."
+  },
+  {
+    "id": "LF09-0433",
+    "question": "IPv6 nutzt Multicast und benötigt daher kein ARP.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Neighbor Discovery ersetzt ARP."
+  },
+  {
+    "id": "LF09-0434",
+    "question": "Statische Routen sind wartungsarm und passen sich automatisch an Ausfälle an.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Statische Routen reagieren nicht automatisch."
+  },
+  {
+    "id": "LF09-0435",
+    "question": "Offene Ports ermöglichen Kommunikation und erhöhen die Angriffsfläche.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Jeder offene Port ist potenziell angreifbar."
+  },
+  {
+    "id": "LF09-0436",
+    "question": "DNS-Caching beschleunigt Anfragen, kann aber veraltete Antworten liefern.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Caches haben begrenzte Gültigkeit."
+  },
+  {
+    "id": "LF09-0437",
+    "question": "Ein Proxy erhöht Sicherheit und ersetzt NAT.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Proxy und NAT haben unterschiedliche Aufgaben."
+  },
+  {
+    "id": "LF09-0438",
+    "question": "UDP ist schneller als TCP, verzichtet dafür auf Zuverlässigkeit.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "UDP minimiert Overhead."
+  },
+  {
+    "id": "LF09-0439",
+    "question": "Firewalls filtern Verkehr und verhindern jede Form von Angriff.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Firewalls reduzieren Risiken, eliminieren sie nicht."
+  },
+  {
+    "id": "LF09-0440",
+    "question": "Subnetting spart IP-Adressen und erhöht die Netzkomplexität.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Feinere Netze brauchen mehr Planung."
+  },
+  {
+    "id": "LF09-0441",
+    "question": "Ohne Standardgateway ist keine Kommunikation im LAN möglich.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Lokale Kommunikation funktioniert ohne Gateway."
+  },
+  {
+    "id": "LF09-0442",
+    "question": "IPv6 benötigt kein Routing zwischen verschiedenen Netzen.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Auch IPv6 erfordert Routing."
+  },
+  {
+    "id": "LF09-0443",
+    "question": "Ein Switch arbeitet nicht auf OSI-Layer 2.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Switches arbeiten primär auf Layer 2."
+  },
+  {
+    "id": "LF09-0444",
+    "question": "Die IPv6-Adresse 1:2:3:4:5:6:7:8 ist gültig.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Eine vollständige IPv6-Adresse besteht aus genau 8 Hextets."
+  },
+  {
+    "id": "LF09-0445",
+    "question": "Die IPv6-Adresse 2001:db8:1:2:3:4:5:6:7 ist gültig.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Eine IPv6-Adresse darf genau 8 Hextets enthalten."
+  },
+  {
+    "id": "LF09-0446",
+    "question": "Die IPv6-Adresse 2001:db8::1 ist gültig.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": ":: ersetzt eine zusammenhängende Folge von Null-Hextets."
+  },
+  {
+    "id": "LF09-0447",
+    "question": "Die IPv6-Adresse 2001::db8::1 ist gültig.",
+    "answers": [
+      { "text": "WAHR", "correct": false },
+      { "text": "FALSCH", "correct": true }
+    ],
+    "explanation": "Die Kürzung :: darf nur einmal in einer IPv6-Adresse verwendet werden."
+  },
+  {
+    "id": "LF09-0448",
+    "question": "Die IPv6-Adresse fe80::1234 ist eine gültige Link-Local-Adresse.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen liegen im Bereich fe80::/10."
+  },
+  {
+    "id": "LF09-0449",
+    "question": "Welche gekürzte Schreibweise ist für die IPv6-Adresse 2001:0db8:0000:0000:0000:0000:0000:0001 korrekt?",
+    "answers": [
+      { "text": "2001:db8::1", "correct": true },
+      { "text": "2001::db8::1", "correct": false },
+      { "text": "2001:db8:0:0:0:0:1", "correct": false },
+      { "text": "2001:0db8::0001", "correct": false }
+    ],
+    "explanation": "Führende Nullen werden entfernt und die längste Nullfolge einmal gekürzt."
+  },
+  {
+    "id": "LF09-0450",
+    "question": "Welche vollständige IPv6-Adresse ergibt sich aus 2001:db8::5?",
+    "answers": [
+      { "text": "2001:db8:0:0:0:0:0:5", "correct": true },
+      { "text": "2001:db8:5:0:0:0:0:0", "correct": false },
+      { "text": "2001:0:db8:0:0:0:0:5", "correct": false },
+      { "text": "2001:db8:0:0:0:5:0:0", "correct": false }
+    ],
+    "explanation": ":: ersetzt alle fehlenden Null-Hextets."
+  },
+  {
+    "id": "LF09-0451",
+    "question": "Welche IPv6-Adresse ist korrekt gekürzt?",
+    "answers": [
+      { "text": "fe80::1", "correct": true },
+      { "text": "fe80:::1", "correct": false },
+      { "text": "fe80::0::1", "correct": false },
+      { "text": "fe80", "correct": false }
+    ],
+    "explanation": "Die Kürzung :: darf nur einmal verwendet werden."
+  },
+  {
+    "id": "LF09-0452",
+    "question": "Adresse: 2001:db8:abcd:1205::1\nPrefix: /64\nWelche IPv6-Netz-ID ist korrekt?",
+    "answers": [
+      { "text": "2001:db8:abcd:1205::/64", "correct": true },
+      { "text": "2001:db8:abcd:1200::/64", "correct": false },
+      { "text": "2001:db8:abcd::/64", "correct": false },
+      { "text": "2001:db8:abcd:1205::1/64", "correct": false }
+    ],
+    "explanation": "Bei einem /64-Präfix bilden die ersten vier Hextets die Netz-ID."
+  },
+  {
+    "id": "LF09-0453",
+    "question": "Wie viele /64-Subnetze entstehen aus einem IPv6-Präfix /56?",
+    "answers": [
+      { "text": "256", "correct": true },
+      { "text": "128", "correct": false },
+      { "text": "512", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "explanation": "Von /56 auf /64 werden 8 zusätzliche Bits verwendet, das entspricht 2⁸ Subnetzen."
+  },
+  {
+    "id": "LF09-0454",
+    "question": "Gegeben: 2001:db8:abcd:1200::/56\nWelche IPv6-Adresse hat das 2. Subnetz (/64)?",
+    "answers": [
+      { "text": "2001:db8:abcd:1201::/64", "correct": true },
+      { "text": "2001:db8:abcd:1202::/64", "correct": false },
+      { "text": "2001:db8:abcd:1200::/64", "correct": false },
+      { "text": "2001:db8:abcd:1210::/64", "correct": false }
+    ],
+    "explanation": "Beim 1. Subnetz ist das erste /64 gemeint.\nEine Subnetz-ID beginnt hingegen bei 0."
+  },
+  {
+    "id": "LF09-0455",
+    "question": "Gegeben: 2001:db8:abcd:1200::/56\nWelche IPv6-Adresse hat das 3. Subnetz (/64)?",
+    "answers": [
+      { "text": "2001:db8:abcd:1202::/64", "correct": true },
+      { "text": "2001:db8:abcd:1201::/64", "correct": false },
+      { "text": "2001:db8:abcd:1203::/64", "correct": false },
+      { "text": "2001:db8:abcd:1210::/64", "correct": false }
+    ],
+    "explanation": "Beim 1. Subnetz ist das erste /64 gemeint.\nEine Subnetz-ID beginnt hingegen bei 0."
+  },
+  {
+    "id": "LF09-0456",
+    "question": "Gegeben: 2001:db8:abcd:1200::/56\nWelche IPv6-Adresse hat das 1. Subnetz (/64)?",
+    "answers": [
+      { "text": "2001:db8:abcd:1200::/64", "correct": true },
+      { "text": "2001:db8:abcd:1201::/64", "correct": false },
+      { "text": "2001:db8:abcd:1202::/64", "correct": false },
+      { "text": "2001:db8:abcd::/64", "correct": false }
+    ],
+    "explanation": "Beim 1. Subnetz ist das erste /64 gemeint.\nEine Subnetz-ID beginnt hingegen bei 0."
+  },
+  {
+    "id": "LF09-0457",
+    "question": "Adresse: 2001:db8:abcd:130a::5\nPrefix: /64\nWelche IPv6-Netz-ID ist korrekt?",
+    "answers": [
+      { "text": "2001:db8:abcd:130a::/64", "correct": true },
+      { "text": "2001:db8:abcd:1300::/64", "correct": false },
+      { "text": "2001:db8:abcd::/64", "correct": false },
+      { "text": "2001:db8:abcd:130a::5/64", "correct": false }
+    ],
+    "explanation": "Bei einem /64-Präfix gehören die ersten vier Hextets zur Netz-ID."
+  },
+  {
+    "id": "LF09-0458",
+    "question": "Adresse: 2001:db8:ffff:10::abcd\nPrefix: /64\nWelche IPv6-Netz-ID ist korrekt?",
+    "answers": [
+      { "text": "2001:db8:ffff:10::/64", "correct": true },
+      { "text": "2001:db8:ffff::/64", "correct": false },
+      { "text": "2001:db8:ffff:10::abcd/64", "correct": false },
+      { "text": "2001:db8:ffff:1000::/64", "correct": false }
+    ],
+    "explanation": "Bei /64 wird der Hostanteil vollständig auf 0 gesetzt."
+  },
+  {
+    "id": "LF09-0459",
+    "question": "Wie viele /64-Subnetze lassen sich aus einem IPv6-Präfix /48 bilden?",
+    "answers": [
+      { "text": "65536", "correct": true },
+      { "text": "256", "correct": false },
+      { "text": "4096", "correct": false },
+      { "text": "16", "correct": false }
+    ],
+    "explanation": "Von /48 auf /64 sind es 16 zusätzliche Bits.\n2¹⁶ ergibt 65536 Subnetze."
+  },
+  {
+    "id": "LF09-0460",
+    "question": "Wie viele /64-Subnetze entstehen aus einem IPv6-Präfix /60?",
+    "answers": [
+      { "text": "16", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "256", "correct": false },
+      { "text": "64", "correct": false }
+    ],
+    "explanation": "Von /60 auf /64 werden 4 zusätzliche Bits genutzt.\n2⁴ ergibt 16 Subnetze."
+  },
+  {
+    "id": "LF09-0461",
+    "question": "Gegeben: 2001:db8:abcd:2000::/56\nWelche IPv6-Adresse hat das 4. Subnetz (/64)?",
+    "answers": [
+      { "text": "2001:db8:abcd:2003::/64", "correct": true },
+      { "text": "2001:db8:abcd:2004::/64", "correct": false },
+      { "text": "2001:db8:abcd:2002::/64", "correct": false },
+      { "text": "2001:db8:abcd:2010::/64", "correct": false }
+    ],
+    "explanation": "Beim 1. Subnetz ist das erste /64 gemeint.\nEine Subnetz-ID beginnt hingegen bei 0."
+  },
+  {
+    "id": "LF09-0462",
+    "question": "Gegeben: 2001:db8:abcd:3000::/56\nWelche IPv6-Adresse hat das 5. Subnetz (/64)?",
+    "answers": [
+      { "text": "2001:db8:abcd:3004::/64", "correct": true },
+      { "text": "2001:db8:abcd:3005::/64", "correct": false },
+      { "text": "2001:db8:abcd:3003::/64", "correct": false },
+      { "text": "2001:db8:abcd:3010::/64", "correct": false }
+    ],
+    "explanation": "Beim 1. Subnetz ist das erste /64 gemeint.\nEine Subnetz-ID beginnt hingegen bei 0."
+  },
+  {
+    "id": "LF09-0463",
+    "question": "Welche Aussage zur IPv6-Subnetzbildung ist korrekt?",
+    "answers": [
+      { "text": "/64 ist empfohlenes Standard-Subnetz", "correct": true },
+      { "text": "Subnetze müssen immer /48 sein", "correct": false },
+      { "text": "IPv6 nutzt nur ein einziges Subnetz", "correct": false },
+      { "text": "Subnetze sind bei IPv6 nicht möglich", "correct": false }
+    ],
+    "explanation": "/64 ist der empfohlene Standard für IPv6-Endgerätenetze."
+  },
+  {
+    "id": "LF09-0464",
+    "question": "Wie viele /64-Subnetze lassen sich aus einem IPv6-Präfix /52 bilden?",
+    "answers": [
+      { "text": "4096", "correct": true },
+      { "text": "256", "correct": false },
+      { "text": "65\u202f536", "correct": false },
+      { "text": "1024", "correct": false }
+    ],
+    "explanation": "Von /52 auf /64 werden 12 zusätzliche Bits genutzt.\n2¹² ergibt 4096 Subnetze."
+  },
+  {
+    "id": "LF09-0465",
+    "question": "Wie viele /64-Subnetze entstehen aus einem IPv6-Präfix /63?",
+    "answers": [
+      { "text": "2", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "1", "correct": false }
+    ],
+    "explanation": "Von /63 auf /64 wird ein zusätzliches Bit genutzt.\n2¹ ergibt 2 Subnetze."
+  },
+  {
+    "id": "LF09-0466",
+    "question": "Adresse: 2001:db8:abcd:0042:0000:0000:0000:0007\nWelche korrekt gekürzte IPv6-Adresse ist richtig?",
+    "answers": [
+      { "text": "2001:db8:abcd:42::7", "correct": true },
+      { "text": "2001:db8:abcd::42:7", "correct": false },
+      { "text": "2001:db8:abcd:0042::0007", "correct": false },
+      { "text": "2001::abcd:42::7", "correct": false }
+    ],
+    "explanation": "Führende Nullen werden entfernt und die längste Nullfolge einmal gekürzt."
+  },
+  {
+    "id": "LF09-0467",
+    "question": "Welche Aussage zur IPv6-Schreibweise ist korrekt?",
+    "answers": [
+      { "text": "Führende Nullen in Hextets weggelassen.", "correct": true },
+      { "text": "Jedes Hextet muss vier Zeichen lang sein", "correct": false },
+      { "text": "Die Kürzung :: ist verpflichtend", "correct": false },
+      { "text": "Einzelne 0-Hextets müssen immer gekürzt werden", "correct": false }
+    ],
+    "explanation": "Führende Nullen sind optional und können weggelassen werden."
+  },
+  {
+    "id": "LF09-0468",
+    "question": "Welche IPv6-Adresse ist vollständig ausgeschrieben?",
+    "answers": [
+      { "text": "2001:0db8:0000:0000:0000:0000:0000:0001", "correct": true },
+      { "text": "2001:db8::1", "correct": false },
+      { "text": "2001:db8:0:0:0:0:1", "correct": false },
+      { "text": "2001::1", "correct": false }
+    ],
+    "explanation": "Eine vollständig ausgeschriebene IPv6-Adresse enthält acht vierstellige Hextets."
+  },
+  {
+    "id": "LF09-0469",
+    "question": "Adresse: 2001:db8:aaaa:1005::abcd\nPrefix: /64\nWelche IPv6-Netz-ID ist korrekt?",
+    "answers": [
+      { "text": "2001:db8:aaaa:1005::/64", "correct": true },
+      { "text": "2001:db8:aaaa:1000::/64", "correct": false },
+      { "text": "2001:db8:aaaa::/64", "correct": false },
+      { "text": "2001:db8:aaaa:1005::abcd/64", "correct": false }
+    ],
+    "explanation": "Bei einem /64-Präfix bilden die ersten vier Hextets die Netz-ID."
+  },
+  {
+    "id": "LF09-0470",
+    "question": "Wie viele IPv6-Adressen enthält ein einziges /64-Subnetz?",
+    "answers": [
+      { "text": "2^64", "correct": true },
+      { "text": "2^32", "correct": false },
+      { "text": "65\u202f536", "correct": false },
+      { "text": "4\u202f294\u202f967\u202f296", "correct": false }
+    ],
+    "explanation": "Der Hostanteil eines /64-Subnetzes besteht aus 64 Bit."
+  },
+  {
+    "id": "LF09-0471",
+    "question": "Welche IPv6-Adressart ist nicht routbar?",
+    "answers": [
+      { "text": "Link-Local", "correct": true },
+      { "text": "Global Unicast", "correct": false },
+      { "text": "Unique Local", "correct": false },
+      { "text": "Anycast", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen sind nur im lokalen Netz gültig."
+  },
+  {
+    "id": "LF09-0472",
+    "question": "Welche Aussage zu IPv6-Subnetzen trifft zu?",
+    "answers": [
+      { "text": "/64 ist die empfohlene Größe für Endgeräte", "correct": true },
+      { "text": "Subnetze werden bei IPv6 nicht verwendet", "correct": false },
+      { "text": "IPv6 kennt nur ein einziges Subnetz", "correct": false },
+      { "text": "Subnetze müssen immer /128 sein", "correct": false }
+    ],
+    "explanation": "/64 ist der empfohlene Standard für IPv6-Subnetze."
+  },
+  {
+    "id": "LF09-0473",
+    "question": "Welche Aussage zu IPv6 ist korrekt?",
+    "answers": [
+      { "text": "Multicast statt Broadcast", "correct": true },
+      { "text": "Benötigt NAT zwingend", "correct": false },
+      { "text": "Sind 64 Bit lang", "correct": false },
+      { "text": "Ist nicht routbar", "correct": false }
+    ],
+    "explanation": "IPv6 verzichtet vollständig auf Broadcast."
+  },
+  {
+    "id": "LF09-0474",
+    "question": "Welche IPv6-Adresse ist gültig?",
+    "answers": [
+      { "text": "2001:db8:0:1:2:3:4:5", "correct": true },
+      { "text": "2001:db8:1:2:3:4:5", "correct": false },
+      { "text": "2001:::db8:1", "correct": false },
+      { "text": "2001:db8::1::", "correct": false }
+    ],
+    "explanation": "Gültige IPv6-Adressen bestehen aus genau 8 Hextets oder nutzen eine zulässige Kürzung."
+  },
+  {
+    "id": "LF09-0475",
+    "question": "Die IPv6-Adresse ::1 ist gültig.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "::1 ist die IPv6-Loopback-Adresse."
+  },
+  {
+    "id": "LF09-0476",
+    "question": "Welche korrekt gekürzte Schreibweise gehört zur IPv6-Adresse 0000:0000:0000:0000:0000:0000:0000:0001?",
+    "answers": [
+      { "text": "::1", "correct": true },
+      { "text": "0::1", "correct": false },
+      { "text": ":1:", "correct": false },
+      { "text": "0000::0001", "correct": false }
+    ],
+    "explanation": "Alle Null-Hextets dürfen einmal vollständig zu :: gekürzt werden."
+  },
+  {
+    "id": "LF09-0477",
+    "question": "Welche vollständige IPv6-Adresse entspricht fe80::abcd?",
+    "answers": [
+      { "text": "fe80:0:0:0:0:0:0:abcd", "correct": true },
+      { "text": "fe80:abcd:0:0:0:0:0:0", "correct": false },
+      { "text": "fe80::0:abcd", "correct": false },
+      { "text": "fe80:0:abcd:0:0:0:0:0", "correct": false }
+    ],
+    "explanation": ":: ersetzt alle fehlenden Null-Hextets zwischen fe80 und abcd."
+  },
+  {
+    "id": "LF09-0478",
+    "question": "Welche Aussage zur IPv6-Kürzung ist korrekt?",
+    "answers": [
+      { "text": "Längste Nullfolge darf zu :: gekürzt werden", "correct": true },
+      { "text": "Jede Nullfolge darf einzeln gekürzt werden", "correct": false },
+      { "text": ":: ersetzt immer genau zwei Hextets", "correct": false },
+      { "text": "Führende Nullen dürfen nicht entfernt werden", "correct": false }
+    ],
+    "explanation": "Nur die längste zusammenhängende Nullfolge darf einmal gekürzt werden.\nBei zwei gleich großen Nullfolgen immer nur die erste."
+  },
+  {
+    "id": "LF09-0479",
+    "question": "Die IPv6-Adresse 2001:db8:: ist gültig.",
+    "answers": [
+      { "text": "WAHR", "correct": true },
+      { "text": "FALSCH", "correct": false }
+    ],
+    "explanation": "Die Adresse ist korrekt gekürzt und endet mit ::."
+  },
+  {
+    "id": "LF09-0480",
+    "question": "Welche IPv6-Adresse ist korrekt ausgeschrieben?",
+    "answers": [
+      { "text": "abcd:1234:0000:0000:0000:0000:0000:0001", "correct": true },
+      { "text": "abcd:1234::1", "correct": false },
+      { "text": "abcd::1234::1", "correct": false },
+      { "text": "abcd:1234:0:0:0:0:1", "correct": false }
+    ],
+    "explanation": "Eine ausgeschriebene IPv6-Adresse enthält acht vierstellige Hextets."
+  },
+  {
+    "id": "LF09-0481",
+    "question": "Welche Aussage zu IPv6-Adressen ist korrekt?",
+    "answers": [
+      { "text": "Ein Hextet besteht aus 16 Bit", "correct": true },
+      { "text": "Ein Hextet besteht aus 8 Bit", "correct": false },
+      { "text": "IPv6-Adressen haben 64 Bit insgesamt", "correct": false },
+      { "text": "IPv6 nutzt dezimale Schreibweise", "correct": false }
+    ],
+    "explanation": "Ein Hextet besteht aus 4 hexadezimalen Ziffern = 16 Bit."
+  },
+  {
+    "id": "LF09-0482",
+    "question": "Welche IPv6-Adresse ist ungültig?",
+    "answers": [
+      { "text": "2001::db8::1", "correct": true },
+      { "text": "2001:db8::1", "correct": false },
+      { "text": "::1", "correct": false },
+      { "text": "fe80::1", "correct": false }
+    ],
+    "explanation": "Die Kürzung :: darf nicht mehrfach verwendet werden."
+  },
+  {
+    "id": "LF09-0483",
+    "question": "Welche Regel gilt immer für IPv6-Adressen?",
+    "answers": [
+      { "text": "Insgesamt immer 8 Hextets", "correct": true },
+      { "text": "Jede Adresse muss gekürzt werden", "correct": false },
+      { "text": "Subnetze sind optional", "correct": false },
+      { "text": "IPv6 nutzt Broadcast", "correct": false }
+    ],
+    "explanation": "Ungekürzt oder gekürzt müssen 8 Hextets abgedeckt sein."
+  },
+  {
+    "id": "LF09-0484",
+    "question": "Welche Regel gilt für ein einzelnes Hextet einer IPv6-Adresse?",
+    "answers": [
+      { "text": "Max. 4 Hex-Zeichen", "correct": true },
+      { "text": "Genau 4 Hex-Zeichen", "correct": false },
+      { "text": "Nur dezimale Ziffern", "correct": false },
+      { "text": "Beliebige Länge", "correct": false }
+    ],
+    "explanation": "Ein Hextet besteht aus bis zu vier hexadezimalen Zeichen (0–9, a–f)."
+  },
+  {
+    "id": "LF09-0485",
+    "question": "Was beschreibt ein Hextet in einer IPv6-Adresse?",
+    "answers": [
+      { "text": "16 Bit in hexadezimaler Schreibweise", "correct": true },
+      { "text": "8 Bit in binärer Schreibweise", "correct": false },
+      { "text": "32 Bit in dezimaler Schreibweise", "correct": false },
+      { "text": "64 Bit in hexadezimaler Schreibweise", "correct": false }
+    ],
+    "explanation": "Ein Hextet besteht aus vier hexadezimalen Stellen = 16 Bit."
+  },
+  {
+    "id": "LF09-0486",
+    "question": "Welche Aussage zur IPv6-Kürzungsregel :: ist korrekt?",
+    "answers": [
+      { "text": "Darf nur einmal pro Adresse verwendet werden", "correct": true },
+      { "text": "Darf beliebig oft verwendet werden", "correct": false },
+      { "text": "Ersetzt immer genau zwei Hextets", "correct": false },
+      { "text": "Steht nur für einzelne Null-Hextets", "correct": false }
+    ],
+    "explanation": ":: ersetzt eine zusammenhängende Nullfolge und darf nur einmal genutzt werden."
+  },
+  {
+    "id": "LF09-0487",
+    "question": "Welche IPv6-Prefix-Länge ist für Endgeräte-Netze vorgesehen?",
+    "answers": [
+      { "text": "/64", "correct": true },
+      { "text": "/48", "correct": false },
+      { "text": "/56", "correct": false },
+      { "text": "/128", "correct": false }
+    ],
+    "explanation": "/64 ist der empfohlene Standard für IPv6-Subnetze mit Endgeräten."
+  },
+  {
+    "id": "LF09-0488",
+    "question": "Welche IPv6-Adressart wird typischerweise für lokale Kommunikation verwendet?",
+    "answers": [
+      { "text": "Link-Local", "correct": true },
+      { "text": "Global Unicast", "correct": false },
+      { "text": "Multicast", "correct": false },
+      { "text": "Anycast", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen gelten nur innerhalb des lokalen Netzes."
+  },
+  {
+    "id": "LF09-0489",
+    "question": "Welche Aussage zur Struktur einer IPv6-Adresse ist korrekt?",
+    "answers": [
+      { "text": "Besteht aus Netz- und Hostanteil", "correct": true },
+      { "text": "Besteht nur aus Hostanteil", "correct": false },
+      { "text": "Besitzt keinen Netzanteil", "correct": false },
+      { "text": "Wird nicht subnettiert", "correct": false }
+    ],
+    "explanation": "IPv6-Adressen bestehen aus Netz- und Hostanteil, getrennt durch das Präfix."
+  },
+  {
+    "id": "LF09-0490",
+    "question": "Welche Schreibweise ist eine gültige IPv6-Adresse?",
+    "answers": [
+      { "text": "2001:db8::1", "correct": true },
+      { "text": "2001:::db8:1", "correct": false },
+      { "text": "2001:db8::1::", "correct": false },
+      { "text": "2001:db8", "correct": false }
+    ],
+    "explanation": "Die Kürzung :: darf nur einmal vorkommen."
+  },
+  {
+    "id": "LF09-0491",
+    "question": "Welche Aussage zur IPv6-Netzstruktur trifft zu?",
+    "answers": [
+      { "text": "Netz- und Hostanteil Trennung durch Präfix", "correct": true },
+      { "text": "Es gibt keinen festen Netzanteil", "correct": false },
+      { "text": "IPv6 nutzt immer /128", "correct": false },
+      { "text": "IPv6 kennt keine Subnetze", "correct": false }
+    ],
+    "explanation": "Das Prefix definiert den Netzanteil eindeutig."
+  },
+  {
+    "id": "LF09-0492",
+    "question": "Welche Aussage trifft auf IPv6-Multicast zu?",
+    "answers": [
+      { "text": "Adressiert eine definierte Empfängergruppe", "correct": true },
+      { "text": "Ersetzt Unicast vollständig", "correct": false },
+      { "text": "Ist nur lokal nutzbar", "correct": false },
+      { "text": "Nutzt Broadcast-Adressen", "correct": false }
+    ],
+    "explanation": "Multicast richtet Daten an mehrere ausgewählte Empfänger."
+  },
+  {
+    "id": "LF09-0493",
+    "question": "Welche IPv6-Adressart wird für öffentliche Netze verwendet?",
+    "answers": [
+      { "text": "Global Unicast", "correct": true },
+      { "text": "Link-Local", "correct": false },
+      { "text": "Multicast", "correct": false },
+      { "text": "Unique Local", "correct": false }
+    ],
+    "explanation": "Global-Unicast-Adressen sind im Internet routbar."
+  },
+  {
+    "id": "LF09-0494",
+    "question": "Welche Aussage zu IPv6-Präfixen ist korrekt?",
+    "answers": [
+      { "text": "Bestimmt die Länge des Netzanteils", "correct": true },
+      { "text": "Bestimmt nur den Hostanteil", "correct": false },
+      { "text": "Ist bei IPv6 optional", "correct": false },
+      { "text": "Werden nicht verwendet", "correct": false }
+    ],
+    "explanation": "Das Präfix legt fest, welche Bits zur Netz-ID gehören."
+  },
+  {
+    "id": "LF09-0495",
+    "question": "Welche IPv6-Adressart beginnt typischerweise mit fe80::?",
+    "answers": [
+      { "text": "Link-Local", "correct": true },
+      { "text": "Global Unicast", "correct": false },
+      { "text": "Multicast", "correct": false },
+      { "text": "Anycast", "correct": false }
+    ],
+    "explanation": "Link-Local-Adressen liegen im Bereich fe80::/10."
+  },
+  {
+    "id": "LF09-0496",
+    "question": "Welche Aussage zu IPv6 und Subnetzen ist korrekt?",
+    "answers": [
+      { "text": "Subnetze werden durch Präfix definiert", "correct": true },
+      { "text": "Subnetze sind bei IPv6 nicht notwendig", "correct": false },
+      { "text": "Alle IPv6-Adressen liegen im selben Subnetz", "correct": false },
+      { "text": "Subnetze werden nur bei IPv4 verwendet", "correct": false }
+    ],
+    "explanation": "Das Präfix trennt Netz- und Hostanteil bei IPv6."
+  },
+  {
+    "id": "LF09-0497",
+    "question": "Welche Schreibweise verletzt eine IPv6-Kürzungsregel?",
+    "answers": [
+      { "text": "2001::db8::1", "correct": true },
+      { "text": "2001:db8::1", "correct": false },
+      { "text": "::1", "correct": false },
+      { "text": "fe80::abcd", "correct": false }
+    ],
+    "explanation": "Die Kürzung :: darf nur einmal verwendet werden."
+  },
+  {
+    "id": "LF09-0498",
+    "question": "Welche Eigenschaft unterscheidet IPv6 grundlegend von IPv4?",
+    "answers": [
+      { "text": "Deutlich größerer Adressraum", "correct": true },
+      { "text": "Verwendung von Broadcast", "correct": false },
+      { "text": "Kürzere Adressen", "correct": false },
+      { "text": "Keine Subnetze möglich", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt 128 Bit und bietet einen sehr großen Adressraum."
+  },
+  {
+    "id": "LF09-0499",
+    "question": "Welche Aussage zu IPv6-Adressen ist korrekt?",
+    "answers": [
+      { "text": "Führende Nullen pro Hextet dürfen gekürzt werden", "correct": true },
+      { "text": "Führende Nullen müssen immer geschrieben werden", "correct": false },
+      { "text": "Jedes Hextet muss exakt vier Zeichen enthalten", "correct": false },
+      { "text": "Hexadezimale Schreibweise ist verboten", "correct": false }
+    ],
+    "explanation": "Führende Nullen sind optional und können entfernt werden."
+  },
+  {
+    "id": "LF09-0500",
+    "question": "Welche Aussage zu IPv6 trifft zu?",
+    "answers": [
+      { "text": "Hierarchische Netzstruktur", "correct": true },
+      { "text": "Kein Routing", "correct": false },
+      { "text": "Keine Netzaufteilung", "correct": false },
+      { "text": "Subnetze durch NAT", "correct": false }
+    ],
+    "explanation": "IPv6 ist hierarchisch aufgebaut und gut subnettierbar."
+  }
+]

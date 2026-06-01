@@ -1,0 +1,222 @@
+[
+  {
+    "id": "LF-05-001",
+    "question": "Ist das Frage LF-05-001?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-001 Erklärung."
+  },
+  {
+    "id": "LF-05-002",
+    "question": "Ist das Frage LF-05-002?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-002 Erklärung."
+  },
+  {
+    "id": "LF-05-003",
+    "question": "Ist das Frage LF-05-003?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-003 Erklärung."
+  },
+  {
+    "id": "LF-05-004",
+    "question": "Ist das Frage LF-05-004?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-004 Erklärung."
+  },
+  {
+    "id": "LF-05-005",
+    "question": "Ist das Frage LF-05-005?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-005 Erklärung."
+  },
+  {
+    "id": "LF-05-006",
+    "question": "Ist das Frage LF-05-006?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-006 Erklärung."
+  },
+  {
+    "id": "LF-05-007",
+    "question": "Ist das Frage LF-05-007?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-007 Erklärung."
+  },
+  {
+    "id": "LF-05-008",
+    "question": "Ist das Frage LF-05-008?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-008 Erklärung."
+  },
+  {
+    "id": "LF-05-009",
+    "question": "Ist das Frage LF-05-009?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-009 Erklärung."
+  },
+  {
+    "id": "LF-05-010",
+    "question": "Ist das Frage LF-05-010?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-010 Erklärung."
+  },
+  {
+    "id": "LF-05-011",
+    "question": "Ist das Frage LF-05-011?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-011 Erklärung."
+  },
+  {
+    "id": "LF-05-012",
+    "question": "Ist das Frage LF-05-012?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-012 Erklärung."
+  },
+  {
+    "id": "LF-05-013",
+    "question": "Ist das Frage LF-05-013?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-013 Erklärung."
+  },
+  {
+    "id": "LF-05-014",
+    "question": "Ist das Frage LF-05-014?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-014 Erklärung."
+  },
+  {
+    "id": "LF-05-015",
+    "question": "Ist das Frage LF-05-015?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-015 Erklärung."
+  },
+  {
+    "id": "LF-05-016",
+    "question": "Ist das Frage LF-05-016?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-016 Erklärung."
+  },
+  {
+    "id": "LF-05-017",
+    "question": "Ist das Frage LF-05-017?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-017 Erklärung."
+  },
+  {
+    "id": "LF-05-018",
+    "question": "Ist das Frage LF-05-018?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-018 Erklärung."
+  },
+  {
+    "id": "LF-05-019",
+    "question": "Ist das Frage LF-05-019?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-019 Erklärung."
+  },
+  {
+    "id": "LF-05-020",
+    "question": "Ist das Frage LF-05-020?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-05-020 Erklärung."
+  }
+]

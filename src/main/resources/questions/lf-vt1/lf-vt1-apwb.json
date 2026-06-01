@@ -1,0 +1,222 @@
+[
+  {
+    "id": "LF-VT1-APWB-001",
+    "question": "Welche Installationsdateien werden für Desktop-Anwendungen unter Windows 11 genutzt?",
+    "answers": [
+      { "text": ".exe oder .msi", "correct": true },
+      { "text": ".vhd oder .vhdx", "correct": false },
+      { "text": ".xml oder .cpl", "correct": false },
+      { "text": ".jpg oder .png", "correct": false }
+    ],
+    "explanation": "Desktop-Anwendungen werden typischerweise mit .exe- oder .msi-Installationsdateien installiert."
+  },
+  {
+    "id": "LF-VT1-APWB-002",
+    "question": "Welche Aussage zu Desktop-Anwendungen in Windows 11 trifft zu?",
+    "answers": [
+      { "text": "Installation automatisierbar", "correct": true },
+      { "text": "Nur aus dem Store möglich", "correct": false },
+      { "text": "Nur remote ausführbar", "correct": false },
+      { "text": "Nur ab Windows 8 nutzbar", "correct": false }
+    ],
+    "explanation": "Die Installation von Desktop-Anwendungen kann automatisiert werden."
+  },
+  {
+    "id": "LF-VT1-APWB-003",
+    "question": "Welche Apps können aus dem Windows Store oder per Side-Loading installiert werden?",
+    "answers": [
+      { "text": "Microsoft Store Apps", "correct": true },
+      { "text": "Remote Anwendungen", "correct": false },
+      { "text": "App-V Anwendungen", "correct": false },
+      { "text": "Desktop-Anwendungen", "correct": false }
+    ],
+    "explanation": "Microsoft Store Apps laufen ab Windows 10 und können aus dem Store oder per Side-Loading installiert werden."
+  },
+  {
+    "id": "LF-VT1-APWB-004",
+    "question": "Welche Aussage zu universellen Windows-Anwendungen trifft zu?",
+    "answers": [
+      { "text": "Laufen auf Windows-Systemen", "correct": true },
+      { "text": "Nur auf Servern lauffähig", "correct": false },
+      { "text": "Nur per USB installierbar", "correct": false },
+      { "text": "Nur im Browser nutzbar", "correct": false }
+    ],
+    "explanation": "Universelle Windows-Anwendungen laufen auf Windows-Systemen ab Windows 8."
+  },
+  {
+    "id": "LF-VT1-APWB-005",
+    "question": "Welche Plattform gehört zu universellen Windows-Anwendungen?",
+    "answers": [
+      { "text": "Xbox One", "correct": true },
+      { "text": "NAS", "correct": false },
+      { "text": "Domänencontroller", "correct": false },
+      { "text": "DriverStore", "correct": false }
+    ],
+    "explanation": "Universelle Windows-Anwendungen können z. B. auf Smartphones, Tablets, Xbox One und Hololens laufen."
+  },
+  {
+    "id": "LF-VT1-APWB-006",
+    "question": "Welche Technik kann Desktop-Anwendungen in universelle Anwendungen konvertieren?",
+    "answers": [
+      { "text": "Desktop Bridge", "correct": true },
+      { "text": "BitLocker To Go", "correct": false },
+      { "text": "Windows Hello", "correct": false },
+      { "text": "DiskPart", "correct": false }
+    ],
+    "explanation": "Desktop Bridge kann Desktop-Anwendungen in universelle Anwendungen konvertieren."
+  },
+  {
+    "id": "LF-VT1-APWB-007",
+    "question": "Was kennzeichnet Remote Anwendungen unter Windows 11?",
+    "answers": [
+      { "text": "Remote ausgeführt, lokal sichtbar", "correct": true },
+      { "text": "Lokal installiert und versteckt", "correct": false },
+      { "text": "Nur im Store verfügbar", "correct": false },
+      { "text": "Nur als Treiber nutzbar", "correct": false }
+    ],
+    "explanation": "Remote Anwendungen werden entfernt ausgeführt, aber lokal auf dem Client angezeigt."
+  },
+  {
+    "id": "LF-VT1-APWB-008",
+    "question": "Wann sind Remote Anwendungen besonders sinnvoll?",
+    "answers": [
+      { "text": "Bei schwacher Client-Hardware", "correct": true },
+      { "text": "Bei lokaler Aktivierung", "correct": false },
+      { "text": "Bei fehlender Firewall", "correct": false },
+      { "text": "Bei MBR-Konvertierung", "correct": false }
+    ],
+    "explanation": "Remote Anwendungen helfen, wenn Clients die Hardware-Anforderungen einer Anwendung nicht erfüllen."
+  },
+  {
+    "id": "LF-VT1-APWB-009",
+    "question": "Was beschreibt App-V unter Windows?",
+    "answers": [
+      { "text": "App-Streaming auf Desktop", "correct": true },
+      { "text": "Datenträger verschlüsseln", "correct": false },
+      { "text": "IP-Adressen vergeben", "correct": false },
+      { "text": "Treiber signieren", "correct": false }
+    ],
+    "explanation": "App-V streamt Anwendungen in eine virtualisierte Sandbox auf dem PC."
+  },
+  {
+    "id": "LF-VT1-APWB-010",
+    "question": "Was passiert bei App-V während des laufenden Betriebs?",
+    "answers": [
+      { "text": "App wird in Sandbox kopiert", "correct": true },
+      { "text": "Windows wird neu installiert", "correct": false },
+      { "text": "Firewall wird deaktiviert", "correct": false },
+      { "text": "Volume wird gespiegelt", "correct": false }
+    ],
+    "explanation": "Bei App-V wird die Anwendung während des Betriebs vollständig in die Sandbox kopiert."
+  },
+  {
+    "id": "LF-VT1-APWB-011",
+    "question": "Was ist ein Vorteil von App-V bei Netzwerkausfall?",
+    "answers": [
+      { "text": "Weiterarbeiten möglich", "correct": true },
+      { "text": "App wird automatisch gelöscht", "correct": false },
+      { "text": "Windows startet neu", "correct": false },
+      { "text": "Treiber werden ersetzt", "correct": false }
+    ],
+    "explanation": "Bei App-V kann auch bei Netzwerkausfall weiter gearbeitet werden."
+  },
+  {
+    "id": "LF-VT1-APWB-012",
+    "question": "Was gehört nicht zu den Installationsmethoden für Anwendungen?",
+    "answers": [
+      { "text": "BitLocker-Verschlüsselung", "correct": true },
+      { "text": "Manuelle Installation", "correct": false },
+      { "text": "Per Gruppenrichtlinie", "correct": false },
+      { "text": "Im Image enthalten", "correct": false }
+    ],
+    "explanation": "BitLocker verschlüsselt Datenträger und ist keine Installationsmethode für Anwendungen."
+  },
+  {
+    "id": "LF-VT1-APWB-013",
+    "question": "Wie kann Software per Gruppenrichtlinie installiert werden?",
+    "answers": [
+      { "text": "Für bestimmte Nutzergruppen", "correct": true },
+      { "text": "Nur für lokale Drucker", "correct": false },
+      { "text": "Nur für BIOS-Systeme", "correct": false },
+      { "text": "Nur für private WLANs", "correct": false }
+    ],
+    "explanation": "Per Gruppenrichtlinie kann Software z. B. für bestimmte Nutzergruppen über den Domain Controller verteilt werden."
+  },
+  {
+    "id": "LF-VT1-APWB-014",
+    "question": "Welche Werkzeuge dienen zur Geräteverwaltung per Cloud?",
+    "answers": [
+      { "text": "Endpoint Manager und Intune", "correct": true },
+      { "text": "DiskPart und DriverStore", "correct": false },
+      { "text": "Scanstate und Loadstate", "correct": false },
+      { "text": "MBR und GPT", "correct": false }
+    ],
+    "explanation": "Microsoft Endpoint Configuration Manager und Intune dienen zur Verwaltung von Geräten."
+  },
+  {
+    "id": "LF-VT1-APWB-015",
+    "question": "Was bedeutet es, wenn eine Anwendung im Image enthalten ist?",
+    "answers": [
+      { "text": "Mit Windows mitinstalliert", "correct": true },
+      { "text": "Nur im Browser gestartet", "correct": false },
+      { "text": "Nur aus Store geladen", "correct": false },
+      { "text": "Nachträglich gestreamt", "correct": false }
+    ],
+    "explanation": "Im Image enthalten bedeutet, dass die Anwendung bei der Windows-Installation mitinstalliert wird."
+  },
+  {
+    "id": "LF-VT1-APWB-016",
+    "question": "Welcher Webbrowser gehört zu Windows 11?",
+    "answers": [
+      { "text": "Microsoft Edge", "correct": true },
+      { "text": "Internet Explorer 6", "correct": false },
+      { "text": "Netscape Navigator", "correct": false },
+      { "text": "Windows Store Browser", "correct": false }
+    ],
+    "explanation": "Microsoft Edge ist der moderne Webbrowser unter Windows 11."
+  },
+  {
+    "id": "LF-VT1-APWB-017",
+    "question": "Welches Produktivitätsfeature gehört zu Microsoft Edge?",
+    "answers": [
+      { "text": "Tab-Verwaltung", "correct": true },
+      { "text": "Datenträger spiegeln", "correct": false },
+      { "text": "Benutzer migrieren", "correct": false },
+      { "text": "IP-Adresse vergeben", "correct": false }
+    ],
+    "explanation": "Microsoft Edge bietet unter anderem Tab-Verwaltung als Produktivitätsfeature."
+  },
+  {
+    "id": "LF-VT1-APWB-018",
+    "question": "Welche Synchronisierung gehört zu Microsoft Edge?",
+    "answers": [
+      { "text": "OneDrive Favoriten-Sync", "correct": true },
+      { "text": "BitLocker-Key-Sync", "correct": false },
+      { "text": "DriverStore-Sync", "correct": false },
+      { "text": "MBR-Partition-Sync", "correct": false }
+    ],
+    "explanation": "Microsoft Edge kann Favoriten über OneDrive synchronisieren."
+  },
+  {
+    "id": "LF-VT1-APWB-019",
+    "question": "Welche Schutzfunktionen sind in Microsoft Browsern integriert?",
+    "answers": [
+      { "text": "Cookie- und Popupblocker", "correct": true },
+      { "text": "BitLocker und AppLocker", "correct": false },
+      { "text": "DHCP und APIPA", "correct": false },
+      { "text": "MBR und GPT", "correct": false }
+    ],
+    "explanation": "Cookie- und Popupblocker sind integriert, müssen aber aktiviert werden."
+  },
+  {
+    "id": "LF-VT1-APWB-020",
+    "question": "Welcher Befehl öffnet die Browseroptionen zu Datenschutz und Sicherheit?",
+    "answers": [
+      { "text": "inetcpl.cpl", "correct": true },
+      { "text": "appwiz.cpl", "correct": false },
+      { "text": "gpedit.msc", "correct": false },
+      { "text": "diskpart", "correct": false }
+    ],
+    "explanation": "Mit inetcpl.cpl werden Optionen für Datenschutz, Cookies und Sicherheit geöffnet."
+  }
+]

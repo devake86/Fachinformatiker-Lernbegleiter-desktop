@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane fx:id="rootLayout"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="app.ui.QuizController">
+
+    <!-- ===== TOP: Statusbar Wrapper (zentriert) ===== -->
+    <top>
+        <HBox fx:id="statusBarWrapper"
+              alignment="CENTER"
+              maxWidth="Infinity">
+
+            <!-- Status-Bar selbst -->
+            <HBox fx:id="statusBar"
+                  minHeight="40"
+                  prefWidth="520"
+                  maxWidth="Infinity"
+                  alignment="CENTER"
+                  fillHeight="true"
+                  style="-fx-padding: 16;">
+
+                <Label fx:id="questionCounterLabel"
+                       visible="false"
+                       style="-fx-font-size: 12px;" />
+
+                <Region HBox.hgrow="ALWAYS"/>
+
+                <Label fx:id="quizModeLabel"
+                       visible="false"
+                       text="beta2"
+                       style="-fx-font-size: 12px;" />
+
+                <Region HBox.hgrow="ALWAYS"/>
+
+                <Label fx:id="questionIdLabel"
+                       visible="false"
+                       style="-fx-font-size: 12px;" />
+
+            </HBox>
+        </HBox>
+    </top>
+
+    <!-- ===== CENTER: Quiz Container (maxWidth 520, top anchored) ===== -->
+    <center>
+        <VBox fx:id="quizContainer"
+              alignment="TOP_CENTER"
+              fillWidth="true"
+              maxWidth="520"
+              maxHeight="920"
+              spacing="8"
+              style="-fx-padding: 8 16 8 16;"
+              BorderPane.alignment="TOP_CENTER">
+
+            <!-- ===== Question Pane ===== -->
+            <VBox fx:id="questionPane"
+                  alignment="TOP_CENTER"
+                  minHeight="520"
+                  prefHeight="520"
+                  style="-fx-padding: 8 16 8 16;">
+
+                <!-- Question Text Box + Endergebnis Text-->
+                <VBox fx:id="questionTextBox"
+                      alignment="CENTER"
+                      minHeight="380"
+                      prefHeight="380"
+                      fillWidth="true"
+                      style="-fx-padding: 8 16 24 16;"
+                      VBox.vgrow="ALWAYS">
+
+                    <Label fx:id="questionLabel"
+                           wrapText="true"
+                           textAlignment="LEFT"
+                           maxWidth="Infinity"
+                           alignment="TOP_LEFT"
+                           visible="false"
+                           style="-fx-font-size: 16px;" />
+
+                    <Label fx:id="resultLabel"
+                           visible="false"
+                           managed="false"
+                           style="-fx-font-size: 32px;" />
+
+                </VBox>
+
+                <!-- Explanation Text Box -->
+                <VBox fx:id="explanationTextBox"
+                      alignment="CENTER"
+                      minHeight="140"
+                      prefHeight="140"
+                      fillWidth="true"
+                      style="-fx-padding: 24 32 16 32;"
+                      VBox.vgrow="NEVER">
+
+                    <Label fx:id="explanationLabel"
+                           wrapText="true"
+                           textAlignment="LEFT"
+                           maxWidth="Infinity"
+                           alignment="TOP_LEFT"
+                           visible="false"
+                           style="-fx-font-size: 14px; -fx-font-style: italic; -fx-opacity: 0.8;" />
+
+                </VBox>
+
+            </VBox>
+
+            <!-- ===== Interaction Pane + Result Screen Buttons===== -->
+            <VBox fx:id="interactionPane"
+                  alignment="TOP_CENTER"
+                  spacing="8"
+                  minHeight="248"
+                  prefHeight="248"
+                  style="-fx-padding: 8 16 8 16;">
+
+                <Button fx:id="newRoundButton"
+                        text="Neue Runde"
+                        prefWidth="174"
+                        visible="false"
+                        managed="false"
+                        style="-fx-font-size: 14px;"/>
+
+                <Button fx:id="menuButton"
+                        text="Hauptmenü"
+                        prefWidth="174"
+                        visible="false"
+                        managed="false"
+                        style="-fx-font-size: 14px;"/>
+
+                <Region VBox.vgrow="ALWAYS"/>
+
+            </VBox>
+
+            <!-- ===== Action Bar ===== -->
+            <HBox fx:id="actionBar"
+                  alignment="CENTER"
+                  minHeight="72"
+                  style="-fx-padding: 8 16 48 16;">
+
+                <Button fx:id="actionButton"
+                        text="Bestätigen"
+                        prefWidth="174"
+                        visible="false"
+                        managed="true"
+                        style="-fx-font-size: 14px;"/>
+            </HBox>
+
+        </VBox>
+    </center>
+
+</BorderPane>

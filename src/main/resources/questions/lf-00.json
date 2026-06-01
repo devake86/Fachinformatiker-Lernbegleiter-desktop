@@ -1,0 +1,475 @@
+[
+  {
+    "id": "LF-00-001",
+    "question": "Ist das Frage LF-00-001?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-001 Erklärung."
+  },
+  {
+    "id": "LF-00-002",
+    "question": "Ist das Frage LF-00-002?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-002 Erklärung."
+  },
+  {
+    "id": "LF-00-003",
+    "question": "Ist das Frage LF-00-003?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-003 Erklärung."
+  },
+  {
+    "id": "LF-00-004",
+    "question": "Ist das Frage LF-00-004?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-004 Erklärung."
+  },
+  {
+    "id": "LF-00-005",
+    "question": "Ist das Frage LF-00-005?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-005 Erklärung."
+  },
+  {
+    "id": "LF-00-006",
+    "question": "Ist das Frage LF-00-006?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-006 Erklärung."
+  },
+  {
+    "id": "LF-00-007",
+    "question": "Ist das Frage LF-00-007?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-007 Erklärung."
+  },
+  {
+    "id": "LF-00-008",
+    "question": "Ist das Frage LF-00-008?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-008 Erklärung."
+  },
+  {
+    "id": "LF-00-009",
+    "question": "Ist das Frage LF-00-009?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-009 Erklärung."
+  },
+  {
+    "id": "LF-00-010",
+    "question": "Ist das Frage LF-00-010?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-010 Erklärung."
+  },
+  {
+    "id": "LF-00-011",
+    "question": "Ist das Frage LF-00-011?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-011 Erklärung."
+  },
+  {
+    "id": "LF-00-012",
+    "question": "Ist das Frage LF-00-012?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-012 Erklärung."
+  },
+  {
+    "id": "LF-00-013",
+    "question": "Ist das Frage LF-00-013?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-013 Erklärung."
+  },
+  {
+    "id": "LF-00-014",
+    "question": "Ist das Frage LF-00-014?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-014 Erklärung."
+  },
+  {
+    "id": "LF-00-015",
+    "question": "Ist das Frage LF-00-015?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-015 Erklärung."
+  },
+  {
+    "id": "LF-00-016",
+    "question": "Ist das Frage LF-00-016?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-016 Erklärung."
+  },
+  {
+    "id": "LF-00-017",
+    "question": "Ist das Frage LF-00-017?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-017 Erklärung."
+  },
+  {
+    "id": "LF-00-018",
+    "question": "Ist das Frage LF-00-018?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-018 Erklärung."
+  },
+  {
+    "id": "LF-00-019",
+    "question": "Ist das Frage LF-00-019?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-019 Erklärung."
+  },
+  {
+    "id": "LF-00-020",
+    "question": "Ist das Frage LF-00-020?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-020 Erklärung."
+  },
+  {
+    "id": "LF-00-021",
+    "question": "Ist das Frage LF-00-021?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-021 Erklärung."
+  },
+  {
+    "id": "LF-00-022",
+    "question": "Ist das Frage LF-00-022?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-022 Erklärung."
+  },
+  {
+    "id": "LF-00-023",
+    "question": "Ist das Frage LF-00-023?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-023 Erklärung."
+  },
+  {
+    "id": "LF-00-024",
+    "question": "Ist das Frage LF-00-024?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-024 Erklärung."
+  },
+  {
+    "id": "LF-00-025",
+    "question": "Ist das Frage LF-00-025?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-025 Erklärung."
+  },
+  {
+    "id": "LF-00-026",
+    "question": "Ist das Frage LF-00-026?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-026 Erklärung."
+  },
+  {
+    "id": "LF-00-027",
+    "question": "Ist das Frage LF-00-027?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-027 Erklärung."
+  },
+  {
+    "id": "LF-00-028",
+    "question": "Ist das Frage LF-00-028?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-028 Erklärung."
+  },
+  {
+    "id": "LF-00-029",
+    "question": "Ist das Frage LF-00-029?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-029 Erklärung."
+  },
+  {
+    "id": "LF-00-030",
+    "question": "Ist das Frage LF-00-030?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-030 Erklärung."
+  },
+  {
+    "id": "LF-00-031",
+    "question": "Ist das Frage LF-00-031?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-031 Erklärung."
+  },
+  {
+    "id": "LF-00-032",
+    "question": "Ist das Frage LF-00-032?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-032 Erklärung."
+  },
+  {
+    "id": "LF-00-033",
+    "question": "Ist das Frage LF-00-033?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-033 Erklärung."
+  },
+  {
+    "id": "LF-00-034",
+    "question": "Ist das Frage LF-00-034?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-034 Erklärung."
+  },
+  {
+    "id": "LF-00-035",
+    "question": "Ist das Frage LF-00-035?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-035 Erklärung."
+  },
+  {
+    "id": "LF-00-036",
+    "question": "Ist das Frage LF-00-036?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-036 Erklärung."
+  },
+  {
+    "id": "LF-00-037",
+    "question": "Ist das Frage LF-00-037?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-037 Erklärung."
+  },
+  {
+    "id": "LF-00-038",
+    "question": "Ist das Frage LF-00-038?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-038 Erklärung."
+  },
+  {
+    "id": "LF-00-039",
+    "question": "Ist das Frage LF-00-039?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-039 Erklärung."
+  },
+  {
+    "id": "LF-00-040",
+    "question": "Ist das Frage LF-00-040?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-040 Erklärung."
+  },
+  {
+    "id": "LF-00-041",
+    "question": "Ist das Frage LF-00-041?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-041 Erklärung."
+  },
+  {
+    "id": "LF-00-042",
+    "question": "Ist das Frage LF-00-042?",
+    "answers": [
+      { "text": "Ja", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false }
+    ],
+    "explanation": "Frage LF-00-042 Erklärung."
+  },
+  {
+    "id": "LF-VT1-SPEI-020",
+    "question": "Was kann bei Erweiterung in nicht zusammenhängenden Speicher passieren?",
+    "answers": [
+      { "text": "Umwandlung in dynamisch", "correct": true },
+      { "text": "Windows wird aktiviert", "correct": false },
+      { "text": "RAM wird verdoppelt", "correct": false },
+      { "text": "Gateway wird gelöscht", "correct": false }
+    ],
+    "explanation": "Wenn ein Basisdatenträger in nicht zusammenhängenden Speicher erweitert wird, kann eine Umwandlung in einen dynamischen Datenträger erfolgen. Das ist ein wichtiger Unterschied zu angrenzendem freien Speicher."
+  }
+]
