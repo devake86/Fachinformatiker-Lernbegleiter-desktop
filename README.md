@@ -6,7 +6,7 @@ Die Desktop-Version nutzt JavaFX mit FXML, übernimmt die Java-Kernlogik der And
 
 **Hinweis:** Diese App ist kein offizielles Angebot der IHK, einer Berufsschule oder einer vergleichbaren Institution. Es handelt sich um ein privates Lern- und Entwicklungsprojekt. Die enthaltenen Fragen sind keine offiziellen IHK-Prüfungsaufgaben und ersetzen keine offiziellen Lern- oder Prüfungsmaterialien.
 
-[**Desktop ZIP/EXE (v1.0-rc1)**](https://github.com/devake86/Fachinformatiker-Lernbegleiter-desktop/releases/tag/v1.0-rc1)
+[**Desktop ZIP/EXE (v1.0-rc1)**](https://github.com/devake86/Fachinformatiker-Lernbegleiter-desktop/releases/download/v1.0-rc1/FiLb-desktop_v1.0-rc1.zip)
 
 ---
 
