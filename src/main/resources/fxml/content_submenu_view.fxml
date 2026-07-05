@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="app.filb.ui.ContentSubmenuController"
+           alignment="CENTER">
+
+    <BorderPane fx:id="rootLayout"
+                prefWidth="560"
+                prefHeight="860"
+                minWidth="560"
+                minHeight="860"
+                maxWidth="560"
+                maxHeight="860">
+
+        <!-- TOP: Statusbar -->
+        <top>
+            <VBox fx:id="statusBarWrapper"
+                  alignment="CENTER"
+                  maxWidth="Infinity">
+
+                <!-- Zeile 1 -->
+                <HBox fx:id="statusBar"
+                      minHeight="40"
+                      prefHeight="40"
+                      maxHeight="40"
+                      prefWidth="560"
+                      maxWidth="560"
+                      alignment="CENTER_LEFT"
+                      fillHeight="true"
+                      style="-fx-padding: 8 32 8 32;">
+
+                    <Label fx:id="statusBarLabel"
+                           visible="false"
+                           text="Fragenpaket"
+                           style="-fx-font-size: 14px;" />
+
+                    <Region HBox.hgrow="ALWAYS"/>
+
+                </HBox>
+
+                <!-- Zeile 2 -->
+                <HBox fx:id="questionStatusBar"
+                      minHeight="30"
+                      prefHeight="30"
+                      maxHeight="30"
+                      prefWidth="560"
+                      maxWidth="560"
+                      alignment="CENTER"
+                      fillHeight="true"
+                      style="-fx-padding: 0 32 8 32;">
+
+                    <Label fx:id="questionCounterLabel"
+                           visible="false"
+                           style="-fx-font-size: 14px;" />
+
+                    <Region HBox.hgrow="ALWAYS"/>
+
+                    <Label fx:id="questionIdLabel"
+                           visible="false"
+                           style="-fx-font-size: 14px;" />
+
+                </HBox>
+
+            </VBox>
+        </top>
+
+        <!-- CENTER: Menu Container -->
+        <center>
+            <VBox fx:id="menuContainer"
+                  alignment="TOP_CENTER"
+                  fillWidth="true"
+                  maxWidth="560"
+                  spacing="8"
+                  style="-fx-padding: 0 0 0 0;"
+                  BorderPane.alignment="TOP_CENTER">
+
+                <VBox fx:id="menuPane"
+                      alignment="TOP_CENTER"
+                      minHeight="450"
+                      prefHeight="450"
+                      style="-fx-padding: 8 8 8 8;">
+
+                    <!-- Menu Text Box -->
+                    <VBox fx:id="menuTextBox"
+                          alignment="CENTER"
+                          minHeight="330"
+                          prefHeight="330"
+                          fillWidth="true"
+                          style="-fx-padding: 8 24 8 24;"
+                          VBox.vgrow="ALWAYS">
+
+                        <Label fx:id="lfTitleLabel"
+                               text="FiLb"
+                               wrapText="true"
+                               textAlignment="LEFT"
+                               maxWidth="Infinity"
+                               alignment="CENTER_LEFT"
+                               style="-fx-font-size: 16px;" />
+
+                    </VBox>
+
+                    <!-- Flavor Text Box -->
+                    <VBox fx:id="flavorTextBox"
+                          alignment="CENTER"
+                          minHeight="120"
+                          prefHeight="120"
+                          fillWidth="true"
+                          style="-fx-padding: 8 24 8 24;"
+                          VBox.vgrow="NEVER">
+
+                        <Label fx:id="flavorLabel"
+                               text="Wähle ein Fragenpaket"
+                               wrapText="true"
+                               textAlignment="CENTER"
+                               maxWidth="Infinity"
+                               alignment="CENTER"
+                               style="-fx-font-size: 14px; -fx-font-style: italic; -fx-opacity: 0.8;" />
+
+                    </VBox>
+
+                </VBox>
+
+                <!-- Scroll Pane -->
+                <ScrollPane fx:id="scrollPaneLayout"
+                            fitToWidth="true"
+                            fitToHeight="true"
+                            vbarPolicy="AS_NEEDED"
+                            hbarPolicy="NEVER"
+                            minHeight="240"
+                            prefHeight="240">
+
+                    <!-- Interaction Pane -->
+                    <VBox fx:id="interactionPane"
+                          alignment="TOP_CENTER"
+                          spacing="4"
+                          style="-fx-padding: 8 40 8 40;">
+
+                        <Button fx:id="factualQuestionsButton"
+                                text="Sachfragen"
+                                prefWidth="366"
+                                minHeight="48"
+                                prefHeight="48"
+                                maxHeight="48"
+                                visible="false"
+                                managed="false"
+                                style="-fx-font-size: 14px;" />
+
+                        <Button fx:id="technicalTermsButton"
+                                text="Fachbegriffe"
+                                prefWidth="366"
+                                minHeight="48"
+                                prefHeight="48"
+                                maxHeight="48"
+                                visible="false"
+                                managed="false"
+                                style="-fx-font-size: 14px;" />
+
+                        <Button fx:id="abbreviationsButton"
+                                text="Abkürzungen"
+                                prefWidth="366"
+                                minHeight="48"
+                                prefHeight="48"
+                                maxHeight="48"
+                                visible="false"
+                                managed="false"
+                                style="-fx-font-size: 14px;" />
+
+                        <Button fx:id="subnettingButton"
+                                text="Subnetting"
+                                prefWidth="366"
+                                minHeight="48"
+                                prefHeight="48"
+                                maxHeight="48"
+                                visible="false"
+                                managed="false"
+                                style="-fx-font-size: 14px;" />
+
+                        <Button fx:id="codeSnippetsButton"
+                                text="Codeausschnitte"
+                                prefWidth="366"
+                                minHeight="48"
+                                prefHeight="48"
+                                maxHeight="48"
+                                visible="false"
+                                managed="false"
+                                style="-fx-font-size: 14px;" />
+
+                        <Button fx:id="calculationsButton"
+                                text="Berechnungen"
+                                prefWidth="366"
+                                minHeight="48"
+                                prefHeight="48"
+                                maxHeight="48"
+                                visible="false"
+                                managed="false"
+                                style="-fx-font-size: 14px;" />
+
+                        <Region VBox.vgrow="ALWAYS"/>
+
+                    </VBox>
+
+                </ScrollPane>
+
+            </VBox>
+        </center>
+
+        <!-- BOTTOM: Action Bar -->
+        <bottom>
+            <HBox fx:id="actionBarWrapper"
+                  alignment="CENTER"
+                  maxWidth="Infinity">
+
+                <HBox fx:id="actionBar"
+                      alignment="TOP_CENTER"
+                      minHeight="72"
+                      prefHeight="72"
+                      maxHeight="72"
+                      prefWidth="560"
+                      maxWidth="560"
+                      style="-fx-padding: 2 28 2 28;">
+
+                    <Button fx:id="actionButton"
+                            text="Zurück"
+                            prefWidth="160"
+                            minHeight="56"
+                            prefHeight="56"
+                            maxHeight="56"
+                            managed="true"
+                            style="-fx-font-size: 14px;" />
+
+                </HBox>
+            </HBox>
+        </bottom>
+
+    </BorderPane>
+
+</StackPane>

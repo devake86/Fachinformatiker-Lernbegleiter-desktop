@@ -1,165 +1,320 @@
-# projectFIQA (Desktop)
+# Fachinformatiker Lernbegleiter (Desktop)
 
-A Desktop version of the Android App as an alternative for iOS users to prepare for the IHK FISI/FIAE final exams (AP1 / AP2) with JSON-/Gson-based question handling. Reuses the Java Core-logic of the Android App and uses JavaFX (FXML) to build the UI. [**Desktop EXE (v1.0-beta2)**](https://github.com/devake86/projectFIQA-desktop/releases/download/v1.0-beta2/projectFIQA-desktop_v1-beta2a.zip)
+Eine Java-basierte Lern-App in Quizform für Windows zur ergänzenden Prüfungsvorbereitung für angehende Fachinformatikerinnen und Fachinformatiker, insbesondere für AP1 und perspektivisch AP2. Die Fragen werden JSON-/Gson-basiert geladen und verarbeitet.
+
+Die Desktop-Version nutzt JavaFX mit FXML, übernimmt die Java-Kernlogik der Android-Version und speichert Lernstand sowie Fehlertraining lokal über SQLite. Benutzereinstellungen wie Custom Light-/Dark-Mode und „Letzte Auswahl“ werden lokal gespeichert.
+
+**Hinweis:** Diese App ist kein offizielles Angebot der IHK, einer Berufsschule oder einer vergleichbaren Institution. Es handelt sich um ein privates Lern- und Entwicklungsprojekt. Die enthaltenen Fragen sind keine offiziellen IHK-Prüfungsaufgaben und ersetzen keine offiziellen Lern- oder Prüfungsmaterialien.
+
+[**Desktop ZIP/EXE (v1.0-rc1)**](https://github.com/devake86/Fachinformatiker-Lernbegleiter-desktop/releases/tag/v1.0-rc1)
 
 ---
 
 ## Screenshots
 
-Preview of the UI Flow:
+Vorschau des Desktop-Hauptmenüs in Dark- und Light-Mode:
 
-![UI Flow](images/screenshot_ui_flow_desktop_v1.0-beta2.png)
+<details open>
+<summary>UI/UX Vorschau anzeigen</summary>
 
-*Example the UI Flow from Main menu to Resultscreen (v1.0-beta2)*
+[![Desktop Hauptmenü Dark/Light](images/main_dark_light_desktop_v1.0-rc1.png)](images/main_dark_light_desktop_v1.0-rc1.png)
+
+*Desktop-Hauptmenü in Dark- und Light-Mode mit Schnellzugriffen auf „Quiz Auswahl“, „Letzte Auswahl“ und „Fehlertraining“. (v1.0-rc1).*
 
 ---
 
 ## Status
-Current version: v1.0-dev2
 
-Last stable release: v1.0-beta2
+Aktuelle Version: **v1.0-rc1**
 
-Designed for Windows (.exe).
+Status: **Release Candidate / Betatest**
 
-To run locally:
-- Requires JDK 21 (or compatible)
-- Run with `./gradlew run`
+Zielplattform:
+- Windows-Desktop-App (`.exe` / `.zip`)
+
+Lokal ausführen:
+- JDK 21 oder kompatibel erforderlich
+- Start über: `./gradlew run`
 
 ---
 
-## Project Overview
+## Projektübersicht
 
-This project was created as an additional learning tool during retraining as a *Fachinformatiker*.
+Dieses Projekt wurde als ergänzendes Lernwerkzeug während der Umschulung zum Fachinformatiker entwickelt.
 
-This application is the desktop counterpart of the projectFIQA android version.
+Diese Anwendung ist das Desktop-Gegenstück zur Android-Version des Fachinformatiker Lernbegleiters.
 
 Motivation:
-- Java and OOP concepts were not deeply covered in the official learning fields
-- Need for a more mobile, efficient and interactive way of learning to replace slow and bulky "book-learning" methods or handling flashcards on the go
-- Convert daily "dead travel time" during commutes into a practical exam preparation while ensuring privacy in crowded public transport
+- Java- und OOP-Konzepte wurden in den offiziellen Lernfeldern nur begrenzt vertieft.
+- Es bestand Bedarf an einer effizienten und interaktiven Lernmöglichkeit als Ergänzung zu langsameren Lernmethoden wie Büchern oder Karteikarten.
+- Neben mobiler Nutzung sollte auch eine Desktop-Version verfügbar sein, die in einem kleinen Fenster neben anderen Aufgaben verwendet werden kann.
 
-Solution:
-- A desktop learning application for Windows
-- Designed to run in an Android-like window or in a small “snap” window next to other tasks
-- Allows easy repetition and quick learning sessions
-- Reusable Java Core-logic and structure for use on different platforms
-
-
----
-
-## Current Status
-
-- Reworked the question loop for a better UI and UX:
-  - Every question loop is now on one screen. choose answer button (chosen answer is highlighted; rest has lower opacity) -> confirmation button pops up -> by pressing the confirmation button the answer button turns green if correct answer is given or red for wrong answer and the correct answer turn greens (the rest stays at lower opacity) -> explanation pops up between the question text and the answer buttons -> confirmation button changes text and leads to next question or quiz evaluation if it is the last question of the round.
-  - Ommited potential questions with pictures due to not beeing used much if at all and potential scaling problem for little outcome; diagramms and excel questions are better learned through different means but theoretical questions will still be used; code snippet questions can be properly implemented via JSONs.
-  - Changed the overall font to JetBrainsMono to support perfectly aligned JSON code snippet indents and give the app a more techy vibe.
-- Working core-logic for AP1 mode (for now, Proof of Concept with Dummy-questions)
-- Working “20 Questions Mode” for either mixed questions, abbreviations and technical terms mode.
-- Question format: 1 out of 4 questions and negated 1 out of 4 questions to simulate multiple choice while not requiring more complex logic to achieve a similar outcome (ommited True/False questions as they are not as beneficial for learning purposes as 1 out of 4 questions, but kept the code in for now)
-- Implemented a Session-State to combat repeat questions as long as new round are played through "Neue Runde" in the result screen instead of "Track correctly answered questions using IDs and timestamps" and "Reintroduce questions into the pool after 2–3 days (learning curve)" as a simple solution based on daily use cases (only a couple of round per day).
-- Includes an answer confirmation step to prevent accidental selections and improve usability.
-
-- The desktop version uses a custom CSS styling to visually match the Android dark mode design.
-- Improved the parity with the android version for the desktop version through separating the main menu from the quiz flow
+Lösung:
+- Desktop-Lernanwendung für Windows
+- Android-ähnliches Fensterformat mit festem App-Panel
+- Nutzbar im kleinen Fenster oder Snap-Layout neben anderen Aufgaben
+- Kurze Lernrunden und schnelle Wiederholung
+- JSON-basierte Fragenpakete
+- Wiederverwendbare Java-Kernlogik und ähnliche Projektstruktur für mehrere Plattformen
+- Android- und Desktop-Version werden möglichst parallel weiterentwickelt
 
 ---
 
-## Goals
+## Aktueller Funktionsstand
 
-### Minimum Goals
+- Überarbeiteter Fragenablauf für bessere UI/UX:
+  - Jede Frage läuft auf einem Screen ab.
+  - Antwort auswählen → gewählte Antwort wird hervorgehoben.
+  - Bestätigen-Button erscheint.
+  - Nach Bestätigung werden richtige/falsche Antworten markiert.
+  - Erklärung wird zwischen Frage und Antwortbereich angezeigt.
+  - Der Button wechselt zu „Nächste Frage“ oder „Quiz auswerten“.
+- Antwortfeedback wurde dezenter gestaltet:
+  - Antworten bleiben optisch neutral.
+  - Richtig/falsch wird über farbige Rahmen und Marker angezeigt.
+  - Marker bleiben als deutliche visuelle Unterstützung erhalten.
+- Fragetyp aktuell:
+  - 1-aus-4-Fragen
+  - negierte 1-aus-4-Fragen
+  - Wahr/Falsch-Logik ist vorbereitet, wird aktuell aber bewusst nicht genutzt, da 1-aus-4-Fragen didaktisch sinnvoller für die Lernziele sind.
+- AP1-Modus:
+  - gewichtete Lernfeldmischung aus LF 01–06
+  - aktuell auf 36 Fragen pro AP1-Runde ausgelegt
+- Lernfeld-Vertiefung:
+  - 20-Fragen-Modus für einzelne Lernfelder
+  - Round-Robin-Auswahl aus Unterthemen
+  - Fragenpakete für Sachfragen, Fachbegriffe und Abkürzungen
+  - Zusätzliche Fragenpakete wie Code-Snippets oder Subnetting für passende Lernfelder
+- Fragenbestand LF 01–06 für RC1 überarbeitet:
+  - Fachbegriffe, Sachfragen und thematische Fragenpakete wurden systematisch geprüft.
+  - Distraktoren wurden plausibler, fachnäher und weniger offensichtlich formuliert.
+  - Frageformate wurden stärker vereinheitlicht, damit Antwortlängen, Stil und Schwierigkeitsgrad konsistenter wirken.
+- Lokale SQLite-basierte Lernstandsspeicherung:
+  - Richtig beantwortete Fragen werden über ihre eindeutige Fragen-ID gespeichert und aus neuen normalen Quizrunden herausgefiltert.
+  - Falsch beantwortete Fragen werden persistent gespeichert und können über „Fehlertraining (x)“ im Hauptmenü erneut geübt werden.
+  - Korrekt beantwortete Fehlerfragen werden automatisch aus dem persistenten Fehlerfragenpool entfernt.
+  - Der Lernstand bleibt nach Programmende und Neustart erhalten.
+- Reset-Dialog für abgeschlossene Auswahlen:
+  - Wenn für eine Auswahl nicht mehr genug offene Fragen verfügbar sind, kann der Nutzer die korrekt beantworteten Fragen dieser Auswahl zurücksetzen und direkt neu starten.
+  - Falsch beantwortete Fragen bleiben beim Zurücksetzen korrekt beantworteter Fragen erhalten.
+- Lokaler Wiederholungspool innerhalb einer laufenden Quizrunde:
+  - Falsch beantwortete Fragen können zusätzlich direkt am Ende einer Quizrunde erneut wiederholt werden.
+  - Dieser lokale Wiederholungspool ergänzt das persistente Fehlertraining.
+- Session-basierter Fragenpool innerhalb aktiver Runden:
+  - Bereits gezogene Fragen werden innerhalb einer laufenden Auswahl reduziert.
+  - Neue Runden über „Neue Runde“ greifen weiterhin auf den verbliebenen Fragenpool der aktuellen Auswahl zu.
+- Hauptmenü mit Schnellzugriffen:
+  - „Quiz Auswahl“ für neue AP1- oder Lernfeld-Auswahl
+  - „Letzte Auswahl“ für schnellen Wiedereinstieg
+  - „Fehlertraining (x)“ für persistent gespeicherte falsch beantwortete Fragen
+- Fragen-ID kann kopiert werden, um fehlerhafte Fragen leichter zu melden oder zu korrigieren.
+- Light- und Dark-Mode
+- JavaFX-/FXML-Oberfläche mit CSS-Theme
+- Desktop-App bleibt als zentriertes 560×860-App-Panel stabil, auch wenn das Fenster größer ist.
+- Hauptmenü und Quizauswahl wurden für feste Buttonpositionen und schnelle Wiedereinstiege optimiert
+- JetBrains Mono als Schriftart für technische Optik und sauber ausgerichtete Code-Snippets
+- Creator-Easter-Egg
 
-- Implement an AP1 mode:
-  - Combines all topics from learning fields 1–6 with a weighted question count for each depending on the number of weeks each learning field was taught times three for 36 questions total which is the average question amount of a typical learning objective verification.
-
-- Add repetition mode:
-  - 20 Questions Mode for individual learning fields with a mixed questions, abbreviations and technical terms mode.
-  - Add a scrollable selection screen for the different learning field modes after choosing "20 Fragen"
-
-- Integrate user feedback from testing phases
+Bewusste Designentscheidungen:
+- Ein Bestätigungsschritt bleibt erhalten, damit nach der Antwortauswahl bewusst bestätigt werden muss und unbeabsichtigte Eingaben vermieden werden. Diese Entscheidung wurde durch Nutzerfeedback bestätigt.
+- Bildfragen wurden vorerst bewusst nicht priorisiert, da Skalierung und Nutzen im aktuellen Lernkonzept nicht im Vordergrund stehen.
+- Diagramm- und Excel-Aufgaben werden später eher theoretisch oder über andere Lernformen berücksichtigt.
+- Code-Snippet-Fragen können über JSON-Fragen sauber abgebildet werden.
+- Desktop-Buttons dürfen breiter und luftiger sein als in der Android-Version, um abgeschnittene Texte zu vermeiden.
 
 ---
 
-### Optional Goals
+## Ziele
 
-- AP2 mode (learning fields 1–12)
-  - intended for both FIAE and FISI tracks
-  - only if time permits (significantly higher workload)
+### Mindestziele
+
+- AP1-Modus:
+  - kombiniert Lernfelder 01–06
+  - gewichtete Fragenanzahl abhängig von der Dauer der Lernfeldbehandlung
+  - aktuell 36 Fragen pro AP1-Runde
+
+- Lernfeld-Vertiefung:
+  - 20-Fragen-Modus für einzelne Lernfelder
+  - Sachfragen, Fachbegriffe und Abkürzungen pro Lernfeld ausbauen
+  - Code-Snippet- und Subnetting-Fragen dort ergänzen, wo sie fachlich sinnvoll sind
+  - scrollbare Auswahlmenüs für Lernfelder und Fragenpakete
+
+- Feedback aus Testphasen einarbeiten
 
 ---
 
-## Learning Objectives
+### Optionale Ziele
 
-- Improve understanding of OOP
-- Deepen and apply Java knowledge in real-world scenario
-- Learn JavaFX (FXML) GUI development
-- Work with JSON data structures
-- Build a practical, usable learning tool for real exam preparation
-- Maintain cross-platform project structure
+- AP2-Modus für Lernfelder 01–12
+  - perspektivisch für FIAE und FISI
+  - nur falls zeitlich sinnvoll umsetzbar, da deutlich höherer Content-Aufwand
+
+---
+
+## Lernziele des Projekts
+
+- OOP-Verständnis verbessern
+- Java-Wissen praktisch anwenden und vertiefen
+- JavaFX- und FXML-GUI-Entwicklung kennenlernen
+- UI/UX für Desktop-Anwendungen besser verstehen
+- Mit JSON-Datenstrukturen arbeiten
+- Ein praktisch nutzbares Lernwerkzeug für echte Prüfungsvorbereitung bauen
+- Plattformübergreifende Projektstruktur aufbauen und pflegen
+- Lokale Persistenz mit SQLite/JDBC umsetzen
+
+---
+
+## Roadmap
+
+### Priorität 1 – RC1 / Betatest
+
+- Android- und Desktop-Version mit Testpersonen prüfen
+- Persistente Lernstandslogik und Fehlertraining im praktischen Einsatz testen
+- UI/UX-Feedback sammeln
+- Fehlerhafte oder unklare Fragen korrigieren
+- Fragenbestand für LF 01–06 prüfen und ergänzen
+- README und Screenshots aktualisieren
+
+### Priorität 2 – Content-Ausbau
+
+- Mehr hochwertige prüfungsnahe Fragen für LF 01–06 ergänzen
+- AP1-Fragenmischung weiter verbessern
+- Sachfragen, Fachbegriffe und Abkürzungen pro Lernfeld ausbauen
+- Code-Snippet- und Subnetting-Fragen dort ergänzen, wo sie fachlich sinnvoll sind
+
+### Priorität 3 – Web-/PWA-Port
+
+- TypeScript-basierter Web-/PWA-Port auf Grundlage der RC1-Logik
+- Android-ähnliche UI/UX für mobile Browser und iOS-Geräte
+- Offline-first-Ansatz mit installierbarer PWA
+- Kein Tracking, keine Telemetrie und kein Online-Zwang
+- Automatische Updates können genutzt werden, wenn der Nutzer online ist und eine neue Version erkannt wird
+
+### Post-RC1 / Post-1.0-Ideen
+
+- Fortlaufende Überarbeitung und Verschärfung des Fragenbestands:
+  - präzisere Formulierungen
+  - plausiblere Distraktoren
+  - zusätzliche prüfungsnahe Fragen
+- Weitere Bugfixes und UI-Feinschliff auf Basis eigener Nutzung und Betatests
+- Technische Refactorings:
+  - gemeinsame Dialog-Erzeugung auslagern
+  - ähnliche TextFlow-/Beschreibungsmethoden zusammenführen
+  - JSON-Pfade in einem zentralen Fragenkatalog bündeln
+  - Quiz-Vorbereitungslogik aus den Controllern auslagern
+- Erweiterte Lernlogik:
+  - optionale Spaced-Repetition-Ansätze
+  - feinere Logik für das Entfernen oder Wiederholen falscher Fragen, z. B. Priorisierung von oft falsch beantworteten Fragen
+  - optionale Statistiken zu Lernfortschritt und Fehlerhäufigkeit
+- Persistenz-Ausbau:
+  - Android perspektivisch mit Room statt direktem SQLite-Zugriff
+  - optionale Import-/Export-Funktion für Lernstände
+  - Web/PWA perspektivisch mit localStorage oder IndexedDB
+- mögliche spätere AP2-Erweiterung
 
 ---
 
 ## Changelog
 
-### v1.0-dev2 (desktop & android)
+### v1.0-rc1 (Android & Desktop)
 
-TODO:
+Implementiert:
 
-Priority (based on user feedback):
-- Optional repetition of incorrectly answered questions after a round
+- Projektname auf **Fachinformatiker Lernbegleiter** festgelegt; der Fokus bleibt eine plattformübergreifende ergänzende Lern-App zur Prüfungsvorbereitung.
+- UI/UX deutlich näher zwischen Android- und Desktop-Version angeglichen
+- Desktop-Hauptmenü mit festen Schnellzugriffen für Quiz Auswahl, Letzte Auswahl und Fehlertraining überarbeitet
+- Hauptmenü überarbeitet:
+  - neue „Quiz Auswahl“ als eigenes Zwischenmenü
+  - Schnellzugriffe für „Letzte Auswahl“ und „Fehlertraining (x)“
+  - stabilere Buttonpositionen durch reservierte UI-Bereiche
+- Android-Version um eine Auswahl für linkshändige Daumennutzung erweitert, inklusive angepasster UI-Elemente im Quizablauf und in Dialogfenstern
+- Light- und Dark-Theme überarbeitet
+- dezenteres Antwortfeedback:
+  - neutraler Buttonhintergrund
+  - farbiger Rahmen für richtig/falsch
+  - farbige Marker als Zusatzsignal
+- Selected-/Pressed-/Hover-Zustände überarbeitet
+- Antwortmarker optisch angepasst
+- AP1-Modus mit gewichteter LF01–LF06-Fragenmischung
+- Quiz-Auswahlmenü, Content-Menü und Content-Submenü für AP1-, Lernfeld- und Fragenpaketauswahl
+- Lernfeld-Vertiefung mit 20-Fragen-Modus
+- „Letzte Auswahl“-Funktion
+- Persistentes Fehlertraining über lokale SQLite-Datenbank::
+  - falsch beantwortete Fragen werden über ihre Fragen-ID gespeichert
+  - korrekt beantwortete Fehlerfragen werden automatisch aus dem Fehlerfragenpool entfernt
+  - Hauptmenü zeigt die aktuelle Anzahl offener Fehlerfragen als „Fehlertraining (x)“
+  - Fehlerfragen bleiben nach App-/Programmneustart erhalten
+- Kopierfunktion für Fragen-ID
+- Optionales Wiederholen falsch beantworteter Fragen:
+  - lokaler Wiederholungspool für falsche Fragen innerhalb der aktuellen Quizrunde
+  - persistentes Fehlertraining für falsch beantwortete Fragen aus allen bekannten Fragenpaketen
+- Kombination aus lokalem Session-Fragenpool und persistenter SQLite-Lernstandsspeicherung zur Reduktion direkter Wiederholungen
+- Reset-Dialog für abgeschlossene Auswahlen:
+  - korrekt beantwortete Fragen einer Auswahl können zurückgesetzt und direkt neu gestartet werden
+  - falsch beantwortete Fragen bleiben dabei erhalten
+- Desktop-Version auf festes 560×860-App-Panel mit zentrierter Darstellung umgestellt
+- Creator-Easter-Egg
+- Code-Cleanup und bessere Methodenstruktur in den Hauptklassen
+- Fragenbestand LF 01–06 umfassend für RC1 geprüft und überarbeitet:
+  - Distraktoren wurden fachnäher und plausibler formuliert.
+  - Offensichtliche Falschantworten wurden reduziert.
+  - Antwortlängen und Formulierungsstil wurden stärker vereinheitlicht.
+  - Fachbegriffe und Sachfragen können sich thematisch überschneiden, bleiben aber wegen getrennter Lernmodi bewusst erhalten.
 
-General:
-- Add at least 40 high-quality exam-oriented questions per topic LF1-9 to have at least 2 rounds of 20 Questions and 4 rounds of AP1 Mode for a v1.0-mvp-release
-- Add a scrollable submenu for all topics for at least the mixed questions mode
+Bekannte Einschränkungen:
 
-If time:
-- If time add soft hyphens for json questions and explanations for a smoother text line break
-- If time make it so the first scrollable submenu button starts at the height where the first answer button would be through autoscroll implementation to improve onehanded thumb navigation but overall the menu should use the whole screen
-- If time add abbreviations and technical terms mode for every topic with at least 40 questions
-- If time add extend mechanic to the LF buttons in the submenu to open up a choice between buttons for mixed questions, abbreviations and technical terms mode per LF.
-- If time add a copy function for the question id in the status bar
-- If time make android version a fixed vertical mode only (no landscape mode)
-
-Future considerations:
-- Consider adding statistics / correctness percentage display
-
----
-
-### v1.0-beta2 (desktop & android)
-
-IMPLEMENTED:
-
-- Gradle as build tool for Desktop Port to ensure consistency with the Android Version
-- Refactored the JavaFX Desktop Port to use FXML to ensure consistency with the Android Version
-- Separated the main menu of the Desktop Port from the quiz flow for better parity with the Android Version
-- Immediate feedback on answer buttons (green/red)
-- Remove extra result screen after answering
-- Implemented a Session-State to combat repeat questions as long as new round are played through "Neue Runde" in the result screen
-- Implement AP1 mode with JSON-based question logic
-
-- Added a small creator easter egg
-
-Design decisions:
-- Kept answer confirmation button to prevent accidental selections (based on user feedback)
-
----
-
-### v1.0-beta (desktop & android)
-
-- Implemented GUI versions for Desktop (JavaFX) and Android
-- Android version already separates menu and quiz flow
-- Created Windows desktop build (.exe)
-- Created Android debug build (.apk)
-
-User testing:
-- Tested with classmates (learning field 9 questions)
-- Overall positive feedback
-- UI improvements requested
+- Fragenbestand wird weiter ausgebaut.
+- Der Fragenbestand wurde für RC1 erstmals umfassend qualitativ geprüft und überarbeitet. Einzelne Frageformulierungen, Distraktoren oder Dopplungen zwischen getrennten Modi können sich durch Betatests und Selbstfeedback weiter ändern.
+- AP2-Modus ist noch nicht umgesetzt.
+- Einfache persistente Lernstandspeicherung inklusive Fehlertraining ist umgesetzt; erweiterte Lernlogik wie Spaced Repetition, Statistiken oder Import-/Export-Funktionen ist noch nicht enthalten.
+- Web-/PWA-Port ist geplant, aber noch nicht Bestandteil dieses RC1.
 
 ---
 
-### v0.1-prototype (desktop)
+### v1.0-beta2 (Desktop & Android)
 
-- Implemented core quiz classes
-- Created JSON structure and loader
-- Implemented quiz logic in engine
-- Basic console output for testing in main class
+Implementiert:
+
+- Gradle als Build-Tool für den Desktop-Port zur besseren Konsistenz mit der Android-Version
+- JavaFX-Desktop-Port auf FXML umgestellt
+- Hauptmenü und Quizflow im Desktop-Port getrennt
+- Sofortiges visuelles Feedback auf Antwortbuttons
+- separaten Zwischenergebnis-Screen nach jeder Antwort entfernt
+- Session-State gegen zu schnelle Wiederholungen innerhalb laufender Runden
+- AP1-Modus mit JSON-basierter Fragenlogik
+- kleines Creator-Easter-Egg
+
+Designentscheidung:
+
+- Bestätigungsbutton beibehalten, um versehentliche Antworten zu vermeiden.
+
+---
+
+### v1.0-beta (Desktop & Android)
+
+- GUI-Versionen für Desktop (JavaFX) und Android umgesetzt
+- Android-Version trennt bereits Menü- und Quizflow
+- Windows-Desktop-Build (`.exe`) erstellt
+- Android-Debug-Build (`.apk`) erstellt
+
+User Testing:
+
+- Mit Mitschülern getestet
+- Insgesamt positives Feedback
+- UI-Verbesserungen gewünscht
+
+---
+
+### v0.1-prototype (Desktop)
+
+- Kernklassen für das Quiz implementiert
+- JSON-Struktur und Loader erstellt
+- Quizlogik in Engine umgesetzt
+- einfache Konsolenausgabe zum Testen in der Main-Klasse
+
+---
+
+## Lizenz
+
+Dieses Projekt ist als privates Lern- und Referenzprojekt entstanden.
+Lizenzinformationen siehe Repository.

@@ -1,0 +1,189 @@
+.root {
+    -fx-background-color: #D6D0C2;
+    -fx-font-family: "JetBrains Mono";
+}
+
+/* Allgemeiner Text */
+.label {
+    -fx-text-fill: #1E1F22;
+}
+
+/* ScrollPane Hintergrund */
+.scroll-pane,
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Standard Buttons / PrimaryButton */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #F0ECE3, #E7E1D6, #DCD4C6);
+    -fx-border-color: #B5AA99;
+    -fx-border-width: 2px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+
+    -fx-text-fill: #1E1F22;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 14px;
+
+    -fx-padding: 0 4 0 4;
+    -fx-cursor: hand;
+}
+
+/* Hover */
+.button:hover {
+    -fx-border-color: #0078D4;
+}
+
+/* Pressed */
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #DCD4C6, #E7E1D6, #F0ECE3);
+}
+
+/* Disabled */
+.button:disabled {
+    -fx-opacity: 0.65;
+}
+
+/* Antwortbuttons */
+.answer-button {
+    -fx-background-color: linear-gradient(to bottom, #F0ECE3, #E7E1D6, #DCD4C6);
+    -fx-border-color: #B5AA99;
+    -fx-border-width: 2px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+
+    -fx-text-fill: #1E1F22;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 14px;
+
+    -fx-padding: 2 4 2 4;
+}
+
+/* Ausgewählte Antwort per Fokus etwas sichtbarer */
+.answer-button:hover {
+    -fx-border-color: #0078D4;
+}
+
+.button-selected {
+    -fx-background-color: linear-gradient(to bottom, #F8F5EF, #EEE7DC, #DED6C8);
+    -fx-border-color: #0078D4;
+    -fx-border-width: 2px;
+    -fx-text-fill: #1E1F22;
+}
+
+/* Richtig */
+.button-correct {
+    -fx-background-color: linear-gradient(to bottom, #F0ECE3, #E7E1D6, #DCD4C6);
+    -fx-border-color: #2E8B3C;
+    -fx-border-width: 2px;
+    -fx-text-fill: #1E1F22;
+}
+
+/* Falsch */
+.button-wrong {
+    -fx-background-color: linear-gradient(to bottom, #F0ECE3, #E7E1D6, #DCD4C6);
+    -fx-border-color: #D32F2F;
+    -fx-border-width: 2px;
+    -fx-text-fill: #1E1F22;
+}
+
+/* Antwortmarker */
+.answer-marker {
+    -fx-background-color: linear-gradient(to bottom, #F0ECE3, #E7E1D6, #DCD4C6);
+    -fx-border-color: #B5AA99;
+    -fx-border-width: 1px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+
+    -fx-text-fill: #1E1F22;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+/* Richtiger Marker */
+.marker-correct {
+    -fx-background-color: linear-gradient(to bottom, #2E8B3C, #236D2F, #13451E);
+    -fx-border-color: #66BB6A;
+    -fx-text-fill: #EDEEF2;
+}
+
+/* Falscher Marker */
+.marker-wrong {
+    -fx-background-color: linear-gradient(to bottom, #D32F2F, #B71C1C, #7F1111);
+    -fx-border-color: #EF5350;
+    -fx-text-fill: #EDEEF2;
+}
+
+/* Exit Button */
+.exit-button {
+    -fx-background-color: linear-gradient(to bottom, #F0ECE3, #E7E1D6, #DCD4C6);
+    -fx-border-color: #B5AA99;
+    -fx-border-width: 2px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+
+    -fx-text-fill: #1E1F22;
+    -fx-font-size: 18px;
+}
+
+/* Toggle links */
+#lightModeSelectButton,
+#leftHandedSelectButton {
+    -fx-background-radius: 4px 0 0 4px;
+    -fx-border-radius: 4px 0 0 4px;
+}
+
+/* Toggle rechts */
+#darkModeSelectButton,
+#rightHandedSelectButton {
+    -fx-background-radius: 0 4px 4px 0;
+    -fx-border-radius: 0 4px 4px 0;
+}
+
+/* Scrollbar */
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 8px;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: linear-gradient(to bottom, #F0ECE3, #E7E1D6, #DCD4C6);
+    -fx-border-color: #B5AA99;
+    -fx-border-width: 1px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+/* Titel + Beschreibungstext */
+.content-title-text {
+    -fx-fill: #1E1F22;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.content-description-text {
+    -fx-fill: #1E1F22;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+}

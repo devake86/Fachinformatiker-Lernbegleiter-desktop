@@ -5,7 +5,7 @@
 
 <StackPane xmlns="http://javafx.com/javafx"
            xmlns:fx="http://javafx.com/fxml"
-           fx:controller="app.filb.ui.MenuController"
+           fx:controller="app.filb.ui.QuizMenuController"
            alignment="CENTER">
 
     <BorderPane fx:id="rootLayout"
@@ -33,9 +33,9 @@
                       fillHeight="true"
                       style="-fx-padding: 8 32 8 32;">
 
-                    <Label fx:id="versionIdLabel"
+                    <Label fx:id="statusBarLabel"
                            visible="false"
-                           text="v1.0-rc1"
+                           text="Quiz Auswahl"
                            style="-fx-font-size: 14px;" />
 
                     <Region HBox.hgrow="ALWAYS"/>
@@ -66,7 +66,6 @@
                   alignment="TOP_CENTER"
                   fillWidth="true"
                   maxWidth="560"
-                  maxHeight="860"
                   spacing="8"
                   style="-fx-padding: 0 0 0 0;"
                   BorderPane.alignment="TOP_CENTER">
@@ -86,11 +85,13 @@
                           style="-fx-padding: 8 24 8 24;"
                           VBox.vgrow="ALWAYS">
 
-                        <Label fx:id="titleLabel"
-                               textAlignment="CENTER"
-                               text="Fachinformatiker&#10;Lernbegleiter"
-                               visible="false"
-                               style="-fx-font-size: 46px; -fx-font-weight: bold;" />
+                        <Label fx:id="lfTitleLabel"
+                               text="FiLb"
+                               wrapText="true"
+                               textAlignment="LEFT"
+                               maxWidth="Infinity"
+                               alignment="CENTER_LEFT"
+                               style="-fx-font-size: 16px;" />
 
                     </VBox>
 
@@ -104,99 +105,55 @@
                           VBox.vgrow="NEVER">
 
                         <Label fx:id="flavorLabel"
-                               text="Lernergänzung zur Prüfungsvorbereitung&#10;für angehende Fachinformatiker"
+                               text=""
                                wrapText="true"
                                textAlignment="CENTER"
                                maxWidth="Infinity"
                                alignment="CENTER"
-                               visible="false"
-                               style="-fx-font-size: 14px; -fx-font-weight: bold;" />
+                               style="-fx-font-size: 14px; -fx-font-style: italic; -fx-opacity: 0.8;" />
 
                     </VBox>
 
                 </VBox>
 
-                <!-- Interaction Pane -->
-                <VBox fx:id="interactionPane"
-                      alignment="TOP_CENTER"
-                      spacing="4"
-                      minHeight="240"
-                      prefHeight="240"
-                      style="-fx-padding: 8 40 8 40;">
+                <!-- Scroll Pane -->
+                <ScrollPane fx:id="scrollPaneLayout"
+                            fitToWidth="true"
+                            fitToHeight="true"
+                            vbarPolicy="AS_NEEDED"
+                            hbarPolicy="NEVER"
+                            minHeight="240"
+                            prefHeight="240">
 
-                    <Button fx:id="quizChoiceButton"
-                            text="Quiz Auswahl"
-                            prefWidth="366"
-                            minHeight="48"
-                            prefHeight="48"
-                            maxHeight="48"
-                            managed="true"
-                            style="-fx-font-size: 14px;" />
+                    <!-- Interaction Pane -->
+                    <VBox fx:id="interactionPane"
+                          alignment="TOP_CENTER"
+                          spacing="4"
+                          style="-fx-padding: 8 40 8 40;">
 
-                    <Button fx:id="startWithLastQuizDataButton"
-                            text="Letzte Auswahl"
-                            prefWidth="366"
-                            minHeight="48"
-                            prefHeight="48"
-                            maxHeight="48"
-                            visible="false"
-                            managed="true"
-                            style="-fx-font-size: 14px;" />
-
-                    <Button fx:id="errorTrainingButton"
-                            text="Fehlertraining"
-                            prefWidth="366"
-                            minHeight="48"
-                            prefHeight="48"
-                            maxHeight="48"
-                            visible="false"
-                            managed="true"
-                            style="-fx-font-size: 14px;" />
-
-                    <Region VBox.vgrow="ALWAYS"/>
-
-                    <Button fx:id="optionsButton"
-                            text="Optionen"
-                            prefWidth="366"
-                            minHeight="48"
-                            prefHeight="48"
-                            maxHeight="48"
-                            visible="false"
-                            managed="false"
-                            style="-fx-font-size: 14px;" />
-
-                    <!-- Light / Dark Toggle -->
-                    <HBox alignment="CENTER"
-                          minWidth="196"
-                          prefWidth="196"
-                          maxWidth="196"
-                          minHeight="30"
-                          prefHeight="30"
-                          maxHeight="30">
-
-                        <Button fx:id="lightModeSelectButton"
-                                text="Helle UI"
-                                prefWidth="98"
-                                minHeight="30"
-                                prefHeight="30"
-                                maxHeight="30"
+                        <Button fx:id="ap1Button"
+                                text="Abschlussprüfung"
+                                prefWidth="366"
+                                minHeight="48"
+                                prefHeight="48"
+                                maxHeight="48"
                                 managed="true"
-                                style="-fx-font-size: 14px; -fx-padding: 4 4 4 4;" />
+                                style="-fx-font-size: 14px;" />
 
-                        <Button fx:id="darkModeSelectButton"
-                                text="Dunkle UI"
-                                prefWidth="98"
-                                minHeight="30"
-                                prefHeight="30"
-                                maxHeight="30"
+                        <Button fx:id="start20QuestionsButton"
+                                text="Lernfeld-Vertiefung"
+                                prefWidth="366"
+                                minHeight="48"
+                                prefHeight="48"
+                                maxHeight="48"
                                 managed="true"
-                                style="-fx-font-size: 14px; -fx-padding: 4 4 4 4;" />
+                                style="-fx-font-size: 14px;" />
 
-                    </HBox>
+                        <Region VBox.vgrow="ALWAYS"/>
 
-                    <Region VBox.vgrow="ALWAYS"/>
+                    </VBox>
 
-                </VBox>
+                </ScrollPane>
 
             </VBox>
         </center>
@@ -217,7 +174,7 @@
                       style="-fx-padding: 2 28 2 28;">
 
                     <Button fx:id="actionButton"
-                            text="Beenden"
+                            text="Zurück"
                             prefWidth="160"
                             minHeight="56"
                             prefHeight="56"

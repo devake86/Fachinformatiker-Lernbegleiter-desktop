@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      alignment="CENTER"
+      spacing="20"
+      style="-fx-padding: 20;">
+
+    <!-- Text -->
+    <Label fx:id="dialogLabel"
+           text="DialogLabel"
+           wrapText="true"
+           textAlignment="CENTER"
+           alignment="CENTER"
+           style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+    <!-- Button Container -->
+    <HBox fx:id="buttonContainer"
+          alignment="CENTER"
+          spacing="16">
+
+        <!-- Left Button -->
+        <Button fx:id="leftConfirmationButton"
+                text="Abbruch"
+                prefWidth="120"
+                minHeight="48"
+                prefHeight="48"
+                maxHeight="48"
+                style="-fx-font-size: 14px;" />
+
+        <!-- Right Button -->
+        <Button fx:id="rightConfirmationButton"
+                text="Weiter"
+                prefWidth="120"
+                minHeight="48"
+                prefHeight="48"
+                maxHeight="48"
+                style="-fx-font-size: 14px;" />
+
+    </HBox>
+
+</VBox>

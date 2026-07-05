@@ -8,6 +8,7 @@ repositories { mavenCentral() }
 
 dependencies {
     implementation 'com.google.code.gson:gson:2.14.0'
+    implementation 'org.xerial:sqlite-jdbc:3.53.2.0'
 }
 
 java {
@@ -20,17 +21,21 @@ javafx {
 }
 
 application {
-    mainClass = 'app.MainApp'
+    mainClass = 'app.filb.MainApp'
 }
 
 // Für Standalone .exe mit dependencies Export
 tasks.register('prepareJpackageInput', Copy) {
     dependsOn build
 
+    doFirst {
+        delete "$projectDir/jpackage-input"
+    }
+
     into "$projectDir/jpackage-input"
 
-    from("$buildDir/libs/projectFIQA-desktop.jar") {
-        rename { "projectFIQA-desktop_v1-beta2a.jar" }
+    from("$buildDir/libs/FiLb.jar") {
+        rename { "FiLb-desktop_v1.0-rc1.jar" }
     }
 
     from(configurations.runtimeClasspath.filter { file ->

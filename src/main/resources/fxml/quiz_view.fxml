@@ -3,151 +3,415 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
 
-<BorderPane fx:id="rootLayout"
-            xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="app.ui.QuizController">
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="app.filb.ui.QuizController"
+           alignment="CENTER">
 
-    <!-- ===== TOP: Statusbar Wrapper (zentriert) ===== -->
-    <top>
-        <HBox fx:id="statusBarWrapper"
-              alignment="CENTER"
-              maxWidth="Infinity">
+    <BorderPane fx:id="rootLayout"
+                prefWidth="560"
+                prefHeight="860"
+                minWidth="560"
+                minHeight="860"
+                maxWidth="560"
+                maxHeight="860">
 
-            <!-- Status-Bar selbst -->
-            <HBox fx:id="statusBar"
-                  minHeight="40"
-                  prefWidth="520"
-                  maxWidth="Infinity"
+        <!-- TOP: Statusbar -->
+        <top>
+            <VBox fx:id="statusBarWrapper"
                   alignment="CENTER"
-                  fillHeight="true"
-                  style="-fx-padding: 16;">
+                  maxWidth="Infinity">
 
-                <Label fx:id="questionCounterLabel"
-                       visible="false"
-                       style="-fx-font-size: 12px;" />
+                <!-- Zeile 1: Quizmodus -->
+                <HBox fx:id="statusBar"
+                      minHeight="40"
+                      prefHeight="40"
+                      maxHeight="40"
+                      prefWidth="560"
+                      maxWidth="560"
+                      alignment="CENTER_LEFT"
+                      fillHeight="true"
+                      style="-fx-padding: 8 32 8 32;">
 
-                <Region HBox.hgrow="ALWAYS"/>
+                    <Label fx:id="quizModeLabel"
+                           visible="false"
+                           text="AP1 - Sachfragen"
+                           style="-fx-font-size: 14px;" />
 
-                <Label fx:id="quizModeLabel"
-                       visible="false"
-                       text="beta2"
-                       style="-fx-font-size: 12px;" />
+                    <Region HBox.hgrow="ALWAYS"/>
 
-                <Region HBox.hgrow="ALWAYS"/>
+                </HBox>
 
-                <Label fx:id="questionIdLabel"
-                       visible="false"
-                       style="-fx-font-size: 12px;" />
-
-            </HBox>
-        </HBox>
-    </top>
-
-    <!-- ===== CENTER: Quiz Container (maxWidth 520, top anchored) ===== -->
-    <center>
-        <VBox fx:id="quizContainer"
-              alignment="TOP_CENTER"
-              fillWidth="true"
-              maxWidth="520"
-              maxHeight="920"
-              spacing="8"
-              style="-fx-padding: 8 16 8 16;"
-              BorderPane.alignment="TOP_CENTER">
-
-            <!-- ===== Question Pane ===== -->
-            <VBox fx:id="questionPane"
-                  alignment="TOP_CENTER"
-                  minHeight="520"
-                  prefHeight="520"
-                  style="-fx-padding: 8 16 8 16;">
-
-                <!-- Question Text Box + Endergebnis Text-->
-                <VBox fx:id="questionTextBox"
+                <!-- Zeile 2: Frage links, ID rechts -->
+                <HBox fx:id="questionStatusBar"
+                      minHeight="30"
+                      prefHeight="30"
+                      maxHeight="30"
+                      prefWidth="560"
+                      maxWidth="560"
                       alignment="CENTER"
-                      minHeight="380"
-                      prefHeight="380"
-                      fillWidth="true"
-                      style="-fx-padding: 8 16 24 16;"
-                      VBox.vgrow="ALWAYS">
+                      fillHeight="true"
+                      style="-fx-padding: 0 32 8 32;">
 
-                    <Label fx:id="questionLabel"
-                           wrapText="true"
-                           textAlignment="LEFT"
-                           maxWidth="Infinity"
-                           alignment="TOP_LEFT"
+                    <Label fx:id="questionCounterLabel"
                            visible="false"
-                           style="-fx-font-size: 16px;" />
+                           style="-fx-font-size: 14px;" />
 
-                    <Label fx:id="resultLabel"
+                    <Region HBox.hgrow="ALWAYS"/>
+
+                    <Label fx:id="questionIdLabel"
                            visible="false"
-                           managed="false"
-                           style="-fx-font-size: 32px;" />
+                           style="-fx-font-size: 14px;" />
 
-                </VBox>
-
-                <!-- Explanation Text Box -->
-                <VBox fx:id="explanationTextBox"
-                      alignment="CENTER"
-                      minHeight="140"
-                      prefHeight="140"
-                      fillWidth="true"
-                      style="-fx-padding: 24 32 16 32;"
-                      VBox.vgrow="NEVER">
-
-                    <Label fx:id="explanationLabel"
-                           wrapText="true"
-                           textAlignment="LEFT"
-                           maxWidth="Infinity"
-                           alignment="TOP_LEFT"
-                           visible="false"
-                           style="-fx-font-size: 14px; -fx-font-style: italic; -fx-opacity: 0.8;" />
-
-                </VBox>
+                </HBox>
 
             </VBox>
+        </top>
 
-            <!-- ===== Interaction Pane + Result Screen Buttons===== -->
-            <VBox fx:id="interactionPane"
+        <!-- CENTER: Quiz Container -->
+        <center>
+            <VBox fx:id="quizContainer"
                   alignment="TOP_CENTER"
+                  fillWidth="true"
+                  maxWidth="560"
+                  maxHeight="860"
                   spacing="8"
-                  minHeight="248"
-                  prefHeight="248"
-                  style="-fx-padding: 8 16 8 16;">
+                  style="-fx-padding: 0 0 0 0;"
+                  BorderPane.alignment="TOP_CENTER">
 
-                <Button fx:id="newRoundButton"
-                        text="Neue Runde"
-                        prefWidth="174"
-                        visible="false"
-                        managed="false"
-                        style="-fx-font-size: 14px;"/>
+                <VBox fx:id="questionPane"
+                      alignment="TOP_CENTER"
+                      minHeight="450"
+                      prefHeight="450"
+                      style="-fx-padding: 8 8 8 8;">
 
-                <Button fx:id="menuButton"
-                        text="Hauptmenü"
-                        prefWidth="174"
-                        visible="false"
-                        managed="false"
-                        style="-fx-font-size: 14px;"/>
+                    <!-- Question Text Box + Result Text -->
+                    <VBox fx:id="questionTextBox"
+                          alignment="CENTER"
+                          minHeight="330"
+                          prefHeight="330"
+                          fillWidth="true"
+                          style="-fx-padding: 8 24 8 24;"
+                          VBox.vgrow="ALWAYS">
 
-                <Region VBox.vgrow="ALWAYS"/>
+                        <Label fx:id="questionLabel"
+                               wrapText="true"
+                               textAlignment="LEFT"
+                               maxWidth="Infinity"
+                               alignment="CENTER_LEFT"
+                               visible="false"
+                               style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+
+                        <Label fx:id="resultLabel"
+                               visible="false"
+                               managed="false"
+                               textAlignment="CENTER"
+                               alignment="CENTER"
+                               maxWidth="Infinity"
+                               style="-fx-font-size: 32px;" />
+
+                    </VBox>
+
+                    <!-- Explanation Text Box -->
+                    <VBox fx:id="explanationTextBox"
+                          alignment="CENTER"
+                          minHeight="120"
+                          prefHeight="120"
+                          fillWidth="true"
+                          style="-fx-padding: 8 24 8 24;"
+                          VBox.vgrow="NEVER">
+
+                        <Label fx:id="explanationLabel"
+                               wrapText="true"
+                               textAlignment="LEFT"
+                               maxWidth="Infinity"
+                               alignment="CENTER_LEFT"
+                               visible="false"
+                               style="-fx-font-size: 14px; -fx-font-weight: bold; -fx-opacity: 0.8;" />
+
+                    </VBox>
+
+                </VBox>
+
+                <!-- Interaction Pane -->
+                <VBox fx:id="interactionPane"
+                      alignment="TOP_CENTER"
+                      spacing="4"
+                      minHeight="240"
+                      prefHeight="240"
+                      style="-fx-padding: 8 8 8 8;">
+
+                    <!-- Answer Row 1 -->
+                    <HBox fx:id="answerRow1"
+                          alignment="CENTER"
+                          spacing="4"
+                          maxWidth="Infinity"
+                          minHeight="52"
+                          prefHeight="52"
+                          maxHeight="52">
+
+                        <Label fx:id="answerLeftMarker1"
+                               text=""
+                               minHeight="26"
+                               prefHeight="26"
+                               maxHeight="26"
+                               minWidth="16"
+                               prefWidth="16"
+                               maxWidth="16"
+                               visible="false"
+                               managed="true"
+                               styleClass="answer-marker" />
+
+                        <Button fx:id="answerButton1"
+                                maxWidth="Infinity"
+                                minHeight="52"
+                                prefHeight="52"
+                                maxHeight="52"
+                                wrapText="true"
+                                textAlignment="CENTER"
+                                alignment="CENTER"
+                                styleClass="answer-button"
+                                HBox.hgrow="ALWAYS" />
+
+                        <Label fx:id="answerRightMarker1"
+                               text=""
+                               minHeight="26"
+                               prefHeight="26"
+                               maxHeight="26"
+                               minWidth="16"
+                               prefWidth="16"
+                               maxWidth="16"
+                               visible="false"
+                               managed="true"
+                               styleClass="answer-marker" />
+
+                    </HBox>
+
+                    <!-- Answer Row 2 -->
+                    <HBox fx:id="answerRow2"
+                          alignment="CENTER"
+                          spacing="4"
+                          maxWidth="Infinity"
+                          minHeight="52"
+                          prefHeight="52"
+                          maxHeight="52">
+
+                        <Label fx:id="answerLeftMarker2"
+                               text=""
+                               minHeight="26"
+                               prefHeight="26"
+                               maxHeight="26"
+                               minWidth="16"
+                               prefWidth="16"
+                               maxWidth="16"
+                               visible="false"
+                               managed="true"
+                               styleClass="answer-marker" />
+
+                        <Button fx:id="answerButton2"
+                                maxWidth="Infinity"
+                                minHeight="52"
+                                prefHeight="52"
+                                maxHeight="52"
+                                wrapText="true"
+                                textAlignment="CENTER"
+                                alignment="CENTER"
+                                styleClass="answer-button"
+                                HBox.hgrow="ALWAYS" />
+
+                        <Label fx:id="answerRightMarker2"
+                               text=""
+                               minHeight="26"
+                               prefHeight="26"
+                               maxHeight="26"
+                               minWidth="16"
+                               prefWidth="16"
+                               maxWidth="16"
+                               visible="false"
+                               managed="true"
+                               styleClass="answer-marker" />
+
+                    </HBox>
+
+                    <!-- Answer Row 3 -->
+                    <HBox fx:id="answerRow3"
+                          alignment="CENTER"
+                          spacing="4"
+                          maxWidth="Infinity"
+                          minHeight="52"
+                          prefHeight="52"
+                          maxHeight="52">
+
+                        <Label fx:id="answerLeftMarker3"
+                               text=""
+                               minHeight="26"
+                               prefHeight="26"
+                               maxHeight="26"
+                               minWidth="16"
+                               prefWidth="16"
+                               maxWidth="16"
+                               visible="false"
+                               managed="true"
+                               styleClass="answer-marker" />
+
+                        <Button fx:id="answerButton3"
+                                maxWidth="Infinity"
+                                minHeight="52"
+                                prefHeight="52"
+                                maxHeight="52"
+                                wrapText="true"
+                                textAlignment="CENTER"
+                                alignment="CENTER"
+                                styleClass="answer-button"
+                                HBox.hgrow="ALWAYS" />
+
+                        <Label fx:id="answerRightMarker3"
+                               text=""
+                               minHeight="26"
+                               prefHeight="26"
+                               maxHeight="26"
+                               minWidth="16"
+                               prefWidth="16"
+                               maxWidth="16"
+                               visible="false"
+                               managed="true"
+                               styleClass="answer-marker" />
+
+                    </HBox>
+
+                    <!-- Answer Row 4 -->
+                    <HBox fx:id="answerRow4"
+                          alignment="CENTER"
+                          spacing="4"
+                          maxWidth="Infinity"
+                          minHeight="52"
+                          prefHeight="52"
+                          maxHeight="52">
+
+                        <Label fx:id="answerLeftMarker4"
+                               text=""
+                               minHeight="26"
+                               prefHeight="26"
+                               maxHeight="26"
+                               minWidth="16"
+                               prefWidth="16"
+                               maxWidth="16"
+                               visible="false"
+                               managed="true"
+                               styleClass="answer-marker" />
+
+                        <Button fx:id="answerButton4"
+                                maxWidth="Infinity"
+                                minHeight="52"
+                                prefHeight="52"
+                                maxHeight="52"
+                                wrapText="true"
+                                textAlignment="CENTER"
+                                alignment="CENTER"
+                                styleClass="answer-button"
+                                HBox.hgrow="ALWAYS" />
+
+                        <Label fx:id="answerRightMarker4"
+                               text=""
+                               minHeight="26"
+                               prefHeight="26"
+                               maxHeight="26"
+                               minWidth="16"
+                               prefWidth="16"
+                               maxWidth="16"
+                               visible="false"
+                               managed="true"
+                               styleClass="answer-marker" />
+
+                    </HBox>
+
+                    <Button fx:id="newRoundButton"
+                            text="Neue Runde"
+                            prefWidth="366"
+                            minHeight="48"
+                            prefHeight="48"
+                            maxHeight="48"
+                            visible="false"
+                            managed="false"
+                            style="-fx-font-size: 14px;" />
+
+                    <Button fx:id="repeatSessionWrongQuestionsButton"
+                            text="Falsches wiederholen"
+                            prefWidth="366"
+                            minHeight="48"
+                            prefHeight="48"
+                            maxHeight="48"
+                            visible="false"
+                            managed="false"
+                            style="-fx-font-size: 14px;" />
+
+                    <Region VBox.vgrow="ALWAYS"/>
+
+                </VBox>
 
             </VBox>
+        </center>
 
-            <!-- ===== Action Bar ===== -->
-            <HBox fx:id="actionBar"
+        <!-- BOTTOM: Action Bar -->
+        <bottom>
+            <HBox fx:id="actionBarWrapper"
                   alignment="CENTER"
-                  minHeight="72"
-                  style="-fx-padding: 8 16 48 16;">
+                  maxWidth="Infinity">
 
-                <Button fx:id="actionButton"
-                        text="Bestätigen"
-                        prefWidth="174"
-                        visible="false"
-                        managed="true"
-                        style="-fx-font-size: 14px;"/>
+                <HBox fx:id="actionBar"
+                      alignment="TOP_CENTER"
+                      minHeight="72"
+                      prefHeight="72"
+                      maxHeight="72"
+                      prefWidth="560"
+                      maxWidth="560"
+                      style="-fx-padding: 2 28 2 28;">
+
+                    <Button fx:id="leftHandedExitButton"
+                            text="✕"
+                            prefWidth="48"
+                            minWidth="48"
+                            maxWidth="48"
+                            minHeight="48"
+                            prefHeight="48"
+                            maxHeight="48"
+                            translateY="4"
+                            visible="false"
+                            managed="true"
+                            styleClass="exit-button" />
+
+                    <Region HBox.hgrow="ALWAYS"/>
+
+                    <Button fx:id="actionButton"
+                            text="Bestätigen"
+                            prefWidth="160"
+                            minHeight="56"
+                            prefHeight="56"
+                            maxHeight="56"
+                            visible="false"
+                            managed="true"
+                            style="-fx-font-size: 14px;" />
+
+                    <Region HBox.hgrow="ALWAYS"/>
+
+                    <Button fx:id="rightHandedExitButton"
+                            text="✕"
+                            prefWidth="48"
+                            minWidth="48"
+                            maxWidth="48"
+                            minHeight="48"
+                            prefHeight="48"
+                            maxHeight="48"
+                            translateY="4"
+                            visible="false"
+                            managed="true"
+                            styleClass="exit-button" />
+
+                </HBox>
+
             </HBox>
+        </bottom>
 
-        </VBox>
-    </center>
+    </BorderPane>
 
-</BorderPane>
+</StackPane>
