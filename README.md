@@ -14,9 +14,6 @@ Die Desktop-Version nutzt JavaFX mit FXML, übernimmt die Java-Kernlogik der And
 
 Vorschau des Desktop-Hauptmenüs in Dark- und Light-Mode:
 
-<details open>
-<summary>UI/UX Vorschau anzeigen</summary>
-
 [![Desktop Hauptmenü Dark/Light](images/main_dark_light_desktop_v1.0-rc1.png)](images/main_dark_light_desktop_v1.0-rc1.png)
 
 *Desktop-Hauptmenü in Dark- und Light-Mode mit Schnellzugriffen auf „Quiz Auswahl“, „Letzte Auswahl“ und „Fehlertraining“. (v1.0-rc1).*
