@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-02-rech-wirt-001",
+    "question": "Eine Investition kostet 100 €. Sie bringt 300 € Rückfluss. Wie hoch ist der Gewinn?",
+    "answers": [
+      { "text": "200 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "300 €", "correct": false },
+      { "text": "400 €", "correct": false }
+    ],
+    "explanation": "Gewinn = Rückfluss - Investition. 300 € - 100 € = 200 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-002",
+    "question": "Eine Investition kostet 100 €. Der Gewinn beträgt 200 €. Wie hoch ist der ROI?",
+    "answers": [
+      { "text": "200 %", "correct": true },
+      { "text": "100 %", "correct": false },
+      { "text": "50 %", "correct": false },
+      { "text": "20 %", "correct": false }
+    ],
+    "explanation": "ROI = Gewinn / Investition × 100. 200 € / 100 € × 100 = 200 %."
+  },
+  {
+    "id": "lf-02-rech-wirt-003",
+    "question": "Eine Investition kostet 1.000 €. Der Gewinn beträgt 200 €. Wie hoch ist der ROI?",
+    "answers": [
+      { "text": "20 %", "correct": true },
+      { "text": "10 %", "correct": false },
+      { "text": "100 %", "correct": false },
+      { "text": "200 %", "correct": false }
+    ],
+    "explanation": "ROI = Gewinn / Investition × 100. 200 € / 1.000 € × 100 = 20 %."
+  },
+  {
+    "id": "lf-02-rech-wirt-004",
+    "question": "Eine Investition kostet 1.000 € und spart 250 € pro Jahr. Nach wie vielen Jahren ist sie amortisiert?",
+    "answers": [
+      { "text": "4 Jahre", "correct": true },
+      { "text": "2 Jahre", "correct": false },
+      { "text": "5 Jahre", "correct": false },
+      { "text": "10 Jahre", "correct": false }
+    ],
+    "explanation": "Amortisationszeit = Investition / jährliche Einsparung. 1.000 € / 250 € = 4 Jahre."
+  },
+  {
+    "id": "lf-02-rech-wirt-005",
+    "question": "Eine Investition kostet 1.200 € und spart 300 € pro Jahr. Nach wie vielen Jahren ist sie amortisiert?",
+    "answers": [
+      { "text": "4 Jahre", "correct": true },
+      { "text": "3 Jahre", "correct": false },
+      { "text": "6 Jahre", "correct": false },
+      { "text": "12 Jahre", "correct": false }
+    ],
+    "explanation": "Amortisationszeit = Investition / jährliche Einsparung. 1.200 € / 300 € = 4 Jahre."
+  },
+  {
+    "id": "lf-02-rech-wirt-006",
+    "question": "Eine Anschaffung kostet 600 € und spart 100 € pro Monat. Nach wie vielen Monaten ist sie amortisiert?",
+    "answers": [
+      { "text": "6 Monate", "correct": true },
+      { "text": "3 Monate", "correct": false },
+      { "text": "12 Monate", "correct": false },
+      { "text": "60 Monate", "correct": false }
+    ],
+    "explanation": "Amortisationszeit = Investition / monatliche Einsparung. 600 € / 100 € = 6 Monate."
+  },
+  {
+    "id": "lf-02-rech-wirt-007",
+    "question": "Ein Gerät kostet 1.000 €. Wartung kostet 200 € und Energie 100 €. Wie hoch ist die TCO?",
+    "answers": [
+      { "text": "1.300 €", "correct": true },
+      { "text": "1.000 €", "correct": false },
+      { "text": "1.200 €", "correct": false },
+      { "text": "300 €", "correct": false }
+    ],
+    "explanation": "TCO = Anschaffung + Betriebskosten + Folgekosten. 1.000 € + 200 € + 100 € = 1.300 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-008",
+    "question": "Ein Gerät kostet 500 €. Wartung kostet 100 € und Energie 50 €. Wie hoch ist die TCO?",
+    "answers": [
+      { "text": "650 €", "correct": true },
+      { "text": "500 €", "correct": false },
+      { "text": "600 €", "correct": false },
+      { "text": "150 €", "correct": false }
+    ],
+    "explanation": "TCO = Anschaffung + Wartung + Energie. 500 € + 100 € + 50 € = 650 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-009",
+    "question": "Gerät A kostet 800 € Anschaffung und 200 € Betrieb. Gerät B kostet 700 € Anschaffung und 400 € Betrieb. Welche TCO ist niedriger?",
+    "answers": [
+      { "text": "Gerät A mit 1.000 €", "correct": true },
+      { "text": "Gerät B mit 1.100 €", "correct": false },
+      { "text": "Beide gleich teuer", "correct": false },
+      { "text": "Nicht vergleichbar", "correct": false }
+    ],
+    "explanation": "TCO = Anschaffung + Betrieb. Gerät A: 800 € + 200 € = 1.000 €, Gerät B: 700 € + 400 € = 1.100 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-010",
+    "question": "Warum ist TCO bei IT-Beschaffung oft sinnvoller als nur der Kaufpreis?",
+    "answers": [
+      { "text": "Folgekosten werden mitbetrachtet", "correct": true },
+      { "text": "Der Kaufpreis wird komplett ignoriert", "correct": false },
+      { "text": "TCO betrachtet nur Rabatte", "correct": false },
+      { "text": "TCO ersetzt jede technische Bewertung", "correct": false }
+    ],
+    "explanation": "TCO = Anschaffung + Betrieb + Folgekosten. Dadurch werden auch Wartung, Energie und Nutzungskosten sichtbar."
+  },
+  {
+    "id": "lf-02-rech-wirt-011",
+    "question": "Ein Produkt wird für 220 € verkauft. Die variablen Kosten betragen 197 €. Wie hoch ist der Deckungsbeitrag?",
+    "answers": [
+      { "text": "23 €", "correct": true },
+      { "text": "197 €", "correct": false },
+      { "text": "220 €", "correct": false },
+      { "text": "417 €", "correct": false }
+    ],
+    "explanation": "Deckungsbeitrag = Verkaufspreis - variable Kosten. 220 € - 197 € = 23 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-012",
+    "question": "Ein Produkt wird für 100 € verkauft. Die variablen Kosten betragen 60 €. Wie hoch ist der Deckungsbeitrag?",
+    "answers": [
+      { "text": "40 €", "correct": true },
+      { "text": "60 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "160 €", "correct": false }
+    ],
+    "explanation": "Deckungsbeitrag = Verkaufspreis - variable Kosten. 100 € - 60 € = 40 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-013",
+    "question": "Die Fixkosten betragen 400 €. Der Deckungsbeitrag pro Stück beträgt 20 €. Wie viele Stück müssen verkauft werden?",
+    "answers": [
+      { "text": "20 Stück", "correct": true },
+      { "text": "10 Stück", "correct": false },
+      { "text": "40 Stück", "correct": false },
+      { "text": "80 Stück", "correct": false }
+    ],
+    "explanation": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück. 400 € / 20 € = 20 Stück."
+  },
+  {
+    "id": "lf-02-rech-wirt-014",
+    "question": "Die Fixkosten betragen 500 €. Der Deckungsbeitrag pro Stück beträgt 50 €. Wie viele Stück müssen verkauft werden?",
+    "answers": [
+      { "text": "10 Stück", "correct": true },
+      { "text": "5 Stück", "correct": false },
+      { "text": "50 Stück", "correct": false },
+      { "text": "100 Stück", "correct": false }
+    ],
+    "explanation": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück. 500 € / 50 € = 10 Stück."
+  },
+  {
+    "id": "lf-02-rech-wirt-015",
+    "question": "Ein Unternehmen erzielt 800 € Umsatz mit A-Kunden, 150 € mit B-Kunden und 50 € mit C-Kunden. Wie hoch ist der Gesamtumsatz?",
+    "answers": [
+      { "text": "1.000 €", "correct": true },
+      { "text": "800 €", "correct": false },
+      { "text": "950 €", "correct": false },
+      { "text": "1.100 €", "correct": false }
+    ],
+    "explanation": "Gesamtumsatz = A + B + C. 800 € + 150 € + 50 € = 1.000 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-016",
+    "question": "A-Kunden bringen 800 € von 1.000 € Gesamtumsatz. Wie hoch ist ihr Umsatzanteil?",
+    "answers": [
+      { "text": "80 %", "correct": true },
+      { "text": "8 %", "correct": false },
+      { "text": "20 %", "correct": false },
+      { "text": "800 %", "correct": false }
+    ],
+    "explanation": "Umsatzanteil = Teilumsatz / Gesamtumsatz × 100. 800 € / 1.000 € × 100 = 80 %."
+  },
+  {
+    "id": "lf-02-rech-wirt-017",
+    "question": "B-Kunden bringen 150 € von 1.000 € Gesamtumsatz. Wie hoch ist ihr Umsatzanteil?",
+    "answers": [
+      { "text": "15 %", "correct": true },
+      { "text": "10 %", "correct": false },
+      { "text": "50 %", "correct": false },
+      { "text": "150 %", "correct": false }
+    ],
+    "explanation": "Umsatzanteil = Teilumsatz / Gesamtumsatz × 100. 150 € / 1.000 € × 100 = 15 %."
+  },
+  {
+    "id": "lf-02-rech-wirt-018",
+    "question": "C-Kunden bringen 50 € von 1.000 € Gesamtumsatz. Wie hoch ist ihr Umsatzanteil?",
+    "answers": [
+      { "text": "5 %", "correct": true },
+      { "text": "50 %", "correct": false },
+      { "text": "10 %", "correct": false },
+      { "text": "15 %", "correct": false }
+    ],
+    "explanation": "Umsatzanteil = Teilumsatz / Gesamtumsatz × 100. 50 € / 1.000 € × 100 = 5 %."
+  },
+  {
+    "id": "lf-02-rech-wirt-019",
+    "question": "Was zeigt die ABC-Analyse bei Kunden vereinfacht?",
+    "answers": [
+      { "text": "Welche Kunden besonders viel Umsatzanteil bringen", "correct": true },
+      { "text": "Welche Kunden die meiste Hardware besitzen", "correct": false },
+      { "text": "Welche Kunden am nächsten wohnen", "correct": false },
+      { "text": "Welche Kunden nie betreut werden dürfen", "correct": false }
+    ],
+    "explanation": "ABC-Analyse = Einteilung nach Bedeutung. Meist bringen wenige A-Kunden einen großen Umsatzanteil."
+  },
+  {
+    "id": "lf-02-rech-wirt-020",
+    "question": "Eine Nutzwertanalyse bewertet Preis mit 40 Punkten Gewichtung. Ein Anbieter erhält 5 Punkte. Wie viele gewichtete Punkte sind das?",
+    "answers": [
+      { "text": "200 Punkte", "correct": true },
+      { "text": "45 Punkte", "correct": false },
+      { "text": "40 Punkte", "correct": false },
+      { "text": "5 Punkte", "correct": false }
+    ],
+    "explanation": "Gewichtete Punkte = Gewichtung × Bewertung. 40 × 5 = 200 Punkte."
+  },
+  {
+    "id": "lf-02-rech-wirt-021",
+    "question": "Eine Nutzwertanalyse bewertet Qualität mit 60 Punkten Gewichtung. Ein Anbieter erhält 3 Punkte. Wie viele gewichtete Punkte sind das?",
+    "answers": [
+      { "text": "180 Punkte", "correct": true },
+      { "text": "63 Punkte", "correct": false },
+      { "text": "60 Punkte", "correct": false },
+      { "text": "3 Punkte", "correct": false }
+    ],
+    "explanation": "Gewichtete Punkte = Gewichtung × Bewertung. 60 × 3 = 180 Punkte."
+  },
+  {
+    "id": "lf-02-rech-wirt-022",
+    "question": "Anbieter A erhält 200 gewichtete Punkte beim Preis und 180 bei Qualität. Wie hoch ist der Gesamtnutzwert?",
+    "answers": [
+      { "text": "380 Punkte", "correct": true },
+      { "text": "200 Punkte", "correct": false },
+      { "text": "180 Punkte", "correct": false },
+      { "text": "20 Punkte", "correct": false }
+    ],
+    "explanation": "Gesamtnutzwert = Summe der gewichteten Punkte. 200 + 180 = 380 Punkte."
+  },
+  {
+    "id": "lf-02-rech-wirt-023",
+    "question": "Anbieter B erhält 160 gewichtete Punkte beim Preis und 300 bei Qualität. Wie hoch ist der Gesamtnutzwert?",
+    "answers": [
+      { "text": "460 Punkte", "correct": true },
+      { "text": "300 Punkte", "correct": false },
+      { "text": "160 Punkte", "correct": false },
+      { "text": "140 Punkte", "correct": false }
+    ],
+    "explanation": "Gesamtnutzwert = Summe der gewichteten Punkte. 160 + 300 = 460 Punkte."
+  },
+  {
+    "id": "lf-02-rech-wirt-024",
+    "question": "Anbieter A hat 380 Punkte, Anbieter B hat 460 Punkte. Wer gewinnt nach Nutzwert?",
+    "answers": [
+      { "text": "Anbieter B", "correct": true },
+      { "text": "Anbieter A", "correct": false },
+      { "text": "Beide gleich", "correct": false },
+      { "text": "Keiner, weil Punkte nie zählen", "correct": false }
+    ],
+    "explanation": "Nutzwertvergleich: höhere Punktzahl gewinnt. 460 Punkte > 380 Punkte, also Anbieter B."
+  },
+  {
+    "id": "lf-02-rech-wirt-025",
+    "question": "Warum ist die Nutzwertanalyse mehr als ein reiner Preisvergleich?",
+    "answers": [
+      { "text": "Mehrere gewichtete Kriterien werden berücksichtigt", "correct": true },
+      { "text": "Nur die Umsatzsteuer wird berechnet", "correct": false },
+      { "text": "Nur der niedrigste Preis zählt", "correct": false },
+      { "text": "Alle Kriterien werden ignoriert", "correct": false }
+    ],
+    "explanation": "Nutzwert = Summe gewichteter Bewertungen. Dadurch zählen auch Qualität, Service oder Lieferzeit."
+  },
+  {
+    "id": "lf-02-rech-wirt-026",
+    "question": "Make-or-Buy: Eigenfertigung kostet 100 € Fixkosten plus 5 € pro Stück. Bei 10 Stück: Wie hoch sind die Eigenfertigungskosten?",
+    "answers": [
+      { "text": "150 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "50 €", "correct": false },
+      { "text": "500 €", "correct": false }
+    ],
+    "explanation": "Eigenfertigungskosten = Fixkosten + Menge × variable Kosten. 100 € + 10 × 5 € = 150 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-027",
+    "question": "Make-or-Buy: Fremdbezug kostet 20 € pro Stück. Bei 10 Stück: Wie hoch sind die Fremdbezugskosten?",
+    "answers": [
+      { "text": "200 €", "correct": true },
+      { "text": "20 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "2.000 €", "correct": false }
+    ],
+    "explanation": "Fremdbezugskosten = Menge × Stückpreis. 10 × 20 € = 200 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-028",
+    "question": "Eigenfertigung kostet 150 €, Fremdbezug kostet 200 €. Was ist rein nach Kosten günstiger?",
+    "answers": [
+      { "text": "Eigenfertigung", "correct": true },
+      { "text": "Fremdbezug", "correct": false },
+      { "text": "Beide gleich teuer", "correct": false },
+      { "text": "Nicht berechenbar", "correct": false }
+    ],
+    "explanation": "Kostenvergleich: günstigere Alternative = niedrigere Gesamtkosten. 150 € < 200 €, also Eigenfertigung."
+  },
+  {
+    "id": "lf-02-rech-wirt-029",
+    "question": "Eigenfertigung kostet 250 €, Fremdbezug kostet 200 €. Was ist rein nach Kosten günstiger?",
+    "answers": [
+      { "text": "Fremdbezug", "correct": true },
+      { "text": "Eigenfertigung", "correct": false },
+      { "text": "Beide gleich teuer", "correct": false },
+      { "text": "Eigenfertigung ist immer günstiger", "correct": false }
+    ],
+    "explanation": "Kostenvergleich: günstigere Alternative = niedrigere Gesamtkosten. 200 € < 250 €, also Fremdbezug."
+  },
+  {
+    "id": "lf-02-rech-wirt-030",
+    "question": "Eine Maßnahme spart 50 € pro Monat. Wie viel spart sie pro Jahr?",
+    "answers": [
+      { "text": "600 €", "correct": true },
+      { "text": "50 €", "correct": false },
+      { "text": "500 €", "correct": false },
+      { "text": "1.200 €", "correct": false }
+    ],
+    "explanation": "Jährliche Einsparung = monatliche Einsparung × 12. 50 € × 12 = 600 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-031",
+    "question": "Eine Maßnahme spart 100 € pro Monat. Wie viel spart sie pro Jahr?",
+    "answers": [
+      { "text": "1.200 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "600 €", "correct": false },
+      { "text": "12.000 €", "correct": false }
+    ],
+    "explanation": "Jährliche Einsparung = monatliche Einsparung × 12. 100 € × 12 = 1.200 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-032",
+    "question": "Eine Maßnahme kostet 1.200 € und spart 100 € pro Monat. Nach wie vielen Monaten ist sie amortisiert?",
+    "answers": [
+      { "text": "12 Monate", "correct": true },
+      { "text": "6 Monate", "correct": false },
+      { "text": "10 Monate", "correct": false },
+      { "text": "24 Monate", "correct": false }
+    ],
+    "explanation": "Amortisationszeit = Investition / monatliche Einsparung. 1.200 € / 100 € = 12 Monate."
+  },
+  {
+    "id": "lf-02-rech-wirt-033",
+    "question": "Eine Maßnahme kostet 600 € und spart 50 € pro Monat. Nach wie vielen Monaten ist sie amortisiert?",
+    "answers": [
+      { "text": "12 Monate", "correct": true },
+      { "text": "6 Monate", "correct": false },
+      { "text": "10 Monate", "correct": false },
+      { "text": "50 Monate", "correct": false }
+    ],
+    "explanation": "Amortisationszeit = Investition / monatliche Einsparung. 600 € / 50 € = 12 Monate."
+  },
+  {
+    "id": "lf-02-rech-wirt-034",
+    "question": "Ein Projekt kostet 1.000 € und spart 1.200 €. Wie hoch ist der Nutzenüberschuss?",
+    "answers": [
+      { "text": "200 €", "correct": true },
+      { "text": "1.000 €", "correct": false },
+      { "text": "1.200 €", "correct": false },
+      { "text": "2.200 €", "correct": false }
+    ],
+    "explanation": "Nutzenüberschuss = Nutzen - Kosten. 1.200 € - 1.000 € = 200 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-035",
+    "question": "Ein Projekt kostet 1.000 € und bringt 1.200 € Nutzen. Ist der Nutzen höher als die Kosten?",
+    "answers": [
+      { "text": "Ja, um 200 €", "correct": true },
+      { "text": "Nein, um 200 € niedriger", "correct": false },
+      { "text": "Nein, beide sind gleich", "correct": false },
+      { "text": "Nicht berechenbar", "correct": false }
+    ],
+    "explanation": "Nutzenüberschuss = Nutzen - Kosten. 1.200 € - 1.000 € = 200 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-036",
+    "question": "Zwei Angebote haben gleiche Qualität. Angebot A kostet 900 €, Angebot B kostet 1.000 €. Welches ist rein wirtschaftlich günstiger?",
+    "answers": [
+      { "text": "Angebot A", "correct": true },
+      { "text": "Angebot B", "correct": false },
+      { "text": "Beide gleich teuer", "correct": false },
+      { "text": "Das teurere Angebot ist immer besser", "correct": false }
+    ],
+    "explanation": "Kostenvergleich: geringere Kosten sind günstiger. 900 € < 1.000 €, also Angebot A."
+  },
+  {
+    "id": "lf-02-rech-wirt-037",
+    "question": "Zwei Angebote kosten gleich viel. Angebot A hat 300 Nutzwertpunkte, Angebot B hat 400. Welches ist besser bewertet?",
+    "answers": [
+      { "text": "Angebot B", "correct": true },
+      { "text": "Angebot A", "correct": false },
+      { "text": "Beide gleich", "correct": false },
+      { "text": "Das schlechter bewertete Angebot", "correct": false }
+    ],
+    "explanation": "Nutzwertvergleich: höhere Punktzahl ist besser. 400 Punkte > 300 Punkte, also Angebot B."
+  },
+  {
+    "id": "lf-02-rech-wirt-038",
+    "question": "Ein Gerät kostet 1.000 € und verursacht 100 € jährliche Betriebskosten. Wie hoch sind die Kosten nach einem Jahr?",
+    "answers": [
+      { "text": "1.100 €", "correct": true },
+      { "text": "1.000 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "900 €", "correct": false }
+    ],
+    "explanation": "Gesamtkosten nach einem Jahr = Anschaffung + Betriebskosten. 1.000 € + 100 € = 1.100 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-039",
+    "question": "Ein Gerät kostet 1.000 € und verursacht 100 € jährliche Betriebskosten. Wie hoch sind die Kosten nach zwei Jahren?",
+    "answers": [
+      { "text": "1.200 €", "correct": true },
+      { "text": "1.100 €", "correct": false },
+      { "text": "1.000 €", "correct": false },
+      { "text": "200 €", "correct": false }
+    ],
+    "explanation": "Gesamtkosten = Anschaffung + 2 × jährliche Betriebskosten. 1.000 € + 2 × 100 € = 1.200 €."
+  },
+  {
+    "id": "lf-02-rech-wirt-040",
+    "question": "Warum kann ein teureres Gerät langfristig wirtschaftlicher sein?",
+    "answers": [
+      { "text": "Niedrigere Betriebskosten können den höheren Kaufpreis ausgleichen", "correct": true },
+      { "text": "Der höchste Kaufpreis ist immer automatisch wirtschaftlich", "correct": false },
+      { "text": "Betriebskosten dürfen nie betrachtet werden", "correct": false },
+      { "text": "Wirtschaftlichkeit betrachtet nur den Kaufpreis", "correct": false }
+    ],
+    "explanation": "Wirtschaftlichkeit = Nutzen und Gesamtkosten betrachten. Ein höherer Kaufpreis kann sich durch geringere Folgekosten lohnen."
+  }
+]

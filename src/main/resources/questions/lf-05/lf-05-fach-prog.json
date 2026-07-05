@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-05-fach-prog-001",
+    "question": "Was beschreibt eine Programmiersprache?",
+    "answers": [
+      { "text": "Eine formale Sprache für Programmanweisungen", "correct": true },
+      { "text": "Eine Modellierungssprache für Diagramme", "correct": false },
+      { "text": "Eine Abfragesprache für Datenbanken", "correct": false },
+      { "text": "Eine Zeichencodierung für Textzeichen", "correct": false }
+    ],
+    "explanation": "Merksatz: Programmiersprachen ermöglichen es, Algorithmen in ausführbare Anweisungen zu übersetzen."
+  },
+  {
+    "id": "lf-05-fach-prog-002",
+    "question": "Was beschreibt Syntax in der Programmierung?",
+    "answers": [
+      { "text": "Die formalen Schreibregeln einer Programmiersprache", "correct": true },
+      { "text": "Die inhaltliche Wirkung einer Anweisung", "correct": false },
+      { "text": "Die Laufzeit eines Programms", "correct": false },
+      { "text": "Die Struktur gespeicherter Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: Syntax ist die Grammatik einer Programmiersprache."
+  },
+  {
+    "id": "lf-05-fach-prog-003",
+    "question": "Was beschreibt Semantik in der Programmierung?",
+    "answers": [
+      { "text": "Die Bedeutung einer Anweisung oder eines Ausdrucks", "correct": true },
+      { "text": "Die formale Schreibweise einer Anweisung", "correct": false },
+      { "text": "Die Einrückung einzelner Codeblöcke", "correct": false },
+      { "text": "Die Benennung von Dateien und Modulen", "correct": false }
+    ],
+    "explanation": "Merksatz: Semantik beschreibt, was Programmcode inhaltlich bewirkt."
+  },
+  {
+    "id": "lf-05-fach-prog-004",
+    "question": "Was beschreibt Quellcode?",
+    "answers": [
+      { "text": "Den von Menschen lesbaren Programmtext", "correct": true },
+      { "text": "Den direkt vom Prozessor ausgeführten Maschinencode", "correct": false },
+      { "text": "Die gespeicherten Nutzdaten einer Datenbank", "correct": false },
+      { "text": "Die grafische Darstellung eines Programmablaufs", "correct": false }
+    ],
+    "explanation": "Merksatz: Quellcode ist der lesbare Programmtext, aus dem ein Programm entsteht."
+  },
+  {
+    "id": "lf-05-fach-prog-005",
+    "question": "Was beschreibt ein Bezeichner?",
+    "answers": [
+      { "text": "Einen Namen für Variablen, Funktionen oder Klassen", "correct": true },
+      { "text": "Ein reserviertes Wort mit fester Bedeutung", "correct": false },
+      { "text": "Einen direkt notierten festen Wert", "correct": false },
+      { "text": "Ein Zeichen zur Ausführung einer Operation", "correct": false }
+    ],
+    "explanation": "Merksatz: Bezeichner geben Programmelementen eindeutige Namen."
+  },
+  {
+    "id": "lf-05-fach-prog-006",
+    "question": "Was beschreibt ein Literal?",
+    "answers": [
+      { "text": "Einen direkt im Quellcode notierten festen Wert", "correct": true },
+      { "text": "Einen Namen für ein Programmelement", "correct": false },
+      { "text": "Ein reserviertes Wort der Sprache", "correct": false },
+      { "text": "Eine veränderbare Speicherstelle", "correct": false }
+    ],
+    "explanation": "Merksatz: Literale sind feste Werte wie 5, 3.14, \"Text\" oder True."
+  },
+  {
+    "id": "lf-05-fach-prog-007",
+    "question": "Was beschreibt ein Schlüsselwort?",
+    "answers": [
+      { "text": "Ein reserviertes Wort mit besonderer Bedeutung", "correct": true },
+      { "text": "Ein frei wählbarer Name für eine Variable", "correct": false },
+      { "text": "Ein direkt notierter fester Wert", "correct": false },
+      { "text": "Ein Wert, den eine Funktion zurückliefert", "correct": false }
+    ],
+    "explanation": "Merksatz: Schlüsselwörter wie if, for oder def sind reserviert und dürfen nicht als normale Namen verwendet werden."
+  },
+  {
+    "id": "lf-05-fach-prog-008",
+    "question": "Was beschreibt eine Variable?",
+    "answers": [
+      { "text": "Einen benannten Speicherplatz für einen Wert", "correct": true },
+      { "text": "Einen festen Wert direkt im Quellcode", "correct": false },
+      { "text": "Ein reserviertes Wort mit Sonderbedeutung", "correct": false },
+      { "text": "Eine Sammlung wiederverwendbarer Funktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Variablen speichern Werte, die im Programm verwendet oder verändert werden können."
+  },
+  {
+    "id": "lf-05-fach-prog-009",
+    "question": "Was beschreibt eine Zuweisung?",
+    "answers": [
+      { "text": "Einer Variable wird ein Wert zugeordnet", "correct": true },
+      { "text": "Ein Wert wird mit einem anderen verglichen", "correct": false },
+      { "text": "Ein Codeblock wird mehrfach ausgeführt", "correct": false },
+      { "text": "Eine Funktion wird mit Argumenten aufgerufen", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei einer Zuweisung erhält ein Bezeichner einen Wert."
+  },
+  {
+    "id": "lf-05-fach-prog-010",
+    "question": "Was beschreibt ein Datentyp?",
+    "answers": [
+      { "text": "Die Art eines Wertes und mögliche Operationen", "correct": true },
+      { "text": "Den Namen einer Variable im Quellcode", "correct": false },
+      { "text": "Die Reihenfolge von Anweisungen", "correct": false },
+      { "text": "Die Behandlung von Laufzeitfehlern", "correct": false }
+    ],
+    "explanation": "Merksatz: Datentypen legen fest, wie Werte interpretiert und verarbeitet werden."
+  },
+  {
+    "id": "lf-05-fach-prog-011",
+    "question": "Was beschreibt Integer?",
+    "answers": [
+      { "text": "Einen Datentyp für ganze Zahlen", "correct": true },
+      { "text": "Einen Datentyp für Kommazahlen", "correct": false },
+      { "text": "Einen Datentyp für Zeichenketten", "correct": false },
+      { "text": "Einen Datentyp für Wahrheitswerte", "correct": false }
+    ],
+    "explanation": "Merksatz: Integer steht für ganze Zahlen ohne Nachkommastellen."
+  },
+  {
+    "id": "lf-05-fach-prog-012",
+    "question": "Was beschreibt Float?",
+    "answers": [
+      { "text": "Einen Datentyp für Kommazahlen", "correct": true },
+      { "text": "Einen Datentyp für ganze Zahlen", "correct": false },
+      { "text": "Einen Datentyp für Zeichenketten", "correct": false },
+      { "text": "Einen Datentyp für Wahrheitswerte", "correct": false }
+    ],
+    "explanation": "Merksatz: Float speichert Zahlen mit Nachkommastellen."
+  },
+  {
+    "id": "lf-05-fach-prog-013",
+    "question": "Was beschreibt String?",
+    "answers": [
+      { "text": "Einen Datentyp für Zeichenketten und Texte", "correct": true },
+      { "text": "Einen Datentyp für ganze Zahlen", "correct": false },
+      { "text": "Einen Datentyp für Kommazahlen", "correct": false },
+      { "text": "Einen Datentyp für Wahrheitswerte", "correct": false }
+    ],
+    "explanation": "Merksatz: Strings speichern Text und werden häufig in Anführungszeichen geschrieben."
+  },
+  {
+    "id": "lf-05-fach-prog-014",
+    "question": "Was beschreibt Boolean?",
+    "answers": [
+      { "text": "Einen Datentyp für Wahrheitswerte", "correct": true },
+      { "text": "Einen Datentyp für Zeichenketten", "correct": false },
+      { "text": "Einen Datentyp für Kommazahlen", "correct": false },
+      { "text": "Einen Datentyp für Listenwerte", "correct": false }
+    ],
+    "explanation": "Merksatz: Boolean kennt typischerweise die Werte True und False."
+  },
+  {
+    "id": "lf-05-fach-prog-015",
+    "question": "Was beschreibt ein Operator?",
+    "answers": [
+      { "text": "Ein Zeichen oder Schlüsselwort, das eine Operation ausführt", "correct": true },
+      { "text": "Ein benannter Speicherplatz für Werte", "correct": false },
+      { "text": "Ein direkt notierter fester Wert", "correct": false },
+      { "text": "Ein wiederverwendbarer Codeblock", "correct": false }
+    ],
+    "explanation": "Merksatz: Operatoren verarbeiten Werte, zum Beispiel durch Rechnen, Vergleichen oder logisches Verknüpfen."
+  },
+  {
+    "id": "lf-05-fach-prog-016",
+    "question": "Was beschreibt ein arithmetischer Operator?",
+    "answers": [
+      { "text": "Einen Operator für Rechenoperationen", "correct": true },
+      { "text": "Einen Operator zum Vergleichen von Werten", "correct": false },
+      { "text": "Einen Operator für logische Verknüpfungen", "correct": false },
+      { "text": "Einen Operator zum Dateizugriff", "correct": false }
+    ],
+    "explanation": "Merksatz: Arithmetische Operatoren sind zum Beispiel +, -, * und /."
+  },
+  {
+    "id": "lf-05-fach-prog-017",
+    "question": "Was beschreibt ein Vergleichsoperator?",
+    "answers": [
+      { "text": "Einen Operator, der Werte vergleicht und einen Wahrheitswert liefert", "correct": true },
+      { "text": "Einen Operator für Grundrechenarten", "correct": false },
+      { "text": "Einen Operator zur Umkehrung von Wahrheitswerten", "correct": false },
+      { "text": "Einen Operator zur Definition von Funktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Vergleichsoperatoren wie ==, !=, &lt; oder &gt; liefern True oder False."
+  },
+  {
+    "id": "lf-05-fach-prog-018",
+    "question": "Was beschreibt ein logischer Operator?",
+    "answers": [
+      { "text": "Einen Operator zur Verknüpfung oder Umkehrung von Wahrheitswerten", "correct": true },
+      { "text": "Einen Operator für mathematische Berechnungen", "correct": false },
+      { "text": "Einen Operator zum Vergleichen einzelner Werte", "correct": false },
+      { "text": "Einen Operator zum Anhängen an Dateien", "correct": false }
+    ],
+    "explanation": "Merksatz: Logische Operatoren sind zum Beispiel and, or und not."
+  },
+  {
+    "id": "lf-05-fach-prog-019",
+    "question": "Was beschreibt eine Anweisung?",
+    "answers": [
+      { "text": "Eine einzelne ausführbare Programmaktion", "correct": true },
+      { "text": "Eine Sammlung mehrerer Werte", "correct": false },
+      { "text": "Ein Platzhalter in einer Funktion", "correct": false },
+      { "text": "Ein Modul mit wiederverwendbarem Code", "correct": false }
+    ],
+    "explanation": "Merksatz: Anweisungen sind einzelne Schritte, die ein Programm ausführt."
+  },
+  {
+    "id": "lf-05-fach-prog-020",
+    "question": "Was beschreibt eine Kontrollstruktur?",
+    "answers": [
+      { "text": "Eine Struktur zur Steuerung des Programmablaufs", "correct": true },
+      { "text": "Eine Sammlung fester Werte im Quellcode", "correct": false },
+      { "text": "Eine Datei mit wiederverwendbarem Code", "correct": false },
+      { "text": "Eine Behandlung von Dateiströmen", "correct": false }
+    ],
+    "explanation": "Merksatz: Kontrollstrukturen steuern Reihenfolge, Auswahl und Wiederholung von Anweisungen."
+  },
+  {
+    "id": "lf-05-fach-prog-021",
+    "question": "Was beschreibt eine Bedingung?",
+    "answers": [
+      { "text": "Einen Ausdruck, der wahr oder falsch sein kann", "correct": true },
+      { "text": "Einen Wert, der einer Funktion übergeben wird", "correct": false },
+      { "text": "Einen benannten Speicherplatz", "correct": false },
+      { "text": "Eine Sammlung wiederverwendbarer Module", "correct": false }
+    ],
+    "explanation": "Merksatz: Bedingungen entscheiden, welcher Programmweg ausgeführt wird."
+  },
+  {
+    "id": "lf-05-fach-prog-022",
+    "question": "Was beschreibt eine Verzweigung?",
+    "answers": [
+      { "text": "Eine Auswahl zwischen Programmwegen anhand einer Bedingung", "correct": true },
+      { "text": "Eine Wiederholung eines Anweisungsblocks", "correct": false },
+      { "text": "Eine feste Folge von Anweisungen", "correct": false },
+      { "text": "Eine Sammlung mehrerer Werte", "correct": false }
+    ],
+    "explanation": "Merksatz: Verzweigungen ermöglichen unterschiedliche Abläufe, zum Beispiel mit if, elif und else."
+  },
+  {
+    "id": "lf-05-fach-prog-023",
+    "question": "Was beschreibt eine Schleife?",
+    "answers": [
+      { "text": "Eine Wiederholung eines Anweisungsblocks", "correct": true },
+      { "text": "Eine Auswahl zwischen mehreren Programmwegen", "correct": false },
+      { "text": "Eine einzelne ausführbare Programmaktion", "correct": false },
+      { "text": "Eine feste Wertangabe im Quellcode", "correct": false }
+    ],
+    "explanation": "Merksatz: Schleifen führen Code mehrfach aus."
+  },
+  {
+    "id": "lf-05-fach-prog-024",
+    "question": "Was beschreibt eine for-Schleife?",
+    "answers": [
+      { "text": "Eine Schleife für Iterationen über Bereiche oder Sammlungen", "correct": true },
+      { "text": "Eine Schleife nur mit unklarer Laufzeitbedingung", "correct": false },
+      { "text": "Eine Verzweigung zwischen mehreren Alternativen", "correct": false },
+      { "text": "Eine Funktion zur Fehlerbehandlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine for-Schleife eignet sich besonders für bekannte Wiederholungen oder Listen."
+  },
+  {
+    "id": "lf-05-fach-prog-025",
+    "question": "Was beschreibt eine while-Schleife?",
+    "answers": [
+      { "text": "Eine Schleife, die läuft, solange eine Bedingung wahr ist", "correct": true },
+      { "text": "Eine Schleife über eine feste Sammlung von Elementen", "correct": false },
+      { "text": "Eine Auswahl zwischen zwei Programmzweigen", "correct": false },
+      { "text": "Eine Funktion mit Rückgabewert", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine while-Schleife wiederholt Code, solange ihre Bedingung erfüllt bleibt."
+  },
+  {
+    "id": "lf-05-fach-prog-026",
+    "question": "Was beschreibt eine Endlosschleife?",
+    "answers": [
+      { "text": "Eine Schleife, deren Abbruchbedingung nicht erreicht wird", "correct": true },
+      { "text": "Eine Schleife mit bekannter Anzahl von Durchläufen", "correct": false },
+      { "text": "Eine Schleife über Elemente einer Liste", "correct": false },
+      { "text": "Eine Verzweigung mit else-Zweig", "correct": false }
+    ],
+    "explanation": "Merksatz: Endlosschleifen laufen unbegrenzt weiter, wenn keine wirksame Abbruchbedingung existiert."
+  },
+  {
+    "id": "lf-05-fach-prog-027",
+    "question": "Was beschreibt eine Funktion?",
+    "answers": [
+      { "text": "Einen benannten Codeblock, der wiederverwendet werden kann", "correct": true },
+      { "text": "Einen festen Wert direkt im Quellcode", "correct": false },
+      { "text": "Eine geordnete Sammlung mehrerer Werte", "correct": false },
+      { "text": "Einen Datenstrom zwischen Datei und Programm", "correct": false }
+    ],
+    "explanation": "Merksatz: Funktionen bündeln Code und machen ihn wiederverwendbar."
+  },
+  {
+    "id": "lf-05-fach-prog-028",
+    "question": "Was beschreibt eine Built-in-Funktion?",
+    "answers": [
+      { "text": "Eine bereits in der Programmiersprache vorhandene Funktion", "correct": true },
+      { "text": "Eine selbst definierte Funktion im eigenen Code", "correct": false },
+      { "text": "Ein externes Modul mit Zusatzfunktionen", "correct": false },
+      { "text": "Eine Funktion aus einer installierten Library", "correct": false }
+    ],
+    "explanation": "Merksatz: Built-in-Funktionen wie print(), input() oder len() sind direkt verfügbar."
+  },
+  {
+    "id": "lf-05-fach-prog-029",
+    "question": "Was beschreibt ein Parameter?",
+    "answers": [
+      { "text": "Einen Platzhalter in einer Funktionsdefinition", "correct": true },
+      { "text": "Einen konkreten Wert beim Funktionsaufruf", "correct": false },
+      { "text": "Den Rückgabewert einer Funktion", "correct": false },
+      { "text": "Eine Funktion aus einer Library", "correct": false }
+    ],
+    "explanation": "Merksatz: Parameter stehen in der Funktionsdefinition und nehmen später Werte entgegen."
+  },
+  {
+    "id": "lf-05-fach-prog-030",
+    "question": "Was beschreibt ein Argument?",
+    "answers": [
+      { "text": "Einen konkreten Wert, der einer Funktion beim Aufruf übergeben wird", "correct": true },
+      { "text": "Einen Platzhalter in der Funktionsdefinition", "correct": false },
+      { "text": "Den Wert, den eine Funktion zurückliefert", "correct": false },
+      { "text": "Einen Namen für eine Funktion", "correct": false }
+    ],
+    "explanation": "Merksatz: Argumente sind die tatsächlichen Werte, die an Parameter übergeben werden."
+  },
+  {
+    "id": "lf-05-fach-prog-031",
+    "question": "Was beschreibt ein Rückgabewert?",
+    "answers": [
+      { "text": "Den Wert, den eine Funktion nach ihrer Ausführung zurückliefert", "correct": true },
+      { "text": "Einen Platzhalter in der Funktionsdefinition", "correct": false },
+      { "text": "Einen konkreten Wert beim Funktionsaufruf", "correct": false },
+      { "text": "Eine geordnete Sammlung mehrerer Werte", "correct": false }
+    ],
+    "explanation": "Merksatz: Rückgabewerte entstehen durch return und können weiterverwendet werden."
+  },
+  {
+    "id": "lf-05-fach-prog-032",
+    "question": "Was beschreibt eine Liste in Python?",
+    "answers": [
+      { "text": "Eine geordnete Sammlung mehrerer Werte", "correct": true },
+      { "text": "Ein einzelner benannter Speicherplatz", "correct": false },
+      { "text": "Ein direkt notierter fester Wert", "correct": false },
+      { "text": "Eine Datei mit wiederverwendbarem Code", "correct": false }
+    ],
+    "explanation": "Merksatz: Listen speichern mehrere Werte in einer festen Reihenfolge."
+  },
+  {
+    "id": "lf-05-fach-prog-033",
+    "question": "Was beschreibt ein Index in einer Liste?",
+    "answers": [
+      { "text": "Die Positionsnummer eines Elements in einer Liste", "correct": true },
+      { "text": "Die Anzahl aller Elemente einer Liste", "correct": false },
+      { "text": "Der Datentyp aller Listenelemente", "correct": false },
+      { "text": "Der Name einer Liste im Quellcode", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Index gibt die Position eines Listenelements an, in Python beginnend bei 0."
+  },
+  {
+    "id": "lf-05-fach-prog-034",
+    "question": "Was beschreibt ein Modul?",
+    "answers": [
+      { "text": "Eine Datei oder Sammlung mit wiederverwendbarem Programmcode", "correct": true },
+      { "text": "Eine einzelne Variable mit gespeichertem Wert", "correct": false },
+      { "text": "Eine Bedingung für eine Verzweigung", "correct": false },
+      { "text": "Ein Rückgabewert einer Funktion", "correct": false }
+    ],
+    "explanation": "Merksatz: Module stellen zusätzlichen Code bereit, der importiert werden kann."
+  },
+  {
+    "id": "lf-05-fach-prog-035",
+    "question": "Was beschreibt eine Library?",
+    "answers": [
+      { "text": "Eine Sammlung wiederverwendbarer Funktionen, Klassen oder Module", "correct": true },
+      { "text": "Eine einzelne Datei mit genau einer Variable", "correct": false },
+      { "text": "Eine Schleife zur Wiederholung von Code", "correct": false },
+      { "text": "Eine Bedingung mit Wahrheitswert", "correct": false }
+    ],
+    "explanation": "Merksatz: Libraries erweitern Programme um fertige Funktionen und Werkzeuge."
+  },
+  {
+    "id": "lf-05-fach-prog-036",
+    "question": "Was beschreibt Rekursion?",
+    "answers": [
+      { "text": "Eine Funktion ruft sich selbst auf", "correct": true },
+      { "text": "Eine Schleife läuft über eine Liste", "correct": false },
+      { "text": "Eine Funktion gibt einen Wert zurück", "correct": false },
+      { "text": "Eine Datei wird im Lesemodus geöffnet", "correct": false }
+    ],
+    "explanation": "Merksatz: Rekursion löst Probleme, indem eine Funktion kleinere Teilprobleme gleicher Art aufruft."
+  },
+  {
+    "id": "lf-05-fach-prog-037",
+    "question": "Was beschreibt ein Basisfall bei Rekursion?",
+    "answers": [
+      { "text": "Die Abbruchbedingung, bei der keine weitere Selbstaufrufung erfolgt", "correct": true },
+      { "text": "Der rekursive Aufruf mit kleinerem Teilproblem", "correct": false },
+      { "text": "Der Rückgabewert einer Built-in-Funktion", "correct": false },
+      { "text": "Der Import einer externen Library", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Basisfall beendet eine Rekursion kontrolliert."
+  },
+  {
+    "id": "lf-05-fach-prog-038",
+    "question": "Was beschreibt Exception Handling?",
+    "answers": [
+      { "text": "Das kontrollierte Behandeln von Fehlern oder Ausnahmen im Programm", "correct": true },
+      { "text": "Das Wiederholen von Code durch eine Schleife", "correct": false },
+      { "text": "Das Definieren von Parametern in Funktionen", "correct": false },
+      { "text": "Das Importieren wiederverwendbarer Module", "correct": false }
+    ],
+    "explanation": "Merksatz: Exception Handling sorgt dafür, dass Programme auf Fehler kontrolliert reagieren."
+  },
+  {
+    "id": "lf-05-fach-prog-039",
+    "question": "Was beschreibt ein Stream beim Dateizugriff?",
+    "answers": [
+      { "text": "Einen Datenstrom zwischen Programm und Datei oder anderer Quelle", "correct": true },
+      { "text": "Den Modus zum Lesen oder Schreiben einer Datei", "correct": false },
+      { "text": "Eine Liste mit mehreren gespeicherten Werten", "correct": false },
+      { "text": "Eine Funktion zur Fehlerbehandlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Streams übertragen Daten zwischen Programm und Ein-/Ausgabequelle."
+  },
+  {
+    "id": "lf-05-fach-prog-040",
+    "question": "Was beschreibt ein Dateimodus?",
+    "answers": [
+      { "text": "Die Art, wie eine Datei geöffnet wird, zum Beispiel Lesen, Schreiben oder Anhängen", "correct": true },
+      { "text": "Der Datenstrom zwischen Programm und Datei", "correct": false },
+      { "text": "Der Rückgabewert nach dem Lesen einer Datei", "correct": false },
+      { "text": "Eine Library für Dateiverwaltung", "correct": false }
+    ],
+    "explanation": "Merksatz: Dateimodi wie r, w, a, t oder b legen fest, wie auf Dateien zugegriffen wird."
+  }
+]

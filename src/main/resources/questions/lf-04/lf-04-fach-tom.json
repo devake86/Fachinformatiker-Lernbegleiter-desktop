@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-tom-001",
+    "question": "Was beschreibt eine technische und organisatorische Maßnahme?",
+    "answers": [
+      { "text": "Schutzmaßnahme durch Technik oder Organisation", "correct": true },
+      { "text": "Rechtsgrundlage für jede Datenverarbeitung", "correct": false },
+      { "text": "Betroffenenrecht auf Datenübertragbarkeit", "correct": false },
+      { "text": "Sicherheitsvorfall mit personenbezogenen Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: TOMs schützen Daten durch technische und organisatorische Sicherheitsmaßnahmen."
+  },
+  {
+    "id": "lf-04-fach-tom-002",
+    "question": "Was beschreibt Zugangskontrolle?",
+    "answers": [
+      { "text": "Schutz vor unbefugtem Betreten von Bereichen", "correct": true },
+      { "text": "Schutz vor unbefugter Systemnutzung", "correct": false },
+      { "text": "Nachvollziehbarkeit geänderter Datensätze", "correct": false },
+      { "text": "Schutz elektronischer Datenübertragung", "correct": false }
+    ],
+    "explanation": "Merksatz: Zugangskontrolle verhindert unbefugten physischen Zutritt."
+  },
+  {
+    "id": "lf-04-fach-tom-003",
+    "question": "Was beschreibt Zugriffskontrolle?",
+    "answers": [
+      { "text": "Schutz vor unbefugtem Zugriff auf Systeme oder Daten", "correct": true },
+      { "text": "Schutz vor unbefugtem Betreten von Räumen", "correct": false },
+      { "text": "Kontrolle beim Transport von Datenträgern", "correct": false },
+      { "text": "Nachweis von Eingaben und Änderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Zugriffskontrolle stellt sicher, dass nur berechtigte Personen Daten oder Systeme nutzen."
+  },
+  {
+    "id": "lf-04-fach-tom-004",
+    "question": "Was beschreibt Datenträgerkontrolle?",
+    "answers": [
+      { "text": "Schutz und Nachvollziehbarkeit beim Umgang mit Datenträgern", "correct": true },
+      { "text": "Kontrolle der Zugriffsrechte im Anwendungssystem", "correct": false },
+      { "text": "Protokollierung von Dateneingaben im System", "correct": false },
+      { "text": "Sicherung der Datenverfügbarkeit durch Backups", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenträgerkontrolle schützt Datenträger vor Verlust, Missbrauch und unbefugter Nutzung."
+  },
+  {
+    "id": "lf-04-fach-tom-005",
+    "question": "Was beschreibt Speicherkontrolle?",
+    "answers": [
+      { "text": "Schutz gespeicherter Daten vor unbefugter Nutzung", "correct": true },
+      { "text": "Schutz von Daten während der Übermittlung", "correct": false },
+      { "text": "Schutz physischer Räume vor Zutritt", "correct": false },
+      { "text": "Kontrolle der Weisungen an Dienstleister", "correct": false }
+    ],
+    "explanation": "Merksatz: Speicherkontrolle schützt gespeicherte Daten vor unbefugtem Lesen, Ändern oder Löschen."
+  },
+  {
+    "id": "lf-04-fach-tom-006",
+    "question": "Was beschreibt Benutzerkontrolle?",
+    "answers": [
+      { "text": "Kontrolle, welche Benutzer Systeme nutzen dürfen", "correct": true },
+      { "text": "Kontrolle, wer Räume physisch betreten darf", "correct": false },
+      { "text": "Kontrolle, wer Daten eingegeben oder geändert hat", "correct": false },
+      { "text": "Kontrolle des Transports mobiler Datenträger", "correct": false }
+    ],
+    "explanation": "Merksatz: Benutzerkontrolle regelt, wer ein System nutzen darf."
+  },
+  {
+    "id": "lf-04-fach-tom-007",
+    "question": "Was beschreibt Übertragungskontrolle?",
+    "answers": [
+      { "text": "Schutz bei elektronischer Datenübertragung", "correct": true },
+      { "text": "Schutz beim physischen Transport von Datenträgern", "correct": false },
+      { "text": "Nachvollziehbarkeit von Dateneingaben", "correct": false },
+      { "text": "Regelung der Benutzerberechtigungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Übertragungskontrolle schützt Daten beim elektronischen Transport."
+  },
+  {
+    "id": "lf-04-fach-tom-008",
+    "question": "Was beschreibt Eingabekontrolle?",
+    "answers": [
+      { "text": "Nachvollziehbarkeit von Eingaben, Änderungen und Löschungen", "correct": true },
+      { "text": "Schutz vor unbefugtem Betreten von Räumen", "correct": false },
+      { "text": "Schutz gespeicherter Daten vor Zugriff", "correct": false },
+      { "text": "Sicherung von Datenträgern beim Transport", "correct": false }
+    ],
+    "explanation": "Merksatz: Eingabekontrolle macht Änderungen an Daten nachvollziehbar."
+  },
+  {
+    "id": "lf-04-fach-tom-009",
+    "question": "Was beschreibt Transportkontrolle?",
+    "answers": [
+      { "text": "Schutz von Daten beim physischen Transport", "correct": true },
+      { "text": "Schutz von Daten bei elektronischer Übermittlung", "correct": false },
+      { "text": "Kontrolle von Benutzern im Anwendungssystem", "correct": false },
+      { "text": "Nachvollziehbarkeit von Dateneingaben", "correct": false }
+    ],
+    "explanation": "Merksatz: Transportkontrolle schützt Datenträger oder Unterlagen beim physischen Transport."
+  },
+  {
+    "id": "lf-04-fach-tom-010",
+    "question": "Was beschreibt Wiederherstellbarkeit?",
+    "answers": [
+      { "text": "Daten und Systeme können nach Ausfall wiederhergestellt werden", "correct": true },
+      { "text": "Daten bleiben vor unbefugter Einsicht geschützt", "correct": false },
+      { "text": "Daten werden nach Zweck getrennt verarbeitet", "correct": false },
+      { "text": "Änderungen an Daten bleiben nachvollziehbar", "correct": false }
+    ],
+    "explanation": "Merksatz: Wiederherstellbarkeit sorgt dafür, dass Daten nach Störungen wieder nutzbar werden."
+  },
+  {
+    "id": "lf-04-fach-tom-011",
+    "question": "Was beschreibt Zuverlässigkeit als Sicherheitsanforderung?",
+    "answers": [
+      { "text": "Systeme und Prozesse arbeiten stabil und vorhersehbar", "correct": true },
+      { "text": "Daten sind nach einem Ausfall wiederherstellbar", "correct": false },
+      { "text": "Daten bleiben vollständig und unverändert", "correct": false },
+      { "text": "Zugriffe werden nur berechtigten Nutzern erlaubt", "correct": false }
+    ],
+    "explanation": "Merksatz: Zuverlässigkeit bedeutet, dass Systeme und Prozesse stabil und erwartbar arbeiten."
+  },
+  {
+    "id": "lf-04-fach-tom-012",
+    "question": "Was beschreibt Datenintegrität?",
+    "answers": [
+      { "text": "Daten bleiben vollständig, korrekt und unverändert", "correct": true },
+      { "text": "Daten stehen nach Ausfällen schnell bereit", "correct": false },
+      { "text": "Daten sind nur für Berechtigte sichtbar", "correct": false },
+      { "text": "Daten werden nach Zweck getrennt verarbeitet", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenintegrität schützt Daten vor unbefugter oder unbemerkter Veränderung."
+  },
+  {
+    "id": "lf-04-fach-tom-013",
+    "question": "Was beschreibt Auftragskontrolle?",
+    "answers": [
+      { "text": "Dienstleister verarbeiten Daten nach Weisung", "correct": true },
+      { "text": "Benutzer erhalten systemseitige Zugriffsrechte", "correct": false },
+      { "text": "Daten werden beim elektronischen Transport geschützt", "correct": false },
+      { "text": "Datenträger werden beim Versand dokumentiert", "correct": false }
+    ],
+    "explanation": "Merksatz: Auftragskontrolle sichert die weisungsgebundene Verarbeitung durch Dienstleister."
+  },
+  {
+    "id": "lf-04-fach-tom-014",
+    "question": "Was beschreibt Verfügbarkeitskontrolle?",
+    "answers": [
+      { "text": "Maßnahmen zur Nutzbarkeit von Daten und Systemen", "correct": true },
+      { "text": "Maßnahmen zur Vertraulichkeit gespeicherter Daten", "correct": false },
+      { "text": "Maßnahmen zur Trennung verschiedener Zwecke", "correct": false },
+      { "text": "Maßnahmen zur Kontrolle physischer Zutritte", "correct": false }
+    ],
+    "explanation": "Merksatz: Verfügbarkeitskontrolle schützt vor Ausfall oder Verlust der Nutzbarkeit."
+  },
+  {
+    "id": "lf-04-fach-tom-015",
+    "question": "Was beschreibt Trennbarkeit?",
+    "answers": [
+      { "text": "Daten unterschiedlicher Zwecke werden getrennt verarbeitet", "correct": true },
+      { "text": "Systeme bleiben nach Störungen wiederherstellbar", "correct": false },
+      { "text": "Daten werden bei Übertragung verschlüsselt", "correct": false },
+      { "text": "Benutzerzugriffe werden zentral freigegeben", "correct": false }
+    ],
+    "explanation": "Merksatz: Trennbarkeit verhindert, dass Daten für verschiedene Zwecke unkontrolliert vermischt werden."
+  },
+  {
+    "id": "lf-04-fach-tom-016",
+    "question": "Was beschreibt Verschlüsselung als Schutzmaßnahme?",
+    "answers": [
+      { "text": "Daten werden ohne passenden Schlüssel unlesbar gemacht", "correct": true },
+      { "text": "Daten werden durch Prüfsummen auf Änderungen geprüft", "correct": false },
+      { "text": "Daten werden nach Zweck getrennt gespeichert", "correct": false },
+      { "text": "Daten werden durch Backups wiederherstellbar", "correct": false }
+    ],
+    "explanation": "Merksatz: Verschlüsselung schützt Vertraulichkeit, besonders bei Speicherung und Übertragung."
+  },
+  {
+    "id": "lf-04-fach-tom-017",
+    "question": "Was beschreibt sicheres Löschen von Datenträgern?",
+    "answers": [
+      { "text": "Daten werden schwer wiederherstellbar entfernt", "correct": true },
+      { "text": "Datenträger werden zur Nutzung ausgegeben", "correct": false },
+      { "text": "Datenträger werden beim Transport geschützt", "correct": false },
+      { "text": "Daten werden als Sicherungskopie gespeichert", "correct": false }
+    ],
+    "explanation": "Merksatz: Sicheres Löschen soll verhindern, dass Restdaten später wiederhergestellt werden."
+  },
+  {
+    "id": "lf-04-fach-tom-018",
+    "question": "Was beschreibt eine Datenträgerverwaltung?",
+    "answers": [
+      { "text": "Kontrolle über Ausgabe, Nutzung und Rückgabe von Datenträgern", "correct": true },
+      { "text": "Sicheres Entfernen von Restdaten vor Entsorgung", "correct": false },
+      { "text": "Schutz elektronischer Übertragung zwischen Systemen", "correct": false },
+      { "text": "Trennung personenbezogener Daten nach Zwecken", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenträgerverwaltung macht den Umgang mit mobilen Datenträgern nachvollziehbar."
+  },
+  {
+    "id": "lf-04-fach-tom-019",
+    "question": "Was beschreibt eine Verlustmeldung bei mobilen Datenträgern?",
+    "answers": [
+      { "text": "Verlust wird zeitnah gemeldet und dokumentiert", "correct": true },
+      { "text": "Datenträger werden regulär ausgegeben und erfasst", "correct": false },
+      { "text": "Daten werden vor Weitergabe sicher gelöscht", "correct": false },
+      { "text": "Sicherungskopien werden regelmäßig erstellt", "correct": false }
+    ],
+    "explanation": "Merksatz: Verlustmeldungen ermöglichen schnelle Reaktion auf mögliche Datenabflüsse."
+  },
+  {
+    "id": "lf-04-fach-tom-020",
+    "question": "Was beschreibt eine Sicherungskopie?",
+    "answers": [
+      { "text": "Zusätzliche Kopie von Daten zur Wiederherstellung", "correct": true },
+      { "text": "Verschlüsselung gespeicherter personenbezogener Daten", "correct": false },
+      { "text": "Nachweis von Eingaben und Datenänderungen", "correct": false },
+      { "text": "Dokumentierte Ausgabe mobiler Datenträger", "correct": false }
+    ],
+    "explanation": "Merksatz: Sicherungskopien erhöhen die Wiederherstellbarkeit nach Verlust, Fehler oder Angriff."
+  }
+]

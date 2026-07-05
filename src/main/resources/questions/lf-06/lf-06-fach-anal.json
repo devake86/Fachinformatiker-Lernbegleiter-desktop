@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-fach-anal-001",
+    "question": "Was beschreibt eine Problemanalyse?",
+    "answers": [
+      { "text": "Systematische Untersuchung einer Störung oder eines Problems", "correct": true },
+      { "text": "Schnelle Wiederherstellung eines gestörten Services", "correct": false },
+      { "text": "Dokumentation bekannter Fehler und Lösungen", "correct": false },
+      { "text": "Vorläufige Behelfslösung für den Betrieb", "correct": false }
+    ],
+    "explanation": "Merksatz: Problemanalyse sucht strukturiert nach Ursachen und passenden Lösungen."
+  },
+  {
+    "id": "lf-06-fach-anal-002",
+    "question": "Was beschreibt Incident-Management?",
+    "answers": [
+      { "text": "Bearbeitung von Störungen zur schnellen Servicewiederherstellung", "correct": true },
+      { "text": "Ursachenanalyse wiederkehrender Störungen", "correct": false },
+      { "text": "Langfristige Beseitigung bekannter Fehlerursachen", "correct": false },
+      { "text": "Sammlung dokumentierter Lösungen in einer Wissensdatenbank", "correct": false }
+    ],
+    "explanation": "Merksatz: Incident-Management stellt gestörte Services möglichst schnell wieder her."
+  },
+  {
+    "id": "lf-06-fach-anal-003",
+    "question": "Was beschreibt Problem-Management?",
+    "answers": [
+      { "text": "Suche nach Ursachen wiederkehrender oder schwerer Störungen", "correct": true },
+      { "text": "Schnelle Wiederherstellung eines einzelnen Services", "correct": false },
+      { "text": "Erfassung eines Kundenkontakts im Ticketsystem", "correct": false },
+      { "text": "Vorläufige Lösung zur kurzfristigen Betriebsfortsetzung", "correct": false }
+    ],
+    "explanation": "Merksatz: Problem-Management beseitigt Ursachen, nicht nur einzelne Symptome."
+  },
+  {
+    "id": "lf-06-fach-anal-004",
+    "question": "Was beschreibt ein Workaround?",
+    "answers": [
+      { "text": "Vorläufige Behelfslösung bis zur dauerhaften Lösung", "correct": true },
+      { "text": "Dokumentierter Fehler mit bekannter Ursache", "correct": false },
+      { "text": "Ursachenanalyse für wiederkehrende Störungen", "correct": false },
+      { "text": "Endgültige Korrektur der Fehlerursache", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Workaround hält den Betrieb vorübergehend aufrecht."
+  },
+  {
+    "id": "lf-06-fach-anal-005",
+    "question": "Was beschreibt ein Known Error?",
+    "answers": [
+      { "text": "Bekannter Fehler mit dokumentierter Ursache oder Lösung", "correct": true },
+      { "text": "Vorläufige Behelfslösung bei laufender Störung", "correct": false },
+      { "text": "Neuer Incident mit unbekannter Auswirkung", "correct": false },
+      { "text": "Häufige Frage mit standardisierter Antwort", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Known Error ist ein dokumentierter bekannter Fehler im Problemmanagement."
+  },
+  {
+    "id": "lf-06-fach-anal-006",
+    "question": "Was beschreibt eine FAQ?",
+    "answers": [
+      { "text": "Sammlung häufig gestellter Fragen und Antworten", "correct": true },
+      { "text": "Wissensdatenbank mit ausführlichen Lösungseinträgen", "correct": false },
+      { "text": "Beispielticket mit typischem Lösungsweg", "correct": false },
+      { "text": "Dokumentierter Fehler mit bekannter Ursache", "correct": false }
+    ],
+    "explanation": "Merksatz: FAQ helfen, häufige Anfragen schnell und einheitlich zu beantworten."
+  },
+  {
+    "id": "lf-06-fach-anal-007",
+    "question": "Was beschreibt eine Knowledge Base?",
+    "answers": [
+      { "text": "Wissensdatenbank mit dokumentierten Lösungen", "correct": true },
+      { "text": "Sammlung kurzer Fragen und Standardantworten", "correct": false },
+      { "text": "Einzelnes Musterticket für einen Servicefall", "correct": false },
+      { "text": "Liste offener Incidents eines Supportteams", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Knowledge Base sammelt Wissen für schnellere und bessere Problemlösung."
+  },
+  {
+    "id": "lf-06-fach-anal-008",
+    "question": "Was beschreibt ein Musterticket?",
+    "answers": [
+      { "text": "Beispielhaft dokumentierter Servicefall als Orientierung", "correct": true },
+      { "text": "Wissensdatenbank mit vielen Lösungsartikeln", "correct": false },
+      { "text": "Kurze Standardsammlung häufiger Fragen", "correct": false },
+      { "text": "Bekannter Fehler mit dokumentierter Ursache", "correct": false }
+    ],
+    "explanation": "Merksatz: Mustertickets zeigen typische Fälle und Lösungsschritte als Vorlage."
+  },
+  {
+    "id": "lf-06-fach-anal-009",
+    "question": "Was beschreibt das Pareto-Prinzip?",
+    "answers": [
+      { "text": "Große Wirkung entsteht oft aus wenigen Ursachen", "correct": true },
+      { "text": "Ursachen werden gleichmäßig nach Aufwand verteilt", "correct": false },
+      { "text": "Probleme werden nach Zufall priorisiert", "correct": false },
+      { "text": "Verbesserungen folgen immer dem DMAIC-Ablauf", "correct": false }
+    ],
+    "explanation": "Merksatz: Pareto hilft, sich auf die wichtigsten Ursachen oder Lösungen zu konzentrieren."
+  },
+  {
+    "id": "lf-06-fach-anal-010",
+    "question": "Was beschreibt die 80-zu-20-Regel?",
+    "answers": [
+      { "text": "Oft entstehen 80 Prozent der Ergebnisse durch 20 Prozent Aufwand", "correct": true },
+      { "text": "Probleme werden in fünf Phasen strukturiert gelöst", "correct": false },
+      { "text": "Ursachen werden durch wiederholtes Warum-Fragen gesucht", "correct": false },
+      { "text": "Fehler werden per Ist/Ist-nicht-Vergleich eingegrenzt", "correct": false }
+    ],
+    "explanation": "Merksatz: Die 80-zu-20-Regel ist eine typische Form des Pareto-Prinzips."
+  },
+  {
+    "id": "lf-06-fach-anal-011",
+    "question": "Was beschreibt DMAIC?",
+    "answers": [
+      { "text": "Verbesserungszyklus zur strukturierten Problemlösung", "correct": true },
+      { "text": "Methode zur Gewichtung weniger Hauptursachen", "correct": false },
+      { "text": "Methode durch wiederholtes Warum-Fragen", "correct": false },
+      { "text": "Diagramm zur Darstellung von Ursache und Wirkung", "correct": false }
+    ],
+    "explanation": "Merksatz: DMAIC strukturiert Verbesserungen in Define, Measure, Analyze, Improve und Control."
+  },
+  {
+    "id": "lf-06-fach-anal-012",
+    "question": "Was beschreibt die Define-Phase im DMAIC-Zyklus?",
+    "answers": [
+      { "text": "Problem und Umfang werden klar festgelegt", "correct": true },
+      { "text": "Ist-Zustand wird mit Daten messbar erfasst", "correct": false },
+      { "text": "Hauptursachen des Problems werden untersucht", "correct": false },
+      { "text": "Verbesserung wird überwacht und abgesichert", "correct": false }
+    ],
+    "explanation": "Merksatz: Define klärt, welches Problem gelöst werden soll."
+  },
+  {
+    "id": "lf-06-fach-anal-013",
+    "question": "Was beschreibt die Measure-Phase im DMAIC-Zyklus?",
+    "answers": [
+      { "text": "Der Ist-Zustand wird messbar erfasst", "correct": true },
+      { "text": "Problem und Projektumfang werden festgelegt", "correct": false },
+      { "text": "Hauptursachen werden systematisch untersucht", "correct": false },
+      { "text": "Lösungen werden entwickelt und getestet", "correct": false }
+    ],
+    "explanation": "Merksatz: Measure macht das Ausmaß des Problems messbar."
+  },
+  {
+    "id": "lf-06-fach-anal-014",
+    "question": "Was beschreibt die Analyze-Phase im DMAIC-Zyklus?",
+    "answers": [
+      { "text": "Die Hauptursachen des Problems werden untersucht", "correct": true },
+      { "text": "Der Ist-Zustand wird messbar erfasst", "correct": false },
+      { "text": "Lösungen werden entwickelt und umgesetzt", "correct": false },
+      { "text": "Verbesserungen werden dauerhaft überwacht", "correct": false }
+    ],
+    "explanation": "Merksatz: Analyze sucht die eigentlichen Ursachen eines Problems."
+  },
+  {
+    "id": "lf-06-fach-anal-015",
+    "question": "Was beschreibt die Improve-Phase im DMAIC-Zyklus?",
+    "answers": [
+      { "text": "Lösungen werden entwickelt, getestet oder umgesetzt", "correct": true },
+      { "text": "Problem und Umfang werden klar definiert", "correct": false },
+      { "text": "Messdaten zum Ist-Zustand werden erhoben", "correct": false },
+      { "text": "Ursachen werden vor der Lösung eingegrenzt", "correct": false }
+    ],
+    "explanation": "Merksatz: Improve verbessert den Prozess durch geeignete Lösungen."
+  },
+  {
+    "id": "lf-06-fach-anal-016",
+    "question": "Was beschreibt die Control-Phase im DMAIC-Zyklus?",
+    "answers": [
+      { "text": "Die Verbesserung wird überwacht und abgesichert", "correct": true },
+      { "text": "Das Problem wird für das Projekt abgegrenzt", "correct": false },
+      { "text": "Messwerte zum Ist-Zustand werden gesammelt", "correct": false },
+      { "text": "Lösungen werden erstmals entwickelt", "correct": false }
+    ],
+    "explanation": "Merksatz: Control stellt sicher, dass Verbesserungen dauerhaft wirken."
+  },
+  {
+    "id": "lf-06-fach-anal-017",
+    "question": "Was beschreibt die 5-Why-Methode?",
+    "answers": [
+      { "text": "Wiederholtes Warum-Fragen zur Ursachensuche", "correct": true },
+      { "text": "Bewertung von Ursachen nach Wirkung und Aufwand", "correct": false },
+      { "text": "Darstellung vieler Ursachen als Fischgräte", "correct": false },
+      { "text": "Eingrenzung durch Ist/Ist-nicht-Vergleich", "correct": false }
+    ],
+    "explanation": "Merksatz: 5-Why fragt wiederholt nach dem Warum, bis eine Grundursache sichtbar wird."
+  },
+  {
+    "id": "lf-06-fach-anal-018",
+    "question": "Was beschreibt ein Ishikawa-Diagramm?",
+    "answers": [
+      { "text": "Ursachen-Wirkungsdiagramm zur strukturierten Fehlersuche", "correct": true },
+      { "text": "Methode mit fünf wiederholten Warum-Fragen", "correct": false },
+      { "text": "Rangfolge der wichtigsten Ursachen nach Pareto", "correct": false },
+      { "text": "Ist/Ist-nicht-Vergleich zur Problemanalyse", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Ishikawa-Diagramm ordnet mögliche Ursachen einer Wirkung systematisch zu."
+  },
+  {
+    "id": "lf-06-fach-anal-019",
+    "question": "Was beschreibt die Kepner-Tregoe-Analyse?",
+    "answers": [
+      { "text": "Eingrenzung unbekannter Ursachen durch Ist/Ist-nicht-Vergleich", "correct": true },
+      { "text": "Darstellung möglicher Ursachen als Fischgräte", "correct": false },
+      { "text": "Priorisierung weniger wichtiger Hauptursachen", "correct": false },
+      { "text": "Verbesserungszyklus aus fünf Projektphasen", "correct": false }
+    ],
+    "explanation": "Merksatz: Kepner-Tregoe grenzt Probleme durch den Vergleich von Ist und Ist-nicht ein."
+  },
+  {
+    "id": "lf-06-fach-anal-020",
+    "question": "Was beschreibt eine Ursachen-Wirkungsmatrix?",
+    "answers": [
+      { "text": "Strukturierte Bewertung möglicher Ursachen und Wirkungen", "correct": true },
+      { "text": "Grafische Sammlung möglicher Ursachen als Fischgräte", "correct": false },
+      { "text": "Wiederholtes Warum-Fragen zur Grundursache", "correct": false },
+      { "text": "Eingrenzung durch Ist/Ist-nicht-Merkmale", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Ursachen-Wirkungsmatrix hilft, wichtige Ursachen gezielt zu priorisieren."
+  }
+]

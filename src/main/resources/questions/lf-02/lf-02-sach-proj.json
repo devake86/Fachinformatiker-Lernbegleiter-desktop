@@ -1,0 +1,497 @@
+[
+  {
+    "id": "lf-02-sach-proj-001",
+    "question": "Warum sollte ein Kundenauftrag projektartig geplant werden?",
+    "answers": [
+      { "text": "Damit Ziele, Termine, Kosten und Aufgaben steuerbar bleiben", "correct": true },
+      { "text": "Damit Anforderungen erst während der Abnahme entstehen", "correct": false },
+      { "text": "Damit Aufgaben ohne Zuständigkeiten verteilt werden", "correct": false },
+      { "text": "Damit Kosten und Termine getrennt vom Auftrag laufen", "correct": false }
+    ],
+    "explanation": "Projektplanung hilft, komplexe Aufträge kontrolliert und nachvollziehbar umzusetzen."
+  },
+  {
+    "id": "lf-02-sach-proj-002",
+    "question": "Warum ist ein eindeutiges Projektziel wichtig?",
+    "answers": [
+      { "text": "Alle Beteiligten wissen, welches Ergebnis erreicht werden soll", "correct": true },
+      { "text": "Alle Beteiligten können ohne Planung starten", "correct": false },
+      { "text": "Alle Kosten werden dadurch automatisch reduziert", "correct": false },
+      { "text": "Alle Kundenanforderungen werden dadurch ersetzt", "correct": false }
+    ],
+    "explanation": "Klare Ziele verhindern Missverständnisse und erleichtern Kontrolle und Abnahme."
+  },
+  {
+    "id": "lf-02-sach-proj-003",
+    "question": "Warum sollten Projektziele SMART formuliert werden?",
+    "answers": [
+      { "text": "Sie werden dadurch klarer und überprüfbarer", "correct": true },
+      { "text": "Sie werden dadurch offener und freier deutbar", "correct": false },
+      { "text": "Sie ersetzen die fachliche Projektplanung", "correct": false },
+      { "text": "Sie beschreiben vor allem Lieferantenrabatte", "correct": false }
+    ],
+    "explanation": "SMARTe Ziele sind spezifisch, messbar, akzeptiert, realistisch und terminierbar."
+  },
+  {
+    "id": "lf-02-sach-proj-004",
+    "question": "Warum ist ein messbares Ziel besser als ein vages Ziel?",
+    "answers": [
+      { "text": "Der Erfolg kann objektiver geprüft werden", "correct": true },
+      { "text": "Der Erfolg bleibt dadurch freier interpretierbar", "correct": false },
+      { "text": "Messbare Ziele ersetzen Verantwortlichkeiten", "correct": false },
+      { "text": "Messbare Ziele verhindern Statusberichte", "correct": false }
+    ],
+    "explanation": "Messbare Kriterien zeigen, ob ein Ziel tatsächlich erreicht wurde."
+  },
+  {
+    "id": "lf-02-sach-proj-005",
+    "question": "Warum ist Akzeptanz bei Projektzielen wichtig?",
+    "answers": [
+      { "text": "Beteiligte tragen die Umsetzung eher mit", "correct": true },
+      { "text": "Beteiligte benötigen dadurch weniger Informationen", "correct": false },
+      { "text": "Ziele werden dadurch automatisch messbar", "correct": false },
+      { "text": "Ressourcenplanung wird dadurch ersetzt", "correct": false }
+    ],
+    "explanation": "Ein Ziel wird besser erreicht, wenn Beteiligte es verstehen und mittragen."
+  },
+  {
+    "id": "lf-02-sach-proj-006",
+    "question": "Warum ist das IPERKA-Modell für Aufträge hilfreich?",
+    "answers": [
+      { "text": "Es gibt eine klare Reihenfolge für strukturiertes Arbeiten", "correct": true },
+      { "text": "Es beschreibt nur die Projektabnahme", "correct": false },
+      { "text": "Es bewertet ausschließlich Projektkosten", "correct": false },
+      { "text": "Es dient als Ersatz für Kundenanforderungen", "correct": false }
+    ],
+    "explanation": "IPERKA hilft, Aufgaben von Information bis Auswertung geordnet zu bearbeiten."
+  },
+  {
+    "id": "lf-02-sach-proj-007",
+    "question": "Warum steht Informieren am Anfang von IPERKA?",
+    "answers": [
+      { "text": "Anforderungen und Rahmenbedingungen müssen zuerst bekannt sein", "correct": true },
+      { "text": "Realisierung wird dadurch vorgezogen", "correct": false },
+      { "text": "Kontrolle kann dadurch direkt beginnen", "correct": false },
+      { "text": "Kundenbedarf wird dadurch nachgelagert", "correct": false }
+    ],
+    "explanation": "Ohne Informationen zu Bedarf, Ziel und Umfeld kann keine passende Lösung geplant werden."
+  },
+  {
+    "id": "lf-02-sach-proj-008",
+    "question": "Warum folgt nach dem Informieren die Planung?",
+    "answers": [
+      { "text": "Die gesammelten Informationen werden in ein Vorgehen übersetzt", "correct": true },
+      { "text": "Die Umsetzung wird dadurch bereits abgeschlossen", "correct": false },
+      { "text": "Die Abnahme wird dadurch vorgezogen", "correct": false },
+      { "text": "Die Anforderungen werden dadurch unabhängig", "correct": false }
+    ],
+    "explanation": "In der Planung werden Termine, Aufgaben, Ressourcen und Vorgehen festgelegt."
+  },
+  {
+    "id": "lf-02-sach-proj-009",
+    "question": "Warum ist die Entscheidungsphase in IPERKA wichtig?",
+    "answers": [
+      { "text": "Aus möglichen Lösungen wird eine passende ausgewählt", "correct": true },
+      { "text": "Alle Lösungen werden parallel umgesetzt", "correct": false },
+      { "text": "Alle Anforderungen werden neu formuliert", "correct": false },
+      { "text": "Die Planung wird dadurch ausgelassen", "correct": false }
+    ],
+    "explanation": "Entscheiden bedeutet, auf Basis von Kriterien eine begründete Auswahl zu treffen."
+  },
+  {
+    "id": "lf-02-sach-proj-010",
+    "question": "Warum ist Kontrolle nach der Realisierung nötig?",
+    "answers": [
+      { "text": "Das Ergebnis muss mit den Anforderungen verglichen werden", "correct": true },
+      { "text": "Die Planung wird dadurch vor der Umsetzung erstellt", "correct": false },
+      { "text": "Die Kontrolle ersetzt alle Arbeitspakete", "correct": false },
+      { "text": "Die Abnahme wird dadurch unabhängig vom Ergebnis", "correct": false }
+    ],
+    "explanation": "Kontrolle zeigt, ob die Umsetzung vollständig und korrekt erfolgt ist."
+  },
+  {
+    "id": "lf-02-sach-proj-011",
+    "question": "Warum wird ein Projekt am Ende ausgewertet?",
+    "answers": [
+      { "text": "Man erkennt Verbesserungen für zukünftige Projekte", "correct": true },
+      { "text": "Man ersetzt dadurch die Abnahmeprüfung", "correct": false },
+      { "text": "Man legt dadurch erst das Projektziel fest", "correct": false },
+      { "text": "Man macht dadurch Anforderungen rückwirkend gültig", "correct": false }
+    ],
+    "explanation": "Auswertung unterstützt Lernen, Prozessverbesserung und Qualitätssicherung."
+  },
+  {
+    "id": "lf-02-sach-proj-012",
+    "question": "Warum hilft ein Projektstrukturplan bei komplexen Aufgaben?",
+    "answers": [
+      { "text": "Er zerlegt das Projekt in übersichtliche Teilaufgaben", "correct": true },
+      { "text": "Er zeigt nur die zeitliche Reihenfolge", "correct": false },
+      { "text": "Er berechnet automatisch Projektkosten", "correct": false },
+      { "text": "Er ersetzt konkrete Arbeitspakete", "correct": false }
+    ],
+    "explanation": "Ein PSP macht sichtbar, welche Arbeitspakete zum Projekt gehören."
+  },
+  {
+    "id": "lf-02-sach-proj-013",
+    "question": "Warum sind Arbeitspakete sinnvoll?",
+    "answers": [
+      { "text": "Aufgaben werden klar beschreibbar und zuordenbar", "correct": true },
+      { "text": "Aufgaben bleiben dadurch auf Projektebene unscharf", "correct": false },
+      { "text": "Projektziele werden dadurch überflüssig", "correct": false },
+      { "text": "Verantwortlichkeiten werden dadurch verteilt vermieden", "correct": false }
+    ],
+    "explanation": "Arbeitspakete erleichtern Planung, Verantwortlichkeit, Aufwandsschätzung und Kontrolle."
+  },
+  {
+    "id": "lf-02-sach-proj-014",
+    "question": "Warum sollte ein Arbeitspaket ein klares Ergebnis haben?",
+    "answers": [
+      { "text": "Damit geprüft werden kann, ob es abgeschlossen ist", "correct": true },
+      { "text": "Damit Zuständigkeiten offen bleiben", "correct": false },
+      { "text": "Damit Aufwandsschätzungen entfallen", "correct": false },
+      { "text": "Damit es als Meilensteinplan dient", "correct": false }
+    ],
+    "explanation": "Ein klares Ergebnis macht das Arbeitspaket kontrollierbar."
+  },
+  {
+    "id": "lf-02-sach-proj-015",
+    "question": "Warum sind Meilensteine im Projekt nützlich?",
+    "answers": [
+      { "text": "Sie markieren wichtige Prüfpunkte oder Zwischenergebnisse", "correct": true },
+      { "text": "Sie beschreiben laufende Routineaufgaben", "correct": false },
+      { "text": "Sie ersetzen die zeitliche Projektplanung", "correct": false },
+      { "text": "Sie bilden die unterste Arbeitsebene", "correct": false }
+    ],
+    "explanation": "Meilensteine helfen, Projektfortschritt und Entscheidungszeitpunkte zu steuern."
+  },
+  {
+    "id": "lf-02-sach-proj-016",
+    "question": "Warum enthält ein Meilensteinplan meist Prüfpunkte?",
+    "answers": [
+      { "text": "Damit der erreichte Stand bewertet werden kann", "correct": true },
+      { "text": "Damit Arbeitspakete ungeprüft bleiben", "correct": false },
+      { "text": "Damit Termine offen formuliert werden", "correct": false },
+      { "text": "Damit Ergebnisse erst am Ende entstehen", "correct": false }
+    ],
+    "explanation": "Prüfpunkte zeigen, welche Ergebnisse zum jeweiligen Meilenstein vorliegen sollen."
+  },
+  {
+    "id": "lf-02-sach-proj-017",
+    "question": "Warum eignet sich ein Gantt-Diagramm zur Terminplanung?",
+    "answers": [
+      { "text": "Es zeigt Aufgaben als Balken auf einer Zeitachse", "correct": true },
+      { "text": "Es zeigt ausschließlich hierarchische Teilaufgaben", "correct": false },
+      { "text": "Es dokumentiert nur Abnahmeergebnisse", "correct": false },
+      { "text": "Es bewertet Projektziele nach SMART", "correct": false }
+    ],
+    "explanation": "Gantt-Diagramme machen Dauer, zeitliche Lage und Überschneidungen von Aufgaben sichtbar."
+  },
+  {
+    "id": "lf-02-sach-proj-018",
+    "question": "Warum reicht ein Gantt-Diagramm allein nicht immer aus?",
+    "answers": [
+      { "text": "Abhängigkeiten und kritische Vorgänge sind nicht immer detailliert erkennbar", "correct": true },
+      { "text": "Zeitliche Balken können Aufgaben nicht darstellen", "correct": false },
+      { "text": "Projekttermine werden darin nicht sichtbar", "correct": false },
+      { "text": "Meilensteine passen nicht in Zeitplanung", "correct": false }
+    ],
+    "explanation": "Für komplexere Abhängigkeiten kann ein Netzplan genauer sein."
+  },
+  {
+    "id": "lf-02-sach-proj-019",
+    "question": "Warum nutzt man einen Netzplan im Projektmanagement?",
+    "answers": [
+      { "text": "Er zeigt Vorgänge und ihre Abhängigkeiten", "correct": true },
+      { "text": "Er zeigt nur Arbeitspakete hierarchisch", "correct": false },
+      { "text": "Er dient als Abnahmeformular", "correct": false },
+      { "text": "Er beschreibt Kundenanforderungen fachlich", "correct": false }
+    ],
+    "explanation": "Ein Netzplan hilft, Reihenfolgen, Puffer und kritische Vorgänge zu erkennen."
+  },
+  {
+    "id": "lf-02-sach-proj-020",
+    "question": "Warum sind Abhängigkeiten zwischen Vorgängen wichtig?",
+    "answers": [
+      { "text": "Manche Aufgaben können erst nach anderen starten", "correct": true },
+      { "text": "Aufgaben werden dadurch unabhängig planbar", "correct": false },
+      { "text": "Abhängigkeiten ersetzen Zeitpuffer", "correct": false },
+      { "text": "Abhängigkeiten beschreiben Projektkosten", "correct": false }
+    ],
+    "explanation": "Abhängigkeiten bestimmen die sinnvolle Reihenfolge der Projektarbeit."
+  },
+  {
+    "id": "lf-02-sach-proj-021",
+    "question": "Warum berechnet man früheste Anfangs- und Endzeitpunkte?",
+    "answers": [
+      { "text": "Um den frühestmöglichen Projektablauf zu erkennen", "correct": true },
+      { "text": "Um den spätesten Projektablauf festzulegen", "correct": false },
+      { "text": "Um die Projektkosten automatisch zu senken", "correct": false },
+      { "text": "Um Arbeitspakete fachlich zu beschreiben", "correct": false }
+    ],
+    "explanation": "Die Vorwärtsrechnung zeigt, wann Vorgänge frühestens starten und enden können."
+  },
+  {
+    "id": "lf-02-sach-proj-022",
+    "question": "Warum berechnet man späteste Anfangs- und Endzeitpunkte?",
+    "answers": [
+      { "text": "Um verfügbare Puffer und Verzögerungsgrenzen zu erkennen", "correct": true },
+      { "text": "Um den frühestmöglichen Ablauf zu bestimmen", "correct": false },
+      { "text": "Um Projektanforderungen zu sammeln", "correct": false },
+      { "text": "Um die Abnahmeprüfung zu ersetzen", "correct": false }
+    ],
+    "explanation": "Die Rückwärtsrechnung zeigt, wann Vorgänge spätestens starten oder enden dürfen."
+  },
+  {
+    "id": "lf-02-sach-proj-023",
+    "question": "Warum ist Gesamtpuffer im Netzplan wichtig?",
+    "answers": [
+      { "text": "Er zeigt mögliche Verzögerung ohne Verschiebung des Projektendes", "correct": true },
+      { "text": "Er zeigt Verzögerung ohne Verschiebung direkter Nachfolger", "correct": false },
+      { "text": "Er zeigt den frühesten Start eines Vorgangs", "correct": false },
+      { "text": "Er zeigt die Dauer eines Arbeitspakets", "correct": false }
+    ],
+    "explanation": "Gesamtpuffer hilft einzuschätzen, welche Vorgänge zeitlich weniger kritisch sind."
+  },
+  {
+    "id": "lf-02-sach-proj-024",
+    "question": "Warum ist freier Puffer im Netzplan nützlich?",
+    "answers": [
+      { "text": "Er zeigt Verzögerung ohne Verschiebung nachfolgender Vorgänge", "correct": true },
+      { "text": "Er zeigt Verzögerung bis zum Projektende", "correct": false },
+      { "text": "Er markiert die kritische Vorgangskette", "correct": false },
+      { "text": "Er beschreibt den Ressourcenbedarf", "correct": false }
+    ],
+    "explanation": "Freier Puffer kann genutzt werden, ohne den frühesten Start direkter Nachfolger zu beeinflussen."
+  },
+  {
+    "id": "lf-02-sach-proj-025",
+    "question": "Warum ist der kritische Pfad besonders wichtig?",
+    "answers": [
+      { "text": "Verzögerungen dort verschieben direkt das Projektende", "correct": true },
+      { "text": "Vorgänge dort besitzen große Zeitreserven", "correct": false },
+      { "text": "Er enthält nur optionale Projektaufgaben", "correct": false },
+      { "text": "Er beschreibt die Kostenstruktur", "correct": false }
+    ],
+    "explanation": "Vorgänge auf dem kritischen Pfad haben keinen zeitlichen Spielraum."
+  },
+  {
+    "id": "lf-02-sach-proj-026",
+    "question": "Warum sollte der kritische Pfad überwacht werden?",
+    "answers": [
+      { "text": "Dort gefährden Verzögerungen den Endtermin", "correct": true },
+      { "text": "Dort liegen zusätzliche freie Puffer", "correct": false },
+      { "text": "Dort sind Vorgänge unabhängig voneinander", "correct": false },
+      { "text": "Dort werden Kundenanforderungen gesammelt", "correct": false }
+    ],
+    "explanation": "Kritische Vorgänge brauchen besondere Aufmerksamkeit, weil sie das Projektende direkt beeinflussen."
+  },
+  {
+    "id": "lf-02-sach-proj-027",
+    "question": "Warum ist das magische Dreieck im Projektmanagement hilfreich?",
+    "answers": [
+      { "text": "Es zeigt Zielkonflikte zwischen Zeit, Kosten und Qualität", "correct": true },
+      { "text": "Es zeigt Reihenfolgen im Netzplan", "correct": false },
+      { "text": "Es zeigt Arbeitspakete nach Hierarchie", "correct": false },
+      { "text": "Es zeigt Gesprächsphasen mit Kunden", "correct": false }
+    ],
+    "explanation": "Änderungen an Zeit, Kosten oder Qualität beeinflussen oft die anderen beiden Größen."
+  },
+  {
+    "id": "lf-02-sach-proj-028",
+    "question": "Was passiert typischerweise, wenn ein Projekt schneller fertig werden soll?",
+    "answers": [
+      { "text": "Kosten oder Qualität können unter Druck geraten", "correct": true },
+      { "text": "Ressourcenbedarf sinkt dadurch automatisch", "correct": false },
+      { "text": "Qualitätsrisiken werden dadurch ausgeschlossen", "correct": false },
+      { "text": "Projektziele werden dadurch messbarer", "correct": false }
+    ],
+    "explanation": "Kürzere Zeit kann zusätzliche Ressourcen erfordern oder Qualitätsrisiken erhöhen."
+  },
+  {
+    "id": "lf-02-sach-proj-029",
+    "question": "Warum gehört Risikoanalyse zur Projektplanung?",
+    "answers": [
+      { "text": "Mögliche Probleme können früh erkannt und behandelt werden", "correct": true },
+      { "text": "Risiken werden dadurch zu Arbeitspaketen", "correct": false },
+      { "text": "Projektkosten entstehen dadurch nicht mehr", "correct": false },
+      { "text": "Abhängigkeiten im Netzplan entfallen dadurch", "correct": false }
+    ],
+    "explanation": "Risikoanalyse hilft, Gegenmaßnahmen für Termin-, Kosten-, Qualitäts- oder Lieferprobleme zu planen."
+  },
+  {
+    "id": "lf-02-sach-proj-030",
+    "question": "Warum ist Ressourcenplanung in Projekten wichtig?",
+    "answers": [
+      { "text": "Personal, Material und Zeit müssen verfügbar sein", "correct": true },
+      { "text": "Ressourcen werden erst nach der Abnahme benötigt", "correct": false },
+      { "text": "Projektziele ersetzen benötigte Mittel", "correct": false },
+      { "text": "Ressourcenplanung beschreibt nur Risiken", "correct": false }
+    ],
+    "explanation": "Ohne passende Ressourcen können Aufgaben trotz guter Zielsetzung scheitern."
+  },
+  {
+    "id": "lf-02-sach-proj-031",
+    "question": "Warum ist ein Kostenplan im Projekt nötig?",
+    "answers": [
+      { "text": "Budget und Wirtschaftlichkeit müssen kontrolliert werden", "correct": true },
+      { "text": "Kosten werden dadurch unabhängig vom Aufwand", "correct": false },
+      { "text": "Terminplanung wird dadurch ersetzt", "correct": false },
+      { "text": "Qualitätsprüfung wird dadurch abgeschlossen", "correct": false }
+    ],
+    "explanation": "Kostenplanung unterstützt Budgetkontrolle und zeigt finanzielle Auswirkungen von Entscheidungen."
+  },
+  {
+    "id": "lf-02-sach-proj-032",
+    "question": "Warum sollten Qualitätssicherungsmaßnahmen geplant werden?",
+    "answers": [
+      { "text": "Damit Anforderungen zuverlässig geprüft werden", "correct": true },
+      { "text": "Damit Qualität erst bei Übergabe entsteht", "correct": false },
+      { "text": "Damit Abnahmekriterien offen bleiben", "correct": false },
+      { "text": "Damit Mängel in der Dokumentation verschwinden", "correct": false }
+    ],
+    "explanation": "Qualität entsteht nicht nur am Ende, sondern durch geplante Prüfungen und klare Kriterien."
+  },
+  {
+    "id": "lf-02-sach-proj-033",
+    "question": "Warum ist ein Soll-Ist-Vergleich im Projekt sinnvoll?",
+    "answers": [
+      { "text": "Abweichungen zwischen Planung und Realität werden sichtbar", "correct": true },
+      { "text": "Planwerte werden dadurch unabhängig vom Ergebnis", "correct": false },
+      { "text": "Projektarbeit wird dadurch ersetzt", "correct": false },
+      { "text": "Anforderungen werden dadurch neu definiert", "correct": false }
+    ],
+    "explanation": "Soll-Ist-Vergleiche zeigen, ob Zeit, Kosten, Qualität oder Leistung vom Plan abweichen."
+  },
+  {
+    "id": "lf-02-sach-proj-034",
+    "question": "Warum sollte ein Projekt regelmäßig kontrolliert werden?",
+    "answers": [
+      { "text": "Probleme werden früher erkannt", "correct": true },
+      { "text": "Kontrollen werden dadurch nach Projektende verlagert", "correct": false },
+      { "text": "Abweichungen bleiben dadurch unentdeckt", "correct": false },
+      { "text": "Anforderungen werden dadurch ersetzt", "correct": false }
+    ],
+    "explanation": "Regelmäßige Kontrolle erlaubt rechtzeitiges Gegensteuern."
+  },
+  {
+    "id": "lf-02-sach-proj-035",
+    "question": "Warum ist Projektdokumentation wichtig?",
+    "answers": [
+      { "text": "Entscheidungen, Ergebnisse und Änderungen bleiben nachvollziehbar", "correct": true },
+      { "text": "Entscheidungen werden dadurch mündlich ausreichend", "correct": false },
+      { "text": "Abnahme und Übergabe werden dadurch ausgelassen", "correct": false },
+      { "text": "Projektziele werden dadurch unsichtbar", "correct": false }
+    ],
+    "explanation": "Dokumentation unterstützt Transparenz, Wartung, Abnahme und spätere Auswertung."
+  },
+  {
+    "id": "lf-02-sach-proj-036",
+    "question": "Warum ist Änderungsdokumentation im Projekt wichtig?",
+    "answers": [
+      { "text": "Nachträgliche Änderungen bleiben nachvollziehbar", "correct": true },
+      { "text": "Nachträgliche Änderungen bleiben ohne Wirkung", "correct": false },
+      { "text": "Änderungen ersetzen Abnahmekriterien", "correct": false },
+      { "text": "Änderungen werden dadurch automatisch genehmigt", "correct": false }
+    ],
+    "explanation": "Änderungen können Zeit, Kosten, Qualität und Leistungsumfang beeinflussen."
+  },
+  {
+    "id": "lf-02-sach-proj-037",
+    "question": "Warum ist ein Lastenheft für ein Projekt wichtig?",
+    "answers": [
+      { "text": "Es beschreibt die Anforderungen aus Kundensicht", "correct": true },
+      { "text": "Es beschreibt die Umsetzung aus Auftragnehmersicht", "correct": false },
+      { "text": "Es dokumentiert abgeschlossene Prüfergebnisse", "correct": false },
+      { "text": "Es zeigt Vorgänge und Pufferzeiten", "correct": false }
+    ],
+    "explanation": "Das Lastenheft bildet eine Grundlage für Planung, Angebot und Pflichtenheft."
+  },
+  {
+    "id": "lf-02-sach-proj-038",
+    "question": "Warum ist ein Pflichtenheft für die Umsetzung wichtig?",
+    "answers": [
+      { "text": "Es konkretisiert die technische und organisatorische Realisierung", "correct": true },
+      { "text": "Es sammelt nur Anforderungen aus Kundensicht", "correct": false },
+      { "text": "Es dokumentiert nur die fertige Übergabe", "correct": false },
+      { "text": "Es ersetzt Qualitätssicherungsmaßnahmen", "correct": false }
+    ],
+    "explanation": "Das Pflichtenheft macht aus Anforderungen eine umsetzbare Lösung."
+  },
+  {
+    "id": "lf-02-sach-proj-039",
+    "question": "Warum sollte die Abnahme vorbereitet werden?",
+    "answers": [
+      { "text": "Kriterien, Tests und Nachweise müssen bereitstehen", "correct": true },
+      { "text": "Abnahme kann dadurch ohne Kriterien erfolgen", "correct": false },
+      { "text": "Umsetzungsschritte werden dadurch ersetzt", "correct": false },
+      { "text": "Kundenanforderungen werden dadurch nachgelagert", "correct": false }
+    ],
+    "explanation": "Eine vorbereitete Abnahme prüft, ob die vereinbarten Anforderungen erfüllt wurden."
+  },
+  {
+    "id": "lf-02-sach-proj-040",
+    "question": "Warum ist ein Abnahmeprotokoll sinnvoll?",
+    "answers": [
+      { "text": "Es hält Prüfergebnisse und offene Punkte nachweisbar fest", "correct": true },
+      { "text": "Es dient als erste Anforderungsanalyse", "correct": false },
+      { "text": "Es ersetzt die Projektplanung", "correct": false },
+      { "text": "Es beschreibt nur spätere Wartungskosten", "correct": false }
+    ],
+    "explanation": "Ein Abnahmeprotokoll dokumentiert, was geprüft wurde und ob die Leistung akzeptiert wurde."
+  },
+  {
+    "id": "lf-02-sach-proj-041",
+    "question": "Warum ist ein Übergabeprotokoll beim Projektabschluss wichtig?",
+    "answers": [
+      { "text": "Übergabe, Zustand und Einweisung werden dokumentiert", "correct": true },
+      { "text": "Projektziele werden dadurch erstmals erstellt", "correct": false },
+      { "text": "Sicherheitsmaßnahmen werden dadurch ersetzt", "correct": false },
+      { "text": "Projektkosten werden dadurch automatisch geprüft", "correct": false }
+    ],
+    "explanation": "Das Übergabeprotokoll schafft Nachvollziehbarkeit für Kunde und Auftragnehmer."
+  },
+  {
+    "id": "lf-02-sach-proj-042",
+    "question": "Warum sollte der Kunde bei der Übergabe eingewiesen werden?",
+    "answers": [
+      { "text": "Er muss die gelieferte Lösung sicher nutzen können", "correct": true },
+      { "text": "Er übernimmt dadurch die Projektplanung", "correct": false },
+      { "text": "Die Einweisung ersetzt die Installation", "correct": false },
+      { "text": "Die Abnahme wird dadurch unabhängig", "correct": false }
+    ],
+    "explanation": "Adressatengerechte Einweisung hilft, Bedienfehler und Supportaufwand zu reduzieren."
+  },
+  {
+    "id": "lf-02-sach-proj-043",
+    "question": "Warum gehören offene Punkte in ein Übergabe- oder Abnahmeprotokoll?",
+    "answers": [
+      { "text": "Sie können später gezielt nachverfolgt werden", "correct": true },
+      { "text": "Sie gelten dadurch als bereits erledigt", "correct": false },
+      { "text": "Sie ersetzen spätere Verantwortlichkeiten", "correct": false },
+      { "text": "Sie machen die Dokumentation kürzer", "correct": false }
+    ],
+    "explanation": "Offene Punkte müssen sichtbar bleiben, damit Verantwortlichkeiten und Nacharbeit klar sind."
+  },
+  {
+    "id": "lf-02-sach-proj-044",
+    "question": "Warum ist ein Projektabschlussbericht nützlich?",
+    "answers": [
+      { "text": "Er fasst Ergebnisse, Abweichungen und Erfahrungen zusammen", "correct": true },
+      { "text": "Er eröffnet die Informationsphase", "correct": false },
+      { "text": "Er ersetzt die operative Projektarbeit", "correct": false },
+      { "text": "Er beschreibt ausschließlich Werbemaßnahmen", "correct": false }
+    ],
+    "explanation": "Ein Abschlussbericht unterstützt Reflexion, Wissenssicherung und spätere Verbesserungen."
+  },
+  {
+    "id": "lf-02-sach-proj-045",
+    "question": "Warum sollte ein Projekt nach Abschluss reflektiert werden?",
+    "answers": [
+      { "text": "Stärken, Schwächen und Verbesserungen werden erkennbar", "correct": true },
+      { "text": "Erfahrungen werden dadurch zufällig verteilt", "correct": false },
+      { "text": "Fehlerursachen werden dadurch ausgeblendet", "correct": false },
+      { "text": "Kundenergebnisse werden dadurch unwichtig", "correct": false }
+    ],
+    "explanation": "Reflexion hilft, zukünftige Projekte besser zu planen und umzusetzen."
+  }
+]

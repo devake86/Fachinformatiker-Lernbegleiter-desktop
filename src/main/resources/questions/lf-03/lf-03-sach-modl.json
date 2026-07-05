@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-sach-modl-001",
+    "question": "Warum nutzt man Schichtenmodelle in der Netzwerktechnik?",
+    "answers": [
+      { "text": "Damit Kommunikation besser strukturiert wird", "correct": true },
+      { "text": "Damit Protokollaufgaben gemeinsam vermischt werden", "correct": false },
+      { "text": "Damit Adressierung auf eine Ebene begrenzt wird", "correct": false },
+      { "text": "Damit Fehlersuche direkt am Endgerät beginnt", "correct": false }
+    ],
+    "explanation": "Schichtenmodelle trennen Aufgaben und erleichtern Verständnis, Fehlersuche und Standardisierung."
+  },
+  {
+    "id": "lf-03-sach-modl-002",
+    "question": "Warum hilft das OSI-Modell bei der Fehlersuche?",
+    "answers": [
+      { "text": "Fehler lassen sich Schichten zuordnen", "correct": true },
+      { "text": "Fehler werden automatisch behoben", "correct": false },
+      { "text": "IP-Konfigurationen werden zentral vergeben", "correct": false },
+      { "text": "Dokumentation wird durch Schichten ersetzt", "correct": false }
+    ],
+    "explanation": "Wenn klar ist, welche Schicht betroffen ist, kann man gezielter prüfen."
+  },
+  {
+    "id": "lf-03-sach-modl-003",
+    "question": "Ein Netzwerkkabel ist defekt. Welche OSI-Schicht ist zuerst verdächtig?",
+    "answers": [
+      { "text": "Schicht 1", "correct": true },
+      { "text": "Schicht 3", "correct": false },
+      { "text": "Schicht 5", "correct": false },
+      { "text": "Schicht 7", "correct": false }
+    ],
+    "explanation": "Kabel, Stecker und elektrische oder optische Signale gehören zur Bitübertragungsschicht."
+  },
+  {
+    "id": "lf-03-sach-modl-004",
+    "question": "Ein Switch leitet Frames anhand von MAC-Adressen weiter. Welche Schicht ist betroffen?",
+    "answers": [
+      { "text": "Schicht 2", "correct": true },
+      { "text": "Schicht 1", "correct": false },
+      { "text": "Schicht 3", "correct": false },
+      { "text": "Schicht 7", "correct": false }
+    ],
+    "explanation": "MAC-Adressen und Frames gehören zur Sicherungsschicht."
+  },
+  {
+    "id": "lf-03-sach-modl-005",
+    "question": "Ein Router entscheidet anhand der Ziel-IP über den Weg. Welche Schicht ist betroffen?",
+    "answers": [
+      { "text": "Schicht 3", "correct": true },
+      { "text": "Schicht 1", "correct": false },
+      { "text": "Schicht 2", "correct": false },
+      { "text": "Schicht 6", "correct": false }
+    ],
+    "explanation": "Routing und IP-Adressen sind Aufgaben der Vermittlungsschicht."
+  },
+  {
+    "id": "lf-03-sach-modl-006",
+    "question": "Warum ist TCP der Transportschicht zugeordnet?",
+    "answers": [
+      { "text": "Es steuert den Transport zwischen Anwendungen", "correct": true },
+      { "text": "Es leitet Pakete zwischen IP-Netzen weiter", "correct": false },
+      { "text": "Es überträgt Frames im lokalen Netz", "correct": false },
+      { "text": "Es stellt Webinhalte für Browser bereit", "correct": false }
+    ],
+    "explanation": "TCP sorgt für Ende-zu-Ende-Kommunikation mit Verbindung und Zustellkontrolle."
+  },
+  {
+    "id": "lf-03-sach-modl-007",
+    "question": "Warum ist HTTP der Anwendungsschicht zugeordnet?",
+    "answers": [
+      { "text": "Es stellt einen Dienst für Webzugriffe bereit", "correct": true },
+      { "text": "Es transportiert Segmente zwischen Anwendungen", "correct": false },
+      { "text": "Es adressiert Pakete zwischen Netzwerken", "correct": false },
+      { "text": "Es überträgt Bits über Netzwerkmedien", "correct": false }
+    ],
+    "explanation": "HTTP ist ein Anwendungsprotokoll für den Zugriff auf Webinhalte."
+  },
+  {
+    "id": "lf-03-sach-modl-008",
+    "question": "Warum ist Encapsulation beim Senden von Daten nötig?",
+    "answers": [
+      { "text": "Jede Schicht ergänzt benötigte Steuerdaten", "correct": true },
+      { "text": "Jede Schicht entfernt empfangene Header", "correct": false },
+      { "text": "Jede Schicht verwirft die Nutzdaten", "correct": false },
+      { "text": "Jede Schicht ersetzt die Zieladresse", "correct": false }
+    ],
+    "explanation": "Beim Verpacken ergänzt jede Schicht z. B. Header mit Adressen oder Steuerinformationen."
+  },
+  {
+    "id": "lf-03-sach-modl-009",
+    "question": "Warum werden beim Empfangen Header wieder entfernt?",
+    "answers": [
+      { "text": "Die Daten werden schichtweise ausgewertet", "correct": true },
+      { "text": "Die Daten werden beim Senden verpackt", "correct": false },
+      { "text": "Die Zieladresse wird neu vergeben", "correct": false },
+      { "text": "Die Subnetzmaske wird angepasst", "correct": false }
+    ],
+    "explanation": "Decapsulation entfernt Steuerinformationen, sobald die jeweilige Schicht sie verarbeitet hat."
+  },
+  {
+    "id": "lf-03-sach-modl-010",
+    "question": "Warum enthält ein Ethernet-Frame Ziel- und Quell-MAC-Adresse?",
+    "answers": [
+      { "text": "Zur lokalen Zustellung im LAN", "correct": true },
+      { "text": "Zur Weiterleitung zwischen IP-Netzen", "correct": false },
+      { "text": "Zur Namensauflösung über DNS", "correct": false },
+      { "text": "Zur Zuordnung von Anwendungen über Ports", "correct": false }
+    ],
+    "explanation": "MAC-Adressen geben im lokalen Netz an, von wem ein Frame kommt und wohin er soll."
+  },
+  {
+    "id": "lf-03-sach-modl-011",
+    "question": "Warum enthält ein Ethernet-Frame eine Prüfsumme?",
+    "answers": [
+      { "text": "Um Übertragungsfehler zu erkennen", "correct": true },
+      { "text": "Um VLAN-Zugehörigkeit zu markieren", "correct": false },
+      { "text": "Um Nutzdaten der Anwendung zu tragen", "correct": false },
+      { "text": "Um den Framebeginn zu kennzeichnen", "correct": false }
+    ],
+    "explanation": "Die Prüfsumme hilft festzustellen, ob ein Frame beschädigt angekommen ist."
+  },
+  {
+    "id": "lf-03-sach-modl-012",
+    "question": "Warum wird bei VLANs ein Tag im Ethernet-Frame genutzt?",
+    "answers": [
+      { "text": "Damit die VLAN-Zugehörigkeit erkennbar ist", "correct": true },
+      { "text": "Damit die Prüfsumme im Frame steht", "correct": false },
+      { "text": "Damit Nutzdaten transportiert werden", "correct": false },
+      { "text": "Damit der Framebeginn markiert wird", "correct": false }
+    ],
+    "explanation": "VLAN-Tags kennzeichnen, zu welchem virtuellen LAN ein Frame gehört."
+  },
+  {
+    "id": "lf-03-sach-modl-013",
+    "question": "Warum brauchen Trunk-Verbindungen VLAN-Tags?",
+    "answers": [
+      { "text": "Mehrere VLANs laufen über eine Verbindung", "correct": true },
+      { "text": "Ein Access-Port trägt mehrere unmarkierte Netze", "correct": false },
+      { "text": "Ein einzelnes VLAN nutzt eigene Kabelwege", "correct": false },
+      { "text": "Switches erkennen VLANs über IP-Adressen", "correct": false }
+    ],
+    "explanation": "Bei Trunks müssen Geräte erkennen, zu welchem VLAN ein Frame gehört."
+  },
+  {
+    "id": "lf-03-sach-modl-014",
+    "question": "Warum ist IP unabhängig von der Übertragungstechnik?",
+    "answers": [
+      { "text": "IP kann über verschiedene Medien laufen", "correct": true },
+      { "text": "IP ist an Ethernet-Frames gebunden", "correct": false },
+      { "text": "IP beschreibt MAC-basierte Zustellung", "correct": false },
+      { "text": "IP arbeitet als physisches Signalverfahren", "correct": false }
+    ],
+    "explanation": "IP kann z. B. über Ethernet, WLAN oder andere Zugangstechniken transportiert werden."
+  },
+  {
+    "id": "lf-03-sach-modl-015",
+    "question": "Warum ist IP allein nicht zuverlässig im Sinne von Zustellgarantie?",
+    "answers": [
+      { "text": "IP ist verbindungslos und quittiert nicht", "correct": true },
+      { "text": "IP bestätigt jedes Paket verbindlich", "correct": false },
+      { "text": "IP fordert verlorene Pakete erneut an", "correct": false },
+      { "text": "IP sortiert alle Pakete zuverlässig", "correct": false }
+    ],
+    "explanation": "IP leitet Pakete weiter, garantiert aber keine Zustellung oder Reihenfolge."
+  },
+  {
+    "id": "lf-03-sach-modl-016",
+    "question": "Wann ist TCP gegenüber UDP besonders sinnvoll?",
+    "answers": [
+      { "text": "Wenn zuverlässige Übertragung wichtig ist", "correct": true },
+      { "text": "Wenn geringe Verzögerung im Vordergrund steht", "correct": false },
+      { "text": "Wenn schlanke Datagramme genügen", "correct": false },
+      { "text": "Wenn Verbindungsaufbau vermieden wird", "correct": false }
+    ],
+    "explanation": "TCP bestätigt Daten und kann fehlende Pakete erneut anfordern."
+  },
+  {
+    "id": "lf-03-sach-modl-017",
+    "question": "Wann ist UDP gegenüber TCP besonders sinnvoll?",
+    "answers": [
+      { "text": "Wenn geringe Verzögerung wichtiger ist", "correct": true },
+      { "text": "Wenn bestätigte Zustellung erforderlich ist", "correct": false },
+      { "text": "Wenn Paketneusendung zentral ist", "correct": false },
+      { "text": "Wenn Verbindungsaufbau gebraucht wird", "correct": false }
+    ],
+    "explanation": "UDP ist schlanker und eignet sich z. B. für zeitkritische Übertragungen."
+  },
+  {
+    "id": "lf-03-sach-modl-018",
+    "question": "Warum ist UDP bei Sprachübertragung häufig geeignet?",
+    "answers": [
+      { "text": "Kurze Verzögerung ist wichtiger als Neusenden", "correct": true },
+      { "text": "Sprachdaten verlangen vollständige Neusendung", "correct": false },
+      { "text": "Sprachdienste nutzen bestätigte TCP-Flüsse", "correct": false },
+      { "text": "UDP verwaltet Sprachsitzungen verbindlich", "correct": false }
+    ],
+    "explanation": "Bei Echtzeitdiensten stören verspätete Neusendungen oft mehr als einzelne Paketverluste."
+  },
+  {
+    "id": "lf-03-sach-modl-019",
+    "question": "Warum benötigt ein Server neben IP-Adressen auch Ports?",
+    "answers": [
+      { "text": "Mehrere Dienste können auf einem Host laufen", "correct": true },
+      { "text": "Mehrere Hosts teilen dieselbe IP-Adresse", "correct": false },
+      { "text": "Ports übernehmen lokale MAC-Zustellung", "correct": false },
+      { "text": "Ports ersetzen Routing zwischen Netzen", "correct": false }
+    ],
+    "explanation": "Die IP erreicht den Host, der Port den passenden Dienst auf dem Host."
+  },
+  {
+    "id": "lf-03-sach-modl-020",
+    "question": "Warum kann dieselbe Portnummer bei TCP und UDP getrennt betrachtet werden?",
+    "answers": [
+      { "text": "TCP und UDP haben eigene Portbereiche", "correct": true },
+      { "text": "TCP und UDP teilen sich einen Endpunkt", "correct": false },
+      { "text": "TCP nutzt Ports für MAC-Adressen", "correct": false },
+      { "text": "UDP ordnet Ports dem IP-Netz zu", "correct": false }
+    ],
+    "explanation": "TCP-Port 53 und UDP-Port 53 sind technisch getrennte Endpunkte."
+  },
+  {
+    "id": "lf-03-sach-modl-021",
+    "question": "Warum ist ARP für IPv4-Kommunikation im LAN wichtig?",
+    "answers": [
+      { "text": "IP-Adressen müssen MAC-Adressen zugeordnet werden", "correct": true },
+      { "text": "DNS-Namen müssen IP-Adressen zugeordnet werden", "correct": false },
+      { "text": "Ports müssen Anwendungen zugeordnet werden", "correct": false },
+      { "text": "VLANs müssen Trunks zugeordnet werden", "correct": false }
+    ],
+    "explanation": "Für die lokale Zustellung braucht Ethernet die MAC-Adresse zum IP-Ziel."
+  },
+  {
+    "id": "lf-03-sach-modl-022",
+    "question": "Warum ist DNS für Benutzer praktischer als reine IP-Adressen?",
+    "answers": [
+      { "text": "Namen sind leichter merkbar", "correct": true },
+      { "text": "MAC-Adressen sind leichter routbar", "correct": false },
+      { "text": "Portnummern ersetzen Hostnamen", "correct": false },
+      { "text": "Subnetzmasken benennen Webdienste", "correct": false }
+    ],
+    "explanation": "DNS übersetzt gut merkbare Namen in technisch nutzbare IP-Adressen."
+  },
+  {
+    "id": "lf-03-sach-modl-023",
+    "question": "Warum ist DHCP in Clientnetzen oft sinnvoll?",
+    "answers": [
+      { "text": "Clients erhalten Konfiguration automatisch", "correct": true },
+      { "text": "Clients lösen Namen selbst in IPs auf", "correct": false },
+      { "text": "Clients lernen MAC-Adressen als Switches", "correct": false },
+      { "text": "Clients senden Webinhalte per HTTP aus", "correct": false }
+    ],
+    "explanation": "DHCP verteilt z. B. IP-Adresse, Subnetzmaske, Gateway und DNS-Server."
+  },
+  {
+    "id": "lf-03-sach-modl-024",
+    "question": "Warum eignet sich ICMP für einfache Verbindungstests?",
+    "answers": [
+      { "text": "Es unterstützt Kontroll- und Diagnosemeldungen", "correct": true },
+      { "text": "Es liefert Webinhalte an Browser aus", "correct": false },
+      { "text": "Es vergibt Adressen per Lease", "correct": false },
+      { "text": "Es übersetzt Namen in IP-Adressen", "correct": false }
+    ],
+    "explanation": "Ping nutzt ICMP, um Erreichbarkeit und Antwortzeiten grob zu prüfen."
+  },
+  {
+    "id": "lf-03-sach-modl-025",
+    "question": "Warum kann bei Halbduplex eine Kollision auftreten?",
+    "answers": [
+      { "text": "Teilnehmer teilen sich das Medium", "correct": true },
+      { "text": "Senden und Empfangen laufen getrennt", "correct": false },
+      { "text": "Jeder Teilnehmer hat eine eigene Leitung", "correct": false },
+      { "text": "Frames werden über VLAN-Tags getrennt", "correct": false }
+    ],
+    "explanation": "Wenn mehrere Teilnehmer gleichzeitig auf einem gemeinsamen Medium senden, können Signale kollidieren."
+  },
+  {
+    "id": "lf-03-sach-modl-026",
+    "question": "Warum reduziert Vollduplex Kollisionsprobleme?",
+    "answers": [
+      { "text": "Senden und Empfangen laufen getrennt gleichzeitig", "correct": true },
+      { "text": "Teilnehmer teilen ein gemeinsames Medium", "correct": false },
+      { "text": "Stationen senden abwechselnd auf einer Leitung", "correct": false },
+      { "text": "Kollisionserkennung steuert erneutes Senden", "correct": false }
+    ],
+    "explanation": "Vollduplex vermeidet das gemeinsame abwechselnde Senden auf einem Halbduplexmedium."
+  },
+  {
+    "id": "lf-03-sach-modl-027",
+    "question": "Warum war CSMA/CD bei klassischen geteilten Ethernet-Medien wichtig?",
+    "answers": [
+      { "text": "Kollisionen mussten erkannt werden", "correct": true },
+      { "text": "Kollisionen sollten vorab vermieden werden", "correct": false },
+      { "text": "Senderechte wurden per Token verteilt", "correct": false },
+      { "text": "VLAN-Zugehörigkeit wurde markiert", "correct": false }
+    ],
+    "explanation": "CSMA/CD erkennt Kollisionen und steuert erneutes Senden nach Wartezeit."
+  },
+  {
+    "id": "lf-03-sach-modl-028",
+    "question": "Warum wird bei WLAN eher CSMA/CA statt CSMA/CD genutzt?",
+    "answers": [
+      { "text": "Kollisionen sollen möglichst vermieden werden", "correct": true },
+      { "text": "Kollisionen werden im Funk gut erkannt", "correct": false },
+      { "text": "Senderechte werden per Token verteilt", "correct": false },
+      { "text": "Frames werden per VLAN getrennt", "correct": false }
+    ],
+    "explanation": "Bei Funk ist Kollisionsvermeidung sinnvoll, weil Kollisionserkennung schwieriger ist."
+  },
+  {
+    "id": "lf-03-sach-modl-029",
+    "question": "Warum darf beim Token-Verfahren nur ein Teilnehmer mit Token senden?",
+    "answers": [
+      { "text": "So werden gleichzeitige Sendungen vermieden", "correct": true },
+      { "text": "So werden Kollisionen nachträglich erkannt", "correct": false },
+      { "text": "So werden DNS-Namen aufgelöst", "correct": false },
+      { "text": "So werden VLAN-Tags entfernt", "correct": false }
+    ],
+    "explanation": "Das Token regelt den Zugriff auf das Übertragungsmedium."
+  },
+  {
+    "id": "lf-03-sach-modl-030",
+    "question": "Wann ist Simplex-Übertragung ausreichend?",
+    "answers": [
+      { "text": "Wenn Daten nur in eine Richtung fließen", "correct": true },
+      { "text": "Wenn beide Seiten gleichzeitig senden", "correct": false },
+      { "text": "Wenn Senden und Empfangen abwechseln", "correct": false },
+      { "text": "Wenn Verbindungen bestätigt werden", "correct": false }
+    ],
+    "explanation": "Simplex eignet sich für reine Einweg-Kommunikation ohne Rückübertragung."
+  },
+  {
+    "id": "lf-03-sach-modl-031",
+    "question": "Wann ist Halbduplex-Kommunikation passend?",
+    "answers": [
+      { "text": "Wenn abwechselnd gesendet wird", "correct": true },
+      { "text": "Wenn Daten in eine Richtung fließen", "correct": false },
+      { "text": "Wenn gleichzeitig gesendet und empfangen wird", "correct": false },
+      { "text": "Wenn Daten nach Wellenlängen getrennt werden", "correct": false }
+    ],
+    "explanation": "Halbduplex erlaubt Kommunikation in beide Richtungen, aber nicht gleichzeitig."
+  },
+  {
+    "id": "lf-03-sach-modl-032",
+    "question": "Wann ist Vollduplex-Kommunikation besonders nützlich?",
+    "answers": [
+      { "text": "Wenn beide Seiten gleichzeitig senden sollen", "correct": true },
+      { "text": "Wenn Signale abwechselnd gesendet werden", "correct": false },
+      { "text": "Wenn Daten in eine Richtung fließen", "correct": false },
+      { "text": "Wenn Senderechte per Token wechseln", "correct": false }
+    ],
+    "explanation": "Vollduplex verbessert Kommunikation, weil gleichzeitiges Senden und Empfangen möglich ist."
+  },
+  {
+    "id": "lf-03-sach-modl-033",
+    "question": "Warum wird serielle Übertragung bei modernen Schnittstellen häufig genutzt?",
+    "answers": [
+      { "text": "Sie ist bei hohen Taktraten gut beherrschbar", "correct": true },
+      { "text": "Mehrere Bit laufen parallel über viele Leitungen", "correct": false },
+      { "text": "Signale müssen über viele Adern synchron bleiben", "correct": false },
+      { "text": "Daten werden nach Frequenzbereichen getrennt", "correct": false }
+    ],
+    "explanation": "Serielle Übertragung reduziert Leitungsprobleme und ist bei modernen Standards sehr leistungsfähig."
+  },
+  {
+    "id": "lf-03-sach-modl-034",
+    "question": "Warum kann parallele Übertragung bei hohen Geschwindigkeiten problematisch werden?",
+    "answers": [
+      { "text": "Signale mehrerer Leitungen müssen synchron bleiben", "correct": true },
+      { "text": "Bits laufen zeitlich nacheinander", "correct": false },
+      { "text": "Daten werden über einen seriellen Kanal gesendet", "correct": false },
+      { "text": "Frequenzbereiche trennen mehrere Signale", "correct": false }
+    ],
+    "explanation": "Bei paralleler Übertragung müssen mehrere Signale zeitlich sauber zusammenpassen."
+  },
+  {
+    "id": "lf-03-sach-modl-035",
+    "question": "Warum wird Multiplexing in Netzwerken eingesetzt?",
+    "answers": [
+      { "text": "Mehrere Datenströme teilen sich ein Medium", "correct": true },
+      { "text": "Ein Datenstrom nutzt dauerhaft ein eigenes Medium", "correct": false },
+      { "text": "Frames werden anhand von MACs verteilt", "correct": false },
+      { "text": "Pakete werden anhand von IPs geroutet", "correct": false }
+    ],
+    "explanation": "Multiplexing nutzt Übertragungsmedien effizienter durch Aufteilung nach Zeit, Frequenz oder Wellenlänge."
+  },
+  {
+    "id": "lf-03-sach-modl-036",
+    "question": "Wann ist Broadcast sinnvoll?",
+    "answers": [
+      { "text": "Wenn alle Teilnehmer eines Netzbereichs erreicht werden sollen", "correct": true },
+      { "text": "Wenn ein einzelnes Ziel angesprochen wird", "correct": false },
+      { "text": "Wenn eine definierte Gruppe gemeint ist", "correct": false },
+      { "text": "Wenn ein passender Gruppenknoten ausreicht", "correct": false }
+    ],
+    "explanation": "Broadcast sendet an alle erreichbaren Teilnehmer eines lokalen Netzbereichs."
+  },
+  {
+    "id": "lf-03-sach-modl-037",
+    "question": "Wann ist Multicast sinnvoller als Broadcast?",
+    "answers": [
+      { "text": "Wenn nur eine Empfängergruppe gemeint ist", "correct": true },
+      { "text": "Wenn alle Geräte im Netzbereich gemeint sind", "correct": false },
+      { "text": "Wenn ein einzelner Host gemeint ist", "correct": false },
+      { "text": "Wenn ein passender Knoten antworten soll", "correct": false }
+    ],
+    "explanation": "Multicast vermeidet unnötige Last, weil nur eine definierte Gruppe adressiert wird."
+  },
+  {
+    "id": "lf-03-sach-modl-038",
+    "question": "Wann wird Unicast verwendet?",
+    "answers": [
+      { "text": "Bei Kommunikation zu genau einem Ziel", "correct": true },
+      { "text": "Bei Kommunikation an alle im Netzbereich", "correct": false },
+      { "text": "Bei Kommunikation zu einer Empfängergruppe", "correct": false },
+      { "text": "Bei Kommunikation zu einem Gruppenknoten", "correct": false }
+    ],
+    "explanation": "Die meisten direkten Client-Server-Verbindungen nutzen Unicast."
+  },
+  {
+    "id": "lf-03-sach-modl-039",
+    "question": "Was ist der praktische Gedanke hinter Anycast?",
+    "answers": [
+      { "text": "Ein geeigneter Empfänger aus einer Gruppe antwortet", "correct": true },
+      { "text": "Alle Empfänger im Netzbereich antworten", "correct": false },
+      { "text": "Eine feste Empfängergruppe erhält Daten", "correct": false },
+      { "text": "Ein einzelner Host wird direkt adressiert", "correct": false }
+    ],
+    "explanation": "Anycast erreicht einen passenden oder nahegelegenen Empfänger einer Gruppe."
+  },
+  {
+    "id": "lf-03-sach-modl-040",
+    "question": "Warum ist Standardisierung bei Netzwerkprotokollen wichtig?",
+    "answers": [
+      { "text": "Unterschiedliche Systeme können zusammenarbeiten", "correct": true },
+      { "text": "Hersteller nutzen eigene inkompatible Regeln", "correct": false },
+      { "text": "Netzwerke verzichten auf gemeinsame Formate", "correct": false },
+      { "text": "Kommunikation bleibt auf einzelne Produkte begrenzt", "correct": false }
+    ],
+    "explanation": "Standards ermöglichen Kommunikation zwischen Geräten, Betriebssystemen und Herstellern."
+  }
+]

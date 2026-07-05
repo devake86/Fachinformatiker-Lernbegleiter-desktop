@@ -1,0 +1,497 @@
+[
+  {
+    "id": "lf-02-fach-besch-001",
+    "question": "Was ist eine Bedarfsanalyse?",
+    "answers": [
+      { "text": "Die Ermittlung benötigter Leistungen oder Produkte", "correct": true },
+      { "text": "Die Bewertung eingegangener Lieferantenangebote", "correct": false },
+      { "text": "Die Prüfung gelieferter Ware im Wareneingang", "correct": false },
+      { "text": "Die Dokumentation einer erfolgten Übergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Bedarfsanalyse klärt, was wirklich benötigt wird."
+  },
+  {
+    "id": "lf-02-fach-besch-002",
+    "question": "Was ist eine Anforderungsanalyse?",
+    "answers": [
+      { "text": "Die genaue Erfassung fachlicher und technischer Anforderungen", "correct": true },
+      { "text": "Die Bewertung verschiedener Lieferantenpreise", "correct": false },
+      { "text": "Die Kontrolle der Lieferung im Wareneingang", "correct": false },
+      { "text": "Die formale Beanstandung mangelhafter Ware", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Anforderungsanalyse übersetzt Kundenwünsche in prüfbare Anforderungen."
+  },
+  {
+    "id": "lf-02-fach-besch-003",
+    "question": "Was ist ein Lastenheft?",
+    "answers": [
+      { "text": "Die Anforderungen aus Sicht des Auftraggebers", "correct": true },
+      { "text": "Die Umsetzungsvorgaben des Auftragnehmers", "correct": false },
+      { "text": "Die Dokumentation der Warenannahme", "correct": false },
+      { "text": "Die Bewertung eingegangener Angebote", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Lastenheft beschreibt, was und wofür etwas benötigt wird."
+  },
+  {
+    "id": "lf-02-fach-besch-004",
+    "question": "Wer erstellt typischerweise das Lastenheft?",
+    "answers": [
+      { "text": "Der Auftraggeber", "correct": true },
+      { "text": "Der Auftragnehmer", "correct": false },
+      { "text": "Der Lieferant nach Wareneingang", "correct": false },
+      { "text": "Der Prüfer bei der Abnahme", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Lastenheft kommt typischerweise vom Auftraggeber oder Kunden."
+  },
+  {
+    "id": "lf-02-fach-besch-005",
+    "question": "Was ist ein Pflichtenheft?",
+    "answers": [
+      { "text": "Die Umsetzungsvorgaben aus Sicht des Auftragnehmers", "correct": true },
+      { "text": "Die Anforderungen aus Sicht des Auftraggebers", "correct": false },
+      { "text": "Die Auflistung gelieferter Waren", "correct": false },
+      { "text": "Die Mitteilung festgestellter Mängel", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Pflichtenheft beschreibt, wie und womit Anforderungen umgesetzt werden."
+  },
+  {
+    "id": "lf-02-fach-besch-006",
+    "question": "Wer erstellt typischerweise das Pflichtenheft?",
+    "answers": [
+      { "text": "Der Auftragnehmer", "correct": true },
+      { "text": "Der Auftraggeber vor der Anfrage", "correct": false },
+      { "text": "Der Lieferant nach der Abnahme", "correct": false },
+      { "text": "Der Kunde beim Wareneingang", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Pflichtenheft wird auf Basis des Lastenhefts vom Auftragnehmer erstellt."
+  },
+  {
+    "id": "lf-02-fach-besch-007",
+    "question": "Was sind Muss-Kriterien?",
+    "answers": [
+      { "text": "Zwingend zu erfüllende Anforderungen", "correct": true },
+      { "text": "Erwünschte Zusatzanforderungen", "correct": false },
+      { "text": "Bewusst ausgeschlossene Leistungen", "correct": false },
+      { "text": "Bewertungspunkte einer Alternative", "correct": false }
+    ],
+    "explanation": "Merksatz: Muss-Kriterien sind Pflichtanforderungen und entscheidend für die Abnahme."
+  },
+  {
+    "id": "lf-02-fach-besch-008",
+    "question": "Was sind Wunschkriterien?",
+    "answers": [
+      { "text": "Erwünschte, aber nicht zwingende Anforderungen", "correct": true },
+      { "text": "Zwingend zu erfüllende Anforderungen", "correct": false },
+      { "text": "Bewusst ausgeschlossene Anforderungen", "correct": false },
+      { "text": "Prüfpunkte für die Warenannahme", "correct": false }
+    ],
+    "explanation": "Merksatz: Wunschkriterien verbessern die Lösung, sind aber nicht zwingend notwendig."
+  },
+  {
+    "id": "lf-02-fach-besch-009",
+    "question": "Was sind Abgrenzungskriterien?",
+    "answers": [
+      { "text": "Bewusst ausgeschlossene Anforderungen", "correct": true },
+      { "text": "Zwingend zu erfüllende Anforderungen", "correct": false },
+      { "text": "Erwünschte Zusatzanforderungen", "correct": false },
+      { "text": "Messbare Bewertungskriterien", "correct": false }
+    ],
+    "explanation": "Merksatz: Abgrenzungskriterien legen fest, was ausdrücklich nicht Teil der Leistung ist."
+  },
+  {
+    "id": "lf-02-fach-besch-010",
+    "question": "Was sind funktionale Anforderungen?",
+    "answers": [
+      { "text": "Anforderungen an Funktionen eines Systems", "correct": true },
+      { "text": "Anforderungen an Qualitätseigenschaften", "correct": false },
+      { "text": "Anforderungen an Zahlungsbedingungen", "correct": false },
+      { "text": "Anforderungen an Lieferantenrabatte", "correct": false }
+    ],
+    "explanation": "Merksatz: Funktionale Anforderungen beschreiben, was ein System tun soll."
+  },
+  {
+    "id": "lf-02-fach-besch-011",
+    "question": "Was sind nicht funktionale Anforderungen?",
+    "answers": [
+      { "text": "Anforderungen an Eigenschaften und Qualität", "correct": true },
+      { "text": "Anforderungen an konkrete Systemfunktionen", "correct": false },
+      { "text": "Anforderungen an Bestellmengen", "correct": false },
+      { "text": "Anforderungen an Rechnungsnummern", "correct": false }
+    ],
+    "explanation": "Merksatz: Nicht funktionale Anforderungen betreffen z. B. Sicherheit, Leistung, Ergonomie oder Wartbarkeit."
+  },
+  {
+    "id": "lf-02-fach-besch-012",
+    "question": "Was sind Abnahmekriterien?",
+    "answers": [
+      { "text": "Prüfpunkte für die Annahme einer Leistung", "correct": true },
+      { "text": "Kriterien für Lieferantenrabatte", "correct": false },
+      { "text": "Kennzahlen für Lagerbestände", "correct": false },
+      { "text": "Bedingungen für Zahlungsfristen", "correct": false }
+    ],
+    "explanation": "Merksatz: Abnahmekriterien zeigen, wann eine Leistung als erfüllt gilt."
+  },
+  {
+    "id": "lf-02-fach-besch-013",
+    "question": "Was ist ein Beschaffungsprozess?",
+    "answers": [
+      { "text": "Der Ablauf von Bedarf bis Wareneingang", "correct": true },
+      { "text": "Der Ablauf von Übergabe bis Kundenabnahme", "correct": false },
+      { "text": "Der Ablauf einer internen Reparatur", "correct": false },
+      { "text": "Der Ablauf einer Gehaltsabrechnung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Beschaffungsprozess umfasst Bedarf, Angebote, Auswahl, Bestellung und Wareneingang."
+  },
+  {
+    "id": "lf-02-fach-besch-014",
+    "question": "Was ist eine Anfrage im Beschaffungsprozess?",
+    "answers": [
+      { "text": "Die Bitte um ein Angebot", "correct": true },
+      { "text": "Die verbindliche Beauftragung einer Lieferung", "correct": false },
+      { "text": "Die formale Beanstandung einer Ware", "correct": false },
+      { "text": "Die Dokumentation einer Abnahme", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Anfrage soll Informationen oder ein Angebot einholen und ist meist unverbindlich."
+  },
+  {
+    "id": "lf-02-fach-besch-015",
+    "question": "Was ist ein Angebot?",
+    "answers": [
+      { "text": "Eine Erklärung mit konkreten Leistungsbedingungen", "correct": true },
+      { "text": "Eine Anfrage nach möglichen Lieferbedingungen", "correct": false },
+      { "text": "Eine Kontrolle der gelieferten Ware", "correct": false },
+      { "text": "Eine Dokumentation offener Mängel", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Angebot enthält z. B. Leistung, Preis, Lieferzeit und Zahlungsbedingungen."
+  },
+  {
+    "id": "lf-02-fach-besch-016",
+    "question": "Was ist eine Bestellung?",
+    "answers": [
+      { "text": "Die Annahme oder Abgabe eines Kaufauftrags", "correct": true },
+      { "text": "Die unverbindliche Anfrage nach Preisen", "correct": false },
+      { "text": "Die Bewertung verschiedener Alternativen", "correct": false },
+      { "text": "Die Prüfung einer Lieferung auf Mängel", "correct": false }
+    ],
+    "explanation": "Merksatz: Mit einer Bestellung wird eine konkrete Lieferung oder Leistung beauftragt."
+  },
+  {
+    "id": "lf-02-fach-besch-017",
+    "question": "Was ist ein quantitativer Angebotsvergleich?",
+    "answers": [
+      { "text": "Ein Vergleich messbarer Kriterien", "correct": true },
+      { "text": "Ein Vergleich schwer messbarer Merkmale", "correct": false },
+      { "text": "Eine formale Prüfung der Mängelart", "correct": false },
+      { "text": "Eine Dokumentation der Übergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Quantitative Kriterien sind messbar, z. B. Preis, Lieferzeit oder Zahlungsziel."
+  },
+  {
+    "id": "lf-02-fach-besch-018",
+    "question": "Was ist ein qualitativer Angebotsvergleich?",
+    "answers": [
+      { "text": "Ein Vergleich schwer messbarer Merkmale", "correct": true },
+      { "text": "Ein Vergleich messbarer Preisbestandteile", "correct": false },
+      { "text": "Eine Berechnung der Umsatzsteuer", "correct": false },
+      { "text": "Eine Prüfung des Wareneingangs", "correct": false }
+    ],
+    "explanation": "Merksatz: Qualitative Kriterien betreffen z. B. Service, Garantie, Qualität oder Umweltaspekte."
+  },
+  {
+    "id": "lf-02-fach-besch-019",
+    "question": "Was ist eine Entscheidungsmatrix?",
+    "answers": [
+      { "text": "Eine tabellarische Bewertung von Alternativen", "correct": true },
+      { "text": "Ein Dokument zur gelieferten Ware", "correct": false },
+      { "text": "Eine Rechnung mit Zahlungsbedingungen", "correct": false },
+      { "text": "Eine formale Mängelbeanstandung", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Entscheidungsmatrix macht Auswahlentscheidungen nachvollziehbar."
+  },
+  {
+    "id": "lf-02-fach-besch-020",
+    "question": "Was ist eine Nutzwertanalyse?",
+    "answers": [
+      { "text": "Eine gewichtete Bewertung mehrerer Alternativen", "correct": true },
+      { "text": "Eine Berechnung des Bruttobetrags", "correct": false },
+      { "text": "Eine Prüfung der Wareneingangsmenge", "correct": false },
+      { "text": "Eine Liste offener Liefertermine", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Nutzwertanalyse bewertet Alternativen anhand gewichteter Kriterien."
+  },
+  {
+    "id": "lf-02-fach-besch-021",
+    "question": "Was ist eine Gewichtung in der Nutzwertanalyse?",
+    "answers": [
+      { "text": "Die Bedeutung eines Kriteriums", "correct": true },
+      { "text": "Die Punktzahl einer Alternative", "correct": false },
+      { "text": "Das Ergebnis aller Bewertungen", "correct": false },
+      { "text": "Der Rechnungsbetrag einer Lieferung", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Gewichtung zeigt, wie stark ein Kriterium in die Entscheidung eingeht."
+  },
+  {
+    "id": "lf-02-fach-besch-022",
+    "question": "Was ist eine Punktbewertung in der Nutzwertanalyse?",
+    "answers": [
+      { "text": "Die Bewertung einer Alternative je Kriterium", "correct": true },
+      { "text": "Die Bedeutung eines Kriteriums", "correct": false },
+      { "text": "Die Summe gewichteter Bewertungen", "correct": false },
+      { "text": "Die Vereinbarung eines Zahlungsziels", "correct": false }
+    ],
+    "explanation": "Merksatz: Punkte zeigen, wie gut eine Alternative ein Kriterium erfüllt."
+  },
+  {
+    "id": "lf-02-fach-besch-023",
+    "question": "Was ist der Nutzwert?",
+    "answers": [
+      { "text": "Das Ergebnis gewichteter Bewertungen", "correct": true },
+      { "text": "Der Einkaufspreis einer Alternative", "correct": false },
+      { "text": "Die Gewichtung eines Einzelkriteriums", "correct": false },
+      { "text": "Die Anzahl gelieferter Pakete", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Nutzwert entsteht aus Bewertungspunkten und Gewichtungen."
+  },
+  {
+    "id": "lf-02-fach-besch-024",
+    "question": "Was ist ein Lieferant?",
+    "answers": [
+      { "text": "Ein Anbieter von Waren oder Leistungen", "correct": true },
+      { "text": "Ein Empfänger eines Kundenangebots", "correct": false },
+      { "text": "Ein Prüfer der Wareneingangskontrolle", "correct": false },
+      { "text": "Ein Kriterium einer Nutzwertanalyse", "correct": false }
+    ],
+    "explanation": "Merksatz: Lieferanten versorgen Unternehmen mit Gütern oder Dienstleistungen."
+  },
+  {
+    "id": "lf-02-fach-besch-025",
+    "question": "Was ist Lieferantenauswahl?",
+    "answers": [
+      { "text": "Die Entscheidung für einen passenden Anbieter", "correct": true },
+      { "text": "Die Annahme einer gelieferten Ware", "correct": false },
+      { "text": "Die Erstellung eines Pflichtenhefts", "correct": false },
+      { "text": "Die Meldung eines Mangels", "correct": false }
+    ],
+    "explanation": "Merksatz: Lieferantenauswahl berücksichtigt Preis, Qualität, Lieferzeit, Service und Risiken."
+  },
+  {
+    "id": "lf-02-fach-besch-026",
+    "question": "Was ist E-Procurement?",
+    "answers": [
+      { "text": "Elektronisch unterstützte Beschaffung", "correct": true },
+      { "text": "Elektronisch dokumentierte Fehlerbehebung", "correct": false },
+      { "text": "Eine Methode zur Datensicherung", "correct": false },
+      { "text": "Eine digitale Arbeitszeiterfassung", "correct": false }
+    ],
+    "explanation": "Merksatz: E-Procurement nutzt digitale Systeme für Einkaufs- und Beschaffungsprozesse."
+  },
+  {
+    "id": "lf-02-fach-besch-027",
+    "question": "Was ist ein E-Shop im Beschaffungskontext?",
+    "answers": [
+      { "text": "Ein digitaler Einkaufskanal", "correct": true },
+      { "text": "Eine Bewertungsmethode für Lieferanten", "correct": false },
+      { "text": "Ein internes Abnahmeprotokoll", "correct": false },
+      { "text": "Eine formale Mängelrüge", "correct": false }
+    ],
+    "explanation": "Merksatz: E-Shops ermöglichen die Bestellung von Waren über digitale Kataloge."
+  },
+  {
+    "id": "lf-02-fach-besch-028",
+    "question": "Was ist ein Marketplace im Beschaffungskontext?",
+    "answers": [
+      { "text": "Eine digitale Plattform mit mehreren Anbietern", "correct": true },
+      { "text": "Ein digitaler Shop eines einzelnen Anbieters", "correct": false },
+      { "text": "Ein Formular zur Wareneingangsprüfung", "correct": false },
+      { "text": "Ein Dokument zur Kundenübergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Marketplaces bündeln Angebote verschiedener Anbieter auf einer Plattform."
+  },
+  {
+    "id": "lf-02-fach-besch-029",
+    "question": "Was ist Make-or-Buy?",
+    "answers": [
+      { "text": "Die Entscheidung zwischen Eigenleistung und Fremdbezug", "correct": true },
+      { "text": "Die Entscheidung zwischen Skonto und Zahlungsziel", "correct": false },
+      { "text": "Die Entscheidung zwischen Angebot und Anfrage", "correct": false },
+      { "text": "Die Entscheidung zwischen Mängelarten", "correct": false }
+    ],
+    "explanation": "Merksatz: Make-or-Buy vergleicht, ob selbst erstellt oder extern beschafft wird."
+  },
+  {
+    "id": "lf-02-fach-besch-030",
+    "question": "Was ist ein Bestellprozess?",
+    "answers": [
+      { "text": "Der Ablauf zur Beauftragung einer Lieferung", "correct": true },
+      { "text": "Der Ablauf zur Bewertung von Mängeln", "correct": false },
+      { "text": "Der Ablauf zur technischen Abnahme", "correct": false },
+      { "text": "Der Ablauf zur Erstellung eines Lastenhefts", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Bestellprozess führt von Bedarf und Auswahl zur verbindlichen Bestellung."
+  },
+  {
+    "id": "lf-02-fach-besch-031",
+    "question": "Was ist Wareneingang?",
+    "answers": [
+      { "text": "Der Eingang gelieferter Ware im Unternehmen", "correct": true },
+      { "text": "Die Anfrage an mögliche Lieferanten", "correct": false },
+      { "text": "Die Bewertung eines Kundenangebots", "correct": false },
+      { "text": "Die Erstellung eines Lastenhefts", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Wareneingang werden Lieferungen angenommen, geprüft und dokumentiert."
+  },
+  {
+    "id": "lf-02-fach-besch-032",
+    "question": "Was ist eine Wareneingangsprüfung?",
+    "answers": [
+      { "text": "Die Kontrolle gelieferter Ware", "correct": true },
+      { "text": "Die Erstellung eines Lieferantenangebots", "correct": false },
+      { "text": "Die Bewertung von Wunschkriterien", "correct": false },
+      { "text": "Die Entscheidung zwischen Make und Buy", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Wareneingangsprüfung kontrolliert z. B. Art, Menge, Qualität und Schäden."
+  },
+  {
+    "id": "lf-02-fach-besch-033",
+    "question": "Was ist ein Lieferschein?",
+    "answers": [
+      { "text": "Ein Dokument zur gelieferten Ware", "correct": true },
+      { "text": "Ein Dokument zur gewichteten Bewertung", "correct": false },
+      { "text": "Ein Dokument mit Umsetzungsvorgaben", "correct": false },
+      { "text": "Ein Dokument mit Kundenanforderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Lieferschein unterstützt den Abgleich von Lieferung und Bestellung."
+  },
+  {
+    "id": "lf-02-fach-besch-034",
+    "question": "Was ist eine Mängelanzeige?",
+    "answers": [
+      { "text": "Die Mitteilung festgestellter Mängel", "correct": true },
+      { "text": "Die Anfrage nach einem Angebot", "correct": false },
+      { "text": "Die Bewertung mehrerer Alternativen", "correct": false },
+      { "text": "Die Vereinbarung eines Liefertermins", "correct": false }
+    ],
+    "explanation": "Merksatz: Mit der Mängelanzeige werden erkannte Fehler oder Abweichungen gemeldet."
+  },
+  {
+    "id": "lf-02-fach-besch-035",
+    "question": "Was ist eine Mängelrüge?",
+    "answers": [
+      { "text": "Eine formale Beanstandung mangelhafter Ware", "correct": true },
+      { "text": "Eine unverbindliche Anfrage an Lieferanten", "correct": false },
+      { "text": "Eine gewichtete Bewertung von Alternativen", "correct": false },
+      { "text": "Eine Dokumentation der Kundenübergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Mängelrüge fordert wegen eines Mangels eine Reaktion des Lieferanten."
+  },
+  {
+    "id": "lf-02-fach-besch-036",
+    "question": "Was ist eine offene Mängelart?",
+    "answers": [
+      { "text": "Ein sofort erkennbarer Mangel", "correct": true },
+      { "text": "Ein erst später erkennbarer Mangel", "correct": false },
+      { "text": "Ein arglistig verschwiegener Mangel", "correct": false },
+      { "text": "Ein bewusst ausgeschlossener Leistungsumfang", "correct": false }
+    ],
+    "explanation": "Merksatz: Offene Mängel sind bei ordentlicher Prüfung direkt erkennbar."
+  },
+  {
+    "id": "lf-02-fach-besch-037",
+    "question": "Was ist ein versteckter Mangel?",
+    "answers": [
+      { "text": "Ein erst später erkennbarer Mangel", "correct": true },
+      { "text": "Ein sofort erkennbarer Mangel", "correct": false },
+      { "text": "Ein erwünschtes Zusatzkriterium", "correct": false },
+      { "text": "Ein formal dokumentierter Liefertermin", "correct": false }
+    ],
+    "explanation": "Merksatz: Versteckte Mängel zeigen sich erst nach der normalen Wareneingangsprüfung."
+  },
+  {
+    "id": "lf-02-fach-besch-038",
+    "question": "Was ist ein Abnahmeprotokoll?",
+    "answers": [
+      { "text": "Eine Dokumentation der Übergabe und Prüfung", "correct": true },
+      { "text": "Eine Anfrage nach Lieferbedingungen", "correct": false },
+      { "text": "Eine Bewertung von Lieferantenangeboten", "correct": false },
+      { "text": "Eine Übersicht offener Zahlungsziele", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Abnahmeprotokoll hält Prüfergebnisse, Zustand und mögliche Mängel fest."
+  },
+  {
+    "id": "lf-02-fach-besch-039",
+    "question": "Was ist ein Übergabeprotokoll?",
+    "answers": [
+      { "text": "Eine Dokumentation der Übergabe an den Kunden", "correct": true },
+      { "text": "Eine Bestellung beim Lieferanten", "correct": false },
+      { "text": "Eine Bewertung von Muss-Kriterien", "correct": false },
+      { "text": "Eine Mitteilung verdeckter Mängel", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Übergabeprotokoll macht die Übergabe nachvollziehbar und beweisbar."
+  },
+  {
+    "id": "lf-02-fach-besch-040",
+    "question": "Was ist ein Liefertermin?",
+    "answers": [
+      { "text": "Der vereinbarte Zeitpunkt der Lieferung", "correct": true },
+      { "text": "Der Zeitpunkt der Angebotsbewertung", "correct": false },
+      { "text": "Der Beginn einer Nutzwertanalyse", "correct": false },
+      { "text": "Der Abschluss einer Mängelprüfung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Liefertermin ist ein wichtiges Kriterium bei Beschaffung und Vertragsabwicklung."
+  },
+  {
+    "id": "lf-02-fach-besch-041",
+    "question": "Was sind Zahlungsbedingungen?",
+    "answers": [
+      { "text": "Regeln zur Zahlung einer Forderung", "correct": true },
+      { "text": "Regeln zur technischen Abnahme", "correct": false },
+      { "text": "Regeln zur funktionalen Anforderung", "correct": false },
+      { "text": "Regeln zur Wareneingangslagerung", "correct": false }
+    ],
+    "explanation": "Merksatz: Zahlungsbedingungen regeln z. B. Zahlungsfrist, Skonto oder Zahlungsart."
+  },
+  {
+    "id": "lf-02-fach-besch-042",
+    "question": "Was ist eine Bindungsfrist bei einem Angebot?",
+    "answers": [
+      { "text": "Der Zeitraum, in dem ein Angebot gilt", "correct": true },
+      { "text": "Der Zeitraum der Wareneingangsprüfung", "correct": false },
+      { "text": "Der Zeitraum der Mängelbeseitigung", "correct": false },
+      { "text": "Der Zeitraum der internen Bedarfsanalyse", "correct": false }
+    ],
+    "explanation": "Merksatz: Innerhalb der Bindungsfrist ist der Anbieter an sein Angebot gebunden."
+  },
+  {
+    "id": "lf-02-fach-besch-043",
+    "question": "Was ist ein Rahmenvertrag?",
+    "answers": [
+      { "text": "Eine Grundvereinbarung für wiederkehrende Leistungen", "correct": true },
+      { "text": "Eine Einzelbestellung für eine Lieferung", "correct": false },
+      { "text": "Eine Dokumentation der Wareneingangsprüfung", "correct": false },
+      { "text": "Eine Bewertungstabelle für Alternativen", "correct": false }
+    ],
+    "explanation": "Merksatz: Rahmenverträge legen Bedingungen für mehrere spätere Einzelabrufe fest."
+  },
+  {
+    "id": "lf-02-fach-besch-044",
+    "question": "Was ist ein Lieferantenangebot?",
+    "answers": [
+      { "text": "Ein Angebot eines Bezugsanbieters", "correct": true },
+      { "text": "Ein Angebot an einen Kunden", "correct": false },
+      { "text": "Eine interne Mängelmeldung", "correct": false },
+      { "text": "Eine Dokumentation der Übergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Lieferantenangebote werden eingeholt, verglichen und als Beschaffungsgrundlage genutzt."
+  },
+  {
+    "id": "lf-02-fach-besch-045",
+    "question": "Was ist ein Kundenangebot?",
+    "answers": [
+      { "text": "Ein Angebot an den Kunden", "correct": true },
+      { "text": "Eine Anfrage an den Lieferanten", "correct": false },
+      { "text": "Eine Prüfung der gelieferten Ware", "correct": false },
+      { "text": "Eine formale Mängelbeanstandung", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Kundenangebot enthält die angebotene Leistung und die Bedingungen für den Kunden."
+  }
+]

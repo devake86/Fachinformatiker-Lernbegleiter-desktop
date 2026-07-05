@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-sba-001",
+    "question": "Was ist das Ziel einer Schutzbedarfsanalyse?",
+    "answers": [
+      { "text": "Notwendigen Schutz für Zielobjekte ermitteln", "correct": true },
+      { "text": "Risiken nach Eintritt und Auswirkung bewerten", "correct": false },
+      { "text": "Komponenten eines Informationsverbunds erfassen", "correct": false },
+      { "text": "Konkrete Sicherheitsmaßnahmen planen", "correct": false }
+    ],
+    "explanation": "Eine Schutzbedarfsanalyse ermittelt, wie stark Zielobjekte geschützt werden müssen."
+  },
+  {
+    "id": "lf-04-sach-sba-002",
+    "question": "Welche Reihenfolge passt zu den Arbeitsschritten beim Feststellen des Schutzbedarfs?",
+    "answers": [
+      { "text": "Sicherheitsleitlinie, Sicherheitskonzept, Strukturanalyse, Schutzbedarfsanalyse", "correct": true },
+      { "text": "Strukturanalyse, Leitlinie, Analyse, Konzept", "correct": false },
+      { "text": "Sicherheitskonzept, Analyse, Leitlinie, Struktur", "correct": false },
+      { "text": "Schutzbedarf, Maßnahme, Leitlinie, Struktur", "correct": false }
+    ],
+    "explanation": "Die Arbeitsschritte bauen logisch aufeinander auf: Leitlinie, Konzept, Struktur und Analyse."
+  },
+  {
+    "id": "lf-04-sach-sba-003",
+    "question": "Welche Rolle spielt die oberste Leitung im Sicherheitsprozess?",
+    "answers": [
+      { "text": "Sie trägt Gesamtverantwortung und gibt Vorgaben frei", "correct": true },
+      { "text": "Sie setzt ausschließlich technische Details um", "correct": false },
+      { "text": "Sie dokumentiert einzelne Firewall-Regeln", "correct": false },
+      { "text": "Sie bewertet nur operative Einzelmaßnahmen", "correct": false }
+    ],
+    "explanation": "Informationssicherheit braucht Unterstützung und Verantwortung der Leitungsebene."
+  },
+  {
+    "id": "lf-04-sach-sba-004",
+    "question": "Was enthält eine Sicherheitsleitlinie typischerweise?",
+    "answers": [
+      { "text": "Bedeutung, Ziele, Verantwortung und Rahmen", "correct": true },
+      { "text": "Technische Detailregeln einzelner Firewalls", "correct": false },
+      { "text": "Konkrete Maßnahmen für jedes Zielobjekt", "correct": false },
+      { "text": "Schutzbedarf je Anwendung und System", "correct": false }
+    ],
+    "explanation": "Eine Sicherheitsleitlinie ist ein Grundsatzdokument zur Informationssicherheit."
+  },
+  {
+    "id": "lf-04-sach-sba-005",
+    "question": "Was ist der Zweck eines Sicherheitskonzepts?",
+    "answers": [
+      { "text": "Schutzanforderungen und Maßnahmen planen", "correct": true },
+      { "text": "Grundsätze und Verantwortung grob festlegen", "correct": false },
+      { "text": "Anwendungen, Netze und Räume erfassen", "correct": false },
+      { "text": "Schutzbedarf einzelner Zielobjekte einstufen", "correct": false }
+    ],
+    "explanation": "Ein Sicherheitskonzept beschreibt, wie Sicherheitsanforderungen umgesetzt werden sollen."
+  },
+  {
+    "id": "lf-04-sach-sba-006",
+    "question": "Was wird bei einer Strukturanalyse erfasst?",
+    "answers": [
+      { "text": "Anwendungen, Systeme, Netze, Räume und Prozesse", "correct": true },
+      { "text": "Schutzbedarf je Grundwert und Zielobjekt", "correct": false },
+      { "text": "Maßnahmen zur Verringerung erkannter Risiken", "correct": false },
+      { "text": "Grundsätze und Verantwortung der Leitung", "correct": false }
+    ],
+    "explanation": "Die Strukturanalyse schafft Überblick über die Bestandteile des Informationsverbunds."
+  },
+  {
+    "id": "lf-04-sach-sba-007",
+    "question": "Was beschreibt ein Informationsverbund?",
+    "answers": [
+      { "text": "Zusammengehörige Informationen, Prozesse und Systeme", "correct": true },
+      { "text": "Ein einzelnes System mit eigenem Schutzbedarf", "correct": false },
+      { "text": "Eine Sammlung technischer Schutzmaßnahmen", "correct": false },
+      { "text": "Ein Grundsatzdokument zur Informationssicherheit", "correct": false }
+    ],
+    "explanation": "Ein Informationsverbund umfasst alle Komponenten, die gemeinsam eine Aufgabe unterstützen."
+  },
+  {
+    "id": "lf-04-sach-sba-008",
+    "question": "Was ist ein Zielobjekt in der Schutzbedarfsanalyse?",
+    "answers": [
+      { "text": "Ein betrachtetes Objekt wie Anwendung, System oder Netz", "correct": true },
+      { "text": "Der gesamte Informationsverbund eines Unternehmens", "correct": false },
+      { "text": "Eine elementare Gefährdung im Grundschutz", "correct": false },
+      { "text": "Eine Maßnahme zur Risikobehandlung", "correct": false }
+    ],
+    "explanation": "Zielobjekte sind konkrete Bestandteile, deren Schutzbedarf bewertet wird."
+  },
+  {
+    "id": "lf-04-sach-sba-009",
+    "question": "Welche Schutzbedarfskategorien werden typischerweise unterschieden?",
+    "answers": [
+      { "text": "Normal, hoch und sehr hoch", "correct": true },
+      { "text": "Niedrig, mittel und maximal", "correct": false },
+      { "text": "Gering, kritisch und akzeptiert", "correct": false },
+      { "text": "Technisch, organisatorisch und rechtlich", "correct": false }
+    ],
+    "explanation": "Schutzbedarf wird häufig in normal, hoch und sehr hoch eingestuft."
+  },
+  {
+    "id": "lf-04-sach-sba-010",
+    "question": "Wann passt die Schutzbedarfskategorie normal?",
+    "answers": [
+      { "text": "Wenn Schäden begrenzt und überschaubar bleiben", "correct": true },
+      { "text": "Wenn Schäden beträchtliche Auswirkungen hätten", "correct": false },
+      { "text": "Wenn Schäden existenzbedrohend sein könnten", "correct": false },
+      { "text": "Wenn Kernprozesse stark betroffen wären", "correct": false }
+    ],
+    "explanation": "Normaler Schutzbedarf liegt bei begrenzten und beherrschbaren Auswirkungen vor."
+  },
+  {
+    "id": "lf-04-sach-sba-011",
+    "question": "Wann passt die Schutzbedarfskategorie hoch?",
+    "answers": [
+      { "text": "Wenn ein Schaden beträchtliche Auswirkungen hätte", "correct": true },
+      { "text": "Wenn Schäden begrenzt und überschaubar bleiben", "correct": false },
+      { "text": "Wenn Schäden existenzbedrohend sein könnten", "correct": false },
+      { "text": "Wenn nur unkritische Hilfsprozesse betroffen wären", "correct": false }
+    ],
+    "explanation": "Hoher Schutzbedarf liegt bei erheblichen Schäden oder möglicher Handlungsunfähigkeit vor."
+  },
+  {
+    "id": "lf-04-sach-sba-012",
+    "question": "Wann passt die Schutzbedarfskategorie sehr hoch?",
+    "answers": [
+      { "text": "Wenn Schäden existenzbedrohend oder katastrophal sein können", "correct": true },
+      { "text": "Wenn Schäden begrenzt und gut beherrschbar bleiben", "correct": false },
+      { "text": "Wenn Schäden beträchtliche Auswirkungen hätten", "correct": false },
+      { "text": "Wenn vor allem Komfortfunktionen betroffen wären", "correct": false }
+    ],
+    "explanation": "Sehr hoher Schutzbedarf liegt bei existenzbedrohenden oder katastrophalen Auswirkungen nahe."
+  },
+  {
+    "id": "lf-04-sach-sba-013",
+    "question": "Welche Schutzziele werden bei einer Schutzbedarfsanalyse häufig bewertet?",
+    "answers": [
+      { "text": "Vertraulichkeit, Integrität und Verfügbarkeit", "correct": true },
+      { "text": "Authentizität, Zurechenbarkeit und Verbindlichkeit", "correct": false },
+      { "text": "Zugang, Zugriff und Eingabekontrolle", "correct": false },
+      { "text": "Risiko, Bedrohung und Schwachstelle", "correct": false }
+    ],
+    "explanation": "Der Schutzbedarf wird häufig bezogen auf die Grundwerte der Informationssicherheit bewertet."
+  },
+  {
+    "id": "lf-04-sach-sba-014",
+    "question": "Was wird beim Schutzbedarf der Vertraulichkeit bewertet?",
+    "answers": [
+      { "text": "Schutz vor unbefugter Kenntnisnahme", "correct": true },
+      { "text": "Schutz vor unbefugter Veränderung", "correct": false },
+      { "text": "Bedeutung der rechtzeitigen Nutzbarkeit", "correct": false },
+      { "text": "Nachweisbarkeit ausgeführter Handlungen", "correct": false }
+    ],
+    "explanation": "Vertraulichkeit betrifft den Schutz vor unbefugtem Zugriff auf Informationen."
+  },
+  {
+    "id": "lf-04-sach-sba-015",
+    "question": "Was wird beim Schutzbedarf der Integrität bewertet?",
+    "answers": [
+      { "text": "Schutz vor unbefugter Veränderung", "correct": true },
+      { "text": "Schutz vor unbefugter Kenntnisnahme", "correct": false },
+      { "text": "Bedeutung der rechtzeitigen Nutzbarkeit", "correct": false },
+      { "text": "Prüfbarkeit von Herkunft und Identität", "correct": false }
+    ],
+    "explanation": "Integrität betrifft den Schutz vor Veränderung, Verfälschung oder Verlust der Korrektheit."
+  },
+  {
+    "id": "lf-04-sach-sba-016",
+    "question": "Was wird beim Schutzbedarf der Verfügbarkeit bewertet?",
+    "answers": [
+      { "text": "Bedeutung der rechtzeitigen Nutzbarkeit", "correct": true },
+      { "text": "Schutz vor unbefugter Kenntnisnahme", "correct": false },
+      { "text": "Schutz vor unbefugter Veränderung", "correct": false },
+      { "text": "Nachweis der Echtheit einer Information", "correct": false }
+    ],
+    "explanation": "Verfügbarkeit betrifft die Nutzbarkeit von Daten und Systemen zum benötigten Zeitpunkt."
+  },
+  {
+    "id": "lf-04-sach-sba-017",
+    "question": "Was beschreibt das Maximumprinzip?",
+    "answers": [
+      { "text": "Der höchste relevante Schutzbedarf wird übernommen", "correct": true },
+      { "text": "Der Durchschnitt aller Schutzbedarfe wird übernommen", "correct": false },
+      { "text": "Der geringste Schutzbedarf bestimmt den Gesamtbedarf", "correct": false },
+      { "text": "Jedes Zielobjekt bleibt vollständig getrennt bewertet", "correct": false }
+    ],
+    "explanation": "Beim Maximumprinzip bestimmt der höchste Schutzbedarf abhängiger Objekte den Gesamtbedarf."
+  },
+  {
+    "id": "lf-04-sach-sba-018",
+    "question": "Was beschreibt der Kumulationseffekt?",
+    "answers": [
+      { "text": "Mehrere kleinere Schäden können zusammen höheren Schutzbedarf ergeben", "correct": true },
+      { "text": "Verteilte Strukturen verringern einzelne Ausfallfolgen", "correct": false },
+      { "text": "Der höchste Einzelwert bestimmt den Gesamtbedarf", "correct": false },
+      { "text": "Ein Zielobjekt gibt den Bedarf aller Objekte vor", "correct": false }
+    ],
+    "explanation": "Beim Kumulationseffekt kann die Summe mehrerer Auswirkungen den Schutzbedarf erhöhen."
+  },
+  {
+    "id": "lf-04-sach-sba-019",
+    "question": "Was beschreibt der Verteilungseffekt?",
+    "answers": [
+      { "text": "Verteilung kann Auswirkungen einzelner Ausfälle verringern", "correct": true },
+      { "text": "Mehrere kleinere Schäden erhöhen den Schutzbedarf", "correct": false },
+      { "text": "Der höchste Schutzbedarf wird auf alle Objekte übertragen", "correct": false },
+      { "text": "Abhängige Zielobjekte erhalten denselben Mindestwert", "correct": false }
+    ],
+    "explanation": "Der Verteilungseffekt kann den Schutzbedarf senken, wenn Ausfälle durch Verteilung abgefedert werden."
+  },
+  {
+    "id": "lf-04-sach-sba-020",
+    "question": "Welche Angaben gehören zu einer begründeten Schutzbedarfsfeststellung?",
+    "answers": [
+      { "text": "Gefährdungen, Schutzbedarf je Grundwert, Begründung und Maßnahmen", "correct": true },
+      { "text": "Leitbild, Marktanalyse, Lizenztyp und Kostenstelle", "correct": false },
+      { "text": "Benutzerfarbe, Bildschirmgröße und Programmname", "correct": false },
+      { "text": "Backupname, Dateiformat und Sortierreihenfolge", "correct": false }
+    ],
+    "explanation": "Eine gute Schutzbedarfsfeststellung benennt Gefährdungen, Einstufungen, Begründungen und geeignete Maßnahmen."
+  }
+]

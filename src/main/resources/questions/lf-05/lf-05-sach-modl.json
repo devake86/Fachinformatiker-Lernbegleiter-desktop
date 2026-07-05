@@ -1,0 +1,387 @@
+[
+  {
+    "id": "lf-05-sach-modl-001",
+    "question": "Warum werden Algorithmen vor der Programmierung beschrieben?",
+    "answers": [
+      { "text": "Damit die Lösung logisch planbar wird", "correct": true },
+      { "text": "Damit die Programmiersprache festgelegt wird", "correct": false },
+      { "text": "Damit Testdaten automatisch entstehen", "correct": false },
+      { "text": "Damit Quellcode direkt ausgeführt wird", "correct": false }
+    ],
+    "explanation": "Ein Algorithmus beschreibt die Lösungsschritte, bevor sie in Quellcode umgesetzt werden."
+  },
+  {
+    "id": "lf-05-sach-modl-002",
+    "question": "Was ist der wichtigste Unterschied zwischen Algorithmus und Programm?",
+    "answers": [
+      { "text": "Ein Programm setzt den Algorithmus um", "correct": true },
+      { "text": "Ein Algorithmus enthält die konkrete Syntax", "correct": false },
+      { "text": "Ein Programm bleibt sprachunabhängig", "correct": false },
+      { "text": "Ein Algorithmus ist der kompilierte Code", "correct": false }
+    ],
+    "explanation": "Der Algorithmus ist der Lösungsplan, das Programm ist die konkrete Umsetzung in einer Programmiersprache."
+  },
+  {
+    "id": "lf-05-sach-modl-003",
+    "question": "Wann ist Pseudocode besonders hilfreich?",
+    "answers": [
+      { "text": "Beim sprachunabhängigen Planen von Abläufen", "correct": true },
+      { "text": "Beim direkten Ausführen von Quellcode", "correct": false },
+      { "text": "Beim grafischen Darstellen mit Symbolen", "correct": false },
+      { "text": "Beim Prüfen fertiger Maschinencodes", "correct": false }
+    ],
+    "explanation": "Pseudocode beschreibt Abläufe verständlich, ohne an die genaue Syntax einer Programmiersprache gebunden zu sein."
+  },
+  {
+    "id": "lf-05-sach-modl-004",
+    "question": "Warum eignet sich ein PAP gut zur Darstellung von Programmabläufen?",
+    "answers": [
+      { "text": "Er zeigt Abläufe grafisch mit Symbolen", "correct": true },
+      { "text": "Er beschreibt Abläufe sprachlich im Fließtext", "correct": false },
+      { "text": "Er stellt Klassen und Attribute dar", "correct": false },
+      { "text": "Er dokumentiert Testdaten tabellarisch", "correct": false }
+    ],
+    "explanation": "Ein Programm\\u00ADablaufplan macht Schritte, Entscheidungen und Verbindungen im Ablauf sichtbar."
+  },
+  {
+    "id": "lf-05-sach-modl-005",
+    "question": "Welche Stärke hat ein Struktogramm gegenüber einem freien Text?",
+    "answers": [
+      { "text": "Es zeigt Kontrollstrukturen übersichtlich", "correct": true },
+      { "text": "Es zeigt Datenflüsse zwischen Systemen", "correct": false },
+      { "text": "Es bildet Entitäten und Beziehungen ab", "correct": false },
+      { "text": "Es beschreibt Testfälle mit Ergebnissen", "correct": false }
+    ],
+    "explanation": "Struktogramme stellen Sequenzen, Verzweigungen und Wiederholungen klar strukturiert dar."
+  },
+  {
+    "id": "lf-05-sach-modl-006",
+    "question": "Wann ist eine Entscheidungstabelle sinnvoll?",
+    "answers": [
+      { "text": "Bei mehreren Bedingungen und Aktionen", "correct": true },
+      { "text": "Bei linearen Abläufen mit fester Reihenfolge", "correct": false },
+      { "text": "Bei Datenflüssen zwischen Schnittstellen", "correct": false },
+      { "text": "Bei Klassen mit Methoden und Attributen", "correct": false }
+    ],
+    "explanation": "Entscheidungstabellen helfen, Kombinationen aus Bedingungen und passenden Aktionen vollständig zu prüfen."
+  },
+  {
+    "id": "lf-05-sach-modl-007",
+    "question": "Warum können Entscheidungstabellen Fehler vermeiden helfen?",
+    "answers": [
+      { "text": "Sie machen Bedingungskombinationen sichtbar", "correct": true },
+      { "text": "Sie zeigen Programmabläufe mit Pfeilen", "correct": false },
+      { "text": "Sie beschreiben Klassenbeziehungen", "correct": false },
+      { "text": "Sie legen Speicherstrukturen fest", "correct": false }
+    ],
+    "explanation": "Durch systematische Regeln fallen fehlende oder widersprüchliche Fälle leichter auf."
+  },
+  {
+    "id": "lf-05-sach-modl-008",
+    "question": "Wofür eignet sich ein Datenflussplan besonders?",
+    "answers": [
+      { "text": "Zum Darstellen von Datenbewegungen", "correct": true },
+      { "text": "Zum Darstellen von Kontrollstrukturen", "correct": false },
+      { "text": "Zum Planen von Klassenbeziehungen", "correct": false },
+      { "text": "Zum Beschreiben von Testfällen", "correct": false }
+    ],
+    "explanation": "Ein Datenflussplan zeigt, woher Daten kommen, wohin sie gehen und wie sie verarbeitet werden."
+  },
+  {
+    "id": "lf-05-sach-modl-009",
+    "question": "Warum werden Modellierungssprachen in der Softwareentwicklung genutzt?",
+    "answers": [
+      { "text": "Sie machen Entwürfe verständlicher", "correct": true },
+      { "text": "Sie führen Programme direkt aus", "correct": false },
+      { "text": "Sie ersetzen Programmierlogik durch Daten", "correct": false },
+      { "text": "Sie kompilieren Quellcode in Maschinencode", "correct": false }
+    ],
+    "explanation": "Modelle helfen, Abläufe, Strukturen und Anforderungen vor der Umsetzung gemeinsam zu verstehen."
+  },
+  {
+    "id": "lf-05-sach-modl-010",
+    "question": "Wann ist ein UML-Klassendiagramm passend?",
+    "answers": [
+      { "text": "Beim Planen von Klassen und Beziehungen", "correct": true },
+      { "text": "Beim Darstellen von Nutzerzielen", "correct": false },
+      { "text": "Beim Modellieren von Datenflüssen", "correct": false },
+      { "text": "Beim Dokumentieren von Testläufen", "correct": false }
+    ],
+    "explanation": "Ein Klassendiagramm zeigt Klassen, Attribute, Methoden und Beziehungen in einem Softwaresystem."
+  },
+  {
+    "id": "lf-05-sach-modl-011",
+    "question": "Wozu dient ein UML-Anwendungsfalldiagramm?",
+    "answers": [
+      { "text": "Es zeigt Nutzerziele und Systemfunktionen", "correct": true },
+      { "text": "Es zeigt Klassen, Attribute und Methoden", "correct": false },
+      { "text": "Es zeigt Datenflüsse und Speicher", "correct": false },
+      { "text": "Es zeigt Testdaten und Testergebnisse", "correct": false }
+    ],
+    "explanation": "Anwendungsfalldiagramme zeigen, welche Akteure welche Funktionen eines Systems nutzen."
+  },
+  {
+    "id": "lf-05-sach-modl-012",
+    "question": "Was beschreibt ein Akteur in einem Anwendungsfalldiagramm?",
+    "answers": [
+      { "text": "Eine externe Rolle mit Systemkontakt", "correct": true },
+      { "text": "Eine Funktion innerhalb des Systems", "correct": false },
+      { "text": "Eine Klasse mit Attributen", "correct": false },
+      { "text": "Eine Beziehung zwischen Tabellen", "correct": false }
+    ],
+    "explanation": "Ein Akteur ist eine Rolle außerhalb des Systems, die mit dem System interagiert."
+  },
+  {
+    "id": "lf-05-sach-modl-013",
+    "question": "Was beschreibt ein Anwendungsfall in UML?",
+    "answers": [
+      { "text": "Ein Ziel, das ein Akteur mit dem System erreicht", "correct": true },
+      { "text": "Eine externe Rolle im Systemumfeld", "correct": false },
+      { "text": "Eine Klasse mit Methoden", "correct": false },
+      { "text": "Ein Testfall mit Eingabedaten", "correct": false }
+    ],
+    "explanation": "Ein Anwendungsfall beschreibt eine nutzbare Funktion aus Sicht einer externen Rolle."
+  },
+  {
+    "id": "lf-05-sach-modl-014",
+    "question": "Warum ist ein ER-Modell vor dem Datenbankentwurf hilfreich?",
+    "answers": [
+      { "text": "Es zeigt Datenobjekte und Beziehungen", "correct": true },
+      { "text": "Es zeigt Programmabläufe mit Symbolen", "correct": false },
+      { "text": "Es zeigt Klassen und Methoden", "correct": false },
+      { "text": "Es zeigt Nutzerziele eines Systems", "correct": false }
+    ],
+    "explanation": "Ein ER-Modell hilft, Entitäten, Attribute und Beziehungen vor der Tabellenstruktur zu planen."
+  },
+  {
+    "id": "lf-05-sach-modl-015",
+    "question": "Warum sind Kardinalitäten im ER-Modell wichtig?",
+    "answers": [
+      { "text": "Sie zeigen die Anzahl möglicher Beziehungen", "correct": true },
+      { "text": "Sie zeigen Eigenschaften eines Entitätstyps", "correct": false },
+      { "text": "Sie zeigen die Reihenfolge von Anweisungen", "correct": false },
+      { "text": "Sie zeigen Testdaten und Sollwerte", "correct": false }
+    ],
+    "explanation": "Kardinalitäten zeigen, ob Beziehungen z. B. 1:1, 1:n oder m:n aufgebaut sind."
+  },
+  {
+    "id": "lf-05-sach-modl-016",
+    "question": "Welche Aussage zu m:n-Beziehungen in Datenbanken ist richtig?",
+    "answers": [
+      { "text": "Sie werden meist mit Zwischentabellen gelöst", "correct": true },
+      { "text": "Sie werden als 1:1-Beziehung umgesetzt", "correct": false },
+      { "text": "Sie entstehen durch atomare Attribute", "correct": false },
+      { "text": "Sie beschreiben externe Benutzersichten", "correct": false }
+    ],
+    "explanation": "Eine m:n-Beziehung wird relational typischerweise durch eine zusätzliche Tabelle aufgelöst."
+  },
+  {
+    "id": "lf-05-sach-modl-017",
+    "question": "Was zeigt eine Sequenz in einem Ablaufmodell?",
+    "answers": [
+      { "text": "Schritte werden nacheinander ausgeführt", "correct": true },
+      { "text": "Der Ablauf verzweigt anhand einer Bedingung", "correct": false },
+      { "text": "Ein Block wird mehrfach wiederholt", "correct": false },
+      { "text": "Daten fließen zwischen Prozessen", "correct": false }
+    ],
+    "explanation": "Eine Sequenz bedeutet, dass Anweisungen in einer festen Reihenfolge ablaufen."
+  },
+  {
+    "id": "lf-05-sach-modl-018",
+    "question": "Was beschreibt eine Verzweigung in einem Ablaufmodell?",
+    "answers": [
+      { "text": "Der Ablauf hängt von einer Bedingung ab", "correct": true },
+      { "text": "Schritte laufen fest nacheinander ab", "correct": false },
+      { "text": "Ein Block wird mehrfach ausgeführt", "correct": false },
+      { "text": "Daten bewegen sich zwischen Speichern", "correct": false }
+    ],
+    "explanation": "Bei einer Verzweigung entscheidet eine Bedingung, welcher Ablaufpfad ausgeführt wird."
+  },
+  {
+    "id": "lf-05-sach-modl-019",
+    "question": "Was beschreibt eine Wiederholung in einem Ablaufmodell?",
+    "answers": [
+      { "text": "Schritte laufen mehrfach ab", "correct": true },
+      { "text": "Schritte laufen einmal nacheinander ab", "correct": false },
+      { "text": "Der Ablauf wählt zwischen Alternativen", "correct": false },
+      { "text": "Datenobjekte werden mit Beziehungen modelliert", "correct": false }
+    ],
+    "explanation": "Eine Wiederholung stellt dar, dass Anweisungen wiederholt ausgeführt werden, solange dies nötig ist."
+  },
+  {
+    "id": "lf-05-sach-modl-020",
+    "question": "Warum sollten Testfälle vor der Durchführung klar beschrieben sein?",
+    "answers": [
+      { "text": "Damit Tests nachvollziehbar bleiben", "correct": true },
+      { "text": "Damit tatsächliche Ergebnisse frei gewählt werden", "correct": false },
+      { "text": "Damit Testdaten aus dem Ablaufplan entstehen", "correct": false },
+      { "text": "Damit Anforderungen durch Diagramme ersetzt werden", "correct": false }
+    ],
+    "explanation": "Klare Testfälle machen Eingaben, Schritte und erwartete Ergebnisse prüfbar."
+  },
+  {
+    "id": "lf-05-sach-modl-021",
+    "question": "Welche Angabe gehört typischerweise zu einem Testfall?",
+    "answers": [
+      { "text": "Eingabe und erwartetes Ergebnis", "correct": true },
+      { "text": "Klassenname und Vererbung", "correct": false },
+      { "text": "Entitätstyp und Kardinalität", "correct": false },
+      { "text": "PAP-Symbol und Verbindungspfeil", "correct": false }
+    ],
+    "explanation": "Ein Testfall enthält meist Voraussetzungen, Eingaben, Schritte und erwartete Ergebnisse."
+  },
+  {
+    "id": "lf-05-sach-modl-022",
+    "question": "Warum wird das tatsächliche Ergebnis eines Tests dokumentiert?",
+    "answers": [
+      { "text": "Zum Vergleich mit dem erwarteten Ergebnis", "correct": true },
+      { "text": "Zur Modellierung neuer Entitätstypen", "correct": false },
+      { "text": "Zur Planung von Klassenbeziehungen", "correct": false },
+      { "text": "Zur Darstellung von Datenflüssen", "correct": false }
+    ],
+    "explanation": "Der Vergleich zeigt, ob die Software das geforderte Verhalten erfüllt."
+  },
+  {
+    "id": "lf-05-sach-modl-023",
+    "question": "Wozu dient ein Testprotokoll?",
+    "answers": [
+      { "text": "Es dokumentiert Ablauf und Ergebnis von Tests", "correct": true },
+      { "text": "Es modelliert Entitäten und Beziehungen", "correct": false },
+      { "text": "Es beschreibt Nutzerziele eines Systems", "correct": false },
+      { "text": "Es zeigt Klassen, Attribute und Methoden", "correct": false }
+    ],
+    "explanation": "Ein Testprotokoll macht Testergebnisse nachvollziehbar und unterstützt Fehleranalyse."
+  },
+  {
+    "id": "lf-05-sach-modl-024",
+    "question": "Wann ist ein Schreibtischtest sinnvoll?",
+    "answers": [
+      { "text": "Beim gedanklichen Prüfen eines Ablaufs", "correct": true },
+      { "text": "Beim Ausführen eines Systemtests", "correct": false },
+      { "text": "Beim Testen vieler Komponenten zusammen", "correct": false },
+      { "text": "Beim Abnehmen durch Auftraggeber", "correct": false }
+    ],
+    "explanation": "Beim Schreibtischtest wird ein Ablauf Schritt für Schritt manuell nachvollzogen."
+  },
+  {
+    "id": "lf-05-sach-modl-025",
+    "question": "Was kennzeichnet einen Black-Box-Test?",
+    "answers": [
+      { "text": "Getestet wird ohne Blick in den Code", "correct": true },
+      { "text": "Getestet wird anhand interner Kontrollflüsse", "correct": false },
+      { "text": "Getestet wird durch statische Codeanalyse", "correct": false },
+      { "text": "Getestet wird am Quellcodepfad entlang", "correct": false }
+    ],
+    "explanation": "Black-Box-Tests prüfen das Verhalten von außen anhand von Eingaben und Ausgaben."
+  },
+  {
+    "id": "lf-05-sach-modl-026",
+    "question": "Was kennzeichnet einen White-Box-Test?",
+    "answers": [
+      { "text": "Die interne Programmlogik wird betrachtet", "correct": true },
+      { "text": "Das Verhalten wird von außen geprüft", "correct": false },
+      { "text": "Eingaben und Ausgaben stehen allein im Fokus", "correct": false },
+      { "text": "Die Systemabnahme durch Nutzer steht im Fokus", "correct": false }
+    ],
+    "explanation": "White-Box-Tests nutzen Wissen über Code, Kontrollflüsse oder interne Strukturen."
+  },
+  {
+    "id": "lf-05-sach-modl-027",
+    "question": "Was ist ein statischer Test?",
+    "answers": [
+      { "text": "Eine Prüfung ohne Programmausführung", "correct": true },
+      { "text": "Eine Prüfung während der Programmausführung", "correct": false },
+      { "text": "Eine Prüfung des gesamten Systems", "correct": false },
+      { "text": "Eine Prüfung mehrerer Komponenten zusammen", "correct": false }
+    ],
+    "explanation": "Statische Tests prüfen z. B. Code oder Dokumente, ohne das Programm auszuführen."
+  },
+  {
+    "id": "lf-05-sach-modl-028",
+    "question": "Was ist ein dynamischer Test?",
+    "answers": [
+      { "text": "Eine Prüfung durch Programmausführung", "correct": true },
+      { "text": "Eine Prüfung von Code ohne Ausführung", "correct": false },
+      { "text": "Eine manuelle Prüfung am Schreibtisch", "correct": false },
+      { "text": "Eine Prüfung von Dokumenten und Modellen", "correct": false }
+    ],
+    "explanation": "Dynamische Tests prüfen das Verhalten der Software während der Ausführung."
+  },
+  {
+    "id": "lf-05-sach-modl-029",
+    "question": "Was wird bei einem Modultest hauptsächlich geprüft?",
+    "answers": [
+      { "text": "Ein einzelner Baustein der Software", "correct": true },
+      { "text": "Das Zusammenspiel mehrerer Komponenten", "correct": false },
+      { "text": "Das gesamte System gegen Anforderungen", "correct": false },
+      { "text": "Die fachliche Abnahme durch Nutzer", "correct": false }
+    ],
+    "explanation": "Ein Modultest prüft einzelne Funktionen, Klassen oder Komponenten möglichst isoliert."
+  },
+  {
+    "id": "lf-05-sach-modl-030",
+    "question": "Was steht beim Integrationstest im Mittelpunkt?",
+    "answers": [
+      { "text": "Das Zusammenspiel mehrerer Komponenten", "correct": true },
+      { "text": "Ein einzelner Baustein der Software", "correct": false },
+      { "text": "Das Gesamtsystem aus Anwendersicht", "correct": false },
+      { "text": "Die Abnahme durch Auftraggeber", "correct": false }
+    ],
+    "explanation": "Integrationstests prüfen, ob einzelne Bausteine korrekt zusammenarbeiten."
+  },
+  {
+    "id": "lf-05-sach-modl-031",
+    "question": "Wozu dient ein Systemtest?",
+    "answers": [
+      { "text": "Zur Prüfung des gesamten Systems", "correct": true },
+      { "text": "Zur Prüfung einzelner Funktionen", "correct": false },
+      { "text": "Zur Prüfung einzelner Schnittstellen", "correct": false },
+      { "text": "Zur Prüfung einzelner Dokumente", "correct": false }
+    ],
+    "explanation": "Ein Systemtest prüft das Gesamtsystem gegen die definierten Anforderungen."
+  },
+  {
+    "id": "lf-05-sach-modl-032",
+    "question": "Was ist das Ziel eines Abnahmetests?",
+    "answers": [
+      { "text": "Die Erfüllung der Anforderungen nachweisen", "correct": true },
+      { "text": "Einzelne Funktionen isoliert prüfen", "correct": false },
+      { "text": "Interne Kontrollflüsse untersuchen", "correct": false },
+      { "text": "Dokumente ohne Programmlauf bewerten", "correct": false }
+    ],
+    "explanation": "Der Abnahmetest zeigt, ob die Software aus Auftraggeber- oder Nutzersicht akzeptiert werden kann."
+  },
+  {
+    "id": "lf-05-sach-modl-033",
+    "question": "Warum ist testgetriebene Entwicklung nützlich?",
+    "answers": [
+      { "text": "Tests klären erwartetes Verhalten früh", "correct": true },
+      { "text": "Tests entstehen nach der vollständigen Umsetzung", "correct": false },
+      { "text": "Tests beschreiben Klassen und Beziehungen", "correct": false },
+      { "text": "Tests modellieren Datenflüsse und Speicher", "correct": false }
+    ],
+    "explanation": "Bei testgetriebener Entwicklung werden Erwartungen früh festgelegt und später durch Code erfüllt."
+  },
+  {
+    "id": "lf-05-sach-modl-034",
+    "question": "Warum ist Dokumentation in Softwareprojekten wichtig?",
+    "answers": [
+      { "text": "Sie macht Entscheidungen nachvollziehbar", "correct": true },
+      { "text": "Sie führt Quellcode direkt aus", "correct": false },
+      { "text": "Sie modelliert automatisch Datenbanken", "correct": false },
+      { "text": "Sie testet Programmlogik dynamisch", "correct": false }
+    ],
+    "explanation": "Dokumentation unterstützt Wartung, Übergabe, Nutzung und spätere Änderungen."
+  },
+  {
+    "id": "lf-05-sach-modl-035",
+    "question": "Was unterscheidet Entwicklungs- und Benutzerdokumentation?",
+    "answers": [
+      { "text": "Sie richten sich an unterschiedliche Zielgruppen", "correct": true },
+      { "text": "Entwicklungsdokumentation beschreibt Bedienungsschritte", "correct": false },
+      { "text": "Benutzerdokumentation beschreibt interne Codearchitektur", "correct": false },
+      { "text": "Beide Dokumentationen erfüllen dieselbe Hauptaufgabe", "correct": false }
+    ],
+    "explanation": "Entwicklungsdokumentation hilft Entwicklern, Benutzerdokumentation hilft Anwendern bei der Nutzung."
+  }
+]

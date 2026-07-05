@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-grds-001",
+    "question": "Was beschreibt Informationssicherheit?",
+    "answers": [
+      { "text": "Schutz von Vertraulichkeit, Integrität und Verfügbarkeit", "correct": true },
+      { "text": "Schutz personenbezogener Daten vor Missbrauch", "correct": false },
+      { "text": "Schutz einzelner IT-Systeme vor Ausfällen", "correct": false },
+      { "text": "Absicherung technischer Datenübertragung", "correct": false }
+    ],
+    "explanation": "Merksatz: Informationssicherheit schützt Informationen vor Verlust von Vertraulichkeit, Integrität und Verfügbarkeit."
+  },
+  {
+    "id": "lf-04-fach-grds-002",
+    "question": "Was beschreibt IT-Sicherheit?",
+    "answers": [
+      { "text": "Schutz der Informationstechnik vor Sicherheitsverlusten", "correct": true },
+      { "text": "Schutz aller Informationen unabhängig von IT-Systemen", "correct": false },
+      { "text": "Schutz personenbezogener Daten vor Missbrauch", "correct": false },
+      { "text": "Rechtliche Zulässigkeit der Datenverarbeitung", "correct": false }
+    ],
+    "explanation": "Merksatz: IT-Sicherheit schützt IT-Systeme und Daten vor Angriffen, Ausfällen und unbefugtem Zugriff."
+  },
+  {
+    "id": "lf-04-fach-grds-003",
+    "question": "Was beschreibt Vertraulichkeit?",
+    "answers": [
+      { "text": "Informationen sind nur für Berechtigte einsehbar", "correct": true },
+      { "text": "Informationen bleiben korrekt und unverändert", "correct": false },
+      { "text": "Informationen stehen bei Bedarf bereit", "correct": false },
+      { "text": "Herkunft von Informationen ist überprüfbar", "correct": false }
+    ],
+    "explanation": "Merksatz: Vertraulichkeit verhindert unbefugte Informationsgewinnung."
+  },
+  {
+    "id": "lf-04-fach-grds-004",
+    "question": "Was beschreibt Integrität?",
+    "answers": [
+      { "text": "Informationen sind korrekt, vollständig und unverändert", "correct": true },
+      { "text": "Informationen sind nur für Berechtigte sichtbar", "correct": false },
+      { "text": "Informationen stehen rechtzeitig zur Verfügung", "correct": false },
+      { "text": "Handlungen sind eindeutig einer Person zuordenbar", "correct": false }
+    ],
+    "explanation": "Merksatz: Integrität schützt die Korrektheit und Unverfälschtheit von Informationen."
+  },
+  {
+    "id": "lf-04-fach-grds-005",
+    "question": "Was beschreibt Verfügbarkeit?",
+    "answers": [
+      { "text": "Systeme und Informationen stehen bei Bedarf bereit", "correct": true },
+      { "text": "Informationen sind vor unbefugter Einsicht geschützt", "correct": false },
+      { "text": "Informationen bleiben korrekt und unverändert", "correct": false },
+      { "text": "Die Herkunft einer Information ist nachweisbar", "correct": false }
+    ],
+    "explanation": "Merksatz: Verfügbarkeit stellt sicher, dass Daten und Systeme rechtzeitig nutzbar sind."
+  },
+  {
+    "id": "lf-04-fach-grds-006",
+    "question": "Was beschreibt Authentizität?",
+    "answers": [
+      { "text": "Echtheit und Prüfbarkeit von Identität oder Information", "correct": true },
+      { "text": "Korrektheit und Unverändertheit von Informationen", "correct": false },
+      { "text": "Nutzbarkeit von Systemen bei Bedarf", "correct": false },
+      { "text": "Vertraulicher Zugriff auf geschützte Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: Authentizität bedeutet, dass Herkunft oder Identität echt und prüfbar ist."
+  },
+  {
+    "id": "lf-04-fach-grds-007",
+    "question": "Was beschreibt Verbindlichkeit?",
+    "answers": [
+      { "text": "Handlungen können nicht unzulässig abgestritten werden", "correct": true },
+      { "text": "Handlungen bleiben anonym und nicht zuordenbar", "correct": false },
+      { "text": "Informationen sind bei Bedarf verfügbar", "correct": false },
+      { "text": "Informationen werden gegen Einsicht geschützt", "correct": false }
+    ],
+    "explanation": "Merksatz: Verbindlichkeit verhindert das unzulässige Abstreiten nachweisbarer Handlungen."
+  },
+  {
+    "id": "lf-04-fach-grds-008",
+    "question": "Was beschreibt Zurechenbarkeit?",
+    "answers": [
+      { "text": "Eine Handlung ist einer Person oder Stelle zuordenbar", "correct": true },
+      { "text": "Eine Person ist anhand von Daten nicht identifizierbar", "correct": false },
+      { "text": "Eine Information bleibt vollständig unverändert", "correct": false },
+      { "text": "Eine Ressource ist bei Bedarf nutzbar", "correct": false }
+    ],
+    "explanation": "Merksatz: Zurechenbarkeit macht nachvollziehbar, wer eine Handlung ausgeführt hat."
+  },
+  {
+    "id": "lf-04-fach-grds-009",
+    "question": "Was beschreibt Anonymität?",
+    "answers": [
+      { "text": "Eine Person ist anhand der Daten nicht identifizierbar", "correct": true },
+      { "text": "Eine Handlung ist eindeutig einer Person zugeordnet", "correct": false },
+      { "text": "Eine Identität ist zweifelsfrei überprüfbar", "correct": false },
+      { "text": "Eine Information ist dauerhaft unverändert", "correct": false }
+    ],
+    "explanation": "Merksatz: Anonymität verhindert die Zuordnung von Informationen zu einer bestimmten Person."
+  },
+  {
+    "id": "lf-04-fach-grds-010",
+    "question": "Was beschreibt das BSI?",
+    "answers": [
+      { "text": "Bundesbehörde für Sicherheit in der Informationstechnik", "correct": true },
+      { "text": "Aufsichtsbehörde für Datenschutz in den Bundesländern", "correct": false },
+      { "text": "Standard für Informationssicherheitsmanagement", "correct": false },
+      { "text": "Methode zur Umsetzung von IT-Grundschutz", "correct": false }
+    ],
+    "explanation": "Merksatz: Das BSI unterstützt Staat, Wirtschaft und Gesellschaft bei Informationssicherheit."
+  },
+  {
+    "id": "lf-04-fach-grds-011",
+    "question": "Was beschreibt IT-Grundschutz?",
+    "answers": [
+      { "text": "BSI-Methode zur systematischen Informationssicherheit", "correct": true },
+      { "text": "Internationaler Standard für ISMS-Zertifizierung", "correct": false },
+      { "text": "Einzelne technische Maßnahme gegen Malware", "correct": false },
+      { "text": "Reines Datenschutzgesetz für personenbezogene Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: IT-Grundschutz liefert systematische Vorgehensweisen und Bausteine für Informationssicherheit."
+  },
+  {
+    "id": "lf-04-fach-grds-012",
+    "question": "Was beschreibt das IT-Grundschutz-Kompendium?",
+    "answers": [
+      { "text": "Sammlung von Bausteinen, Gefährdungen und Anforderungen", "correct": true },
+      { "text": "Zertifizierungsnorm für Managementsysteme", "correct": false },
+      { "text": "Protokollsammlung für Benutzeraktionen", "correct": false },
+      { "text": "Verzeichnis aller Datenschutzverletzungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Das IT-Grundschutz-Kompendium unterstützt die Auswahl passender Sicherheitsanforderungen."
+  },
+  {
+    "id": "lf-04-fach-grds-013",
+    "question": "Was beschreibt ein ISMS?",
+    "answers": [
+      { "text": "Managementsystem zur Steuerung der Informationssicherheit", "correct": true },
+      { "text": "Einzelnes Werkzeug zur Malware-Erkennung", "correct": false },
+      { "text": "Technische Maßnahme zur Passwortverwaltung", "correct": false },
+      { "text": "Verzeichnis für personenbezogene Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein ISMS plant, steuert, prüft und verbessert Informationssicherheit organisatorisch."
+  },
+  {
+    "id": "lf-04-fach-grds-014",
+    "question": "Was beschreibt der PDCA-Zyklus?",
+    "answers": [
+      { "text": "Verbesserungszyklus aus Planen, Umsetzen, Prüfen und Handeln", "correct": true },
+      { "text": "Prüfung von Vertraulichkeit, Integrität und Verfügbarkeit", "correct": false },
+      { "text": "Methode zur Rollenvergabe nach Anmeldung", "correct": false },
+      { "text": "Einmalige Maßnahme zur Systemhärtung", "correct": false }
+    ],
+    "explanation": "Merksatz: PDCA steht für Plan, Do, Check, Act und unterstützt kontinuierliche Verbesserung."
+  },
+  {
+    "id": "lf-04-fach-grds-015",
+    "question": "Was beschreibt der Deming-Zyklus?",
+    "answers": [
+      { "text": "Eine andere Bezeichnung für den PDCA-Zyklus", "correct": true },
+      { "text": "Ein Verfahren zur Erkennung von Schadsoftware", "correct": false },
+      { "text": "Eine Methode zur Passwortkomplexität", "correct": false },
+      { "text": "Ein Modell für Authentifizierung und Autorisierung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Deming-Zyklus ist der PDCA-Zyklus zur fortlaufenden Verbesserung."
+  },
+  {
+    "id": "lf-04-fach-grds-016",
+    "question": "Was beschreibt ein Sicherheitsprozess?",
+    "answers": [
+      { "text": "Fortlaufender Ablauf zur Verbesserung von Sicherheit", "correct": true },
+      { "text": "Einmalige Installation einer Schutzsoftware", "correct": false },
+      { "text": "Reine Dokumentation ohne Prüfung und Anpassung", "correct": false },
+      { "text": "Ausschließliche Reaktion nach einem Sicherheitsvorfall", "correct": false }
+    ],
+    "explanation": "Merksatz: Informationssicherheit ist ein dauerhafter Prozess und keine einmalige Maßnahme."
+  },
+  {
+    "id": "lf-04-fach-grds-017",
+    "question": "Was beschreibt eine Sicherheitsleitlinie?",
+    "answers": [
+      { "text": "Grundsatzdokument zu Zielen und Verantwortung", "correct": true },
+      { "text": "Detailplan einzelner technischer Maßnahmen", "correct": false },
+      { "text": "Liste konkreter Firewall-Regeln", "correct": false },
+      { "text": "Nachweis über einzelne Benutzeraktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Sicherheitsleitlinie legt Ziele, Verantwortung und Bedeutung der Informationssicherheit fest."
+  },
+  {
+    "id": "lf-04-fach-grds-018",
+    "question": "Was beschreibt ein Sicherheitskonzept?",
+    "answers": [
+      { "text": "Strukturierte Planung von Anforderungen und Maßnahmen", "correct": true },
+      { "text": "Allgemeine Leitlinie ohne konkrete Umsetzung", "correct": false },
+      { "text": "Ein einzelner technischer Schutzmechanismus", "correct": false },
+      { "text": "Protokoll aller Sicherheitsvorfälle", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Sicherheitskonzept beschreibt, wie Schutzanforderungen praktisch umgesetzt werden."
+  },
+  {
+    "id": "lf-04-fach-grds-019",
+    "question": "Was beschreibt ISO/IEC 27001?",
+    "answers": [
+      { "text": "Internationaler Standard für ISMS-Anforderungen", "correct": true },
+      { "text": "BSI-Kompendium mit Grundschutz-Bausteinen", "correct": false },
+      { "text": "Deutsches Gesetz für kritische Infrastrukturen", "correct": false },
+      { "text": "Technische Richtlinie für Passwortlängen", "correct": false }
+    ],
+    "explanation": "Merksatz: ISO/IEC 27001 beschreibt Anforderungen an ein ISMS."
+  },
+  {
+    "id": "lf-04-fach-grds-020",
+    "question": "Was beschreibt ein Grundwert der Informationssicherheit?",
+    "answers": [
+      { "text": "Zentrales Schutzziel wie Vertraulichkeit oder Integrität", "correct": true },
+      { "text": "Ein konkretes Werkzeug zur Malware-Erkennung", "correct": false },
+      { "text": "Eine einzelne organisatorische Maßnahme", "correct": false },
+      { "text": "Ein gesetzliches Betroffenenrecht aus der DSGVO", "correct": false }
+    ],
+    "explanation": "Merksatz: Grundwerte der Informationssicherheit sind zentrale Ziele, an denen Schutzmaßnahmen ausgerichtet werden."
+  }
+]

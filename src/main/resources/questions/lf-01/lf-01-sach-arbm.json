@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-sach-arbm-001",
+    "question": "Welche Aufgabe hat ein Betriebsrat hauptsächlich?",
+    "answers": [
+      { "text": "Er vertritt Arbeitnehmerinteressen im Betrieb", "correct": true },
+      { "text": "Er verhandelt Tarifverträge für die Branche", "correct": false },
+      { "text": "Er führt die Geschäfte des Arbeitgebers", "correct": false },
+      { "text": "Er ersetzt die Gewerkschaft im Arbeitskampf", "correct": false }
+    ],
+    "explanation": "Der Betriebsrat ist die betriebliche Interessenvertretung der Arbeitnehmer."
+  },
+  {
+    "id": "lf-01-sach-arbm-002",
+    "question": "Ab wann kann in einem Betrieb grundsätzlich ein Betriebsrat gegründet werden?",
+    "answers": [
+      { "text": "Ab fünf ständigen wahlberechtigten Arbeitnehmern", "correct": true },
+      { "text": "Ab drei Beschäftigten mit Tarifbindung", "correct": false },
+      { "text": "Ab fünf Auszubildenden ohne Betriebsrat", "correct": false },
+      { "text": "Ab zehn Beschäftigten mit Gewerkschaftsmitgliedschaft", "correct": false }
+    ],
+    "explanation": "Ein Betriebsrat kann grundsätzlich ab fünf ständigen wahlberechtigten Arbeitnehmern gewählt werden."
+  },
+  {
+    "id": "lf-01-sach-arbm-003",
+    "question": "Welche rechtliche Grundlage regelt die Arbeit des Betriebsrats?",
+    "answers": [
+      { "text": "Das Betriebsverfassungsgesetz", "correct": true },
+      { "text": "Das Tarifvertragsgesetz", "correct": false },
+      { "text": "Das Kündigungsschutzgesetz", "correct": false },
+      { "text": "Das Handelsgesetzbuch", "correct": false }
+    ],
+    "explanation": "Das Betriebsverfassungsgesetz regelt die betriebliche Mitbestimmung."
+  },
+  {
+    "id": "lf-01-sach-arbm-004",
+    "question": "Wie oft finden Betriebsratswahlen nach Gründung üblicherweise statt?",
+    "answers": [
+      { "text": "Alle vier Jahre", "correct": true },
+      { "text": "Alle zwei Jahre", "correct": false },
+      { "text": "Alle fünf Jahre", "correct": false },
+      { "text": "Bei jeder Betriebsversammlung", "correct": false }
+    ],
+    "explanation": "Betriebsräte werden regelmäßig alle vier Jahre neu gewählt."
+  },
+  {
+    "id": "lf-01-sach-arbm-005",
+    "question": "Was ist eine Betriebsvereinbarung?",
+    "answers": [
+      { "text": "Ein Vertrag zwischen Arbeitgeber und Betriebsrat", "correct": true },
+      { "text": "Ein Tarifvertrag zwischen Gewerkschaft und Arbeitgeber", "correct": false },
+      { "text": "Ein Einzelvertrag zwischen Arbeitgeber und Arbeitnehmer", "correct": false },
+      { "text": "Eine Absprache zwischen Betriebsrat und Gewerkschaft", "correct": false }
+    ],
+    "explanation": "Eine Betriebsvereinbarung regelt betriebliche Themen verbindlich zwischen Arbeitgeber und Betriebsrat."
+  },
+  {
+    "id": "lf-01-sach-arbm-006",
+    "question": "Wann können Betriebsvereinbarungen geschlossen werden?",
+    "answers": [
+      { "text": "Wenn im Betrieb ein Betriebsrat besteht", "correct": true },
+      { "text": "Wenn eine Gewerkschaft allein zustimmt", "correct": false },
+      { "text": "Wenn ein Tarifvertrag ausgeschlossen ist", "correct": false },
+      { "text": "Wenn nur der Arbeitgeber die Regelung festlegt", "correct": false }
+    ],
+    "explanation": "Betriebsvereinbarungen setzen einen Betriebsrat als Vertragspartner voraus."
+  },
+  {
+    "id": "lf-01-sach-arbm-007",
+    "question": "Was bedeutet das Günstigkeitsprinzip im Zusammenhang mit Betriebsvereinbarungen?",
+    "answers": [
+      { "text": "Günstigere Einzelregelungen können Vorrang haben", "correct": true },
+      { "text": "Betriebsvereinbarungen verdrängen bessere Einzelabreden", "correct": false },
+      { "text": "Die kostengünstigste Regel gilt für den Arbeitgeber", "correct": false },
+      { "text": "Tarifverträge stehen stets unter Einzelverträgen", "correct": false }
+    ],
+    "explanation": "Das Günstigkeitsprinzip schützt Arbeitnehmer, wenn eine individuell bessere Regelung besteht."
+  },
+  {
+    "id": "lf-01-sach-arbm-008",
+    "question": "Was gehört zu den Beteiligungsrechten des Betriebsrats?",
+    "answers": [
+      { "text": "Mitbestimmung, Mitwirkung und Anhörung", "correct": true },
+      { "text": "Tarifbindung, Streikrecht und Aussperrung", "correct": false },
+      { "text": "Prokura, Handlungsvollmacht und Geschäftsführung", "correct": false },
+      { "text": "Einstellung, Weisung und Kündigung in Eigenregie", "correct": false }
+    ],
+    "explanation": "Der Betriebsrat kann je nach Thema mitbestimmen, mitwirken oder angehört werden."
+  },
+  {
+    "id": "lf-01-sach-arbm-009",
+    "question": "Bei welchem Vorgang muss der Betriebsrat vorab angehört werden?",
+    "answers": [
+      { "text": "Bei Kündigungen", "correct": true },
+      { "text": "Bei jeder Lohnzahlung", "correct": false },
+      { "text": "Bei jeder Tarifverhandlung", "correct": false },
+      { "text": "Bei jedem Kundenauftrag", "correct": false }
+    ],
+    "explanation": "Vor einer Kündigung muss der Betriebsrat angehört werden."
+  },
+  {
+    "id": "lf-01-sach-arbm-010",
+    "question": "Wofür steht die JAV im Betrieb?",
+    "answers": [
+      { "text": "Für die Vertretung Jugendlicher und Auszubildender", "correct": true },
+      { "text": "Für die Vertretung aller Gewerkschaftsmitglieder", "correct": false },
+      { "text": "Für die Vertretung der Arbeitgeberseite", "correct": false },
+      { "text": "Für die Wahlleitung des Betriebsrats", "correct": false }
+    ],
+    "explanation": "Die JAV vertritt Jugendliche und Auszubildende im Betrieb."
+  },
+  {
+    "id": "lf-01-sach-arbm-011",
+    "question": "Welche Voraussetzung gilt für die Wahl einer JAV?",
+    "answers": [
+      { "text": "Es muss bereits ein Betriebsrat bestehen", "correct": true },
+      { "text": "Es muss bereits ein Tarifvertrag gelten", "correct": false },
+      { "text": "Es müssen nur Auszubildende beschäftigt sein", "correct": false },
+      { "text": "Es muss ein Arbeitgeberverband zustimmen", "correct": false }
+    ],
+    "explanation": "Eine JAV kann nur gewählt werden, wenn ein Betriebsrat besteht."
+  },
+  {
+    "id": "lf-01-sach-arbm-012",
+    "question": "Was ist ein Tarifvertrag?",
+    "answers": [
+      { "text": "Ein Kollektivvertrag zwischen Gewerkschaft und Arbeitgeberseite", "correct": true },
+      { "text": "Eine Betriebsvereinbarung im einzelnen Betrieb", "correct": false },
+      { "text": "Ein Einzelarbeitsvertrag mit einem Beschäftigten", "correct": false },
+      { "text": "Eine interne Weisung zur Arbeitsorganisation", "correct": false }
+    ],
+    "explanation": "Tarifverträge regeln kollektiv Arbeitsbedingungen wie Entgelt, Arbeitszeit und Urlaub."
+  },
+  {
+    "id": "lf-01-sach-arbm-013",
+    "question": "Welche Inhalte können Tarifverträge typischerweise regeln?",
+    "answers": [
+      { "text": "Bezahlung, Arbeitszeiten, Urlaub und Kündigungsfristen", "correct": true },
+      { "text": "Betriebsratswahl, Prokura und Handelsregister", "correct": false },
+      { "text": "Marktform, Preisbildung und Kundenanalyse", "correct": false },
+      { "text": "Rechtsform, Kapitalanteile und Stimmrechte", "correct": false }
+    ],
+    "explanation": "Tarifverträge regeln wichtige Arbeitsbedingungen kollektiv."
+  },
+  {
+    "id": "lf-01-sach-arbm-014",
+    "question": "Was bedeutet Tarifgebundenheit?",
+    "answers": [
+      { "text": "Parteien sind rechtlich an einen Tarifvertrag gebunden", "correct": true },
+      { "text": "Parteien orientieren sich freiwillig am Tarifvertrag", "correct": false },
+      { "text": "Alle Beschäftigten sind Gewerkschaftsmitglieder", "correct": false },
+      { "text": "Der Betriebsrat ersetzt den Tarifvertrag", "correct": false }
+    ],
+    "explanation": "Tarifgebundenheit bedeutet, dass ein Tarifvertrag für gebundene Parteien verbindlich gilt."
+  },
+  {
+    "id": "lf-01-sach-arbm-015",
+    "question": "Was bedeutet Allgemeinverbindlichkeit eines Tarifvertrags?",
+    "answers": [
+      { "text": "Tarifwirkung auch für nicht Tarifgebundene", "correct": true },
+      { "text": "Tarifwirkung nur für Gewerkschaftsmitglieder", "correct": false },
+      { "text": "Tarifwirkung nur für den einzelnen Betrieb", "correct": false },
+      { "text": "Tarifvertrag wird zur Betriebsvereinbarung", "correct": false }
+    ],
+    "explanation": "Allgemeinverbindlichkeit erweitert die Wirkung eines Tarifvertrags über die Tarifgebundenen hinaus."
+  },
+  {
+    "id": "lf-01-sach-arbm-016",
+    "question": "Was bedeutet Friedenspflicht während eines Tarifvertrags?",
+    "answers": [
+      { "text": "Kein Streik zu tariflich geregelten Themen", "correct": true },
+      { "text": "Keine Verhandlung über neue Tarifverträge", "correct": false },
+      { "text": "Kein Betriebsrat während der Tariflaufzeit", "correct": false },
+      { "text": "Keine Mitwirkung bei betrieblichen Fragen", "correct": false }
+    ],
+    "explanation": "Friedenspflicht schützt die Laufzeit eines Tarifvertrags vor Arbeitskämpfen zu denselben Themen."
+  },
+  {
+    "id": "lf-01-sach-arbm-017",
+    "question": "Welcher Tarifvertrag regelt typischerweise Löhne und Gehälter?",
+    "answers": [
+      { "text": "Entgelttarifvertrag", "correct": true },
+      { "text": "Manteltarifvertrag", "correct": false },
+      { "text": "Flächentarifvertrag", "correct": false },
+      { "text": "Betriebsvereinbarung", "correct": false }
+    ],
+    "explanation": "Entgelttarifverträge regeln die Bezahlung."
+  },
+  {
+    "id": "lf-01-sach-arbm-018",
+    "question": "Welcher Tarifvertrag regelt eher allgemeine Arbeitsbedingungen?",
+    "answers": [
+      { "text": "Manteltarifvertrag", "correct": true },
+      { "text": "Entgelttarifvertrag", "correct": false },
+      { "text": "Haustarifvertrag", "correct": false },
+      { "text": "Betriebsvereinbarung", "correct": false }
+    ],
+    "explanation": "Manteltarifverträge regeln Rahmenbedingungen wie Arbeitszeit, Urlaub oder Kündigungsfristen."
+  },
+  {
+    "id": "lf-01-sach-arbm-019",
+    "question": "Was ist ein Streik?",
+    "answers": [
+      { "text": "Eine vorübergehende Arbeitsniederlegung im Arbeitskampf", "correct": true },
+      { "text": "Eine Aussperrung durch die Arbeitgeberseite", "correct": false },
+      { "text": "Eine betriebliche Versammlung ohne Arbeitskampf", "correct": false },
+      { "text": "Eine individuelle Kündigung durch Arbeitnehmer", "correct": false }
+    ],
+    "explanation": "Ein Streik ist ein Arbeitskampfmittel zur Durchsetzung kollektiver Interessen."
+  },
+  {
+    "id": "lf-01-sach-arbm-020",
+    "question": "Wer ist vom Streikrecht ausgenommen?",
+    "answers": [
+      { "text": "Beamte, Richter und Soldaten", "correct": true },
+      { "text": "Beschäftigte ohne Gewerkschaftsmitgliedschaft", "correct": false },
+      { "text": "Betriebsratsmitglieder während ihrer Amtszeit", "correct": false },
+      { "text": "Arbeitnehmer mit tariflicher Friedenspflicht", "correct": false }
+    ],
+    "explanation": "Vom Streikrecht ausgenommen sind unter anderem Beamte, Richter und Soldaten."
+  }
+]

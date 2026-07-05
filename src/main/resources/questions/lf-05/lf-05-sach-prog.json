@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-05-sach-prog-001",
+    "question": "Warum ist eine klare Syntax beim Programmieren wichtig?",
+    "answers": [
+      { "text": "Damit der Code korrekt interpretiert wird", "correct": true },
+      { "text": "Damit die Bedeutung einer Anweisung klar wird", "correct": false },
+      { "text": "Damit Variablennamen fachlich passen", "correct": false },
+      { "text": "Damit Datentypen passende Operationen erlauben", "correct": false }
+    ],
+    "explanation": "Syntax legt die formalen Regeln fest, nach denen Quellcode geschrieben werden muss."
+  },
+  {
+    "id": "lf-05-sach-prog-002",
+    "question": "Was beschreibt die Semantik eines Programms?",
+    "answers": [
+      { "text": "Die Bedeutung des Codes", "correct": true },
+      { "text": "Die formale Schreibweise des Codes", "correct": false },
+      { "text": "Die Struktur der Quellcodedatei", "correct": false },
+      { "text": "Die Benennung von Variablen", "correct": false }
+    ],
+    "explanation": "Semantik beschreibt, welche Wirkung oder Bedeutung syntaktisch korrekter Code hat."
+  },
+  {
+    "id": "lf-05-sach-prog-003",
+    "question": "Warum sind aussagekräftige Bezeichner sinnvoll?",
+    "answers": [
+      { "text": "Sie machen Code leichter verständlich", "correct": true },
+      { "text": "Sie legen den Datentyp automatisch fest", "correct": false },
+      { "text": "Sie ersetzen die Semantik einer Anweisung", "correct": false },
+      { "text": "Sie ändern die Syntaxregeln der Sprache", "correct": false }
+    ],
+    "explanation": "Gute Bezeichner helfen, Zweck und Inhalt von Variablen oder Funktionen schneller zu erkennen."
+  },
+  {
+    "id": "lf-05-sach-prog-004",
+    "question": "Warum dürfen Schlüsselwörter nicht als Variablennamen verwendet werden?",
+    "answers": [
+      { "text": "Sie haben in der Sprache feste Bedeutung", "correct": true },
+      { "text": "Sie beschreiben konkrete Werte im Quellcode", "correct": false },
+      { "text": "Sie dienen als frei wählbare Bezeichner", "correct": false },
+      { "text": "Sie stehen für externe Bibliotheken", "correct": false }
+    ],
+    "explanation": "Schlüsselwörter sind reserviert und werden von der Programmiersprache für eigene Regeln genutzt."
+  },
+  {
+    "id": "lf-05-sach-prog-005",
+    "question": "Was ist der Zweck einer Variable in einem Programm?",
+    "answers": [
+      { "text": "Sie speichert einen veränderbaren Wert", "correct": true },
+      { "text": "Sie beschreibt eine feste Sprachregel", "correct": false },
+      { "text": "Sie bündelt wiederverwendbaren Code", "correct": false },
+      { "text": "Sie verweist auf ein importiertes Modul", "correct": false }
+    ],
+    "explanation": "Variablen speichern Werte, die im Programm gelesen, geändert oder weiterverarbeitet werden können."
+  },
+  {
+    "id": "lf-05-sach-prog-006",
+    "question": "Warum sind Datentypen beim Programmieren wichtig?",
+    "answers": [
+      { "text": "Sie bestimmen mögliche Operationen", "correct": true },
+      { "text": "Sie legen die Kontrollstruktur fest", "correct": false },
+      { "text": "Sie beschreiben den Namen einer Variable", "correct": false },
+      { "text": "Sie behandeln Laufzeitfehler direkt", "correct": false }
+    ],
+    "explanation": "Der Datentyp beeinflusst, wie Werte gespeichert, verglichen und verarbeitet werden können."
+  },
+  {
+    "id": "lf-05-sach-prog-007",
+    "question": "Wann ist ein Integer-Datentyp passend?",
+    "answers": [
+      { "text": "Für ganze Zahlen", "correct": true },
+      { "text": "Für Zahlen mit Nachkommastellen", "correct": false },
+      { "text": "Für Text und Zeichenketten", "correct": false },
+      { "text": "Für Wahrheitswerte in Bedingungen", "correct": false }
+    ],
+    "explanation": "Integer werden genutzt, wenn ganze Zahlen ohne Nachkommastellen verarbeitet werden."
+  },
+  {
+    "id": "lf-05-sach-prog-008",
+    "question": "Wann ist ein Float-Datentyp passend?",
+    "answers": [
+      { "text": "Für Zahlen mit Nachkommastellen", "correct": true },
+      { "text": "Für ganze Zahlen ohne Nachkommastellen", "correct": false },
+      { "text": "Für Text und Zeichenketten", "correct": false },
+      { "text": "Für Wahrheitswerte in Bedingungen", "correct": false }
+    ],
+    "explanation": "Float wird für Kommazahlen oder Berechnungen mit Nachkommastellen verwendet."
+  },
+  {
+    "id": "lf-05-sach-prog-009",
+    "question": "Wann ist ein String-Datentyp passend?",
+    "answers": [
+      { "text": "Für Text und Zeichenketten", "correct": true },
+      { "text": "Für ganze Zahlen", "correct": false },
+      { "text": "Für Zahlen mit Nachkommastellen", "correct": false },
+      { "text": "Für Wahr-Falsch-Entscheidungen", "correct": false }
+    ],
+    "explanation": "Strings speichern Text, einzelne Zeichen oder Zeichenketten."
+  },
+  {
+    "id": "lf-05-sach-prog-010",
+    "question": "Wann ist ein Boolean-Datentyp besonders geeignet?",
+    "answers": [
+      { "text": "Für Wahr-Falsch-Entscheidungen", "correct": true },
+      { "text": "Für längere Zeichenketten", "correct": false },
+      { "text": "Für Zahlen mit Nachkommastellen", "correct": false },
+      { "text": "Für geordnete Wertelisten", "correct": false }
+    ],
+    "explanation": "Boolean-Werte eignen sich für Bedingungen, Schalter und logische Entscheidungen."
+  },
+  {
+    "id": "lf-05-sach-prog-011",
+    "question": "Warum müssen Benutzereingaben oft umgewandelt werden?",
+    "answers": [
+      { "text": "Eingaben werden häufig als Text gelesen", "correct": true },
+      { "text": "Berechnungen erwarten passende Datentypen", "correct": false },
+      { "text": "Vergleiche nutzen immer Zeichenketten", "correct": false },
+      { "text": "Listen speichern Eingaben als Funktionen", "correct": false }
+    ],
+    "explanation": "Viele Eingabefunktionen liefern Text, der für Berechnungen erst in passende Datentypen umgewandelt wird."
+  },
+  {
+    "id": "lf-05-sach-prog-012",
+    "question": "Wofür werden arithmetische Operatoren verwendet?",
+    "answers": [
+      { "text": "Für mathematische Berechnungen", "correct": true },
+      { "text": "Für Vergleiche mit Wahrheitswerten", "correct": false },
+      { "text": "Für logische Verknüpfungen", "correct": false },
+      { "text": "Für das Behandeln von Exceptions", "correct": false }
+    ],
+    "explanation": "Arithmetische Operatoren führen Rechenoperationen wie Addition oder Division aus."
+  },
+  {
+    "id": "lf-05-sach-prog-013",
+    "question": "Wofür werden Vergleichsoperatoren typischerweise genutzt?",
+    "answers": [
+      { "text": "Zum Prüfen von Bedingungen", "correct": true },
+      { "text": "Zum Rechnen mit Zahlenwerten", "correct": false },
+      { "text": "Zum Verknüpfen mehrerer Wahrheitswerte", "correct": false },
+      { "text": "Zum Wiederholen eines Codeblocks", "correct": false }
+    ],
+    "explanation": "Vergleichsoperatoren liefern Wahrheitswerte und werden oft in Bedingungen verwendet."
+  },
+  {
+    "id": "lf-05-sach-prog-014",
+    "question": "Warum sind logische Operatoren in Bedingungen nützlich?",
+    "answers": [
+      { "text": "Sie verknüpfen mehrere Aussagen", "correct": true },
+      { "text": "Sie führen mathematische Berechnungen aus", "correct": false },
+      { "text": "Sie vergleichen einzelne Zahlenwerte", "correct": false },
+      { "text": "Sie speichern Ergebnisse in Listen", "correct": false }
+    ],
+    "explanation": "Logische Operatoren wie and, or und not kombinieren oder verändern Wahrheitswerte."
+  },
+  {
+    "id": "lf-05-sach-prog-015",
+    "question": "Wann ist eine Verzweigung im Programm sinnvoll?",
+    "answers": [
+      { "text": "Wenn Entscheidungen vom Zustand abhängen", "correct": true },
+      { "text": "Wenn Schritte fest nacheinander laufen", "correct": false },
+      { "text": "Wenn ein Block wiederholt ausgeführt wird", "correct": false },
+      { "text": "Wenn mehrere Werte gesammelt werden", "correct": false }
+    ],
+    "explanation": "Verzweigungen führen abhängig von Bedingungen unterschiedliche Programmteile aus."
+  },
+  {
+    "id": "lf-05-sach-prog-016",
+    "question": "Wozu dient ein else-Zweig bei einer Bedingung?",
+    "answers": [
+      { "text": "Er behandelt den übrigen Fall", "correct": true },
+      { "text": "Er prüft eine weitere konkrete Bedingung", "correct": false },
+      { "text": "Er wiederholt den vorherigen Codeblock", "correct": false },
+      { "text": "Er definiert eine neue Funktion", "correct": false }
+    ],
+    "explanation": "Der else-Zweig wird ausgeführt, wenn vorherige Bedingungen nicht erfüllt sind."
+  },
+  {
+    "id": "lf-05-sach-prog-017",
+    "question": "Wann ist eine for-Schleife besonders passend?",
+    "answers": [
+      { "text": "Bei bekannter Anzahl von Durchläufen", "correct": true },
+      { "text": "Bei zustandsabhängiger Wiederholung", "correct": false },
+      { "text": "Bei einer Auswahl zwischen zwei Wegen", "correct": false },
+      { "text": "Bei der Behandlung eines Fehlers", "correct": false }
+    ],
+    "explanation": "Eine for-Schleife eignet sich gut, wenn über eine bekannte Menge oder Anzahl iteriert wird."
+  },
+  {
+    "id": "lf-05-sach-prog-018",
+    "question": "Wann ist eine while-Schleife besonders passend?",
+    "answers": [
+      { "text": "Solange eine Bedingung gelten soll", "correct": true },
+      { "text": "Bei fester Iteration über eine Liste", "correct": false },
+      { "text": "Bei einer einmaligen Verzweigung", "correct": false },
+      { "text": "Bei der Definition eines Datentyps", "correct": false }
+    ],
+    "explanation": "Eine while-Schleife wiederholt Anweisungen, solange ihre Bedingung wahr ist."
+  },
+  {
+    "id": "lf-05-sach-prog-019",
+    "question": "Was ist eine typische Ursache für eine Endlosschleife?",
+    "answers": [
+      { "text": "Die Abbruchbedingung wird nie erreicht", "correct": true },
+      { "text": "Die Schleife iteriert über eine Liste", "correct": false },
+      { "text": "Eine Funktion besitzt Parameter", "correct": false },
+      { "text": "Ein Vergleich liefert einen Boolean", "correct": false }
+    ],
+    "explanation": "Eine Schleife endet nicht, wenn ihre Bedingung dauerhaft wahr bleibt."
+  },
+  {
+    "id": "lf-05-sach-prog-020",
+    "question": "Warum werden Funktionen in Programmen verwendet?",
+    "answers": [
+      { "text": "Sie bündeln wiederverwendbaren Code", "correct": true },
+      { "text": "Sie speichern mehrere Werte geordnet", "correct": false },
+      { "text": "Sie behandeln ausschließlich Bedingungen", "correct": false },
+      { "text": "Sie legen Datentypen für Variablen fest", "correct": false }
+    ],
+    "explanation": "Funktionen strukturieren Programme und vermeiden doppelt geschriebenen Code."
+  },
+  {
+    "id": "lf-05-sach-prog-021",
+    "question": "Was ist der Unterschied zwischen Parameter und Argument?",
+    "answers": [
+      { "text": "Parameter steht in der Definition", "correct": true },
+      { "text": "Argument steht in der Funktionsdefinition", "correct": false },
+      { "text": "Parameter ist der konkrete Aufrufwert", "correct": false },
+      { "text": "Argument ist ein reserviertes Schlüsselwort", "correct": false }
+    ],
+    "explanation": "Der Parameter ist der Platzhalter in der Funktion, das Argument der übergebene konkrete Wert."
+  },
+  {
+    "id": "lf-05-sach-prog-022",
+    "question": "Wozu dient ein Rückgabewert einer Funktion?",
+    "answers": [
+      { "text": "Er liefert ein Ergebnis an den Aufrufer", "correct": true },
+      { "text": "Er definiert den Platzhalter im Funktionskopf", "correct": false },
+      { "text": "Er beschreibt den Namen der Funktion", "correct": false },
+      { "text": "Er importiert ein Modul in den Code", "correct": false }
+    ],
+    "explanation": "Ein Rückgabewert kann nach dem Funktionsaufruf weiterverwendet, gespeichert oder ausgegeben werden."
+  },
+  {
+    "id": "lf-05-sach-prog-023",
+    "question": "Warum ist eine Funktion ohne Rückgabewert trotzdem sinnvoll?",
+    "answers": [
+      { "text": "Sie kann Aktionen ausführen", "correct": true },
+      { "text": "Sie liefert ein berechnetes Ergebnis zurück", "correct": false },
+      { "text": "Sie dient als Platzhalter für Argumente", "correct": false },
+      { "text": "Sie speichert mehrere Werte geordnet", "correct": false }
+    ],
+    "explanation": "Auch ohne Rückgabewert kann eine Funktion z. B. Ausgaben erzeugen oder Daten verarbeiten."
+  },
+  {
+    "id": "lf-05-sach-prog-024",
+    "question": "Wann ist eine Liste als Datenstruktur sinnvoll?",
+    "answers": [
+      { "text": "Wenn mehrere Werte zusammengehören", "correct": true },
+      { "text": "Wenn ein einzelner Wahrheitswert reicht", "correct": false },
+      { "text": "Wenn ein Funktionsparameter definiert wird", "correct": false },
+      { "text": "Wenn ein Modul importiert wird", "correct": false }
+    ],
+    "explanation": "Listen speichern mehrere Elemente in einer geordneten Struktur."
+  },
+  {
+    "id": "lf-05-sach-prog-025",
+    "question": "Warum beginnt der Index vieler Listen bei 0?",
+    "answers": [
+      { "text": "Das erste Element liegt an Position 0", "correct": true },
+      { "text": "Der Index beschreibt die Listenlänge", "correct": false },
+      { "text": "Der Index legt den Datentyp fest", "correct": false },
+      { "text": "Der Index ersetzt den Variablennamen", "correct": false }
+    ],
+    "explanation": "In vielen Programmiersprachen wird das erste Listenelement mit Index 0 angesprochen."
+  },
+  {
+    "id": "lf-05-sach-prog-026",
+    "question": "Was passiert typischerweise bei einem ungültigen Listenindex?",
+    "answers": [
+      { "text": "Es entsteht ein Laufzeitfehler", "correct": true },
+      { "text": "Ein anderes Element wird ausgewählt", "correct": false },
+      { "text": "Die Liste wird automatisch erweitert", "correct": false },
+      { "text": "Der Index wird als String gespeichert", "correct": false }
+    ],
+    "explanation": "Ein Zugriff außerhalb des gültigen Bereichs kann eine Exception auslösen."
+  },
+  {
+    "id": "lf-05-sach-prog-027",
+    "question": "Warum werden Module in Programmen importiert?",
+    "answers": [
+      { "text": "Um vorhandene Funktionen zu nutzen", "correct": true },
+      { "text": "Um eigene Variablen zu deklarieren", "correct": false },
+      { "text": "Um Bedingungen miteinander zu vergleichen", "correct": false },
+      { "text": "Um Listenindizes festzulegen", "correct": false }
+    ],
+    "explanation": "Module stellen fertige Funktionen, Klassen oder Konstanten für Programme bereit."
+  },
+  {
+    "id": "lf-05-sach-prog-028",
+    "question": "Was ist der Vorteil einer Standard-Library?",
+    "answers": [
+      { "text": "Sie bietet geprüfte Grundfunktionen", "correct": true },
+      { "text": "Sie enthält die gesamte Programmlogik der Anwendung", "correct": false },
+      { "text": "Sie ersetzt eigene Anforderungen im Projekt", "correct": false },
+      { "text": "Sie definiert alle Variablen automatisch", "correct": false }
+    ],
+    "explanation": "Standard-Libraries liefern häufig benötigte Funktionen, ohne dass alles neu programmiert werden muss."
+  },
+  {
+    "id": "lf-05-sach-prog-029",
+    "question": "Wann ist Rekursion als Lösungsansatz geeignet?",
+    "answers": [
+      { "text": "Wenn ein Problem ähnlich zerlegbar ist", "correct": true },
+      { "text": "Wenn eine einfache Werteliste genügt", "correct": false },
+      { "text": "Wenn eine direkte Zuweisung ausreicht", "correct": false },
+      { "text": "Wenn ein Modul mit Funktionen importiert wird", "correct": false }
+    ],
+    "explanation": "Rekursion passt zu Problemen, die sich in kleinere gleichartige Teilprobleme zerlegen lassen."
+  },
+  {
+    "id": "lf-05-sach-prog-030",
+    "question": "Warum braucht Rekursion einen Basisfall?",
+    "answers": [
+      { "text": "Damit die Selbstaufrufe enden", "correct": true },
+      { "text": "Damit die Funktion Argumente erhält", "correct": false },
+      { "text": "Damit eine Liste sortiert wird", "correct": false },
+      { "text": "Damit ein Modul geladen wird", "correct": false }
+    ],
+    "explanation": "Der Basisfall beendet die Rekursion und verhindert unendliche Selbstaufrufe."
+  },
+  {
+    "id": "lf-05-sach-prog-031",
+    "question": "Wann ist Exception Handling besonders wichtig?",
+    "answers": [
+      { "text": "Bei erwartbaren Fehlerfällen", "correct": true },
+      { "text": "Bei sicheren Standardberechnungen", "correct": false },
+      { "text": "Bei der Benennung von Variablen", "correct": false },
+      { "text": "Bei der Strukturierung von Listen", "correct": false }
+    ],
+    "explanation": "Exception Handling hilft, Fehler kontrolliert zu behandeln statt das Programm unkontrolliert abbrechen zu lassen."
+  },
+  {
+    "id": "lf-05-sach-prog-032",
+    "question": "Was ist die Aufgabe eines try-Blocks?",
+    "answers": [
+      { "text": "Er enthält riskante Anweisungen", "correct": true },
+      { "text": "Er behandelt den aufgetretenen Fehler", "correct": false },
+      { "text": "Er läuft nach try und except abschließend", "correct": false },
+      { "text": "Er liefert den Rückgabewert einer Funktion", "correct": false }
+    ],
+    "explanation": "Im try-Block steht Code, bei dessen Ausführung eine Exception auftreten kann."
+  },
+  {
+    "id": "lf-05-sach-prog-033",
+    "question": "Was ist die Aufgabe eines except-Blocks?",
+    "answers": [
+      { "text": "Er behandelt aufgetretene Fehler", "correct": true },
+      { "text": "Er enthält den riskanten Programmteil", "correct": false },
+      { "text": "Er läuft abschließend nach der Fehlerbehandlung", "correct": false },
+      { "text": "Er definiert Parameter einer Funktion", "correct": false }
+    ],
+    "explanation": "Ein except-Block legt fest, wie das Programm auf bestimmte Fehler reagieren soll."
+  },
+  {
+    "id": "lf-05-sach-prog-034",
+    "question": "Wozu kann ein finally-Block genutzt werden?",
+    "answers": [
+      { "text": "Für Code, der immer ausgeführt werden soll", "correct": true },
+      { "text": "Für den riskanten Codeabschnitt", "correct": false },
+      { "text": "Für die Behandlung eines bestimmten Fehlers", "correct": false },
+      { "text": "Für die Definition einer Funktion", "correct": false }
+    ],
+    "explanation": "Ein finally-Block eignet sich z. B. zum Aufräumen, unabhängig davon, ob ein Fehler auftrat."
+  },
+  {
+    "id": "lf-05-sach-prog-035",
+    "question": "Was beschreibt ein Stream beim Dateizugriff?",
+    "answers": [
+      { "text": "Einen Datenfluss zwischen Programm und Datei", "correct": true },
+      { "text": "Den Modus zum Lesen einer Datei", "correct": false },
+      { "text": "Den Rückgabewert einer Dateifunktion", "correct": false },
+      { "text": "Eine Liste mit geöffneten Dateien", "correct": false }
+    ],
+    "explanation": "Ein Stream ist ein Datenstrom, über den Programme Daten lesen oder schreiben."
+  },
+  {
+    "id": "lf-05-sach-prog-036",
+    "question": "Warum sollten geöffnete Dateien wieder geschlossen werden?",
+    "answers": [
+      { "text": "Damit Ressourcen freigegeben werden", "correct": true },
+      { "text": "Damit der Dateimodus geändert wird", "correct": false },
+      { "text": "Damit der Stream als Liste gespeichert wird", "correct": false },
+      { "text": "Damit Variablen ihren Datentyp wechseln", "correct": false }
+    ],
+    "explanation": "Offene Dateien belegen Ressourcen; Schließen sichert saubere Verarbeitung und Freigabe."
+  },
+  {
+    "id": "lf-05-sach-prog-037",
+    "question": "Wann ist der Dateimodus zum Lesen passend?",
+    "answers": [
+      { "text": "Wenn vorhandene Inhalte gelesen werden sollen", "correct": true },
+      { "text": "Wenn neue Inhalte an das Ende kommen", "correct": false },
+      { "text": "Wenn bestehende Inhalte ersetzt werden", "correct": false },
+      { "text": "Wenn ein Fehler behandelt wird", "correct": false }
+    ],
+    "explanation": "Der Lesemodus wird genutzt, wenn Daten aus einer bestehenden Datei geholt werden."
+  },
+  {
+    "id": "lf-05-sach-prog-038",
+    "question": "Wann ist der Dateimodus zum Anhängen passend?",
+    "answers": [
+      { "text": "Wenn neue Inhalte ergänzt werden sollen", "correct": true },
+      { "text": "Wenn bestehende Inhalte gelesen werden", "correct": false },
+      { "text": "Wenn vorhandene Inhalte ersetzt werden", "correct": false },
+      { "text": "Wenn ein Stream geschlossen wird", "correct": false }
+    ],
+    "explanation": "Beim Anhängen werden neue Inhalte am Ende ergänzt, ohne den bestehenden Inhalt zu ersetzen."
+  },
+  {
+    "id": "lf-05-sach-prog-039",
+    "question": "Welche Gefahr besteht beim Schreibmodus einer Datei?",
+    "answers": [
+      { "text": "Vorhandener Inhalt kann überschrieben werden", "correct": true },
+      { "text": "Neue Inhalte werden an das Ende ergänzt", "correct": false },
+      { "text": "Bestehende Inhalte werden gelesen", "correct": false },
+      { "text": "Der Dateistream wird als Boolean gespeichert", "correct": false }
+    ],
+    "explanation": "Im Schreibmodus wird eine Datei oft neu beschrieben; bestehende Inhalte können verloren gehen."
+  },
+  {
+    "id": "lf-05-sach-prog-040",
+    "question": "Warum sollte Dateizugriff mit Fehlerbehandlung kombiniert werden?",
+    "answers": [
+      { "text": "Dateien können fehlen oder gesperrt sein", "correct": true },
+      { "text": "Dateimodi legen den Datentyp fest", "correct": false },
+      { "text": "Streams liefern immer Listen zurück", "correct": false },
+      { "text": "Exception Handling erzeugt Dateipfade", "correct": false }
+    ],
+    "explanation": "Beim Dateizugriff können z. B. fehlende Dateien, Rechteprobleme oder falsche Pfade auftreten."
+  }
+]

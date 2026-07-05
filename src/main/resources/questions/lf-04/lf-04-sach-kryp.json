@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-kryp-001",
+    "question": "Wozu dient Kryptografie grundsätzlich?",
+    "answers": [
+      { "text": "Zum Schutz von Informationen durch mathematische Verfahren", "correct": true },
+      { "text": "Zur Prüfung der Datenintegrität durch Zugriffskontrolle", "correct": false },
+      { "text": "Zur Verwaltung von Rollen und Benutzerrechten", "correct": false },
+      { "text": "Zur Nachvollziehbarkeit von Benutzeraktionen", "correct": false }
+    ],
+    "explanation": "Kryptografie schützt Informationen zum Beispiel durch Verschlüsselung, Hashes oder Signaturen."
+  },
+  {
+    "id": "lf-04-sach-kryp-002",
+    "question": "Was entsteht bei der Verschlüsselung aus lesbarem Klartext?",
+    "answers": [
+      { "text": "Ciphertext", "correct": true },
+      { "text": "Hashwert", "correct": false },
+      { "text": "Signatur", "correct": false },
+      { "text": "Zertifikat", "correct": false }
+    ],
+    "explanation": "Ciphertext ist verschlüsselter Text, der ohne passenden Schlüssel nicht lesbar sein soll."
+  },
+  {
+    "id": "lf-04-sach-kryp-003",
+    "question": "Welche Bestandteile werden für Verschlüsselung typischerweise benötigt?",
+    "answers": [
+      { "text": "Algorithmus und Schlüssel", "correct": true },
+      { "text": "Hashwert und Prüfsumme", "correct": false },
+      { "text": "Zertifikat und Signaturprüfung", "correct": false },
+      { "text": "Benutzerrolle und Zugriffsrecht", "correct": false }
+    ],
+    "explanation": "Ein Algorithmus beschreibt das Verfahren, der Schlüssel steuert die konkrete Ver- oder Entschlüsselung."
+  },
+  {
+    "id": "lf-04-sach-kryp-004",
+    "question": "Welche Aussage zur symmetrischen Verschlüsselung ist richtig?",
+    "answers": [
+      { "text": "Derselbe Schlüssel wird zum Ver- und Entschlüsseln genutzt", "correct": true },
+      { "text": "Ein öffentlicher Schlüssel verschlüsselt die Daten", "correct": false },
+      { "text": "Ein privater Schlüssel prüft die Signatur", "correct": false },
+      { "text": "Ein Hashwert ersetzt den geheimen Schlüssel", "correct": false }
+    ],
+    "explanation": "Symmetrische Verschlüsselung nutzt einen gemeinsamen geheimen Schlüssel."
+  },
+  {
+    "id": "lf-04-sach-kryp-005",
+    "question": "Was ist ein Vorteil symmetrischer Verschlüsselung?",
+    "answers": [
+      { "text": "Sie ist meist schnell bei großen Datenmengen", "correct": true },
+      { "text": "Sie vereinfacht die geheime Schlüsselverteilung stark", "correct": false },
+      { "text": "Sie prüft die Herkunft über ein Schlüsselpaar", "correct": false },
+      { "text": "Sie wird hauptsächlich für digitale Signaturen genutzt", "correct": false }
+    ],
+    "explanation": "Symmetrische Verfahren sind schnell, haben aber besondere Anforderungen an die sichere Schlüsselverteilung."
+  },
+  {
+    "id": "lf-04-sach-kryp-006",
+    "question": "Was ist ein Problem symmetrischer Verschlüsselung?",
+    "answers": [
+      { "text": "Der gemeinsame Schlüssel muss sicher übertragen werden", "correct": true },
+      { "text": "Öffentliche Schlüssel müssen vertrauenswürdig zugeordnet werden", "correct": false },
+      { "text": "Hashwerte müssen gegen Kollisionen geschützt werden", "correct": false },
+      { "text": "Signaturen müssen mit Zertifikaten geprüft werden", "correct": false }
+    ],
+    "explanation": "Das Schlüsselverteilungsproblem entsteht, weil beide Seiten denselben geheimen Schlüssel benötigen."
+  },
+  {
+    "id": "lf-04-sach-kryp-007",
+    "question": "Welches Verfahren ist ein moderner symmetrischer Verschlüsselungsstandard?",
+    "answers": [
+      { "text": "AES", "correct": true },
+      { "text": "RSA", "correct": false },
+      { "text": "SHA-256", "correct": false },
+      { "text": "TLS", "correct": false }
+    ],
+    "explanation": "AES ist ein verbreiteter moderner Standard für symmetrische Verschlüsselung."
+  },
+  {
+    "id": "lf-04-sach-kryp-008",
+    "question": "Welche Aussage zur asymmetrischen Verschlüsselung ist richtig?",
+    "answers": [
+      { "text": "Es wird ein öffentlicher und ein privater Schlüssel verwendet", "correct": true },
+      { "text": "Beide Seiten verwenden denselben geheimen Schlüssel", "correct": false },
+      { "text": "Ein Hashwert wird als geheimer Schlüssel genutzt", "correct": false },
+      { "text": "Ein Zertifikat ersetzt das Schlüsselpaar", "correct": false }
+    ],
+    "explanation": "Asymmetrische Verschlüsselung nutzt ein Schlüsselpaar aus öffentlichem und privatem Schlüssel."
+  },
+  {
+    "id": "lf-04-sach-kryp-009",
+    "question": "Wofür wird der öffentliche Schlüssel eines Empfängers typischerweise genutzt?",
+    "answers": [
+      { "text": "Zum Verschlüsseln von Nachrichten an diesen Empfänger", "correct": true },
+      { "text": "Zum Entschlüsseln empfangener geheimer Nachrichten", "correct": false },
+      { "text": "Zum Erstellen digitaler Signaturen des Empfängers", "correct": false },
+      { "text": "Zum Berechnen des Hashwerts einer Nachricht", "correct": false }
+    ],
+    "explanation": "Mit dem öffentlichen Schlüssel kann eine Nachricht so verschlüsselt werden, dass nur der passende private Schlüssel sie entschlüsseln kann."
+  },
+  {
+    "id": "lf-04-sach-kryp-010",
+    "question": "Wofür wird der private Schlüssel typischerweise genutzt?",
+    "answers": [
+      { "text": "Zum Entschlüsseln oder Signieren", "correct": true },
+      { "text": "Zum öffentlichen Verteilen an Kommunikationspartner", "correct": false },
+      { "text": "Zum reinen Berechnen eines Hashwerts", "correct": false },
+      { "text": "Zum Ersetzen eines digitalen Zertifikats", "correct": false }
+    ],
+    "explanation": "Der private Schlüssel muss geheim bleiben und kann zum Entschlüsseln oder digitalen Signieren verwendet werden."
+  },
+  {
+    "id": "lf-04-sach-kryp-011",
+    "question": "Warum wird asymmetrische Verschlüsselung oft nicht für große Datenmengen direkt genutzt?",
+    "answers": [
+      { "text": "Sie ist im Vergleich meist deutlich langsamer", "correct": true },
+      { "text": "Sie löst primär die schnelle Massendatenverschlüsselung", "correct": false },
+      { "text": "Sie nutzt denselben Schlüssel für beide Richtungen", "correct": false },
+      { "text": "Sie erzeugt Hashwerte statt verschlüsselter Daten", "correct": false }
+    ],
+    "explanation": "Asymmetrische Verfahren sind nützlich für Schlüsseltausch und Signaturen, aber meist langsamer als symmetrische Verfahren."
+  },
+  {
+    "id": "lf-04-sach-kryp-012",
+    "question": "Welche Aussage beschreibt hybride Verschlüsselung korrekt?",
+    "answers": [
+      { "text": "Asymmetrisch für Schlüsseltausch, symmetrisch für Daten", "correct": true },
+      { "text": "Symmetrisch für Zertifikate, asymmetrisch für Hashwerte", "correct": false },
+      { "text": "Hashfunktion für Schlüsseltausch und Signatur", "correct": false },
+      { "text": "Digitale Signatur für komplette Datenverschlüsselung", "correct": false }
+    ],
+    "explanation": "Hybride Verschlüsselung kombiniert sicheren Schlüsseltausch mit schneller symmetrischer Datenverschlüsselung."
+  },
+  {
+    "id": "lf-04-sach-kryp-013",
+    "question": "Was ist eine Hashfunktion?",
+    "answers": [
+      { "text": "Einwegfunktion mit Prüfwert fester Länge", "correct": true },
+      { "text": "Verschlüsselungsverfahren mit geheimem Schlüssel", "correct": false },
+      { "text": "Schlüsselpaar aus Public und Private Key", "correct": false },
+      { "text": "Zertifikat zur Zuordnung einer Identität", "correct": false }
+    ],
+    "explanation": "Hashfunktionen erzeugen Hashwerte und sind nicht zur Rückumwandlung in Klartext gedacht."
+  },
+  {
+    "id": "lf-04-sach-kryp-014",
+    "question": "Welche Aussage zu Hashwerten ist richtig?",
+    "answers": [
+      { "text": "Hashwerte haben bei einem Verfahren meist eine feste Länge", "correct": true },
+      { "text": "Hashwerte dienen als geheimer Schlüssel für AES", "correct": false },
+      { "text": "Hashwerte sind verschlüsselte Klartexte", "correct": false },
+      { "text": "Hashwerte bestätigen öffentliche Schlüssel", "correct": false }
+    ],
+    "explanation": "Ein Hashwert ist ein Prüfwert fester Länge, der aus Eingabedaten berechnet wird."
+  },
+  {
+    "id": "lf-04-sach-kryp-015",
+    "question": "Warum kann ein Hashwert zur Integritätsprüfung genutzt werden?",
+    "answers": [
+      { "text": "Kleine Änderungen sollen andere Hashwerte ergeben", "correct": true },
+      { "text": "Hashwerte verschlüsseln Daten mit einem geheimen Schlüssel", "correct": false },
+      { "text": "Hashwerte ordnen Schlüssel einer Identität zu", "correct": false },
+      { "text": "Hashwerte signieren Daten mit privatem Schlüssel", "correct": false }
+    ],
+    "explanation": "Wenn sich Daten ändern, sollte sich auch der Hashwert ändern; dadurch lassen sich Manipulationen erkennen."
+  },
+  {
+    "id": "lf-04-sach-kryp-016",
+    "question": "Welche Aussage zu Hashfunktionen ist richtig?",
+    "answers": [
+      { "text": "Aus dem Hashwert soll der Klartext praktisch nicht zurückgerechnet werden können", "correct": true },
+      { "text": "Hashfunktionen dienen zur symmetrischen Entschlüsselung", "correct": false },
+      { "text": "Hashfunktionen erzeugen öffentliche Schlüsselpaare", "correct": false },
+      { "text": "Hashfunktionen ersetzen digitale Zertifikate", "correct": false }
+    ],
+    "explanation": "Hashfunktionen sind Einwegfunktionen und dienen nicht der Entschlüsselung."
+  },
+  {
+    "id": "lf-04-sach-kryp-017",
+    "question": "Wofür kann eine digitale Signatur genutzt werden?",
+    "answers": [
+      { "text": "Zum Nachweis von Herkunft und Unverändertheit", "correct": true },
+      { "text": "Zum schnellen Verschlüsseln großer Datenmengen", "correct": false },
+      { "text": "Zum Verbergen einer Nachricht in einem Medium", "correct": false },
+      { "text": "Zum Erzeugen eines gemeinsamen Sitzungsschlüssels", "correct": false }
+    ],
+    "explanation": "Digitale Signaturen unterstützen Authentizität, Integrität und Verbindlichkeit."
+  },
+  {
+    "id": "lf-04-sach-kryp-018",
+    "question": "Wie wird bei asymmetrischen Verfahren typischerweise digital signiert?",
+    "answers": [
+      { "text": "Mit privatem Schlüssel signieren, öffentlich prüfen", "correct": true },
+      { "text": "Mit öffentlichem Schlüssel signieren, privat prüfen", "correct": false },
+      { "text": "Mit gemeinsamem Schlüssel signieren und prüfen", "correct": false },
+      { "text": "Mit Hashwert signieren, mit Zertifikat entschlüsseln", "correct": false }
+    ],
+    "explanation": "Eine digitale Signatur wird mit dem privaten Schlüssel erstellt und mit dem öffentlichen Schlüssel geprüft."
+  },
+  {
+    "id": "lf-04-sach-kryp-019",
+    "question": "Wozu dient ein digitales Zertifikat?",
+    "answers": [
+      { "text": "Es ordnet einen öffentlichen Schlüssel einer Identität zu", "correct": true },
+      { "text": "Es speichert den privaten Schlüssel des Empfängers", "correct": false },
+      { "text": "Es erzeugt den Hashwert einer Nachricht", "correct": false },
+      { "text": "Es verschlüsselt große Datenmengen symmetrisch", "correct": false }
+    ],
+    "explanation": "Digitale Zertifikate helfen, öffentliche Schlüssel vertrauenswürdig einer Identität zuzuordnen."
+  },
+  {
+    "id": "lf-04-sach-kryp-020",
+    "question": "Was unterscheidet Steganographie von Verschlüsselung?",
+    "answers": [
+      { "text": "Steganographie versteckt die Existenz einer Nachricht", "correct": true },
+      { "text": "Verschlüsselung versteckt die Nachricht in Bilddaten", "correct": false },
+      { "text": "Steganographie erzeugt feste Hashwerte", "correct": false },
+      { "text": "Verschlüsselung prüft nur die Herkunft der Daten", "correct": false }
+    ],
+    "explanation": "Verschlüsselung macht Inhalte unlesbar; Steganographie versucht zu verbergen, dass eine Nachricht existiert."
+  }
+]

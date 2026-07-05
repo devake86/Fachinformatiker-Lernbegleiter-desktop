@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-fach-serv-001",
+    "question": "Was beschreibt ein IT-Service?",
+    "answers": [
+      { "text": "IT-Dienstleistung zur Unterstützung eines Kundenergebnisses", "correct": true },
+      { "text": "Ein technisches Gerät als einzelnes Betriebsmittel", "correct": false },
+      { "text": "Ein interner Prozess zur Ticketpriorisierung", "correct": false },
+      { "text": "Ein Servicevertrag mit festgelegten Kennzahlen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein IT-Service unterstützt Kunden dabei, ein gewünschtes Ergebnis zu erreichen."
+  },
+  {
+    "id": "lf-06-fach-serv-002",
+    "question": "Was beschreibt IT-Service-Management?",
+    "answers": [
+      { "text": "Planung, Steuerung und Verbesserung von IT-Services", "correct": true },
+      { "text": "Bereitstellung einzelner Hardwarekomponenten", "correct": false },
+      { "text": "Überwachung technischer Systeme im Betrieb", "correct": false },
+      { "text": "Bearbeitung einzelner Störungen im Support", "correct": false }
+    ],
+    "explanation": "Merksatz: ITSM organisiert IT-Services so, dass sie zuverlässig und kundenorientiert erbracht werden."
+  },
+  {
+    "id": "lf-06-fach-serv-003",
+    "question": "Was beschreibt ein Servicekatalog?",
+    "answers": [
+      { "text": "Strukturierte Übersicht angebotener Services", "correct": true },
+      { "text": "Gesamtheit aktiver und geplanter Services", "correct": false },
+      { "text": "Lebensphasen eines einzelnen Services", "correct": false },
+      { "text": "Framework zur Steuerung von IT-Services", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Servicekatalog macht angebotene Services für Kunden und Mitarbeitende transparent."
+  },
+  {
+    "id": "lf-06-fach-serv-004",
+    "question": "Was beschreibt ein Serviceportfolio?",
+    "answers": [
+      { "text": "Gesamtheit aktiver, geplanter und auslaufender Services", "correct": true },
+      { "text": "Kundenansicht der aktuell bestellbaren Services", "correct": false },
+      { "text": "Einzelner Service mit Beschreibung und Preis", "correct": false },
+      { "text": "Dashboard zur Überwachung laufender Services", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Serviceportfolio zeigt den gesamten Lebenszyklus aller Services."
+  },
+  {
+    "id": "lf-06-fach-serv-005",
+    "question": "Was beschreibt ein Service Lifecycle?",
+    "answers": [
+      { "text": "Lebensphasen eines Services von Planung bis Ablösung", "correct": true },
+      { "text": "Übersicht aller aktuell angebotenen Services", "correct": false },
+      { "text": "Gesamtheit geplanter und aktiver Services", "correct": false },
+      { "text": "Betrieb eines Services durch einen Dienstleister", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Service Lifecycle betrachtet Services über ihren gesamten Lebensweg."
+  },
+  {
+    "id": "lf-06-fach-serv-006",
+    "question": "Was beschreibt IMAC/R/D?",
+    "answers": [
+      { "text": "Install, Move, Add, Change, Remove und Dispose", "correct": true },
+      { "text": "Incident, Monitoring, Alert, Control und Dashboard", "correct": false },
+      { "text": "Improve, Measure, Analyze, Control und Define", "correct": false },
+      { "text": "Input, Management, Audit, Compliance und Review", "correct": false }
+    ],
+    "explanation": "Merksatz: IMAC/R/D ordnet typische Servicehandlungen im Lebenszyklus von IT-Objekten."
+  },
+  {
+    "id": "lf-06-fach-serv-007",
+    "question": "Was beschreibt Managed Services?",
+    "answers": [
+      { "text": "Regelmäßig betreute IT-Dienste durch Dienstleister", "correct": true },
+      { "text": "Einmalige Installation eines IT-Systems", "correct": false },
+      { "text": "Interne Bearbeitung einzelner Servicevorfälle", "correct": false },
+      { "text": "Cloud-Service mit nutzungsabhängiger Abrechnung", "correct": false }
+    ],
+    "explanation": "Merksatz: Managed Services übertragen laufende IT-Betreuung an einen Dienstleister."
+  },
+  {
+    "id": "lf-06-fach-serv-008",
+    "question": "Was beschreibt ein Managed Service Provider?",
+    "answers": [
+      { "text": "Anbieter für regelmäßigen Betrieb von IT-Services", "correct": true },
+      { "text": "Kunde mit ausgelagerten IT-Aufgaben", "correct": false },
+      { "text": "Framework für IT-Service-Management", "correct": false },
+      { "text": "Cloud-Service über ein Netzwerk", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein MSP übernimmt wiederkehrende IT-Serviceaufgaben für Kunden."
+  },
+  {
+    "id": "lf-06-fach-serv-009",
+    "question": "Was beschreibt Cloud Service?",
+    "answers": [
+      { "text": "Über das Netzwerk bereitgestellter IT-Service", "correct": true },
+      { "text": "Lokal betriebener Service auf Kundengeräten", "correct": false },
+      { "text": "Regelmäßige Betreuung durch einen Dienstleister", "correct": false },
+      { "text": "Auslagerung interner Aufgaben an Externe", "correct": false }
+    ],
+    "explanation": "Merksatz: Cloud Services stellen IT-Leistungen über Netzwerke bedarfsgerecht bereit."
+  },
+  {
+    "id": "lf-06-fach-serv-010",
+    "question": "Was beschreibt Outsourcing im IT-Service?",
+    "answers": [
+      { "text": "Auslagerung interner IT-Aufgaben an Dienstleister", "correct": true },
+      { "text": "Bereitstellung eines Services über ein Netzwerk", "correct": false },
+      { "text": "Regelmäßiger Betrieb durch einen Managed Provider", "correct": false },
+      { "text": "Interne Optimierung bestehender Serviceprozesse", "correct": false }
+    ],
+    "explanation": "Merksatz: Outsourcing verlagert Aufgaben oder Services an externe Anbieter."
+  },
+  {
+    "id": "lf-06-fach-serv-011",
+    "question": "Was beschreibt ein Framework im IT-Service?",
+    "answers": [
+      { "text": "Rahmenwerk mit Begriffen, Prozessen und Vorgehen", "correct": true },
+      { "text": "Serviceübersicht für Kunden und Mitarbeitende", "correct": false },
+      { "text": "Vereinbarung konkreter Servicekennzahlen", "correct": false },
+      { "text": "Lebenszyklus eines einzelnen IT-Services", "correct": false }
+    ],
+    "explanation": "Merksatz: Frameworks geben Orientierung für einheitliche und bewährte Serviceprozesse."
+  },
+  {
+    "id": "lf-06-fach-serv-012",
+    "question": "Was beschreibt ITIL?",
+    "answers": [
+      { "text": "Verbreitetes Framework für IT-Service-Management", "correct": true },
+      { "text": "Internationaler Standard für ITSM-Zertifizierung", "correct": false },
+      { "text": "Schlanker Standard für IT-Service-Management", "correct": false },
+      { "text": "Framework für Governance von Unternehmens-IT", "correct": false }
+    ],
+    "explanation": "Merksatz: ITIL liefert Best Practices für Planung, Betrieb und Verbesserung von IT-Services."
+  },
+  {
+    "id": "lf-06-fach-serv-013",
+    "question": "Was beschreibt ITIL 4 stärker als frühere Lifecycle-Sichten?",
+    "answers": [
+      { "text": "Gemeinsame Wertschöpfung und Service Value Chain", "correct": true },
+      { "text": "Reine Abfolge fester Service-Lebensphasen", "correct": false },
+      { "text": "Technische Überwachung einzelner Systeme", "correct": false },
+      { "text": "Prozessreife nach festen Reifegraden", "correct": false }
+    ],
+    "explanation": "Merksatz: ITIL 4 betont gemeinsame Wertschöpfung durch Serviceanbieter, Partner und Kunden."
+  },
+  {
+    "id": "lf-06-fach-serv-014",
+    "question": "Was beschreibt eine Service Value Chain?",
+    "answers": [
+      { "text": "Wertschöpfungskette zur Erbringung von Services", "correct": true },
+      { "text": "Serviceübersicht mit bestellbaren Leistungen", "correct": false },
+      { "text": "Lebenszyklus von Installation bis Entsorgung", "correct": false },
+      { "text": "Kennzahlensystem für Serviceverfügbarkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Service Value Chain beschreibt Aktivitäten zur gemeinsamen Service-Wertschöpfung."
+  },
+  {
+    "id": "lf-06-fach-serv-015",
+    "question": "Was beschreibt FitSM?",
+    "answers": [
+      { "text": "Schlanker Standard für IT-Service-Management", "correct": true },
+      { "text": "Best-Practice-Framework mit Service Value Chain", "correct": false },
+      { "text": "Framework für Governance und Unternehmens-IT", "correct": false },
+      { "text": "Modell zur Bewertung von Prozessreife", "correct": false }
+    ],
+    "explanation": "Merksatz: FitSM bietet leichtgewichtige Anforderungen für IT-Service-Management."
+  },
+  {
+    "id": "lf-06-fach-serv-016",
+    "question": "Was beschreibt COBIT?",
+    "answers": [
+      { "text": "Framework für Governance und Management von Unternehmens-IT", "correct": true },
+      { "text": "Schlanker Standard für IT-Service-Management", "correct": false },
+      { "text": "Internationaler Standard für IT-Service-Management", "correct": false },
+      { "text": "Best-Practice-Sammlung für IT-Servicebetrieb", "correct": false }
+    ],
+    "explanation": "Merksatz: COBIT unterstützt Steuerung, Kontrolle und Ausrichtung der IT an Unternehmenszielen."
+  },
+  {
+    "id": "lf-06-fach-serv-017",
+    "question": "Was beschreibt ISO/IEC 20000?",
+    "answers": [
+      { "text": "Internationaler Standard für IT-Service-Management", "correct": true },
+      { "text": "Framework für Governance und IT-Steuerung", "correct": false },
+      { "text": "Modell zur Bewertung von Prozessreife", "correct": false },
+      { "text": "Leichtgewichtiger ITSM-Standard", "correct": false }
+    ],
+    "explanation": "Merksatz: ISO/IEC 20000 beschreibt Anforderungen an professionelles IT-Service-Management."
+  },
+  {
+    "id": "lf-06-fach-serv-018",
+    "question": "Was beschreibt CMMI?",
+    "answers": [
+      { "text": "Modell zur Bewertung und Verbesserung von Prozessreife", "correct": true },
+      { "text": "Internationaler Standard für IT-Service-Management", "correct": false },
+      { "text": "Framework für Governance von Unternehmens-IT", "correct": false },
+      { "text": "Best-Practice-Modell für Service Value Chains", "correct": false }
+    ],
+    "explanation": "Merksatz: CMMI hilft, Reifegrade von Prozessen zu bewerten und weiterzuentwickeln."
+  },
+  {
+    "id": "lf-06-fach-serv-019",
+    "question": "Was beschreibt kontinuierliche Verbesserung im Service?",
+    "answers": [
+      { "text": "Services und Prozesse werden regelmäßig verbessert", "correct": true },
+      { "text": "Services werden nach Einführung stabil eingefroren", "correct": false },
+      { "text": "Kundenfeedback wird nur zur Dokumentation genutzt", "correct": false },
+      { "text": "Servicequalität wird ausschließlich vertraglich geregelt", "correct": false }
+    ],
+    "explanation": "Merksatz: Kontinuierliche Verbesserung nutzt Erfahrungen und Kennzahlen zur Serviceoptimierung."
+  },
+  {
+    "id": "lf-06-fach-serv-020",
+    "question": "Was beschreibt Serviceorientierung?",
+    "answers": [
+      { "text": "Ausrichtung von Leistungen an Kundenbedarf und Nutzen", "correct": true },
+      { "text": "Ausrichtung von IT nur an internen Abläufen", "correct": false },
+      { "text": "Fokus auf Technik statt Serviceergebnis", "correct": false },
+      { "text": "Bearbeitung von Tickets ohne Qualitätsziel", "correct": false }
+    ],
+    "explanation": "Merksatz: Serviceorientierung stellt Kundennutzen und verlässliche Leistung in den Mittelpunkt."
+  }
+]

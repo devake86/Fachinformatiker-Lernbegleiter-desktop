@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-fach-adrs-001",
+    "question": "Was beschreibt ein Host im Netzwerk?",
+    "answers": [
+      { "text": "Ein adressierbares Gerät im Netzwerk", "correct": true },
+      { "text": "Ein Vermittlungsgerät zwischen IP-Netzen", "correct": false },
+      { "text": "Eine physische Verbindung zwischen Geräten", "correct": false },
+      { "text": "Ein Dienst mit fest zugeordneter Portnummer", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Host ist ein Gerät, das über Netzwerk\u00ADschnittstellen kommunizieren kann."
+  },
+  {
+    "id": "lf-03-fach-adrs-002",
+    "question": "Was ist ein Interface in der Netzwerktechnik?",
+    "answers": [
+      { "text": "Eine Netzwerk\u00ADschnittstelle eines Hosts", "correct": true },
+      { "text": "Eine logische Adresse eines IP-Netzes", "correct": false },
+      { "text": "Ein Dienst zur automatischen IP-Vergabe", "correct": false },
+      { "text": "Ein Eintrag zur Namensauflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Interface verbindet einen Host logisch oder physisch mit einem Netzwerk."
+  },
+  {
+    "id": "lf-03-fach-adrs-003",
+    "question": "Was ist eine MAC-Adresse?",
+    "answers": [
+      { "text": "Eine Hardwareadresse auf Layer 2", "correct": true },
+      { "text": "Eine logische Adresse auf Layer 3", "correct": false },
+      { "text": "Eine Nummer zur Zuordnung von Anwendungen", "correct": false },
+      { "text": "Eine Maske zur Trennung von Netz und Host", "correct": false }
+    ],
+    "explanation": "Merksatz: Die MAC-Adresse identifiziert ein Netzwerkinterface im lokalen Netz."
+  },
+  {
+    "id": "lf-03-fach-adrs-004",
+    "question": "Wie lang ist eine klassische MAC-Adresse?",
+    "answers": [
+      { "text": "48 Bit", "correct": true },
+      { "text": "16 Bit", "correct": false },
+      { "text": "32 Bit", "correct": false },
+      { "text": "128 Bit", "correct": false }
+    ],
+    "explanation": "Merksatz: MAC-Adressen im Ethernet haben typischerweise 48 Bit."
+  },
+  {
+    "id": "lf-03-fach-adrs-005",
+    "question": "Was ist eine IPv4-Adresse?",
+    "answers": [
+      { "text": "Eine 32-Bit-Adresse auf Layer 3", "correct": true },
+      { "text": "Eine 48-Bit-Adresse auf Layer 2", "correct": false },
+      { "text": "Eine 16-Bit-Nummer für Anwendungen", "correct": false },
+      { "text": "Eine Adresse aus acht Hexadezimalblöcken", "correct": false }
+    ],
+    "explanation": "Merksatz: IPv4 adressiert Geräte logisch in IP-Netzwerken mit 32 Bit."
+  },
+  {
+    "id": "lf-03-fach-adrs-006",
+    "question": "Was ist eine IPv6-Adresse?",
+    "answers": [
+      { "text": "Eine 128-Bit-Adresse auf Layer 3", "correct": true },
+      { "text": "Eine 32-Bit-Adresse auf Layer 3", "correct": false },
+      { "text": "Eine 48-Bit-Adresse für Ethernet", "correct": false },
+      { "text": "Eine 16-Bit-Nummer für TCP-Dienste", "correct": false }
+    ],
+    "explanation": "Merksatz: IPv6 erweitert den IP-Adressraum auf 128 Bit."
+  },
+  {
+    "id": "lf-03-fach-adrs-007",
+    "question": "Was bedeutet dotted-decimal bei IPv4?",
+    "answers": [
+      { "text": "Vier Dezimalzahlen mit Punkten", "correct": true },
+      { "text": "Acht Hexadezimalblöcke mit Doppelpunkten", "correct": false },
+      { "text": "Sechs Hexwerte mit Bindestrichen", "correct": false },
+      { "text": "Eine CIDR-Angabe mit Schrägstrich", "correct": false }
+    ],
+    "explanation": "Merksatz: IPv4 wird meist als vier Oktette in Dezimalschreibweise dargestellt."
+  },
+  {
+    "id": "lf-03-fach-adrs-008",
+    "question": "Was ist ein Oktett bei IPv4?",
+    "answers": [
+      { "text": "Ein 8-Bit-Teil der Adresse", "correct": true },
+      { "text": "Ein 16-Bit-Teil einer Portnummer", "correct": false },
+      { "text": "Ein 32-Bit-Teil einer IPv6-Adresse", "correct": false },
+      { "text": "Ein Eintrag im DNS-Cache", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine IPv4-Adresse besteht aus vier Oktetten mit je 8 Bit."
+  },
+  {
+    "id": "lf-03-fach-adrs-009",
+    "question": "Was beschreibt der Netzanteil einer IPv4-Adresse?",
+    "answers": [
+      { "text": "Das Netzwerk der Adresse", "correct": true },
+      { "text": "Das Gerät innerhalb des IP-Netzes", "correct": false },
+      { "text": "Den Dienst auf einem Zielhost", "correct": false },
+      { "text": "Die Hardwareadresse des Interfaces", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Netzanteil zeigt, zu welchem IP-Netz eine Adresse gehört."
+  },
+  {
+    "id": "lf-03-fach-adrs-010",
+    "question": "Was beschreibt der Hostanteil einer IPv4-Adresse?",
+    "answers": [
+      { "text": "Das einzelne Gerät im Netz", "correct": true },
+      { "text": "Das IP-Netz der Adresse", "correct": false },
+      { "text": "Die Länge des Netzanteils", "correct": false },
+      { "text": "Die Portzuordnung einer Anwendung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Hostanteil identifiziert ein Gerät innerhalb eines IP-Netzes."
+  },
+  {
+    "id": "lf-03-fach-adrs-011",
+    "question": "Was ist eine Subnetzmaske?",
+    "answers": [
+      { "text": "Sie trennt Netz- und Hostanteil", "correct": true },
+      { "text": "Sie beschreibt die Adresse des Gateways", "correct": false },
+      { "text": "Sie vergibt IP-Konfigurationen per Lease", "correct": false },
+      { "text": "Sie löst Namen in IP-Adressen auf", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Subnetzmaske zeigt, welcher Teil einer IP-Adresse das Netz beschreibt."
+  },
+  {
+    "id": "lf-03-fach-adrs-012",
+    "question": "Was beschreibt die CIDR-Schreibweise?",
+    "answers": [
+      { "text": "Die Länge des Netzanteils", "correct": true },
+      { "text": "Die Anzahl dynamischer Portnummern", "correct": false },
+      { "text": "Die Hardwareadresse eines Interfaces", "correct": false },
+      { "text": "Die Reihenfolge von DNS-Abfragen", "correct": false }
+    ],
+    "explanation": "Merksatz: CIDR gibt mit /n an, wie viele Bits zum Netzanteil gehören."
+  },
+  {
+    "id": "lf-03-fach-adrs-013",
+    "question": "Was bedeutet /24 bei einer IPv4-Adresse?",
+    "answers": [
+      { "text": "24 Bit gehören zum Netzanteil", "correct": true },
+      { "text": "24 Bit gehören zur Portnummer", "correct": false },
+      { "text": "24 Hosts bilden den Adressbereich", "correct": false },
+      { "text": "24 Oktette bilden die IPv4-Adresse", "correct": false }
+    ],
+    "explanation": "Merksatz: /24 entspricht 24 gesetzten Bits in der Subnetzmaske."
+  },
+  {
+    "id": "lf-03-fach-adrs-014",
+    "question": "Was ist die Netz-ID eines IPv4-Netzes?",
+    "answers": [
+      { "text": "Die erste Adresse des Netzes", "correct": true },
+      { "text": "Die letzte Adresse des Netzes", "correct": false },
+      { "text": "Die erste nutzbare Hostadresse", "correct": false },
+      { "text": "Die Adresse des Standardgateways", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Netz-ID beschreibt das gesamte IP-Netz und ist keine Hostadresse."
+  },
+  {
+    "id": "lf-03-fach-adrs-015",
+    "question": "Was ist die Broadcastadresse eines IPv4-Netzes?",
+    "answers": [
+      { "text": "Die letzte Adresse des Netzes", "correct": true },
+      { "text": "Die erste Adresse des Netzes", "correct": false },
+      { "text": "Die erste nutzbare Hostadresse", "correct": false },
+      { "text": "Die Adresse des DHCP-Servers", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Broadcastadresse erreicht alle Hosts im jeweiligen IPv4-Netz."
+  },
+  {
+    "id": "lf-03-fach-adrs-016",
+    "question": "Was ist der Hostbereich eines IPv4-Netzes?",
+    "answers": [
+      { "text": "Die nutzbaren Adressen für Geräte", "correct": true },
+      { "text": "Die Netz-ID und Broadcastadresse", "correct": false },
+      { "text": "Die Ports eines Serverdienstes", "correct": false },
+      { "text": "Die Einträge im DNS-Cache", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Hostbereich enthält die verwendbaren IP-Adressen zwischen Netz-ID und Broadcast."
+  },
+  {
+    "id": "lf-03-fach-adrs-017",
+    "question": "Was ist die Loopback-Adresse 127.0.0.1?",
+    "answers": [
+      { "text": "Die IPv4-Adresse des eigenen Systems", "correct": true },
+      { "text": "Die IPv4-Adresse des Standardgateways", "correct": false },
+      { "text": "Die Broadcastadresse eines IPv4-Netzes", "correct": false },
+      { "text": "Die Adresse eines öffentlichen DNS-Servers", "correct": false }
+    ],
+    "explanation": "Merksatz: 127.0.0.1 verweist auf das eigene Gerät und testet den lokalen IP-Stack."
+  },
+  {
+    "id": "lf-03-fach-adrs-018",
+    "question": "Was ist die IPv6-Loopback-Adresse?",
+    "answers": [
+      { "text": "::1", "correct": true },
+      { "text": "127.0.0.1", "correct": false },
+      { "text": "255.255.255.255", "correct": false },
+      { "text": "169.254.0.1", "correct": false }
+    ],
+    "explanation": "Merksatz: ::1 ist die Loopback-Adresse für IPv6."
+  },
+  {
+    "id": "lf-03-fach-adrs-019",
+    "question": "Was ist eine private IPv4-Adresse?",
+    "answers": [
+      { "text": "Eine interne Adresse für LANs", "correct": true },
+      { "text": "Eine global routbare Internetadresse", "correct": false },
+      { "text": "Eine Hardwareadresse eines Interfaces", "correct": false },
+      { "text": "Eine Portnummer für Webdienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Private IPv4-Adressen werden intern genutzt und im Internet nicht direkt geroutet."
+  },
+  {
+    "id": "lf-03-fach-adrs-020",
+    "question": "Was ist eine öffentliche IP-Adresse?",
+    "answers": [
+      { "text": "Eine im Internet routbare Adresse", "correct": true },
+      { "text": "Eine interne Adresse für private LANs", "correct": false },
+      { "text": "Eine Ethernet-Adresse auf Layer 2", "correct": false },
+      { "text": "Eine Adresse aus dem APIPA-Bereich", "correct": false }
+    ],
+    "explanation": "Merksatz: Öffentliche IP-Adressen sind global erreichbar und müssen eindeutig vergeben sein."
+  },
+  {
+    "id": "lf-03-fach-adrs-021",
+    "question": "Was ist ein Standardgateway?",
+    "answers": [
+      { "text": "Der Weg in andere Netzwerke", "correct": true },
+      { "text": "Der Server zur Namensauflösung", "correct": false },
+      { "text": "Der Dienst zur IP-Konfiguration", "correct": false },
+      { "text": "Die lokale Adresse des eigenen Systems", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Standardgateway leitet Daten aus dem eigenen Netz in andere Netze weiter."
+  },
+  {
+    "id": "lf-03-fach-adrs-022",
+    "question": "Was ist ein DNS-Server?",
+    "answers": [
+      { "text": "Ein Server zur Namensauflösung", "correct": true },
+      { "text": "Ein Server zur IP-Adressvergabe", "correct": false },
+      { "text": "Ein Gateway für andere Netzwerke", "correct": false },
+      { "text": "Ein Server für ARP-Zuordnungen", "correct": false }
+    ],
+    "explanation": "Merksatz: DNS übersetzt Namen wie Domains in passende IP-Adressen."
+  },
+  {
+    "id": "lf-03-fach-adrs-023",
+    "question": "Was ist ein DHCP-Server?",
+    "answers": [
+      { "text": "Ein Server für IP-Konfigurationen", "correct": true },
+      { "text": "Ein Server zur Namensauflösung", "correct": false },
+      { "text": "Ein Server für MAC-Auflösung", "correct": false },
+      { "text": "Ein Router für fremde Netzwerke", "correct": false }
+    ],
+    "explanation": "Merksatz: DHCP verteilt IP-Adresse, Subnetzmaske, Gateway und DNS automatisch."
+  },
+  {
+    "id": "lf-03-fach-adrs-024",
+    "question": "Was ist eine statische IP-Konfiguration?",
+    "answers": [
+      { "text": "Eine manuell festgelegte Konfiguration", "correct": true },
+      { "text": "Eine per DHCP vergebene Konfiguration", "correct": false },
+      { "text": "Eine temporäre APIPA-Konfiguration", "correct": false },
+      { "text": "Eine dynamische Portzuordnung", "correct": false }
+    ],
+    "explanation": "Merksatz: Statische IP-Daten werden von Hand eingetragen und bleiben fest."
+  },
+  {
+    "id": "lf-03-fach-adrs-025",
+    "question": "Was ist eine dynamische IP-Konfiguration?",
+    "answers": [
+      { "text": "Eine automatisch vergebene Konfiguration", "correct": true },
+      { "text": "Eine manuell eingetragene Konfiguration", "correct": false },
+      { "text": "Eine fest reservierte MAC-Adresse", "correct": false },
+      { "text": "Eine statische Routingtabelle", "correct": false }
+    ],
+    "explanation": "Merksatz: Dynamische IP-Daten werden typischerweise per DHCP vergeben."
+  },
+  {
+    "id": "lf-03-fach-adrs-026",
+    "question": "Was ist eine DHCP-Reservierung?",
+    "answers": [
+      { "text": "Eine feste Zuordnung per MAC-Adresse", "correct": true },
+      { "text": "Eine zufällige Adresse aus dem Lease-Pool", "correct": false },
+      { "text": "Eine DNS-Zuordnung zu einem Hostnamen", "correct": false },
+      { "text": "Eine Broadcastadresse für das Subnetz", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine DHCP-Reservierung gibt einem bekannten Gerät immer dieselbe IP-Konfiguration."
+  },
+  {
+    "id": "lf-03-fach-adrs-027",
+    "question": "Was ist ARP?",
+    "answers": [
+      { "text": "Ein Protokoll zur MAC-Ermittlung", "correct": true },
+      { "text": "Ein Protokoll zur Namensauflösung", "correct": false },
+      { "text": "Ein Protokoll zur IP-Konfiguration", "correct": false },
+      { "text": "Ein Protokoll zur Portzuordnung", "correct": false }
+    ],
+    "explanation": "Merksatz: ARP findet zu einer IPv4-Adresse die passende MAC-Adresse im lokalen Netz."
+  },
+  {
+    "id": "lf-03-fach-adrs-028",
+    "question": "Was ist DNS?",
+    "answers": [
+      { "text": "Ein System zur Namensauflösung", "correct": true },
+      { "text": "Ein Protokoll zur MAC-Ermittlung", "correct": false },
+      { "text": "Ein Dienst zur IP-Konfiguration", "correct": false },
+      { "text": "Ein Verfahren zur Portvergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: DNS macht aus merkbaren Namen nutzbare IP-Adressen."
+  },
+  {
+    "id": "lf-03-fach-adrs-029",
+    "question": "Was ist DHCP?",
+    "answers": [
+      { "text": "Ein Protokoll zur automatischen IP-Vergabe", "correct": true },
+      { "text": "Ein System zur Namensauflösung", "correct": false },
+      { "text": "Ein Protokoll zur MAC-Ermittlung", "correct": false },
+      { "text": "Ein Verfahren für öffentliche IP-Routen", "correct": false }
+    ],
+    "explanation": "Merksatz: DHCP vereinfacht die IP-Konfiguration vieler Clients."
+  },
+  {
+    "id": "lf-03-fach-adrs-030",
+    "question": "Was ist ein Port in TCP/IP-Netzen?",
+    "answers": [
+      { "text": "Eine Adresse für Anwendungen", "correct": true },
+      { "text": "Eine physische Buchse am Switch", "correct": false },
+      { "text": "Eine logische Adresse eines IP-Netzes", "correct": false },
+      { "text": "Eine Hardwareadresse eines Interfaces", "correct": false }
+    ],
+    "explanation": "Merksatz: Ports ordnen Daten der richtigen Anwendung auf einem Host zu."
+  },
+  {
+    "id": "lf-03-fach-adrs-031",
+    "question": "Wie lang ist eine TCP- oder UDP-Portnummer?",
+    "answers": [
+      { "text": "16 Bit", "correct": true },
+      { "text": "8 Bit", "correct": false },
+      { "text": "32 Bit", "correct": false },
+      { "text": "128 Bit", "correct": false }
+    ],
+    "explanation": "Merksatz: Portnummern sind 16 Bit lang und reichen von 0 bis 65535."
+  },
+  {
+    "id": "lf-03-fach-adrs-032",
+    "question": "Was sind Well-known Ports?",
+    "answers": [
+      { "text": "Standardports von 0 bis 1023", "correct": true },
+      { "text": "Kurzzeitig vergebene Quellports", "correct": false },
+      { "text": "Ports für private IPv4-Adressen", "correct": false },
+      { "text": "Ports aus dem dynamischen Bereich", "correct": false }
+    ],
+    "explanation": "Merksatz: Well-known Ports sind bekannte Standardports für wichtige Dienste."
+  },
+  {
+    "id": "lf-03-fach-adrs-033",
+    "question": "Was sind dynamische Ports?",
+    "answers": [
+      { "text": "Kurzzeitig vergebene Quellports", "correct": true },
+      { "text": "Standardports bekannter Serverdienste", "correct": false },
+      { "text": "Ports aus dem Bereich 0 bis 1023", "correct": false },
+      { "text": "Ports mit fester Dienstzuordnung", "correct": false }
+    ],
+    "explanation": "Merksatz: Dynamische Ports helfen, Antworten der richtigen Anfrage zuzuordnen."
+  },
+  {
+    "id": "lf-03-fach-adrs-034",
+    "question": "Was ist ein TCP-Port?",
+    "answers": [
+      { "text": "Ein Port für TCP-Verbindungen", "correct": true },
+      { "text": "Ein Port für UDP-Datagramme", "correct": false },
+      { "text": "Eine physische Buchse am Router", "correct": false },
+      { "text": "Eine Adresse für ein IP-Netz", "correct": false }
+    ],
+    "explanation": "Merksatz: TCP-Ports adressieren Anwendungen bei verbindungsorientierter Kommunikation."
+  },
+  {
+    "id": "lf-03-fach-adrs-035",
+    "question": "Was ist ein UDP-Port?",
+    "answers": [
+      { "text": "Ein Port für UDP-Datagramme", "correct": true },
+      { "text": "Ein Port für TCP-Verbindungen", "correct": false },
+      { "text": "Eine physische Schnittstelle am Switch", "correct": false },
+      { "text": "Eine Adresse für ein IPv6-Netz", "correct": false }
+    ],
+    "explanation": "Merksatz: UDP-Ports adressieren Anwendungen bei verbindungsloser Kommunikation."
+  },
+  {
+    "id": "lf-03-fach-adrs-036",
+    "question": "Was ist eine Unicast-Adresse?",
+    "answers": [
+      { "text": "Eine Adresse für genau einen Empfänger", "correct": true },
+      { "text": "Eine Adresse für eine Empfängergruppe", "correct": false },
+      { "text": "Eine Adresse für alle Hosts im Netz", "correct": false },
+      { "text": "Eine Adresse für einen passenden Gruppenknoten", "correct": false }
+    ],
+    "explanation": "Merksatz: Unicast beschreibt Kommunikation von einem Sender zu einem Empfänger."
+  },
+  {
+    "id": "lf-03-fach-adrs-037",
+    "question": "Was ist eine Multicast-Adresse?",
+    "answers": [
+      { "text": "Eine Adresse für eine Empfängergruppe", "correct": true },
+      { "text": "Eine Adresse für genau einen Empfänger", "correct": false },
+      { "text": "Eine Adresse für alle Hosts im Netz", "correct": false },
+      { "text": "Eine Adresse für den nächsten Gruppenknoten", "correct": false }
+    ],
+    "explanation": "Merksatz: Multicast sendet Daten gezielt an eine Gruppe von Empfängern."
+  },
+  {
+    "id": "lf-03-fach-adrs-038",
+    "question": "Was ist eine Broadcast-Adresse?",
+    "answers": [
+      { "text": "Eine Adresse für alle im Netz", "correct": true },
+      { "text": "Eine Adresse für genau einen Empfänger", "correct": false },
+      { "text": "Eine Adresse für eine ausgewählte Gruppe", "correct": false },
+      { "text": "Eine Adresse für den nächsten Gruppenknoten", "correct": false }
+    ],
+    "explanation": "Merksatz: Broadcast richtet sich an alle erreichbaren Teilnehmer eines Netzbereichs."
+  },
+  {
+    "id": "lf-03-fach-adrs-039",
+    "question": "Was ist Anycast?",
+    "answers": [
+      { "text": "Adressierung eines nahen Gruppenziels", "correct": true },
+      { "text": "Adressierung aller Hosts im Netz", "correct": false },
+      { "text": "Adressierung einer festen Empfängergruppe", "correct": false },
+      { "text": "Adressierung eines einzelnen lokalen Hosts", "correct": false }
+    ],
+    "explanation": "Merksatz: Anycast erreicht einen geeigneten Empfänger aus einer Gruppe."
+  },
+  {
+    "id": "lf-03-fach-adrs-040",
+    "question": "Was ist APIPA?",
+    "answers": [
+      { "text": "Eine automatische Ersatz-IP-Adresse", "correct": true },
+      { "text": "Eine per DHCP reservierte Adresse", "correct": false },
+      { "text": "Eine öffentliche Adresse im Internet", "correct": false },
+      { "text": "Eine statische Adresse des Gateways", "correct": false }
+    ],
+    "explanation": "Merksatz: APIPA vergibt bei fehlendem DHCP eine lokale Ersatzadresse aus 169.254.0.0/16."
+  }
+]

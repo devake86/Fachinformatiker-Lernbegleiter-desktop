@@ -1,0 +1,332 @@
+[
+  {
+    "id": "lf-06-abkz-001",
+    "question": "Wofür steht ACD im Servicekontext?",
+    "answers": [
+      { "text": "Automatic Call Distribution", "correct": true },
+      { "text": "Application Control Dashboard", "correct": false },
+      { "text": "Advanced Customer Database", "correct": false },
+      { "text": "Automated Change Deployment", "correct": false }
+    ],
+    "explanation": "ACD heißt Automatic Call Distribution."
+  },
+  {
+    "id": "lf-06-abkz-002",
+    "question": "Wofür steht AV im Datenschutzkontext?",
+    "answers": [
+      { "text": "Auftragsverarbeitung", "correct": true },
+      { "text": "Anwendungsvertrag", "correct": false },
+      { "text": "Arbeitsverzeichnis", "correct": false },
+      { "text": "Automatische Verteilung", "correct": false }
+    ],
+    "explanation": "AV heißt Auftragsverarbeitung."
+  },
+  {
+    "id": "lf-06-abkz-003",
+    "question": "Wofür steht CAL im Lizenzkontext?",
+    "answers": [
+      { "text": "Client Access License", "correct": true },
+      { "text": "Customer Agreement Level", "correct": false },
+      { "text": "Change Audit Log", "correct": false },
+      { "text": "Cloud Application Layer", "correct": false }
+    ],
+    "explanation": "CAL heißt Client Access License."
+  },
+  {
+    "id": "lf-06-abkz-004",
+    "question": "Wofür steht CMMI?",
+    "answers": [
+      { "text": "Capability Maturity Model Integration", "correct": true },
+      { "text": "Customer Management Method Interface", "correct": false },
+      { "text": "Cloud Monitoring Maturity Index", "correct": false },
+      { "text": "Change Management Model Input", "correct": false }
+    ],
+    "explanation": "CMMI heißt Capability Maturity Model Integration."
+  },
+  {
+    "id": "lf-06-abkz-005",
+    "question": "Wofür steht COBIT?",
+    "answers": [
+      { "text": "Control Objectives for Information and Related Technologies", "correct": true },
+      { "text": "Customer Operations for Business IT", "correct": false },
+      { "text": "Cloud Object Integration Tool", "correct": false },
+      { "text": "Common Backup and Incident Tracking", "correct": false }
+    ],
+    "explanation": "COBIT heißt Control Objectives for Information and Related Technologies."
+  },
+  {
+    "id": "lf-06-abkz-006",
+    "question": "Wofür steht CR im Servicekontext?",
+    "answers": [
+      { "text": "Change Request", "correct": true },
+      { "text": "Customer Report", "correct": false },
+      { "text": "Cloud Runtime", "correct": false },
+      { "text": "Control Result", "correct": false }
+    ],
+    "explanation": "CR heißt Change Request."
+  },
+  {
+    "id": "lf-06-abkz-007",
+    "question": "Wofür steht DMAIC?",
+    "answers": [
+      { "text": "Define, Measure, Analyze, Improve, Control", "correct": true },
+      { "text": "Design, Manage, Audit, Install, Close", "correct": false },
+      { "text": "Define, Monitor, Alert, Integrate, Change", "correct": false },
+      { "text": "Data, Metrics, Access, Incident, Customer", "correct": false }
+    ],
+    "explanation": "DMAIC heißt Define, Measure, Analyze, Improve, Control."
+  },
+  {
+    "id": "lf-06-abkz-008",
+    "question": "Wofür steht FAQ?",
+    "answers": [
+      { "text": "Frequently Asked Questions", "correct": true },
+      { "text": "Fast Answer Queue", "correct": false },
+      { "text": "Field Access Quality", "correct": false },
+      { "text": "Failure Analysis Query", "correct": false }
+    ],
+    "explanation": "FAQ heißt Frequently Asked Questions."
+  },
+  {
+    "id": "lf-06-abkz-009",
+    "question": "Wofür steht FIN im TCP-Kontext?",
+    "answers": [
+      { "text": "Finish", "correct": true },
+      { "text": "Final Incident Number", "correct": false },
+      { "text": "Fault Information Notice", "correct": false },
+      { "text": "File Integration Node", "correct": false }
+    ],
+    "explanation": "FIN steht im TCP-Kontext für Finish."
+  },
+  {
+    "id": "lf-06-abkz-010",
+    "question": "Wofür steht FSM im Servicekontext?",
+    "answers": [
+      { "text": "Field Service Management", "correct": true },
+      { "text": "First System Monitoring", "correct": false },
+      { "text": "File Service Method", "correct": false },
+      { "text": "Framework Security Model", "correct": false }
+    ],
+    "explanation": "FSM heißt Field Service Management."
+  },
+  {
+    "id": "lf-06-abkz-011",
+    "question": "Wofür steht GUI?",
+    "answers": [
+      { "text": "Graphical User Interface", "correct": true },
+      { "text": "General User Incident", "correct": false },
+      { "text": "Global Update Integration", "correct": false },
+      { "text": "Guided Utility Installation", "correct": false }
+    ],
+    "explanation": "GUI heißt Graphical User Interface."
+  },
+  {
+    "id": "lf-06-abkz-012",
+    "question": "Wofür steht IMAC/R/D?",
+    "answers": [
+      { "text": "Install, Move, Add, Change, Remove, Dispose", "correct": true },
+      { "text": "Incident, Monitor, Alert, Control, Repair, Deploy", "correct": false },
+      { "text": "Input, Manage, Analyze, Check, Report, Delete", "correct": false },
+      { "text": "Install, Measure, Audit, Configure, Restore, Document", "correct": false }
+    ],
+    "explanation": "IMAC/R/D heißt Install, Move, Add, Change, Remove, Dispose."
+  },
+  {
+    "id": "lf-06-abkz-013",
+    "question": "Wofür steht ITIL?",
+    "answers": [
+      { "text": "Information Technology Infrastructure Library", "correct": true },
+      { "text": "Internal Ticket Incident List", "correct": false },
+      { "text": "IT Integration Lifecycle", "correct": false },
+      { "text": "Information Tracking and Issue Log", "correct": false }
+    ],
+    "explanation": "ITIL heißt Information Technology Infrastructure Library."
+  },
+  {
+    "id": "lf-06-abkz-014",
+    "question": "Wofür steht ITSM?",
+    "answers": [
+      { "text": "IT-Service-Management", "correct": true },
+      { "text": "IT-System-Monitoring", "correct": false },
+      { "text": "Internal Ticket Service Model", "correct": false },
+      { "text": "Incident Tracking Security Method", "correct": false }
+    ],
+    "explanation": "ITSM heißt IT-Service-Management."
+  },
+  {
+    "id": "lf-06-abkz-015",
+    "question": "Wofür steht KPI?",
+    "answers": [
+      { "text": "Key Performance Indicator", "correct": true },
+      { "text": "Known Problem Incident", "correct": false },
+      { "text": "Knowledge Process Integration", "correct": false },
+      { "text": "Key Priority Information", "correct": false }
+    ],
+    "explanation": "KPI heißt Key Performance Indicator."
+  },
+  {
+    "id": "lf-06-abkz-016",
+    "question": "Wofür steht KVP?",
+    "answers": [
+      { "text": "Kontinuierlicher Verbesserungsprozess", "correct": true },
+      { "text": "Kundenvertraglicher Verfügbarkeitsplan", "correct": false },
+      { "text": "Kontrollierter Vorgangsprozess", "correct": false },
+      { "text": "Kommunikations- und Verwaltungsprotokoll", "correct": false }
+    ],
+    "explanation": "KVP heißt Kontinuierlicher Verbesserungsprozess."
+  },
+  {
+    "id": "lf-06-abkz-017",
+    "question": "Wofür steht MSP?",
+    "answers": [
+      { "text": "Managed Service Provider", "correct": true },
+      { "text": "Monitoring Service Protocol", "correct": false },
+      { "text": "Major Support Problem", "correct": false },
+      { "text": "Management System Process", "correct": false }
+    ],
+    "explanation": "MSP heißt Managed Service Provider."
+  },
+  {
+    "id": "lf-06-abkz-018",
+    "question": "Wofür steht MTBF?",
+    "answers": [
+      { "text": "Mean Time Between Failures", "correct": true },
+      { "text": "Maximum Ticket Backlog Factor", "correct": false },
+      { "text": "Managed Time Before Fix", "correct": false },
+      { "text": "Monitoring Tool Business Function", "correct": false }
+    ],
+    "explanation": "MTBF heißt Mean Time Between Failures."
+  },
+  {
+    "id": "lf-06-abkz-019",
+    "question": "Wofür steht MTTR?",
+    "answers": [
+      { "text": "Mean Time to Repair", "correct": true },
+      { "text": "Maximum Time to React", "correct": false },
+      { "text": "Managed Ticket Tracking Report", "correct": false },
+      { "text": "Monitoring Time Table Rule", "correct": false }
+    ],
+    "explanation": "MTTR heißt Mean Time to Repair."
+  },
+  {
+    "id": "lf-06-abkz-020",
+    "question": "Wofür steht NUL im Lizenzkontext?",
+    "answers": [
+      { "text": "Named User License", "correct": true },
+      { "text": "Network Usage Log", "correct": false },
+      { "text": "New User Level", "correct": false },
+      { "text": "Normal Update License", "correct": false }
+    ],
+    "explanation": "NUL heißt Named User License."
+  },
+  {
+    "id": "lf-06-abkz-021",
+    "question": "Wofür steht OLA?",
+    "answers": [
+      { "text": "Operational Level Agreement", "correct": true },
+      { "text": "Online License Agreement", "correct": false },
+      { "text": "Open Log Analysis", "correct": false },
+      { "text": "Organized Level Alert", "correct": false }
+    ],
+    "explanation": "OLA heißt Operational Level Agreement."
+  },
+  {
+    "id": "lf-06-abkz-022",
+    "question": "Wofür steht ROI?",
+    "answers": [
+      { "text": "Return on Investment", "correct": true },
+      { "text": "Rate of Incident", "correct": false },
+      { "text": "Remote Operations Interface", "correct": false },
+      { "text": "Risk of Installation", "correct": false }
+    ],
+    "explanation": "ROI heißt Return on Investment."
+  },
+  {
+    "id": "lf-06-abkz-023",
+    "question": "Wofür steht SaaS?",
+    "answers": [
+      { "text": "Software as a Service", "correct": true },
+      { "text": "Support as a System", "correct": false },
+      { "text": "Service and Security", "correct": false },
+      { "text": "System as a Software", "correct": false }
+    ],
+    "explanation": "SaaS heißt Software as a Service."
+  },
+  {
+    "id": "lf-06-abkz-024",
+    "question": "Wofür steht SLA?",
+    "answers": [
+      { "text": "Service Level Agreement", "correct": true },
+      { "text": "Support License Agreement", "correct": false },
+      { "text": "Service Log Analysis", "correct": false },
+      { "text": "System Lifecycle Audit", "correct": false }
+    ],
+    "explanation": "SLA heißt Service Level Agreement."
+  },
+  {
+    "id": "lf-06-abkz-025",
+    "question": "Wofür steht SMS im Servicekontext?",
+    "answers": [
+      { "text": "Service Management System", "correct": true },
+      { "text": "Short Message Service", "correct": false },
+      { "text": "Security Monitoring Script", "correct": false },
+      { "text": "System Maintenance Standard", "correct": false }
+    ],
+    "explanation": "SMS heißt im Servicekontext Service Management System."
+  },
+  {
+    "id": "lf-06-abkz-026",
+    "question": "Wofür steht SOA im Servicekontext?",
+    "answers": [
+      { "text": "Service-oriented Architecture", "correct": true },
+      { "text": "Support Operational Agreement", "correct": false },
+      { "text": "System Output Analysis", "correct": false },
+      { "text": "Service Owner Assignment", "correct": false }
+    ],
+    "explanation": "SOA heißt Service-oriented Architecture."
+  },
+  {
+    "id": "lf-06-abkz-027",
+    "question": "Wofür steht SPOC?",
+    "answers": [
+      { "text": "Single Point of Contact", "correct": true },
+      { "text": "Service Process Operation Center", "correct": false },
+      { "text": "Support Priority and Outage Control", "correct": false },
+      { "text": "System Performance Output Check", "correct": false }
+    ],
+    "explanation": "SPOC heißt Single Point of Contact."
+  },
+  {
+    "id": "lf-06-abkz-028",
+    "question": "Wofür steht SYN im TCP-Kontext?",
+    "answers": [
+      { "text": "Synchronize", "correct": true },
+      { "text": "System Yield Number", "correct": false },
+      { "text": "Service Year Note", "correct": false },
+      { "text": "Support Yes Notification", "correct": false }
+    ],
+    "explanation": "SYN steht im TCP-Kontext für Synchronize."
+  },
+  {
+    "id": "lf-06-abkz-029",
+    "question": "Wofür steht UC im Servicekontext?",
+    "answers": [
+      { "text": "Underpinning Contract", "correct": true },
+      { "text": "User Certificate", "correct": false },
+      { "text": "Update Control", "correct": false },
+      { "text": "Unified Communication", "correct": false }
+    ],
+    "explanation": "UC heißt Underpinning Contract."
+  },
+  {
+    "id": "lf-06-abkz-030",
+    "question": "Wofür steht UStG?",
+    "answers": [
+      { "text": "Umsatzsteuergesetz", "correct": true },
+      { "text": "Unternehmensservicegesetz", "correct": false },
+      { "text": "User-Service-Tracking-Guideline", "correct": false },
+      { "text": "Unified Support Tool Group", "correct": false }
+    ],
+    "explanation": "UStG heißt Umsatzsteuergesetz."
+  }
+]

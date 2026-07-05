@@ -1,0 +1,497 @@
+[
+  {
+    "id": "lf-02-fach-kommun-001",
+    "question": "Was ist Kundenorientierung?",
+    "answers": [
+      { "text": "Ausrichtung auf Bedürfnisse des Kunden", "correct": true },
+      { "text": "Ausrichtung auf interne Prozessvorgaben", "correct": false },
+      { "text": "Fokus auf Lagerbestand und Einkaufspreis", "correct": false },
+      { "text": "Standardangebot unabhängig vom Bedarf", "correct": false }
+    ],
+    "explanation": "Merksatz: Kundenorientierung bedeutet, Lösungen am Bedarf des Kunden auszurichten."
+  },
+  {
+    "id": "lf-02-fach-kommun-002",
+    "question": "Was ist ein Beratungsgespräch?",
+    "answers": [
+      { "text": "Ein Gespräch zur passenden Lösungsermittlung", "correct": true },
+      { "text": "Ein Gespräch zur reinen Rechnungsprüfung", "correct": false },
+      { "text": "Ein interner Vorgang zur Lagerbuchung", "correct": false },
+      { "text": "Ein Vertragsschluss nach Wareneingang", "correct": false }
+    ],
+    "explanation": "Merksatz: Im Beratungsgespräch werden Anforderungen geklärt und geeignete Lösungen erklärt."
+  },
+  {
+    "id": "lf-02-fach-kommun-003",
+    "question": "Was ist eine Bedarfsfrage?",
+    "answers": [
+      { "text": "Eine Frage zur Ermittlung des Kundenbedarfs", "correct": true },
+      { "text": "Eine Frage zur Berechnung der Umsatzsteuer", "correct": false },
+      { "text": "Eine Frage zur internen Bilanzierung", "correct": false },
+      { "text": "Eine Frage zur Lagerbewertung", "correct": false }
+    ],
+    "explanation": "Merksatz: Bedarfsfragen helfen, echte Anforderungen statt Vermutungen zu erfassen."
+  },
+  {
+    "id": "lf-02-fach-kommun-004",
+    "question": "Was ist eine offene Frage?",
+    "answers": [
+      { "text": "Eine Frage mit freier Antwortmöglichkeit", "correct": true },
+      { "text": "Eine Frage mit begrenzter Auswahl", "correct": false },
+      { "text": "Eine Frage zur schnellen Bestätigung", "correct": false },
+      { "text": "Eine Frage mit vorgegebenen Optionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Offene Fragen fördern ausführliche Antworten und bessere Bedarfsermittlung."
+  },
+  {
+    "id": "lf-02-fach-kommun-005",
+    "question": "Was ist eine geschlossene Frage?",
+    "answers": [
+      { "text": "Eine Frage mit begrenzter Antwortmöglichkeit", "correct": true },
+      { "text": "Eine Frage mit freier Antwortmöglichkeit", "correct": false },
+      { "text": "Eine Frage zur ausführlichen Bedarfsschilderung", "correct": false },
+      { "text": "Eine Frage für offene Erfahrungsberichte", "correct": false }
+    ],
+    "explanation": "Merksatz: Geschlossene Fragen eignen sich, um konkrete Punkte schnell zu klären."
+  },
+  {
+    "id": "lf-02-fach-kommun-006",
+    "question": "Was ist eine Entscheidungsfrage?",
+    "answers": [
+      { "text": "Eine Frage zur Auswahl zwischen Möglichkeiten", "correct": true },
+      { "text": "Eine Frage zur freien Bedarfsschilderung", "correct": false },
+      { "text": "Eine Frage zur Gesprächseröffnung", "correct": false },
+      { "text": "Eine Frage zur internen Lagerbewertung", "correct": false }
+    ],
+    "explanation": "Merksatz: Entscheidungsfragen helfen, zwischen klaren Alternativen zu wählen."
+  },
+  {
+    "id": "lf-02-fach-kommun-007",
+    "question": "Was ist eine Kontrollfrage?",
+    "answers": [
+      { "text": "Eine Frage zur Überprüfung des Verständnisses", "correct": true },
+      { "text": "Eine Frage zur Auswahl von Lieferanten", "correct": false },
+      { "text": "Eine Frage zur Eigentumsübertragung", "correct": false },
+      { "text": "Eine Frage zur Netzspannungsmessung", "correct": false }
+    ],
+    "explanation": "Merksatz: Kontrollfragen sichern ab, ob beide Seiten dasselbe verstanden haben."
+  },
+  {
+    "id": "lf-02-fach-kommun-008",
+    "question": "Was ist aktives Zuhören?",
+    "answers": [
+      { "text": "Aufmerksames Zuhören mit Rückmeldung", "correct": true },
+      { "text": "Schnelles Wechseln des Gesprächsthemas", "correct": false },
+      { "text": "Reines Notieren der Kundenworte", "correct": false },
+      { "text": "Bewerten vor vollständiger Klärung", "correct": false }
+    ],
+    "explanation": "Merksatz: Aktives Zuhören zeigt Interesse und hilft, Missverständnisse zu vermeiden."
+  },
+  {
+    "id": "lf-02-fach-kommun-009",
+    "question": "Was ist nonverbale Kommunikation?",
+    "answers": [
+      { "text": "Kommunikation ohne Worte", "correct": true },
+      { "text": "Kommunikation über Fachbegriffe", "correct": false },
+      { "text": "Kommunikation über Rechnungsdaten", "correct": false },
+      { "text": "Kommunikation über Vertragsklauseln", "correct": false }
+    ],
+    "explanation": "Merksatz: Nonverbale Kommunikation umfasst z. B. Blickkontakt, Gestik, Mimik und Körperhaltung."
+  },
+  {
+    "id": "lf-02-fach-kommun-010",
+    "question": "Was ist das Vier-Seiten-Modell?",
+    "answers": [
+      { "text": "Ein Modell mit vier Ebenen einer Nachricht", "correct": true },
+      { "text": "Ein Modell zur Lieferantenbewertung", "correct": false },
+      { "text": "Ein Modell zur Handelskalkulation", "correct": false },
+      { "text": "Ein Modell zur Netzplantechnik", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Nachricht kann Sachinhalt, Selbstoffenbarung, Beziehung und Appell enthalten."
+  },
+  {
+    "id": "lf-02-fach-kommun-011",
+    "question": "Was ist die Sachebene im Vier-Seiten-Modell?",
+    "answers": [
+      { "text": "Die sachliche Information einer Nachricht", "correct": true },
+      { "text": "Die Aussage über das Verhältnis", "correct": false },
+      { "text": "Die gewünschte Wirkung beim Empfänger", "correct": false },
+      { "text": "Die persönliche Selbstoffenbarung", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Sachebene beschreibt, worüber objektiv informiert wird."
+  },
+  {
+    "id": "lf-02-fach-kommun-012",
+    "question": "Was ist die Beziehungsebene im Vier-Seiten-Modell?",
+    "answers": [
+      { "text": "Die Aussage über das Verhältnis zum Gegenüber", "correct": true },
+      { "text": "Die sachliche Information der Nachricht", "correct": false },
+      { "text": "Die gewünschte Handlung des Empfängers", "correct": false },
+      { "text": "Die technische Lieferfrist", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Beziehungsebene zeigt, wie Sender und Empfänger zueinander stehen."
+  },
+  {
+    "id": "lf-02-fach-kommun-013",
+    "question": "Was ist die Appellebene im Vier-Seiten-Modell?",
+    "answers": [
+      { "text": "Die gewünschte Wirkung beim Empfänger", "correct": true },
+      { "text": "Die sachliche Information der Nachricht", "correct": false },
+      { "text": "Die Aussage über das Verhältnis", "correct": false },
+      { "text": "Die persönliche Selbstoffenbarung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Appell sagt, was der Sender vom Empfänger erreichen möchte."
+  },
+  {
+    "id": "lf-02-fach-kommun-014",
+    "question": "Was ist das Eisbergmodell?",
+    "answers": [
+      { "text": "Ein Modell sichtbarer und verborgener Kommunikation", "correct": true },
+      { "text": "Ein Modell zur Preisberechnung", "correct": false },
+      { "text": "Ein Modell zur Hardwarekühlung", "correct": false },
+      { "text": "Ein Modell zur Netzwerktopologie", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Eisbergmodell zeigt, dass Gefühle und Beziehungen oft verborgen mitwirken."
+  },
+  {
+    "id": "lf-02-fach-kommun-015",
+    "question": "Was ist Einwandbehandlung?",
+    "answers": [
+      { "text": "Der sachliche Umgang mit Bedenken", "correct": true },
+      { "text": "Die Berechnung von Kundenskonto", "correct": false },
+      { "text": "Die sofortige Ablehnung von Kritik", "correct": false },
+      { "text": "Die Weitergabe ohne Rückfrage", "correct": false }
+    ],
+    "explanation": "Merksatz: Einwandbehandlung nimmt Bedenken ernst und beantwortet sie lösungsorientiert."
+  },
+  {
+    "id": "lf-02-fach-kommun-016",
+    "question": "Was ist eine Beschwerde?",
+    "answers": [
+      { "text": "Eine Unzufriedenheitsäußerung des Kunden", "correct": true },
+      { "text": "Eine reguläre Bestellung eines Kunden", "correct": false },
+      { "text": "Eine neutrale Produktbeschreibung", "correct": false },
+      { "text": "Eine Methode der Preiskalkulation", "correct": false }
+    ],
+    "explanation": "Merksatz: Beschwerden zeigen Unzufriedenheit und bieten die Chance zur Verbesserung."
+  },
+  {
+    "id": "lf-02-fach-kommun-017",
+    "question": "Was ist eine Reklamation?",
+    "answers": [
+      { "text": "Eine Beanstandung wegen eines Mangels", "correct": true },
+      { "text": "Eine freiwillige Kaufempfehlung", "correct": false },
+      { "text": "Eine Werbemaßnahme im Vertrieb", "correct": false },
+      { "text": "Eine interne Gewinnrechnung", "correct": false }
+    ],
+    "explanation": "Merksatz: Reklamationen beziehen sich meist auf konkrete Mängel an Ware oder Leistung."
+  },
+  {
+    "id": "lf-02-fach-kommun-018",
+    "question": "Was ist eine Gesprächsnotiz?",
+    "answers": [
+      { "text": "Eine kurze Dokumentation wichtiger Gesprächsinhalte", "correct": true },
+      { "text": "Eine formale Steuererklärung", "correct": false },
+      { "text": "Ein Prüfzeichen für Hardware", "correct": false },
+      { "text": "Eine Finanzierungsform", "correct": false }
+    ],
+    "explanation": "Merksatz: Gesprächsnotizen halten Anforderungen, Zusagen und offene Punkte nachvollziehbar fest."
+  },
+  {
+    "id": "lf-02-fach-kommun-019",
+    "question": "Was ist Fachsprache?",
+    "answers": [
+      { "text": "Spezialisierte Sprache eines Fachgebiets", "correct": true },
+      { "text": "Vereinfachte Sprache für Alltagsthemen", "correct": false },
+      { "text": "Eine gesetzliche Vertragsform", "correct": false },
+      { "text": "Ein Preisnachlass im Verkauf", "correct": false }
+    ],
+    "explanation": "Merksatz: Fachsprache muss im Kundengespräch verständlich erklärt werden."
+  },
+  {
+    "id": "lf-02-fach-kommun-020",
+    "question": "Was ist Verständlichkeit in der Kundenkommunikation?",
+    "answers": [
+      { "text": "Klarheit für die Zielgruppe", "correct": true },
+      { "text": "Hohe Dichte an Fachbegriffen", "correct": false },
+      { "text": "Maximale technische Detailtiefe", "correct": false },
+      { "text": "Ausschließliche Schriftform", "correct": false }
+    ],
+    "explanation": "Merksatz: Verständliche Kommunikation passt Sprache und Detailtiefe an den Empfänger an."
+  },
+  {
+    "id": "lf-02-fach-kommun-021",
+    "question": "Was ist Marketing?",
+    "answers": [
+      { "text": "Ausrichtung von Maßnahmen auf Markt und Kunden", "correct": true },
+      { "text": "Reparatur defekter Kundengeräte", "correct": false },
+      { "text": "Prüfung gelieferter Ware", "correct": false },
+      { "text": "Abwicklung interner Buchungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Marketing soll Kundenbedürfnisse erkennen und Absatz fördern."
+  },
+  {
+    "id": "lf-02-fach-kommun-022",
+    "question": "Was ist der Marketingmix?",
+    "answers": [
+      { "text": "Die Kombination absatzpolitischer Instrumente", "correct": true },
+      { "text": "Eine Kombination verschiedener Datenträger", "correct": false },
+      { "text": "Eine Methode der Umsatzsteuerberechnung", "correct": false },
+      { "text": "Eine zufällige Lieferantenauswahl", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Marketingmix kombiniert Produkt-, Preis-, Kommunikations- und Distributionspolitik."
+  },
+  {
+    "id": "lf-02-fach-kommun-023",
+    "question": "Was ist Produktpolitik?",
+    "answers": [
+      { "text": "Gestaltung des angebotenen Produkts", "correct": true },
+      { "text": "Gestaltung des Vertriebswegs", "correct": false },
+      { "text": "Gestaltung von Preisen und Konditionen", "correct": false },
+      { "text": "Gestaltung der Kundenansprache", "correct": false }
+    ],
+    "explanation": "Merksatz: Produktpolitik betrifft Sortiment, Qualität, Marke, Service und Weiterentwicklung."
+  },
+  {
+    "id": "lf-02-fach-kommun-024",
+    "question": "Was ist Preispolitik?",
+    "answers": [
+      { "text": "Gestaltung von Preisen und Konditionen", "correct": true },
+      { "text": "Gestaltung des angebotenen Produkts", "correct": false },
+      { "text": "Gestaltung des Vertriebswegs", "correct": false },
+      { "text": "Gestaltung von Öffentlichkeitsarbeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Preispolitik umfasst Preis, Rabatte, Skonto und Zahlungsbedingungen."
+  },
+  {
+    "id": "lf-02-fach-kommun-025",
+    "question": "Was ist Kommunikationspolitik?",
+    "answers": [
+      { "text": "Gestaltung der Kundenansprache", "correct": true },
+      { "text": "Gestaltung von Produktmerkmalen", "correct": false },
+      { "text": "Gestaltung von Vertriebswegen", "correct": false },
+      { "text": "Berechnung des Deckungsbeitrags", "correct": false }
+    ],
+    "explanation": "Merksatz: Kommunikationspolitik umfasst Werbung, PR, Verkaufsförderung und Information."
+  },
+  {
+    "id": "lf-02-fach-kommun-026",
+    "question": "Was ist Distributionspolitik?",
+    "answers": [
+      { "text": "Gestaltung des Vertriebswegs", "correct": true },
+      { "text": "Gestaltung von Produktqualität", "correct": false },
+      { "text": "Gestaltung von Preisrabatten", "correct": false },
+      { "text": "Gestaltung von Werbebotschaften", "correct": false }
+    ],
+    "explanation": "Merksatz: Distributionspolitik legt fest, wie Produkte zum Kunden gelangen."
+  },
+  {
+    "id": "lf-02-fach-kommun-027",
+    "question": "Was ist Public Relations?",
+    "answers": [
+      { "text": "Öffentlichkeitsarbeit zur Imagepflege", "correct": true },
+      { "text": "Kurzfristige Verkaufsförderung", "correct": false },
+      { "text": "Gezielte Kaufbeeinflussung durch Werbung", "correct": false },
+      { "text": "Vertrieb über digitale Shops", "correct": false }
+    ],
+    "explanation": "Merksatz: PR pflegt die Beziehung zur Öffentlichkeit und das Unternehmensbild."
+  },
+  {
+    "id": "lf-02-fach-kommun-028",
+    "question": "Was ist Werbung?",
+    "answers": [
+      { "text": "Gezielte Beeinflussung der Kaufbereitschaft", "correct": true },
+      { "text": "Öffentlichkeitsarbeit zur Imagepflege", "correct": false },
+      { "text": "Systematische Untersuchung von Märkten", "correct": false },
+      { "text": "Pflege bestehender Kundenbeziehungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Werbung soll Aufmerksamkeit erzeugen und Kaufinteresse fördern."
+  },
+  {
+    "id": "lf-02-fach-kommun-029",
+    "question": "Was ist Sales Promotion?",
+    "answers": [
+      { "text": "Zeitlich begrenzte Verkaufsförderung", "correct": true },
+      { "text": "Langfristige Öffentlichkeitsarbeit", "correct": false },
+      { "text": "Systematische Marktuntersuchung", "correct": false },
+      { "text": "Dauerhafte Produktentwicklung", "correct": false }
+    ],
+    "explanation": "Merksatz: Sales Promotion soll den Absatz kurzfristig fördern."
+  },
+  {
+    "id": "lf-02-fach-kommun-030",
+    "question": "Was ist Sponsoring?",
+    "answers": [
+      { "text": "Förderung gegen Kommunikationswirkung", "correct": true },
+      { "text": "Rabatt bei schneller Kundenzahlung", "correct": false },
+      { "text": "Wareneingangsprüfung beim Lieferanten", "correct": false },
+      { "text": "Abwicklung einer Mängelrüge", "correct": false }
+    ],
+    "explanation": "Merksatz: Sponsoring unterstützt Personen, Gruppen oder Projekte und stärkt das Image."
+  },
+  {
+    "id": "lf-02-fach-kommun-031",
+    "question": "Was beschreibt das AIDA-Prinzip?",
+    "answers": [
+      { "text": "Phasen der Werbe- und Verkaufswirkung", "correct": true },
+      { "text": "Phasen der Wareneingangsprüfung", "correct": false },
+      { "text": "Schritte der Handelskalkulation", "correct": false },
+      { "text": "Stufen der Lieferantenauswahl", "correct": false }
+    ],
+    "explanation": "Merksatz: AIDA steht für Aufmerksamkeit, Interesse, Wunsch und Handlung."
+  },
+  {
+    "id": "lf-02-fach-kommun-032",
+    "question": "Was beschreibt AIDCA gegenüber AIDA zusätzlich?",
+    "answers": [
+      { "text": "Vertrauen als zusätzliche Phase", "correct": true },
+      { "text": "Rabatt als zusätzliche Preisstufe", "correct": false },
+      { "text": "Lieferung als zusätzliche Prozessphase", "correct": false },
+      { "text": "Mängelprüfung als zusätzliche Abnahmephase", "correct": false }
+    ],
+    "explanation": "Merksatz: AIDCA ergänzt AIDA um Confidence, also Vertrauen."
+  },
+  {
+    "id": "lf-02-fach-kommun-033",
+    "question": "Was ist Marktforschung?",
+    "answers": [
+      { "text": "Systematische Untersuchung von Märkten", "correct": true },
+      { "text": "Kontrolle gelieferter Waren", "correct": false },
+      { "text": "Berechnung des Bruttoverkaufspreises", "correct": false },
+      { "text": "Installation von Betriebssystemen", "correct": false }
+    ],
+    "explanation": "Merksatz: Marktforschung liefert Informationen über Kunden, Märkte und Wettbewerb."
+  },
+  {
+    "id": "lf-02-fach-kommun-034",
+    "question": "Was ist Primärforschung?",
+    "answers": [
+      { "text": "Erhebung neuer Marktdaten", "correct": true },
+      { "text": "Auswertung vorhandener Daten", "correct": false },
+      { "text": "Fortlaufende Beobachtung des Markts", "correct": false },
+      { "text": "Vorhersage zukünftiger Marktentwicklung", "correct": false }
+    ],
+    "explanation": "Merksatz: Primärforschung sammelt Daten direkt neu, z. B. durch Befragung oder Beobachtung."
+  },
+  {
+    "id": "lf-02-fach-kommun-035",
+    "question": "Was ist Sekundärforschung?",
+    "answers": [
+      { "text": "Auswertung bereits vorhandener Daten", "correct": true },
+      { "text": "Erhebung neuer Daten per Befragung", "correct": false },
+      { "text": "Einmalige Untersuchung eines Markts", "correct": false },
+      { "text": "Vorhersage künftiger Nachfrage", "correct": false }
+    ],
+    "explanation": "Merksatz: Sekundärforschung nutzt bereits vorhandene interne oder externe Quellen."
+  },
+  {
+    "id": "lf-02-fach-kommun-036",
+    "question": "Was ist eine Marktanalyse?",
+    "answers": [
+      { "text": "Eine einmalige Untersuchung eines Markts", "correct": true },
+      { "text": "Eine fortlaufende Untersuchung des Markts", "correct": false },
+      { "text": "Eine Vorhersage künftiger Marktentwicklung", "correct": false },
+      { "text": "Eine Pflege bestehender Kundenkontakte", "correct": false }
+    ],
+    "explanation": "Merksatz: Marktanalyse betrachtet einen Markt zu einem bestimmten Zeitpunkt."
+  },
+  {
+    "id": "lf-02-fach-kommun-037",
+    "question": "Was ist Marktbeobachtung?",
+    "answers": [
+      { "text": "Eine fortlaufende Untersuchung des Markts", "correct": true },
+      { "text": "Eine einmalige Untersuchung eines Markts", "correct": false },
+      { "text": "Eine konkrete Kundenbeschwerde", "correct": false },
+      { "text": "Eine kurzfristige Verkaufsförderung", "correct": false }
+    ],
+    "explanation": "Merksatz: Marktbeobachtung verfolgt Marktentwicklungen über längere Zeit."
+  },
+  {
+    "id": "lf-02-fach-kommun-038",
+    "question": "Was ist Marktprognose?",
+    "answers": [
+      { "text": "Eine Vorhersage zukünftiger Marktentwicklungen", "correct": true },
+      { "text": "Eine einmalige Untersuchung der Gegenwart", "correct": false },
+      { "text": "Eine Auswertung vorhandener Beschwerden", "correct": false },
+      { "text": "Eine Dokumentation gelieferter Waren", "correct": false }
+    ],
+    "explanation": "Merksatz: Marktprognosen versuchen, zukünftige Nachfrage oder Entwicklungen abzuschätzen."
+  },
+  {
+    "id": "lf-02-fach-kommun-039",
+    "question": "Was ist CRM?",
+    "answers": [
+      { "text": "Systematische Pflege von Kundenbeziehungen", "correct": true },
+      { "text": "Systematische Prüfung von Wareneingängen", "correct": false },
+      { "text": "Berechnung von Verkaufspreisen", "correct": false },
+      { "text": "Technische Verwaltung von Arbeitsspeicher", "correct": false }
+    ],
+    "explanation": "Merksatz: CRM unterstützt Kundenbetreuung, Vertrieb und Kommunikation."
+  },
+  {
+    "id": "lf-02-fach-kommun-040",
+    "question": "Was ist eine Zielgruppe?",
+    "answers": [
+      { "text": "Eine bestimmte Gruppe möglicher Kunden", "correct": true },
+      { "text": "Eine Gruppe interner Lieferantenangebote", "correct": false },
+      { "text": "Eine Gruppe von Rechnungspositionen", "correct": false },
+      { "text": "Eine Gruppe technischer Komponenten", "correct": false }
+    ],
+    "explanation": "Merksatz: Zielgruppen helfen, Angebote und Kommunikation passend auszurichten."
+  },
+  {
+    "id": "lf-02-fach-kommun-041",
+    "question": "Was ist eine ABC-Kundenanalyse?",
+    "answers": [
+      { "text": "Einteilung von Kunden nach Bedeutung", "correct": true },
+      { "text": "Einteilung von Produkten nach Lagerort", "correct": false },
+      { "text": "Einteilung von Rechnungen nach Datum", "correct": false },
+      { "text": "Einteilung von Monitoren nach Größe", "correct": false }
+    ],
+    "explanation": "Merksatz: ABC-Kundenanalyse bewertet Kunden z. B. nach Umsatz- oder Ertragsanteil."
+  },
+  {
+    "id": "lf-02-fach-kommun-042",
+    "question": "Was sind A-Kunden?",
+    "answers": [
+      { "text": "Kunden mit besonders hoher Bedeutung", "correct": true },
+      { "text": "Kunden mit mittlerer Bedeutung", "correct": false },
+      { "text": "Kunden mit geringem Wertanteil", "correct": false },
+      { "text": "Kunden aus einer zufälligen Auswahl", "correct": false }
+    ],
+    "explanation": "Merksatz: A-Kunden haben meist einen hohen Umsatz- oder Wertanteil."
+  },
+  {
+    "id": "lf-02-fach-kommun-043",
+    "question": "Was sind B-Kunden?",
+    "answers": [
+      { "text": "Kunden mittlerer Bedeutung", "correct": true },
+      { "text": "Kunden mit besonders hoher Bedeutung", "correct": false },
+      { "text": "Kunden mit geringem Wertanteil", "correct": false },
+      { "text": "Kunden einer technischen Produktgruppe", "correct": false }
+    ],
+    "explanation": "Merksatz: B-Kunden liegen zwischen besonders wichtigen A-Kunden und weniger wichtigen C-Kunden."
+  },
+  {
+    "id": "lf-02-fach-kommun-044",
+    "question": "Was sind C-Kunden?",
+    "answers": [
+      { "text": "Kunden mit geringem Wertanteil", "correct": true },
+      { "text": "Kunden mit höchster Bedeutung", "correct": false },
+      { "text": "Kunden mittlerer Bedeutung", "correct": false },
+      { "text": "Kunden aus einer Beschwerdestatistik", "correct": false }
+    ],
+    "explanation": "Merksatz: C-Kunden sind oft zahlreich, bringen aber meist nur einen kleinen Umsatzanteil."
+  },
+  {
+    "id": "lf-02-fach-kommun-045",
+    "question": "Was ist Kundenbindung?",
+    "answers": [
+      { "text": "Maßnahmen zur langfristigen Kundenbeziehung", "correct": true },
+      { "text": "Kurzfristige Wareneingangsprüfung", "correct": false },
+      { "text": "Technische Verbindung zweier Netzgeräte", "correct": false },
+      { "text": "Formatierung eines Datenträgers", "correct": false }
+    ],
+    "explanation": "Merksatz: Kundenbindung soll Zufriedenheit, Vertrauen und Wiederkäufe fördern."
+  }
+]

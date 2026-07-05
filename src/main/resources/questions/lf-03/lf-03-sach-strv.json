@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-sach-strv-001",
+    "question": "Warum ist eine Netzwerktopologie für die Planung wichtig?",
+    "answers": [
+      { "text": "Sie zeigt Aufbau und Verbindungswege", "correct": true },
+      { "text": "Sie beschreibt IP-Adressbereiche im Subnetz", "correct": false },
+      { "text": "Sie legt DNS-Namen für Hosts fest", "correct": false },
+      { "text": "Sie dokumentiert Benutzerrechte im Netzwerk", "correct": false }
+    ],
+    "explanation": "Topologien helfen, Verbindungen, Ausfallsicherheit und Erweiterbarkeit eines Netzwerks zu verstehen."
+  },
+  {
+    "id": "lf-03-sach-strv-002",
+    "question": "Wann ist eine Punkt-zu-Punkt-Verbindung passend?",
+    "answers": [
+      { "text": "Wenn genau zwei Stationen verbunden werden", "correct": true },
+      { "text": "Wenn mehrere Stationen eine Leitung teilen", "correct": false },
+      { "text": "Wenn alle Stationen vollständig vermascht sind", "correct": false },
+      { "text": "Wenn Endgeräte über einen zentralen Switch laufen", "correct": false }
+    ],
+    "explanation": "Punkt-zu-Punkt verbindet zwei Endpunkte direkt und übersichtlich."
+  },
+  {
+    "id": "lf-03-sach-strv-003",
+    "question": "Warum ist die Bus-Topologie in modernen LANs kaum noch üblich?",
+    "answers": [
+      { "text": "Alle Teilnehmer teilen ein Medium", "correct": true },
+      { "text": "Jeder Teilnehmer besitzt eine eigene Leitung", "correct": false },
+      { "text": "Alle Teilnehmer hängen an einem Zentrum", "correct": false },
+      { "text": "Teilnehmer sind paarweise redundant verbunden", "correct": false }
+    ],
+    "explanation": "Beim Bus können Kollisionen entstehen, weil mehrere Teilnehmer dasselbe Medium nutzen."
+  },
+  {
+    "id": "lf-03-sach-strv-004",
+    "question": "Warum passte Token Ring zur Ringtopologie?",
+    "answers": [
+      { "text": "Das Token regelt den Zugriff im Ring", "correct": true },
+      { "text": "Ein Switch verteilt Frames sternförmig", "correct": false },
+      { "text": "Ein Router wählt den Weg per IP", "correct": false },
+      { "text": "Ein Access Point bündelt Funkzellen", "correct": false }
+    ],
+    "explanation": "Im Ring verhindert das Token, dass mehrere Teilnehmer gleichzeitig senden."
+  },
+  {
+    "id": "lf-03-sach-strv-005",
+    "question": "Warum ist die Stern-Topologie in LANs praktisch?",
+    "answers": [
+      { "text": "Endgeräte sind zentral angebunden", "correct": true },
+      { "text": "Endgeräte teilen eine gemeinsame Busleitung", "correct": false },
+      { "text": "Endgeräte sind vollständig paarweise verbunden", "correct": false },
+      { "text": "Endgeräte bilden eine geschlossene Ringkette", "correct": false }
+    ],
+    "explanation": "Sternstrukturen sind übersichtlich und lassen sich über zentrale Verteiler gut verwalten."
+  },
+  {
+    "id": "lf-03-sach-strv-006",
+    "question": "Warum ist der erweiterte Stern Standard in Gebäudenetzen?",
+    "answers": [
+      { "text": "Er ist gut erweiterbar und strukturierbar", "correct": true },
+      { "text": "Er verbindet alle Geräte über eine Busleitung", "correct": false },
+      { "text": "Er nutzt eine vollständige Vermaschung", "correct": false },
+      { "text": "Er bildet eine geschlossene Ringstruktur", "correct": false }
+    ],
+    "explanation": "Erweiterte Sterne verbinden mehrere Verteiler und passen gut zur strukturierten Verkabelung."
+  },
+  {
+    "id": "lf-03-sach-strv-007",
+    "question": "Warum bietet eine vollständige Masche hohe Ausfallsicherheit?",
+    "answers": [
+      { "text": "Es gibt viele alternative Wege", "correct": true },
+      { "text": "Es gibt einen zentralen Einzelpunkt", "correct": false },
+      { "text": "Alle Teilnehmer teilen ein Medium", "correct": false },
+      { "text": "Daten laufen in einer festen Ringfolge", "correct": false }
+    ],
+    "explanation": "Mehrfachverbindungen schaffen Redundanz, sind aber teuer und aufwendig."
+  },
+  {
+    "id": "lf-03-sach-strv-008",
+    "question": "Wann ist eine unvollständige Masche sinnvoll?",
+    "answers": [
+      { "text": "Wenn wichtige Knoten redundant sein sollen", "correct": true },
+      { "text": "Wenn jeder Knoten jeden Knoten direkt erreicht", "correct": false },
+      { "text": "Wenn alle Stationen eine Leitung teilen", "correct": false },
+      { "text": "Wenn ein zentraler Verteiler genügt", "correct": false }
+    ],
+    "explanation": "Unvollständige Maschen bieten gezielte Redundanz ohne den Aufwand einer Vollvermaschung."
+  },
+  {
+    "id": "lf-03-sach-strv-009",
+    "question": "Warum muss eine WLAN-Zellstruktur geplant werden?",
+    "answers": [
+      { "text": "Funkabdeckung und Störungen müssen passen", "correct": true },
+      { "text": "Kabelkategorien bestimmen die Funkkanäle", "correct": false },
+      { "text": "Patchfelder verteilen WLAN-Signale", "correct": false },
+      { "text": "Subnetzmasken steuern Funkreichweiten", "correct": false }
+    ],
+    "explanation": "Funkzellen beeinflussen Reichweite, Überlappung, Kanalwahl und Verbindungsqualität."
+  },
+  {
+    "id": "lf-03-sach-strv-010",
+    "question": "Warum wurde strukturierte Verkabelung eingeführt?",
+    "answers": [
+      { "text": "Für planbare und zukunftssichere Netze", "correct": true },
+      { "text": "Für spontane Leitungswege nach Tagesbedarf", "correct": false },
+      { "text": "Für rein drahtlose Gebäudenetze", "correct": false },
+      { "text": "Für zufällige Portzuordnungen im Betrieb", "correct": false }
+    ],
+    "explanation": "Strukturierte Verkabelung ordnet Leitungswege, Verteiler und Anschlüsse nach festen Bereichen."
+  },
+  {
+    "id": "lf-03-sach-strv-011",
+    "question": "Warum nutzt man im Primärbereich häufig Glasfaser?",
+    "answers": [
+      { "text": "Lange Strecken sind gut überbrückbar", "correct": true },
+      { "text": "Arbeitsplätze werden direkt per Patchkabel verbunden", "correct": false },
+      { "text": "Kupferdosen werden im Raum versorgt", "correct": false },
+      { "text": "Funkzellen werden dadurch geplant", "correct": false }
+    ],
+    "explanation": "Zwischen Gebäuden sind hohe Reichweite und geringe Dämpfung wichtige Vorteile von LWL."
+  },
+  {
+    "id": "lf-03-sach-strv-012",
+    "question": "Warum ist der Sekundärbereich in Gebäuden wichtig?",
+    "answers": [
+      { "text": "Er verbindet Gebäude- und Etagenverteiler", "correct": true },
+      { "text": "Er verbindet Etagenverteiler mit Arbeitsplatzdosen", "correct": false },
+      { "text": "Er verbindet mehrere Standorte miteinander", "correct": false },
+      { "text": "Er verbindet Endgeräte mit Patchkabeln", "correct": false }
+    ],
+    "explanation": "Sekundärverkabelung bringt Netzwerkverbindungen von Gebäudeverteilern zu Etagenverteilern."
+  },
+  {
+    "id": "lf-03-sach-strv-013",
+    "question": "Warum ist der Tertiärbereich für Arbeitsplätze entscheidend?",
+    "answers": [
+      { "text": "Er verbindet Etagenverteiler mit Dosen", "correct": true },
+      { "text": "Er verbindet Standorte über Glasfaser", "correct": false },
+      { "text": "Er verbindet Gebäude- und Standortverteiler", "correct": false },
+      { "text": "Er beschreibt Funkzellen im Außenbereich", "correct": false }
+    ],
+    "explanation": "Im Tertiärbereich werden Räume und Arbeitsplätze über Anschlussdosen versorgt."
+  },
+  {
+    "id": "lf-03-sach-strv-014",
+    "question": "Warum müssen Netzwerkdosen eindeutig beschriftet sein?",
+    "answers": [
+      { "text": "Anschlüsse lassen sich schneller zuordnen", "correct": true },
+      { "text": "Datenraten steigen durch die Beschriftung", "correct": false },
+      { "text": "IP-Adressen werden dadurch automatisch vergeben", "correct": false },
+      { "text": "Kabelmessungen entstehen aus Raumlabels", "correct": false }
+    ],
+    "explanation": "Klare Beschriftung spart Zeit bei Fehlersuche, Patchen und Dokumentation."
+  },
+  {
+    "id": "lf-03-sach-strv-015",
+    "question": "Warum gehören Netzwerkpläne in den Verteilerschrank?",
+    "answers": [
+      { "text": "Techniker finden Anschlüsse schneller", "correct": true },
+      { "text": "Switches werden durch Pläne ersetzt", "correct": false },
+      { "text": "PoE-Leistung wird im Plan erzeugt", "correct": false },
+      { "text": "VLANs werden durch Papier getrennt", "correct": false }
+    ],
+    "explanation": "Aktuelle Pläne zeigen Dosen, Leitungen, Verteiler und erleichtern Wartung vor Ort."
+  },
+  {
+    "id": "lf-03-sach-strv-016",
+    "question": "Warum ist ein Patchplan bei Änderungen wichtig?",
+    "answers": [
+      { "text": "Portzuordnungen bleiben nachvollziehbar", "correct": true },
+      { "text": "Patchkabel erhalten dadurch höhere Kategorien", "correct": false },
+      { "text": "Switches erhalten dadurch mehr Ports", "correct": false },
+      { "text": "WLAN-Kanäle werden dadurch vergeben", "correct": false }
+    ],
+    "explanation": "Patchpläne dokumentieren, welche Dose mit welchem Patchfeld- und Switchport verbunden ist."
+  },
+  {
+    "id": "lf-03-sach-strv-017",
+    "question": "Warum sollte Verkabelung nach Änderungen dokumentiert werden?",
+    "answers": [
+      { "text": "Der aktuelle Zustand bleibt bekannt", "correct": true },
+      { "text": "Kabel erreichen dadurch höhere Bandbreite", "correct": false },
+      { "text": "Switchports werden dadurch unbegrenzt", "correct": false },
+      { "text": "MAC-Adressen werden dadurch ersetzt", "correct": false }
+    ],
+    "explanation": "Ohne aktuelle Dokumentation wird Fehlersuche später deutlich aufwendiger."
+  },
+  {
+    "id": "lf-03-sach-strv-018",
+    "question": "Warum sind Messprotokolle bei Netzwerkkabeln hilfreich?",
+    "answers": [
+      { "text": "Sie belegen die Leitungsqualität", "correct": true },
+      { "text": "Sie vergeben IP-Adressen an Endgeräte", "correct": false },
+      { "text": "Sie erhöhen die Kabelkategorie nachträglich", "correct": false },
+      { "text": "Sie verwalten Benutzerrechte im LAN", "correct": false }
+    ],
+    "explanation": "Messprotokolle zeigen, ob Leitungen die geforderten Werte für den Betrieb erreichen."
+  },
+  {
+    "id": "lf-03-sach-strv-019",
+    "question": "Warum muss die Kabelkategorie zur Datenrate passen?",
+    "answers": [
+      { "text": "Sonst wird die Übertragung unzuverlässig", "correct": true },
+      { "text": "Sonst wird die IP-Adresse öffentlich", "correct": false },
+      { "text": "Sonst übernimmt DNS die Datenrate", "correct": false },
+      { "text": "Sonst entsteht automatisch ein VLAN", "correct": false }
+    ],
+    "explanation": "Höhere Datenraten stellen höhere Anforderungen an Kabel und Komponenten."
+  },
+  {
+    "id": "lf-03-sach-strv-020",
+    "question": "Warum ist Cat 5e für Gigabit-Ethernet relevanter als Cat 5?",
+    "answers": [
+      { "text": "Cat 5e ist für 1 Gbit/s geeignet", "correct": true },
+      { "text": "Cat 5e beschreibt einen Glasfasertyp", "correct": false },
+      { "text": "Cat 5e arbeitet als aktiver Switch", "correct": false },
+      { "text": "Cat 5e ist ein WLAN-Frequenzband", "correct": false }
+    ],
+    "explanation": "Cat 5e unterstützt typische Gigabit-Ethernet-Anforderungen besser als einfaches Cat 5."
+  },
+  {
+    "id": "lf-03-sach-strv-021",
+    "question": "Warum nutzt man Twisted-Pair-Kabel mit verdrillten Adernpaaren?",
+    "answers": [
+      { "text": "Störeinflüsse werden reduziert", "correct": true },
+      { "text": "Lichtsignale werden in Fasern geführt", "correct": false },
+      { "text": "Funkzellen werden dadurch erweitert", "correct": false },
+      { "text": "IP-Routing wird dadurch berechnet", "correct": false }
+    ],
+    "explanation": "Verdrillung hilft, elektromagnetische Störungen zwischen Adern zu verringern."
+  },
+  {
+    "id": "lf-03-sach-strv-022",
+    "question": "Wann ist geschirmtes Kupferkabel besonders sinnvoll?",
+    "answers": [
+      { "text": "Bei störanfälliger Umgebung", "correct": true },
+      { "text": "Bei optischer Übertragung über Glasfaser", "correct": false },
+      { "text": "Bei reinem WLAN-Betrieb ohne Kabelanschluss", "correct": false },
+      { "text": "Bei IP-Adressplanung im DHCP-Bereich", "correct": false }
+    ],
+    "explanation": "Schirmung schützt Signale besser vor elektromagnetischen Störungen."
+  },
+  {
+    "id": "lf-03-sach-strv-023",
+    "question": "Warum haben Kupferleitungen eine begrenzte Reichweite?",
+    "answers": [
+      { "text": "Signale werden mit der Strecke schwächer", "correct": true },
+      { "text": "Licht wird im Faserkern gedämpft", "correct": false },
+      { "text": "Funkkanäle überlappen im Raum", "correct": false },
+      { "text": "DNS-Namen verlieren ihre Zuordnung", "correct": false }
+    ],
+    "explanation": "Dämpfung und Störeinflüsse begrenzen die zuverlässige Übertragungsstrecke."
+  },
+  {
+    "id": "lf-03-sach-strv-024",
+    "question": "Warum ist Lichtwellenleiter für lange Strecken geeignet?",
+    "answers": [
+      { "text": "Lichtsignale haben geringe Dämpfung", "correct": true },
+      { "text": "Kupfersignale werden besonders stark verdrillt", "correct": false },
+      { "text": "WLAN-Kanäle werden automatisch getrennt", "correct": false },
+      { "text": "Patchfelder werden dadurch aktiv geroutet", "correct": false }
+    ],
+    "explanation": "LWL kann hohe Datenraten über große Entfernungen übertragen."
+  },
+  {
+    "id": "lf-03-sach-strv-025",
+    "question": "Wann ist Multimode-LWL besonders passend?",
+    "answers": [
+      { "text": "Für eher kurze Glasfaserstrecken", "correct": true },
+      { "text": "Für sehr lange Providerstrecken", "correct": false },
+      { "text": "Für Kupferverkabelung am Arbeitsplatz", "correct": false },
+      { "text": "Für Stromversorgung über Ethernet", "correct": false }
+    ],
+    "explanation": "Multimode eignet sich typischerweise für kürzere Strecken, z. B. innerhalb von Gebäuden."
+  },
+  {
+    "id": "lf-03-sach-strv-026",
+    "question": "Wann ist Singlemode-LWL besonders passend?",
+    "answers": [
+      { "text": "Für große Entfernungen", "correct": true },
+      { "text": "Für kurze Kupfer-Patchverbindungen", "correct": false },
+      { "text": "Für WLAN-Kanäle im Nahbereich", "correct": false },
+      { "text": "Für PoE-Versorgung von Endgeräten", "correct": false }
+    ],
+    "explanation": "Singlemode hat einen sehr kleinen Kern und eignet sich für lange Strecken."
+  },
+  {
+    "id": "lf-03-sach-strv-027",
+    "question": "Warum ist LWL unempfindlicher gegenüber elektromagnetischen Störungen?",
+    "answers": [
+      { "text": "Daten werden als Licht übertragen", "correct": true },
+      { "text": "Daten werden als Strom über Kupfer geführt", "correct": false },
+      { "text": "Daten werden über Funkkanäle verteilt", "correct": false },
+      { "text": "Daten werden über DNS-Namen übertragen", "correct": false }
+    ],
+    "explanation": "Lichtsignale in Glasfasern sind nicht wie elektrische Kupfersignale störanfällig."
+  },
+  {
+    "id": "lf-03-sach-strv-028",
+    "question": "Warum ist Funk als Netzwerkmedium flexibel?",
+    "answers": [
+      { "text": "Endgeräte brauchen keine feste Leitung", "correct": true },
+      { "text": "Endgeräte erhalten feste Kupferanschlüsse", "correct": false },
+      { "text": "Endgeräte nutzen starre Glasfaserwege", "correct": false },
+      { "text": "Endgeräte hängen an Patchfeldern", "correct": false }
+    ],
+    "explanation": "Funk erleichtert mobile Nutzung, ist aber anfällig für Reichweite, Störungen und Sicherheitsfragen."
+  },
+  {
+    "id": "lf-03-sach-strv-029",
+    "question": "Warum ist WLAN-Ausleuchtung vor Ort wichtig?",
+    "answers": [
+      { "text": "Signalqualität hängt vom Standort ab", "correct": true },
+      { "text": "Signalqualität ist unabhängig von Hindernissen", "correct": false },
+      { "text": "Access-Point-Positionen folgen der IP-Maske", "correct": false },
+      { "text": "Kanalplanung ergibt sich aus Patchplänen", "correct": false }
+    ],
+    "explanation": "Wände, Entfernung, Störquellen und Access-Point-Position beeinflussen die Funkqualität."
+  },
+  {
+    "id": "lf-03-sach-strv-030",
+    "question": "Warum sollten WLAN-Kanäle geplant werden?",
+    "answers": [
+      { "text": "Überlappungen können Störungen verursachen", "correct": true },
+      { "text": "Kanäle legen IP-Adressbereiche fest", "correct": false },
+      { "text": "Kanäle beschreiben Kabelkategorien", "correct": false },
+      { "text": "Kanäle ersetzen Access Points", "correct": false }
+    ],
+    "explanation": "Ungünstige Kanalwahl kann Funknetze gegenseitig stören."
+  },
+  {
+    "id": "lf-03-sach-strv-031",
+    "question": "Warum ist Funk nicht immer besser als Kabel?",
+    "answers": [
+      { "text": "Kabel ist oft stabiler und planbarer", "correct": true },
+      { "text": "Funk ist unabhängig von Störungen und Reichweite", "correct": false },
+      { "text": "Kabel arbeitet grundsätzlich als Broadcastmedium", "correct": false },
+      { "text": "Funk ersetzt strukturierte Verkabelung vollständig", "correct": false }
+    ],
+    "explanation": "Kabelgebundene Verbindungen sind oft zuverlässiger, sicherer und weniger störanfällig."
+  },
+  {
+    "id": "lf-03-sach-strv-032",
+    "question": "Warum nutzt man unterschiedliche Netzwerkmedien?",
+    "answers": [
+      { "text": "Anforderungen an Strecke und Umgebung unterscheiden sich", "correct": true },
+      { "text": "Alle Medien besitzen gleiche Reichweiten", "correct": false },
+      { "text": "Kupfer, LWL und Funk verhalten sich identisch", "correct": false },
+      { "text": "Medienwahl hängt ausschließlich vom Gerätenamen ab", "correct": false }
+    ],
+    "explanation": "Kupfer, LWL und Funk haben verschiedene Vorteile bei Reichweite, Datenrate, Kosten und Flexibilität."
+  },
+  {
+    "id": "lf-03-sach-strv-033",
+    "question": "Warum ist die maximale Segmentlänge bei Ethernet wichtig?",
+    "answers": [
+      { "text": "Zu lange Strecken können Fehler verursachen", "correct": true },
+      { "text": "Lange Strecken erhöhen automatisch die Datenrate", "correct": false },
+      { "text": "Segmentlänge bestimmt den DNS-Namen", "correct": false },
+      { "text": "Segmentlänge ersetzt die Kabelmessung", "correct": false }
+    ],
+    "explanation": "Übertragungsstandards geben Reichweiten vor, damit Signalqualität und Datenrate zuverlässig bleiben."
+  },
+  {
+    "id": "lf-03-sach-strv-034",
+    "question": "Warum sollte Reserve bei Netzwerkdosen eingeplant werden?",
+    "answers": [
+      { "text": "Spätere Erweiterungen werden einfacher", "correct": true },
+      { "text": "Vorhandene Switchports werden dadurch ersetzt", "correct": false },
+      { "text": "Datenraten steigen durch freie Dosen", "correct": false },
+      { "text": "IP-Adressen entstehen aus Reserven", "correct": false }
+    ],
+    "explanation": "Zusätzliche Anschlüsse vermeiden spätere Nachverkabelung und erleichtern Änderungen."
+  },
+  {
+    "id": "lf-03-sach-strv-035",
+    "question": "Warum sind passive Komponenten wie Dosen und Patchpanels trotzdem wichtig?",
+    "answers": [
+      { "text": "Sie bestimmen die Qualität der Verbindung mit", "correct": true },
+      { "text": "Sie treffen Routingentscheidungen per IP", "correct": false },
+      { "text": "Sie filtern Datenverkehr wie Firewalls", "correct": false },
+      { "text": "Sie vergeben DHCP-Leases an Clients", "correct": false }
+    ],
+    "explanation": "Auch passive Komponenten müssen zur geforderten Kategorie und Datenrate passen."
+  },
+  {
+    "id": "lf-03-sach-strv-036",
+    "question": "Warum ist ein Verteilerschrank mehr als nur Lagerplatz?",
+    "answers": [
+      { "text": "Er ordnet zentrale Netzwerkanschlüsse", "correct": true },
+      { "text": "Er berechnet Subnetze für Router", "correct": false },
+      { "text": "Er speichert Cloud-Daten dauerhaft", "correct": false },
+      { "text": "Er ersetzt aktive Netzwerkkomponenten", "correct": false }
+    ],
+    "explanation": "Im Verteilerschrank laufen Patchfelder, Switches, Leitungen und Dokumentation zusammen."
+  },
+  {
+    "id": "lf-03-sach-strv-037",
+    "question": "Warum sollten Leitungen nicht nur nach Bedarf wild verlegt werden?",
+    "answers": [
+      { "text": "Ungeplante Verkabelung wird unübersichtlich", "correct": true },
+      { "text": "Spontane Leitungswege sind leichter wartbar", "correct": false },
+      { "text": "Patchpläne entstehen daraus automatisch", "correct": false },
+      { "text": "Messprotokolle werden dadurch genauer", "correct": false }
+    ],
+    "explanation": "Ohne Struktur entstehen schwer wartbare, schlecht dokumentierte und wenig erweiterbare Netze."
+  },
+  {
+    "id": "lf-03-sach-strv-038",
+    "question": "Warum ist die Trennung in Primär-, Sekundär- und Tertiärbereich hilfreich?",
+    "answers": [
+      { "text": "Netzverkabelung wird logisch gegliedert", "correct": true },
+      { "text": "Alle Bereiche beschreiben denselben Kabelabschnitt", "correct": false },
+      { "text": "Arbeitsplatzdosen werden Gebäudeverteiler", "correct": false },
+      { "text": "Funkzellen ersetzen die Verkabelungsbereiche", "correct": false }
+    ],
+    "explanation": "Die Bereiche ordnen Gebäudeverkabelung nach Standort-, Gebäude-, Etagen- und Arbeitsplatznähe."
+  },
+  {
+    "id": "lf-03-sach-strv-039",
+    "question": "Warum sollte die Verkabelung auch wirtschaftlich geplant werden?",
+    "answers": [
+      { "text": "Leistung, Kosten und Reserven müssen passen", "correct": true },
+      { "text": "Maximale Kosten sichern automatisch Qualität", "correct": false },
+      { "text": "Kürzeste Planung erhöht spätere Flexibilität", "correct": false },
+      { "text": "Medienwahl folgt allein der Kabelfarbe", "correct": false }
+    ],
+    "explanation": "Eine gute Planung vermeidet Unterdimensionierung, unnötige Kosten und spätere Umbauten."
+  },
+  {
+    "id": "lf-03-sach-strv-040",
+    "question": "Warum ist strukturierte Verkabelung eine Grundlage für stabilen Netzwerkbetrieb?",
+    "answers": [
+      { "text": "Sie schafft Ordnung, Qualität und Wartbarkeit", "correct": true },
+      { "text": "Sie übernimmt Routing zwischen IP-Netzen", "correct": false },
+      { "text": "Sie verwaltet Benutzerrechte im Verzeichnis", "correct": false },
+      { "text": "Sie ersetzt aktive Komponenten im LAN", "correct": false }
+    ],
+    "explanation": "Geplante Verkabelung erleichtert Betrieb, Erweiterung, Fehlersuche und Leistungsnachweise."
+  }
+]

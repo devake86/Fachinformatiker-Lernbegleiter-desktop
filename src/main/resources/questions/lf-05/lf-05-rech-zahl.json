@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-05-rech-zahl-001",
+    "question": "Welche Dezimalzahl entspricht der Binärzahl 1010?",
+    "answers": [
+      { "text": "10", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "explanation": "1010₂ = 1·8 + 0·4 + 1·2 + 0·1 = 10."
+  },
+  {
+    "id": "lf-05-rech-zahl-002",
+    "question": "Welche Dezimalzahl entspricht der Binärzahl 1111?",
+    "answers": [
+      { "text": "15", "correct": true },
+      { "text": "14", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "11", "correct": false }
+    ],
+    "explanation": "1111₂ = 8 + 4 + 2 + 1 = 15."
+  },
+  {
+    "id": "lf-05-rech-zahl-003",
+    "question": "Welche Binärzahl entspricht der Dezimalzahl 5?",
+    "answers": [
+      { "text": "101", "correct": true },
+      { "text": "110", "correct": false },
+      { "text": "100", "correct": false },
+      { "text": "111", "correct": false }
+    ],
+    "explanation": "5 besteht aus 4 + 1, also 101₂."
+  },
+  {
+    "id": "lf-05-rech-zahl-004",
+    "question": "Welche Binärzahl entspricht der Dezimalzahl 8?",
+    "answers": [
+      { "text": "1000", "correct": true },
+      { "text": "1111", "correct": false },
+      { "text": "100", "correct": false },
+      { "text": "1010", "correct": false }
+    ],
+    "explanation": "8 ist 2³, daher lautet die Binärzahl 1000₂."
+  },
+  {
+    "id": "lf-05-rech-zahl-005",
+    "question": "Welche Dezimalzahl entspricht der Binärzahl 1100?",
+    "answers": [
+      { "text": "12", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "14", "correct": false },
+      { "text": "6", "correct": false }
+    ],
+    "explanation": "1100₂ = 8 + 4 = 12."
+  },
+  {
+    "id": "lf-05-rech-zahl-006",
+    "question": "Welche Binärzahl entspricht der Dezimalzahl 12?",
+    "answers": [
+      { "text": "1100", "correct": true },
+      { "text": "1010", "correct": false },
+      { "text": "1110", "correct": false },
+      { "text": "1001", "correct": false }
+    ],
+    "explanation": "12 besteht aus 8 + 4, also 1100₂."
+  },
+  {
+    "id": "lf-05-rech-zahl-007",
+    "question": "Welche Dezimalzahl entspricht der Binärzahl 10000?",
+    "answers": [
+      { "text": "16", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "20", "correct": false }
+    ],
+    "explanation": "10000₂ entspricht 2⁴ = 16."
+  },
+  {
+    "id": "lf-05-rech-zahl-008",
+    "question": "Welche Binärzahl entspricht der Dezimalzahl 15?",
+    "answers": [
+      { "text": "1111", "correct": true },
+      { "text": "1110", "correct": false },
+      { "text": "10000", "correct": false },
+      { "text": "1011", "correct": false }
+    ],
+    "explanation": "15 besteht aus 8 + 4 + 2 + 1, also 1111₂."
+  },
+  {
+    "id": "lf-05-rech-zahl-009",
+    "question": "Welche Hexadezimalzahl entspricht der Dezimalzahl 10?",
+    "answers": [
+      { "text": "A", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "F", "correct": false }
+    ],
+    "explanation": "Im Hexadezimalsystem steht A für den Dezimalwert 10."
+  },
+  {
+    "id": "lf-05-rech-zahl-010",
+    "question": "Welche Hexadezimalzahl entspricht der Dezimalzahl 15?",
+    "answers": [
+      { "text": "F", "correct": true },
+      { "text": "E", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "A", "correct": false }
+    ],
+    "explanation": "Im Hexadezimalsystem steht F für den Dezimalwert 15."
+  },
+  {
+    "id": "lf-05-rech-zahl-011",
+    "question": "Welche Dezimalzahl entspricht der Hexadezimalzahl B?",
+    "answers": [
+      { "text": "11", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "explanation": "B₁₆ entspricht dem Dezimalwert 11."
+  },
+  {
+    "id": "lf-05-rech-zahl-012",
+    "question": "Welche Dezimalzahl entspricht der Hexadezimalzahl F?",
+    "answers": [
+      { "text": "15", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "14", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "explanation": "F₁₆ entspricht dem Dezimalwert 15."
+  },
+  {
+    "id": "lf-05-rech-zahl-013",
+    "question": "Welche Binärzahl entspricht der Hexadezimalzahl A?",
+    "answers": [
+      { "text": "1010", "correct": true },
+      { "text": "1001", "correct": false },
+      { "text": "1111", "correct": false },
+      { "text": "1011", "correct": false }
+    ],
+    "explanation": "A₁₆ entspricht 10₁₀ und damit 1010₂."
+  },
+  {
+    "id": "lf-05-rech-zahl-014",
+    "question": "Welche Binärzahl entspricht der Hexadezimalzahl F?",
+    "answers": [
+      { "text": "1111", "correct": true },
+      { "text": "1110", "correct": false },
+      { "text": "1010", "correct": false },
+      { "text": "1000", "correct": false }
+    ],
+    "explanation": "F₁₆ entspricht 15₁₀ und damit 1111₂."
+  },
+  {
+    "id": "lf-05-rech-zahl-015",
+    "question": "Welche Hexadezimalzahl entspricht der Binärzahl 1111?",
+    "answers": [
+      { "text": "F", "correct": true },
+      { "text": "E", "correct": false },
+      { "text": "A", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "explanation": "1111₂ entspricht 15₁₀ und damit F₁₆."
+  },
+  {
+    "id": "lf-05-rech-zahl-016",
+    "question": "Welche Hexadezimalzahl entspricht der Binärzahl 1010?",
+    "answers": [
+      { "text": "A", "correct": true },
+      { "text": "B", "correct": false },
+      { "text": "F", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "explanation": "1010₂ entspricht 10₁₀ und damit A₁₆."
+  },
+  {
+    "id": "lf-05-rech-zahl-017",
+    "question": "Welche Hexadezimalzahl entspricht der Binärzahl 0001 1111?",
+    "answers": [
+      { "text": "1F", "correct": true },
+      { "text": "F1", "correct": false },
+      { "text": "11", "correct": false },
+      { "text": "FF", "correct": false }
+    ],
+    "explanation": "0001₂ = 1 und 1111₂ = F, also 1F₁₆."
+  },
+  {
+    "id": "lf-05-rech-zahl-018",
+    "question": "Welche Binärzahl entspricht der Hexadezimalzahl 2A?",
+    "answers": [
+      { "text": "0010 1010", "correct": true },
+      { "text": "1010 0010", "correct": false },
+      { "text": "0010 1111", "correct": false },
+      { "text": "0001 1010", "correct": false }
+    ],
+    "explanation": "2₁₆ = 0010₂ und A₁₆ = 1010₂, also 0010 1010₂."
+  },
+  {
+    "id": "lf-05-rech-zahl-019",
+    "question": "Welche Dezimalzahl entspricht der Hexadezimalzahl 10?",
+    "answers": [
+      { "text": "16", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "20", "correct": false }
+    ],
+    "explanation": "10₁₆ bedeutet 1·16 + 0·1 = 16."
+  },
+  {
+    "id": "lf-05-rech-zahl-020",
+    "question": "Welche Hexadezimalzahl entspricht der Dezimalzahl 16?",
+    "answers": [
+      { "text": "10", "correct": true },
+      { "text": "16", "correct": false },
+      { "text": "F", "correct": false },
+      { "text": "11", "correct": false }
+    ],
+    "explanation": "Nach F₁₆ folgt 10₁₆, das entspricht 16₁₀."
+  },
+  {
+    "id": "lf-05-rech-zahl-021",
+    "question": "Was ist die Einerkomplement-Negierung von 0011?",
+    "answers": [
+      { "text": "1100", "correct": true },
+      { "text": "0010", "correct": false },
+      { "text": "1011", "correct": false },
+      { "text": "1111", "correct": false }
+    ],
+    "explanation": "Beim Einerkomplement werden alle Bits invertiert: 0 wird 1 und 1 wird 0."
+  },
+  {
+    "id": "lf-05-rech-zahl-022",
+    "question": "Was ist die Einerkomplement-Negierung von 0101?",
+    "answers": [
+      { "text": "1010", "correct": true },
+      { "text": "1001", "correct": false },
+      { "text": "1100", "correct": false },
+      { "text": "0110", "correct": false }
+    ],
+    "explanation": "0101 wird bitweise invertiert zu 1010."
+  },
+  {
+    "id": "lf-05-rech-zahl-023",
+    "question": "Welche 4-Bit-Zweierkomplement-Darstellung entspricht -1?",
+    "answers": [
+      { "text": "1111", "correct": true },
+      { "text": "1001", "correct": false },
+      { "text": "0001", "correct": false },
+      { "text": "1110", "correct": false }
+    ],
+    "explanation": "Bei 4 Bit ist -1 im Zweierkomplement 1111."
+  },
+  {
+    "id": "lf-05-rech-zahl-024",
+    "question": "Welche 4-Bit-Zweierkomplement-Darstellung entspricht -2?",
+    "answers": [
+      { "text": "1110", "correct": true },
+      { "text": "1101", "correct": false },
+      { "text": "1010", "correct": false },
+      { "text": "0010", "correct": false }
+    ],
+    "explanation": "2 ist 0010. Invertieren ergibt 1101, plus 1 ergibt 1110."
+  },
+  {
+    "id": "lf-05-rech-zahl-025",
+    "question": "Welche 4-Bit-Zweierkomplement-Darstellung entspricht -3?",
+    "answers": [
+      { "text": "1101", "correct": true },
+      { "text": "1110", "correct": false },
+      { "text": "1011", "correct": false },
+      { "text": "0011", "correct": false }
+    ],
+    "explanation": "3 ist 0011. Invertieren ergibt 1100, plus 1 ergibt 1101."
+  },
+  {
+    "id": "lf-05-rech-zahl-026",
+    "question": "Welche Dezimalzahl stellt 1111 im 4-Bit-Zweierkomplement dar?",
+    "answers": [
+      { "text": "-1", "correct": true },
+      { "text": "15", "correct": false },
+      { "text": "-7", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "explanation": "Im 4-Bit-Zweierkomplement steht 1111 für -1."
+  },
+  {
+    "id": "lf-05-rech-zahl-027",
+    "question": "Welche Dezimalzahl stellt 1110 im 4-Bit-Zweierkomplement dar?",
+    "answers": [
+      { "text": "-2", "correct": true },
+      { "text": "14", "correct": false },
+      { "text": "-1", "correct": false },
+      { "text": "-6", "correct": false }
+    ],
+    "explanation": "1110 ist im 4-Bit-Zweierkomplement die Darstellung von -2."
+  },
+  {
+    "id": "lf-05-rech-zahl-028",
+    "question": "Welche Dezimalzahl stellt 1000 im 4-Bit-Zweierkomplement dar?",
+    "answers": [
+      { "text": "-8", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "-0", "correct": false },
+      { "text": "-7", "correct": false }
+    ],
+    "explanation": "Im 4-Bit-Zweierkomplement ist 1000 der kleinste Wert und entspricht -8."
+  },
+  {
+    "id": "lf-05-rech-zahl-029",
+    "question": "Wie viele Bit hat 1 Byte?",
+    "answers": [
+      { "text": "8 Bit", "correct": true },
+      { "text": "4 Bit", "correct": false },
+      { "text": "16 Bit", "correct": false },
+      { "text": "1024 Bit", "correct": false }
+    ],
+    "explanation": "1 Byte besteht aus 8 Bit."
+  },
+  {
+    "id": "lf-05-rech-zahl-030",
+    "question": "Wie viele Bit hat ein Nibble?",
+    "answers": [
+      { "text": "4 Bit", "correct": true },
+      { "text": "8 Bit", "correct": false },
+      { "text": "16 Bit", "correct": false },
+      { "text": "2 Byte", "correct": false }
+    ],
+    "explanation": "Ein Nibble ist ein halbes Byte und besteht aus 4 Bit."
+  },
+  {
+    "id": "lf-05-rech-zahl-031",
+    "question": "Wie viele Byte sind 16 Bit?",
+    "answers": [
+      { "text": "2 Byte", "correct": true },
+      { "text": "1 Byte", "correct": false },
+      { "text": "4 Byte", "correct": false },
+      { "text": "16 Byte", "correct": false }
+    ],
+    "explanation": "8 Bit sind 1 Byte, also sind 16 Bit = 2 Byte."
+  },
+  {
+    "id": "lf-05-rech-zahl-032",
+    "question": "Wie viele Byte sind 32 Bit?",
+    "answers": [
+      { "text": "4 Byte", "correct": true },
+      { "text": "2 Byte", "correct": false },
+      { "text": "8 Byte", "correct": false },
+      { "text": "32 Byte", "correct": false }
+    ],
+    "explanation": "32 Bit geteilt durch 8 Bit pro Byte ergibt 4 Byte."
+  },
+  {
+    "id": "lf-05-rech-zahl-033",
+    "question": "Wie viele Byte sind 1 KiB?",
+    "answers": [
+      { "text": "1024 Byte", "correct": true },
+      { "text": "1000 Byte", "correct": false },
+      { "text": "8 Byte", "correct": false },
+      { "text": "1024 Bit", "correct": false }
+    ],
+    "explanation": "1 KiB entspricht 1024 Byte."
+  },
+  {
+    "id": "lf-05-rech-zahl-034",
+    "question": "Wie viele KiB sind 1 MiB?",
+    "answers": [
+      { "text": "1024 KiB", "correct": true },
+      { "text": "1000 KiB", "correct": false },
+      { "text": "8 KiB", "correct": false },
+      { "text": "512 KiB", "correct": false }
+    ],
+    "explanation": "1 MiB entspricht 1024 KiB."
+  },
+  {
+    "id": "lf-05-rech-zahl-035",
+    "question": "Eine Datei ist 2 KiB groß. Wie viele Byte sind das?",
+    "answers": [
+      { "text": "2048 Byte", "correct": true },
+      { "text": "2000 Byte", "correct": false },
+      { "text": "1024 Byte", "correct": false },
+      { "text": "512 Byte", "correct": false }
+    ],
+    "explanation": "2 KiB = 2 · 1024 Byte = 2048 Byte."
+  },
+  {
+    "id": "lf-05-rech-zahl-036",
+    "question": "Eine Datei ist 512 Byte groß. Wie viele solcher Dateien passen ungefähr in 1 KiB?",
+    "answers": [
+      { "text": "2 Dateien", "correct": true },
+      { "text": "4 Dateien", "correct": false },
+      { "text": "8 Dateien", "correct": false },
+      { "text": "1 Datei", "correct": false }
+    ],
+    "explanation": "1 KiB = 1024 Byte. 1024 / 512 = 2."
+  },
+  {
+    "id": "lf-05-rech-zahl-037",
+    "question": "Ein Schwarz-Weiß-Bild hat 8 Pixel und 1 Bit Farbtiefe. Wie groß ist es ohne Zusatzdaten?",
+    "answers": [
+      { "text": "8 Bit", "correct": true },
+      { "text": "8 Byte", "correct": false },
+      { "text": "1 Bit", "correct": false },
+      { "text": "16 Bit", "correct": false }
+    ],
+    "explanation": "8 Pixel · 1 Bit pro Pixel = 8 Bit."
+  },
+  {
+    "id": "lf-05-rech-zahl-038",
+    "question": "Ein Bild hat 4 Pixel und 8 Bit Farbtiefe. Wie groß ist es ohne Zusatzdaten?",
+    "answers": [
+      { "text": "32 Bit", "correct": true },
+      { "text": "4 Bit", "correct": false },
+      { "text": "8 Bit", "correct": false },
+      { "text": "32 Byte", "correct": false }
+    ],
+    "explanation": "4 Pixel · 8 Bit pro Pixel = 32 Bit."
+  },
+  {
+    "id": "lf-05-rech-zahl-039",
+    "question": "Ein Bild hat 8 Pixel und 8 Bit Farbtiefe. Wie groß ist es in Byte ohne Zusatzdaten?",
+    "answers": [
+      { "text": "8 Byte", "correct": true },
+      { "text": "64 Byte", "correct": false },
+      { "text": "1 Byte", "correct": false },
+      { "text": "16 Byte", "correct": false }
+    ],
+    "explanation": "8 Pixel · 8 Bit = 64 Bit. 64 Bit / 8 = 8 Byte."
+  },
+  {
+    "id": "lf-05-rech-zahl-040",
+    "question": "Ein RGB-Pixel nutzt 8 Bit pro Farbkanal. Wie viele Bit braucht ein Pixel?",
+    "answers": [
+      { "text": "24 Bit", "correct": true },
+      { "text": "8 Bit", "correct": false },
+      { "text": "16 Bit", "correct": false },
+      { "text": "32 Bit", "correct": false }
+    ],
+    "explanation": "RGB hat drei Kanäle. 3 · 8 Bit = 24 Bit pro Pixel."
+  }
+]

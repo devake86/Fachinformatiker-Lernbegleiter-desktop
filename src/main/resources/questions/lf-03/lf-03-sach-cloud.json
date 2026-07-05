@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-sach-cloud-001",
+    "question": "Warum werden Server häufig in einem Rechenzentrum betrieben?",
+    "answers": [
+      { "text": "Dort sind Betrieb und Schutz zentral planbar", "correct": true },
+      { "text": "Dort werden Server wie Arbeitsplatzrechner genutzt", "correct": false },
+      { "text": "Dort stehen Dienste direkt beim Endbenutzer", "correct": false },
+      { "text": "Dort ersetzt lokale Hardware die Infrastruktur", "correct": false }
+    ],
+    "explanation": "Rechenzentren bündeln Server, Netzwerk, Stromversorgung, Kühlung und physische Sicherheit."
+  },
+  {
+    "id": "lf-03-sach-cloud-002",
+    "question": "Wann passt On-Premises-Betrieb besonders gut?",
+    "answers": [
+      { "text": "Wenn volle lokale Kontrolle wichtig ist", "correct": true },
+      { "text": "Wenn Betrieb bei einem externen Anbieter liegt", "correct": false },
+      { "text": "Wenn Dienste öffentlich aus der Cloud kommen", "correct": false },
+      { "text": "Wenn Ressourcen als Dienst gebucht werden", "correct": false }
+    ],
+    "explanation": "On-Premises bedeutet lokale IT im eigenen Verantwortungsbereich."
+  },
+  {
+    "id": "lf-03-sach-cloud-003",
+    "question": "Warum kann Off-Premises-Betrieb für Unternehmen sinnvoll sein?",
+    "answers": [
+      { "text": "Betrieb kann an Spezialisten ausgelagert werden", "correct": true },
+      { "text": "Systeme bleiben im eigenen Serverraum", "correct": false },
+      { "text": "Hardware wird am Unternehmensstandort betrieben", "correct": false },
+      { "text": "Lokale Kontrolle steht im Vordergrund", "correct": false }
+    ],
+    "explanation": "Off-Premises verlagert Systeme oder Dienste an externe Standorte, oft mit professionellem Betrieb."
+  },
+  {
+    "id": "lf-03-sach-cloud-004",
+    "question": "Wann ist Co-Location sinnvoll?",
+    "answers": [
+      { "text": "Wenn eigene Hardware extern stehen soll", "correct": true },
+      { "text": "Wenn virtuelle Infrastruktur gemietet wird", "correct": false },
+      { "text": "Wenn fertige Software online genutzt wird", "correct": false },
+      { "text": "Wenn Plattformdienste bereitgestellt werden", "correct": false }
+    ],
+    "explanation": "Bei Co-Location wird eigene Hardware in einem fremden Rechenzentrum untergebracht."
+  },
+  {
+    "id": "lf-03-sach-cloud-005",
+    "question": "Warum ist Cloud Computing für wechselnden Ressourcenbedarf geeignet?",
+    "answers": [
+      { "text": "Ressourcen können flexibel skaliert werden", "correct": true },
+      { "text": "Ressourcen bleiben statisch dimensioniert", "correct": false },
+      { "text": "Ressourcen werden lokal als Hardware beschafft", "correct": false },
+      { "text": "Ressourcen werden unabhängig vom Bedarf geplant", "correct": false }
+    ],
+    "explanation": "Cloud-Ressourcen können oft bedarfsabhängig bereitgestellt und wieder reduziert werden."
+  },
+  {
+    "id": "lf-03-sach-cloud-006",
+    "question": "Warum ist ein Cloud-Speicher nicht automatisch ein Backup?",
+    "answers": [
+      { "text": "Synchronisierte Fehler können übernommen werden", "correct": true },
+      { "text": "Synchronisation entspricht einem Restore-Test", "correct": false },
+      { "text": "Dateiversionen ersetzen ein Sicherungskonzept", "correct": false },
+      { "text": "Online-Speicher prüft Wiederherstellung selbst", "correct": false }
+    ],
+    "explanation": "Cloud-Speicher kann Teil eines Backups sein, ersetzt aber kein geprüftes Sicherungskonzept."
+  },
+  {
+    "id": "lf-03-sach-cloud-007",
+    "question": "Wann ist SaaS für ein Unternehmen passend?",
+    "answers": [
+      { "text": "Wenn fertige Software online genutzt werden soll", "correct": true },
+      { "text": "Wenn virtuelle Server selbst verwaltet werden", "correct": false },
+      { "text": "Wenn eine Entwicklungsplattform gebraucht wird", "correct": false },
+      { "text": "Wenn eigene Hardware extern colocated wird", "correct": false }
+    ],
+    "explanation": "SaaS stellt fertige Anwendungen bereit, ohne dass der Nutzer die Plattform selbst betreibt."
+  },
+  {
+    "id": "lf-03-sach-cloud-008",
+    "question": "Wann ist PaaS besonders hilfreich?",
+    "answers": [
+      { "text": "Wenn eine Entwicklungsplattform benötigt wird", "correct": true },
+      { "text": "Wenn fertige Anwendungen online genutzt werden", "correct": false },
+      { "text": "Wenn virtuelle Server selbst administriert werden", "correct": false },
+      { "text": "Wenn eigene Hardware im Fremdrechenzentrum steht", "correct": false }
+    ],
+    "explanation": "PaaS bietet eine Plattform, auf der Software entwickelt, getestet und bereitgestellt werden kann."
+  },
+  {
+    "id": "lf-03-sach-cloud-009",
+    "question": "Wann ist IaaS sinnvoll?",
+    "answers": [
+      { "text": "Wenn virtuelle Infrastruktur benötigt wird", "correct": true },
+      { "text": "Wenn fertige Anwendungen online genutzt werden", "correct": false },
+      { "text": "Wenn eine fertige Entwicklungsplattform reicht", "correct": false },
+      { "text": "Wenn eigene Server im Rack betrieben werden", "correct": false }
+    ],
+    "explanation": "IaaS stellt grundlegende Infrastruktur wie Rechenleistung, Speicher und Netzwerke bereit."
+  },
+  {
+    "id": "lf-03-sach-cloud-010",
+    "question": "Warum ist bei IaaS mehr eigenes Know-how nötig als bei SaaS?",
+    "answers": [
+      { "text": "Mehr Systembetrieb bleibt beim Nutzer", "correct": true },
+      { "text": "Fertige Anwendungen werden komplett bereitgestellt", "correct": false },
+      { "text": "Plattformbetrieb liegt stärker beim Anbieter", "correct": false },
+      { "text": "Benutzer arbeiten direkt in fertiger Software", "correct": false }
+    ],
+    "explanation": "Bei IaaS verwaltet der Nutzer mehr Schichten selbst als bei fertiger SaaS-Software."
+  },
+  {
+    "id": "lf-03-sach-cloud-011",
+    "question": "Warum wird Public Cloud oft nutzungsabhängig bezahlt?",
+    "answers": [
+      { "text": "Ressourcenverbrauch kann gemessen werden", "correct": true },
+      { "text": "Ressourcen werden pauschal vor Ort gekauft", "correct": false },
+      { "text": "Kapazitäten bleiben fest einem Kunden zugeordnet", "correct": false },
+      { "text": "Abrechnung orientiert sich am Serverstandort", "correct": false }
+    ],
+    "explanation": "Measured Service ermöglicht Abrechnung nach genutzten Ressourcen."
+  },
+  {
+    "id": "lf-03-sach-cloud-012",
+    "question": "Wann ist eine Private Cloud gegenüber Public Cloud vorteilhaft?",
+    "answers": [
+      { "text": "Wenn Kontrolle und Abgrenzung wichtig sind", "correct": true },
+      { "text": "Wenn Ressourcen öffentlich buchbar sein sollen", "correct": false },
+      { "text": "Wenn Nutzung stark anonymisiert geteilt wird", "correct": false },
+      { "text": "Wenn Standardangebote im Vordergrund stehen", "correct": false }
+    ],
+    "explanation": "Private Clouds richten sich exklusiv an eine Organisation und erlauben mehr Kontrolle."
+  },
+  {
+    "id": "lf-03-sach-cloud-013",
+    "question": "Warum kann eine Hybrid Cloud sinnvoll sein?",
+    "answers": [
+      { "text": "Sie kombiniert Kontrolle und Flexibilität", "correct": true },
+      { "text": "Sie nutzt ausschließlich öffentliche Ressourcen", "correct": false },
+      { "text": "Sie beschränkt Dienste auf lokale Hardware", "correct": false },
+      { "text": "Sie trennt private und öffentliche Nutzung vollständig", "correct": false }
+    ],
+    "explanation": "Hybrid Cloud kombiniert private Ressourcen mit flexiblen öffentlichen Cloud-Diensten."
+  },
+  {
+    "id": "lf-03-sach-cloud-014",
+    "question": "Wann passt eine Community Cloud?",
+    "answers": [
+      { "text": "Bei gemeinsamen Anforderungen mehrerer Gruppen", "correct": true },
+      { "text": "Bei einer Cloud für eine einzelne Organisation", "correct": false },
+      { "text": "Bei öffentlich buchbaren Standardressourcen", "correct": false },
+      { "text": "Bei einer Mischung aus Public und Private Cloud", "correct": false }
+    ],
+    "explanation": "Community Clouds eignen sich für Organisationen mit ähnlichen Zielen, Regeln oder Schutzanforderungen."
+  },
+  {
+    "id": "lf-03-sach-cloud-015",
+    "question": "Warum ist On-demand Self-service in der Cloud praktisch?",
+    "answers": [
+      { "text": "Ressourcen sind schnell selbst buchbar", "correct": true },
+      { "text": "Ressourcen werden langfristig per Hardware geplant", "correct": false },
+      { "text": "Ressourcen werden durch feste Tickets gebunden", "correct": false },
+      { "text": "Ressourcen bleiben an lokale Racks gekoppelt", "correct": false }
+    ],
+    "explanation": "Nutzer können benötigte Cloud-Ressourcen oft ohne lange Bereitstellungsprozesse abrufen."
+  },
+  {
+    "id": "lf-03-sach-cloud-016",
+    "question": "Warum ist Rapid Elasticity bei schwankender Last wichtig?",
+    "answers": [
+      { "text": "Ressourcen können dem Bedarf folgen", "correct": true },
+      { "text": "Ressourcen bleiben fest dimensioniert", "correct": false },
+      { "text": "Ressourcen werden manuell inventarisiert", "correct": false },
+      { "text": "Ressourcen werden nach Standort getrennt", "correct": false }
+    ],
+    "explanation": "Rapid Elasticity erlaubt schnelle Anpassung bei Lastspitzen oder sinkendem Bedarf."
+  },
+  {
+    "id": "lf-03-sach-cloud-017",
+    "question": "Warum ist Resource Pooling für Cloudanbieter wichtig?",
+    "answers": [
+      { "text": "Gemeinsame Ressourcen werden effizient verteilt", "correct": true },
+      { "text": "Ressourcen werden fest pro Kunde reserviert", "correct": false },
+      { "text": "Ressourcen werden lokal beim Kunden betrieben", "correct": false },
+      { "text": "Ressourcen werden manuell pro Server verkabelt", "correct": false }
+    ],
+    "explanation": "Ressourcenpools ermöglichen bedarfsgerechte Verteilung von Rechenleistung, Speicher und Netzwerk."
+  },
+  {
+    "id": "lf-03-sach-cloud-018",
+    "question": "Warum ist Measured Service für Cloudbetrieb wichtig?",
+    "answers": [
+      { "text": "Nutzung wird transparent messbar", "correct": true },
+      { "text": "Ressourcen werden elastisch erweitert", "correct": false },
+      { "text": "Ressourcen werden gemeinsam gepoolt", "correct": false },
+      { "text": "Ressourcen werden selbstständig gebucht", "correct": false }
+    ],
+    "explanation": "Gemessene Nutzung hilft bei Abrechnung, Kapazitätsplanung und Kostenkontrolle."
+  },
+  {
+    "id": "lf-03-sach-cloud-019",
+    "question": "Warum ist Skalierbarkeit bei Cloud-Diensten ein Vorteil?",
+    "answers": [
+      { "text": "Dienste können mit dem Bedarf wachsen", "correct": true },
+      { "text": "Dienste behalten eine feste Leistungsklasse", "correct": false },
+      { "text": "Dienste werden lokal pro Client installiert", "correct": false },
+      { "text": "Dienste werden unabhängig von Last geplant", "correct": false }
+    ],
+    "explanation": "Skalierbare Dienste lassen sich an mehr Nutzer, Daten oder Last anpassen."
+  },
+  {
+    "id": "lf-03-sach-cloud-020",
+    "question": "Warum ist Mandantenfähigkeit in Clouds wichtig?",
+    "answers": [
+      { "text": "Daten verschiedener Kunden bleiben getrennt", "correct": true },
+      { "text": "Kunden teilen sich dieselben Benutzerrechte", "correct": false },
+      { "text": "Mandanten verwalten gemeinsame Datensätze", "correct": false },
+      { "text": "Ressourcen werden ohne Kundentrennung genutzt", "correct": false }
+    ],
+    "explanation": "Mandantenfähigkeit trennt Daten, Rechte und Einstellungen verschiedener Nutzergruppen."
+  },
+  {
+    "id": "lf-03-sach-cloud-021",
+    "question": "Warum ist Virtualisierung eine wichtige Grundlage für Cloud Computing?",
+    "answers": [
+      { "text": "Ressourcen können flexibel logisch aufgeteilt werden", "correct": true },
+      { "text": "Anwendungen werden direkt an Hardware gebunden", "correct": false },
+      { "text": "Server werden einzeln physisch zugewiesen", "correct": false },
+      { "text": "Cloud-Dienste werden lokal fest installiert", "correct": false }
+    ],
+    "explanation": "Virtualisierung trennt logische Systeme von physischer Hardware und erleichtert flexible Bereitstellung."
+  },
+  {
+    "id": "lf-03-sach-cloud-022",
+    "question": "Warum können Thin Clients mit Terminalservern gut zusammenpassen?",
+    "answers": [
+      { "text": "Die Arbeit läuft zentral auf dem Server", "correct": true },
+      { "text": "Die Anwendungen laufen vollständig lokal", "correct": false },
+      { "text": "Der Client übernimmt zentrale Serverdienste", "correct": false },
+      { "text": "Die Datenverarbeitung wandert auf Drucker", "correct": false }
+    ],
+    "explanation": "Thin Clients benötigen wenig lokale Leistung, weil Anwendungen zentral bereitgestellt werden."
+  },
+  {
+    "id": "lf-03-sach-cloud-023",
+    "question": "Warum können Terminalserver die Administration vereinfachen?",
+    "answers": [
+      { "text": "Arbeitsumgebungen werden zentral verwaltet", "correct": true },
+      { "text": "Programme werden auf jedem Client einzeln gepflegt", "correct": false },
+      { "text": "Benutzerprofile liegen verteilt auf Endgeräten", "correct": false },
+      { "text": "Updates werden pro Arbeitsplatz isoliert geplant", "correct": false }
+    ],
+    "explanation": "Zentrale Bereitstellung erleichtert Updates, Wartung und einheitliche Arbeitsumgebungen."
+  },
+  {
+    "id": "lf-03-sach-cloud-024",
+    "question": "Warum ist ein Fat Client nicht immer ideal für zentrale IT-Konzepte?",
+    "answers": [
+      { "text": "Viele Systeme müssen lokal gepflegt werden", "correct": true },
+      { "text": "Anwendungen laufen zentral auf Terminalservern", "correct": false },
+      { "text": "Clients beziehen Arbeitsumgebungen vom Server", "correct": false },
+      { "text": "Lokale Leistung wird durch Serverarbeit ersetzt", "correct": false }
+    ],
+    "explanation": "Fat Clients sind leistungsfähig, erhöhen aber oft den lokalen Administrationsaufwand."
+  },
+  {
+    "id": "lf-03-sach-cloud-025",
+    "question": "Warum ist Latenz bei Cloud-Diensten wichtig?",
+    "answers": [
+      { "text": "Hohe Verzögerung stört interaktive Nutzung", "correct": true },
+      { "text": "Hohe Datenrate verlängert Antwortzeiten", "correct": false },
+      { "text": "Speichergröße bestimmt die Reaktionszeit", "correct": false },
+      { "text": "Mandantentrennung steuert Paketlaufzeit", "correct": false }
+    ],
+    "explanation": "Latenz beeinflusst, wie schnell ein Dienst auf Eingaben oder Anfragen reagiert."
+  },
+  {
+    "id": "lf-03-sach-cloud-026",
+    "question": "Warum kann Fog Computing Latenz reduzieren?",
+    "answers": [
+      { "text": "Daten werden näher an der Quelle verarbeitet", "correct": true },
+      { "text": "Daten werden zentral im Cloud-Kern verarbeitet", "correct": false },
+      { "text": "Daten werden zuerst über weitere Netze geleitet", "correct": false },
+      { "text": "Daten werden in entfernten Rechenzentren gesammelt", "correct": false }
+    ],
+    "explanation": "Fog Computing verarbeitet Daten dezentraler und verkürzt dadurch Wege und Reaktionszeiten."
+  },
+  {
+    "id": "lf-03-sach-cloud-027",
+    "question": "Warum kann Fog Computing das Datenvolumen im Netz reduzieren?",
+    "answers": [
+      { "text": "Rohdaten werden nahe der Quelle vorverarbeitet", "correct": true },
+      { "text": "Rohdaten werden vollständig zentral gesammelt", "correct": false },
+      { "text": "Datenströme werden mehrfach gespiegelt", "correct": false },
+      { "text": "Endgeräte senden direkt an entfernte Clouds", "correct": false }
+    ],
+    "explanation": "Vorverarbeitung nahe der Quelle kann nur relevante Ergebnisse weiterleiten."
+  },
+  {
+    "id": "lf-03-sach-cloud-028",
+    "question": "Wann ist Edge Computing besonders sinnvoll?",
+    "answers": [
+      { "text": "Wenn schnelle lokale Verarbeitung nötig ist", "correct": true },
+      { "text": "Wenn zentrale Verarbeitung ausreichend schnell ist", "correct": false },
+      { "text": "Wenn Rohdaten gebündelt in die Cloud wandern", "correct": false },
+      { "text": "Wenn Verarbeitung weit entfernt erfolgen soll", "correct": false }
+    ],
+    "explanation": "Edge Computing verarbeitet Daten direkt oder sehr nahe am Endgerät."
+  },
+  {
+    "id": "lf-03-sach-cloud-029",
+    "question": "Warum hängen IoT und Edge Computing eng zusammen?",
+    "answers": [
+      { "text": "Viele IoT-Geräte erzeugen Daten am Netzwerkrand", "correct": true },
+      { "text": "IoT-Geräte verarbeiten Daten zentral im Rechenzentrum", "correct": false },
+      { "text": "Edge Computing beschreibt fertige SaaS-Anwendungen", "correct": false },
+      { "text": "IoT ersetzt lokale Sensorik durch Cloud-Speicher", "correct": false }
+    ],
+    "explanation": "IoT-Geräte erzeugen viele Daten, die teilweise direkt am Rand verarbeitet werden können."
+  },
+  {
+    "id": "lf-03-sach-cloud-030",
+    "question": "Was unterscheidet Cloud und Edge Computing hauptsächlich?",
+    "answers": [
+      { "text": "Der Ort der Datenverarbeitung", "correct": true },
+      { "text": "Die Art der MAC-Adressierung", "correct": false },
+      { "text": "Die Länge der Portnummern", "correct": false },
+      { "text": "Die Schirmung von Netzwerkkabeln", "correct": false }
+    ],
+    "explanation": "Cloud verarbeitet eher zentral, Edge näher am Endgerät oder an der Datenquelle."
+  },
+  {
+    "id": "lf-03-sach-cloud-031",
+    "question": "Warum sollte man bei Cloud-Diensten den Speicherort der Daten beachten?",
+    "answers": [
+      { "text": "Rechtliche und Schutzanforderungen können abhängen", "correct": true },
+      { "text": "Speicherort bestimmt die Anzahl der Serverrollen", "correct": false },
+      { "text": "Speicherort ersetzt Zugriffskontrollen", "correct": false },
+      { "text": "Speicherort legt die Softwareversion fest", "correct": false }
+    ],
+    "explanation": "Je nach Speicherort können Datenschutz, Compliance und Zugriffsmöglichkeiten unterschiedlich sein."
+  },
+  {
+    "id": "lf-03-sach-cloud-032",
+    "question": "Warum ist eine Internetverbindung für viele Cloud-Dienste kritisch?",
+    "answers": [
+      { "text": "Ohne Verbindung ist der Dienst oft nicht erreichbar", "correct": true },
+      { "text": "Mit Verbindung laufen Dienste lokal weiter", "correct": false },
+      { "text": "Die Verbindung ersetzt Authentifizierung", "correct": false },
+      { "text": "Die Verbindung speichert Daten im Client", "correct": false }
+    ],
+    "explanation": "Cloud-Dienste werden meist über Netzwerke genutzt; Verbindungsprobleme wirken direkt auf die Nutzbarkeit."
+  },
+  {
+    "id": "lf-03-sach-cloud-033",
+    "question": "Warum sollte Cloud-Nutzung wirtschaftlich geplant werden?",
+    "answers": [
+      { "text": "Nutzungsabhängige Kosten können steigen", "correct": true },
+      { "text": "Kosten bleiben unabhängig von Ressourcennutzung", "correct": false },
+      { "text": "Kosten entstehen ausschließlich beim Hardwarekauf", "correct": false },
+      { "text": "Ressourcenverbrauch wird pauschal ignoriert", "correct": false }
+    ],
+    "explanation": "Cloudkosten hängen oft von Nutzung, Speicher, Datenverkehr und gebuchten Ressourcen ab."
+  },
+  {
+    "id": "lf-03-sach-cloud-034",
+    "question": "Warum ist Authentifizierung bei Cloud-Diensten wichtig?",
+    "answers": [
+      { "text": "Sie schützt den Zugriff auf entfernte Ressourcen", "correct": true },
+      { "text": "Sie erhöht automatisch die Bandbreite", "correct": false },
+      { "text": "Sie verschiebt Daten an den Netzwerkrand", "correct": false },
+      { "text": "Sie ersetzt die Verschlüsselung der Verbindung", "correct": false }
+    ],
+    "explanation": "Cloud-Ressourcen sind über Netzwerke erreichbar und müssen gegen unberechtigten Zugriff geschützt werden."
+  },
+  {
+    "id": "lf-03-sach-cloud-035",
+    "question": "Warum ist Verschlüsselung bei Cloud-Zugriffen sinnvoll?",
+    "answers": [
+      { "text": "Sie schützt Daten bei der Übertragung", "correct": true },
+      { "text": "Sie verwaltet Benutzeridentitäten zentral", "correct": false },
+      { "text": "Sie skaliert Ressourcen bei Lastspitzen", "correct": false },
+      { "text": "Sie misst verbrauchte Cloud-Leistung", "correct": false }
+    ],
+    "explanation": "Verschlüsselung schützt Daten auf dem Weg zwischen Client und Cloud-Dienst."
+  },
+  {
+    "id": "lf-03-sach-cloud-036",
+    "question": "Warum ist eine Cloud nicht automatisch für jeden Dienst die beste Lösung?",
+    "answers": [
+      { "text": "Anforderungen an Kosten, Schutz und Latenz unterscheiden sich", "correct": true },
+      { "text": "Cloud-Dienste passen zu jeder lokalen Infrastruktur", "correct": false },
+      { "text": "Cloud-Dienste erfüllen jeden Schutzbedarf identisch", "correct": false },
+      { "text": "Cloud-Dienste lösen jede Latenzanforderung gleich", "correct": false }
+    ],
+    "explanation": "Ob Cloud passt, hängt von Technik, Wirtschaftlichkeit, Sicherheit, Datenschutz und Verfügbarkeit ab."
+  },
+  {
+    "id": "lf-03-sach-cloud-037",
+    "question": "Warum kann ein externer Rechenzentrumsbetrieb die Verfügbarkeit verbessern?",
+    "answers": [
+      { "text": "Professionelle Infrastruktur kann Ausfälle reduzieren", "correct": true },
+      { "text": "Externer Betrieb verschiebt Dienste auf Endgeräte", "correct": false },
+      { "text": "Rechenzentren ersetzen Monitoring durch Nutzer", "correct": false },
+      { "text": "Infrastruktur wird dabei dezentral improvisiert", "correct": false }
+    ],
+    "explanation": "Rechenzentren bieten oft redundante Stromversorgung, Kühlung, Zutrittsschutz und Überwachung."
+  },
+  {
+    "id": "lf-03-sach-cloud-038",
+    "question": "Warum ist ein Terminalserver für viele gleiche Arbeitsplätze praktisch?",
+    "answers": [
+      { "text": "Eine zentrale Umgebung kann mehrfach genutzt werden", "correct": true },
+      { "text": "Arbeitsplätze werden vollständig individuell gepflegt", "correct": false },
+      { "text": "Anwendungen laufen getrennt auf jedem Client", "correct": false },
+      { "text": "Benutzerumgebungen entstehen pro Gerät neu", "correct": false }
+    ],
+    "explanation": "Bei ähnlichen Arbeitsplätzen erleichtert zentrale Bereitstellung Wartung und Standardisierung."
+  },
+  {
+    "id": "lf-03-sach-cloud-039",
+    "question": "Warum braucht ein Thin-Client-Konzept leistungsfähige Server?",
+    "answers": [
+      { "text": "Viele Anwendungen laufen zentral", "correct": true },
+      { "text": "Viele Anwendungen laufen lokal auf Clients", "correct": false },
+      { "text": "Thin Clients übernehmen zentrale Verarbeitung", "correct": false },
+      { "text": "Server dienen vorrangig als Anzeigegeräte", "correct": false }
+    ],
+    "explanation": "Je weniger lokal passiert, desto wichtiger werden Serverleistung und Netzwerkverbindung."
+  },
+  {
+    "id": "lf-03-sach-cloud-040",
+    "question": "Warum sollte Cloud-Nutzung dokumentiert werden?",
+    "answers": [
+      { "text": "Dienste, Daten und Verantwortliche bleiben nachvollziehbar", "correct": true },
+      { "text": "Zugriffsrechte entstehen aus der Dokumentation", "correct": false },
+      { "text": "Kosten werden durch Dokumentation automatisch begrenzt", "correct": false },
+      { "text": "Ungenutzte Dienste werden dadurch automatisch beendet", "correct": false }
+    ],
+    "explanation": "Dokumentation hilft bei Betrieb, Kostenkontrolle, Sicherheit und späteren Änderungen."
+  }
+]

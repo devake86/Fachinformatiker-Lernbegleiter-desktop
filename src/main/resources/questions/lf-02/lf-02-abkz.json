@@ -1,0 +1,662 @@
+[
+  {
+    "id": "lf-02-abkz-001",
+    "question": "Wofür steht EVA?",
+    "answers": [
+      { "text": "Eingabe, Verarbeitung, Ausgabe", "correct": true },
+      { "text": "Einzelverkauf, Verwaltung, Abschluss", "correct": false },
+      { "text": "Elektronik, Versorgung, Anschluss", "correct": false },
+      { "text": "Einkauf, Verkauf, Angebot", "correct": false }
+    ],
+    "explanation": "EVA beschreibt das Grundprinzip der Datenverarbeitung."
+  },
+  {
+    "id": "lf-02-abkz-002",
+    "question": "Wofür steht CPU?",
+    "answers": [
+      { "text": "Central Processing Unit", "correct": true },
+      { "text": "Computer Power Unit", "correct": false },
+      { "text": "Central Program Utility", "correct": false },
+      { "text": "Client Processing User", "correct": false }
+    ],
+    "explanation": "CPU bezeichnet den Hauptprozessor eines Computers."
+  },
+  {
+    "id": "lf-02-abkz-003",
+    "question": "Wofür steht GPU?",
+    "answers": [
+      { "text": "Graphics Processing Unit", "correct": true },
+      { "text": "General Power Unit", "correct": false },
+      { "text": "Graphical Program User", "correct": false },
+      { "text": "Global Processing Utility", "correct": false }
+    ],
+    "explanation": "GPU bezeichnet den Grafikprozessor."
+  },
+  {
+    "id": "lf-02-abkz-004",
+    "question": "Wofür steht RAM?",
+    "answers": [
+      { "text": "Random Access Memory", "correct": true },
+      { "text": "Read Access Module", "correct": false },
+      { "text": "Rapid Application Manager", "correct": false },
+      { "text": "Remote Admin Memory", "correct": false }
+    ],
+    "explanation": "RAM ist flüchtiger Arbeitsspeicher."
+  },
+  {
+    "id": "lf-02-abkz-005",
+    "question": "Wofür steht BIOS?",
+    "answers": [
+      { "text": "Basic Input/Output System", "correct": true },
+      { "text": "Basic Internet Operating Service", "correct": false },
+      { "text": "Binary Internal Output Storage", "correct": false },
+      { "text": "Business Information Online System", "correct": false }
+    ],
+    "explanation": "BIOS initialisiert grundlegende Hardwarefunktionen beim Start."
+  },
+  {
+    "id": "lf-02-abkz-006",
+    "question": "Wofür steht UEFI?",
+    "answers": [
+      { "text": "Unified Extensible Firmware Interface", "correct": true },
+      { "text": "Universal External File Interface", "correct": false },
+      { "text": "User Extended Firmware Input", "correct": false },
+      { "text": "Unified Ethernet File Integration", "correct": false }
+    ],
+    "explanation": "UEFI ist der moderne Nachfolger klassischer BIOS-Systeme."
+  },
+  {
+    "id": "lf-02-abkz-007",
+    "question": "Wofür steht GUI?",
+    "answers": [
+      { "text": "Graphical User Interface", "correct": true },
+      { "text": "General Utility Input", "correct": false },
+      { "text": "Global User Installation", "correct": false },
+      { "text": "Graphical Unit Interface", "correct": false }
+    ],
+    "explanation": "GUI bezeichnet eine grafische Benutzeroberfläche."
+  },
+  {
+    "id": "lf-02-abkz-008",
+    "question": "Wofür steht HDD?",
+    "answers": [
+      { "text": "Hard Disk Drive", "correct": true },
+      { "text": "High Data Device", "correct": false },
+      { "text": "Host Disk Directory", "correct": false },
+      { "text": "Hardware Data Driver", "correct": false }
+    ],
+    "explanation": "HDD bezeichnet eine magnetische Festplatte mit beweglichen Teilen."
+  },
+  {
+    "id": "lf-02-abkz-009",
+    "question": "Wofür steht SSD?",
+    "answers": [
+      { "text": "Solid State Drive", "correct": true },
+      { "text": "Secure System Disk", "correct": false },
+      { "text": "Storage Service Device", "correct": false },
+      { "text": "Static Software Drive", "correct": false }
+    ],
+    "explanation": "SSD bezeichnet einen elektronischen Datenträger ohne bewegliche Teile."
+  },
+  {
+    "id": "lf-02-abkz-010",
+    "question": "Wofür steht SSHD?",
+    "answers": [
+      { "text": "Solid State Hybrid Drive", "correct": true },
+      { "text": "Secure Shell Hard Disk", "correct": false },
+      { "text": "System Storage Host Drive", "correct": false },
+      { "text": "Static Server Hybrid Device", "correct": false }
+    ],
+    "explanation": "SSHD kombiniert klassische Festplattentechnik mit Flash-Speicher."
+  },
+  {
+    "id": "lf-02-abkz-011",
+    "question": "Wofür steht DAS?",
+    "answers": [
+      { "text": "Direct Attached Storage", "correct": true },
+      { "text": "Data Access Server", "correct": false },
+      { "text": "Digital Archive System", "correct": false },
+      { "text": "Direct Application Service", "correct": false }
+    ],
+    "explanation": "DAS ist direkt an einen Rechner angeschlossener Speicher."
+  },
+  {
+    "id": "lf-02-abkz-012",
+    "question": "Wofür steht NAS?",
+    "answers": [
+      { "text": "Network Attached Storage", "correct": true },
+      { "text": "Network Access Service", "correct": false },
+      { "text": "New Archive System", "correct": false },
+      { "text": "Node Application Storage", "correct": false }
+    ],
+    "explanation": "NAS stellt Speicher über ein Netzwerk bereit."
+  },
+  {
+    "id": "lf-02-abkz-013",
+    "question": "Wofür steht SAN?",
+    "answers": [
+      { "text": "Storage Area Network", "correct": true },
+      { "text": "System Access Node", "correct": false },
+      { "text": "Secure Archive Network", "correct": false },
+      { "text": "Server Attached Name", "correct": false }
+    ],
+    "explanation": "SAN ist ein eigenes Netzwerk für Speicherressourcen."
+  },
+  {
+    "id": "lf-02-abkz-014",
+    "question": "Wofür steht USB?",
+    "answers": [
+      { "text": "Universal Serial Bus", "correct": true },
+      { "text": "Unified Storage Bridge", "correct": false },
+      { "text": "User System Backup", "correct": false },
+      { "text": "Universal Software Base", "correct": false }
+    ],
+    "explanation": "USB ist eine serielle Schnittstelle für Geräte und Datenübertragung."
+  },
+  {
+    "id": "lf-02-abkz-015",
+    "question": "Wofür steht HDMI?",
+    "answers": [
+      { "text": "High-Definition Multimedia Interface", "correct": true },
+      { "text": "High Data Monitor Input", "correct": false },
+      { "text": "Hardware Digital Media Integration", "correct": false },
+      { "text": "Host Display Management Interface", "correct": false }
+    ],
+    "explanation": "HDMI überträgt digitale Bild- und Tonsignale."
+  },
+  {
+    "id": "lf-02-abkz-016",
+    "question": "Wofür steht PCIe?",
+    "answers": [
+      { "text": "Peripheral Component Interconnect Express", "correct": true },
+      { "text": "Personal Computer Interface Ethernet", "correct": false },
+      { "text": "Processor Control Input Extension", "correct": false },
+      { "text": "Peripheral Cloud Internet Express", "correct": false }
+    ],
+    "explanation": "PCIe ist eine schnelle Schnittstelle für Erweiterungskarten und Speicher."
+  },
+  {
+    "id": "lf-02-abkz-017",
+    "question": "Wofür steht SATA?",
+    "answers": [
+      { "text": "Serial ATA", "correct": true },
+      { "text": "System Attached Transfer Adapter", "correct": false },
+      { "text": "Storage Access Technical Area", "correct": false },
+      { "text": "Secure Advanced Type Address", "correct": false }
+    ],
+    "explanation": "SATA ist eine Schnittstelle für Massenspeicher."
+  },
+  {
+    "id": "lf-02-abkz-018",
+    "question": "Wofür steht DPI?",
+    "answers": [
+      { "text": "Dots per Inch", "correct": true },
+      { "text": "Data per Interface", "correct": false },
+      { "text": "Display Program Input", "correct": false },
+      { "text": "Digital Print Index", "correct": false }
+    ],
+    "explanation": "DPI beschreibt Punkte pro Zoll, etwa bei Druckern, Scannern oder Auflösung."
+  },
+  {
+    "id": "lf-02-abkz-019",
+    "question": "Wofür steht LCD?",
+    "answers": [
+      { "text": "Liquid Crystal Display", "correct": true },
+      { "text": "Light Color Device", "correct": false },
+      { "text": "Local Control Display", "correct": false },
+      { "text": "Linear Component Driver", "correct": false }
+    ],
+    "explanation": "LCD ist eine Displaytechnik mit Flüssigkristallen."
+  },
+  {
+    "id": "lf-02-abkz-020",
+    "question": "Wofür steht LED?",
+    "answers": [
+      { "text": "Light Emitting Diode", "correct": true },
+      { "text": "Liquid Energy Display", "correct": false },
+      { "text": "Local Electronic Driver", "correct": false },
+      { "text": "Low Ethernet Device", "correct": false }
+    ],
+    "explanation": "LED bedeutet lichtemittierende Diode."
+  },
+  {
+    "id": "lf-02-abkz-021",
+    "question": "Wofür steht OLED?",
+    "answers": [
+      { "text": "Organic Light Emitting Diode", "correct": true },
+      { "text": "Optical LCD Extension Display", "correct": false },
+      { "text": "Open Light Ethernet Device", "correct": false },
+      { "text": "Operating Layer Electronic Driver", "correct": false }
+    ],
+    "explanation": "OLED ist eine Displaytechnik mit organischen Leuchtdioden."
+  },
+  {
+    "id": "lf-02-abkz-022",
+    "question": "Wofür steht IPS bei Monitoren?",
+    "answers": [
+      { "text": "In-Plane Switching", "correct": true },
+      { "text": "Internal Panel System", "correct": false },
+      { "text": "Integrated Power Supply", "correct": false },
+      { "text": "Internet Processing Screen", "correct": false }
+    ],
+    "explanation": "IPS ist eine Paneltechnik mit guter Farbdarstellung und Blickwinkelstabilität."
+  },
+  {
+    "id": "lf-02-abkz-023",
+    "question": "Wofür steht TN bei Monitorpanels?",
+    "answers": [
+      { "text": "Twisted Nematic", "correct": true },
+      { "text": "Technical Network", "correct": false },
+      { "text": "Transparent Node", "correct": false },
+      { "text": "Terminal Name", "correct": false }
+    ],
+    "explanation": "TN ist eine ältere LCD-Paneltechnik mit schnellen Reaktionszeiten."
+  },
+  {
+    "id": "lf-02-abkz-024",
+    "question": "Wofür steht VA bei Monitorpanels?",
+    "answers": [
+      { "text": "Vertical Alignment", "correct": true },
+      { "text": "Virtual Adapter", "correct": false },
+      { "text": "Video Application", "correct": false },
+      { "text": "Verified Access", "correct": false }
+    ],
+    "explanation": "VA ist eine Paneltechnik mit starkem Kontrast."
+  },
+  {
+    "id": "lf-02-abkz-025",
+    "question": "Wofür steht TDP?",
+    "answers": [
+      { "text": "Thermal Design Power", "correct": true },
+      { "text": "Technical Data Port", "correct": false },
+      { "text": "Total Display Performance", "correct": false },
+      { "text": "Transfer Data Protocol", "correct": false }
+    ],
+    "explanation": "TDP beschreibt die thermische Verlustleistung, für die Kühlung ausgelegt sein muss."
+  },
+  {
+    "id": "lf-02-abkz-026",
+    "question": "Wofür steht ECC bei Arbeitsspeicher?",
+    "answers": [
+      { "text": "Error Correction Code", "correct": true },
+      { "text": "External Cache Control", "correct": false },
+      { "text": "Enhanced Core Clock", "correct": false },
+      { "text": "Electronic Customer Contract", "correct": false }
+    ],
+    "explanation": "ECC-Speicher kann bestimmte Speicherfehler erkennen und korrigieren."
+  },
+  {
+    "id": "lf-02-abkz-027",
+    "question": "Wofür steht ERP?",
+    "answers": [
+      { "text": "Enterprise Resource Planning", "correct": true },
+      { "text": "External Repair Process", "correct": false },
+      { "text": "Electronic Retail Price", "correct": false },
+      { "text": "Enterprise Routing Protocol", "correct": false }
+    ],
+    "explanation": "ERP-Systeme unterstützen zentrale Unternehmensprozesse."
+  },
+  {
+    "id": "lf-02-abkz-028",
+    "question": "Wofür steht CRM?",
+    "answers": [
+      { "text": "Customer Relationship Management", "correct": true },
+      { "text": "Computer Resource Module", "correct": false },
+      { "text": "Central Repair Management", "correct": false },
+      { "text": "Cloud Runtime Monitor", "correct": false }
+    ],
+    "explanation": "CRM unterstützt die Verwaltung von Kundenbeziehungen."
+  },
+  {
+    "id": "lf-02-abkz-029",
+    "question": "Wofür steht SCM?",
+    "answers": [
+      { "text": "Supply Chain Management", "correct": true },
+      { "text": "Software Configuration Module", "correct": false },
+      { "text": "System Control Memory", "correct": false },
+      { "text": "Service Cost Management", "correct": false }
+    ],
+    "explanation": "SCM befasst sich mit Lieferketten und Materialflüssen."
+  },
+  {
+    "id": "lf-02-abkz-030",
+    "question": "Wofür steht HRM?",
+    "answers": [
+      { "text": "Human Resource Management", "correct": true },
+      { "text": "Hardware Repair Module", "correct": false },
+      { "text": "Hosted Runtime Manager", "correct": false },
+      { "text": "High Resolution Monitor", "correct": false }
+    ],
+    "explanation": "HRM unterstützt Personalprozesse im Unternehmen."
+  },
+  {
+    "id": "lf-02-abkz-031",
+    "question": "Wofür steht MRP?",
+    "answers": [
+      { "text": "Manufacturing Resource Planning", "correct": true },
+      { "text": "Mainboard Repair Process", "correct": false },
+      { "text": "Market Retail Price", "correct": false },
+      { "text": "Managed Remote Protocol", "correct": false }
+    ],
+    "explanation": "MRP unterstützt Produktions- und Ressourcenplanung."
+  },
+  {
+    "id": "lf-02-abkz-032",
+    "question": "Wofür steht MES?",
+    "answers": [
+      { "text": "Manufacturing Execution System", "correct": true },
+      { "text": "Main Energy Supply", "correct": false },
+      { "text": "Market Evaluation Service", "correct": false },
+      { "text": "Managed Ethernet Switch", "correct": false }
+    ],
+    "explanation": "MES unterstützt die Steuerung und Überwachung von Fertigungsprozessen."
+  },
+  {
+    "id": "lf-02-abkz-033",
+    "question": "Wofür steht SCADA?",
+    "answers": [
+      { "text": "Supervisory Control and Data Acquisition", "correct": true },
+      { "text": "Secure Cloud Application Data Access", "correct": false },
+      { "text": "System Control and Disk Allocation", "correct": false },
+      { "text": "Service Cost and Data Analysis", "correct": false }
+    ],
+    "explanation": "SCADA-Systeme überwachen und steuern technische Prozesse."
+  },
+  {
+    "id": "lf-02-abkz-034",
+    "question": "Wofür steht SPS?",
+    "answers": [
+      { "text": "Speicherprogrammierbare Steuerung", "correct": true },
+      { "text": "Systemprogramm für Speicher", "correct": false },
+      { "text": "Serviceprozesssteuerung", "correct": false },
+      { "text": "Sicheres Prozesssystem", "correct": false }
+    ],
+    "explanation": "SPS steuert Maschinen und Anlagen in der Automatisierung."
+  },
+  {
+    "id": "lf-02-abkz-035",
+    "question": "Wofür steht RFID?",
+    "answers": [
+      { "text": "Radio-Frequency Identification", "correct": true },
+      { "text": "Remote File Identifier", "correct": false },
+      { "text": "Rapid Firmware Installation Device", "correct": false },
+      { "text": "Registered Financial Information Data", "correct": false }
+    ],
+    "explanation": "RFID ermöglicht Identifikation über Funk."
+  },
+  {
+    "id": "lf-02-abkz-036",
+    "question": "Wofür steht NFC?",
+    "answers": [
+      { "text": "Near Field Communication", "correct": true },
+      { "text": "Network File Control", "correct": false },
+      { "text": "New Firmware Configuration", "correct": false },
+      { "text": "Numeric Finance Code", "correct": false }
+    ],
+    "explanation": "NFC ist eine Funktechnik für kurze Distanzen."
+  },
+  {
+    "id": "lf-02-abkz-037",
+    "question": "Wofür steht SaaS?",
+    "answers": [
+      { "text": "Software as a Service", "correct": true },
+      { "text": "Storage as a Server", "correct": false },
+      { "text": "Security as a System", "correct": false },
+      { "text": "Software and Support", "correct": false }
+    ],
+    "explanation": "SaaS stellt fertige Software als Dienst bereit."
+  },
+  {
+    "id": "lf-02-abkz-038",
+    "question": "Wofür steht PaaS?",
+    "answers": [
+      { "text": "Platform as a Service", "correct": true },
+      { "text": "Program as a Storage", "correct": false },
+      { "text": "Project as a System", "correct": false },
+      { "text": "Price and Sales Service", "correct": false }
+    ],
+    "explanation": "PaaS stellt eine Plattform für Entwicklung und Betrieb bereit."
+  },
+  {
+    "id": "lf-02-abkz-039",
+    "question": "Wofür steht IaaS?",
+    "answers": [
+      { "text": "Infrastructure as a Service", "correct": true },
+      { "text": "Internet as a Software", "correct": false },
+      { "text": "Interface as a Storage", "correct": false },
+      { "text": "Investment as a Service", "correct": false }
+    ],
+    "explanation": "IaaS stellt Infrastruktur wie Server, Speicher und Netzwerkressourcen bereit."
+  },
+  {
+    "id": "lf-02-abkz-040",
+    "question": "Wofür steht DaaS?",
+    "answers": [
+      { "text": "Desktop as a Service", "correct": true },
+      { "text": "Data as a Socket", "correct": false },
+      { "text": "Device as a Software", "correct": false },
+      { "text": "Discount as a Service", "correct": false }
+    ],
+    "explanation": "DaaS stellt virtuelle Arbeitsplätze als Dienst bereit."
+  },
+  {
+    "id": "lf-02-abkz-041",
+    "question": "Wofür steht TCO?",
+    "answers": [
+      { "text": "Total Cost of Ownership", "correct": true },
+      { "text": "Technical Contract Offer", "correct": false },
+      { "text": "Total Customer Order", "correct": false },
+      { "text": "Time Cost Output", "correct": false }
+    ],
+    "explanation": "TCO betrachtet die Gesamtkosten über die Nutzungsdauer."
+  },
+  {
+    "id": "lf-02-abkz-042",
+    "question": "Wofür steht ROI?",
+    "answers": [
+      { "text": "Return on Investment", "correct": true },
+      { "text": "Rate of Installation", "correct": false },
+      { "text": "Revenue of Interest", "correct": false },
+      { "text": "Remote Office Interface", "correct": false }
+    ],
+    "explanation": "ROI misst die Rendite einer Investition."
+  },
+  {
+    "id": "lf-02-abkz-043",
+    "question": "Wofür steht AfA?",
+    "answers": [
+      { "text": "Absetzung für Abnutzung", "correct": true },
+      { "text": "Anfrage für Angebot", "correct": false },
+      { "text": "Aufwand für Ausstattung", "correct": false },
+      { "text": "Abschluss für Annahme", "correct": false }
+    ],
+    "explanation": "AfA beschreibt die buchhalterische Abschreibung eines Wirtschaftsguts."
+  },
+  {
+    "id": "lf-02-abkz-044",
+    "question": "Wofür steht AGB?",
+    "answers": [
+      { "text": "Allgemeine Geschäftsbedingungen", "correct": true },
+      { "text": "Allgemeiner Gerätebedarf", "correct": false },
+      { "text": "Angebot gemäß Bestellung", "correct": false },
+      { "text": "Arbeitsgruppe Beschaffung", "correct": false }
+    ],
+    "explanation": "AGB enthalten vorformulierte Vertragsbedingungen."
+  },
+  {
+    "id": "lf-02-abkz-045",
+    "question": "Wofür steht BGB?",
+    "answers": [
+      { "text": "Bürgerliches Gesetzbuch", "correct": true },
+      { "text": "Bundesgesetz für Beschaffung", "correct": false },
+      { "text": "Betriebliche Gerätebewertung", "correct": false },
+      { "text": "Brutto-Gewinn-Berechnung", "correct": false }
+    ],
+    "explanation": "Das BGB regelt viele Grundlagen des Privatrechts."
+  },
+  {
+    "id": "lf-02-abkz-046",
+    "question": "Wofür steht HGB?",
+    "answers": [
+      { "text": "Handelsgesetzbuch", "correct": true },
+      { "text": "Hardware-Garantie-Bedingung", "correct": false },
+      { "text": "Handelskalkulation Gesamtbetrag", "correct": false },
+      { "text": "Hauptgeschäftsbereich", "correct": false }
+    ],
+    "explanation": "Das HGB enthält wichtige Regeln für Kaufleute und Handelsgeschäfte."
+  },
+  {
+    "id": "lf-02-abkz-047",
+    "question": "Wofür steht DSGVO?",
+    "answers": [
+      { "text": "Datenschutz-Grundverordnung", "correct": true },
+      { "text": "Datensicherungs-Gesamtvorgabe", "correct": false },
+      { "text": "Digitales Servicegesetz für Verkäufer", "correct": false },
+      { "text": "Datenstrukturierter Gerätevergleich", "correct": false }
+    ],
+    "explanation": "Die DSGVO regelt den Schutz personenbezogener Daten."
+  },
+  {
+    "id": "lf-02-abkz-048",
+    "question": "Wofür steht BDSG?",
+    "answers": [
+      { "text": "Bundesdatenschutzgesetz", "correct": true },
+      { "text": "Bundesdienstleistungsgesetz", "correct": false },
+      { "text": "Betriebsdaten-Sicherungsgerät", "correct": false },
+      { "text": "Beschaffungsdaten-Systemgesetz", "correct": false }
+    ],
+    "explanation": "Das BDSG ergänzt Datenschutzregelungen in Deutschland."
+  },
+  {
+    "id": "lf-02-abkz-049",
+    "question": "Wofür steht UVV?",
+    "answers": [
+      { "text": "Unfallverhütungsvorschriften", "correct": true },
+      { "text": "Unternehmensweite Verkaufsvereinbarung", "correct": false },
+      { "text": "Universelle Vertragsvorgaben", "correct": false },
+      { "text": "Umweltverträgliche Verpackungsverordnung", "correct": false }
+    ],
+    "explanation": "UVV enthalten Vorschriften zur Vermeidung von Arbeitsunfällen."
+  },
+  {
+    "id": "lf-02-abkz-050",
+    "question": "Wofür steht VDE?",
+    "answers": [
+      { "text": "Verband der Elektrotechnik Elektronik Informationstechnik", "correct": true },
+      { "text": "Vertrag der elektronischen Daten", "correct": false },
+      { "text": "Verordnung digitaler Einrichtungen", "correct": false },
+      { "text": "Verkaufsdatum einer Einheit", "correct": false }
+    ],
+    "explanation": "VDE steht für Normung und Sicherheit in Elektrotechnik und Informationstechnik."
+  },
+  {
+    "id": "lf-02-abkz-051",
+    "question": "Wofür steht ASiG?",
+    "answers": [
+      { "text": "Arbeitssicherheitsgesetz", "correct": true },
+      { "text": "Angebots- und Servicegesetz", "correct": false },
+      { "text": "Allgemeines Systemintegrationsgesetz", "correct": false },
+      { "text": "Arbeitsplatz-Software im Gewerbe", "correct": false }
+    ],
+    "explanation": "Das ASiG betrifft Sicherheit und Gesundheitsschutz im Betrieb."
+  },
+  {
+    "id": "lf-02-abkz-052",
+    "question": "Wofür steht ArbSchG?",
+    "answers": [
+      { "text": "Arbeitsschutzgesetz", "correct": true },
+      { "text": "Arbeitsplatz-Schulungsgesetz", "correct": false },
+      { "text": "Archivierungs- und Schutzgesetz", "correct": false },
+      { "text": "Angebotsrechnungsschutzgesetz", "correct": false }
+    ],
+    "explanation": "Das ArbSchG regelt grundlegende Pflichten zum Arbeitsschutz."
+  },
+  {
+    "id": "lf-02-abkz-053",
+    "question": "Wofür steht ArbStättV?",
+    "answers": [
+      { "text": "Arbeitsstättenverordnung", "correct": true },
+      { "text": "Arbeitszeitstätten-Vertrag", "correct": false },
+      { "text": "Arbeitsplatz-Statistikverfahren", "correct": false },
+      { "text": "Archivierungsstandard für Verträge", "correct": false }
+    ],
+    "explanation": "Die ArbStättV regelt Anforderungen an Arbeitsstätten."
+  },
+  {
+    "id": "lf-02-abkz-054",
+    "question": "Wofür steht SMART bei Zielen?",
+    "answers": [
+      { "text": "Spezifisch, Messbar, Akzeptiert, Realistisch, Terminierbar", "correct": true },
+      { "text": "Schnell, Modern, Automatisch, Rational, Technisch", "correct": false },
+      { "text": "Service, Markt, Angebot, Rabatt, Termin", "correct": false },
+      { "text": "Software, Mainboard, Arbeitsspeicher, Router, Tastatur", "correct": false }
+    ],
+    "explanation": "SMART hilft, Ziele klar und überprüfbar zu formulieren."
+  },
+  {
+    "id": "lf-02-abkz-055",
+    "question": "Wofür steht IPERKA?",
+    "answers": [
+      { "text": "Informieren, Planen, Entscheiden, Realisieren, Kontrollieren, Auswerten", "correct": true },
+      { "text": "Installieren, Prüfen, Ersetzen, Rechnen, Kaufen, Abschließen", "correct": false },
+      { "text": "Internet, Planung, Einkauf, Recht, Kalkulation, Angebot", "correct": false },
+      { "text": "Informieren, Präsentieren, Erklären, Reden, Kontrollieren, Anbieten", "correct": false }
+    ],
+    "explanation": "IPERKA beschreibt einen strukturierten Handlungsablauf."
+  },
+  {
+    "id": "lf-02-abkz-056",
+    "question": "Wofür steht PSP im Projektmanagement?",
+    "answers": [
+      { "text": "Projektstrukturplan", "correct": true },
+      { "text": "Produkt-Service-Preis", "correct": false },
+      { "text": "Prozess-Sicherheitsprüfung", "correct": false },
+      { "text": "Pflichten-Soll-Protokoll", "correct": false }
+    ],
+    "explanation": "Der PSP zerlegt ein Projekt in übersichtliche Teilaufgaben."
+  },
+  {
+    "id": "lf-02-abkz-057",
+    "question": "Wofür steht AIDA im Verkauf?",
+    "answers": [
+      { "text": "Attention, Interest, Desire, Action", "correct": true },
+      { "text": "Analyse, Installation, Dokumentation, Abnahme", "correct": false },
+      { "text": "Anfrage, Inhalt, Dienstleistung, Angebot", "correct": false },
+      { "text": "Aufwand, Investition, Darlehen, Annuität", "correct": false }
+    ],
+    "explanation": "AIDA beschreibt Phasen zur Verkaufs- und Werbewirkung."
+  },
+  {
+    "id": "lf-02-abkz-058",
+    "question": "Wofür steht AIDCA?",
+    "answers": [
+      { "text": "Attention, Interest, Desire, Confidence, Action", "correct": true },
+      { "text": "Anfrage, Installation, Dokumentation, Controlling, Abnahme", "correct": false },
+      { "text": "Angebot, Interesse, Dienstleistung, Cloud, Aufgabe", "correct": false },
+      { "text": "Aufwand, Investition, Darlehen, Kosten, Abschreibung", "correct": false }
+    ],
+    "explanation": "AIDCA ergänzt AIDA um Vertrauen als zusätzlichen Schritt."
+  },
+  {
+    "id": "lf-02-abkz-059",
+    "question": "Wofür steht B2B?",
+    "answers": [
+      { "text": "Business to Business", "correct": true },
+      { "text": "Backup to Backup", "correct": false },
+      { "text": "Browser to Buyer", "correct": false },
+      { "text": "Business to Backup", "correct": false }
+    ],
+    "explanation": "B2B beschreibt Geschäftsbeziehungen zwischen Unternehmen."
+  },
+  {
+    "id": "lf-02-abkz-060",
+    "question": "Wofür steht B2C?",
+    "answers": [
+      { "text": "Business to Consumer", "correct": true },
+      { "text": "Backup to Cloud", "correct": false },
+      { "text": "Browser to Client", "correct": false },
+      { "text": "Business to Controller", "correct": false }
+    ],
+    "explanation": "B2C beschreibt Geschäftsbeziehungen zwischen Unternehmen und Verbrauchern."
+  }
+]

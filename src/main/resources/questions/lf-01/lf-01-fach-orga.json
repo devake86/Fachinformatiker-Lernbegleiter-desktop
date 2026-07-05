@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-fach-orga-001",
+    "question": "Was beschreibt ein Organigramm?",
+    "answers": [
+      { "text": "Eine grafische Darstellung der Aufbauorganisation", "correct": true },
+      { "text": "Eine Ablaufdarstellung betrieblicher Prozesse", "correct": false },
+      { "text": "Eine Übersicht über Stellenbeschreibungen", "correct": false },
+      { "text": "Eine Darstellung von Markt- und Kundenbeziehungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Organigramm zeigt Aufbau, Hierarchie und Zuständigkeiten eines Unternehmens."
+  },
+  {
+    "id": "lf-01-fach-orga-002",
+    "question": "Was beschreibt die Aufbauorganisation?",
+    "answers": [
+      { "text": "Die Gliederung eines Betriebs in Stellen und Bereiche", "correct": true },
+      { "text": "Die zeitliche Reihenfolge einzelner Arbeitsprozesse", "correct": false },
+      { "text": "Die Verteilung von Aufgaben im Projektablauf", "correct": false },
+      { "text": "Die Steuerung laufender Arbeitsvorgänge", "correct": false }
+    ],
+    "explanation": "Merksatz: Aufbauorganisation regelt, wer wofür zuständig ist und wer wem unterstellt ist."
+  },
+  {
+    "id": "lf-01-fach-orga-003",
+    "question": "Was beschreibt eine Stelle in der Organisation?",
+    "answers": [
+      { "text": "Die kleinste organisatorische Einheit mit Aufgaben", "correct": true },
+      { "text": "Eine Abteilung mit mehreren untergeordneten Bereichen", "correct": false },
+      { "text": "Eine Instanz mit umfassender Weisungsbefugnis", "correct": false },
+      { "text": "Ein Arbeitsplatz ohne festgelegte Zuständigkeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Stelle bündelt Aufgaben, Kompetenzen und Verantwortung für eine Person oder Funktion."
+  },
+  {
+    "id": "lf-01-fach-orga-004",
+    "question": "Was beschreibt eine Instanz?",
+    "answers": [
+      { "text": "Eine Stelle mit Leitungs- und Weisungsbefugnis", "correct": true },
+      { "text": "Eine beratende Stelle ohne Linienverantwortung", "correct": false },
+      { "text": "Eine Stelle mit Aufgaben, aber ohne Weisungsrecht", "correct": false },
+      { "text": "Eine Abteilung zur reinen Informationssammlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Instanz darf Entscheidungen treffen und Weisungen an untergeordnete Stellen geben."
+  },
+  {
+    "id": "lf-01-fach-orga-005",
+    "question": "Was beschreibt ein Stab in der Organisation?",
+    "answers": [
+      { "text": "Eine unterstützende Stelle ohne direkte Weisungsbefugnis", "correct": true },
+      { "text": "Eine Linienstelle mit direkter Weisungsbefugnis", "correct": false },
+      { "text": "Eine Instanz mit voller Entscheidungsverantwortung", "correct": false },
+      { "text": "Eine Stelle mit dauerhafter Personalverantwortung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Stab berät und unterstützt eine Instanz, entscheidet aber nicht selbst über Linienaufgaben."
+  },
+  {
+    "id": "lf-01-fach-orga-006",
+    "question": "Was beschreibt eine Hierarchie?",
+    "answers": [
+      { "text": "Eine Rangordnung von Über- und Unterordnung", "correct": true },
+      { "text": "Eine Gleichstellung aller Stellen ohne Dienstweg", "correct": false },
+      { "text": "Eine reine Zuordnung von Aufgaben zu Prozessen", "correct": false },
+      { "text": "Eine Zusammenarbeit ohne Weisungsbeziehungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Hierarchie zeigt, wer wem unterstellt ist und über welche Wege Weisungen laufen."
+  },
+  {
+    "id": "lf-01-fach-orga-007",
+    "question": "Was beschreibt ein autoritärer Führungsstil?",
+    "answers": [
+      { "text": "Führung durch klare Anweisung und wenig Beteiligung", "correct": true },
+      { "text": "Führung durch gemeinsame Zielvereinbarung", "correct": false },
+      { "text": "Führung mit starker Mitarbeitereinbindung", "correct": false },
+      { "text": "Führung mit weitgehender Selbststeuerung", "correct": false }
+    ],
+    "explanation": "Merksatz: Autoritäre Führung entscheidet zentral und beteiligt Mitarbeitende nur wenig."
+  },
+  {
+    "id": "lf-01-fach-orga-008",
+    "question": "Was beschreibt ein kooperativer Führungsstil?",
+    "answers": [
+      { "text": "Führung durch Beteiligung und Zusammenarbeit", "correct": true },
+      { "text": "Führung durch alleinige Entscheidung der Leitung", "correct": false },
+      { "text": "Führung über starre Dienstwege ohne Austausch", "correct": false },
+      { "text": "Führung mit vollständiger Aufgabenabgabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Kooperative Führung bindet Mitarbeitende in Entscheidungen ein."
+  },
+  {
+    "id": "lf-01-fach-orga-009",
+    "question": "Was beschreibt Management by Objectives?",
+    "answers": [
+      { "text": "Führung durch Zielvereinbarung", "correct": true },
+      { "text": "Führung durch Eingreifen bei Abweichungen", "correct": false },
+      { "text": "Führung durch Aufgabenübertragung", "correct": false },
+      { "text": "Führung durch detaillierte Einzelanweisung", "correct": false }
+    ],
+    "explanation": "Merksatz: Management by Objectives führt über gemeinsam vereinbarte Ziele."
+  },
+  {
+    "id": "lf-01-fach-orga-010",
+    "question": "Was beschreibt Management by Exception?",
+    "answers": [
+      { "text": "Führung greift nur bei besonderen Abweichungen ein", "correct": true },
+      { "text": "Führung über gemeinsam vereinbarte Ziele", "correct": false },
+      { "text": "Führung durch Übertragung klarer Aufgaben", "correct": false },
+      { "text": "Führung durch ständige Einzelkontrolle", "correct": false }
+    ],
+    "explanation": "Merksatz: Management by Exception entlastet Führungskräfte durch Eingreifen bei Ausnahmen."
+  },
+  {
+    "id": "lf-01-fach-orga-011",
+    "question": "Was beschreibt Management by Delegation?",
+    "answers": [
+      { "text": "Übertragung von Aufgaben, Kompetenzen und Verantwortung", "correct": true },
+      { "text": "Führung durch Eingreifen bei Ausnahmen", "correct": false },
+      { "text": "Führung über gemeinsam vereinbarte Ziele", "correct": false },
+      { "text": "Zentrale Entscheidung ohne Aufgabenübertragung", "correct": false }
+    ],
+    "explanation": "Merksatz: Management by Delegation überträgt klar abgegrenzte Aufgaben mit Verantwortung."
+  },
+  {
+    "id": "lf-01-fach-orga-012",
+    "question": "Was beschreibt ein Einliniensystem?",
+    "answers": [
+      { "text": "Jede Stelle hat genau eine vorgesetzte Stelle", "correct": true },
+      { "text": "Jede Stelle erhält Weisungen von mehreren Instanzen", "correct": false },
+      { "text": "Linienstellen werden durch Stäbe ergänzt", "correct": false },
+      { "text": "Fach- und Objektverantwortung überlappen", "correct": false }
+    ],
+    "explanation": "Merksatz: Im Einliniensystem laufen Weisungen über eindeutige Dienstwege."
+  },
+  {
+    "id": "lf-01-fach-orga-013",
+    "question": "Was beschreibt ein Mehrliniensystem?",
+    "answers": [
+      { "text": "Eine Stelle kann Weisungen von mehreren Vorgesetzten erhalten", "correct": true },
+      { "text": "Eine Stelle hat genau eine vorgesetzte Instanz", "correct": false },
+      { "text": "Eine Instanz wird durch beratende Stäbe unterstützt", "correct": false },
+      { "text": "Eine Stelle arbeitet ohne Weisungsbeziehungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Im Mehrliniensystem können mehrere Fachvorgesetzte Weisungen geben."
+  },
+  {
+    "id": "lf-01-fach-orga-014",
+    "question": "Was beschreibt ein Stabliniensystem?",
+    "answers": [
+      { "text": "Ein Liniensystem mit beratenden Stabsstellen", "correct": true },
+      { "text": "Ein System mit mehreren weisenden Fachinstanzen", "correct": false },
+      { "text": "Ein System mit überlappender Matrixverantwortung", "correct": false },
+      { "text": "Ein System ohne beratende Unterstützungsstellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Stabliniensystem ergänzt Linieninstanzen durch beratende Stäbe."
+  },
+  {
+    "id": "lf-01-fach-orga-015",
+    "question": "Was beschreibt eine Matrixorganisation?",
+    "answers": [
+      { "text": "Organisation mit Fach- und Objektverantwortung", "correct": true },
+      { "text": "Organisation mit genau einem Weisungsweg", "correct": false },
+      { "text": "Organisation mit beratendem Stab zur Linie", "correct": false },
+      { "text": "Organisation ohne fachliche Zuständigkeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Matrixorganisation verbindet mehrere Verantwortungsdimensionen, etwa Funktion und Produkt."
+  },
+  {
+    "id": "lf-01-fach-orga-016",
+    "question": "Was beschreibt das Handelsregister?",
+    "answers": [
+      { "text": "Öffentliches Verzeichnis wichtiger Unternehmensdaten", "correct": true },
+      { "text": "Internes Verzeichnis aller Kunden und Lieferanten", "correct": false },
+      { "text": "Verzeichnis betrieblicher Stellen und Instanzen", "correct": false },
+      { "text": "Register für Marktpreise und Angebotsmengen", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Handelsregister informiert öffentlich über rechtlich relevante Unternehmensdaten."
+  },
+  {
+    "id": "lf-01-fach-orga-017",
+    "question": "Was beschreibt Prokura?",
+    "answers": [
+      { "text": "Eine umfangreiche handelsrechtliche Vertretungsmacht", "correct": true },
+      { "text": "Eine begrenzte Vollmacht für gewöhnliche Geschäfte", "correct": false },
+      { "text": "Eine interne Weisungsbefugnis gegenüber Mitarbeitern", "correct": false },
+      { "text": "Eine Vertretung des Betriebsrats nach außen", "correct": false }
+    ],
+    "explanation": "Merksatz: Prokura berechtigt zu fast allen gewöhnlichen und außergewöhnlichen Handelsgeschäften."
+  },
+  {
+    "id": "lf-01-fach-orga-018",
+    "question": "Was beschreibt eine Handlungsvollmacht?",
+    "answers": [
+      { "text": "Eine begrenzte geschäftliche Vertretungsmacht", "correct": true },
+      { "text": "Eine umfassende handelsrechtliche Prokura", "correct": false },
+      { "text": "Eine Führungsbefugnis in der Linienorganisation", "correct": false },
+      { "text": "Eine gesetzliche Vertretung der Arbeitnehmer", "correct": false }
+    ],
+    "explanation": "Merksatz: Handlungsvollmacht erlaubt nur bestimmte oder gewöhnliche Geschäfte des Betriebs."
+  },
+  {
+    "id": "lf-01-fach-orga-019",
+    "question": "Was beschreibt eine Rechtsform?",
+    "answers": [
+      { "text": "Den rechtlichen Rahmen eines Unternehmens", "correct": true },
+      { "text": "Die interne Gliederung in Stellen und Bereiche", "correct": false },
+      { "text": "Den kaufmännischen Namen eines Unternehmens", "correct": false },
+      { "text": "Die Marktstellung nach Anbieterzahl", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Rechtsform bestimmt unter anderem Haftung, Kapital, Leitung und Besteuerung."
+  },
+  {
+    "id": "lf-01-fach-orga-020",
+    "question": "Was beschreibt eine Kapitalgesellschaft?",
+    "answers": [
+      { "text": "Kapitalbezogene Gesellschaft mit Haftungsbegrenzung", "correct": true },
+      { "text": "Personenbezogene Gesellschaft mit voller Privathaftung", "correct": false },
+      { "text": "Befristete Projektgemeinschaft mehrerer Unternehmen", "correct": false },
+      { "text": "Unternehmen ohne eigene rechtliche Struktur", "correct": false }
+    ],
+    "explanation": "Merksatz: Kapitalgesellschaften wie GmbH oder AG trennen Gesellschaftsvermögen stärker vom Privatvermögen."
+  }
+]

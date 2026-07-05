@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-fach-bwl-001",
+    "question": "Was beschreibt Arbeitsteilung?",
+    "answers": [
+      { "text": "Aufteilung von Aufgaben auf spezialisierte Bereiche", "correct": true },
+      { "text": "Zusammenfassung aller Aufgaben bei einer Stelle", "correct": false },
+      { "text": "Verteilung gleicher Aufgaben auf alle Beschäftigten", "correct": false },
+      { "text": "Trennung von Planung und jeder Ausführung", "correct": false }
+    ],
+    "explanation": "Merksatz: Arbeitsteilung erhöht Spezialisierung und kann Leistung, Qualität und Effizienz verbessern."
+  },
+  {
+    "id": "lf-01-fach-bwl-002",
+    "question": "Was beschreibt betriebliche Arbeitsteilung?",
+    "answers": [
+      { "text": "Spezialisierte Aufgabenverteilung innerhalb eines Betriebs", "correct": true },
+      { "text": "Aufgabenverteilung zwischen mehreren Volkswirtschaften", "correct": false },
+      { "text": "Spezialisierung zwischen Branchen und Sektoren", "correct": false },
+      { "text": "Verlagerung aller Aufgaben an externe Anbieter", "correct": false }
+    ],
+    "explanation": "Merksatz: Betriebliche Arbeitsteilung verteilt Aufgaben auf Abteilungen, Stellen oder Mitarbeiter."
+  },
+  {
+    "id": "lf-01-fach-bwl-003",
+    "question": "Was beschreibt volkswirtschaftliche Arbeitsteilung?",
+    "answers": [
+      { "text": "Spezialisierung zwischen Betrieben oder Wirtschaftsbereichen", "correct": true },
+      { "text": "Spezialisierung einzelner Stellen im Betrieb", "correct": false },
+      { "text": "Aufteilung von Tätigkeiten innerhalb einer Abteilung", "correct": false },
+      { "text": "Arbeitsverteilung nur zwischen Mitarbeitenden", "correct": false }
+    ],
+    "explanation": "Merksatz: Volkswirtschaftliche Arbeitsteilung beschreibt Spezialisierung zwischen Unternehmen, Branchen oder Sektoren."
+  },
+  {
+    "id": "lf-01-fach-bwl-004",
+    "question": "Was beschreibt internationale Arbeitsteilung?",
+    "answers": [
+      { "text": "Aufgabenverteilung und Produktion über Ländergrenzen hinweg", "correct": true },
+      { "text": "Spezialisierung nur innerhalb eines Betriebs", "correct": false },
+      { "text": "Arbeitsteilung zwischen Branchen eines Landes", "correct": false },
+      { "text": "Auslagerung von Aufgaben innerhalb einer Abteilung", "correct": false }
+    ],
+    "explanation": "Merksatz: Internationale Arbeitsteilung nutzt Standortvorteile verschiedener Länder."
+  },
+  {
+    "id": "lf-01-fach-bwl-005",
+    "question": "Was beschreibt Globalisierung?",
+    "answers": [
+      { "text": "Weltweite Verflechtung von Märkten und Unternehmen", "correct": true },
+      { "text": "Internationale Arbeitsteilung ohne Marktzugang", "correct": false },
+      { "text": "Regionale Spezialisierung einzelner Betriebe", "correct": false },
+      { "text": "Staatliche Begrenzung globaler Lieferketten", "correct": false }
+    ],
+    "explanation": "Merksatz: Globalisierung vernetzt Märkte, Lieferketten und Unternehmen weltweit."
+  },
+  {
+    "id": "lf-01-fach-bwl-006",
+    "question": "Was beschreibt der Begriff Race to the Bottom?",
+    "answers": [
+      { "text": "Unterbietungswettbewerb über Kosten oder Standards", "correct": true },
+      { "text": "Wettbewerb über höhere Sozialstandards", "correct": false },
+      { "text": "Produktivitätssteigerung durch Spezialisierung", "correct": false },
+      { "text": "Preiswettbewerb mit gleicher Qualitätsbindung", "correct": false }
+    ],
+    "explanation": "Merksatz: Race to the Bottom bedeutet Konkurrenz über sinkende Kosten oder Standards."
+  },
+  {
+    "id": "lf-01-fach-bwl-007",
+    "question": "Was beschreibt ein Produktionsfaktor?",
+    "answers": [
+      { "text": "Ein Mittel, das zur Leistungserstellung benötigt wird", "correct": true },
+      { "text": "Ein Ergebnis der betrieblichen Leistungserstellung", "correct": false },
+      { "text": "Ein Absatzweg für fertige Güter", "correct": false },
+      { "text": "Eine Kennzahl für den Marktanteil", "correct": false }
+    ],
+    "explanation": "Merksatz: Produktionsfaktoren sind Einsatzmittel zur Herstellung von Gütern oder Dienstleistungen."
+  },
+  {
+    "id": "lf-01-fach-bwl-008",
+    "question": "Was beschreibt der Produktionsfaktor Boden?",
+    "answers": [
+      { "text": "Natürliche Ressourcen und nutzbare Flächen", "correct": true },
+      { "text": "Maschinen, Gebäude und Finanzmittel", "correct": false },
+      { "text": "Wissen und Erfahrung der Beschäftigten", "correct": false },
+      { "text": "Menschliche Arbeitsleistung im Betrieb", "correct": false }
+    ],
+    "explanation": "Merksatz: Boden umfasst natürliche Ressourcen wie Flächen, Rohstoffe und Energiequellen."
+  },
+  {
+    "id": "lf-01-fach-bwl-009",
+    "question": "Was beschreibt der Produktionsfaktor Kapital?",
+    "answers": [
+      { "text": "Sach- und Geldmittel zur Leistungserstellung", "correct": true },
+      { "text": "Natürliche Ressourcen und Energiequellen", "correct": false },
+      { "text": "Menschliche Arbeitskraft und Erfahrung", "correct": false },
+      { "text": "Kundenbedarf als Auslöser der Nachfrage", "correct": false }
+    ],
+    "explanation": "Merksatz: Kapital meint Sachmittel und Geldmittel wie Maschinen, Gebäude oder Finanzmittel."
+  },
+  {
+    "id": "lf-01-fach-bwl-010",
+    "question": "Was beschreibt der Produktionsfaktor Arbeit?",
+    "answers": [
+      { "text": "Menschliche Arbeitsleistung zur Leistungserstellung", "correct": true },
+      { "text": "Maschinen und Finanzmittel im Betrieb", "correct": false },
+      { "text": "Rohstoffe und natürliche Energiequellen", "correct": false },
+      { "text": "Der rechtliche Name eines Unternehmens", "correct": false }
+    ],
+    "explanation": "Merksatz: Arbeit beschreibt den menschlichen Beitrag zur Erstellung betrieblicher Leistungen."
+  },
+  {
+    "id": "lf-01-fach-bwl-011",
+    "question": "Was beschreibt Humankapital?",
+    "answers": [
+      { "text": "Wissen, Fähigkeiten und Erfahrung von Menschen", "correct": true },
+      { "text": "Finanzmittel und liquide Rücklagen", "correct": false },
+      { "text": "Maschinen, Anlagen und Gebäude", "correct": false },
+      { "text": "Rohstoffe, Flächen und Energiequellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Humankapital ist das Wissen und Können der Menschen im Unternehmen."
+  },
+  {
+    "id": "lf-01-fach-bwl-012",
+    "question": "Was beschreibt der Primärsektor?",
+    "answers": [
+      { "text": "Rohstoffgewinnung und Urproduktion", "correct": true },
+      { "text": "Industrielle Verarbeitung von Rohstoffen", "correct": false },
+      { "text": "Handel, Beratung und Serviceleistungen", "correct": false },
+      { "text": "Digitale Informations- und Wissensdienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Primärsektor gewinnt Rohstoffe, zum Beispiel in Landwirtschaft oder Bergbau."
+  },
+  {
+    "id": "lf-01-fach-bwl-013",
+    "question": "Was beschreibt der Sekundärsektor?",
+    "answers": [
+      { "text": "Verarbeitung von Rohstoffen zu Gütern", "correct": true },
+      { "text": "Gewinnung natürlicher Rohstoffe", "correct": false },
+      { "text": "Handel und personenbezogene Dienstleistungen", "correct": false },
+      { "text": "Informationsdienste ohne Güterproduktion", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Sekundärsektor verarbeitet Rohstoffe, zum Beispiel in Industrie und Handwerk."
+  },
+  {
+    "id": "lf-01-fach-bwl-014",
+    "question": "Was beschreibt der Tertiärsektor?",
+    "answers": [
+      { "text": "Handel und Dienstleistungen", "correct": true },
+      { "text": "Rohstoffgewinnung und Landwirtschaft", "correct": false },
+      { "text": "Industrielle Herstellung von Sachgütern", "correct": false },
+      { "text": "Förderung natürlicher Energiequellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Tertiärsektor erbringt Dienstleistungen und umfasst Handel, Beratung oder Service."
+  },
+  {
+    "id": "lf-01-fach-bwl-015",
+    "question": "Was beschreibt ein Unternehmen?",
+    "answers": [
+      { "text": "Eine rechtlich-organisatorische Wirtschaftseinheit", "correct": true },
+      { "text": "Die technische Leistungseinheit vor Ort", "correct": false },
+      { "text": "Der kaufmännische Name im Geschäftsverkehr", "correct": false },
+      { "text": "Eine einzelne Stelle innerhalb eines Betriebs", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Unternehmen ist die rechtliche und wirtschaftliche Einheit hinter betrieblichen Tätigkeiten."
+  },
+  {
+    "id": "lf-01-fach-bwl-016",
+    "question": "Was beschreibt ein Betrieb?",
+    "answers": [
+      { "text": "Den Ort oder die Einheit, in der Leistungen erstellt werden", "correct": true },
+      { "text": "Die rechtliche Wirtschaftseinheit am Markt", "correct": false },
+      { "text": "Den Namen eines Kaufmanns im Geschäftsverkehr", "correct": false },
+      { "text": "Den Zusammenschluss mehrerer Unternehmen", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Betrieb ist die organisatorische Einheit, in der Güter oder Dienstleistungen entstehen."
+  },
+  {
+    "id": "lf-01-fach-bwl-017",
+    "question": "Was beschreibt die Firma im kaufmännischen Sinn?",
+    "answers": [
+      { "text": "Den Namen, unter dem ein Kaufmann Geschäfte betreibt", "correct": true },
+      { "text": "Die wirtschaftliche Einheit hinter dem Betrieb", "correct": false },
+      { "text": "Die Produktionsstätte eines Unternehmens", "correct": false },
+      { "text": "Den Zusammenschluss rechtlich selbstständiger Betriebe", "correct": false }
+    ],
+    "explanation": "Merksatz: Firma ist der Geschäftsname, nicht automatisch das gesamte Unternehmen."
+  },
+  {
+    "id": "lf-01-fach-bwl-018",
+    "question": "Was beschreibt eine ARGE?",
+    "answers": [
+      { "text": "Eine befristete Arbeitsgemeinschaft mehrerer Unternehmen", "correct": true },
+      { "text": "Ein dauerhaftes Unternehmen unter einheitlicher Leitung", "correct": false },
+      { "text": "Eine Preisabsprache rechtlich selbstständiger Firmen", "correct": false },
+      { "text": "Ein Arbeitgeberverband für Tarifverhandlungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine ARGE ist eine zeitlich begrenzte Zusammenarbeit für ein gemeinsames Projekt."
+  },
+  {
+    "id": "lf-01-fach-bwl-019",
+    "question": "Was beschreibt ein Konzern?",
+    "answers": [
+      { "text": "Verbund selbstständiger Unternehmen unter Leitung", "correct": true },
+      { "text": "Eine befristete Projektgemeinschaft von Unternehmen", "correct": false },
+      { "text": "Eine Absprache zur Wettbewerbsbeschränkung", "correct": false },
+      { "text": "Ein einzelner Betrieb ohne rechtliche Selbstständigkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Im Konzern bleiben Unternehmen rechtlich selbstständig, werden aber einheitlich geführt."
+  },
+  {
+    "id": "lf-01-fach-bwl-020",
+    "question": "Was beschreibt ein Kartell?",
+    "answers": [
+      { "text": "Absprache zur Beschränkung des Wettbewerbs", "correct": true },
+      { "text": "Ein Konzern mit einheitlicher Leitung", "correct": false },
+      { "text": "Eine ARGE zur gemeinsamen Projektdurchführung", "correct": false },
+      { "text": "Ein Verband zur Interessenvertretung", "correct": false }
+    ],
+    "explanation": "Merksatz: Kartelle beschränken Wettbewerb durch Absprachen, zum Beispiel über Preise oder Märkte."
+  }
+]

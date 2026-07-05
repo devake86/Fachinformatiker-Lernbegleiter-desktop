@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-sach-tick-001",
+    "question": "Was sollte bei einer neuen Serviceanfrage zuerst erfolgen?",
+    "answers": [
+      { "text": "Die Anfrage wird erfasst und dokumentiert", "correct": true },
+      { "text": "Die Anfrage wird sofort priorisiert und eskaliert", "correct": false },
+      { "text": "Die Anfrage wird direkt als Incident bewertet", "correct": false },
+      { "text": "Die Anfrage wird ohne Ticket mündlich weitergegeben", "correct": false }
+    ],
+    "explanation": "Eine Serviceanfrage sollte nachvollziehbar erfasst werden, damit sie strukturiert bearbeitet werden kann."
+  },
+  {
+    "id": "lf-06-sach-tick-002",
+    "question": "Wozu dient ein Ticket im Servicedesk?",
+    "answers": [
+      { "text": "Zur Dokumentation und Nachverfolgung eines Servicefalls", "correct": true },
+      { "text": "Zur automatischen Lösung jedes Servicefalls", "correct": false },
+      { "text": "Zur reinen Priorisierung nach Dringlichkeit", "correct": false },
+      { "text": "Zur zentralen Annahme aller Kundenanrufe", "correct": false }
+    ],
+    "explanation": "Ein Ticket dokumentiert Informationen, Status und Verlauf eines Servicefalls."
+  },
+  {
+    "id": "lf-06-sach-tick-003",
+    "question": "Welche Information gehört typischerweise in ein Serviceticket?",
+    "answers": [
+      { "text": "Fehlerbeschreibung, Kundendaten, Status und Schritte", "correct": true },
+      { "text": "Nur die abschließende Lösung des Servicefalls", "correct": false },
+      { "text": "Nur die Priorität und der aktuelle Ticketstatus", "correct": false },
+      { "text": "Nur die zuständige Supportstufe", "correct": false }
+    ],
+    "explanation": "Ein gutes Ticket enthält alle Informationen, die für Bearbeitung und Nachvollziehbarkeit nötig sind."
+  },
+  {
+    "id": "lf-06-sach-tick-004",
+    "question": "Was ist ein Vorteil eines Ticketsystems?",
+    "answers": [
+      { "text": "Servicefälle können strukturiert verfolgt und gesteuert werden", "correct": true },
+      { "text": "Servicefälle werden ausschließlich telefonisch bearbeitet", "correct": false },
+      { "text": "Bearbeitungsschritte werden nur informell notiert", "correct": false },
+      { "text": "Zuständigkeiten entstehen erst nach Abschluss", "correct": false }
+    ],
+    "explanation": "Ticketsysteme schaffen Übersicht über Zuständigkeiten, Bearbeitungsstand und Verlauf."
+  },
+  {
+    "id": "lf-06-sach-tick-005",
+    "question": "Was bedeutet Kategorisierung eines Tickets?",
+    "answers": [
+      { "text": "Das Ticket wird einem Themen- oder Fachbereich zugeordnet", "correct": true },
+      { "text": "Das Ticket wird nach Dringlichkeit sortiert", "correct": false },
+      { "text": "Das Ticket wird einer Supportstufe übergeben", "correct": false },
+      { "text": "Das Ticket erhält einen aktuellen Bearbeitungsstatus", "correct": false }
+    ],
+    "explanation": "Kategorisierung hilft, Servicefälle fachlich richtig einzuordnen."
+  },
+  {
+    "id": "lf-06-sach-tick-006",
+    "question": "Was bedeutet Priorisierung eines Tickets?",
+    "answers": [
+      { "text": "Die Bearbeitungsreihenfolge wird nach Wichtigkeit und Dringlichkeit festgelegt", "correct": true },
+      { "text": "Das Ticket wird einem Fachbereich zugeordnet", "correct": false },
+      { "text": "Das Ticket wird nach Art des Falls eingeordnet", "correct": false },
+      { "text": "Der aktuelle Bearbeitungsstand wird dokumentiert", "correct": false }
+    ],
+    "explanation": "Priorisierung steuert, welche Servicefälle besonders schnell bearbeitet werden müssen."
+  },
+  {
+    "id": "lf-06-sach-tick-007",
+    "question": "Welche Anfrage ist typischerweise ein Service Request?",
+    "answers": [
+      { "text": "Ein Benutzer beantragt eine standardisierte Serviceleistung", "correct": true },
+      { "text": "Ein genutzter IT-Service fällt ungeplant aus", "correct": false },
+      { "text": "Ein bestehender IT-Service soll geändert werden", "correct": false },
+      { "text": "Ein bekannter Fehler verursacht wiederkehrende Störungen", "correct": false }
+    ],
+    "explanation": "Ein Service Request ist eine normale Anfrage nach einer definierten Serviceleistung."
+  },
+  {
+    "id": "lf-06-sach-tick-008",
+    "question": "Welche Anfrage ist typischerweise ein Incident?",
+    "answers": [
+      { "text": "Ein genutzter IT-Service ist gestört oder nicht verfügbar", "correct": true },
+      { "text": "Ein Benutzer beantragt eine Standardleistung", "correct": false },
+      { "text": "Ein bestehender Service soll erweitert werden", "correct": false },
+      { "text": "Ein Kunde fragt den Bearbeitungsstatus ab", "correct": false }
+    ],
+    "explanation": "Ein Incident beschreibt eine ungeplante Störung oder Qualitätsminderung eines IT-Services."
+  },
+  {
+    "id": "lf-06-sach-tick-009",
+    "question": "Welche Anfrage passt zu einem Request for Change?",
+    "answers": [
+      { "text": "Ein bestehender IT-Service soll geändert werden", "correct": true },
+      { "text": "Ein IT-Service ist ungeplant nicht verfügbar", "correct": false },
+      { "text": "Ein Benutzer beantragt eine Standardleistung", "correct": false },
+      { "text": "Ein Kunde fragt nach dem Ticketstatus", "correct": false }
+    ],
+    "explanation": "Ein Request for Change betrifft eine gewünschte Änderung mit möglicher Auswirkung auf die IT."
+  },
+  {
+    "id": "lf-06-sach-tick-010",
+    "question": "Wozu dient der First-Level-Support?",
+    "answers": [
+      { "text": "Zur ersten Annahme, Erfassung und einfachen Lösung", "correct": true },
+      { "text": "Zur vertieften Analyse komplexerer Fälle", "correct": false },
+      { "text": "Zur Bearbeitung spezialisierter Expertenprobleme", "correct": false },
+      { "text": "Zur automatischen Anrufverteilung im Servicedesk", "correct": false }
+    ],
+    "explanation": "First-Level-Support ist die erste Anlaufstelle und löst einfache Fälle möglichst direkt."
+  },
+  {
+    "id": "lf-06-sach-tick-011",
+    "question": "Wann sollte ein Ticket an den Second-Level-Support eskaliert werden?",
+    "answers": [
+      { "text": "Wenn vertieftes Fachwissen oder mehr Berechtigungen nötig sind", "correct": true },
+      { "text": "Wenn eine einfache Standardlösung ausreicht", "correct": false },
+      { "text": "Wenn der Fall spezialisierte Expertenentwicklung braucht", "correct": false },
+      { "text": "Wenn nur der aktuelle Ticketstatus gefragt ist", "correct": false }
+    ],
+    "explanation": "Second-Level-Support übernimmt Fälle, die über einfache Erstlösungen hinausgehen."
+  },
+  {
+    "id": "lf-06-sach-tick-012",
+    "question": "Wofür ist der Third-Level-Support typischerweise zuständig?",
+    "answers": [
+      { "text": "Für Spezialprobleme und Expertenlösungen", "correct": true },
+      { "text": "Für Erstannahme und einfache Standardlösungen", "correct": false },
+      { "text": "Für vertiefte Analyse normaler Supportfälle", "correct": false },
+      { "text": "Für automatische Verteilung eingehender Anrufe", "correct": false }
+    ],
+    "explanation": "Third-Level-Support bearbeitet besonders komplexe oder spezialisierte Probleme."
+  },
+  {
+    "id": "lf-06-sach-tick-013",
+    "question": "Was bedeutet Eskalation im Serviceprozess?",
+    "answers": [
+      { "text": "Ein Fall wird an eine passendere oder höhere Bearbeitungsstufe weitergegeben", "correct": true },
+      { "text": "Ein Fall wird im Ticketsystem erstmals erfasst", "correct": false },
+      { "text": "Ein Fall wird fachlich kategorisiert", "correct": false },
+      { "text": "Ein Fall erhält seinen aktuellen Status", "correct": false }
+    ],
+    "explanation": "Eskalation sorgt dafür, dass ein Fall rechtzeitig die passende Zuständigkeit erhält."
+  },
+  {
+    "id": "lf-06-sach-tick-014",
+    "question": "Warum sind SLAs bei der Ticketbearbeitung wichtig?",
+    "answers": [
+      { "text": "Sie legen vereinbarte Servicequalität und Zeiten fest", "correct": true },
+      { "text": "Sie ordnen Tickets fachlich einem Bereich zu", "correct": false },
+      { "text": "Sie dokumentieren jeden Bearbeitungsschritt", "correct": false },
+      { "text": "Sie verteilen Anrufe an passende Bearbeiter", "correct": false }
+    ],
+    "explanation": "SLAs helfen, Reaktionszeiten, Bearbeitungszeiten und Servicequalität verbindlich zu steuern."
+  },
+  {
+    "id": "lf-06-sach-tick-015",
+    "question": "Was sollte passieren, wenn eine vereinbarte Reaktionszeit gefährdet ist?",
+    "answers": [
+      { "text": "Der Fall sollte geprüft, priorisiert und bei Bedarf eskaliert werden", "correct": true },
+      { "text": "Der Fall sollte nur neu kategorisiert werden", "correct": false },
+      { "text": "Der Fall sollte bis zum SLA-Ende unverändert bleiben", "correct": false },
+      { "text": "Der Fall sollte als Service Request umbenannt werden", "correct": false }
+    ],
+    "explanation": "Bei drohender SLA-Verletzung müssen Status, Priorität und Eskalation aktiv geprüft werden."
+  },
+  {
+    "id": "lf-06-sach-tick-016",
+    "question": "Wozu dient ein Single Point of Contact?",
+    "answers": [
+      { "text": "Kunden haben eine zentrale Anlaufstelle für Servicefälle", "correct": true },
+      { "text": "Anrufe werden automatisch an Bearbeiter verteilt", "correct": false },
+      { "text": "Ein Bearbeiter verantwortet einen konkreten Fall", "correct": false },
+      { "text": "Rollen werden mit RACI eindeutig dargestellt", "correct": false }
+    ],
+    "explanation": "Ein SPOC reduziert unklare Zuständigkeiten und erleichtert die Kommunikation."
+  },
+  {
+    "id": "lf-06-sach-tick-017",
+    "question": "Wozu dient Automatic Call Distribution?",
+    "answers": [
+      { "text": "Eingehende Anrufe werden automatisch passend verteilt", "correct": true },
+      { "text": "Kunden erhalten eine zentrale Kontaktstelle", "correct": false },
+      { "text": "Ein Case Owner übernimmt die Fallverantwortung", "correct": false },
+      { "text": "Tickets werden nach Themenbereichen sortiert", "correct": false }
+    ],
+    "explanation": "ACD verteilt Anrufe an geeignete Stellen oder Bearbeiter."
+  },
+  {
+    "id": "lf-06-sach-tick-018",
+    "question": "Welche Aufgabe hat ein Case Owner?",
+    "answers": [
+      { "text": "Er behält die Verantwortung und den Überblick über einen Servicefall", "correct": true },
+      { "text": "Er verteilt eingehende Anrufe automatisch", "correct": false },
+      { "text": "Er ist zentrale Kontaktstelle für alle Servicefälle", "correct": false },
+      { "text": "Er beschreibt Rollen mit Responsible und Accountable", "correct": false }
+    ],
+    "explanation": "Der Case Owner sorgt dafür, dass ein Servicefall weiterverfolgt und abgeschlossen wird."
+  },
+  {
+    "id": "lf-06-sach-tick-019",
+    "question": "Welche Aussage zur RACI-Matrix ist richtig?",
+    "answers": [
+      { "text": "Sie klärt Verantwortlichkeiten und Informationsbeziehungen", "correct": true },
+      { "text": "Sie verteilt eingehende Anrufe automatisch", "correct": false },
+      { "text": "Sie dokumentiert den Verlauf eines Tickets", "correct": false },
+      { "text": "Sie legt Servicequalität und Reaktionszeiten fest", "correct": false }
+    ],
+    "explanation": "Eine RACI-Matrix zeigt, wer verantwortlich, rechenschaftspflichtig, beratend oder informiert ist."
+  },
+  {
+    "id": "lf-06-sach-tick-020",
+    "question": "Welche Regel passt gut zu einer RACI-Matrix?",
+    "answers": [
+      { "text": "Für eine Aktivität sollte klar sein, wer Accountable ist", "correct": true },
+      { "text": "Für jede Aktivität sollte nur Consulted vergeben werden", "correct": false },
+      { "text": "Responsible und Informed beschreiben dieselbe Rolle", "correct": false },
+      { "text": "Accountable wird nur für automatische Anrufverteilung genutzt", "correct": false }
+    ],
+    "explanation": "RACI soll Zuständigkeiten eindeutig machen, besonders die rechenschaftspflichtige Rolle."
+  }
+]

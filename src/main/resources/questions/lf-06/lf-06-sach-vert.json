@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-sach-vert-001",
+    "question": "Wozu dient ein Servicevertrag?",
+    "answers": [
+      { "text": "Er regelt IT-Serviceleistungen und Rahmenbedingungen", "correct": true },
+      { "text": "Er legt messbare Servicelevel und Zeiten fest", "correct": false },
+      { "text": "Er beschreibt interne Beiträge von Serviceeinheiten", "correct": false },
+      { "text": "Er sichert Leistungen externer Dienstleister ab", "correct": false }
+    ],
+    "explanation": "Ein Servicevertrag schafft Verbindlichkeit über Leistungen, Pflichten und Rahmenbedingungen."
+  },
+  {
+    "id": "lf-06-sach-vert-002",
+    "question": "Welche Inhalte können in einem SLA geregelt werden?",
+    "answers": [
+      { "text": "Verfügbarkeit, Reaktionszeiten, Supportzeiten und Servicequalität", "correct": true },
+      { "text": "Interne Zuständigkeiten zwischen Serviceeinheiten", "correct": false },
+      { "text": "Externe Zuarbeit durch Dienstleister", "correct": false },
+      { "text": "Allgemeine Bedingungen für spätere Einzelaufträge", "correct": false }
+    ],
+    "explanation": "Ein SLA legt messbare Servicezusagen wie Zeiten, Verfügbarkeit und Qualitätsanforderungen fest."
+  },
+  {
+    "id": "lf-06-sach-vert-003",
+    "question": "Warum sind SLAs für die Bearbeitung von Serviceanfragen wichtig?",
+    "answers": [
+      { "text": "Sie machen vereinbarte Leistungen und Zeiten überprüfbar", "correct": true },
+      { "text": "Sie beschreiben interne Beiträge zur Serviceerfüllung", "correct": false },
+      { "text": "Sie sichern externe Unterstützungsleistungen ab", "correct": false },
+      { "text": "Sie legen allgemeine Vertragsbedingungen fest", "correct": false }
+    ],
+    "explanation": "SLAs helfen, Servicefälle nach vereinbarten Zeiten und Qualitätszielen zu steuern."
+  },
+  {
+    "id": "lf-06-sach-vert-004",
+    "question": "Was ist der Unterschied zwischen SLA und OLA?",
+    "answers": [
+      { "text": "Ein SLA betrifft Kundenleistungen, ein OLA interne Serviceabsprachen", "correct": true },
+      { "text": "Ein SLA regelt ausschließlich interne Teambeiträge", "correct": false },
+      { "text": "Ein OLA regelt Servicezusagen gegenüber Kunden", "correct": false },
+      { "text": "Ein OLA sichert externe Lieferantenleistungen ab", "correct": false }
+    ],
+    "explanation": "SLAs regeln Servicezusagen gegenüber Kunden, OLAs interne Beiträge zur Erfüllung dieser Zusagen."
+  },
+  {
+    "id": "lf-06-sach-vert-005",
+    "question": "Wozu dient ein Underpinning Contract?",
+    "answers": [
+      { "text": "Er sichert externe Unterstützungsleistungen für Services ab", "correct": true },
+      { "text": "Er regelt interne Beiträge zwischen Serviceeinheiten", "correct": false },
+      { "text": "Er vereinbart Servicequalität mit dem Kunden", "correct": false },
+      { "text": "Er beschreibt allgemeine Bedingungen für Einzelaufträge", "correct": false }
+    ],
+    "explanation": "Ein UC unterstützt Servicezusagen durch vertraglich geregelte Leistungen externer Dienstleister."
+  },
+  {
+    "id": "lf-06-sach-vert-006",
+    "question": "Wann ist ein Auftragsverarbeitungsvertrag besonders relevant?",
+    "answers": [
+      { "text": "Wenn personenbezogene Daten im Auftrag verarbeitet werden", "correct": true },
+      { "text": "Wenn Software als Cloud-Dienst bereitgestellt wird", "correct": false },
+      { "text": "Wenn Servicelevel mit Kunden vereinbart werden", "correct": false },
+      { "text": "Wenn Hardware gegen Zahlung erworben wird", "correct": false }
+    ],
+    "explanation": "Ein AV-Vertrag regelt die weisungsgebundene Verarbeitung personenbezogener Daten."
+  },
+  {
+    "id": "lf-06-sach-vert-007",
+    "question": "Welche Aussage zu SaaS-Verträgen ist richtig?",
+    "answers": [
+      { "text": "Der Kunde erhält meist ein zeitlich begrenztes Nutzungsrecht", "correct": true },
+      { "text": "Der Kunde erwirbt typischerweise eine Sache dauerhaft", "correct": false },
+      { "text": "Der Anbieter schuldet meist einen einmaligen Werkerfolg", "correct": false },
+      { "text": "Der Vertrag betrifft primär interne Serviceeinheiten", "correct": false }
+    ],
+    "explanation": "Bei SaaS wird Software als Dienst bereitgestellt und vertraglich nutzbar gemacht."
+  },
+  {
+    "id": "lf-06-sach-vert-008",
+    "question": "Welche Regelung kann in einem SaaS-Vertrag besonders wichtig sein?",
+    "answers": [
+      { "text": "Datenspeicherung, Datensicherung, Laufzeit und Kündigung", "correct": true },
+      { "text": "Eigentumsübergang an allen Quellcodes", "correct": false },
+      { "text": "Interne Eskalationswege des Servicedesks", "correct": false },
+      { "text": "Reifegradbewertung der Serviceprozesse", "correct": false }
+    ],
+    "explanation": "SaaS-Verträge sollten zentrale Punkte wie Daten, Sicherheit, Laufzeit und Leistungsumfang regeln."
+  },
+  {
+    "id": "lf-06-sach-vert-009",
+    "question": "Welche Aussage passt zum Werkvertrag?",
+    "answers": [
+      { "text": "Es wird ein bestimmter Erfolg geschuldet", "correct": true },
+      { "text": "Es wird eine Tätigkeit als solche geschuldet", "correct": false },
+      { "text": "Eine Sache wird zeitweise überlassen", "correct": false },
+      { "text": "Eine Sache wird dauerhaft erworben", "correct": false }
+    ],
+    "explanation": "Beim Werkvertrag steht der vereinbarte Erfolg im Mittelpunkt."
+  },
+  {
+    "id": "lf-06-sach-vert-010",
+    "question": "Welche Aussage passt zum Dienstvertrag?",
+    "answers": [
+      { "text": "Es wird eine Tätigkeit oder Dienstleistung geschuldet", "correct": true },
+      { "text": "Es wird ein konkreter Erfolg geschuldet", "correct": false },
+      { "text": "Eine Sache wird dauerhaft erworben", "correct": false },
+      { "text": "Eine Sache wird zeitweise überlassen", "correct": false }
+    ],
+    "explanation": "Beim Dienstvertrag steht die geschuldete Tätigkeit im Vordergrund, nicht zwingend ein konkreter Erfolg."
+  },
+  {
+    "id": "lf-06-sach-vert-011",
+    "question": "Welche Aussage passt zum Kaufvertrag?",
+    "answers": [
+      { "text": "Eine Sache oder Ware wird gegen Zahlung erworben", "correct": true },
+      { "text": "Eine Sache wird zeitweise gegen Entgelt überlassen", "correct": false },
+      { "text": "Eine Tätigkeit wird als Dienstleistung geschuldet", "correct": false },
+      { "text": "Ein bestimmter Erfolg wird hergestellt", "correct": false }
+    ],
+    "explanation": "Beim Kaufvertrag geht es um den Erwerb einer Sache gegen Bezahlung."
+  },
+  {
+    "id": "lf-06-sach-vert-012",
+    "question": "Welche Aussage passt zum Mietvertrag im IT-Servicekontext?",
+    "answers": [
+      { "text": "Eine Sache oder Leistung wird zeitweise gegen Entgelt überlassen", "correct": true },
+      { "text": "Eine Sache wird dauerhaft gegen Zahlung erworben", "correct": false },
+      { "text": "Ein bestimmter Herstellungserfolg wird geschuldet", "correct": false },
+      { "text": "Regelmäßige Pflege und Instandhaltung stehen im Fokus", "correct": false }
+    ],
+    "explanation": "Mietverträge regeln befristete Nutzung gegen Zahlung."
+  },
+  {
+    "id": "lf-06-sach-vert-013",
+    "question": "Wozu dient ein Wartungsvertrag?",
+    "answers": [
+      { "text": "Regelmäßige Pflege, Prüfung oder Instandhaltung wird vereinbart", "correct": true },
+      { "text": "Eine Sache wird einmalig gegen Zahlung erworben", "correct": false },
+      { "text": "Eine Sache wird befristet gegen Entgelt genutzt", "correct": false },
+      { "text": "Allgemeine Bedingungen für Einzelaufträge werden festgelegt", "correct": false }
+    ],
+    "explanation": "Ein Wartungsvertrag regelt wiederkehrende Maßnahmen zur Erhaltung der Funktionsfähigkeit."
+  },
+  {
+    "id": "lf-06-sach-vert-014",
+    "question": "Wozu dient ein Rahmenvertrag?",
+    "answers": [
+      { "text": "Er legt allgemeine Bedingungen für spätere Einzelaufträge fest", "correct": true },
+      { "text": "Er regelt eine einzelne konkrete Serviceleistung", "correct": false },
+      { "text": "Er beschreibt ausschließlich eine Mängelhaftung", "correct": false },
+      { "text": "Er dokumentiert nur die Abrechnung erbrachter Leistungen", "correct": false }
+    ],
+    "explanation": "Rahmenverträge vereinfachen wiederkehrende Leistungen durch vorher festgelegte Bedingungen."
+  },
+  {
+    "id": "lf-06-sach-vert-015",
+    "question": "Warum sind Governance und Compliance im Servicebereich wichtig?",
+    "answers": [
+      { "text": "Sie reduzieren Risiken durch klare Regeln und Regelkonformität", "correct": true },
+      { "text": "Sie beschreiben konkrete Servicelevel und Reaktionszeiten", "correct": false },
+      { "text": "Sie regeln nur die Abrechnung einzelner Leistungen", "correct": false },
+      { "text": "Sie ersetzen Leistungsbeschreibungen in Verträgen", "correct": false }
+    ],
+    "explanation": "Governance und Compliance unterstützen geregelte, verantwortliche und rechtssichere Serviceprozesse."
+  },
+  {
+    "id": "lf-06-sach-vert-016",
+    "question": "Was bedeutet Compliance im IT-Service?",
+    "answers": [
+      { "text": "Gesetze, Verträge, interne Regeln und Vorgaben werden eingehalten", "correct": true },
+      { "text": "Zuständigkeiten und Steuerung werden festgelegt", "correct": false },
+      { "text": "Verträge werden innerhalb gesetzlicher Grenzen gestaltet", "correct": false },
+      { "text": "Serviceleistungen werden fachlich beschrieben", "correct": false }
+    ],
+    "explanation": "Compliance bedeutet regelkonformes Verhalten im Serviceprozess."
+  },
+  {
+    "id": "lf-06-sach-vert-017",
+    "question": "Warum sollte eine Leistungsbeschreibung möglichst genau sein?",
+    "answers": [
+      { "text": "Damit Umfang, Qualität und Grenzen der Leistung klar sind", "correct": true },
+      { "text": "Damit Servicelevel flexibel offenbleiben", "correct": false },
+      { "text": "Damit nur interne Zuständigkeiten geregelt werden", "correct": false },
+      { "text": "Damit Gewährleistung und Garantie gleichgesetzt werden", "correct": false }
+    ],
+    "explanation": "Eine klare Leistungsbeschreibung vermeidet Missverständnisse und erleichtert die Prüfung der Leistung."
+  },
+  {
+    "id": "lf-06-sach-vert-018",
+    "question": "Welche Aussage unterscheidet Gewährleistung und Garantie richtig?",
+    "answers": [
+      { "text": "Gewährleistung ist gesetzlich geregelt, Garantie zusätzlich freiwillig", "correct": true },
+      { "text": "Gewährleistung ist freiwillig, Garantie gesetzlich zwingend", "correct": false },
+      { "text": "Gewährleistung beschreibt nur Servicelevel", "correct": false },
+      { "text": "Garantie regelt primär interne Serviceabsprachen", "correct": false }
+    ],
+    "explanation": "Gewährleistung beruht auf gesetzlichen Mängelrechten, Garantie auf freiwilliger Zusage."
+  },
+  {
+    "id": "lf-06-sach-vert-019",
+    "question": "Warum müssen Rechnungen im Servicebereich genaue Leistungsangaben enthalten?",
+    "answers": [
+      { "text": "Damit Leistungen nachvollziehbar und korrekt abgerechnet werden", "correct": true },
+      { "text": "Damit Servicelevel intern abgestimmt werden können", "correct": false },
+      { "text": "Damit Gewährleistungsrechte freiwillig erweitert werden", "correct": false },
+      { "text": "Damit spätere Einzelaufträge allgemein geregelt sind", "correct": false }
+    ],
+    "explanation": "Genaue Leistungsangaben unterstützen Nachvollziehbarkeit und rechtlich korrekte Abrechnung."
+  },
+  {
+    "id": "lf-06-sach-vert-020",
+    "question": "Welche Angabe gehört typischerweise zu einer ordnungsgemäßen Rechnung?",
+    "answers": [
+      { "text": "Rechnungsnummer, Leistungsbeschreibung, Datum und Steuerangaben", "correct": true },
+      { "text": "SLA, OLA, Underpinning Contract und RACI-Rolle", "correct": false },
+      { "text": "Workaround, Known Error, Incident und Problemursache", "correct": false },
+      { "text": "Dashboard, Alert, Grenzwert und Ereignisprotokoll", "correct": false }
+    ],
+    "explanation": "Rechnungen benötigen Pflichtangaben, damit Leistungen und Steuerbeträge nachvollziehbar sind."
+  }
+]

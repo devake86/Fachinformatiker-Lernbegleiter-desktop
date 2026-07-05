@@ -1,0 +1,552 @@
+[
+  {
+    "id": "lf-03-fach-secu-001",
+    "question": "Was ist Datensicherheit?",
+    "answers": [
+      { "text": "Schutz von Daten vor Verlust und Schaden", "correct": true },
+      { "text": "Schutz einzelner Netzwerkports vor Zugriffen", "correct": false },
+      { "text": "Absicherung der Stromversorgung im Serverraum", "correct": false },
+      { "text": "Vergabe von Adressen an Netzwerkgeräte", "correct": false }
+    ],
+    "explanation": "Merksatz: Datensicherheit schützt Daten vor Verlust, Manipulation und unbefugtem Zugriff."
+  },
+  {
+    "id": "lf-03-fach-secu-002",
+    "question": "Was ist ein RAID-System?",
+    "answers": [
+      { "text": "Ein Verbund mehrerer Datenträger", "correct": true },
+      { "text": "Eine Sicherungskopie wichtiger Daten", "correct": false },
+      { "text": "Ein Schutzsystem für Netzwerkverkehr", "correct": false },
+      { "text": "Eine unterbrechungsfreie Stromversorgung", "correct": false }
+    ],
+    "explanation": "Merksatz: RAID verbindet mehrere Datenträger für Leistung, Ausfallsicherheit oder beides."
+  },
+  {
+    "id": "lf-03-fach-secu-003",
+    "question": "Was ist Striping bei RAID?",
+    "answers": [
+      { "text": "Verteilen von Datenblöcken", "correct": true },
+      { "text": "Spiegeln gleicher Datenblöcke", "correct": false },
+      { "text": "Erzeugen von Paritätsinformationen", "correct": false },
+      { "text": "Zusammenfassen einzelner Datenträger", "correct": false }
+    ],
+    "explanation": "Merksatz: Striping verteilt Datenblöcke auf mehrere Datenträger."
+  },
+  {
+    "id": "lf-03-fach-secu-004",
+    "question": "Was ist Mirroring bei RAID?",
+    "answers": [
+      { "text": "Spiegeln gleicher Daten", "correct": true },
+      { "text": "Verteilen von Datenblöcken", "correct": false },
+      { "text": "Berechnen verteilter Parität", "correct": false },
+      { "text": "Bündeln einzelner Datenträger", "correct": false }
+    ],
+    "explanation": "Merksatz: Mirroring speichert gleiche Daten parallel auf mehreren Datenträgern."
+  },
+  {
+    "id": "lf-03-fach-secu-005",
+    "question": "Was ist Parität bei RAID?",
+    "answers": [
+      { "text": "Zusatzinformation zur Wiederherstellung", "correct": true },
+      { "text": "Kopie gleicher Daten auf zweiter Platte", "correct": false },
+      { "text": "Verteilung von Datenblöcken auf Platten", "correct": false },
+      { "text": "Zusammenfassung unabhängiger Datenträger", "correct": false }
+    ],
+    "explanation": "Merksatz: Paritätsdaten helfen, verlorene Daten bei einem Datenträgerausfall zu rekonstruieren."
+  },
+  {
+    "id": "lf-03-fach-secu-006",
+    "question": "Was ist RAID 0?",
+    "answers": [
+      { "text": "Striping ohne Redundanz", "correct": true },
+      { "text": "Spiegelung gleicher Daten", "correct": false },
+      { "text": "Striping mit verteilter Parität", "correct": false },
+      { "text": "Kombination aus RAID 1 und RAID 0", "correct": false }
+    ],
+    "explanation": "Merksatz: RAID 0 ist schnell, bietet aber keinen Schutz vor Datenträgerausfall."
+  },
+  {
+    "id": "lf-03-fach-secu-007",
+    "question": "Was ist RAID 1?",
+    "answers": [
+      { "text": "Spiegelung von Datenträgern", "correct": true },
+      { "text": "Verteilung von Datenblöcken", "correct": false },
+      { "text": "Striping mit verteilter Parität", "correct": false },
+      { "text": "Striping mit zweifacher Parität", "correct": false }
+    ],
+    "explanation": "Merksatz: RAID 1 erhöht die Ausfallsicherheit durch Spiegelung."
+  },
+  {
+    "id": "lf-03-fach-secu-008",
+    "question": "Was ist RAID 5?",
+    "answers": [
+      { "text": "Striping mit verteilter Parität", "correct": true },
+      { "text": "Spiegelung gleicher Datenträger", "correct": false },
+      { "text": "Striping ohne Redundanz", "correct": false },
+      { "text": "Striping mit zweifacher Parität", "correct": false }
+    ],
+    "explanation": "Merksatz: RAID 5 verteilt Daten und Parität und verkraftet meist einen Plattenausfall."
+  },
+  {
+    "id": "lf-03-fach-secu-009",
+    "question": "Was ist RAID 6?",
+    "answers": [
+      { "text": "Striping mit zweifacher Parität", "correct": true },
+      { "text": "Striping mit einfacher Parität", "correct": false },
+      { "text": "Spiegelung zweier Datenträger", "correct": false },
+      { "text": "Verteilung von Datenblöcken ohne Schutz", "correct": false }
+    ],
+    "explanation": "Merksatz: RAID 6 nutzt doppelte Parität und kann mehr Ausfälle verkraften als RAID 5."
+  },
+  {
+    "id": "lf-03-fach-secu-010",
+    "question": "Was ist RAID 10?",
+    "answers": [
+      { "text": "Kombination aus Spiegelung und Striping", "correct": true },
+      { "text": "Striping mit einfacher Parität", "correct": false },
+      { "text": "Striping mit zweifacher Parität", "correct": false },
+      { "text": "Zusammenfassung einzelner Datenträger", "correct": false }
+    ],
+    "explanation": "Merksatz: RAID 10 kombiniert RAID-1-Spiegelung mit RAID-0-Striping."
+  },
+  {
+    "id": "lf-03-fach-secu-011",
+    "question": "Was ist RAID 50?",
+    "answers": [
+      { "text": "Ein RAID 0 über mehrere RAID 5", "correct": true },
+      { "text": "Ein RAID 1 über mehrere RAID 0", "correct": false },
+      { "text": "Ein RAID 5 über mehrere RAID 1", "correct": false },
+      { "text": "Ein JBOD mit zusätzlicher Spiegelung", "correct": false }
+    ],
+    "explanation": "Merksatz: RAID 50 kombiniert den Durchsatz von Striping mit Parität mehrerer RAID-5-Gruppen."
+  },
+  {
+    "id": "lf-03-fach-secu-012",
+    "question": "Was ist JBOD?",
+    "answers": [
+      { "text": "Zusammenfassung einzelner Datenträger", "correct": true },
+      { "text": "Striping mit verteilter Parität", "correct": false },
+      { "text": "Spiegelung gleicher Daten", "correct": false },
+      { "text": "RAID-Verbund mit doppelter Parität", "correct": false }
+    ],
+    "explanation": "Merksatz: JBOD nutzt mehrere Datenträger gemeinsam, bietet aber keine RAID-Redundanz."
+  },
+  {
+    "id": "lf-03-fach-secu-013",
+    "question": "Was ist ein Hardware-RAID?",
+    "answers": [
+      { "text": "RAID-Steuerung durch Controller", "correct": true },
+      { "text": "RAID-Steuerung durch Betriebssystem", "correct": false },
+      { "text": "Datensicherung durch Backupsoftware", "correct": false },
+      { "text": "Speicherverbund durch Netzwerkfreigabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Hardware-RAID nutzt einen eigenen Controller zur Verwaltung des RAID-Verbunds."
+  },
+  {
+    "id": "lf-03-fach-secu-014",
+    "question": "Was ist ein Software-RAID?",
+    "answers": [
+      { "text": "RAID-Steuerung durch Software", "correct": true },
+      { "text": "RAID-Steuerung durch Controllerkarte", "correct": false },
+      { "text": "Datensicherung auf externem Medium", "correct": false },
+      { "text": "Stromabsicherung durch USV-Anlage", "correct": false }
+    ],
+    "explanation": "Merksatz: Software-RAID wird vom Betriebssystem oder einer Software verwaltet."
+  },
+  {
+    "id": "lf-03-fach-secu-015",
+    "question": "Was ist ein Backup?",
+    "answers": [
+      { "text": "Eine Sicherungskopie von Daten", "correct": true },
+      { "text": "Ein Verbund mehrerer Datenträger", "correct": false },
+      { "text": "Ein Schutzsystem für Netzwerkverkehr", "correct": false },
+      { "text": "Eine Stromversorgung bei Ausfällen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Backup ist eine wiederherstellbare Kopie wichtiger Daten."
+  },
+  {
+    "id": "lf-03-fach-secu-016",
+    "question": "Was ist eine Vollsicherung?",
+    "answers": [
+      { "text": "Eine vollständige Sicherung festgelegter Daten", "correct": true },
+      { "text": "Sicherung geänderter Daten seit Vollbackup", "correct": false },
+      { "text": "Sicherung geänderter Daten seit letzter Sicherung", "correct": false },
+      { "text": "Abbild eines gesamten Datenträgers", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Vollsicherung kopiert alle durch das Sicherungskonzept festgelegten Daten."
+  },
+  {
+    "id": "lf-03-fach-secu-017",
+    "question": "Was ist eine Image-Sicherung?",
+    "answers": [
+      { "text": "Ein Abbild eines Datenträgers", "correct": true },
+      { "text": "Sicherung seit der letzten Vollsicherung", "correct": false },
+      { "text": "Sicherung seit der letzten Sicherung", "correct": false },
+      { "text": "Kopie einzelner geänderter Dateien", "correct": false }
+    ],
+    "explanation": "Merksatz: Image-Sicherungen kopieren ganze Datenträger oder Partitionen möglichst vollständig."
+  },
+  {
+    "id": "lf-03-fach-secu-018",
+    "question": "Was ist eine differenzielle Sicherung?",
+    "answers": [
+      { "text": "Sicherung seit der letzten Vollsicherung", "correct": true },
+      { "text": "Sicherung seit der letzten Sicherung", "correct": false },
+      { "text": "Vollständige Sicherung aller festgelegten Daten", "correct": false },
+      { "text": "Abbild eines Datenträgers oder einer Partition", "correct": false }
+    ],
+    "explanation": "Merksatz: Differenziell sichert alles, was seit der letzten Vollsicherung geändert wurde."
+  },
+  {
+    "id": "lf-03-fach-secu-019",
+    "question": "Was ist eine inkrementelle Sicherung?",
+    "answers": [
+      { "text": "Sicherung seit der letzten Sicherung", "correct": true },
+      { "text": "Sicherung seit der letzten Vollsicherung", "correct": false },
+      { "text": "Vollständige Sicherung festgelegter Daten", "correct": false },
+      { "text": "Abbild eines kompletten Datenträgers", "correct": false }
+    ],
+    "explanation": "Merksatz: Inkrementell sichert nur Änderungen seit der letzten Sicherung."
+  },
+  {
+    "id": "lf-03-fach-secu-020",
+    "question": "Was ist ein Datensicherungskonzept?",
+    "answers": [
+      { "text": "Ein verbindlicher Plan für Backups", "correct": true },
+      { "text": "Eine einzelne Sicherungskopie", "correct": false },
+      { "text": "Ein RAID-Verbund mit Parität", "correct": false },
+      { "text": "Eine Firewallregel für Datenverkehr", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Datensicherungskonzept legt Umfang, Zeitpunkte, Medien und Verantwortlichkeiten fest."
+  },
+  {
+    "id": "lf-03-fach-secu-021",
+    "question": "Was sind Anwendungsdaten?",
+    "answers": [
+      { "text": "Geschäfts- oder Nutzdaten von Programmen", "correct": true },
+      { "text": "Technische Daten des Betriebssystems", "correct": false },
+      { "text": "Aufzeichnungen von Systemereignissen", "correct": false },
+      { "text": "Regeln für Netzwerkverkehr", "correct": false }
+    ],
+    "explanation": "Merksatz: Anwendungsdaten sind Inhalte, mit denen Nutzer oder Programme fachlich arbeiten."
+  },
+  {
+    "id": "lf-03-fach-secu-022",
+    "question": "Was sind Systemdaten?",
+    "answers": [
+      { "text": "Technische Daten von Systemen", "correct": true },
+      { "text": "Geschäftsdaten einer Anwendung", "correct": false },
+      { "text": "Protokolle von Zugriffen und Ereignissen", "correct": false },
+      { "text": "Sicherungskopien auf externen Medien", "correct": false }
+    ],
+    "explanation": "Merksatz: Systemdaten werden von Betriebssystemen oder Anwendungen technisch benötigt."
+  },
+  {
+    "id": "lf-03-fach-secu-023",
+    "question": "Was sind Protokolldaten?",
+    "answers": [
+      { "text": "Aufzeichnungen von Aktionen und Ereignissen", "correct": true },
+      { "text": "Fachliche Nutzdaten einer Anwendung", "correct": false },
+      { "text": "Technische Systemdateien des Betriebssystems", "correct": false },
+      { "text": "Paritätsinformationen eines RAID-Verbunds", "correct": false }
+    ],
+    "explanation": "Merksatz: Protokolldaten dokumentieren Ereignisse, Zugriffe oder Aktivitäten von Systemen."
+  },
+  {
+    "id": "lf-03-fach-secu-024",
+    "question": "Was ist ein Proxy?",
+    "answers": [
+      { "text": "Ein Stellvertreter für Netzwerkanfragen", "correct": true },
+      { "text": "Ein Schutzsystem für Netzwerkverkehr", "correct": false },
+      { "text": "Ein Datenträgerverbund für Ausfallsicherheit", "correct": false },
+      { "text": "Eine Sicherungskopie wichtiger Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Proxy nimmt Anfragen stellvertretend entgegen und leitet Antworten weiter."
+  },
+  {
+    "id": "lf-03-fach-secu-025",
+    "question": "Was ist eine Firewall?",
+    "answers": [
+      { "text": "Ein Schutzsystem für Netzwerkverkehr", "correct": true },
+      { "text": "Ein Stellvertreter für Netzwerkanfragen", "correct": false },
+      { "text": "Ein Verbund mehrerer Datenträger", "correct": false },
+      { "text": "Ein Plan für regelmäßige Backups", "correct": false }
+    ],
+    "explanation": "Merksatz: Firewalls kontrollieren Netzwerkverkehr anhand definierter Regeln."
+  },
+  {
+    "id": "lf-03-fach-secu-026",
+    "question": "Was ist ein Paketfilter?",
+    "answers": [
+      { "text": "Eine Firewallprüfung nach Paketdaten", "correct": true },
+      { "text": "Eine Prüfung von Verbindungszuständen", "correct": false },
+      { "text": "Eine Prüfung von Paketinhalt und Header", "correct": false },
+      { "text": "Eine Firewall mit erweiterten Funktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Paketfilter entscheiden anhand von Merkmalen wie Adresse, Port oder Protokoll."
+  },
+  {
+    "id": "lf-03-fach-secu-027",
+    "question": "Was ist Stateful Inspection?",
+    "answers": [
+      { "text": "Verbindungszustände werden berücksichtigt", "correct": true },
+      { "text": "Pakete werden nach Adressen und Ports gefiltert", "correct": false },
+      { "text": "Paketinhalt und Header werden tief geprüft", "correct": false },
+      { "text": "Anwendungen werden anhand von Signaturen erkannt", "correct": false }
+    ],
+    "explanation": "Merksatz: Stateful Inspection bewertet Pakete im Zusammenhang bestehender Verbindungen."
+  },
+  {
+    "id": "lf-03-fach-secu-028",
+    "question": "Was ist Deep Packet Inspection?",
+    "answers": [
+      { "text": "Prüfung von Paketinhalt und Header", "correct": true },
+      { "text": "Prüfung von Quell- und Zieladresse", "correct": false },
+      { "text": "Bewertung bestehender Verbindungszustände", "correct": false },
+      { "text": "Weiterleitung über einen Stellvertreterdienst", "correct": false }
+    ],
+    "explanation": "Merksatz: Deep Packet Inspection betrachtet neben Headern auch Inhalte von Paketen."
+  },
+  {
+    "id": "lf-03-fach-secu-029",
+    "question": "Was ist eine Next Generation Firewall?",
+    "answers": [
+      { "text": "Eine Firewall mit erweiterten Funktionen", "correct": true },
+      { "text": "Ein Paketfilter mit einfachen Regeln", "correct": false },
+      { "text": "Ein Proxy für stellvertretende Anfragen", "correct": false },
+      { "text": "Ein RAID-Verbund mit Paritätsdaten", "correct": false }
+    ],
+    "explanation": "Merksatz: NGF kombiniert klassische Firewallfunktionen mit zusätzlichen Sicherheitsfunktionen."
+  },
+  {
+    "id": "lf-03-fach-secu-030",
+    "question": "Was ist Netzwerksicherheit?",
+    "answers": [
+      { "text": "Schutz von Netzen und Datenverkehr", "correct": true },
+      { "text": "Schutz von Datenträgern durch RAID", "correct": false },
+      { "text": "Planung regelmäßiger Datensicherungen", "correct": false },
+      { "text": "Absicherung gegen Stromstörungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Netzwerksicherheit schützt Kommunikation, Systeme und Daten vor Bedrohungen."
+  },
+  {
+    "id": "lf-03-fach-secu-031",
+    "question": "Was ist SDN?",
+    "answers": [
+      { "text": "Zentrale Steuerung von Netzwerklogik", "correct": true },
+      { "text": "Kontrolle von Netzwerkverkehr durch Firewallregeln", "correct": false },
+      { "text": "Absicherung von Stromversorgung im RZ", "correct": false },
+      { "text": "Verbund mehrerer Datenträger", "correct": false }
+    ],
+    "explanation": "Merksatz: Software Defined Networking trennt Steuerlogik von der reinen Weiterleitung."
+  },
+  {
+    "id": "lf-03-fach-secu-032",
+    "question": "Was ist Verfügbarkeit in der IT?",
+    "answers": [
+      { "text": "Nutzbarkeit eines Systems über Zeit", "correct": true },
+      { "text": "Zeit, in der ein System nutzbar ist", "correct": false },
+      { "text": "Zeit, in der ein System ausfällt", "correct": false },
+      { "text": "Fähigkeit zum Weiterbetrieb bei Fehlern", "correct": false }
+    ],
+    "explanation": "Merksatz: Verfügbarkeit beschreibt, wie zuverlässig ein System nutzbar ist."
+  },
+  {
+    "id": "lf-03-fach-secu-033",
+    "question": "Was ist Uptime?",
+    "answers": [
+      { "text": "Zeit, in der ein System verfügbar ist", "correct": true },
+      { "text": "Gesamte Nutzbarkeit eines Systems über Zeit", "correct": false },
+      { "text": "Zeit, in der ein System ausfällt", "correct": false },
+      { "text": "Fähigkeit, Ausfälle zu überstehen", "correct": false }
+    ],
+    "explanation": "Merksatz: Uptime ist die Zeit, in der ein System funktioniert und nutzbar ist."
+  },
+  {
+    "id": "lf-03-fach-secu-034",
+    "question": "Was ist Downtime?",
+    "answers": [
+      { "text": "Zeit, in der ein System nicht verfügbar ist", "correct": true },
+      { "text": "Zeit, in der ein System verfügbar ist", "correct": false },
+      { "text": "Anteil nutzbarer Betriebszeit", "correct": false },
+      { "text": "Fähigkeit zum Weiterbetrieb bei Fehlern", "correct": false }
+    ],
+    "explanation": "Merksatz: Downtime ist Ausfallzeit, in der ein System nicht genutzt werden kann."
+  },
+  {
+    "id": "lf-03-fach-secu-035",
+    "question": "Was ist Ausfallsicherheit?",
+    "answers": [
+      { "text": "Fähigkeit, Ausfälle zu überstehen", "correct": true },
+      { "text": "Zeit, in der ein System verfügbar ist", "correct": false },
+      { "text": "Zeit, in der ein System ausfällt", "correct": false },
+      { "text": "Gemessene Nutzbarkeit über einen Zeitraum", "correct": false }
+    ],
+    "explanation": "Merksatz: Ausfallsicherheit beschreibt, wie gut ein System trotz Fehlern weiterarbeitet."
+  },
+  {
+    "id": "lf-03-fach-secu-036",
+    "question": "Was ist Redundanz?",
+    "answers": [
+      { "text": "Mehrfach vorhandene wichtige Komponenten", "correct": true },
+      { "text": "Gemessene Zeit eines Systemausfalls", "correct": false },
+      { "text": "Geplante Sicherung wichtiger Daten", "correct": false },
+      { "text": "Filterregel für Netzwerkpakete", "correct": false }
+    ],
+    "explanation": "Merksatz: Redundanz schafft Ersatz, damit ein einzelner Ausfall nicht sofort zum Gesamtausfall führt."
+  },
+  {
+    "id": "lf-03-fach-secu-037",
+    "question": "Was ist PoE?",
+    "answers": [
+      { "text": "Stromversorgung über Netzwerkkabel", "correct": true },
+      { "text": "Einspeisung von Strom in Ethernet", "correct": false },
+      { "text": "Ersatzstromquelle bei Netzausfall", "correct": false },
+      { "text": "Unterbrechungsfreie Stromversorgung", "correct": false }
+    ],
+    "explanation": "Merksatz: PoE versorgt geeignete Geräte über Ethernet-Kabel mit Strom."
+  },
+  {
+    "id": "lf-03-fach-secu-038",
+    "question": "Was ist ein PoE-Injektor?",
+    "answers": [
+      { "text": "Ein Gerät zum Einspeisen von Strom", "correct": true },
+      { "text": "Stromversorgung über Netzwerkkabel", "correct": false },
+      { "text": "Ersatzstromquelle bei Netzausfall", "correct": false },
+      { "text": "USV mit Spannungsregelung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein PoE-Injektor fügt Strom in eine Ethernet-Verbindung ein."
+  },
+  {
+    "id": "lf-03-fach-secu-039",
+    "question": "Was ist eine Netzersatzanlage?",
+    "answers": [
+      { "text": "Eine Ersatzstromquelle bei Netzausfall", "correct": true },
+      { "text": "Unterbrechungsfreie Stromversorgung", "correct": false },
+      { "text": "Stromversorgung über Netzwerkkabel", "correct": false },
+      { "text": "Spannungsregelung für einzelne Clients", "correct": false }
+    ],
+    "explanation": "Merksatz: Netzersatzanlagen liefern Strom, wenn die öffentliche Versorgung ausfällt."
+  },
+  {
+    "id": "lf-03-fach-secu-040",
+    "question": "Was ist eine USV?",
+    "answers": [
+      { "text": "Eine unterbrechungsfreie Stromversorgung", "correct": true },
+      { "text": "Eine Ersatzstromquelle mit Generatorbetrieb", "correct": false },
+      { "text": "Stromversorgung über Ethernet-Kabel", "correct": false },
+      { "text": "Gerät zum Einspeisen von PoE-Strom", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine USV überbrückt Stromstörungen und ermöglicht kontrolliertes Weiterarbeiten oder Herunterfahren."
+  },
+  {
+    "id": "lf-03-fach-secu-041",
+    "question": "Was ist eine Offline-USV?",
+    "answers": [
+      { "text": "Eine USV mit Umschaltung bei Störung", "correct": true },
+      { "text": "Eine USV mit Spannungsregelung", "correct": false },
+      { "text": "Eine USV mit dauerhafter Wandlung", "correct": false },
+      { "text": "Eine Netzersatzanlage mit Generator", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Offline-USV schaltet bei Störungen auf Batteriebetrieb um."
+  },
+  {
+    "id": "lf-03-fach-secu-042",
+    "question": "Was ist eine Line-Interactive-USV?",
+    "answers": [
+      { "text": "Eine USV mit Spannungsregelung", "correct": true },
+      { "text": "Eine USV mit Umschaltung bei Störung", "correct": false },
+      { "text": "Eine USV mit dauerhafter Wandlung", "correct": false },
+      { "text": "Eine Ersatzstromanlage mit Kraftstoff", "correct": false }
+    ],
+    "explanation": "Merksatz: Line-Interactive-USV gleichen Spannungsschwankungen besser aus als einfache Offline-USV."
+  },
+  {
+    "id": "lf-03-fach-secu-043",
+    "question": "Was ist eine Online-USV?",
+    "answers": [
+      { "text": "Eine USV mit dauerhafter Wandlung", "correct": true },
+      { "text": "Eine USV mit Umschaltung bei Störung", "correct": false },
+      { "text": "Eine USV mit Spannungsregelung", "correct": false },
+      { "text": "Eine Netzersatzanlage für Langzeitbetrieb", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Online-USV liefert dauerhaft aufbereiteten Strom ohne Umschaltzeit."
+  },
+  {
+    "id": "lf-03-fach-secu-044",
+    "question": "Was bedeutet VFD bei USV-Klassen?",
+    "answers": [
+      { "text": "Voltage and Frequency Dependent", "correct": true },
+      { "text": "Voltage Independent", "correct": false },
+      { "text": "Voltage and Frequency Independent", "correct": false },
+      { "text": "Virtual Firewall Detection", "correct": false }
+    ],
+    "explanation": "Merksatz: VFD-USV sind von Eingangsspannung und Eingangsfrequenz abhängig."
+  },
+  {
+    "id": "lf-03-fach-secu-045",
+    "question": "Was bedeutet VI bei USV-Klassen?",
+    "answers": [
+      { "text": "Voltage Independent", "correct": true },
+      { "text": "Voltage and Frequency Dependent", "correct": false },
+      { "text": "Voltage and Frequency Independent", "correct": false },
+      { "text": "Virtual Interface", "correct": false }
+    ],
+    "explanation": "Merksatz: VI-USV regeln die Spannung, sind aber frequenzabhängig."
+  },
+  {
+    "id": "lf-03-fach-secu-046",
+    "question": "Was bedeutet VFI bei USV-Klassen?",
+    "answers": [
+      { "text": "Voltage and Frequency Independent", "correct": true },
+      { "text": "Voltage Independent", "correct": false },
+      { "text": "Voltage and Frequency Dependent", "correct": false },
+      { "text": "Verified File Integrity", "correct": false }
+    ],
+    "explanation": "Merksatz: VFI-USV sind unabhängig von Eingangsspannung und Eingangsfrequenz."
+  },
+  {
+    "id": "lf-03-fach-secu-047",
+    "question": "Was ist ein Stromausfall?",
+    "answers": [
+      { "text": "Der vollständige Wegfall der Versorgung", "correct": true },
+      { "text": "Eine zu niedrige Versorgungsspannung", "correct": false },
+      { "text": "Eine zu hohe Versorgungsspannung", "correct": false },
+      { "text": "Ein geordnetes Beenden eines Systems", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Stromausfall unterbricht die Energieversorgung und kann IT-Systeme stoppen."
+  },
+  {
+    "id": "lf-03-fach-secu-048",
+    "question": "Was ist Unterspannung?",
+    "answers": [
+      { "text": "Eine zu niedrige Versorgungsspannung", "correct": true },
+      { "text": "Eine zu hohe Versorgungsspannung", "correct": false },
+      { "text": "Der vollständige Wegfall der Versorgung", "correct": false },
+      { "text": "Eine kurzzeitige Umschaltung auf Batterie", "correct": false }
+    ],
+    "explanation": "Merksatz: Unterspannung kann Geräte instabil machen oder zum Ausfall führen."
+  },
+  {
+    "id": "lf-03-fach-secu-049",
+    "question": "Was ist Überspannung?",
+    "answers": [
+      { "text": "Eine zu hohe Versorgungsspannung", "correct": true },
+      { "text": "Eine zu niedrige Versorgungsspannung", "correct": false },
+      { "text": "Der vollständige Wegfall der Versorgung", "correct": false },
+      { "text": "Eine geregelte Batterieversorgung", "correct": false }
+    ],
+    "explanation": "Merksatz: Überspannung kann elektronische Komponenten beschädigen."
+  },
+  {
+    "id": "lf-03-fach-secu-050",
+    "question": "Was ist ein kontrolliertes Herunterfahren?",
+    "answers": [
+      { "text": "Geordnetes Beenden eines Systems", "correct": true },
+      { "text": "Plötzlicher Wegfall der Versorgung", "correct": false },
+      { "text": "Umschaltung einer USV auf Batteriebetrieb", "correct": false },
+      { "text": "Regelung schwankender Eingangsspannung", "correct": false }
+    ],
+    "explanation": "Merksatz: Kontrolliertes Herunterfahren schützt Daten und Dateisysteme vor Schäden."
+  }
+]

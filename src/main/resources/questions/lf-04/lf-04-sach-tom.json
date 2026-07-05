@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-tom-001",
+    "question": "Wozu dienen technisch-organisatorische Maßnahmen?",
+    "answers": [
+      { "text": "Zum Schutz von Daten durch technische und organisatorische Vorkehrungen", "correct": true },
+      { "text": "Zur Festlegung der Rechtsgrundlage jeder Verarbeitung", "correct": false },
+      { "text": "Zur Wahrnehmung von Betroffenenrechten", "correct": false },
+      { "text": "Zur Meldung von Datenschutzverletzungen", "correct": false }
+    ],
+    "explanation": "TOMs schützen Daten durch geeignete technische und organisatorische Sicherheitsmaßnahmen."
+  },
+  {
+    "id": "lf-04-sach-tom-002",
+    "question": "Welche Maßnahme passt zur Zugangskontrolle?",
+    "answers": [
+      { "text": "Serverraum nur mit Berechtigung betreten lassen", "correct": true },
+      { "text": "Benutzerrechte im Anwendungssystem begrenzen", "correct": false },
+      { "text": "Datenübertragungen verschlüsselt protokollieren", "correct": false },
+      { "text": "Änderungen an Datensätzen nachvollziehen", "correct": false }
+    ],
+    "explanation": "Zugangskontrolle schützt Räume oder Bereiche vor unbefugtem Betreten."
+  },
+  {
+    "id": "lf-04-sach-tom-003",
+    "question": "Welche Maßnahme passt zur Zugriffskontrolle?",
+    "answers": [
+      { "text": "Benutzer erhalten nur benötigte Berechtigungen", "correct": true },
+      { "text": "Serverräume werden durch Zutrittskarten gesichert", "correct": false },
+      { "text": "Datenträger werden beim Versand versiegelt", "correct": false },
+      { "text": "Backups werden regelmäßig wiederhergestellt", "correct": false }
+    ],
+    "explanation": "Zugriffskontrolle stellt sicher, dass nur berechtigte Personen auf Systeme oder Daten zugreifen."
+  },
+  {
+    "id": "lf-04-sach-tom-004",
+    "question": "Was ist ein Beispiel für Datenträgerkontrolle?",
+    "answers": [
+      { "text": "Ausgabe und Rückgabe mobiler Datenträger dokumentieren", "correct": true },
+      { "text": "Benutzerrollen für Datenbanken vergeben", "correct": false },
+      { "text": "Datenübertragungen elektronisch absichern", "correct": false },
+      { "text": "Schutzbedarf einzelner Systeme einstufen", "correct": false }
+    ],
+    "explanation": "Datenträgerkontrolle macht den Umgang mit Datenträgern nachvollziehbar und sicherer."
+  },
+  {
+    "id": "lf-04-sach-tom-005",
+    "question": "Was soll Speicherkontrolle verhindern?",
+    "answers": [
+      { "text": "Unbefugtes Lesen, Ändern oder Löschen gespeicherter Daten", "correct": true },
+      { "text": "Unbefugtes Betreten geschützter Räume", "correct": false },
+      { "text": "Unkontrollierten Transport mobiler Datenträger", "correct": false },
+      { "text": "Fehlende Weisungen an externe Dienstleister", "correct": false }
+    ],
+    "explanation": "Speicherkontrolle schützt gespeicherte Daten vor unbefugter Kenntnisnahme, Veränderung oder Löschung."
+  },
+  {
+    "id": "lf-04-sach-tom-006",
+    "question": "Wozu dient Benutzerkontrolle?",
+    "answers": [
+      { "text": "Zur Kontrolle, welche Benutzer ein System nutzen dürfen", "correct": true },
+      { "text": "Zur Kontrolle physischer Zutritte zu Räumen", "correct": false },
+      { "text": "Zur Kontrolle des Transports von Dokumenten", "correct": false },
+      { "text": "Zur Kontrolle von Dateneingaben im Protokoll", "correct": false }
+    ],
+    "explanation": "Benutzerkontrolle regelt, wer ein System verwenden darf."
+  },
+  {
+    "id": "lf-04-sach-tom-007",
+    "question": "Welche Maßnahme passt zur Übertragungskontrolle?",
+    "answers": [
+      { "text": "Datenübertragung verschlüsseln oder protokollieren", "correct": true },
+      { "text": "Mobile Datenträger verschlossen transportieren", "correct": false },
+      { "text": "Serverräume mit Zutrittskarten schützen", "correct": false },
+      { "text": "Benutzerrechte im System begrenzen", "correct": false }
+    ],
+    "explanation": "Übertragungskontrolle schützt und dokumentiert elektronische Datenübertragungen."
+  },
+  {
+    "id": "lf-04-sach-tom-008",
+    "question": "Was wird durch Eingabekontrolle ermöglicht?",
+    "answers": [
+      { "text": "Nachvollziehen, wer Daten eingegeben, geändert oder gelöscht hat", "correct": true },
+      { "text": "Absichern des physischen Zutritts zu Serverräumen", "correct": false },
+      { "text": "Verschlüsseln von Daten während der Übertragung", "correct": false },
+      { "text": "Dokumentieren von Ausgabe und Rückgabe mobiler Datenträger", "correct": false }
+    ],
+    "explanation": "Eingabekontrolle sorgt für Nachvollziehbarkeit bei Eingabe, Änderung und Löschung von Daten."
+  },
+  {
+    "id": "lf-04-sach-tom-009",
+    "question": "Welche Maßnahme passt zur Transportkontrolle?",
+    "answers": [
+      { "text": "Datenträger in verschlossenen Behältern transportieren", "correct": true },
+      { "text": "Datenübertragungen per TLS absichern", "correct": false },
+      { "text": "Benutzerrechte nach Rollen vergeben", "correct": false },
+      { "text": "Eingaben in Anwendungen protokollieren", "correct": false }
+    ],
+    "explanation": "Transportkontrolle schützt Daten und Datenträger beim physischen Transport."
+  },
+  {
+    "id": "lf-04-sach-tom-010",
+    "question": "Warum ist Wiederherstellbarkeit wichtig?",
+    "answers": [
+      { "text": "Daten und Systeme können nach Störungen wieder nutzbar werden", "correct": true },
+      { "text": "Daten bleiben vor unbefugter Einsicht geschützt", "correct": false },
+      { "text": "Daten werden nach Zwecken getrennt verarbeitet", "correct": false },
+      { "text": "Benutzeraktionen werden lückenlos protokolliert", "correct": false }
+    ],
+    "explanation": "Wiederherstellbarkeit hilft, Daten und Systeme nach Verlust, Fehlern oder Angriffen wiederherzustellen."
+  },
+  {
+    "id": "lf-04-sach-tom-011",
+    "question": "Welche Maßnahme verbessert die Wiederherstellbarkeit?",
+    "answers": [
+      { "text": "Regelmäßige Sicherungskopien erstellen und testen", "correct": true },
+      { "text": "Benutzerrechte nach dem Minimalprinzip vergeben", "correct": false },
+      { "text": "Daten bei der Übertragung verschlüsseln", "correct": false },
+      { "text": "Serverräume mit Zutrittskontrolle sichern", "correct": false }
+    ],
+    "explanation": "Backups müssen vorhanden und wiederherstellbar sein, damit sie im Notfall helfen."
+  },
+  {
+    "id": "lf-04-sach-tom-012",
+    "question": "Was ist ein Ziel der Verfügbarkeitskontrolle?",
+    "answers": [
+      { "text": "Daten und Systeme sollen bei Bedarf verfügbar bleiben", "correct": true },
+      { "text": "Daten sollen nach Zwecken getrennt bleiben", "correct": false },
+      { "text": "Daten sollen vor unbefugter Einsicht geschützt werden", "correct": false },
+      { "text": "Datenänderungen sollen nachvollziehbar bleiben", "correct": false }
+    ],
+    "explanation": "Verfügbarkeitskontrolle schützt vor Ausfall oder Verlust der Nutzbarkeit."
+  },
+  {
+    "id": "lf-04-sach-tom-013",
+    "question": "Welche Aussage beschreibt Datenintegrität richtig?",
+    "answers": [
+      { "text": "Daten bleiben korrekt, vollständig und unverändert", "correct": true },
+      { "text": "Daten stehen nach Ausfällen rechtzeitig bereit", "correct": false },
+      { "text": "Daten sind nur für Berechtigte einsehbar", "correct": false },
+      { "text": "Daten werden nach Verarbeitungszwecken getrennt", "correct": false }
+    ],
+    "explanation": "Datenintegrität schützt Daten vor unbefugter oder unbemerkter Veränderung."
+  },
+  {
+    "id": "lf-04-sach-tom-014",
+    "question": "Was ist ein Beispiel für Auftragskontrolle?",
+    "answers": [
+      { "text": "Ein Dienstleister verarbeitet Daten nur nach dokumentierter Weisung", "correct": true },
+      { "text": "Ein Benutzer erhält Zugriff nach Rollenmodell", "correct": false },
+      { "text": "Ein Serverraum wird mit Zutrittskarte gesichert", "correct": false },
+      { "text": "Ein Datenträger wird verschlossen transportiert", "correct": false }
+    ],
+    "explanation": "Auftragskontrolle stellt sicher, dass Dienstleister personenbezogene Daten nur nach Weisung verarbeiten."
+  },
+  {
+    "id": "lf-04-sach-tom-015",
+    "question": "Was bedeutet Trennbarkeit bei Datenverarbeitung?",
+    "answers": [
+      { "text": "Daten für unterschiedliche Zwecke werden getrennt verarbeitet", "correct": true },
+      { "text": "Daten werden nach Ausfällen wiederhergestellt", "correct": false },
+      { "text": "Daten werden während der Übertragung geschützt", "correct": false },
+      { "text": "Datenänderungen werden im System protokolliert", "correct": false }
+    ],
+    "explanation": "Trennbarkeit verhindert, dass Daten für unterschiedliche Zwecke unkontrolliert vermischt werden."
+  },
+  {
+    "id": "lf-04-sach-tom-016",
+    "question": "Welche Maßnahme schützt mobile Datenträger besonders bei Verlust?",
+    "answers": [
+      { "text": "Verschlüsselung des Datenträgers", "correct": true },
+      { "text": "Dokumentierte Ausgabe des Datenträgers", "correct": false },
+      { "text": "Regelmäßige Sicherungskopie des Inhalts", "correct": false },
+      { "text": "Zeitnahe Verlustmeldung an die zuständige Stelle", "correct": false }
+    ],
+    "explanation": "Verschlüsselung schützt Daten auf mobilen Datenträgern, wenn der Datenträger verloren geht."
+  },
+  {
+    "id": "lf-04-sach-tom-017",
+    "question": "Warum sollten mobile Datenträger sicher gelöscht werden?",
+    "answers": [
+      { "text": "Damit alte Daten schwer wiederherstellbar sind", "correct": true },
+      { "text": "Damit Ausgabe und Rückgabe dokumentiert sind", "correct": false },
+      { "text": "Damit Daten bei Verlust verschlüsselt bleiben", "correct": false },
+      { "text": "Damit Transportwege nachvollziehbar bleiben", "correct": false }
+    ],
+    "explanation": "Sicheres Löschen verhindert, dass Restdaten später ausgelesen werden können."
+  },
+  {
+    "id": "lf-04-sach-tom-018",
+    "question": "Was sollte beim Verlust eines mobilen Datenträgers passieren?",
+    "answers": [
+      { "text": "Der Verlust sollte zeitnah gemeldet und dokumentiert werden", "correct": true },
+      { "text": "Der Datenträger sollte regulär neu ausgegeben werden", "correct": false },
+      { "text": "Der Datenträger sollte anschließend sicher gelöscht werden", "correct": false },
+      { "text": "Der Verlust sollte als normale Rückgabe erfasst werden", "correct": false }
+    ],
+    "explanation": "Eine schnelle Verlustmeldung ermöglicht Gegenmaßnahmen und Bewertung möglicher Datenabflüsse."
+  },
+  {
+    "id": "lf-04-sach-tom-019",
+    "question": "Welche Maßnahme unterstützt den sicheren Umgang mit mobilen Datenträgern?",
+    "answers": [
+      { "text": "Zentrale Verwaltung mit Ausgabe- und Rückgabekontrolle", "correct": true },
+      { "text": "Verschlüsselung als einzige organisatorische Regel", "correct": false },
+      { "text": "Verlustmeldung erst nach Abschluss der Nutzung", "correct": false },
+      { "text": "Sicherungskopie ohne Datenträgernachweis", "correct": false }
+    ],
+    "explanation": "Eine Datenträgerverwaltung macht Nutzung, Besitz und Rückgabe mobiler Datenträger nachvollziehbar."
+  },
+  {
+    "id": "lf-04-sach-tom-020",
+    "question": "Welche Kombination erhöht die Datensicherheit im Alltag?",
+    "answers": [
+      { "text": "Backups, Zugriffskontrollen, Verschlüsselung und Schutzsoftware", "correct": true },
+      { "text": "Zugriffskontrolle, aber keine Wiederherstellbarkeit", "correct": false },
+      { "text": "Verschlüsselung ohne Benutzer- und Rechtekonzept", "correct": false },
+      { "text": "Schutzsoftware ohne Updates und Protokollierung", "correct": false }
+    ],
+    "explanation": "Datensicherheit entsteht durch das Zusammenspiel mehrerer technischer und organisatorischer Maßnahmen."
+  }
+]

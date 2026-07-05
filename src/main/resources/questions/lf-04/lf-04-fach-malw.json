@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-malw-001",
+    "question": "Was beschreibt Malware?",
+    "answers": [
+      { "text": "Schädliche Software, die Systeme oder Daten beeinträchtigt", "correct": true },
+      { "text": "Schutzsoftware zur Erkennung von Angriffen", "correct": false },
+      { "text": "Software zur Verwaltung von Sicherheitsupdates", "correct": false },
+      { "text": "Ein Sammelbegriff für Zugriffskontrollen", "correct": false }
+    ],
+    "explanation": "Merksatz: Malware ist der Oberbegriff für schädliche Software wie Viren, Würmer oder Trojaner."
+  },
+  {
+    "id": "lf-04-fach-malw-002",
+    "question": "Was beschreibt ein Computervirus?",
+    "answers": [
+      { "text": "Malware, die sich an Dateien oder Programme anhängt", "correct": true },
+      { "text": "Malware, die sich eigenständig über Netzwerke verbreitet", "correct": false },
+      { "text": "Malware, die sich als nützliches Programm tarnt", "correct": false },
+      { "text": "Malware, die Daten sperrt und Lösegeld fordert", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Virus benötigt meist einen Wirt und verbreitet sich über infizierte Dateien oder Programme."
+  },
+  {
+    "id": "lf-04-fach-malw-003",
+    "question": "Was beschreibt ein Wurm?",
+    "answers": [
+      { "text": "Malware, die sich selbstständig über Netzwerke verbreitet", "correct": true },
+      { "text": "Malware, die sich an eine Wirtsdatei anhängt", "correct": false },
+      { "text": "Malware, die falsche Sicherheitswarnungen zeigt", "correct": false },
+      { "text": "Malware, die Eingaben der Tastatur aufzeichnet", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Wurm kann sich ohne direkte Benutzeraktion weiterverbreiten."
+  },
+  {
+    "id": "lf-04-fach-malw-004",
+    "question": "Was beschreibt ein Trojaner?",
+    "answers": [
+      { "text": "Malware, die sich als nützliches Programm tarnt", "correct": true },
+      { "text": "Malware, die sich selbstständig im Netzwerk verbreitet", "correct": false },
+      { "text": "Malware, die sich an bestehende Dateien anhängt", "correct": false },
+      { "text": "Malware, die Werbung als Hauptfunktion einblendet", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Trojaner täuscht legitime Funktion vor, führt aber schädliche Aktionen aus."
+  },
+  {
+    "id": "lf-04-fach-malw-005",
+    "question": "Was beschreibt Ransomware?",
+    "answers": [
+      { "text": "Malware, die Daten sperrt und Lösegeld fordert", "correct": true },
+      { "text": "Malware, die heimlich Nutzerdaten ausspioniert", "correct": false },
+      { "text": "Malware, die falsche Sicherheitsmeldungen erzeugt", "correct": false },
+      { "text": "Malware, die Tastatureingaben protokolliert", "correct": false }
+    ],
+    "explanation": "Merksatz: Ransomware erpresst Betroffene durch Sperren oder Verschlüsseln von Daten."
+  },
+  {
+    "id": "lf-04-fach-malw-006",
+    "question": "Was beschreibt Scareware?",
+    "answers": [
+      { "text": "Software, die mit falschen Warnungen zu Handlungen drängt", "correct": true },
+      { "text": "Malware, die Daten verschlüsselt und Lösegeld fordert", "correct": false },
+      { "text": "Software, die heimlich Tastatureingaben aufzeichnet", "correct": false },
+      { "text": "Fake-Schutzsoftware mit vorgetäuschter Prüfung", "correct": false }
+    ],
+    "explanation": "Merksatz: Scareware erzeugt Angst durch angebliche Sicherheitsprobleme."
+  },
+  {
+    "id": "lf-04-fach-malw-007",
+    "question": "Was beschreibt Rogueware?",
+    "answers": [
+      { "text": "Fake-Sicherheitssoftware, die Probleme vortäuscht", "correct": true },
+      { "text": "Werbesoftware, die Nutzerverhalten auswertet", "correct": false },
+      { "text": "Malware, die Eingaben der Tastatur mitschneidet", "correct": false },
+      { "text": "Schadsoftware mit verstecktem Zugriffskanal", "correct": false }
+    ],
+    "explanation": "Merksatz: Rogueware gibt sich oft als Schutzsoftware aus, obwohl sie selbst schädlich oder betrügerisch ist."
+  },
+  {
+    "id": "lf-04-fach-malw-008",
+    "question": "Was beschreibt Adware?",
+    "answers": [
+      { "text": "Software, die unerwünschte Werbung einblendet", "correct": true },
+      { "text": "Software, die heimlich Zugangsdaten ausspäht", "correct": false },
+      { "text": "Fake-Schutzsoftware mit falschen Warnungen", "correct": false },
+      { "text": "Malware, die Dateien verschlüsselt und sperrt", "correct": false }
+    ],
+    "explanation": "Merksatz: Adware zeigt Werbung an und kann Nutzerverhalten auswerten oder stören."
+  },
+  {
+    "id": "lf-04-fach-malw-009",
+    "question": "Was beschreibt Spyware?",
+    "answers": [
+      { "text": "Software, die Nutzer oder Systeme heimlich ausspioniert", "correct": true },
+      { "text": "Software, die Werbung als Hauptfunktion anzeigt", "correct": false },
+      { "text": "Software, die Daten sperrt und Lösegeld fordert", "correct": false },
+      { "text": "Software, die falsche Schutzmeldungen erzeugt", "correct": false }
+    ],
+    "explanation": "Merksatz: Spyware sammelt heimlich Informationen und kann Datenschutz sowie Vertraulichkeit gefährden."
+  },
+  {
+    "id": "lf-04-fach-malw-010",
+    "question": "Was beschreibt ein Keylogger?",
+    "answers": [
+      { "text": "Programm oder Gerät zum Aufzeichnen von Tastatureingaben", "correct": true },
+      { "text": "Programm zur Verschlüsselung fremder Dateien", "correct": false },
+      { "text": "Werkzeug zur Anzeige unerwünschter Werbung", "correct": false },
+      { "text": "Dienst zur Steuerung kompromittierter Systeme", "correct": false }
+    ],
+    "explanation": "Merksatz: Keylogger können Zugangsdaten und andere vertrauliche Eingaben ausspähen."
+  },
+  {
+    "id": "lf-04-fach-malw-011",
+    "question": "Was beschreibt eine Backdoor?",
+    "answers": [
+      { "text": "Einen versteckten Zugriffskanal auf ein System", "correct": true },
+      { "text": "Ein Netzwerk fernsteuerbarer infizierter Systeme", "correct": false },
+      { "text": "Eine Schadfunktion innerhalb eines Angriffs", "correct": false },
+      { "text": "Eine Schwachstelle ohne aktiven Zugriff", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Backdoor ermöglicht Zugriff über einen versteckten oder nicht vorgesehenen Weg."
+  },
+  {
+    "id": "lf-04-fach-malw-012",
+    "question": "Was beschreibt ein Botnet?",
+    "answers": [
+      { "text": "Netzwerk kompromittierter fernsteuerbarer Systeme", "correct": true },
+      { "text": "Ein einzelner versteckter Zugriffskanal", "correct": false },
+      { "text": "Ein lokales Programm zum Mitschneiden von Eingaben", "correct": false },
+      { "text": "Ein Exploit zur Ausnutzung einer Schwachstelle", "correct": false }
+    ],
+    "explanation": "Merksatz: Botnetze bestehen aus infizierten Geräten, die zentral gesteuert werden können."
+  },
+  {
+    "id": "lf-04-fach-malw-013",
+    "question": "Was beschreibt ein DoS-Angriff?",
+    "answers": [
+      { "text": "Angriff zur Überlastung oder Unerreichbarkeit eines Dienstes", "correct": true },
+      { "text": "Verteilter Angriff durch viele Systeme gleichzeitig", "correct": false },
+      { "text": "Ausnutzung einer Schwachstelle für Codeausführung", "correct": false },
+      { "text": "Heimliches Sammeln vertraulicher Nutzerdaten", "correct": false }
+    ],
+    "explanation": "Merksatz: DoS-Angriffe zielen auf den Verlust der Verfügbarkeit eines Dienstes."
+  },
+  {
+    "id": "lf-04-fach-malw-014",
+    "question": "Was beschreibt ein DDoS-Angriff?",
+    "answers": [
+      { "text": "Verteilter Angriff vieler Systeme auf einen Dienst", "correct": true },
+      { "text": "Ein einzelner Angriff zur Dienstüberlastung", "correct": false },
+      { "text": "Ein Angriff zum Auslesen von Tastatureingaben", "correct": false },
+      { "text": "Ein Angriff zur Tarnung als Schutzsoftware", "correct": false }
+    ],
+    "explanation": "Merksatz: DDoS ist ein verteilter DoS-Angriff, oft mithilfe vieler kompromittierter Systeme."
+  },
+  {
+    "id": "lf-04-fach-malw-015",
+    "question": "Was beschreibt ein Exploit?",
+    "answers": [
+      { "text": "Gezielte Ausnutzung einer Schwachstelle", "correct": true },
+      { "text": "Die Schwachstelle selbst im System oder Prozess", "correct": false },
+      { "text": "Die eigentliche Nutzlast eines Angriffs", "correct": false },
+      { "text": "Ein langfristig zielgerichteter Angriff", "correct": false }
+    ],
+    "explanation": "Merksatz: Exploits nutzen Schwachstellen aus, um unerwünschte Aktionen zu ermöglichen."
+  },
+  {
+    "id": "lf-04-fach-malw-016",
+    "question": "Was beschreibt eine Sicherheitslücke?",
+    "answers": [
+      { "text": "Schwachstelle, die Angriffe ermöglichen kann", "correct": true },
+      { "text": "Konkreter Code zur Ausnutzung eines Fehlers", "correct": false },
+      { "text": "Die Schadwirkung innerhalb eines Angriffs", "correct": false },
+      { "text": "Ein dauerhaft installierter versteckter Zugang", "correct": false }
+    ],
+    "explanation": "Merksatz: Sicherheitslücken können aus Fehlern in Software, Konfiguration oder Prozessen entstehen."
+  },
+  {
+    "id": "lf-04-fach-malw-017",
+    "question": "Was beschreibt eine Schwachstelle?",
+    "answers": [
+      { "text": "Verwundbare Stelle in System, Prozess oder Organisation", "correct": true },
+      { "text": "Aktive Ausnutzung einer bekannten Sicherheitslücke", "correct": false },
+      { "text": "Schadcode zur Verschlüsselung von Dateien", "correct": false },
+      { "text": "Versteckter Zugriff auf ein kompromittiertes System", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Schwachstelle kann durch eine Bedrohung ausgenutzt werden."
+  },
+  {
+    "id": "lf-04-fach-malw-018",
+    "question": "Was beschreibt ein APT-Angriff?",
+    "answers": [
+      { "text": "Langfristiger, zielgerichteter und professioneller Angriff", "correct": true },
+      { "text": "Kurzzeitige Überlastung eines öffentlichen Dienstes", "correct": false },
+      { "text": "Automatisches Einblenden unerwünschter Werbung", "correct": false },
+      { "text": "Ein einzelner Passwortversuch gegen ein Konto", "correct": false }
+    ],
+    "explanation": "Merksatz: APTs sind fortgeschrittene, dauerhafte Bedrohungen gegen gezielt ausgewählte Ziele."
+  },
+  {
+    "id": "lf-04-fach-malw-019",
+    "question": "Was beschreibt eine Payload?",
+    "answers": [
+      { "text": "Die eigentliche Schadwirkung oder Nutzlast eines Angriffs", "correct": true },
+      { "text": "Die Schwachstelle, die einen Angriff ermöglicht", "correct": false },
+      { "text": "Der versteckte Zugriffskanal nach der Infektion", "correct": false },
+      { "text": "Das Netzwerk fernsteuerbarer infizierter Systeme", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Payload ist der Teil eines Angriffs, der die beabsichtigte Wirkung ausführt."
+  },
+  {
+    "id": "lf-04-fach-malw-020",
+    "question": "Was beschreibt Endpoint-Schutz?",
+    "answers": [
+      { "text": "Schutzmaßnahmen für Endgeräte wie PCs und Smartphones", "correct": true },
+      { "text": "Schutzmaßnahmen nur für zentrale Serverdienste", "correct": false },
+      { "text": "Sicherung von Netzwerkkabeln gegen Diebstahl", "correct": false },
+      { "text": "Protokollierung aller Benutzeraktionen im ISMS", "correct": false }
+    ],
+    "explanation": "Merksatz: Endpoint-Schutz sichert Endgeräte gegen Malware, Angriffe und unerwünschte Zugriffe ab."
+  }
+]

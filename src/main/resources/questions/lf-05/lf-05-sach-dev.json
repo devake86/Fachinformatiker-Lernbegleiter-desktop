@@ -1,0 +1,387 @@
+[
+  {
+    "id": "lf-05-sach-dev-001",
+    "question": "Welche Aussage beschreibt Software richtig?",
+    "answers": [
+      { "text": "Software umfasst nicht-physische Bestandteile eines IT-Systems", "correct": true },
+      { "text": "Software bezeichnet physische Komponenten eines Computers", "correct": false },
+      { "text": "Software beschreibt elektronische Bauteile im Prozessor", "correct": false },
+      { "text": "Software umfasst Kabel, Gehäuse und Steckverbindungen", "correct": false }
+    ],
+    "explanation": "Software umfasst Programme, Daten und Anweisungen, die auf Hardware ausgeführt oder genutzt werden."
+  },
+  {
+    "id": "lf-05-sach-dev-002",
+    "question": "Welche Aussage zu Softwareentwicklern ist richtig?",
+    "answers": [
+      { "text": "Sie bearbeiten Analyse, Planung, Code, Test und Dokumentation", "correct": true },
+      { "text": "Sie übernehmen vor allem Hardwaremontage und Verkabelung", "correct": false },
+      { "text": "Sie erstellen Programme losgelöst von Anforderungen", "correct": false },
+      { "text": "Sie betreuen Systeme erst nach der Auslieferung", "correct": false }
+    ],
+    "explanation": "Softwareentwicklung umfasst mehrere Tätigkeiten entlang des Softwarelebenszyklus."
+  },
+  {
+    "id": "lf-05-sach-dev-003",
+    "question": "Was unterscheidet Programmieren von Softwareentwicklung?",
+    "answers": [
+      { "text": "Programmieren ist Codeumsetzung; Entwicklung umfasst mehr Phasen", "correct": true },
+      { "text": "Programmieren umfasst Analyse, Betrieb und Projektabschluss", "correct": false },
+      { "text": "Softwareentwicklung beschreibt die reine Codeeingabe", "correct": false },
+      { "text": "Softwareentwicklung beginnt nach Wartung und Pflege", "correct": false }
+    ],
+    "explanation": "Programmieren ist ein Teilgebiet der Softwareentwicklung."
+  },
+  {
+    "id": "lf-05-sach-dev-004",
+    "question": "Welche Kompetenz ist für Softwareentwicklung besonders wichtig?",
+    "answers": [
+      { "text": "Analytisches Denken und Verständnis für Anforderungen", "correct": true },
+      { "text": "Schnelle Eingabe von Code vor der Analyse", "correct": false },
+      { "text": "Fokus auf Syntax statt fachlichem Verständnis", "correct": false },
+      { "text": "Arbeiten getrennt von Abstimmung und Feedback", "correct": false }
+    ],
+    "explanation": "Softwareentwickler müssen Anforderungen verstehen, analysieren und in Lösungen übertragen."
+  },
+  {
+    "id": "lf-05-sach-dev-005",
+    "question": "Welche Aussage zu Teamfähigkeit in Softwareprojekten ist richtig?",
+    "answers": [
+      { "text": "Teamfähigkeit ist wichtig, weil Softwareprojekte häufig arbeitsteilig umgesetzt werden", "correct": true },
+      { "text": "Teamfähigkeit ersetzt Analyse und technische Umsetzung", "correct": false },
+      { "text": "Teamfähigkeit betrifft vor allem Einzelarbeitsplätze", "correct": false },
+      { "text": "Teamfähigkeit spielt erst nach Projektabschluss eine Rolle", "correct": false }
+    ],
+    "explanation": "Viele Softwareprojekte benötigen Abstimmung zwischen Rollen, Aufgaben und Teilprojekten."
+  },
+  {
+    "id": "lf-05-sach-dev-006",
+    "question": "Welche Aussage beschreibt Systemsoftware richtig?",
+    "answers": [
+      { "text": "Sie ermöglicht oder unterstützt den Betrieb von Hardware und Anwendungen", "correct": true },
+      { "text": "Sie löst konkrete fachliche Aufgaben von Endbenutzern", "correct": false },
+      { "text": "Sie erweitert Standardsoftware durch Zusatzfunktionen", "correct": false },
+      { "text": "Sie beschreibt kundenspezifische Geschäftsprozesse", "correct": false }
+    ],
+    "explanation": "Systemsoftware bildet die Grundlage, damit Anwendungen auf einem System laufen können."
+  },
+  {
+    "id": "lf-05-sach-dev-007",
+    "question": "Welche Softwareart unterstützt Entwickler typischerweise beim Erstellen von Programmen?",
+    "answers": [
+      { "text": "Unterstützungssoftware", "correct": true },
+      { "text": "Anwendersoftware", "correct": false },
+      { "text": "Branchensoftware", "correct": false },
+      { "text": "Individualsoftware", "correct": false }
+    ],
+    "explanation": "Unterstützungssoftware umfasst Werkzeuge wie Editoren, Compiler oder Entwicklungsumgebungen."
+  },
+  {
+    "id": "lf-05-sach-dev-008",
+    "question": "Welche Aussage beschreibt Anwendersoftware richtig?",
+    "answers": [
+      { "text": "Sie unterstützt konkrete fachliche, technische oder betriebliche Aufgaben von Benutzern", "correct": true },
+      { "text": "Sie bildet die Grundlage für Betriebssystemfunktionen", "correct": false },
+      { "text": "Sie stellt Werkzeuge für Softwareentwicklung bereit", "correct": false },
+      { "text": "Sie verwaltet Treiber, Kernel und Systemdienste", "correct": false }
+    ],
+    "explanation": "Anwendersoftware hilft Benutzern bei konkreten Aufgaben."
+  },
+  {
+    "id": "lf-05-sach-dev-009",
+    "question": "Was ist ein Vorteil von Standardsoftware?",
+    "answers": [
+      { "text": "Sie deckt typische Anforderungen vieler Nutzer ab und ist oft schneller verfügbar", "correct": true },
+      { "text": "Sie wird speziell für einzelne Sonderprozesse entwickelt", "correct": false },
+      { "text": "Sie entsteht als komplette Neuentwicklung pro Kunde", "correct": false },
+      { "text": "Sie benötigt zwingend Erweiterungscode vor der Nutzung", "correct": false }
+    ],
+    "explanation": "Standardsoftware ist für häufige Einsatzfälle vorgesehen und kann oft konfiguriert werden."
+  },
+  {
+    "id": "lf-05-sach-dev-010",
+    "question": "Wann ist Individualsoftware besonders sinnvoll?",
+    "answers": [
+      { "text": "Bei besonderen Anforderungen jenseits passender Standardsoftware", "correct": true },
+      { "text": "Bei vollständig passenden Standardprozessen", "correct": false },
+      { "text": "Bei ausreichender Anpassung durch Customizing", "correct": false },
+      { "text": "Bei unveränderter Nutzung vorhandener Software", "correct": false }
+    ],
+    "explanation": "Individualsoftware wird für spezielle Anforderungen entwickelt."
+  },
+  {
+    "id": "lf-05-sach-dev-011",
+    "question": "Welche Aussage zu Customizing ist richtig?",
+    "answers": [
+      { "text": "Standardsoftware wird durch Einstellungen oder Konfiguration angepasst", "correct": true },
+      { "text": "Vorhandene Software wird durch Zusatzcode erweitert", "correct": false },
+      { "text": "Eine Softwarelösung wird von Grund auf entwickelt", "correct": false },
+      { "text": "Altdaten werden in ein neues System übertragen", "correct": false }
+    ],
+    "explanation": "Customizing passt vorhandene Software an Anforderungen an."
+  },
+  {
+    "id": "lf-05-sach-dev-012",
+    "question": "Wann kommt Erweiterungsprogrammierung typischerweise zum Einsatz?",
+    "answers": [
+      { "text": "Wenn Konfiguration nicht ausreicht und zusätzlicher Code benötigt wird", "correct": true },
+      { "text": "Wenn Einstellungen der Standardsoftware genügen", "correct": false },
+      { "text": "Wenn vorhandene Software unverändert genutzt wird", "correct": false },
+      { "text": "Wenn Daten in ein neues System übernommen werden", "correct": false }
+    ],
+    "explanation": "Erweiterungsprogrammierung ergänzt vorhandene Software um neue Funktionen."
+  },
+  {
+    "id": "lf-05-sach-dev-013",
+    "question": "Welche Aussage beschreibt Datenmigration richtig?",
+    "answers": [
+      { "text": "Daten werden von einem alten System in ein neues System übertragen", "correct": true },
+      { "text": "Standardsoftware wird per Konfiguration angepasst", "correct": false },
+      { "text": "Vorhandene Software wird funktional erweitert", "correct": false },
+      { "text": "Eine Anwendung wird vollständig neu entwickelt", "correct": false }
+    ],
+    "explanation": "Datenmigration ist wichtig, wenn bestehende Datenbestände in neue Systeme übernommen werden."
+  },
+  {
+    "id": "lf-05-sach-dev-014",
+    "question": "Was ist ein typisches Merkmal eines Projekts?",
+    "answers": [
+      { "text": "Es hat ein definiertes Ziel sowie einen Anfang und ein Ende", "correct": true },
+      { "text": "Es beschreibt eine dauerhaft wiederkehrende Linientätigkeit", "correct": false },
+      { "text": "Es umfasst laufenden Betrieb mit gleichartigen Aufgaben", "correct": false },
+      { "text": "Es entsteht aus Routinearbeit mit offenem Zeitrahmen", "correct": false }
+    ],
+    "explanation": "Projekte sind zeitlich begrenzte Vorhaben mit besonderem Ziel."
+  },
+  {
+    "id": "lf-05-sach-dev-015",
+    "question": "Warum ist Projektmanagement in Softwareprojekten wichtig?",
+    "answers": [
+      { "text": "Damit Aufgaben, Zeit, Kosten, Risiken und Ergebnisse gesteuert werden können", "correct": true },
+      { "text": "Damit Implementierung vor Planung und Analyse startet", "correct": false },
+      { "text": "Damit Anforderungen informell und ungeprüft bleiben", "correct": false },
+      { "text": "Damit Rollen, Termine und Risiken spontan entstehen", "correct": false }
+    ],
+    "explanation": "Projektmanagement unterstützt eine zielgerichtete und kontrollierte Projektdurchführung."
+  },
+  {
+    "id": "lf-05-sach-dev-016",
+    "question": "Wozu dient ein Kick-off-Meeting?",
+    "answers": [
+      { "text": "Das Projektteam wird zum Start gemeinsam ausgerichtet und informiert", "correct": true },
+      { "text": "Die Abnahme fertiger Software wird formal bestätigt", "correct": false },
+      { "text": "Quellcode wird nach der Testphase bewertet", "correct": false },
+      { "text": "Eine Datenmigration wird technisch ausgeführt", "correct": false }
+    ],
+    "explanation": "Ein Kick-off schafft gemeinsamen Projektstart, Klarheit und Orientierung."
+  },
+  {
+    "id": "lf-05-sach-dev-017",
+    "question": "Welche Reihenfolge passt grob zu typischen Phasen der Softwareentwicklung?",
+    "answers": [
+      { "text": "Analyse, Planung, Implementierung, Test, Review", "correct": true },
+      { "text": "Implementierung, Review, Analyse, Test, Planung", "correct": false },
+      { "text": "Test, Implementierung, Analyse, Review, Planung", "correct": false },
+      { "text": "Planung, Test, Review, Analyse, Implementierung", "correct": false }
+    ],
+    "explanation": "Softwareentwicklung wird häufig in Phasen von Analyse bis Bewertung gegliedert."
+  },
+  {
+    "id": "lf-05-sach-dev-018",
+    "question": "Was passiert typischerweise in der Analysephase?",
+    "answers": [
+      { "text": "Anforderungen und Ausgangssituation werden untersucht", "correct": true },
+      { "text": "Die geplante Lösung wird in Code umgesetzt", "correct": false },
+      { "text": "Die fertige Software wird fachlich abgenommen", "correct": false },
+      { "text": "Testergebnisse werden abschließend bewertet", "correct": false }
+    ],
+    "explanation": "In der Analysephase wird geklärt, was benötigt wird und welche Rahmenbedingungen gelten."
+  },
+  {
+    "id": "lf-05-sach-dev-019",
+    "question": "Was passiert typischerweise in der Implementierungsphase?",
+    "answers": [
+      { "text": "Die geplante Lösung wird programmiert oder technisch umgesetzt", "correct": true },
+      { "text": "Anforderungen und Rahmenbedingungen werden erhoben", "correct": false },
+      { "text": "Testfälle werden mit der Fachseite abgenommen", "correct": false },
+      { "text": "Projektziele werden im Kick-off vorgestellt", "correct": false }
+    ],
+    "explanation": "In der Implementierung wird aus Entwurf und Planung lauffähige Software."
+  },
+  {
+    "id": "lf-05-sach-dev-020",
+    "question": "Warum ist die Testphase wichtig?",
+    "answers": [
+      { "text": "Fehler und Abweichungen von Anforderungen können erkannt werden", "correct": true },
+      { "text": "Anforderungen werden erstmals fachlich gesammelt", "correct": false },
+      { "text": "Der Quellcode wird geplant, aber nicht ausgeführt", "correct": false },
+      { "text": "Das Projektteam wird initial informiert", "correct": false }
+    ],
+    "explanation": "Tests prüfen, ob Software korrekt funktioniert und Anforderungen erfüllt."
+  },
+  {
+    "id": "lf-05-sach-dev-021",
+    "question": "Welche Aussage zum Wasserfallmodell ist richtig?",
+    "answers": [
+      { "text": "Die Phasen werden linear und nacheinander durchlaufen", "correct": true },
+      { "text": "Die Entwicklung erfolgt in kurzen Sprints", "correct": false },
+      { "text": "Risiken werden in jeder Spirale neu bewertet", "correct": false },
+      { "text": "Spezifikationen stehen Teststufen gegenüber", "correct": false }
+    ],
+    "explanation": "Das Wasserfallmodell ist ein klassisches lineares Vorgehensmodell."
+  },
+  {
+    "id": "lf-05-sach-dev-022",
+    "question": "Was ist ein Nachteil des Wasserfallmodells?",
+    "answers": [
+      { "text": "Späte Änderungen können schwierig oder teuer werden", "correct": true },
+      { "text": "Änderungen werden in jedem Sprint neu bewertet", "correct": false },
+      { "text": "Kundenfeedback wird iterativ eingebunden", "correct": false },
+      { "text": "Risikoanalyse steuert jede Entwicklungsrunde", "correct": false }
+    ],
+    "explanation": "Lineare Modelle sind bei sich ändernden Anforderungen oft weniger flexibel."
+  },
+  {
+    "id": "lf-05-sach-dev-023",
+    "question": "Welche Aussage zum V-Modell ist richtig?",
+    "answers": [
+      { "text": "Spezifikationsphasen werden passenden Testphasen gegenübergestellt", "correct": true },
+      { "text": "Kurze Sprints liefern regelmäßig Inkremente", "correct": false },
+      { "text": "Risiken werden spiralförmig pro Iteration geprüft", "correct": false },
+      { "text": "Phasen laufen linear mit spätem Testbezug", "correct": false }
+    ],
+    "explanation": "Das V-Modell verbindet Entwicklung und Qualitätssicherung durch zugeordnete Teststufen."
+  },
+  {
+    "id": "lf-05-sach-dev-024",
+    "question": "Welche Aussage zum Spiralmodell passt?",
+    "answers": [
+      { "text": "Entwicklungsschritte werden iterativ wiederholt und Risiken werden betrachtet", "correct": true },
+      { "text": "Phasen laufen einmalig und streng nacheinander ab", "correct": false },
+      { "text": "Spezifikationen werden festen Teststufen gegenübergestellt", "correct": false },
+      { "text": "Entwicklung erfolgt in Scrum-Rollen und Sprints", "correct": false }
+    ],
+    "explanation": "Das Spiralmodell kombiniert Iterationen mit gezielter Risikoanalyse."
+  },
+  {
+    "id": "lf-05-sach-dev-025",
+    "question": "Warum sind agile Vorgehensmodelle entstanden?",
+    "answers": [
+      { "text": "Um flexibler auf Änderungen und dynamische Anforderungen reagieren zu können", "correct": true },
+      { "text": "Um Phasen streng nacheinander abzuarbeiten", "correct": false },
+      { "text": "Um späte Änderungen besonders aufwendig zu machen", "correct": false },
+      { "text": "Um Spezifikation und Test strikt zu trennen", "correct": false }
+    ],
+    "explanation": "Agile Methoden sollen Änderungen und Rückmeldungen besser in den Entwicklungsprozess einbinden."
+  },
+  {
+    "id": "lf-05-sach-dev-026",
+    "question": "Welche Aussage zu Scrum passt?",
+    "answers": [
+      { "text": "Scrum arbeitet iterativ und kann flexibel auf geänderte Anforderungen reagieren", "correct": true },
+      { "text": "Scrum durchläuft Phasen streng linear wie Wasserfall", "correct": false },
+      { "text": "Scrum stellt Spezifikationsphasen Testphasen gegenüber", "correct": false },
+      { "text": "Scrum fokussiert technische Risikoanalyse je Spirale", "correct": false }
+    ],
+    "explanation": "Scrum ist ein agiles Rahmenwerk mit kurzen Entwicklungsabschnitten."
+  },
+  {
+    "id": "lf-05-sach-dev-027",
+    "question": "Was ist ein Sprint in Scrum?",
+    "answers": [
+      { "text": "Ein begrenzter Entwicklungszeitraum mit geplantem Ergebnis", "correct": true },
+      { "text": "Eine vollständige Projektlaufzeit mit allen Phasen", "correct": false },
+      { "text": "Eine Abschlussprüfung durch Auftraggeber", "correct": false },
+      { "text": "Eine lineare Phase im Wasserfallmodell", "correct": false }
+    ],
+    "explanation": "Ein Sprint ist ein kurzer, festgelegter Arbeitszyklus in Scrum."
+  },
+  {
+    "id": "lf-05-sach-dev-028",
+    "question": "Was verbindet der DevOps-Ansatz?",
+    "answers": [
+      { "text": "Softwareentwicklung und IT-Betrieb", "correct": true },
+      { "text": "Analysephase und Lastenheft", "correct": false },
+      { "text": "Wasserfallmodell und V-Modell", "correct": false },
+      { "text": "Standardsoftware und Customizing", "correct": false }
+    ],
+    "explanation": "DevOps verbindet Development und Operations für zuverlässige und schnelle Auslieferung."
+  },
+  {
+    "id": "lf-05-sach-dev-029",
+    "question": "Was ist ein mögliches Ziel von DevOps?",
+    "answers": [
+      { "text": "Regelmäßiges Ausliefern hochwertiger Software durch enge Zusammenarbeit", "correct": true },
+      { "text": "Entwicklung und Betrieb organisatorisch trennen", "correct": false },
+      { "text": "Qualitätssicherung nach Betriebsende starten", "correct": false },
+      { "text": "Software nach Auslieferung aus dem Betrieb lösen", "correct": false }
+    ],
+    "explanation": "DevOps verbessert Zusammenarbeit zwischen Entwicklung, Betrieb und Qualitätssicherung."
+  },
+  {
+    "id": "lf-05-sach-dev-030",
+    "question": "Welche Aussage zu Anforderungen ist richtig?",
+    "answers": [
+      { "text": "Anforderungen beschreiben, was eine Software leisten oder erfüllen soll", "correct": true },
+      { "text": "Anforderungen beschreiben den fertigen Quellcode", "correct": false },
+      { "text": "Anforderungen entstehen nach dem Abnahmetest", "correct": false },
+      { "text": "Anforderungen betreffen vor allem Projektkosten", "correct": false }
+    ],
+    "explanation": "Anforderungen bilden die Grundlage für Entwurf, Umsetzung und Test."
+  },
+  {
+    "id": "lf-05-sach-dev-031",
+    "question": "Welche Eigenschaft sollten gute Anforderungen besitzen?",
+    "answers": [
+      { "text": "Sie sollten eindeutig, prüfbar und nachvollziehbar sein", "correct": true },
+      { "text": "Sie sollten Interpretationsspielraum gezielt erhöhen", "correct": false },
+      { "text": "Sie sollten mündlich und lose vereinbart sein", "correct": false },
+      { "text": "Sie sollten nach der Implementierung entstehen", "correct": false }
+    ],
+    "explanation": "Klare Anforderungen erleichtern Umsetzung und spätere Prüfung."
+  },
+  {
+    "id": "lf-05-sach-dev-032",
+    "question": "Welche Aussage beschreibt funktionale Anforderungen?",
+    "answers": [
+      { "text": "Sie beschreiben konkrete Funktionen oder Leistungen der Software", "correct": true },
+      { "text": "Sie beschreiben Qualitätsmerkmale wie Antwortzeit", "correct": false },
+      { "text": "Sie beschreiben Rahmenbedingungen des Betriebs", "correct": false },
+      { "text": "Sie beschreiben Bedienbarkeit und Zuverlässigkeit", "correct": false }
+    ],
+    "explanation": "Funktionale Anforderungen sagen, was die Software tun soll."
+  },
+  {
+    "id": "lf-05-sach-dev-033",
+    "question": "Welche Aussage beschreibt nicht funktionale Anforderungen?",
+    "answers": [
+      { "text": "Sie beschreiben Qualitätsmerkmale oder Rahmenbedingungen der Software", "correct": true },
+      { "text": "Sie beschreiben einzelne Funktionen wie Speichern", "correct": false },
+      { "text": "Sie beschreiben konkrete Dialoge und Aktionen", "correct": false },
+      { "text": "Sie beschreiben fachliche Verarbeitungsschritte", "correct": false }
+    ],
+    "explanation": "Nicht funktionale Anforderungen beschreiben zum Beispiel Effizienz, Bedienbarkeit oder Fehlertoleranz."
+  },
+  {
+    "id": "lf-05-sach-dev-034",
+    "question": "Welche Aussage zum Lastenheft ist richtig?",
+    "answers": [
+      { "text": "Es beschreibt die Anforderungen aus Sicht des Auftraggebers", "correct": true },
+      { "text": "Es beschreibt die Umsetzung aus Sicht des Auftragnehmers", "correct": false },
+      { "text": "Es dokumentiert Testergebnisse nach der Implementierung", "correct": false },
+      { "text": "Es beschreibt technische Schnittstellen im Quellcode", "correct": false }
+    ],
+    "explanation": "Das Lastenheft beschreibt, was der Auftraggeber benötigt."
+  },
+  {
+    "id": "lf-05-sach-dev-035",
+    "question": "Welche Aussage zum Pflichtenheft ist richtig?",
+    "answers": [
+      { "text": "Es beschreibt, wie der Auftragnehmer die Anforderungen umsetzen will", "correct": true },
+      { "text": "Es beschreibt Anforderungen aus Auftraggebersicht", "correct": false },
+      { "text": "Es ersetzt die technische Umsetzung im Projekt", "correct": false },
+      { "text": "Es enthält Testergebnisse nach Projektabschluss", "correct": false }
+    ],
+    "explanation": "Das Pflichtenheft konkretisiert die Umsetzung der Anforderungen."
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-05-abkz-001",
+    "question": "Wofür steht ASCII?",
+    "answers": [
+      { "text": "American Standard Code for Information Interchange", "correct": true },
+      { "text": "Advanced Software Code for Internet Integration", "correct": false },
+      { "text": "Automatic System Control Interface", "correct": false },
+      { "text": "Application Standard for Computer Input", "correct": false }
+    ],
+    "explanation": "ASCII heißt American Standard Code for Information Interchange."
+  },
+  {
+    "id": "lf-05-abkz-002",
+    "question": "Wofür steht CSV?",
+    "answers": [
+      { "text": "Comma-Separated Values", "correct": true },
+      { "text": "Computer System Variables", "correct": false },
+      { "text": "Central Software Version", "correct": false },
+      { "text": "Code Syntax Validation", "correct": false }
+    ],
+    "explanation": "CSV heißt Comma-Separated Values."
+  },
+  {
+    "id": "lf-05-abkz-003",
+    "question": "Wofür steht DB?",
+    "answers": [
+      { "text": "Datenbank", "correct": true },
+      { "text": "Datenblock", "correct": false },
+      { "text": "Direktbetrieb", "correct": false },
+      { "text": "Dateibefehl", "correct": false }
+    ],
+    "explanation": "DB steht im Datenbankkontext für Datenbank."
+  },
+  {
+    "id": "lf-05-abkz-004",
+    "question": "Wofür steht DBMS?",
+    "answers": [
+      { "text": "Datenbank-Management-System", "correct": true },
+      { "text": "Datenbank-Modell-Sprache", "correct": false },
+      { "text": "Datei-Bearbeitungs-Modul-System", "correct": false },
+      { "text": "Daten-Berechnungs-Maschinen-Schnittstelle", "correct": false }
+    ],
+    "explanation": "DBMS heißt Datenbank-Management-System."
+  },
+  {
+    "id": "lf-05-abkz-005",
+    "question": "Wofür steht DCL im SQL-Kontext?",
+    "answers": [
+      { "text": "Data Control Language", "correct": true },
+      { "text": "Data Create Logic", "correct": false },
+      { "text": "Database Code Library", "correct": false },
+      { "text": "Dynamic Control List", "correct": false }
+    ],
+    "explanation": "DCL heißt Data Control Language."
+  },
+  {
+    "id": "lf-05-abkz-006",
+    "question": "Wofür steht DDL im SQL-Kontext?",
+    "answers": [
+      { "text": "Data Definition Language", "correct": true },
+      { "text": "Database Design List", "correct": false },
+      { "text": "Data Delete Logic", "correct": false },
+      { "text": "Dynamic Data Link", "correct": false }
+    ],
+    "explanation": "DDL heißt Data Definition Language."
+  },
+  {
+    "id": "lf-05-abkz-007",
+    "question": "Wofür steht DML im SQL-Kontext?",
+    "answers": [
+      { "text": "Data Manipulation Language", "correct": true },
+      { "text": "Database Model Layer", "correct": false },
+      { "text": "Data Management List", "correct": false },
+      { "text": "Dynamic Module Loader", "correct": false }
+    ],
+    "explanation": "DML heißt Data Manipulation Language."
+  },
+  {
+    "id": "lf-05-abkz-008",
+    "question": "Wofür steht DQL im SQL-Kontext?",
+    "answers": [
+      { "text": "Data Query Language", "correct": true },
+      { "text": "Database Quality Logic", "correct": false },
+      { "text": "Data Quick Link", "correct": false },
+      { "text": "Dynamic Query Loader", "correct": false }
+    ],
+    "explanation": "DQL heißt Data Query Language."
+  },
+  {
+    "id": "lf-05-abkz-009",
+    "question": "Wofür steht ERD?",
+    "answers": [
+      { "text": "Entity-Relationship-Diagramm", "correct": true },
+      { "text": "External Runtime Database", "correct": false },
+      { "text": "Extended Relation Document", "correct": false },
+      { "text": "Entity-Reference-Datei", "correct": false }
+    ],
+    "explanation": "ERD heißt Entity-Relationship-Diagramm."
+  },
+  {
+    "id": "lf-05-abkz-010",
+    "question": "Wofür steht ERM?",
+    "answers": [
+      { "text": "Entity-Relationship-Modell", "correct": true },
+      { "text": "External Resource Management", "correct": false },
+      { "text": "Extended Runtime Module", "correct": false },
+      { "text": "Entity-Relation-Methode", "correct": false }
+    ],
+    "explanation": "ERM heißt Entity-Relationship-Modell."
+  },
+  {
+    "id": "lf-05-abkz-011",
+    "question": "Wofür steht EVA in der Programmierung?",
+    "answers": [
+      { "text": "Eingabe, Verarbeitung, Ausgabe", "correct": true },
+      { "text": "Entwurf, Verwaltung, Archivierung", "correct": false },
+      { "text": "Erstellen, Verteilen, Aktualisieren", "correct": false },
+      { "text": "Einfügen, Verknüpfen, Anzeigen", "correct": false }
+    ],
+    "explanation": "EVA heißt Eingabe, Verarbeitung, Ausgabe."
+  },
+  {
+    "id": "lf-05-abkz-012",
+    "question": "Wofür steht GIF?",
+    "answers": [
+      { "text": "Graphics Interchange Format", "correct": true },
+      { "text": "General Image File", "correct": false },
+      { "text": "Graphic Internet Function", "correct": false },
+      { "text": "Generated Interface Format", "correct": false }
+    ],
+    "explanation": "GIF heißt Graphics Interchange Format."
+  },
+  {
+    "id": "lf-05-abkz-013",
+    "question": "Wofür steht GUI?",
+    "answers": [
+      { "text": "Graphical User Interface", "correct": true },
+      { "text": "General Utility Input", "correct": false },
+      { "text": "Generated User Instruction", "correct": false },
+      { "text": "Graphic Update Integration", "correct": false }
+    ],
+    "explanation": "GUI heißt Graphical User Interface."
+  },
+  {
+    "id": "lf-05-abkz-014",
+    "question": "Wofür steht IDE?",
+    "answers": [
+      { "text": "Integrated Development Environment", "correct": true },
+      { "text": "Internal Data Engine", "correct": false },
+      { "text": "Internet Design Editor", "correct": false },
+      { "text": "Integrated Database Extension", "correct": false }
+    ],
+    "explanation": "IDE heißt Integrated Development Environment."
+  },
+  {
+    "id": "lf-05-abkz-015",
+    "question": "Wofür steht ISO?",
+    "answers": [
+      { "text": "International Organization for Standardization", "correct": true },
+      { "text": "Internal Software Operation", "correct": false },
+      { "text": "Integrated System Output", "correct": false },
+      { "text": "Internet Service Object", "correct": false }
+    ],
+    "explanation": "ISO steht für International Organization for Standardization."
+  },
+  {
+    "id": "lf-05-abkz-016",
+    "question": "Wofür steht JPEG?",
+    "answers": [
+      { "text": "Joint Photographic Experts Group", "correct": true },
+      { "text": "Java Program Extension Graphic", "correct": false },
+      { "text": "Joint Pixel Encoding Grid", "correct": false },
+      { "text": "Justified Picture Exchange Guide", "correct": false }
+    ],
+    "explanation": "JPEG heißt Joint Photographic Experts Group."
+  },
+  {
+    "id": "lf-05-abkz-017",
+    "question": "Wofür steht KiB?",
+    "answers": [
+      { "text": "Kibibyte", "correct": true },
+      { "text": "Kilobyte im Dezimalsystem", "correct": false },
+      { "text": "Kilo Input Block", "correct": false },
+      { "text": "Kernel Information Byte", "correct": false }
+    ],
+    "explanation": "KiB heißt Kibibyte."
+  },
+  {
+    "id": "lf-05-abkz-018",
+    "question": "Wofür steht KISS als Entwicklungsprinzip?",
+    "answers": [
+      { "text": "Keep it simple, stupid", "correct": true },
+      { "text": "Keep internal systems secure", "correct": false },
+      { "text": "Kernel input storage system", "correct": false },
+      { "text": "Key information software standard", "correct": false }
+    ],
+    "explanation": "KISS heißt Keep it simple, stupid."
+  },
+  {
+    "id": "lf-05-abkz-019",
+    "question": "Wofür steht MiB?",
+    "answers": [
+      { "text": "Mebibyte", "correct": true },
+      { "text": "Megabyte im Dezimalsystem", "correct": false },
+      { "text": "Memory Input Block", "correct": false },
+      { "text": "Module Interface Byte", "correct": false }
+    ],
+    "explanation": "MiB heißt Mebibyte."
+  },
+  {
+    "id": "lf-05-abkz-020",
+    "question": "Wofür steht NoSQL?",
+    "answers": [
+      { "text": "Not only SQL", "correct": true },
+      { "text": "No Structured Query Logic", "correct": false },
+      { "text": "New Object Storage Query Language", "correct": false },
+      { "text": "Network Online SQL", "correct": false }
+    ],
+    "explanation": "NoSQL wird häufig als Not only SQL verstanden."
+  },
+  {
+    "id": "lf-05-abkz-021",
+    "question": "Wofür steht OOP?",
+    "answers": [
+      { "text": "Objektorientierte Programmierung", "correct": true },
+      { "text": "Offene Office-Plattform", "correct": false },
+      { "text": "Operatives Online-Protokoll", "correct": false },
+      { "text": "Objektorientierte Prüfung", "correct": false }
+    ],
+    "explanation": "OOP steht für objektorientierte Programmierung."
+  },
+  {
+    "id": "lf-05-abkz-022",
+    "question": "Wofür steht OQL?",
+    "answers": [
+      { "text": "Object Query Language", "correct": true },
+      { "text": "Open Quality Logic", "correct": false },
+      { "text": "Object Quick Link", "correct": false },
+      { "text": "Online Query List", "correct": false }
+    ],
+    "explanation": "OQL heißt Object Query Language."
+  },
+  {
+    "id": "lf-05-abkz-023",
+    "question": "Wofür steht PAP?",
+    "answers": [
+      { "text": "Programmablaufplan", "correct": true },
+      { "text": "Python-Anwendungs-Prozess", "correct": false },
+      { "text": "Programmier-Analyse-Protokoll", "correct": false },
+      { "text": "Primärer Attribut-Plan", "correct": false }
+    ],
+    "explanation": "PAP heißt Programmablaufplan."
+  },
+  {
+    "id": "lf-05-abkz-024",
+    "question": "Wofür steht PDF?",
+    "answers": [
+      { "text": "Portable Document Format", "correct": true },
+      { "text": "Python Data File", "correct": false },
+      { "text": "Program Design Format", "correct": false },
+      { "text": "Portable Database Function", "correct": false }
+    ],
+    "explanation": "PDF heißt Portable Document Format."
+  },
+  {
+    "id": "lf-05-abkz-025",
+    "question": "Wofür steht PNG?",
+    "answers": [
+      { "text": "Portable Network Graphics", "correct": true },
+      { "text": "Python Numeric Graphic", "correct": false },
+      { "text": "Program Network Grid", "correct": false },
+      { "text": "Portable New Geometry", "correct": false }
+    ],
+    "explanation": "PNG heißt Portable Network Graphics."
+  },
+  {
+    "id": "lf-05-abkz-026",
+    "question": "Wofür steht RGB?",
+    "answers": [
+      { "text": "Rot, Grün, Blau", "correct": true },
+      { "text": "Raster, Grafik, Bitmap", "correct": false },
+      { "text": "Relation, Gruppe, Beziehung", "correct": false },
+      { "text": "Read, Generate, Build", "correct": false }
+    ],
+    "explanation": "RGB steht für Rot, Grün und Blau."
+  },
+  {
+    "id": "lf-05-abkz-027",
+    "question": "Wofür steht CMYK?",
+    "answers": [
+      { "text": "Cyan, Magenta, Yellow, Key", "correct": true },
+      { "text": "Code, Memory, Yield, Kernel", "correct": false },
+      { "text": "Create, Modify, Yield, Keep", "correct": false },
+      { "text": "Client, Model, Year, Key", "correct": false }
+    ],
+    "explanation": "CMYK steht für Cyan, Magenta, Yellow und Key."
+  },
+  {
+    "id": "lf-05-abkz-028",
+    "question": "Wofür steht SQL?",
+    "answers": [
+      { "text": "Structured Query Language", "correct": true },
+      { "text": "Software Quality Logic", "correct": false },
+      { "text": "System Query List", "correct": false },
+      { "text": "Standard Queue Language", "correct": false }
+    ],
+    "explanation": "SQL heißt Structured Query Language."
+  },
+  {
+    "id": "lf-05-abkz-029",
+    "question": "Wofür steht SVG?",
+    "answers": [
+      { "text": "Scalable Vector Graphics", "correct": true },
+      { "text": "Standard Visual Grid", "correct": false },
+      { "text": "Structured Vector Guide", "correct": false },
+      { "text": "Software Version Graphic", "correct": false }
+    ],
+    "explanation": "SVG heißt Scalable Vector Graphics."
+  },
+  {
+    "id": "lf-05-abkz-030",
+    "question": "Wofür steht TiB?",
+    "answers": [
+      { "text": "Tebibyte", "correct": true },
+      { "text": "Terabyte im Dezimalsystem", "correct": false },
+      { "text": "Table Input Block", "correct": false },
+      { "text": "Technical Interface Byte", "correct": false }
+    ],
+    "explanation": "TiB heißt Tebibyte."
+  },
+  {
+    "id": "lf-05-abkz-031",
+    "question": "Wofür steht UML?",
+    "answers": [
+      { "text": "Unified Modeling Language", "correct": true },
+      { "text": "Universal Machine Logic", "correct": false },
+      { "text": "User Model Library", "correct": false },
+      { "text": "Unified Module Loader", "correct": false }
+    ],
+    "explanation": "UML heißt Unified Modeling Language."
+  },
+  {
+    "id": "lf-05-abkz-032",
+    "question": "Wofür steht UTF?",
+    "answers": [
+      { "text": "Unicode Transformation Format", "correct": true },
+      { "text": "Universal Text File", "correct": false },
+      { "text": "User Transfer Function", "correct": false },
+      { "text": "Unified Table Format", "correct": false }
+    ],
+    "explanation": "UTF heißt Unicode Transformation Format."
+  },
+  {
+    "id": "lf-05-abkz-033",
+    "question": "Wofür steht XML?",
+    "answers": [
+      { "text": "Extensible Markup Language", "correct": true },
+      { "text": "Extended Model Library", "correct": false },
+      { "text": "External Machine Logic", "correct": false },
+      { "text": "Example Markup List", "correct": false }
+    ],
+    "explanation": "XML heißt Extensible Markup Language."
+  },
+  {
+    "id": "lf-05-abkz-034",
+    "question": "Wofür steht XP als Vorgehensmodell?",
+    "answers": [
+      { "text": "Extreme Programming", "correct": true },
+      { "text": "Extended Python", "correct": false },
+      { "text": "External Processing", "correct": false },
+      { "text": "Executable Project", "correct": false }
+    ],
+    "explanation": "XP heißt Extreme Programming."
+  },
+  {
+    "id": "lf-05-abkz-035",
+    "question": "Wofür steht ROM?",
+    "answers": [
+      { "text": "Read-Only Memory", "correct": true },
+      { "text": "Runtime Object Model", "correct": false },
+      { "text": "Relational Output Module", "correct": false },
+      { "text": "Read Open Method", "correct": false }
+    ],
+    "explanation": "ROM heißt Read-Only Memory."
+  },
+  {
+    "id": "lf-05-abkz-036",
+    "question": "Wofür steht RAM?",
+    "answers": [
+      { "text": "Random Access Memory", "correct": true },
+      { "text": "Runtime Application Model", "correct": false },
+      { "text": "Relational Attribute Method", "correct": false },
+      { "text": "Read Access Module", "correct": false }
+    ],
+    "explanation": "RAM heißt Random Access Memory."
+  },
+  {
+    "id": "lf-05-abkz-037",
+    "question": "Wofür steht CRUD im Datenbankkontext?",
+    "answers": [
+      { "text": "Create, Read, Update, Delete", "correct": true },
+      { "text": "Code, Run, Upload, Debug", "correct": false },
+      { "text": "Create, Render, Use, Drop", "correct": false },
+      { "text": "Column, Row, User, Database", "correct": false }
+    ],
+    "explanation": "CRUD heißt Create, Read, Update und Delete."
+  },
+  {
+    "id": "lf-05-abkz-038",
+    "question": "Wofür steht API?",
+    "answers": [
+      { "text": "Application Programming Interface", "correct": true },
+      { "text": "Automated Python Instruction", "correct": false },
+      { "text": "Application Project Index", "correct": false },
+      { "text": "Advanced Program Installation", "correct": false }
+    ],
+    "explanation": "API heißt Application Programming Interface."
+  },
+  {
+    "id": "lf-05-abkz-039",
+    "question": "Wofür steht JSON?",
+    "answers": [
+      { "text": "JavaScript Object Notation", "correct": true },
+      { "text": "Java System Object Network", "correct": false },
+      { "text": "Joined SQL Object Name", "correct": false },
+      { "text": "JavaScript Online Node", "correct": false }
+    ],
+    "explanation": "JSON heißt JavaScript Object Notation."
+  },
+  {
+    "id": "lf-05-abkz-040",
+    "question": "Wofür steht I/O im Programmierkontext?",
+    "answers": [
+      { "text": "Input/Output", "correct": true },
+      { "text": "Internal Object", "correct": false },
+      { "text": "Integrated Operation", "correct": false },
+      { "text": "Index/Operator", "correct": false }
+    ],
+    "explanation": "I/O heißt Input/Output."
+  }
+]

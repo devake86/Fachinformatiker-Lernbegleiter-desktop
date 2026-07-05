@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-05-sach-db-001",
+    "question": "Wozu dient eine Datenbank grundsätzlich?",
+    "answers": [
+      { "text": "Zur strukturierten Speicherung und Verwaltung zusammengehöriger Daten", "correct": true },
+      { "text": "Zur kurzfristigen Ablage einzelner Rohdateien", "correct": false },
+      { "text": "Zur Darstellung von Daten ohne Abfragemöglichkeit", "correct": false },
+      { "text": "Zur reinen Umwandlung von Zahlensystemen", "correct": false }
+    ],
+    "explanation": "Eine Datenbank organisiert Daten so, dass sie gezielt gespeichert, abgefragt und gepflegt werden können."
+  },
+  {
+    "id": "lf-05-sach-db-002",
+    "question": "Welche Bestandteile gehören typischerweise zu einem Datenbanksystem?",
+    "answers": [
+      { "text": "Datenbasis, DBMS und Anwendungen oder Benutzerzugriffe", "correct": true },
+      { "text": "Relation, Attribut und einzelnes Datenfeld", "correct": false },
+      { "text": "Primärschlüssel, Fremdschlüssel und Index", "correct": false },
+      { "text": "Externes, konzeptionelles und internes Schema", "correct": false }
+    ],
+    "explanation": "Ein Datenbanksystem besteht nicht nur aus Daten, sondern auch aus Software zur Verwaltung und zum Zugriff."
+  },
+  {
+    "id": "lf-05-sach-db-003",
+    "question": "Welche Aufgabe hat ein DBMS?",
+    "answers": [
+      { "text": "Daten speichern, verwalten, schützen und Abfragen ermöglichen", "correct": true },
+      { "text": "Daten ausschließlich als Tabellenentwurf darstellen", "correct": false },
+      { "text": "Daten nur physisch auf Datenträger kopieren", "correct": false },
+      { "text": "Datenmodelle ohne Zugriffsfunktionen beschreiben", "correct": false }
+    ],
+    "explanation": "Ein DBMS verwaltet Datenbanken und stellt Funktionen für Zugriff, Sicherheit und Integrität bereit."
+  },
+  {
+    "id": "lf-05-sach-db-004",
+    "question": "Warum ist ein DBMS für Mehrbenutzerbetrieb wichtig?",
+    "answers": [
+      { "text": "Es koordiniert gleichzeitige Zugriffe und schützt Daten vor Inkonsistenzen", "correct": true },
+      { "text": "Es verteilt Tabellen dauerhaft auf einzelne Clients", "correct": false },
+      { "text": "Es speichert jede Änderung ohne Transaktionskontrolle", "correct": false },
+      { "text": "Es ersetzt Benutzerrechte durch Tabellenbeziehungen", "correct": false }
+    ],
+    "explanation": "Ein DBMS kann konkurrierende Zugriffe steuern und dadurch Datenintegrität unterstützen."
+  },
+  {
+    "id": "lf-05-sach-db-005",
+    "question": "Was ist eine Relation im relationalen Datenmodell?",
+    "answers": [
+      { "text": "Eine Tabelle mit Zeilen und Spalten", "correct": true },
+      { "text": "Eine einzelne Zeile mit zusammengehörigen Werten", "correct": false },
+      { "text": "Eine Spalte mit gleichartigen Datenfeldern", "correct": false },
+      { "text": "Ein Verweis auf eine andere Tabelle", "correct": false }
+    ],
+    "explanation": "Im relationalen Modell werden Daten in Relationen gespeichert, die praktisch Tabellen entsprechen."
+  },
+  {
+    "id": "lf-05-sach-db-006",
+    "question": "Was entspricht einem Attribut in einer Datenbanktabelle?",
+    "answers": [
+      { "text": "Eine Spalte", "correct": true },
+      { "text": "Eine Zeile", "correct": false },
+      { "text": "Eine einzelne Zelle", "correct": false },
+      { "text": "Eine ganze Relation", "correct": false }
+    ],
+    "explanation": "Ein Attribut beschreibt eine Eigenschaft und wird in Tabellen meist als Spalte dargestellt."
+  },
+  {
+    "id": "lf-05-sach-db-007",
+    "question": "Was entspricht einem Datensatz in einer Tabelle?",
+    "answers": [
+      { "text": "Eine Zeile mit zusammengehörigen Werten", "correct": true },
+      { "text": "Eine Spalte mit gleichartigen Werten", "correct": false },
+      { "text": "Eine einzelne Zelle an Zeile und Spalte", "correct": false },
+      { "text": "Eine Beziehung zwischen zwei Tabellen", "correct": false }
+    ],
+    "explanation": "Ein Datensatz fasst die Werte eines Objekts oder Vorgangs in einer Tabellenzeile zusammen."
+  },
+  {
+    "id": "lf-05-sach-db-008",
+    "question": "Warum benötigt eine Tabelle meist einen Primärschlüssel?",
+    "answers": [
+      { "text": "Damit jeder Datensatz eindeutig identifiziert werden kann", "correct": true },
+      { "text": "Damit Beziehungen zu anderen Tabellen entstehen können", "correct": false },
+      { "text": "Damit gleiche Werte mehrfach gespeichert werden", "correct": false },
+      { "text": "Damit Attribute automatisch normalisiert werden", "correct": false }
+    ],
+    "explanation": "Ein Primärschlüssel verhindert Verwechslungen zwischen Datensätzen."
+  },
+  {
+    "id": "lf-05-sach-db-009",
+    "question": "Welche Eigenschaft sollte ein Primärschlüssel haben?",
+    "answers": [
+      { "text": "Er sollte eindeutig und nicht leer sein", "correct": true },
+      { "text": "Er sollte auf eine andere Tabelle verweisen", "correct": false },
+      { "text": "Er sollte mehrere gleiche Werte erlauben", "correct": false },
+      { "text": "Er sollte aus beliebigen Freitexten bestehen", "correct": false }
+    ],
+    "explanation": "Primärschlüssel müssen Datensätze eindeutig identifizieren können."
+  },
+  {
+    "id": "lf-05-sach-db-010",
+    "question": "Wozu dient ein Fremdschlüssel?",
+    "answers": [
+      { "text": "Er verweist auf einen Primärschlüssel einer anderen Tabelle", "correct": true },
+      { "text": "Er identifiziert einen Datensatz in der eigenen Tabelle", "correct": false },
+      { "text": "Er besteht immer aus allen Tabellenattributen", "correct": false },
+      { "text": "Er speichert Daten ohne Tabellenbeziehung", "correct": false }
+    ],
+    "explanation": "Fremdschlüssel stellen Beziehungen zwischen Tabellen her."
+  },
+  {
+    "id": "lf-05-sach-db-011",
+    "question": "Was wird durch referenzielle Integrität verhindert?",
+    "answers": [
+      { "text": "Ungültige Verweise zwischen Tabellen", "correct": true },
+      { "text": "Eindeutige Primärschlüssel in Tabellen", "correct": false },
+      { "text": "Beziehungen durch passende Fremdschlüssel", "correct": false },
+      { "text": "Logisch stimmige Datenbestände", "correct": false }
+    ],
+    "explanation": "Referenzielle Integrität sorgt dafür, dass Fremdschlüssel auf gültige Datensätze verweisen."
+  },
+  {
+    "id": "lf-05-sach-db-012",
+    "question": "Was bedeutet Datenredundanz?",
+    "answers": [
+      { "text": "Gleiche Daten werden mehrfach gespeichert", "correct": true },
+      { "text": "Daten sind widerspruchsfrei gespeichert", "correct": false },
+      { "text": "Daten werden über Schlüssel eindeutig erkannt", "correct": false },
+      { "text": "Daten werden in Normalformen zerlegt", "correct": false }
+    ],
+    "explanation": "Redundanz kann Speicher verschwenden und Widersprüche begünstigen."
+  },
+  {
+    "id": "lf-05-sach-db-013",
+    "question": "Warum kann Datenredundanz problematisch sein?",
+    "answers": [
+      { "text": "Mehrfach gespeicherte Daten können widersprüchlich werden", "correct": true },
+      { "text": "Redundante Daten verbessern automatisch Konsistenz", "correct": false },
+      { "text": "Redundanz ersetzt referenzielle Integrität", "correct": false },
+      { "text": "Redundanz verhindert Änderungsanomalien", "correct": false }
+    ],
+    "explanation": "Wenn gleiche Informationen an mehreren Stellen gespeichert werden, müssen Änderungen überall korrekt erfolgen."
+  },
+  {
+    "id": "lf-05-sach-db-014",
+    "question": "Was beschreibt Datenkonsistenz?",
+    "answers": [
+      { "text": "Daten sind widerspruchsfrei und logisch stimmig", "correct": true },
+      { "text": "Gleiche Daten werden mehrfach abgelegt", "correct": false },
+      { "text": "Daten werden ohne Beziehungen gespeichert", "correct": false },
+      { "text": "Daten besitzen keine Schlüsselverweise", "correct": false }
+    ],
+    "explanation": "Konsistente Daten passen logisch zusammen und enthalten keine fachlichen Widersprüche."
+  },
+  {
+    "id": "lf-05-sach-db-015",
+    "question": "Was ist ein Ziel der Normalisierung?",
+    "answers": [
+      { "text": "Redundanzen und Anomalien verringern", "correct": true },
+      { "text": "Alle Daten in einer Tabelle bündeln", "correct": false },
+      { "text": "Fremdschlüsselbeziehungen entfernen", "correct": false },
+      { "text": "Tabellen ohne Primärschlüssel nutzen", "correct": false }
+    ],
+    "explanation": "Normalisierung verbessert Datenstrukturen und reduziert typische Pflegeprobleme."
+  },
+  {
+    "id": "lf-05-sach-db-016",
+    "question": "Welche Aussage zur ersten Normalform ist richtig?",
+    "answers": [
+      { "text": "Attributwerte sollen atomar sein", "correct": true },
+      { "text": "Nicht-Schlüsselattribute hängen vollständig ab", "correct": false },
+      { "text": "Transitive Abhängigkeiten werden entfernt", "correct": false },
+      { "text": "Fremdschlüssel müssen gültig verweisen", "correct": false }
+    ],
+    "explanation": "Die erste Normalform fordert, dass Werte nicht als wiederholte Listen oder Gruppen gespeichert werden."
+  },
+  {
+    "id": "lf-05-sach-db-017",
+    "question": "Welche Aussage zur zweiten Normalform passt?",
+    "answers": [
+      { "text": "Nicht-Schlüsselattribute hängen vollständig vom gesamten Primärschlüssel ab", "correct": true },
+      { "text": "Attributwerte liegen als wiederholte Listen vor", "correct": false },
+      { "text": "Nicht-Schlüsselattribute hängen transitiv voneinander ab", "correct": false },
+      { "text": "Alle Fremdschlüssel werden durch Primärschlüssel ersetzt", "correct": false }
+    ],
+    "explanation": "Die zweite Normalform vermeidet Teilabhängigkeiten bei zusammengesetzten Schlüsseln."
+  },
+  {
+    "id": "lf-05-sach-db-018",
+    "question": "Welche Aussage zur dritten Normalform passt?",
+    "answers": [
+      { "text": "Nicht-Schlüsselattribute sollen nicht voneinander abhängig sein", "correct": true },
+      { "text": "Attributwerte dürfen Wiederholungsgruppen enthalten", "correct": false },
+      { "text": "Teilabhängigkeiten vom Primärschlüssel bleiben bestehen", "correct": false },
+      { "text": "Alle Daten werden absichtlich redundant gespeichert", "correct": false }
+    ],
+    "explanation": "Die dritte Normalform reduziert transitive Abhängigkeiten zwischen Nicht-Schlüsselattributen."
+  },
+  {
+    "id": "lf-05-sach-db-019",
+    "question": "Was ist eine Einfügeanomalie?",
+    "answers": [
+      { "text": "Neue Daten können nicht sinnvoll eingefügt werden, ohne unnötige Zusatzdaten zu speichern", "correct": true },
+      { "text": "Mehrfach gespeicherte Daten müssen mehrfach geändert werden", "correct": false },
+      { "text": "Beim Löschen verschwinden weitere Informationen", "correct": false },
+      { "text": "Fremdschlüssel zeigen auf gültige Datensätze", "correct": false }
+    ],
+    "explanation": "Einfügeanomalien entstehen durch ungünstige Tabellenstrukturen."
+  },
+  {
+    "id": "lf-05-sach-db-020",
+    "question": "Was ist eine Änderungsanomalie?",
+    "answers": [
+      { "text": "Eine Änderung muss wegen Redundanz an mehreren Stellen erfolgen", "correct": true },
+      { "text": "Neue Daten können nur mit Zusatzdaten eingefügt werden", "correct": false },
+      { "text": "Beim Löschen gehen weitere Informationen verloren", "correct": false },
+      { "text": "Ein Fremdschlüssel verweist korrekt auf einen Datensatz", "correct": false }
+    ],
+    "explanation": "Änderungsanomalien können zu widersprüchlichen Daten führen."
+  },
+  {
+    "id": "lf-05-sach-db-021",
+    "question": "Was ist eine Löschanomalie?",
+    "answers": [
+      { "text": "Beim Löschen gehen unbeabsichtigt weitere wichtige Informationen verloren", "correct": true },
+      { "text": "Neue Datensätze benötigen unnötige Zusatzdaten", "correct": false },
+      { "text": "Redundante Daten müssen mehrfach geändert werden", "correct": false },
+      { "text": "Datensätze werden durch Schlüssel eindeutig erkannt", "correct": false }
+    ],
+    "explanation": "Löschanomalien entstehen, wenn verschiedene Informationsarten ungünstig in einer Tabelle vermischt sind."
+  },
+  {
+    "id": "lf-05-sach-db-022",
+    "question": "Wozu dient das Entity-Relationship-Modell?",
+    "answers": [
+      { "text": "Zur konzeptionellen Planung von Daten, Entitäten und Beziehungen", "correct": true },
+      { "text": "Zur physischen Speicherung einzelner Tabellenblöcke", "correct": false },
+      { "text": "Zur Ausführung von SQL-Abfragen im DBMS", "correct": false },
+      { "text": "Zur Normalisierung vorhandener Messwerte", "correct": false }
+    ],
+    "explanation": "Das ER-Modell hilft, Datenbankstrukturen vor der Umsetzung fachlich zu modellieren."
+  },
+  {
+    "id": "lf-05-sach-db-023",
+    "question": "Was ist eine Entität im ER-Modell?",
+    "answers": [
+      { "text": "Ein konkretes Objekt, über das Daten gespeichert werden sollen", "correct": true },
+      { "text": "Eine Gruppe gleichartiger Objekte", "correct": false },
+      { "text": "Eine Verbindung zwischen zwei Entitätstypen", "correct": false },
+      { "text": "Eine mengenmäßige Angabe einer Beziehung", "correct": false }
+    ],
+    "explanation": "Eine Entität ist ein einzelnes betrachtbares Objekt der realen oder virtuellen Welt."
+  },
+  {
+    "id": "lf-05-sach-db-024",
+    "question": "Was ist ein Entitätstyp?",
+    "answers": [
+      { "text": "Eine Gruppe gleichartiger Entitäten", "correct": true },
+      { "text": "Ein einzelnes konkretes Objekt", "correct": false },
+      { "text": "Eine Beziehung zwischen Tabellen", "correct": false },
+      { "text": "Ein einzelner Attributwert", "correct": false }
+    ],
+    "explanation": "Ein Entitätstyp fasst Objekte mit gleichen Eigenschaften zusammen."
+  },
+  {
+    "id": "lf-05-sach-db-025",
+    "question": "Was ist ein Attribut im ER-Modell?",
+    "answers": [
+      { "text": "Eine Eigenschaft eines Entitätstyps oder Beziehungstyps", "correct": true },
+      { "text": "Ein konkretes Objekt mit gespeicherten Daten", "correct": false },
+      { "text": "Eine Gruppe gleichartiger Entitäten", "correct": false },
+      { "text": "Eine Kardinalität zwischen Entitäten", "correct": false }
+    ],
+    "explanation": "Attribute beschreiben Eigenschaften, die zu Entitäten gespeichert werden."
+  },
+  {
+    "id": "lf-05-sach-db-026",
+    "question": "Was zeigt eine Beziehung im ER-Modell?",
+    "answers": [
+      { "text": "Wie Entitätstypen fachlich miteinander verbunden sind", "correct": true },
+      { "text": "Welche Attribute atomar gespeichert werden", "correct": false },
+      { "text": "Welche Daten physisch auf Datenträgern liegen", "correct": false },
+      { "text": "Wie Tabellen in SQL sortiert werden", "correct": false }
+    ],
+    "explanation": "Beziehungen beschreiben semantische Zusammenhänge zwischen Entitätstypen."
+  },
+  {
+    "id": "lf-05-sach-db-027",
+    "question": "Was beschreibt Kardinalität in Datenmodellen?",
+    "answers": [
+      { "text": "Wie viele Entitäten miteinander in Beziehung stehen können", "correct": true },
+      { "text": "Welche Eigenschaften ein Entitätstyp besitzt", "correct": false },
+      { "text": "Welche Entitäten als Tabellen gespeichert werden", "correct": false },
+      { "text": "Welche Schlüssel physisch gespeichert sind", "correct": false }
+    ],
+    "explanation": "Kardinalitäten beschreiben Mengenverhältnisse zwischen Entitäten."
+  },
+  {
+    "id": "lf-05-sach-db-028",
+    "question": "Welche Aussage beschreibt eine 1:1-Beziehung?",
+    "answers": [
+      { "text": "Ein Datensatz ist höchstens einem Datensatz der anderen Tabelle zugeordnet", "correct": true },
+      { "text": "Ein Datensatz kann vielen Datensätzen zugeordnet sein", "correct": false },
+      { "text": "Viele Datensätze können vielen Datensätzen zugeordnet sein", "correct": false },
+      { "text": "Die Beziehung wird typischerweise über eine Zwischentabelle aufgelöst", "correct": false }
+    ],
+    "explanation": "Bei 1:1 steht ein Objekt höchstens mit einem passenden Objekt der anderen Seite in Beziehung."
+  },
+  {
+    "id": "lf-05-sach-db-029",
+    "question": "Welche Aussage beschreibt eine 1:n-Beziehung?",
+    "answers": [
+      { "text": "Ein Datensatz kann mehreren Datensätzen der anderen Tabelle zugeordnet sein", "correct": true },
+      { "text": "Ein Datensatz ist höchstens einem Datensatz zugeordnet", "correct": false },
+      { "text": "Viele Datensätze sind vielen Datensätzen zugeordnet", "correct": false },
+      { "text": "Die Beziehung wird immer ohne Fremdschlüssel umgesetzt", "correct": false }
+    ],
+    "explanation": "Bei 1:n kann ein Datensatz auf der einen Seite mehrere passende Datensätze auf der anderen Seite haben."
+  },
+  {
+    "id": "lf-05-sach-db-030",
+    "question": "Wie wird eine m:n-Beziehung im relationalen Modell meist umgesetzt?",
+    "answers": [
+      { "text": "Durch eine Zwischentabelle mit Fremdschlüsseln", "correct": true },
+      { "text": "Durch einen einzelnen Fremdschlüssel auf einer Seite", "correct": false },
+      { "text": "Durch Entfernen aller Primärschlüssel", "correct": false },
+      { "text": "Durch Speichern aller Werte in einem Datenfeld", "correct": false }
+    ],
+    "explanation": "m:n-Beziehungen werden meist über eine zusätzliche Tabelle mit Verweisen auf beide Seiten aufgelöst."
+  },
+  {
+    "id": "lf-05-sach-db-031",
+    "question": "Wozu dient die Drei-Schema-Architektur?",
+    "answers": [
+      { "text": "Sie trennt Benutzersicht, logische Struktur und physische Speicherung", "correct": true },
+      { "text": "Sie trennt Primärschlüssel, Fremdschlüssel und Attribute", "correct": false },
+      { "text": "Sie beschreibt nur relationale Tabellenbeziehungen", "correct": false },
+      { "text": "Sie ersetzt das DBMS durch Anwendungen", "correct": false }
+    ],
+    "explanation": "Die Drei-Schema-Architektur trennt externe, konzeptionelle und interne Sicht."
+  },
+  {
+    "id": "lf-05-sach-db-032",
+    "question": "Welche Aussage beschreibt das externe Schema?",
+    "answers": [
+      { "text": "Es beschreibt die Sicht bestimmter Benutzergruppen auf Daten", "correct": true },
+      { "text": "Es beschreibt die logische Gesamtstruktur der Daten", "correct": false },
+      { "text": "Es beschreibt die physische Organisation der Daten", "correct": false },
+      { "text": "Es beschreibt die gespeicherten Rohdaten im DBMS", "correct": false }
+    ],
+    "explanation": "Das externe Schema legt fest, welche Daten eine Benutzergruppe sehen oder nutzen kann."
+  },
+  {
+    "id": "lf-05-sach-db-033",
+    "question": "Welche Aussage beschreibt das konzeptionelle Schema?",
+    "answers": [
+      { "text": "Es beschreibt die logische Gesamtstruktur der Daten und Beziehungen", "correct": true },
+      { "text": "Es beschreibt die Sicht einzelner Benutzergruppen", "correct": false },
+      { "text": "Es beschreibt die physische Speicherung und Indizes", "correct": false },
+      { "text": "Es beschreibt nur lokal gespeicherte Datenbankdateien", "correct": false }
+    ],
+    "explanation": "Das konzeptionelle Schema bildet die logische Gesamtsicht auf die Datenbasis."
+  },
+  {
+    "id": "lf-05-sach-db-034",
+    "question": "Welche Aussage beschreibt das interne Schema?",
+    "answers": [
+      { "text": "Es beschreibt die physische Speicherung und Organisation der Daten", "correct": true },
+      { "text": "Es beschreibt die fachliche Sicht einzelner Benutzer", "correct": false },
+      { "text": "Es beschreibt die logische Gesamtstruktur", "correct": false },
+      { "text": "Es beschreibt Entitäten und Beziehungen im ER-Modell", "correct": false }
+    ],
+    "explanation": "Das interne Schema betrifft technische Speicherstrukturen, Indizes und physische Organisation."
+  },
+  {
+    "id": "lf-05-sach-db-035",
+    "question": "Welche Aussage passt zu einer Stand-Alone-Datenbank?",
+    "answers": [
+      { "text": "Datenbank und Datenbankprogramm liegen auf einem einzelnen Rechner", "correct": true },
+      { "text": "Datenbankdateien liegen zentral, Clients greifen darauf zu", "correct": false },
+      { "text": "DBMS und Datenbank laufen zentral auf einem Server", "correct": false },
+      { "text": "Clients senden Anfragen an einen Datenbankserver", "correct": false }
+    ],
+    "explanation": "Stand-Alone-Datenbanken werden lokal auf einem einzelnen System betrieben."
+  },
+  {
+    "id": "lf-05-sach-db-036",
+    "question": "Welche Aussage passt zu einer File-Share-Datenbank?",
+    "answers": [
+      { "text": "Die Datenbankdateien liegen zentral, das Datenbankprogramm läuft auf den Clients", "correct": true },
+      { "text": "Datenbank und Anwendung liegen vollständig lokal", "correct": false },
+      { "text": "DBMS und Datenbank laufen zentral auf einem Server", "correct": false },
+      { "text": "Clients senden nur SQL-Anfragen an ein Server-DBMS", "correct": false }
+    ],
+    "explanation": "Bei File-Share-Datenbanken greifen Clients auf gemeinsam gespeicherte Datenbankdateien zu."
+  },
+  {
+    "id": "lf-05-sach-db-037",
+    "question": "Welche Aussage passt zu einer Client-Server-Datenbank?",
+    "answers": [
+      { "text": "DBMS und Datenbank laufen zentral auf einem Server", "correct": true },
+      { "text": "Datenbank und Anwendung liegen nur lokal", "correct": false },
+      { "text": "Clients bearbeiten gemeinsame Dateien direkt", "correct": false },
+      { "text": "Daten werden ohne DBMS in Textdateien gespeichert", "correct": false }
+    ],
+    "explanation": "Client-Server-Datenbanken trennen zentrale Datenverwaltung von Anfragen der Clients."
+  },
+  {
+    "id": "lf-05-sach-db-038",
+    "question": "Welche Aussage zu relationalen Datenbanken ist richtig?",
+    "answers": [
+      { "text": "Daten werden in Tabellen gespeichert und über Schlüssel verknüpft", "correct": true },
+      { "text": "Daten werden als Dokumente ohne Tabellenmodell gespeichert", "correct": false },
+      { "text": "Daten werden als Knoten und Kanten organisiert", "correct": false },
+      { "text": "Daten werden als einfache Schlüssel-Wert-Paare gespeichert", "correct": false }
+    ],
+    "explanation": "Relationale Datenbanken nutzen Tabellen, Primärschlüssel und Fremdschlüssel zur strukturierten Datenverwaltung."
+  },
+  {
+    "id": "lf-05-sach-db-039",
+    "question": "Welche Aussage zu NoSQL-Datenbanken passt?",
+    "answers": [
+      { "text": "Sie können flexiblere Datenmodelle als klassische relationale Tabellen nutzen", "correct": true },
+      { "text": "Sie verwenden ausschließlich normalisierte Relationen", "correct": false },
+      { "text": "Sie bestehen immer nur aus SQL-Tabellen", "correct": false },
+      { "text": "Sie nutzen zwingend Primär- und Fremdschlüssel wie relationale Modelle", "correct": false }
+    ],
+    "explanation": "NoSQL-Datenbanken werden oft für flexible, halbstrukturierte oder unstrukturierte Datenmodelle genutzt."
+  },
+  {
+    "id": "lf-05-sach-db-040",
+    "question": "Warum ist Datenmodellierung vor der Umsetzung einer Datenbank sinnvoll?",
+    "answers": [
+      { "text": "Strukturen, Beziehungen und Schlüssel können vorab geplant werden", "correct": true },
+      { "text": "Physische Speicherung ersetzt dadurch alle Anforderungen", "correct": false },
+      { "text": "SQL-Abfragen werden dadurch dauerhaft unnötig", "correct": false },
+      { "text": "Redundanzen werden dadurch gezielt eingebaut", "correct": false }
+    ],
+    "explanation": "Eine gute Datenmodellierung reduziert spätere Strukturfehler, Redundanzen und Anomalien."
+  }
+]

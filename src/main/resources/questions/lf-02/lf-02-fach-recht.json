@@ -1,0 +1,662 @@
+[
+  {
+    "id": "lf-02-fach-recht-001",
+    "question": "Was ist Rechtsfähigkeit?",
+    "answers": [
+      { "text": "Die Fähigkeit, Träger von Rechten und Pflichten zu sein", "correct": true },
+      { "text": "Die Fähigkeit, Verträge wirksam abzuschließen", "correct": false },
+      { "text": "Die Fähigkeit, Kaufmann zu sein", "correct": false },
+      { "text": "Die Fähigkeit, Mängelrechte auszuüben", "correct": false }
+    ],
+    "explanation": "Merksatz: Rechtsfähigkeit bedeutet, Rechte und Pflichten haben zu können."
+  },
+  {
+    "id": "lf-02-fach-recht-002",
+    "question": "Was ist eine natürliche Person?",
+    "answers": [
+      { "text": "Ein Mensch als Rechtssubjekt", "correct": true },
+      { "text": "Eine rechtsfähige Organisation", "correct": false },
+      { "text": "Eine Handelsgesellschaft kraft Rechtsform", "correct": false },
+      { "text": "Ein Kaufmann durch Eintragung", "correct": false }
+    ],
+    "explanation": "Merksatz: Jeder Mensch ist eine natürliche Person."
+  },
+  {
+    "id": "lf-02-fach-recht-003",
+    "question": "Was ist eine juristische Person?",
+    "answers": [
+      { "text": "Eine rechtsfähige Organisation", "correct": true },
+      { "text": "Ein Mensch als Rechtssubjekt", "correct": false },
+      { "text": "Ein Verbraucher im Fernabsatz", "correct": false },
+      { "text": "Ein einzelner Besitz an einer Sache", "correct": false }
+    ],
+    "explanation": "Merksatz: Juristische Personen können selbst Träger von Rechten und Pflichten sein."
+  },
+  {
+    "id": "lf-02-fach-recht-004",
+    "question": "Was ist Geschäftsfähigkeit?",
+    "answers": [
+      { "text": "Die Fähigkeit, wirksame Rechtsgeschäfte abzuschließen", "correct": true },
+      { "text": "Die Fähigkeit, Rechte und Pflichten zu tragen", "correct": false },
+      { "text": "Die Fähigkeit, Kaufmann zu werden", "correct": false },
+      { "text": "Die Fähigkeit, Besitz auszuüben", "correct": false }
+    ],
+    "explanation": "Merksatz: Geschäftsfähigkeit entscheidet, ob jemand selbst wirksam Verträge schließen kann."
+  },
+  {
+    "id": "lf-02-fach-recht-005",
+    "question": "Was bedeutet geschäftsunfähig?",
+    "answers": [
+      { "text": "Rechtsgeschäfte können nicht wirksam selbst abgeschlossen werden", "correct": true },
+      { "text": "Rechtsgeschäfte benötigen teils Zustimmung", "correct": false },
+      { "text": "Rechtsgeschäfte sind formfrei möglich", "correct": false },
+      { "text": "Rechtsgeschäfte können angefochten werden", "correct": false }
+    ],
+    "explanation": "Merksatz: Geschäftsunfähigkeit bedeutet fehlende Fähigkeit zum wirksamen eigenen Rechtsgeschäft."
+  },
+  {
+    "id": "lf-02-fach-recht-006",
+    "question": "Was bedeutet beschränkte Geschäftsfähigkeit?",
+    "answers": [
+      { "text": "Rechtsgeschäfte sind nur eingeschränkt wirksam möglich", "correct": true },
+      { "text": "Rechtsgeschäfte sind vollständig frei möglich", "correct": false },
+      { "text": "Rechtsgeschäfte gelten von Anfang an unwirksam", "correct": false },
+      { "text": "Rechtsgeschäfte betreffen ausschließlich Kaufleute", "correct": false }
+    ],
+    "explanation": "Merksatz: Beschränkte Geschäftsfähigkeit bedeutet, dass bestimmte Geschäfte Zustimmung benötigen."
+  },
+  {
+    "id": "lf-02-fach-recht-007",
+    "question": "Was ist eine Willenserklärung?",
+    "answers": [
+      { "text": "Eine rechtlich bedeutsame Erklärung eines Willens", "correct": true },
+      { "text": "Eine unverbindliche Bitte um ein Angebot", "correct": false },
+      { "text": "Eine formale Beanstandung eines Mangels", "correct": false },
+      { "text": "Eine gesetzliche Haftung für Mängel", "correct": false }
+    ],
+    "explanation": "Merksatz: Willenserklärungen sind Bausteine für Rechtsgeschäfte wie Verträge."
+  },
+  {
+    "id": "lf-02-fach-recht-008",
+    "question": "Was ist ein Rechtsgeschäft?",
+    "answers": [
+      { "text": "Eine Handlung mit gewollter Rechtswirkung", "correct": true },
+      { "text": "Eine reine tatsächliche Sachherrschaft", "correct": false },
+      { "text": "Eine unverbindliche Werbeaussage", "correct": false },
+      { "text": "Eine Prüfung gelieferter Ware", "correct": false }
+    ],
+    "explanation": "Merksatz: Rechtsgeschäfte entstehen durch Willenserklärungen und lösen Rechtsfolgen aus."
+  },
+  {
+    "id": "lf-02-fach-recht-009",
+    "question": "Was bedeutet Formfreiheit?",
+    "answers": [
+      { "text": "Rechtsgeschäfte sind grundsätzlich ohne besondere Form möglich", "correct": true },
+      { "text": "Rechtsgeschäfte benötigen eine notarielle Beurkundung", "correct": false },
+      { "text": "Rechtsgeschäfte benötigen öffentliche Beglaubigung", "correct": false },
+      { "text": "Rechtsgeschäfte benötigen Schriftform mit Siegel", "correct": false }
+    ],
+    "explanation": "Merksatz: Formfreiheit bedeutet, dass viele Verträge auch mündlich oder schlüssig wirksam sein können."
+  },
+  {
+    "id": "lf-02-fach-recht-010",
+    "question": "Was ist Schriftform?",
+    "answers": [
+      { "text": "Eine Erklärung in Textform mit Unterschrift", "correct": true },
+      { "text": "Eine Erklärung durch schlüssiges Verhalten", "correct": false },
+      { "text": "Eine amtliche Bestätigung der Unterschrift", "correct": false },
+      { "text": "Eine notarielle Prüfung von Inhalt und Unterschrift", "correct": false }
+    ],
+    "explanation": "Merksatz: Schriftform bedeutet meist schriftliche Erklärung mit eigenhändiger Unterschrift."
+  },
+  {
+    "id": "lf-02-fach-recht-011",
+    "question": "Was ist öffentliche Beglaubigung?",
+    "answers": [
+      { "text": "Die amtliche Bestätigung einer Unterschrift", "correct": true },
+      { "text": "Die notarielle Bestätigung des Vertragsinhalts", "correct": false },
+      { "text": "Die schriftliche Erklärung mit Unterschrift", "correct": false },
+      { "text": "Die mündliche Zustimmung zu einem Angebot", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei öffentlicher Beglaubigung wird die Echtheit der Unterschrift bestätigt."
+  },
+  {
+    "id": "lf-02-fach-recht-012",
+    "question": "Was ist notarielle Beurkundung?",
+    "answers": [
+      { "text": "Die notarielle Bestätigung von Inhalt und Unterschrift", "correct": true },
+      { "text": "Die amtliche Bestätigung einer Unterschrift", "correct": false },
+      { "text": "Die schriftliche Erklärung mit Unterschrift", "correct": false },
+      { "text": "Die formfreie Erklärung durch Verhalten", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei notarieller Beurkundung werden Inhalt und Unterschrift rechtlich besonders abgesichert."
+  },
+  {
+    "id": "lf-02-fach-recht-013",
+    "question": "Was bedeutet Nichtigkeit eines Rechtsgeschäfts?",
+    "answers": [
+      { "text": "Das Rechtsgeschäft ist von Anfang an unwirksam", "correct": true },
+      { "text": "Das Rechtsgeschäft ist zunächst wirksam angreifbar", "correct": false },
+      { "text": "Das Rechtsgeschäft wird durch Annahme wirksam", "correct": false },
+      { "text": "Das Rechtsgeschäft bleibt bis Rücktritt bestehen", "correct": false }
+    ],
+    "explanation": "Merksatz: Nichtigkeit bedeutet, dass keine gewollte Rechtswirkung entsteht."
+  },
+  {
+    "id": "lf-02-fach-recht-014",
+    "question": "Was bedeutet Anfechtbarkeit?",
+    "answers": [
+      { "text": "Ein Rechtsgeschäft kann nachträglich angegriffen werden", "correct": true },
+      { "text": "Ein Rechtsgeschäft ist von Anfang an unwirksam", "correct": false },
+      { "text": "Ein Rechtsgeschäft gilt als formfrei bestätigt", "correct": false },
+      { "text": "Ein Rechtsgeschäft entsteht durch Besitzübergang", "correct": false }
+    ],
+    "explanation": "Merksatz: Anfechtbarkeit bedeutet, dass ein Geschäft zunächst wirksam sein kann, aber angefochten werden darf."
+  },
+  {
+    "id": "lf-02-fach-recht-015",
+    "question": "Was ist ein Kaufvertrag?",
+    "answers": [
+      { "text": "Ein Vertrag über Waren oder Rechte gegen Zahlung", "correct": true },
+      { "text": "Ein Vertrag über eine Tätigkeit ohne Erfolgsgarantie", "correct": false },
+      { "text": "Ein Vertrag über einen geschuldeten Erfolg", "correct": false },
+      { "text": "Ein Vertrag über Nutzung gegen regelmäßige Rate", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Kaufvertrag liefert der Verkäufer, der Käufer nimmt ab und bezahlt."
+  },
+  {
+    "id": "lf-02-fach-recht-016",
+    "question": "Wie kommt ein Kaufvertrag zustande?",
+    "answers": [
+      { "text": "Durch Angebot und Annahme", "correct": true },
+      { "text": "Durch Anfrage und Werbung", "correct": false },
+      { "text": "Durch Besitz und Eigentum", "correct": false },
+      { "text": "Durch Lieferung und Mängelrüge", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Kaufvertrag entsteht durch zwei übereinstimmende Willenserklärungen."
+  },
+  {
+    "id": "lf-02-fach-recht-017",
+    "question": "Was ist ein Angebot im rechtlichen Sinn?",
+    "answers": [
+      { "text": "Ein verbindlicher Antrag zum Vertragsschluss", "correct": true },
+      { "text": "Eine unverbindliche Bitte um ein Angebot", "correct": false },
+      { "text": "Eine werbliche Anpreisung", "correct": false },
+      { "text": "Eine formale Mängelmeldung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein rechtliches Angebot enthält die wesentlichen Vertragsbedingungen."
+  },
+  {
+    "id": "lf-02-fach-recht-018",
+    "question": "Was ist eine Annahme im Vertragsrecht?",
+    "answers": [
+      { "text": "Die Zustimmung zu einem Angebot", "correct": true },
+      { "text": "Die Bitte um ein Angebot", "correct": false },
+      { "text": "Die werbliche Darstellung einer Ware", "correct": false },
+      { "text": "Die formale Beanstandung eines Mangels", "correct": false }
+    ],
+    "explanation": "Merksatz: Durch die Annahme eines Angebots kann ein Vertrag entstehen."
+  },
+  {
+    "id": "lf-02-fach-recht-019",
+    "question": "Was ist eine Anfrage?",
+    "answers": [
+      { "text": "Eine meist unverbindliche Bitte um ein Angebot", "correct": true },
+      { "text": "Ein verbindlicher Antrag zum Vertragsschluss", "correct": false },
+      { "text": "Die Zustimmung zu einem Angebot", "correct": false },
+      { "text": "Eine formale Beanstandung eines Mangels", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Anfrage soll Informationen oder ein Angebot einholen."
+  },
+  {
+    "id": "lf-02-fach-recht-020",
+    "question": "Was ist Anpreisung?",
+    "answers": [
+      { "text": "Eine unverbindliche werbliche Aussage", "correct": true },
+      { "text": "Ein verbindlicher Antrag zum Vertragsschluss", "correct": false },
+      { "text": "Eine Zustimmung zu konkreten Bedingungen", "correct": false },
+      { "text": "Eine förmliche Mängelrüge", "correct": false }
+    ],
+    "explanation": "Merksatz: Anpreisungen werben, sind aber meist kein verbindliches Angebot."
+  },
+  {
+    "id": "lf-02-fach-recht-021",
+    "question": "Was ist ein Stückkauf?",
+    "answers": [
+      { "text": "Kauf einer individuell bestimmten Sache", "correct": true },
+      { "text": "Kauf einer Sache nach Art, Menge und Güte", "correct": false },
+      { "text": "Kauf mit späterem Abruf der Ware", "correct": false },
+      { "text": "Kauf mit Rücktrittsmöglichkeit nach Prüfung", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Stückkauf ist genau diese eine Sache Vertragsgegenstand."
+  },
+  {
+    "id": "lf-02-fach-recht-022",
+    "question": "Was ist ein Gattungskauf?",
+    "answers": [
+      { "text": "Kauf einer Sache nach Art, Menge und Güte", "correct": true },
+      { "text": "Kauf einer individuell bestimmten Sache", "correct": false },
+      { "text": "Kauf mit wesentlichem Liefertermin", "correct": false },
+      { "text": "Kauf mit späterem Abruf der Ware", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Gattungskauf wird Ware nach allgemeinen Merkmalen bestimmt."
+  },
+  {
+    "id": "lf-02-fach-recht-023",
+    "question": "Was ist ein Sofortkauf?",
+    "answers": [
+      { "text": "Ein Kauf mit sofortiger Lieferung", "correct": true },
+      { "text": "Ein Kauf mit vereinbartem Liefertermin", "correct": false },
+      { "text": "Ein Kauf mit wesentlichem Liefertermin", "correct": false },
+      { "text": "Ein Kauf mit späterem Abruf der Ware", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Sofortkauf soll die Lieferung sofort erfolgen."
+  },
+  {
+    "id": "lf-02-fach-recht-024",
+    "question": "Was ist ein Terminkauf?",
+    "answers": [
+      { "text": "Ein Kauf mit vereinbartem Liefertermin", "correct": true },
+      { "text": "Ein Kauf mit sofortiger Lieferung", "correct": false },
+      { "text": "Ein Kauf mit Rücktritt nach Prüfung", "correct": false },
+      { "text": "Ein Kauf nach Art, Menge und Güte", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Terminkauf ist ein bestimmter Liefertermin vereinbart."
+  },
+  {
+    "id": "lf-02-fach-recht-025",
+    "question": "Was ist ein Fixkauf?",
+    "answers": [
+      { "text": "Ein Kauf, bei dem der Liefertermin wesentlich ist", "correct": true },
+      { "text": "Ein Kauf mit beliebigem Lieferzeitraum", "correct": false },
+      { "text": "Ein Kauf mit späterem Abruf der Ware", "correct": false },
+      { "text": "Ein Kauf einer individuell bestimmten Sache", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Fixkauf ist pünktliche Lieferung entscheidend für den Vertragszweck."
+  },
+  {
+    "id": "lf-02-fach-recht-026",
+    "question": "Was ist ein Abrufkauf?",
+    "answers": [
+      { "text": "Ein Kauf mit späterem Abruf der Ware", "correct": true },
+      { "text": "Ein Kauf mit sofortiger Lieferung", "correct": false },
+      { "text": "Ein Kauf mit wesentlichem Liefertermin", "correct": false },
+      { "text": "Ein Kauf nach vorheriger Probezeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Abrufkauf wird Ware vereinbart und später nach Bedarf abgerufen."
+  },
+  {
+    "id": "lf-02-fach-recht-027",
+    "question": "Was ist ein Kauf auf Probe?",
+    "answers": [
+      { "text": "Ein Kauf mit Rücktrittsmöglichkeit nach Prüfung", "correct": true },
+      { "text": "Ein Kauf mit sofortiger Lieferung", "correct": false },
+      { "text": "Ein Kauf mit späterem Abruf der Ware", "correct": false },
+      { "text": "Ein Kauf nach Art, Menge und Güte", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Kauf auf Probe entscheidet die Prüfung, ob die Ware behalten wird."
+  },
+  {
+    "id": "lf-02-fach-recht-028",
+    "question": "Was ist ein Verbrauchsgüterkauf?",
+    "answers": [
+      { "text": "Kauf beweglicher Sachen durch Verbraucher von Unternehmern", "correct": true },
+      { "text": "Kauf zwischen zwei Unternehmern", "correct": false },
+      { "text": "Kauf zwischen zwei Privatpersonen", "correct": false },
+      { "text": "Kauf eines Grundstücks mit Beurkundung", "correct": false }
+    ],
+    "explanation": "Merksatz: Verbrauchsgüterkauf schützt besonders Verbraucher beim Kauf von Unternehmern."
+  },
+  {
+    "id": "lf-02-fach-recht-029",
+    "question": "Was ist ein Fernabsatzvertrag?",
+    "answers": [
+      { "text": "Ein Vertrag über Fernkommunikationsmittel", "correct": true },
+      { "text": "Ein Vertrag im stationären Laden", "correct": false },
+      { "text": "Ein Vertrag mit notarieller Beurkundung", "correct": false },
+      { "text": "Ein Vertrag zwischen zwei Kaufleuten", "correct": false }
+    ],
+    "explanation": "Merksatz: Fernabsatz nutzt z. B. Internet, Telefon oder E-Mail für den Vertragsschluss."
+  },
+  {
+    "id": "lf-02-fach-recht-030",
+    "question": "Was ist ein Dienstvertrag?",
+    "answers": [
+      { "text": "Ein Vertrag über eine Tätigkeit ohne Erfolgsgarantie", "correct": true },
+      { "text": "Ein Vertrag über einen geschuldeten Erfolg", "correct": false },
+      { "text": "Ein Vertrag über Herstellung und Lieferung einer Sache", "correct": false },
+      { "text": "Ein Vertrag über Waren oder Rechte gegen Zahlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Dienstvertrag wird sorgfältiges Tätigwerden geschuldet, nicht ein bestimmter Erfolg."
+  },
+  {
+    "id": "lf-02-fach-recht-031",
+    "question": "Was ist ein Werkvertrag?",
+    "answers": [
+      { "text": "Ein Vertrag über einen geschuldeten Erfolg", "correct": true },
+      { "text": "Ein Vertrag über Tätigkeit ohne Erfolgsgarantie", "correct": false },
+      { "text": "Ein Vertrag über Warenlieferung gegen Zahlung", "correct": false },
+      { "text": "Ein Vertrag über Nutzung gegen Rate", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Werkvertrag zählt das vereinbarte Ergebnis."
+  },
+  {
+    "id": "lf-02-fach-recht-032",
+    "question": "Was ist ein Werklieferungsvertrag?",
+    "answers": [
+      { "text": "Ein Vertrag über Herstellung und Lieferung einer Sache", "correct": true },
+      { "text": "Ein Vertrag über Tätigkeit ohne Erfolgsgarantie", "correct": false },
+      { "text": "Ein Vertrag über reine Nutzung gegen Entgelt", "correct": false },
+      { "text": "Ein Vertrag über Rechte und Pflichten allgemein", "correct": false }
+    ],
+    "explanation": "Merksatz: Werklieferung verbindet Herstellung eines Werks mit Lieferung einer Sache."
+  },
+  {
+    "id": "lf-02-fach-recht-033",
+    "question": "Was ist AGB?",
+    "answers": [
+      { "text": "Vorformulierte Vertragsbedingungen", "correct": true },
+      { "text": "Individuell ausgehandelte Einzelabreden", "correct": false },
+      { "text": "Eine formale Mängelbeanstandung", "correct": false },
+      { "text": "Eine gesetzliche Haftung für Mängel", "correct": false }
+    ],
+    "explanation": "Merksatz: AGB regeln allgemeine Vertragsbedingungen für mehrere Fälle."
+  },
+  {
+    "id": "lf-02-fach-recht-034",
+    "question": "Was ist Besitz?",
+    "answers": [
+      { "text": "Die tatsächliche Herrschaft über eine Sache", "correct": true },
+      { "text": "Das rechtliche Herrschaftsrecht über eine Sache", "correct": false },
+      { "text": "Die Sicherung des Verkäufers bis Zahlung", "correct": false },
+      { "text": "Die Rückabwicklung eines Vertrags", "correct": false }
+    ],
+    "explanation": "Merksatz: Besitz bedeutet, eine Sache tatsächlich in der Gewalt zu haben."
+  },
+  {
+    "id": "lf-02-fach-recht-035",
+    "question": "Was ist Eigentum?",
+    "answers": [
+      { "text": "Die rechtliche Herrschaft über eine Sache", "correct": true },
+      { "text": "Die tatsächliche Herrschaft über eine Sache", "correct": false },
+      { "text": "Die formale Beanstandung einer Sache", "correct": false },
+      { "text": "Die Nutzung gegen regelmäßige Rate", "correct": false }
+    ],
+    "explanation": "Merksatz: Eigentum beschreibt, wem eine Sache rechtlich gehört."
+  },
+  {
+    "id": "lf-02-fach-recht-036",
+    "question": "Was ist Eigentumsvorbehalt?",
+    "answers": [
+      { "text": "Eigentum bleibt bis vollständiger Zahlung beim Verkäufer", "correct": true },
+      { "text": "Besitz bleibt bis vollständiger Zahlung beim Verkäufer", "correct": false },
+      { "text": "Eigentum geht bereits vor Lieferung über", "correct": false },
+      { "text": "Kaufpreis wird wegen Mangel herabgesetzt", "correct": false }
+    ],
+    "explanation": "Merksatz: Eigentumsvorbehalt sichert den Verkäufer bis zur vollständigen Bezahlung."
+  },
+  {
+    "id": "lf-02-fach-recht-037",
+    "question": "Was ist ein Sachmangel?",
+    "answers": [
+      { "text": "Eine mangelhafte Beschaffenheit der Sache", "correct": true },
+      { "text": "Ein fremdes Recht an der Sache", "correct": false },
+      { "text": "Eine verspätete Annahme der Leistung", "correct": false },
+      { "text": "Eine unverbindliche Bitte um Angebot", "correct": false }
+    ],
+    "explanation": "Merksatz: Sachmängel betreffen Zustand, Menge, Funktion oder vereinbarte Beschaffenheit."
+  },
+  {
+    "id": "lf-02-fach-recht-038",
+    "question": "Was ist ein Rechtsmangel?",
+    "answers": [
+      { "text": "Ein Dritter kann Rechte an der Sache geltend machen", "correct": true },
+      { "text": "Die Sache hat eine fehlerhafte Beschaffenheit", "correct": false },
+      { "text": "Die gelieferte Menge stimmt nicht", "correct": false },
+      { "text": "Es wurde eine andere Sache geliefert", "correct": false }
+    ],
+    "explanation": "Merksatz: Rechtsmangel bedeutet, dass die rechtliche Nutzung durch fremde Rechte gestört ist."
+  },
+  {
+    "id": "lf-02-fach-recht-039",
+    "question": "Was ist ein Qualitätsmangel?",
+    "answers": [
+      { "text": "Die Beschaffenheit entspricht nicht der Vereinbarung", "correct": true },
+      { "text": "Die gelieferte Menge stimmt nicht", "correct": false },
+      { "text": "Es wurde eine andere Art Ware geliefert", "correct": false },
+      { "text": "Ein Dritter macht Rechte geltend", "correct": false }
+    ],
+    "explanation": "Merksatz: Qualitätsmangel betrifft die Güte oder Eigenschaften der gelieferten Sache."
+  },
+  {
+    "id": "lf-02-fach-recht-040",
+    "question": "Was ist ein Quantitätsmangel?",
+    "answers": [
+      { "text": "Die gelieferte Menge stimmt nicht", "correct": true },
+      { "text": "Die Ware hat fehlerhafte Eigenschaften", "correct": false },
+      { "text": "Es wurde eine andere Art geliefert", "correct": false },
+      { "text": "Fremde Rechte beschränken die Nutzung", "correct": false }
+    ],
+    "explanation": "Merksatz: Quantitätsmangel bedeutet falsche Liefermenge."
+  },
+  {
+    "id": "lf-02-fach-recht-041",
+    "question": "Was ist ein Artmangel?",
+    "answers": [
+      { "text": "Es wurde eine andere Sache geliefert", "correct": true },
+      { "text": "Die gelieferte Menge stimmt nicht", "correct": false },
+      { "text": "Die Beschaffenheit ist mangelhaft", "correct": false },
+      { "text": "Ein Dritter hat Rechte an der Sache", "correct": false }
+    ],
+    "explanation": "Merksatz: Artmangel bedeutet, dass nicht die vereinbarte Art von Ware geliefert wurde."
+  },
+  {
+    "id": "lf-02-fach-recht-042",
+    "question": "Was ist ein offener Mangel?",
+    "answers": [
+      { "text": "Ein sofort erkennbarer Mangel", "correct": true },
+      { "text": "Ein erst später erkennbarer Mangel", "correct": false },
+      { "text": "Ein bewusst verheimlichter Mangel", "correct": false },
+      { "text": "Ein fremdes Nutzungsrecht an der Sache", "correct": false }
+    ],
+    "explanation": "Merksatz: Offene Mängel fallen bei ordnungsgemäßer Prüfung direkt auf."
+  },
+  {
+    "id": "lf-02-fach-recht-043",
+    "question": "Was ist ein versteckter Mangel?",
+    "answers": [
+      { "text": "Ein erst später erkennbarer Mangel", "correct": true },
+      { "text": "Ein sofort erkennbarer Mangel", "correct": false },
+      { "text": "Ein bewusst verheimlichter Mangel", "correct": false },
+      { "text": "Ein fremdes Recht an der Sache", "correct": false }
+    ],
+    "explanation": "Merksatz: Versteckte Mängel zeigen sich erst nach normaler Prüfung."
+  },
+  {
+    "id": "lf-02-fach-recht-044",
+    "question": "Was ist ein arglistig verschwiegener Mangel?",
+    "answers": [
+      { "text": "Ein bekannter Mangel wird bewusst verheimlicht", "correct": true },
+      { "text": "Ein Mangel wird bei Prüfung direkt erkannt", "correct": false },
+      { "text": "Ein Mangel zeigt sich nach normaler Prüfung", "correct": false },
+      { "text": "Ein Dritter macht Rechte an der Sache geltend", "correct": false }
+    ],
+    "explanation": "Merksatz: Arglist liegt vor, wenn ein Mangel bewusst verschwiegen wird."
+  },
+  {
+    "id": "lf-02-fach-recht-045",
+    "question": "Was ist Nacherfüllung?",
+    "answers": [
+      { "text": "Nachbesserung oder Ersatzlieferung", "correct": true },
+      { "text": "Rückabwicklung des Vertrags", "correct": false },
+      { "text": "Herabsetzung des Kaufpreises", "correct": false },
+      { "text": "Ausgleich eines entstandenen Schadens", "correct": false }
+    ],
+    "explanation": "Merksatz: Nacherfüllung gibt dem Verkäufer die Möglichkeit, den Mangel zu beheben."
+  },
+  {
+    "id": "lf-02-fach-recht-046",
+    "question": "Was ist Rücktritt bei Mängeln?",
+    "answers": [
+      { "text": "Die Rückabwicklung des Vertrags", "correct": true },
+      { "text": "Nachbesserung oder Ersatzlieferung", "correct": false },
+      { "text": "Herabsetzung des Kaufpreises", "correct": false },
+      { "text": "Ausgleich eines entstandenen Schadens", "correct": false }
+    ],
+    "explanation": "Merksatz: Rücktritt bedeutet, dass Leistungen grundsätzlich zurückgegeben werden."
+  },
+  {
+    "id": "lf-02-fach-recht-047",
+    "question": "Was ist Minderung?",
+    "answers": [
+      { "text": "Herabsetzung des Kaufpreises wegen Mangels", "correct": true },
+      { "text": "Rückabwicklung des gesamten Vertrags", "correct": false },
+      { "text": "Nachbesserung oder Ersatzlieferung", "correct": false },
+      { "text": "Ausgleich eines Folgeschadens", "correct": false }
+    ],
+    "explanation": "Merksatz: Minderung bedeutet, bei mangelhafter Leistung weniger zahlen zu müssen."
+  },
+  {
+    "id": "lf-02-fach-recht-048",
+    "question": "Was ist Schadensersatz?",
+    "answers": [
+      { "text": "Ausgleich eines entstandenen Schadens", "correct": true },
+      { "text": "Herabsetzung des Kaufpreises", "correct": false },
+      { "text": "Rückabwicklung des Vertrags", "correct": false },
+      { "text": "Nachbesserung der mangelhaften Sache", "correct": false }
+    ],
+    "explanation": "Merksatz: Schadensersatz soll einen verursachten Schaden wirtschaftlich ausgleichen."
+  },
+  {
+    "id": "lf-02-fach-recht-049",
+    "question": "Was ist Gewährleistung?",
+    "answers": [
+      { "text": "Gesetzliche Haftung für Mängel", "correct": true },
+      { "text": "Eine freiwillige zusätzliche Zusage", "correct": false },
+      { "text": "Eine formale Beanstandung eines Mangels", "correct": false },
+      { "text": "Ein Eigentumsvorbehalt des Verkäufers", "correct": false }
+    ],
+    "explanation": "Merksatz: Gewährleistung ist die gesetzliche Mängelhaftung des Verkäufers."
+  },
+  {
+    "id": "lf-02-fach-recht-050",
+    "question": "Was ist Garantie?",
+    "answers": [
+      { "text": "Eine freiwillige zusätzliche Zusage", "correct": true },
+      { "text": "Gesetzliche Haftung für Mängel", "correct": false },
+      { "text": "Eine formale Mängelrüge", "correct": false },
+      { "text": "Eine Pflicht zur Wareneingangsprüfung", "correct": false }
+    ],
+    "explanation": "Merksatz: Garantie ist freiwillig und kann über die gesetzliche Gewährleistung hinausgehen."
+  },
+  {
+    "id": "lf-02-fach-recht-051",
+    "question": "Was ist die Untersuchungs- und Rügepflicht?",
+    "answers": [
+      { "text": "Die Pflicht zur Prüfung und Meldung von Mängeln", "correct": true },
+      { "text": "Die Pflicht zur vollständigen Vorauszahlung", "correct": false },
+      { "text": "Die Pflicht zur notariellen Beurkundung", "correct": false },
+      { "text": "Die Pflicht zur Eigentumsübertragung", "correct": false }
+    ],
+    "explanation": "Merksatz: Kaufleute müssen Ware prüfen und Mängel rechtzeitig rügen."
+  },
+  {
+    "id": "lf-02-fach-recht-052",
+    "question": "Was ist eine Mängelrüge?",
+    "answers": [
+      { "text": "Die formale Beanstandung eines Mangels", "correct": true },
+      { "text": "Eine unverbindliche Bitte um ein Angebot", "correct": false },
+      { "text": "Eine freiwillige Zusage des Herstellers", "correct": false },
+      { "text": "Eine Rückabwicklung des Vertrags", "correct": false }
+    ],
+    "explanation": "Merksatz: Mit der Mängelrüge wird ein festgestellter Mangel gegenüber dem Verkäufer gemeldet."
+  },
+  {
+    "id": "lf-02-fach-recht-053",
+    "question": "Was ist Annahmeverzug?",
+    "answers": [
+      { "text": "Der Käufer nimmt die angebotene Leistung nicht rechtzeitig an", "correct": true },
+      { "text": "Der Verkäufer liefert verspätet", "correct": false },
+      { "text": "Der Käufer zahlt verspätet", "correct": false },
+      { "text": "Die Ware ist mangelhaft geliefert", "correct": false }
+    ],
+    "explanation": "Merksatz: Annahmeverzug entsteht, wenn eine ordnungsgemäß angebotene Leistung nicht angenommen wird."
+  },
+  {
+    "id": "lf-02-fach-recht-054",
+    "question": "Was ist eine Leistungsstörung?",
+    "answers": [
+      { "text": "Eine Störung bei der Vertragserfüllung", "correct": true },
+      { "text": "Eine ordnungsgemäße Vertragserfüllung", "correct": false },
+      { "text": "Eine unverbindliche Werbeaussage", "correct": false },
+      { "text": "Eine freiwillige Zusatzleistung", "correct": false }
+    ],
+    "explanation": "Merksatz: Leistungsstörungen betreffen z. B. Nichtleistung, Schlechtleistung oder verspätete Leistung."
+  },
+  {
+    "id": "lf-02-fach-recht-055",
+    "question": "Was ist Schlechtleistung?",
+    "answers": [
+      { "text": "Eine mangelhafte oder fehlerhafte Leistung", "correct": true },
+      { "text": "Eine ordnungsgemäße Leistung", "correct": false },
+      { "text": "Eine verspätete Zahlung", "correct": false },
+      { "text": "Eine unverbindliche Anfrage", "correct": false }
+    ],
+    "explanation": "Merksatz: Schlechtleistung liegt vor, wenn die Leistung nicht wie geschuldet erbracht wird."
+  },
+  {
+    "id": "lf-02-fach-recht-056",
+    "question": "Was ist ein einseitiger Handelskauf?",
+    "answers": [
+      { "text": "Nur eine Vertragspartei ist Kaufmann", "correct": true },
+      { "text": "Beide Vertragsparteien sind Kaufleute", "correct": false },
+      { "text": "Beide Vertragsparteien sind Verbraucher", "correct": false },
+      { "text": "Eine Vertragspartei ist juristische Person", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim einseitigen Handelskauf ist nur eine Seite Kaufmann."
+  },
+  {
+    "id": "lf-02-fach-recht-057",
+    "question": "Was ist ein zweiseitiger Handelskauf?",
+    "answers": [
+      { "text": "Beide Vertragsparteien sind Kaufleute", "correct": true },
+      { "text": "Nur eine Vertragspartei ist Kaufmann", "correct": false },
+      { "text": "Beide Vertragsparteien sind Verbraucher", "correct": false },
+      { "text": "Eine Vertragspartei ist beschränkt geschäftsfähig", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim zweiseitigen Handelskauf gelten besondere kaufmännische Pflichten."
+  },
+  {
+    "id": "lf-02-fach-recht-058",
+    "question": "Was ist ein Istkaufmann?",
+    "answers": [
+      { "text": "Ein Kaufmann kraft Handelsgewerbe", "correct": true },
+      { "text": "Ein Kaufmann durch freiwillige Eintragung", "correct": false },
+      { "text": "Eine Handelsgesellschaft kraft Rechtsform", "correct": false },
+      { "text": "Ein Scheinkaufmann durch Auftreten", "correct": false }
+    ],
+    "explanation": "Merksatz: Istkaufmann ist, wer ein Handelsgewerbe betreibt."
+  },
+  {
+    "id": "lf-02-fach-recht-059",
+    "question": "Was ist ein Kannkaufmann?",
+    "answers": [
+      { "text": "Ein Kaufmann durch freiwillige Eintragung", "correct": true },
+      { "text": "Ein Kaufmann kraft Handelsgewerbe", "correct": false },
+      { "text": "Eine Handelsgesellschaft kraft Rechtsform", "correct": false },
+      { "text": "Ein Kaufmann durch gesetzliche Fiktion", "correct": false }
+    ],
+    "explanation": "Merksatz: Kannkaufmann wird man durch mögliche freiwillige Eintragung ins Handelsregister."
+  },
+  {
+    "id": "lf-02-fach-recht-060",
+    "question": "Was ist ein Formkaufmann?",
+    "answers": [
+      { "text": "Eine Handelsgesellschaft kraft Rechtsform", "correct": true },
+      { "text": "Ein Kaufmann kraft Handelsgewerbe", "correct": false },
+      { "text": "Ein Kaufmann durch freiwillige Eintragung", "correct": false },
+      { "text": "Ein Verbraucher beim Fernabsatzvertrag", "correct": false }
+    ],
+    "explanation": "Merksatz: Formkaufmann ist eine Gesellschaft, die wegen ihrer Rechtsform als Kaufmann gilt."
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-fach-komp-001",
+    "question": "Was ist ein Client im Netzwerk?",
+    "answers": [
+      { "text": "Ein Gerät, das Netzwerkdienste nutzt", "correct": true },
+      { "text": "Ein System, das Dienste bereitstellt", "correct": false },
+      { "text": "Ein Gerät zur Verbindung von Netzwerken", "correct": false },
+      { "text": "Ein Dienst zur Namensauflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: Clients nutzen Dienste und Ressourcen, die andere Systeme im Netzwerk bereitstellen."
+  },
+  {
+    "id": "lf-03-fach-komp-002",
+    "question": "Was ist ein Server im Netzwerk?",
+    "answers": [
+      { "text": "Ein System, das Dienste bereitstellt", "correct": true },
+      { "text": "Ein Gerät, das Dienste anderer Systeme nutzt", "correct": false },
+      { "text": "Ein Verteiler für LAN-Frames", "correct": false },
+      { "text": "Ein Übergang zwischen Netzen", "correct": false }
+    ],
+    "explanation": "Merksatz: Server stellen Dienste, Daten oder Anwendungen für andere Geräte bereit."
+  },
+  {
+    "id": "lf-03-fach-komp-003",
+    "question": "Was ist ein Peer-to-Peer-Netz?",
+    "answers": [
+      { "text": "Ein Netz mit gleichrangigen Geräten", "correct": true },
+      { "text": "Ein Netz mit zentral bereitgestellten Diensten", "correct": false },
+      { "text": "Ein Netz mit Access Point als Basisstation", "correct": false },
+      { "text": "Ein Netz mit Routing zwischen IP-Netzen", "correct": false }
+    ],
+    "explanation": "Merksatz: In Peer-to-Peer-Netzen können Geräte gleichzeitig Client und Server sein."
+  },
+  {
+    "id": "lf-03-fach-komp-004",
+    "question": "Was ist ein Client-Server-Netz?",
+    "answers": [
+      { "text": "Ein Netz mit zentralen Diensten", "correct": true },
+      { "text": "Ein Netz mit gleichrangigen Geräten", "correct": false },
+      { "text": "Ein Netz mit direkter WLAN-Verbindung", "correct": false },
+      { "text": "Ein Netz mit passiver Leitungsverteilung", "correct": false }
+    ],
+    "explanation": "Merksatz: Im Client-Server-Netz nutzen Clients zentral bereitgestellte Serverdienste."
+  },
+  {
+    "id": "lf-03-fach-komp-005",
+    "question": "Was ist ein Fat Client?",
+    "answers": [
+      { "text": "Ein eigenständig leistungsfähiger Client", "correct": true },
+      { "text": "Ein schlanker Client für Serverarbeit", "correct": false },
+      { "text": "Ein Server für entfernte Arbeitsumgebungen", "correct": false },
+      { "text": "Ein Gerät zur Funkanbindung von Clients", "correct": false }
+    ],
+    "explanation": "Merksatz: Fat Clients haben Betriebssystem und Anwendungen meist lokal installiert."
+  },
+  {
+    "id": "lf-03-fach-komp-006",
+    "question": "Was ist ein Thin Client?",
+    "answers": [
+      { "text": "Ein schlanker Client für Serverarbeit", "correct": true },
+      { "text": "Ein eigenständig leistungsfähiger Client", "correct": false },
+      { "text": "Ein Server für zentrale Dateidienste", "correct": false },
+      { "text": "Ein Gerät zur Verbindung von IP-Netzen", "correct": false }
+    ],
+    "explanation": "Merksatz: Thin Clients arbeiten stark serverbasiert und benötigen wenig lokale Leistung."
+  },
+  {
+    "id": "lf-03-fach-komp-007",
+    "question": "Was ist ein Embedded System?",
+    "answers": [
+      { "text": "Ein eingebettetes Computersystem", "correct": true },
+      { "text": "Ein Server für zentrale Anwendungen", "correct": false },
+      { "text": "Ein Client für entfernte Arbeitsumgebungen", "correct": false },
+      { "text": "Ein Verteilerfeld für Netzwerkleitungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Embedded Systems sind Computer, die in Geräte oder Maschinen eingebaut sind."
+  },
+  {
+    "id": "lf-03-fach-komp-008",
+    "question": "Was beschreibt BYOD?",
+    "answers": [
+      { "text": "Private Geräte im Unternehmensnetz", "correct": true },
+      { "text": "Zentrale Bereitstellung von Serverdiensten", "correct": false },
+      { "text": "Drahtlose Anbindung über Access Points", "correct": false },
+      { "text": "Verbindung gleichrangiger Netzwerkgeräte", "correct": false }
+    ],
+    "explanation": "Merksatz: BYOD erlaubt eigene Endgeräte, erhöht aber Anforderungen an Sicherheit und Verwaltung."
+  },
+  {
+    "id": "lf-03-fach-komp-009",
+    "question": "Was ist ein Cyber-Physical System?",
+    "answers": [
+      { "text": "Verbund aus IT und realer Technik", "correct": true },
+      { "text": "Ein eingebettetes System mit Einzelaufgabe", "correct": false },
+      { "text": "Ein Server für zentrale Webinhalte", "correct": false },
+      { "text": "Ein Client für entfernte Arbeitsumgebungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Cyber-Physical Systems verbinden Software, Netzwerk und physische Prozesse."
+  },
+  {
+    "id": "lf-03-fach-komp-010",
+    "question": "Was ist ein Netzwerkdrucker?",
+    "answers": [
+      { "text": "Ein Drucker mit Netzwerkanbindung", "correct": true },
+      { "text": "Ein Server für zentrale Druckdienste", "correct": false },
+      { "text": "Ein Dienst zur Namensauflösung", "correct": false },
+      { "text": "Ein Gerät zur Verbindung von Netzen", "correct": false }
+    ],
+    "explanation": "Merksatz: Netzwerkdrucker sind über das Netzwerk erreichbar und besitzen meist eine IP-Konfiguration."
+  },
+  {
+    "id": "lf-03-fach-komp-011",
+    "question": "Was ist ein IP-Telefon?",
+    "answers": [
+      { "text": "Ein Telefon für IP-basierte Netze", "correct": true },
+      { "text": "Ein Client für zentrale Dateidienste", "correct": false },
+      { "text": "Ein Access Point für WLAN-Geräte", "correct": false },
+      { "text": "Ein Server für E-Mail-Dienste", "correct": false }
+    ],
+    "explanation": "Merksatz: IP-Telefone übertragen Sprache über IP-Netzwerke."
+  },
+  {
+    "id": "lf-03-fach-komp-012",
+    "question": "Was ist ein Switch?",
+    "answers": [
+      { "text": "Ein Verteiler für LAN-Frames", "correct": true },
+      { "text": "Ein Gerät zur Verbindung von IP-Netzen", "correct": false },
+      { "text": "Ein einfacher Verteiler auf Layer 1", "correct": false },
+      { "text": "Ein Dienst zur Namensauflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: Switches leiten Frames im LAN gezielt anhand von MAC-Adressen weiter."
+  },
+  {
+    "id": "lf-03-fach-komp-013",
+    "question": "Auf welcher OSI-Schicht arbeitet ein Switch typischerweise?",
+    "answers": [
+      { "text": "Schicht 2", "correct": true },
+      { "text": "Schicht 1", "correct": false },
+      { "text": "Schicht 3", "correct": false },
+      { "text": "Schicht 7", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein klassischer Switch arbeitet auf Layer 2 mit MAC-Adressen."
+  },
+  {
+    "id": "lf-03-fach-komp-014",
+    "question": "Was ist eine MAC-Adresstabelle im Switch?",
+    "answers": [
+      { "text": "Eine Zuordnung von MAC zu Port", "correct": true },
+      { "text": "Eine Zuordnung von IP-Netzen zu Gateways", "correct": false },
+      { "text": "Eine Zuordnung von Namen zu IP-Adressen", "correct": false },
+      { "text": "Eine Zuordnung von Benutzern zu Rechten", "correct": false }
+    ],
+    "explanation": "Merksatz: Die MAC-Adresstabelle zeigt dem Switch, über welchen Port ein Gerät erreichbar ist."
+  },
+  {
+    "id": "lf-03-fach-komp-015",
+    "question": "Was ist ein nicht managebarer Switch?",
+    "answers": [
+      { "text": "Ein Switch ohne erweiterte Verwaltung", "correct": true },
+      { "text": "Ein Switch mit VLAN- und Monitoringfunktionen", "correct": false },
+      { "text": "Ein Router mit integrierten Switchports", "correct": false },
+      { "text": "Ein Hub mit gemeinsamer Kollisionsdomäne", "correct": false }
+    ],
+    "explanation": "Merksatz: Nicht managebare Switches leiten Daten weiter, bieten aber kaum Konfigurationsfunktionen."
+  },
+  {
+    "id": "lf-03-fach-komp-016",
+    "question": "Was ist ein managebarer Switch?",
+    "answers": [
+      { "text": "Ein konfigurierbarer Switch", "correct": true },
+      { "text": "Ein einfacher Verteiler auf Layer 1", "correct": false },
+      { "text": "Ein Switch ohne erweiterte Verwaltung", "correct": false },
+      { "text": "Ein Router für kleine Netze", "correct": false }
+    ],
+    "explanation": "Merksatz: Managebare Switches bieten Funktionen wie VLAN, Monitoring oder Portkonfiguration."
+  },
+  {
+    "id": "lf-03-fach-komp-017",
+    "question": "Was ist Port Mirroring?",
+    "answers": [
+      { "text": "Kopieren von Verkehr auf einen Analyseport", "correct": true },
+      { "text": "Weiterleitung anhand einer Routingtabelle", "correct": false },
+      { "text": "Spiegelung von Festplatten in einem RAID", "correct": false },
+      { "text": "Zuordnung von MAC-Adressen zu Ports", "correct": false }
+    ],
+    "explanation": "Merksatz: Port Mirroring leitet Kopien von Datenverkehr zur Analyse an einen Port."
+  },
+  {
+    "id": "lf-03-fach-komp-018",
+    "question": "Was bedeutet Store-and-Forward bei Switches?",
+    "answers": [
+      { "text": "Frame zuerst prüfen, dann weiterleiten", "correct": true },
+      { "text": "Weiterleitung nach Lesen der Zieladresse", "correct": false },
+      { "text": "Prüfung der ersten 64 Byte", "correct": false },
+      { "text": "Weiterleitung an alle Ports im Segment", "correct": false }
+    ],
+    "explanation": "Merksatz: Store-and-Forward prüft Frames vollständig, bevor sie weitergeleitet werden."
+  },
+  {
+    "id": "lf-03-fach-komp-019",
+    "question": "Was bedeutet Cut-Through bei Switches?",
+    "answers": [
+      { "text": "Weiterleitung nach Lesen der Zieladresse", "correct": true },
+      { "text": "Frame zuerst vollständig prüfen", "correct": false },
+      { "text": "Prüfung der ersten 64 Byte", "correct": false },
+      { "text": "Verteilung an alle Ports im Netz", "correct": false }
+    ],
+    "explanation": "Merksatz: Cut-Through leitet schnell weiter, prüft aber nicht erst den kompletten Frame."
+  },
+  {
+    "id": "lf-03-fach-komp-020",
+    "question": "Was bedeutet Fragment-Free bei Switches?",
+    "answers": [
+      { "text": "Prüfung der ersten 64 Byte", "correct": true },
+      { "text": "Vollständige Prüfung des Frames", "correct": false },
+      { "text": "Weiterleitung nach Ziel-MAC", "correct": false },
+      { "text": "Verteilung an alle Ports", "correct": false }
+    ],
+    "explanation": "Merksatz: Fragment-Free prüft den Bereich, in dem viele Kollisionen und Fehler auftreten."
+  },
+  {
+    "id": "lf-03-fach-komp-021",
+    "question": "Was ist ein Hub?",
+    "answers": [
+      { "text": "Ein einfacher Verteiler auf Layer 1", "correct": true },
+      { "text": "Ein Verteiler für LAN-Frames auf Layer 2", "correct": false },
+      { "text": "Ein Gerät zur Verbindung von IP-Netzen", "correct": false },
+      { "text": "Ein Übergang zwischen Diensten oder Protokollen", "correct": false }
+    ],
+    "explanation": "Merksatz: Hubs senden eingehende Signale an alle Ports weiter und sind weitgehend veraltet."
+  },
+  {
+    "id": "lf-03-fach-komp-022",
+    "question": "Warum sind Hubs heute kaum noch üblich?",
+    "answers": [
+      { "text": "Sie arbeiten ineffizient mit Kollisionen", "correct": true },
+      { "text": "Sie leiten Frames gezielt per MAC-Adresse", "correct": false },
+      { "text": "Sie trennen IP-Netze per Routingtabelle", "correct": false },
+      { "text": "Sie bieten VLAN- und Monitoringfunktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Hubs teilen ein Kollisionsmedium; Switches leiten gezielter und effizienter weiter."
+  },
+  {
+    "id": "lf-03-fach-komp-023",
+    "question": "Was ist ein Router?",
+    "answers": [
+      { "text": "Ein Gerät zur Verbindung von Netzwerken", "correct": true },
+      { "text": "Ein Verteiler für LAN-Frames", "correct": false },
+      { "text": "Ein einfacher Verteiler auf Layer 1", "correct": false },
+      { "text": "Eine Basisstation für WLAN-Geräte", "correct": false }
+    ],
+    "explanation": "Merksatz: Router verbinden unterschiedliche IP-Netze und leiten Pakete anhand von IP-Adressen weiter."
+  },
+  {
+    "id": "lf-03-fach-komp-024",
+    "question": "Auf welcher OSI-Schicht arbeitet ein Router typischerweise?",
+    "answers": [
+      { "text": "Schicht 3", "correct": true },
+      { "text": "Schicht 1", "correct": false },
+      { "text": "Schicht 2", "correct": false },
+      { "text": "Schicht 7", "correct": false }
+    ],
+    "explanation": "Merksatz: Router arbeiten typischerweise auf Layer 3 mit IP-Adressen."
+  },
+  {
+    "id": "lf-03-fach-komp-025",
+    "question": "Was ist eine Routingtabelle?",
+    "answers": [
+      { "text": "Eine Tabelle mit Wegen zu Netzen", "correct": true },
+      { "text": "Eine Tabelle mit MAC-Adressen und Ports", "correct": false },
+      { "text": "Eine Tabelle mit DNS-Namen und IPs", "correct": false },
+      { "text": "Eine Tabelle mit Druckaufträgen", "correct": false }
+    ],
+    "explanation": "Merksatz: Routingtabellen helfen Routern zu entscheiden, wohin IP-Pakete weitergeleitet werden."
+  },
+  {
+    "id": "lf-03-fach-komp-026",
+    "question": "Was ist ein SOHO-Router?",
+    "answers": [
+      { "text": "Ein Router für kleine Netze", "correct": true },
+      { "text": "Ein Core-Router für Provider-Netze", "correct": false },
+      { "text": "Ein Switch für reine Frame-Verteilung", "correct": false },
+      { "text": "Ein Access Point für WLAN-Geräte", "correct": false }
+    ],
+    "explanation": "Merksatz: SOHO-Router bündeln oft Routing, WLAN, Switchports und Internetzugang für kleine Umgebungen."
+  },
+  {
+    "id": "lf-03-fach-komp-027",
+    "question": "Was ist ein Access Point?",
+    "answers": [
+      { "text": "Eine Basisstation für WLAN-Geräte", "correct": true },
+      { "text": "Ein Router für unterschiedliche IP-Netze", "correct": false },
+      { "text": "Ein Switch für LAN-Frames", "correct": false },
+      { "text": "Ein Server für zentrale Dateidienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Access Points verbinden drahtlose Clients mit einem kabelgebundenen Netzwerk."
+  },
+  {
+    "id": "lf-03-fach-komp-028",
+    "question": "Was ist die SSID eines WLANs?",
+    "answers": [
+      { "text": "Der Name des WLANs", "correct": true },
+      { "text": "Die IP-Adresse des Routers", "correct": false },
+      { "text": "Die MAC-Adresse des Access Points", "correct": false },
+      { "text": "Die Verschlüsselungsart des WLANs", "correct": false }
+    ],
+    "explanation": "Merksatz: Die SSID kennzeichnet ein WLAN für die Auswahl durch Clients."
+  },
+  {
+    "id": "lf-03-fach-komp-029",
+    "question": "Was ist der Infrastrukturmodus im WLAN?",
+    "answers": [
+      { "text": "WLAN-Betrieb über einen Access Point", "correct": true },
+      { "text": "Direktverbindung zwischen WLAN-Geräten", "correct": false },
+      { "text": "Kabelgebundene Verbindung über Switches", "correct": false },
+      { "text": "Routing zwischen mehreren IP-Netzen", "correct": false }
+    ],
+    "explanation": "Merksatz: Im Infrastrukturmodus verbinden sich WLAN-Clients über einen Access Point."
+  },
+  {
+    "id": "lf-03-fach-komp-030",
+    "question": "Was ist der Ad-hoc-Modus im WLAN?",
+    "answers": [
+      { "text": "Direkte Verbindung ohne Access Point", "correct": true },
+      { "text": "WLAN-Betrieb über einen Access Point", "correct": false },
+      { "text": "Kabelgebundene Verbindung mit Switch", "correct": false },
+      { "text": "Verbindung über ein Standardgateway", "correct": false }
+    ],
+    "explanation": "Merksatz: Ad-hoc verbindet WLAN-Geräte direkt miteinander, ohne zentrale Basisstation."
+  },
+  {
+    "id": "lf-03-fach-komp-031",
+    "question": "Was ist ein Repeater?",
+    "answers": [
+      { "text": "Ein Signalverstärker auf Layer 1", "correct": true },
+      { "text": "Ein Kopplungselement auf Layer 2", "correct": false },
+      { "text": "Ein Gerät zur Verbindung von IP-Netzen", "correct": false },
+      { "text": "Ein Server für zentrale Arbeitsumgebungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Repeater regenerieren Signale, erweitern aber keine logischen Netzfunktionen."
+  },
+  {
+    "id": "lf-03-fach-komp-032",
+    "question": "Was ist eine Bridge?",
+    "answers": [
+      { "text": "Ein Kopplungselement auf Layer 2", "correct": true },
+      { "text": "Ein Signalverstärker auf Layer 1", "correct": false },
+      { "text": "Ein Gerät zur Verbindung von IP-Netzen", "correct": false },
+      { "text": "Ein Dienst zur Namensauflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: Bridges verbinden Netzwerksegmente auf Sicherungsschicht und arbeiten mit MAC-Adressen."
+  },
+  {
+    "id": "lf-03-fach-komp-033",
+    "question": "Was ist ein Gateway?",
+    "answers": [
+      { "text": "Ein Übergang zwischen Netzen oder Systemen", "correct": true },
+      { "text": "Ein Verteiler für LAN-Frames", "correct": false },
+      { "text": "Ein Signalverstärker auf Layer 1", "correct": false },
+      { "text": "Ein Server für zentrale Druckdienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Gateways ermöglichen Kommunikation zwischen unterschiedlichen Netzen, Diensten oder Protokollen."
+  },
+  {
+    "id": "lf-03-fach-komp-034",
+    "question": "Was ist ein Proxy?",
+    "answers": [
+      { "text": "Ein vermittelnder Stellvertreterdienst", "correct": true },
+      { "text": "Ein Gerät zur Verbindung von IP-Netzen", "correct": false },
+      { "text": "Ein Server für zentrale Dateidienste", "correct": false },
+      { "text": "Ein Verteiler für LAN-Frames", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Proxy stellt Anfragen stellvertretend für Clients und leitet Antworten zurück."
+  },
+  {
+    "id": "lf-03-fach-komp-035",
+    "question": "Was ist ein Print-Server?",
+    "answers": [
+      { "text": "Ein Server für Druckdienste", "correct": true },
+      { "text": "Ein Server für Dateidienste", "correct": false },
+      { "text": "Ein Server für Webinhalte", "correct": false },
+      { "text": "Ein Server für E-Mail-Dienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Print-Server stellen Drucker zentral im Netzwerk bereit."
+  },
+  {
+    "id": "lf-03-fach-komp-036",
+    "question": "Was ist ein File-Server?",
+    "answers": [
+      { "text": "Ein Server für Dateidienste", "correct": true },
+      { "text": "Ein Server für Druckdienste", "correct": false },
+      { "text": "Ein Server für Webinhalte", "correct": false },
+      { "text": "Ein Server für E-Mail-Dienste", "correct": false }
+    ],
+    "explanation": "Merksatz: File-Server stellen Dateien und Ordner zentral im Netzwerk bereit."
+  },
+  {
+    "id": "lf-03-fach-komp-037",
+    "question": "Was ist ein Webserver?",
+    "answers": [
+      { "text": "Ein Server für Webinhalte", "correct": true },
+      { "text": "Ein Server für Dateidienste", "correct": false },
+      { "text": "Ein Server für Druckdienste", "correct": false },
+      { "text": "Ein Server für E-Mail-Dienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Webserver liefern Inhalte aus, die typischerweise per Browser abgerufen werden."
+  },
+  {
+    "id": "lf-03-fach-komp-038",
+    "question": "Was ist ein Mailserver?",
+    "answers": [
+      { "text": "Ein Server für E-Mail-Dienste", "correct": true },
+      { "text": "Ein Server für Webinhalte", "correct": false },
+      { "text": "Ein Server für Dateidienste", "correct": false },
+      { "text": "Ein Server für Druckdienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Mailserver übernehmen Versand, Empfang oder Speicherung von E-Mails."
+  },
+  {
+    "id": "lf-03-fach-komp-039",
+    "question": "Was ist ein Terminalserver?",
+    "answers": [
+      { "text": "Ein Server für zentrale Arbeitsumgebungen", "correct": true },
+      { "text": "Ein Server für E-Mail-Dienste", "correct": false },
+      { "text": "Ein Server für Dateidienste", "correct": false },
+      { "text": "Ein Server für Webinhalte", "correct": false }
+    ],
+    "explanation": "Merksatz: Terminalserver stellen Arbeitsumgebungen bereit, die Clients aus der Ferne nutzen."
+  },
+  {
+    "id": "lf-03-fach-komp-040",
+    "question": "Was ist ein Patchpanel?",
+    "answers": [
+      { "text": "Ein passives Verteilerfeld für Leitungen", "correct": true },
+      { "text": "Ein aktiver Verteiler für LAN-Frames", "correct": false },
+      { "text": "Ein Gerät zur Verbindung von IP-Netzen", "correct": false },
+      { "text": "Ein Server für zentrale Netzwerkdienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Patchpanels bündeln Leitungen und ermöglichen flexible Verbindung im Verteiler."
+  }
+]

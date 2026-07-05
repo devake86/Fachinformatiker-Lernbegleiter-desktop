@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-seng-001",
+    "question": "Was ist das Ziel von Social Engineering?",
+    "answers": [
+      { "text": "Menschen zu Handlungen oder Informationspreisgabe bewegen", "correct": true },
+      { "text": "Technische Schwachstellen automatisiert ausnutzen", "correct": false },
+      { "text": "Zugriffe durch mehrere Faktoren absichern", "correct": false },
+      { "text": "Informationen vor unbefugter Einsicht schützen", "correct": false }
+    ],
+    "explanation": "Social Engineering nutzt menschliche Schwächen wie Vertrauen, Unsicherheit oder Zeitdruck aus."
+  },
+  {
+    "id": "lf-04-sach-seng-002",
+    "question": "Welche Aussage zu Social Engineering ist richtig?",
+    "answers": [
+      { "text": "Angreifer nutzen oft Täuschung statt reine Technik", "correct": true },
+      { "text": "Angreifer nutzen primär Verschlüsselungsverfahren", "correct": false },
+      { "text": "Angreifer setzen vor allem Systemupdates ein", "correct": false },
+      { "text": "Angreifer prüfen hauptsächlich Hashwerte", "correct": false }
+    ],
+    "explanation": "Social Engineering zielt auf menschliches Verhalten und nicht nur auf technische Schwachstellen."
+  },
+  {
+    "id": "lf-04-sach-seng-003",
+    "question": "Was beschreibt Footprinting?",
+    "answers": [
+      { "text": "Informationsbeschaffung über ein Ziel vor einem Angriff", "correct": true },
+      { "text": "Ausnutzung einer gefundenen Schwachstelle", "correct": false },
+      { "text": "Täuschung von Nutzern zur Passwortpreisgabe", "correct": false },
+      { "text": "Manipulation einer Webseite für eine Zielgruppe", "correct": false }
+    ],
+    "explanation": "Footprinting sammelt Informationen, um ein Ziel besser einschätzen zu können."
+  },
+  {
+    "id": "lf-04-sach-seng-004",
+    "question": "Welches Beispiel passt zu passivem Footprinting?",
+    "answers": [
+      { "text": "Öffentliche Quellen über ein Ziel auswerten", "correct": true },
+      { "text": "Ports eines Zielsystems direkt scannen", "correct": false },
+      { "text": "DNS-Anfragen direkt an Zielsysteme stellen", "correct": false },
+      { "text": "Schwachstellen mit Exploit-Code testen", "correct": false }
+    ],
+    "explanation": "Passives Footprinting nutzt öffentlich verfügbare Informationen ohne direkten Kontakt zum Zielsystem."
+  },
+  {
+    "id": "lf-04-sach-seng-005",
+    "question": "Welches Beispiel passt zu aktivem Footprinting?",
+    "answers": [
+      { "text": "DNS- oder Netzwerkanfragen an Zielsysteme stellen", "correct": true },
+      { "text": "Öffentliche Social-Media-Beiträge auswerten", "correct": false },
+      { "text": "Presseartikel über ein Unternehmen sammeln", "correct": false },
+      { "text": "Stellenanzeigen auf öffentliche Hinweise prüfen", "correct": false }
+    ],
+    "explanation": "Aktives Footprinting interagiert direkt mit Zielsystemen und kann dadurch auffälliger sein."
+  },
+  {
+    "id": "lf-04-sach-seng-006",
+    "question": "Was beschreibt Phishing?",
+    "answers": [
+      { "text": "Täuschung über Nachrichten oder Webseiten zum Datendiebstahl", "correct": true },
+      { "text": "Informationssammlung über ein Ziel vor Angriffen", "correct": false },
+      { "text": "Überlastung eines Dienstes durch viele Anfragen", "correct": false },
+      { "text": "Verstecken von Informationen in anderen Medien", "correct": false }
+    ],
+    "explanation": "Phishing versucht häufig, Zugangsdaten oder andere vertrauliche Informationen zu erlangen."
+  },
+  {
+    "id": "lf-04-sach-seng-007",
+    "question": "Was unterscheidet Spear Phishing von einfachem Phishing?",
+    "answers": [
+      { "text": "Es ist gezielt auf Personen oder Gruppen zugeschnitten", "correct": true },
+      { "text": "Es wird breit als Massenmail gestreut", "correct": false },
+      { "text": "Es erfolgt hauptsächlich per Telefonanruf", "correct": false },
+      { "text": "Es richtet sich speziell an Führungskräfte", "correct": false }
+    ],
+    "explanation": "Spear Phishing wirkt oft glaubwürdiger, weil Informationen über das Ziel genutzt werden."
+  },
+  {
+    "id": "lf-04-sach-seng-008",
+    "question": "Was ist Whaling?",
+    "answers": [
+      { "text": "Gezieltes Phishing gegen besonders wichtige Personen", "correct": true },
+      { "text": "Breit gestreutes Phishing an viele Empfänger", "correct": false },
+      { "text": "Phishing über Telefon oder Sprachnachricht", "correct": false },
+      { "text": "Täuschung über entsorgte Unterlagen", "correct": false }
+    ],
+    "explanation": "Whaling richtet sich gegen besonders wertvolle oder einflussreiche Zielpersonen."
+  },
+  {
+    "id": "lf-04-sach-seng-009",
+    "question": "Was ist Vishing?",
+    "answers": [
+      { "text": "Phishing über Telefon oder Sprachkommunikation", "correct": true },
+      { "text": "Phishing über gefälschte Webseiten", "correct": false },
+      { "text": "Phishing gegen hochrangige Zielpersonen", "correct": false },
+      { "text": "Täuschung durch physisches Mitgehen", "correct": false }
+    ],
+    "explanation": "Vishing nutzt Telefonate oder Sprachnachrichten, um Personen zu täuschen."
+  },
+  {
+    "id": "lf-04-sach-seng-010",
+    "question": "Was beschreibt CEO-Fraud?",
+    "answers": [
+      { "text": "Betrug durch vorgetäuschte Führungskraft", "correct": true },
+      { "text": "Gezieltes Phishing gegen viele Mitarbeitende", "correct": false },
+      { "text": "Täuschung durch gefälschte Sicherheitswarnungen", "correct": false },
+      { "text": "Ausspähen von Eingaben durch Beobachtung", "correct": false }
+    ],
+    "explanation": "CEO-Fraud nutzt vorgetäuschte Autorität, um Opfer zu schnellen Handlungen zu bewegen."
+  },
+  {
+    "id": "lf-04-sach-seng-011",
+    "question": "Welche Maßnahme hilft besonders gegen CEO-Fraud?",
+    "answers": [
+      { "text": "Rückfrage über bekannte Wege und Vier-Augen-Prinzip", "correct": true },
+      { "text": "Zahlungsfreigabe über eine einzelne Person", "correct": false },
+      { "text": "Freigabe allein aufgrund der Absenderadresse", "correct": false },
+      { "text": "Direkte Ausführung dringender Zahlungsanweisungen", "correct": false }
+    ],
+    "explanation": "Kontrollierte Rückfragen und Freigabeprozesse erschweren Betrug durch vorgetäuschte Autorität."
+  },
+  {
+    "id": "lf-04-sach-seng-012",
+    "question": "Was beschreibt Shoulder Surfing?",
+    "answers": [
+      { "text": "Ausspähen durch Beobachten über die Schulter", "correct": true },
+      { "text": "Mitgehen durch eine gesicherte Zugangskontrolle", "correct": false },
+      { "text": "Durchsuchen entsorgter Unterlagen", "correct": false },
+      { "text": "Täuschung per Telefon oder Sprachnachricht", "correct": false }
+    ],
+    "explanation": "Shoulder Surfing kann Passwörter, PINs oder vertrauliche Bildschirminhalte offenlegen."
+  },
+  {
+    "id": "lf-04-sach-seng-013",
+    "question": "Was beschreibt Dumpster Diving?",
+    "answers": [
+      { "text": "Durchsuchen entsorgter Unterlagen oder Datenträger", "correct": true },
+      { "text": "Ausspähen von Eingaben durch Beobachtung", "correct": false },
+      { "text": "Mitgehen durch gesicherte Zugangskontrollen", "correct": false },
+      { "text": "Informationssammlung aus öffentlichen Quellen", "correct": false }
+    ],
+    "explanation": "Dumpster Diving nutzt schlecht entsorgte Informationen als Quelle für Angriffe."
+  },
+  {
+    "id": "lf-04-sach-seng-014",
+    "question": "Was beschreibt Tailgating?",
+    "answers": [
+      { "text": "Unbefugtes Mitgehen durch gesicherte Zugänge", "correct": true },
+      { "text": "Beobachten von Eingaben über die Schulter", "correct": false },
+      { "text": "Durchsuchen weggeworfener Informationen", "correct": false },
+      { "text": "Täuschung durch gefälschte E-Mails", "correct": false }
+    ],
+    "explanation": "Tailgating nutzt Unachtsamkeit oder Höflichkeit aus, um physische Zugangskontrollen zu umgehen."
+  },
+  {
+    "id": "lf-04-sach-seng-015",
+    "question": "Was ist eine Watering-Hole-Attacke?",
+    "answers": [
+      { "text": "Angriff über häufig besuchte Webseiten der Zielgruppe", "correct": true },
+      { "text": "Gezieltes Phishing gegen einzelne Führungskräfte", "correct": false },
+      { "text": "Informationssammlung durch direkte Zielanfragen", "correct": false },
+      { "text": "Unbefugtes Mitgehen durch gesicherte Türen", "correct": false }
+    ],
+    "explanation": "Bei Watering-Hole-Angriffen wird ein häufig genutzter digitaler Treffpunkt der Zielgruppe kompromittiert."
+  },
+  {
+    "id": "lf-04-sach-seng-016",
+    "question": "Welches Social-Engineering-Prinzip nutzt Zeitdruck?",
+    "answers": [
+      { "text": "Urgency", "correct": true },
+      { "text": "Authority", "correct": false },
+      { "text": "Trust", "correct": false },
+      { "text": "Scarcity", "correct": false }
+    ],
+    "explanation": "Urgency erzeugt künstlichen Zeitdruck, damit Betroffene weniger kritisch prüfen."
+  },
+  {
+    "id": "lf-04-sach-seng-017",
+    "question": "Welches Social-Engineering-Prinzip nutzt angebliche Autorität?",
+    "answers": [
+      { "text": "Authority", "correct": true },
+      { "text": "Urgency", "correct": false },
+      { "text": "Trust", "correct": false },
+      { "text": "Reciprocity", "correct": false }
+    ],
+    "explanation": "Authority nutzt den Eindruck einer berechtigten oder übergeordneten Person."
+  },
+  {
+    "id": "lf-04-sach-seng-018",
+    "question": "Welches Social-Engineering-Prinzip nutzt Vertrauen?",
+    "answers": [
+      { "text": "Trust", "correct": true },
+      { "text": "Authority", "correct": false },
+      { "text": "Urgency", "correct": false },
+      { "text": "Scarcity", "correct": false }
+    ],
+    "explanation": "Trust baut Vertrauen auf, um Informationen oder Handlungen leichter zu erhalten."
+  },
+  {
+    "id": "lf-04-sach-seng-019",
+    "question": "Was beschreibt ein Black-Box-Test?",
+    "answers": [
+      { "text": "Test aus externer Sicht mit minimalem Vorwissen", "correct": true },
+      { "text": "Test mit vollständigem internem Wissen", "correct": false },
+      { "text": "Test mit teilweise bekannten Systeminformationen", "correct": false },
+      { "text": "Test durch ungezielte Massenkommunikation", "correct": false }
+    ],
+    "explanation": "Black Box bedeutet, dass ein Test ohne internes Vorwissen durchgeführt wird."
+  },
+  {
+    "id": "lf-04-sach-seng-020",
+    "question": "Was beschreibt ein White-Box-Test?",
+    "answers": [
+      { "text": "Test mit vollständigen internen Informationen", "correct": true },
+      { "text": "Test aus externer Sicht mit minimalem Vorwissen", "correct": false },
+      { "text": "Test mit teilweise bekannten Zielinformationen", "correct": false },
+      { "text": "Test durch breit gestreute Phishing-Mails", "correct": false }
+    ],
+    "explanation": "White Box bedeutet, dass ein Test mit umfassendem Wissen über das Ziel durchgeführt wird."
+  }
+]

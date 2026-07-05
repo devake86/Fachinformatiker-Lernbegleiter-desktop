@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-datg-001",
+    "question": "Was beschreibt Datenschutz?",
+    "answers": [
+      { "text": "Schutz personenbezogener Daten vor Missbrauch", "correct": true },
+      { "text": "Schutz beliebiger Daten vor technischem Verlust", "correct": false },
+      { "text": "Absicherung von IT-Systemen gegen Ausfälle", "correct": false },
+      { "text": "Verschlüsselung von Daten ohne Personenbezug", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenschutz schützt personenbezogene Daten und die Rechte betroffener Personen."
+  },
+  {
+    "id": "lf-04-fach-datg-002",
+    "question": "Was beschreibt Datensicherheit?",
+    "answers": [
+      { "text": "Maßnahmen zum technischen und organisatorischen Datenschutz", "correct": true },
+      { "text": "Rechtliche Zulässigkeit personenbezogener Verarbeitung", "correct": false },
+      { "text": "Einwilligung betroffener Personen zur Verarbeitung", "correct": false },
+      { "text": "Transparenz über gespeicherte personenbezogene Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: Datensicherheit schützt Daten durch technische und organisatorische Maßnahmen."
+  },
+  {
+    "id": "lf-04-fach-datg-003",
+    "question": "Was beschreibt der Unterschied zwischen Datenschutz und Datensicherheit?",
+    "answers": [
+      { "text": "Datenschutz schützt Personen, Datensicherheit schützt Daten", "correct": true },
+      { "text": "Datenschutz schützt Systeme, Datensicherheit Personen", "correct": false },
+      { "text": "Datenschutz betrifft Technik, Datensicherheit Einwilligung", "correct": false },
+      { "text": "Datensicherheit ersetzt die rechtliche Zweckbindung", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenschutz fragt, ob Daten verarbeitet werden dürfen; Datensicherheit fragt, wie Daten geschützt werden."
+  },
+  {
+    "id": "lf-04-fach-datg-004",
+    "question": "Was beschreibt die DSGVO?",
+    "answers": [
+      { "text": "EU-Verordnung zum Schutz personenbezogener Daten", "correct": true },
+      { "text": "Deutsches Ergänzungsgesetz zur DSGVO", "correct": false },
+      { "text": "Standard für technische Datensicherungen", "correct": false },
+      { "text": "Richtlinie für Passwortkomplexität", "correct": false }
+    ],
+    "explanation": "Merksatz: Die DSGVO regelt den Datenschutz für personenbezogene Daten in der EU."
+  },
+  {
+    "id": "lf-04-fach-datg-005",
+    "question": "Was beschreibt das BDSG?",
+    "answers": [
+      { "text": "Deutsches Datenschutzgesetz zur Ergänzung der DSGVO", "correct": true },
+      { "text": "EU-Verordnung mit Vorrang vor nationalem Recht", "correct": false },
+      { "text": "Gesetz zur Absicherung kritischer IT-Systeme", "correct": false },
+      { "text": "Technischer Standard für Zugriffssicherheit", "correct": false }
+    ],
+    "explanation": "Merksatz: Das BDSG ergänzt die DSGVO in nationalen Regelungsbereichen."
+  },
+  {
+    "id": "lf-04-fach-datg-006",
+    "question": "Was beschreibt der Vorrang der DSGVO gegenüber dem BDSG?",
+    "answers": [
+      { "text": "DSGVO gilt vorrangig, BDSG ergänzt national", "correct": true },
+      { "text": "BDSG gilt vorrangig vor jeder EU-Regelung", "correct": false },
+      { "text": "DSGVO und BDSG gelten frei wählbar", "correct": false },
+      { "text": "BDSG hebt die DSGVO in Deutschland vollständig auf", "correct": false }
+    ],
+    "explanation": "Merksatz: Die DSGVO hat Vorrang; nationale Gesetze wie das BDSG ergänzen nur bestimmte Bereiche."
+  },
+  {
+    "id": "lf-04-fach-datg-007",
+    "question": "Was sind personenbezogene Daten?",
+    "answers": [
+      { "text": "Informationen mit Bezug zu identifizierbaren Personen", "correct": true },
+      { "text": "Technische Systemdaten ohne Personenbezug", "correct": false },
+      { "text": "Anonyme Statistiken ohne Rückschlussmöglichkeit", "correct": false },
+      { "text": "Öffentliche Unternehmensdaten ohne Personenbezug", "correct": false }
+    ],
+    "explanation": "Merksatz: Personenbezogene Daten ermöglichen direkt oder indirekt einen Bezug zu einer natürlichen Person."
+  },
+  {
+    "id": "lf-04-fach-datg-008",
+    "question": "Was beschreibt Zweckbindung?",
+    "answers": [
+      { "text": "Datenverarbeitung nur für festgelegte Zwecke", "correct": true },
+      { "text": "Datenerhebung ohne vorher bestimmten Zweck", "correct": false },
+      { "text": "Speicherung von Daten für spätere beliebige Nutzung", "correct": false },
+      { "text": "Weitergabe von Daten für neue unklare Zwecke", "correct": false }
+    ],
+    "explanation": "Merksatz: Zweckbindung begrenzt Datenverarbeitung auf vorher festgelegte Zwecke."
+  },
+  {
+    "id": "lf-04-fach-datg-009",
+    "question": "Was beschreibt Datenminimierung?",
+    "answers": [
+      { "text": "Verarbeitung erforderlicher personenbezogener Daten", "correct": true },
+      { "text": "Sammlung zusätzlicher Daten für mögliche Zwecke", "correct": false },
+      { "text": "Speicherung aller verfügbaren Kundendaten", "correct": false },
+      { "text": "Längere Speicherung zur späteren Auswertung", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenminimierung bedeutet, nur notwendige Daten zu erheben und zu verarbeiten."
+  },
+  {
+    "id": "lf-04-fach-datg-010",
+    "question": "Was beschreibt das Auskunftsrecht?",
+    "answers": [
+      { "text": "Betroffene dürfen Auskunft über verarbeitete Daten erhalten", "correct": true },
+      { "text": "Betroffene dürfen fremde personenbezogene Daten einsehen", "correct": false },
+      { "text": "Unternehmen dürfen Auskunft ohne Begründung ablehnen", "correct": false },
+      { "text": "Administratoren erhalten Zugriff auf alle Passwörter", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Auskunftsrecht gibt Betroffenen Transparenz über ihre gespeicherten Daten."
+  },
+  {
+    "id": "lf-04-fach-datg-011",
+    "question": "Was beschreibt das Recht auf Berichtigung?",
+    "answers": [
+      { "text": "Falsche personenbezogene Daten müssen korrigierbar sein", "correct": true },
+      { "text": "Richtige Daten dürfen ohne Anlass verändert werden", "correct": false },
+      { "text": "Betroffene dürfen Daten anderer Personen ändern", "correct": false },
+      { "text": "Unternehmen dürfen falsche Daten dauerhaft behalten", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Recht auf Berichtigung schützt vor dauerhaft falschen personenbezogenen Daten."
+  },
+  {
+    "id": "lf-04-fach-datg-012",
+    "question": "Was beschreibt das Recht auf Löschung?",
+    "answers": [
+      { "text": "Betroffene können unter Bedingungen Löschung verlangen", "correct": true },
+      { "text": "Betroffene können beliebige Unternehmensdaten löschen", "correct": false },
+      { "text": "Personenbezogene Daten bleiben dauerhaft gespeichert", "correct": false },
+      { "text": "Löschung ersetzt jede Pflicht zur Datensicherung", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Recht auf Löschung ermöglicht die Entfernung personenbezogener Daten unter bestimmten Bedingungen."
+  },
+  {
+    "id": "lf-04-fach-datg-013",
+    "question": "Was beschreibt das Recht auf Datenübertragbarkeit?",
+    "answers": [
+      { "text": "Daten in einem übertragbaren Format erhalten", "correct": true },
+      { "text": "Daten ohne Rechtsgrundlage an Dritte verkaufen", "correct": false },
+      { "text": "Daten ausschließlich als Papierausdruck erhalten", "correct": false },
+      { "text": "Daten ohne Personenbezug wiederherstellen lassen", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenübertragbarkeit erleichtert den Wechsel zwischen Diensten oder Anbietern."
+  },
+  {
+    "id": "lf-04-fach-datg-014",
+    "question": "Was beschreibt das Widerspruchsrecht?",
+    "answers": [
+      { "text": "Betroffene können bestimmten Verarbeitungen widersprechen", "correct": true },
+      { "text": "Betroffene müssen jede Verarbeitung selbst freigeben", "correct": false },
+      { "text": "Unternehmen dürfen Widersprüche ungeprüft ignorieren", "correct": false },
+      { "text": "Widerspruch ersetzt das Recht auf Auskunft", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Widerspruchsrecht gibt Betroffenen Kontrolle über bestimmte Datenverarbeitungen."
+  },
+  {
+    "id": "lf-04-fach-datg-015",
+    "question": "Was beschreibt eine Datenschutzverletzung?",
+    "answers": [
+      { "text": "Verletzung der Sicherheit personenbezogener Daten", "correct": true },
+      { "text": "Geplante Datenverarbeitung mit gültiger Rechtsgrundlage", "correct": false },
+      { "text": "Regelmäßige Datensicherung verschlüsselter Systeme", "correct": false },
+      { "text": "Rechtmäßige Auskunft an eine betroffene Person", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenschutzverletzungen betreffen Sicherheitsvorfälle mit personenbezogenen Daten."
+  },
+  {
+    "id": "lf-04-fach-datg-016",
+    "question": "Was beschreibt eine Aufsichtsbehörde im Datenschutz?",
+    "answers": [
+      { "text": "Stelle zur Überwachung des Datenschutzrechts", "correct": true },
+      { "text": "Interne Stelle zur Passwortvergabe", "correct": false },
+      { "text": "Technisches System zur Zugriffskontrolle", "correct": false },
+      { "text": "Geschäftsführung für IT-Sicherheitsprojekte", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenschutzaufsichtsbehörden kontrollieren und beraten zur Einhaltung des Datenschutzrechts."
+  },
+  {
+    "id": "lf-04-fach-datg-017",
+    "question": "Was beschreibt ein Datenschutzbeauftragter?",
+    "answers": [
+      { "text": "Person zur Beratung und Überwachung des Datenschutzes", "correct": true },
+      { "text": "Person mit Zugriff auf alle geheimen Passwörter", "correct": false },
+      { "text": "Person zur alleinigen Freigabe aller IT-Systeme", "correct": false },
+      { "text": "Person zur technischen Umsetzung jeder Maßnahme", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenschutzbeauftragte unterstützen und überwachen die Einhaltung des Datenschutzes."
+  },
+  {
+    "id": "lf-04-fach-datg-018",
+    "question": "Was beschreibt das IT-Sicherheitsgesetz?",
+    "answers": [
+      { "text": "Regeln zur Sicherheit wichtiger IT-Systeme", "correct": true },
+      { "text": "Datenschutzgrundlagen für Betroffenenrechte", "correct": false },
+      { "text": "Vorgaben zur Berechnung von Sozialabgaben", "correct": false },
+      { "text": "Lizenzregeln für freie Softwareprojekte", "correct": false }
+    ],
+    "explanation": "Merksatz: Das IT-Sicherheitsgesetz stärkt die Sicherheit besonders wichtiger IT-Systeme und kritischer Infrastrukturen."
+  },
+  {
+    "id": "lf-04-fach-datg-019",
+    "question": "Was beschreibt KRITIS?",
+    "answers": [
+      { "text": "Kritische Infrastrukturen mit hoher Bedeutung", "correct": true },
+      { "text": "Private Testumgebungen ohne Versorgungsbezug", "correct": false },
+      { "text": "Personenbezogene Daten in Kundensystemen", "correct": false },
+      { "text": "Technische Maßnahmen zur Pseudonymisierung", "correct": false }
+    ],
+    "explanation": "Merksatz: KRITIS bezeichnet Infrastrukturen, deren Ausfall erhebliche Folgen für die Gesellschaft hätte."
+  },
+  {
+    "id": "lf-04-fach-datg-020",
+    "question": "Was beschreibt eine technische und organisatorische Maßnahme?",
+    "answers": [
+      { "text": "Schutzmaßnahme durch Technik oder Organisation", "correct": true },
+      { "text": "Rechtsgrundlage zur beliebigen Datenverarbeitung", "correct": false },
+      { "text": "Betroffenenrecht auf Datenübertragbarkeit", "correct": false },
+      { "text": "Verzeichnis aller öffentlichen Unternehmensdaten", "correct": false }
+    ],
+    "explanation": "Merksatz: TOMs schützen personenbezogene Daten durch technische und organisatorische Sicherheitsmaßnahmen."
+  }
+]

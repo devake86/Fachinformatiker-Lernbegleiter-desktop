@@ -1,0 +1,662 @@
+[
+  {
+    "id": "lf-02-rech-kalk-001",
+    "question": "Ein Artikel kostet 100 €. Es gibt 10 % Rabatt. Wie hoch ist der Rabattbetrag?",
+    "answers": [
+      { "text": "10 €", "correct": true },
+      { "text": "5 €", "correct": false },
+      { "text": "20 €", "correct": false },
+      { "text": "90 €", "correct": false }
+    ],
+    "explanation": "Rabattbetrag = Preis × Rabattsatz. 100 € × 10 % = 10 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-002",
+    "question": "Ein Artikel kostet 100 €. Nach 10 % Rabatt kostet er wie viel?",
+    "answers": [
+      { "text": "90 €", "correct": true },
+      { "text": "10 €", "correct": false },
+      { "text": "110 €", "correct": false },
+      { "text": "95 €", "correct": false }
+    ],
+    "explanation": "Preis nach Rabatt = Preis - Rabattbetrag. 100 € - 10 € = 90 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-003",
+    "question": "Ein Artikel kostet 200 €. Es gibt 10 % Rabatt. Wie hoch ist der Rabattbetrag?",
+    "answers": [
+      { "text": "20 €", "correct": true },
+      { "text": "10 €", "correct": false },
+      { "text": "30 €", "correct": false },
+      { "text": "180 €", "correct": false }
+    ],
+    "explanation": "Rabattbetrag = Preis × Rabattsatz. 200 € × 10 % = 20 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-004",
+    "question": "Ein Artikel kostet 200 €. Nach 10 % Rabatt kostet er wie viel?",
+    "answers": [
+      { "text": "180 €", "correct": true },
+      { "text": "190 €", "correct": false },
+      { "text": "20 €", "correct": false },
+      { "text": "220 €", "correct": false }
+    ],
+    "explanation": "Preis nach Rabatt = Preis - Rabattbetrag. 200 € - 20 € = 180 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-005",
+    "question": "Ein Rechnungsbetrag beträgt 100 €. Es gibt 2 % Skonto. Wie hoch ist der Skontobetrag?",
+    "answers": [
+      { "text": "2 €", "correct": true },
+      { "text": "5 €", "correct": false },
+      { "text": "10 €", "correct": false },
+      { "text": "98 €", "correct": false }
+    ],
+    "explanation": "Skontobetrag = Rechnungsbetrag × Skontosatz. 100 € × 2 % = 2 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-006",
+    "question": "Ein Rechnungsbetrag beträgt 100 €. Nach 2 % Skonto sind wie viel zu zahlen?",
+    "answers": [
+      { "text": "98 €", "correct": true },
+      { "text": "102 €", "correct": false },
+      { "text": "2 €", "correct": false },
+      { "text": "90 €", "correct": false }
+    ],
+    "explanation": "Zahlbetrag = Rechnungsbetrag - Skontobetrag. 100 € - 2 € = 98 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-007",
+    "question": "Ein Rechnungsbetrag beträgt 500 €. Es gibt 2 % Skonto. Wie hoch ist der Skontobetrag?",
+    "answers": [
+      { "text": "10 €", "correct": true },
+      { "text": "20 €", "correct": false },
+      { "text": "5 €", "correct": false },
+      { "text": "490 €", "correct": false }
+    ],
+    "explanation": "Skontobetrag = Rechnungsbetrag × Skontosatz. 500 € × 2 % = 10 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-008",
+    "question": "Ein Rechnungsbetrag beträgt 500 €. Nach 2 % Skonto sind wie viel zu zahlen?",
+    "answers": [
+      { "text": "490 €", "correct": true },
+      { "text": "510 €", "correct": false },
+      { "text": "10 €", "correct": false },
+      { "text": "480 €", "correct": false }
+    ],
+    "explanation": "Zahlbetrag = Rechnungsbetrag - Skontobetrag. 500 € - 10 € = 490 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-009",
+    "question": "Ein Nettopreis beträgt 100 €. Die Umsatzsteuer beträgt 19 %. Wie hoch ist der Bruttopreis?",
+    "answers": [
+      { "text": "119 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "19 €", "correct": false },
+      { "text": "81 €", "correct": false }
+    ],
+    "explanation": "Brutto = Netto + Umsatzsteuer. 100 € + 19 € = 119 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-010",
+    "question": "Ein Nettopreis beträgt 200 €. Die Umsatzsteuer beträgt 19 %. Wie hoch ist der Bruttopreis?",
+    "answers": [
+      { "text": "238 €", "correct": true },
+      { "text": "219 €", "correct": false },
+      { "text": "200 €", "correct": false },
+      { "text": "38 €", "correct": false }
+    ],
+    "explanation": "Brutto = Netto + Umsatzsteuer. 200 € + 38 € = 238 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-011",
+    "question": "Ein Bruttopreis beträgt 119 € bei 19 % Umsatzsteuer. Wie hoch ist der Nettopreis?",
+    "answers": [
+      { "text": "100 €", "correct": true },
+      { "text": "119 €", "correct": false },
+      { "text": "19 €", "correct": false },
+      { "text": "90 €", "correct": false }
+    ],
+    "explanation": "Netto = Brutto / 1,19. 119 € / 1,19 = 100 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-012",
+    "question": "Ein Bruttopreis beträgt 119 € bei 19 % Umsatzsteuer. Wie hoch ist die enthaltene Umsatzsteuer?",
+    "answers": [
+      { "text": "19 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "119 €", "correct": false },
+      { "text": "9 €", "correct": false }
+    ],
+    "explanation": "Umsatzsteuer = Brutto - Netto. 119 € - 100 € = 19 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-013",
+    "question": "Der Bareinkaufspreis beträgt 100 €. Die Bezugskosten betragen 10 €. Wie hoch ist der Bezugspreis?",
+    "answers": [
+      { "text": "110 €", "correct": true },
+      { "text": "90 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "10 €", "correct": false }
+    ],
+    "explanation": "Bezugspreis = Bareinkaufspreis + Bezugskosten. 100 € + 10 € = 110 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-014",
+    "question": "Der Bareinkaufspreis beträgt 200 €. Die Bezugskosten betragen 20 €. Wie hoch ist der Bezugspreis?",
+    "answers": [
+      { "text": "220 €", "correct": true },
+      { "text": "180 €", "correct": false },
+      { "text": "200 €", "correct": false },
+      { "text": "20 €", "correct": false }
+    ],
+    "explanation": "Bezugspreis = Bareinkaufspreis + Bezugskosten. 200 € + 20 € = 220 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-015",
+    "question": "Der Bezugspreis beträgt 100 €. Der Handlungskostenzuschlag beträgt 20 %. Wie hoch sind die Handlungskosten?",
+    "answers": [
+      { "text": "20 €", "correct": true },
+      { "text": "10 €", "correct": false },
+      { "text": "80 €", "correct": false },
+      { "text": "120 €", "correct": false }
+    ],
+    "explanation": "Handlungskosten = Bezugspreis × Handlungskostenzuschlag. 100 € × 20 % = 20 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-016",
+    "question": "Der Bezugspreis beträgt 100 €. Die Handlungskosten betragen 20 €. Wie hoch sind die Selbstkosten?",
+    "answers": [
+      { "text": "120 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "80 €", "correct": false },
+      { "text": "20 €", "correct": false }
+    ],
+    "explanation": "Selbstkosten = Bezugspreis + Handlungskosten. 100 € + 20 € = 120 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-017",
+    "question": "Die Selbstkosten betragen 100 €. Der Gewinnzuschlag beträgt 10 %. Wie hoch ist der Gewinn?",
+    "answers": [
+      { "text": "10 €", "correct": true },
+      { "text": "90 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "110 €", "correct": false }
+    ],
+    "explanation": "Gewinn = Selbstkosten × Gewinnzuschlag. 100 € × 10 % = 10 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-018",
+    "question": "Die Selbstkosten betragen 100 €. Der Gewinn beträgt 10 €. Wie hoch ist der Barverkaufspreis?",
+    "answers": [
+      { "text": "110 €", "correct": true },
+      { "text": "90 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "10 €", "correct": false }
+    ],
+    "explanation": "Barverkaufspreis = Selbstkosten + Gewinn. 100 € + 10 € = 110 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-019",
+    "question": "Die Selbstkosten betragen 120 €. Der Gewinnzuschlag beträgt 10 %. Wie hoch ist der Gewinn?",
+    "answers": [
+      { "text": "12 €", "correct": true },
+      { "text": "10 €", "correct": false },
+      { "text": "20 €", "correct": false },
+      { "text": "132 €", "correct": false }
+    ],
+    "explanation": "Gewinn = Selbstkosten × Gewinnzuschlag. 120 € × 10 % = 12 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-020",
+    "question": "Die Selbstkosten betragen 120 €. Der Gewinn beträgt 12 €. Wie hoch ist der Barverkaufspreis?",
+    "answers": [
+      { "text": "132 €", "correct": true },
+      { "text": "108 €", "correct": false },
+      { "text": "120 €", "correct": false },
+      { "text": "12 €", "correct": false }
+    ],
+    "explanation": "Barverkaufspreis = Selbstkosten + Gewinn. 120 € + 12 € = 132 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-021",
+    "question": "Der Zielverkaufspreis beträgt 100 €. Es werden 10 % Kundenrabatt abgezogen. Wie hoch ist der Listenverkaufspreis?",
+    "answers": [
+      { "text": "111,11 €", "correct": true },
+      { "text": "110 €", "correct": false },
+      { "text": "90 €", "correct": false },
+      { "text": "100 €", "correct": false }
+    ],
+    "explanation": "Listenverkaufspreis = Zielverkaufspreis / 0,90. 100 € / 0,90 = 111,11 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-022",
+    "question": "Der Listenverkaufspreis beträgt 100 €. Es werden 10 % Kundenrabatt abgezogen. Wie hoch ist der Zielverkaufspreis?",
+    "answers": [
+      { "text": "90 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "110 €", "correct": false },
+      { "text": "10 €", "correct": false }
+    ],
+    "explanation": "Zielverkaufspreis = Listenverkaufspreis - Kundenrabatt. 100 € - 10 € = 90 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-023",
+    "question": "Der Zielverkaufspreis beträgt 100 €. Es werden 2 % Kundenskonto abgezogen. Wie hoch ist der Barverkaufspreis?",
+    "answers": [
+      { "text": "98 €", "correct": true },
+      { "text": "102 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "2 €", "correct": false }
+    ],
+    "explanation": "Barverkaufspreis = Zielverkaufspreis - Kundenskonto. 100 € - 2 € = 98 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-024",
+    "question": "Der Barverkaufspreis soll 98 € betragen. Es sind 2 % Kundenskonto einkalkuliert. Wie hoch ist der Zielverkaufspreis ungefähr?",
+    "answers": [
+      { "text": "100 €", "correct": true },
+      { "text": "96 €", "correct": false },
+      { "text": "98 €", "correct": false },
+      { "text": "102 €", "correct": false }
+    ],
+    "explanation": "Zielverkaufspreis = Barverkaufspreis / 0,98. 98 € / 0,98 = 100 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-025",
+    "question": "Der Bezugspreis beträgt 100 €. Der Verkaufspreis beträgt 150 €. Wie hoch ist der Kalkulationszuschlag?",
+    "answers": [
+      { "text": "50 %", "correct": true },
+      { "text": "33,3 %", "correct": false },
+      { "text": "150 %", "correct": false },
+      { "text": "15 %", "correct": false }
+    ],
+    "explanation": "Kalkulationszuschlag = Differenz / Bezugspreis. 50 € / 100 € = 50 %."
+  },
+  {
+    "id": "lf-02-rech-kalk-026",
+    "question": "Der Bezugspreis beträgt 100 €. Der Verkaufspreis beträgt 150 €. Wie hoch ist der Kalkulationsfaktor?",
+    "answers": [
+      { "text": "1,5", "correct": true },
+      { "text": "0,5", "correct": false },
+      { "text": "50", "correct": false },
+      { "text": "15", "correct": false }
+    ],
+    "explanation": "Kalkulationsfaktor = Verkaufspreis / Bezugspreis. 150 € / 100 € = 1,5."
+  },
+  {
+    "id": "lf-02-rech-kalk-027",
+    "question": "Ein Bezugspreis von 200 € wird mit dem Kalkulationsfaktor 1,5 multipliziert. Wie hoch ist der Verkaufspreis?",
+    "answers": [
+      { "text": "300 €", "correct": true },
+      { "text": "250 €", "correct": false },
+      { "text": "150 €", "correct": false },
+      { "text": "200 €", "correct": false }
+    ],
+    "explanation": "Verkaufspreis = Bezugspreis × Kalkulationsfaktor. 200 € × 1,5 = 300 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-028",
+    "question": "Der Bezugspreis beträgt 100 €. Der Verkaufspreis beträgt 150 €. Wie hoch ist die Handelsspanne ungefähr?",
+    "answers": [
+      { "text": "33,3 %", "correct": true },
+      { "text": "50 %", "correct": false },
+      { "text": "66,6 %", "correct": false },
+      { "text": "150 %", "correct": false }
+    ],
+    "explanation": "Handelsspanne = Differenz / Verkaufspreis. 50 € / 150 € ≈ 33,3 %."
+  },
+  {
+    "id": "lf-02-rech-kalk-029",
+    "question": "Was ist der Unterschied zwischen Kalkulationszuschlag und Handelsspanne?",
+    "answers": [
+      { "text": "Der Zuschlag bezieht sich auf den Bezugspreis, die Spanne auf den Verkaufspreis", "correct": true },
+      { "text": "Beide beziehen sich immer auf den gleichen Wert", "correct": false },
+      { "text": "Die Handelsspanne berechnet nur Umsatzsteuer", "correct": false },
+      { "text": "Der Kalkulationszuschlag wird nur bei Darlehen verwendet", "correct": false }
+    ],
+    "explanation": "Kalkulationszuschlag = Differenz / Bezugspreis; Handelsspanne = Differenz / Verkaufspreis."
+  },
+  {
+    "id": "lf-02-rech-kalk-030",
+    "question": "Ein Einkaufspreis beträgt 100 €. Der Verkaufspreis beträgt 120 €. Wie hoch ist der Gewinnbetrag, wenn keine weiteren Kosten betrachtet werden?",
+    "answers": [
+      { "text": "20 €", "correct": true },
+      { "text": "120 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "220 €", "correct": false }
+    ],
+    "explanation": "Gewinn = Verkaufspreis - Einkaufspreis. 120 € - 100 € = 20 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-031",
+    "question": "Ein Einkaufspreis beträgt 80 €. Der Verkaufspreis beträgt 100 €. Wie hoch ist der Gewinnbetrag, wenn keine weiteren Kosten betrachtet werden?",
+    "answers": [
+      { "text": "20 €", "correct": true },
+      { "text": "80 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "180 €", "correct": false }
+    ],
+    "explanation": "Gewinn = Verkaufspreis - Einkaufspreis. 100 € - 80 € = 20 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-032",
+    "question": "Eine Dienstleistung dauert 4 Stunden. Der Stundensatz beträgt 50 €. Wie hoch ist der Rechnungsbetrag netto?",
+    "answers": [
+      { "text": "200 €", "correct": true },
+      { "text": "50 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "400 €", "correct": false }
+    ],
+    "explanation": "Rechnungsbetrag = Stunden × Stundensatz. 4 × 50 € = 200 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-033",
+    "question": "Eine Dienstleistung dauert 3 Stunden. Der Stundensatz beträgt 60 €. Wie hoch ist der Rechnungsbetrag netto?",
+    "answers": [
+      { "text": "180 €", "correct": true },
+      { "text": "60 €", "correct": false },
+      { "text": "120 €", "correct": false },
+      { "text": "240 €", "correct": false }
+    ],
+    "explanation": "Rechnungsbetrag = Stunden × Stundensatz. 3 × 60 € = 180 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-034",
+    "question": "Der interne Stundenlohn beträgt 40 €. Der Gemeinkostenzuschlag beträgt 25 %. Wie hoch sind die Kosten pro Stunde?",
+    "answers": [
+      { "text": "50 €", "correct": true },
+      { "text": "40 €", "correct": false },
+      { "text": "10 €", "correct": false },
+      { "text": "65 €", "correct": false }
+    ],
+    "explanation": "Kosten pro Stunde = Stundenlohn + Gemeinkostenzuschlag. 40 € + 10 € = 50 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-035",
+    "question": "Der interne Stundenlohn beträgt 50 €. Der Gemeinkostenzuschlag beträgt 20 %. Wie hoch sind die Kosten pro Stunde?",
+    "answers": [
+      { "text": "60 €", "correct": true },
+      { "text": "50 €", "correct": false },
+      { "text": "70 €", "correct": false },
+      { "text": "10 €", "correct": false }
+    ],
+    "explanation": "Kosten pro Stunde = Stundenlohn + Gemeinkostenzuschlag. 50 € + 10 € = 60 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-036",
+    "question": "Ein Artikel wird für 120 € verkauft. Die variablen Kosten betragen 80 €. Wie hoch ist der Deckungsbeitrag?",
+    "answers": [
+      { "text": "40 €", "correct": true },
+      { "text": "80 €", "correct": false },
+      { "text": "120 €", "correct": false },
+      { "text": "200 €", "correct": false }
+    ],
+    "explanation": "Deckungsbeitrag = Verkaufspreis - variable Kosten. 120 € - 80 € = 40 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-037",
+    "question": "Ein Artikel wird für 100 € verkauft. Die variablen Kosten betragen 70 €. Wie hoch ist der Deckungsbeitrag?",
+    "answers": [
+      { "text": "30 €", "correct": true },
+      { "text": "70 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "170 €", "correct": false }
+    ],
+    "explanation": "Deckungsbeitrag = Verkaufspreis - variable Kosten. 100 € - 70 € = 30 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-038",
+    "question": "Die Fixkosten betragen 200 €. Der Deckungsbeitrag pro Stück beträgt 40 €. Wie viele Stück müssen verkauft werden, um die Fixkosten zu decken?",
+    "answers": [
+      { "text": "5 Stück", "correct": true },
+      { "text": "4 Stück", "correct": false },
+      { "text": "8 Stück", "correct": false },
+      { "text": "40 Stück", "correct": false }
+    ],
+    "explanation": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück. 200 € / 40 € = 5 Stück."
+  },
+  {
+    "id": "lf-02-rech-kalk-039",
+    "question": "Die Fixkosten betragen 300 €. Der Deckungsbeitrag pro Stück beträgt 30 €. Wie viele Stück müssen verkauft werden, um die Fixkosten zu decken?",
+    "answers": [
+      { "text": "10 Stück", "correct": true },
+      { "text": "3 Stück", "correct": false },
+      { "text": "30 Stück", "correct": false },
+      { "text": "90 Stück", "correct": false }
+    ],
+    "explanation": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück. 300 € / 30 € = 10 Stück."
+  },
+  {
+    "id": "lf-02-rech-kalk-040",
+    "question": "Was bedeutet der Break-even-Point?",
+    "answers": [
+      { "text": "Erlöse und Kosten sind gleich hoch", "correct": true },
+      { "text": "Der Gewinn ist maximal", "correct": false },
+      { "text": "Alle Kosten sind null", "correct": false },
+      { "text": "Der Einkaufspreis ist unbekannt", "correct": false }
+    ],
+    "explanation": "Break-even-Point: Erlöse = Kosten. An diesem Punkt entsteht weder Gewinn noch Verlust."
+  },
+  {
+    "id": "lf-02-rech-kalk-041",
+    "question": "Ein Produkt hat Fixkosten von 100 € und variable Kosten von 5 € pro Stück. Bei 20 Stück: Wie hoch sind die Gesamtkosten?",
+    "answers": [
+      { "text": "200 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "120 €", "correct": false },
+      { "text": "500 €", "correct": false }
+    ],
+    "explanation": "Gesamtkosten = Fixkosten + variable Kosten. 100 € + 20 × 5 € = 200 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-042",
+    "question": "Ein Produkt hat Fixkosten von 200 € und variable Kosten von 10 € pro Stück. Bei 10 Stück: Wie hoch sind die Gesamtkosten?",
+    "answers": [
+      { "text": "300 €", "correct": true },
+      { "text": "200 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "2.000 €", "correct": false }
+    ],
+    "explanation": "Gesamtkosten = Fixkosten + variable Kosten. 200 € + 10 × 10 € = 300 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-043",
+    "question": "Ein Produkt verursacht 100 € Fixkosten. Bei 10 Stück sind die Fixkosten je Stück wie hoch?",
+    "answers": [
+      { "text": "10 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "1 €", "correct": false },
+      { "text": "90 €", "correct": false }
+    ],
+    "explanation": "Fixkosten je Stück = Fixkosten / Menge. 100 € / 10 = 10 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-044",
+    "question": "Ein Produkt verursacht 100 € Fixkosten. Bei 20 Stück sind die Fixkosten je Stück wie hoch?",
+    "answers": [
+      { "text": "5 €", "correct": true },
+      { "text": "10 €", "correct": false },
+      { "text": "20 €", "correct": false },
+      { "text": "100 €", "correct": false }
+    ],
+    "explanation": "Fixkosten je Stück = Fixkosten / Menge. 100 € / 20 = 5 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-045",
+    "question": "Was zeigt Fixkostendegression?",
+    "answers": [
+      { "text": "Fixkosten je Stück sinken bei größerer Menge", "correct": true },
+      { "text": "Fixkosten steigen je Stück immer", "correct": false },
+      { "text": "Variable Kosten verschwinden vollständig", "correct": false },
+      { "text": "Rabatte werden unmöglich", "correct": false }
+    ],
+    "explanation": "Fixkosten je Stück = Fixkosten / Menge. Bei größerer Menge sinken die Fixkosten je Stück."
+  },
+  {
+    "id": "lf-02-rech-kalk-046",
+    "question": "Make-or-Buy: Eigenfertigung kostet 100 € Fixkosten plus 5 € pro Stück. Bei 20 Stück: Wie hoch sind die Kosten?",
+    "answers": [
+      { "text": "200 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "120 €", "correct": false },
+      { "text": "500 €", "correct": false }
+    ],
+    "explanation": "Eigenfertigungskosten = Fixkosten + Menge × variable Kosten. 100 € + 20 × 5 € = 200 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-047",
+    "question": "Make-or-Buy: Fremdbezug kostet 12 € pro Stück. Bei 20 Stück: Wie hoch sind die Kosten?",
+    "answers": [
+      { "text": "240 €", "correct": true },
+      { "text": "120 €", "correct": false },
+      { "text": "200 €", "correct": false },
+      { "text": "12 €", "correct": false }
+    ],
+    "explanation": "Fremdbezugskosten = Menge × Stückpreis. 20 × 12 € = 240 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-048",
+    "question": "Eigenfertigung kostet 200 €, Fremdbezug kostet 240 €. Was ist rein nach Kosten günstiger?",
+    "answers": [
+      { "text": "Eigenfertigung", "correct": true },
+      { "text": "Fremdbezug", "correct": false },
+      { "text": "Beide gleich teuer", "correct": false },
+      { "text": "Nicht vergleichbar", "correct": false }
+    ],
+    "explanation": "Kostenvergleich: günstigere Alternative = niedrigere Gesamtkosten. 200 € < 240 €, also Eigenfertigung."
+  },
+  {
+    "id": "lf-02-rech-kalk-049",
+    "question": "Eigenfertigung kostet 300 €, Fremdbezug kostet 250 €. Was ist rein nach Kosten günstiger?",
+    "answers": [
+      { "text": "Fremdbezug", "correct": true },
+      { "text": "Eigenfertigung", "correct": false },
+      { "text": "Beide gleich teuer", "correct": false },
+      { "text": "Eigenfertigung ist immer günstiger", "correct": false }
+    ],
+    "explanation": "Kostenvergleich: günstigere Alternative = niedrigere Gesamtkosten. 250 € < 300 €, also Fremdbezug."
+  },
+  {
+    "id": "lf-02-rech-kalk-050",
+    "question": "Ein Artikel kostet netto 100 €. Es kommen 19 € Umsatzsteuer dazu. Wie hoch ist der Bruttobetrag?",
+    "answers": [
+      { "text": "119 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "81 €", "correct": false },
+      { "text": "19 €", "correct": false }
+    ],
+    "explanation": "Brutto = Netto + Umsatzsteuer. 100 € + 19 € = 119 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-051",
+    "question": "Ein Artikel kostet brutto 119 €. Der Nettobetrag beträgt 100 €. Wie hoch ist die Umsatzsteuer?",
+    "answers": [
+      { "text": "19 €", "correct": true },
+      { "text": "119 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "9 €", "correct": false }
+    ],
+    "explanation": "Umsatzsteuer = Brutto - Netto. 119 € - 100 € = 19 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-052",
+    "question": "Ein Listeneinkaufspreis beträgt 100 €. Der Liefererrabatt beträgt 10 %. Wie hoch ist der Zieleinkaufspreis?",
+    "answers": [
+      { "text": "90 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "110 €", "correct": false },
+      { "text": "10 €", "correct": false }
+    ],
+    "explanation": "Zieleinkaufspreis = Listeneinkaufspreis - Liefererrabatt. 100 € - 10 € = 90 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-053",
+    "question": "Der Zieleinkaufspreis beträgt 100 €. Das Liefererskonto beträgt 2 %. Wie hoch ist der Bareinkaufspreis?",
+    "answers": [
+      { "text": "98 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "102 €", "correct": false },
+      { "text": "2 €", "correct": false }
+    ],
+    "explanation": "Bareinkaufspreis = Zieleinkaufspreis - Liefererskonto. 100 € - 2 € = 98 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-054",
+    "question": "Der Bareinkaufspreis beträgt 98 €. Bezugskosten betragen 2 €. Wie hoch ist der Bezugspreis?",
+    "answers": [
+      { "text": "100 €", "correct": true },
+      { "text": "96 €", "correct": false },
+      { "text": "98 €", "correct": false },
+      { "text": "102 €", "correct": false }
+    ],
+    "explanation": "Bezugspreis = Bareinkaufspreis + Bezugskosten. 98 € + 2 € = 100 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-055",
+    "question": "Der Bezugspreis beträgt 100 €. Handlungskosten betragen 20 €. Gewinn beträgt 10 €. Wie hoch ist der Barverkaufspreis?",
+    "answers": [
+      { "text": "130 €", "correct": true },
+      { "text": "120 €", "correct": false },
+      { "text": "110 €", "correct": false },
+      { "text": "100 €", "correct": false }
+    ],
+    "explanation": "Barverkaufspreis = Bezugspreis + Handlungskosten + Gewinn. 100 € + 20 € + 10 € = 130 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-056",
+    "question": "Ein Barverkaufspreis beträgt 100 €. Es sollen 2 % Kundenskonto einkalkuliert werden. Welcher Zielverkaufspreis ist ungefähr nötig?",
+    "answers": [
+      { "text": "102,04 €", "correct": true },
+      { "text": "98 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "104 €", "correct": false }
+    ],
+    "explanation": "Zielverkaufspreis = Barverkaufspreis / 0,98. 100 € / 0,98 ≈ 102,04 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-057",
+    "question": "Ein Zielverkaufspreis beträgt 90 €. Es sollen 10 % Kundenrabatt einkalkuliert werden. Wie hoch ist der Listenverkaufspreis?",
+    "answers": [
+      { "text": "100 €", "correct": true },
+      { "text": "90 €", "correct": false },
+      { "text": "99 €", "correct": false },
+      { "text": "110 €", "correct": false }
+    ],
+    "explanation": "Listenverkaufspreis = Zielverkaufspreis / 0,90. 90 € / 0,90 = 100 €."
+  },
+  {
+    "id": "lf-02-rech-kalk-058",
+    "question": "Ein Produkt kostet 100 € und wird für 125 € verkauft. Wie hoch ist der Kalkulationszuschlag?",
+    "answers": [
+      { "text": "25 %", "correct": true },
+      { "text": "20 %", "correct": false },
+      { "text": "125 %", "correct": false },
+      { "text": "5 %", "correct": false }
+    ],
+    "explanation": "Kalkulationszuschlag = Differenz / Produktkosten. 25 € / 100 € = 25 %."
+  },
+  {
+    "id": "lf-02-rech-kalk-059",
+    "question": "Ein Produkt kostet 100 € und wird für 125 € verkauft. Wie hoch ist der Kalkulationsfaktor?",
+    "answers": [
+      { "text": "1,25", "correct": true },
+      { "text": "0,25", "correct": false },
+      { "text": "25", "correct": false },
+      { "text": "125", "correct": false }
+    ],
+    "explanation": "Kalkulationsfaktor = Verkaufspreis / Produktkosten. 125 € / 100 € = 1,25."
+  },
+  {
+    "id": "lf-02-rech-kalk-060",
+    "question": "Ein Produkt kostet 100 € und wird für 125 € verkauft. Wie hoch ist die Handelsspanne?",
+    "answers": [
+      { "text": "20 %", "correct": true },
+      { "text": "25 %", "correct": false },
+      { "text": "80 %", "correct": false },
+      { "text": "125 %", "correct": false }
+    ],
+    "explanation": "Handelsspanne = Differenz / Verkaufspreis. 25 € / 125 € = 20 %."
+  }
+]

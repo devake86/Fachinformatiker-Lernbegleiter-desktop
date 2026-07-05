@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-sach-secu-001",
+    "question": "Warum ist ein RAID kein Ersatz für ein Backup?",
+    "answers": [
+      { "text": "Fehler können auf alle Platten wirken", "correct": true },
+      { "text": "RAID schützt vor einzelnen Plattenausfällen", "correct": false },
+      { "text": "RAID erhöht je nach Level die Verfügbarkeit", "correct": false },
+      { "text": "RAID fasst mehrere Datenträger zusammen", "correct": false }
+    ],
+    "explanation": "RAID schützt je nach Level vor Hardwareausfall, aber nicht vor Löschen, Malware oder Bedienfehlern."
+  },
+  {
+    "id": "lf-03-sach-secu-002",
+    "question": "Wann ist RAID 0 ungeeignet?",
+    "answers": [
+      { "text": "Wenn Ausfallsicherheit wichtig ist", "correct": true },
+      { "text": "Wenn hohe Schreibgeschwindigkeit gewünscht ist", "correct": false },
+      { "text": "Wenn Daten auf Platten verteilt werden sollen", "correct": false },
+      { "text": "Wenn nutzbare Kapazität im Vordergrund steht", "correct": false }
+    ],
+    "explanation": "RAID 0 bietet Striping ohne Redundanz; ein Plattenausfall gefährdet alle Daten."
+  },
+  {
+    "id": "lf-03-sach-secu-003",
+    "question": "Warum erhöht RAID 1 die Ausfallsicherheit?",
+    "answers": [
+      { "text": "Daten liegen gespiegelt vor", "correct": true },
+      { "text": "Datenblöcke werden verteilt geschrieben", "correct": false },
+      { "text": "Paritätsdaten werden berechnet", "correct": false },
+      { "text": "Mehrere RAID-5-Gruppen werden kombiniert", "correct": false }
+    ],
+    "explanation": "Bei RAID 1 werden Daten auf mehreren Datenträgern gespiegelt."
+  },
+  {
+    "id": "lf-03-sach-secu-004",
+    "question": "Warum kann RAID 5 trotz Parität Daten verlieren?",
+    "answers": [
+      { "text": "Mehr als ein Plattenausfall ist kritisch", "correct": true },
+      { "text": "Ein einzelner Plattenausfall wird abgefangen", "correct": false },
+      { "text": "Verteilte Parität unterstützt Rekonstruktion", "correct": false },
+      { "text": "Nutzdaten und Parität liegen verteilt vor", "correct": false }
+    ],
+    "explanation": "RAID 5 verkraftet typischerweise einen Plattenausfall, aber nicht mehrere gleichzeitig."
+  },
+  {
+    "id": "lf-03-sach-secu-005",
+    "question": "Warum ist RAID 6 robuster als RAID 5?",
+    "answers": [
+      { "text": "Es nutzt doppelte Parität", "correct": true },
+      { "text": "Es nutzt einfache verteilte Parität", "correct": false },
+      { "text": "Es spiegelt zwei Datenträger direkt", "correct": false },
+      { "text": "Es verteilt Datenblöcke wie RAID 0", "correct": false }
+    ],
+    "explanation": "RAID 6 kann durch doppelte Parität mehr Ausfälle verkraften als RAID 5."
+  },
+  {
+    "id": "lf-03-sach-secu-006",
+    "question": "Warum kombiniert RAID 10 Leistung und Sicherheit?",
+    "answers": [
+      { "text": "Es verbindet Striping und Spiegelung", "correct": true },
+      { "text": "Es kombiniert Striping mit einfacher Parität", "correct": false },
+      { "text": "Es nutzt doppelte verteilte Parität", "correct": false },
+      { "text": "Es bündelt Platten wie JBOD", "correct": false }
+    ],
+    "explanation": "RAID 10 kombiniert RAID 0 für Leistung mit RAID 1 für Spiegelung."
+  },
+  {
+    "id": "lf-03-sach-secu-007",
+    "question": "Warum sollte ein RAID-System überwacht werden?",
+    "answers": [
+      { "text": "Ausfälle müssen früh erkannt werden", "correct": true },
+      { "text": "Backups werden durch RAID-Kontrolle ersetzt", "correct": false },
+      { "text": "Paritätsdaten werden dadurch schneller", "correct": false },
+      { "text": "Datenträger werden dadurch größer", "correct": false }
+    ],
+    "explanation": "Ein unbemerkter Plattenausfall kann die verbleibende Redundanz gefährden."
+  },
+  {
+    "id": "lf-03-sach-secu-008",
+    "question": "Warum kann ein Hardware-RAID leistungsfähig sein?",
+    "answers": [
+      { "text": "Ein Controller übernimmt RAID-Aufgaben", "correct": true },
+      { "text": "Das Betriebssystem berechnet den Verbund allein", "correct": false },
+      { "text": "Backupsoftware steuert die Platten direkt", "correct": false },
+      { "text": "Der Netzwerkadapter verwaltet Paritätsdaten", "correct": false }
+    ],
+    "explanation": "RAID-Controller können Rechenarbeit und Cache für den Verbund übernehmen."
+  },
+  {
+    "id": "lf-03-sach-secu-009",
+    "question": "Warum kann Software-RAID flexibler sein?",
+    "answers": [
+      { "text": "Es benötigt keinen speziellen Controller", "correct": true },
+      { "text": "Ein RAID-Controller übernimmt die Berechnung", "correct": false },
+      { "text": "Der Verbund hängt an proprietärer Hardware", "correct": false },
+      { "text": "Parität wird extern durch Netzwerkgeräte erzeugt", "correct": false }
+    ],
+    "explanation": "Software-RAID wird durch Betriebssystem oder Software verwaltet."
+  },
+  {
+    "id": "lf-03-sach-secu-010",
+    "question": "Warum ist ein Datensicherungskonzept wichtig?",
+    "answers": [
+      { "text": "Backups werden planbar und verbindlich", "correct": true },
+      { "text": "RAID-Level werden dadurch automatisch gewählt", "correct": false },
+      { "text": "Speicherplatten werden dadurch gespiegelt", "correct": false },
+      { "text": "Firewallregeln werden dadurch erstellt", "correct": false }
+    ],
+    "explanation": "Ein Sicherungskonzept legt Umfang, Intervalle, Medien, Verantwortliche und Wiederherstellung fest."
+  },
+  {
+    "id": "lf-03-sach-secu-011",
+    "question": "Warum reicht ein Backup ohne Wiederherstellungstest nicht aus?",
+    "answers": [
+      { "text": "Die Rücksicherung muss funktionieren", "correct": true },
+      { "text": "Die Sicherung liegt bereits auf einem Medium", "correct": false },
+      { "text": "Der Sicherungszeitpunkt wurde dokumentiert", "correct": false },
+      { "text": "Die Backupsoftware meldet Erfolg", "correct": false }
+    ],
+    "explanation": "Ein Backup ist nur wertvoll, wenn daraus Daten zuverlässig wiederhergestellt werden können."
+  },
+  {
+    "id": "lf-03-sach-secu-012",
+    "question": "Wann ist eine Vollsicherung besonders einfach zu handhaben?",
+    "answers": [
+      { "text": "Wenn eine komplette Sicherung gebraucht wird", "correct": true },
+      { "text": "Wenn Änderungen seit der letzten Sicherung reichen", "correct": false },
+      { "text": "Wenn Änderungen seit dem Vollbackup reichen", "correct": false },
+      { "text": "Wenn ein RAID-Verbund rekonstruiert wird", "correct": false }
+    ],
+    "explanation": "Vollsicherungen sind einfach, benötigen aber meist mehr Zeit und Speicherplatz."
+  },
+  {
+    "id": "lf-03-sach-secu-013",
+    "question": "Warum spart eine differenzielle Sicherung gegenüber Vollsicherungen Speicher?",
+    "answers": [
+      { "text": "Nur Änderungen seit dem Vollbackup werden gesichert", "correct": true },
+      { "text": "Der komplette Datenbestand wird erneut kopiert", "correct": false },
+      { "text": "Änderungen seit der letzten Teilsicherung zählen", "correct": false },
+      { "text": "Ein Datenträgerabbild wird vollständig erstellt", "correct": false }
+    ],
+    "explanation": "Differenzielle Sicherungen speichern Änderungen seit der letzten Vollsicherung."
+  },
+  {
+    "id": "lf-03-sach-secu-014",
+    "question": "Warum ist eine inkrementelle Sicherung beim Sichern oft schnell?",
+    "answers": [
+      { "text": "Nur Änderungen seit der letzten Sicherung zählen", "correct": true },
+      { "text": "Der komplette Datenbestand wird kopiert", "correct": false },
+      { "text": "Änderungen seit dem Vollbackup zählen", "correct": false },
+      { "text": "Ein vollständiges Systemabbild entsteht", "correct": false }
+    ],
+    "explanation": "Inkrementell sichert nur neue oder geänderte Daten seit der letzten Sicherung."
+  },
+  {
+    "id": "lf-03-sach-secu-015",
+    "question": "Warum ist eine inkrementelle Wiederherstellung sorgfältig zu planen?",
+    "answers": [
+      { "text": "Mehrere Sicherungen können nötig sein", "correct": true },
+      { "text": "Ein einzelnes Vollbackup genügt dafür", "correct": false },
+      { "text": "Differenzielle Sicherungen bilden die Kette", "correct": false },
+      { "text": "RAID-Parität ersetzt die Sicherungsfolge", "correct": false }
+    ],
+    "explanation": "Zur Wiederherstellung braucht man oft das Vollbackup und alle passenden inkrementellen Sicherungen."
+  },
+  {
+    "id": "lf-03-sach-secu-016",
+    "question": "Wann ist eine Image-Sicherung besonders sinnvoll?",
+    "answers": [
+      { "text": "Bei schneller Wiederherstellung ganzer Systeme", "correct": true },
+      { "text": "Bei einzelnen geänderten Dateien am Tag", "correct": false },
+      { "text": "Bei Protokolldaten einzelner Anwendungen", "correct": false },
+      { "text": "Bei Druckaufträgen in einer Warteschlange", "correct": false }
+    ],
+    "explanation": "Image-Backups sichern ganze Datenträger oder Partitionen inklusive Systemzustand."
+  },
+  {
+    "id": "lf-03-sach-secu-017",
+    "question": "Warum sollten Backups räumlich getrennt gelagert werden?",
+    "answers": [
+      { "text": "Lokale Schäden zerstören dann nicht alles", "correct": true },
+      { "text": "Lokale Backups werden dadurch schneller geschrieben", "correct": false },
+      { "text": "RAID-Level werden dadurch robuster", "correct": false },
+      { "text": "DNS-Abfragen werden dadurch zuverlässiger", "correct": false }
+    ],
+    "explanation": "Brand, Diebstahl oder Wasserschäden können lokale Systeme und lokale Backups gemeinsam treffen."
+  },
+  {
+    "id": "lf-03-sach-secu-018",
+    "question": "Warum ist Backup-Dokumentation wichtig?",
+    "answers": [
+      { "text": "Wiederherstellung wird nachvollziehbar", "correct": true },
+      { "text": "Backupmedien erhalten dadurch mehr Kapazität", "correct": false },
+      { "text": "RAID-Controller werden dadurch konfiguriert", "correct": false },
+      { "text": "Firewallregeln entstehen dadurch automatisch", "correct": false }
+    ],
+    "explanation": "Dokumentation beschreibt Ablauf, Medien, Zuständigkeiten und Prioritäten für den Ernstfall."
+  },
+  {
+    "id": "lf-03-sach-secu-019",
+    "question": "Warum werden Protokolldaten bei Sicherheitsfragen wichtig?",
+    "answers": [
+      { "text": "Ereignisse und Zugriffe werden nachvollziehbar", "correct": true },
+      { "text": "Benutzerkennwörter werden darin gespeichert", "correct": false },
+      { "text": "Backups werden daraus vollständig ersetzt", "correct": false },
+      { "text": "RAID-Verbünde werden dadurch gespiegelt", "correct": false }
+    ],
+    "explanation": "Logs helfen, Fehler, Zugriffe und Sicherheitsereignisse später zu untersuchen."
+  },
+  {
+    "id": "lf-03-sach-secu-020",
+    "question": "Warum kann ein Proxy die Netzwerksicherheit unterstützen?",
+    "answers": [
+      { "text": "Anfragen laufen kontrolliert über eine Stelle", "correct": true },
+      { "text": "Clients werden direkt mit allen Zielen verbunden", "correct": false },
+      { "text": "RAID-Parität wird zentral berechnet", "correct": false },
+      { "text": "USV-Systeme werden dadurch gesteuert", "correct": false }
+    ],
+    "explanation": "Ein Proxy kann Zugriffe bündeln, filtern, protokollieren oder zwischenspeichern."
+  },
+  {
+    "id": "lf-03-sach-secu-021",
+    "question": "Warum steht eine Firewall häufig zwischen LAN und Internet?",
+    "answers": [
+      { "text": "Sie kontrolliert ein- und ausgehenden Verkehr", "correct": true },
+      { "text": "Sie stellt zentrale Dateifreigaben bereit", "correct": false },
+      { "text": "Sie verwaltet RAID-Gruppen im Server", "correct": false },
+      { "text": "Sie liefert Ersatzstrom bei Ausfällen", "correct": false }
+    ],
+    "explanation": "Firewalls prüfen Netzwerkverkehr anhand definierter Sicherheitsregeln."
+  },
+  {
+    "id": "lf-03-sach-secu-022",
+    "question": "Warum reicht ein einfacher Paketfilter nicht für jede Schutzanforderung?",
+    "answers": [
+      { "text": "Er betrachtet nur begrenzte Paketmerkmale", "correct": true },
+      { "text": "Er analysiert Anwendungskontext vollständig", "correct": false },
+      { "text": "Er bewertet Inhalte tiefgehend", "correct": false },
+      { "text": "Er erkennt Benutzeridentitäten umfassend", "correct": false }
+    ],
+    "explanation": "Paketfilter prüfen z. B. Adressen, Ports und Protokolle, aber nicht jeden Anwendungskontext."
+  },
+  {
+    "id": "lf-03-sach-secu-023",
+    "question": "Warum ist Stateful Inspection stärker als reiner Paketfilter?",
+    "answers": [
+      { "text": "Verbindungszustände werden berücksichtigt", "correct": true },
+      { "text": "Einzelpakete werden isoliert nach Ports geprüft", "correct": false },
+      { "text": "Kabelwerte werden im Verteiler gemessen", "correct": false },
+      { "text": "Backups werden auf Medien verglichen", "correct": false }
+    ],
+    "explanation": "Stateful Inspection bewertet Pakete im Zusammenhang bestehender Verbindungen."
+  },
+  {
+    "id": "lf-03-sach-secu-024",
+    "question": "Warum kann Deep Packet Inspection zusätzlichen Schutz bieten?",
+    "answers": [
+      { "text": "Auch Paketinhalt kann geprüft werden", "correct": true },
+      { "text": "Es werden Paketadressen grob verglichen", "correct": false },
+      { "text": "Verbindungszustände stehen allein im Fokus", "correct": false },
+      { "text": "Zugriffe laufen stellvertretend über Proxy", "correct": false }
+    ],
+    "explanation": "DPI kann neben Headerdaten auch Inhalte analysieren, ist aber aufwendiger."
+  },
+  {
+    "id": "lf-03-sach-secu-025",
+    "question": "Warum können Next-Generation-Firewalls nützlich sein?",
+    "answers": [
+      { "text": "Sie kombinieren mehrere Schutzfunktionen", "correct": true },
+      { "text": "Sie prüfen ausschließlich Quell- und Zielport", "correct": false },
+      { "text": "Sie bestehen aus reinen Backupmedien", "correct": false },
+      { "text": "Sie versorgen Netzwerkgeräte mit Strom", "correct": false }
+    ],
+    "explanation": "NGF erweitern klassische Firewallfunktionen oft um Richtlinien, Analyse und Zusatzschutz."
+  },
+  {
+    "id": "lf-03-sach-secu-026",
+    "question": "Warum ist VPN für entfernte Zugriffe sinnvoll?",
+    "answers": [
+      { "text": "Daten können geschützt übertragen werden", "correct": true },
+      { "text": "Entfernte Zugriffe laufen ungeprüft ins LAN", "correct": false },
+      { "text": "VPN ersetzt lokale Rechteverwaltung", "correct": false },
+      { "text": "VPN speichert Backups auf RAID-Systemen", "correct": false }
+    ],
+    "explanation": "VPN tunnelt und verschlüsselt Verbindungen über unsichere Netzwerke."
+  },
+  {
+    "id": "lf-03-sach-secu-027",
+    "question": "Warum ist Netzwerksicherheit mehr als nur eine Firewall?",
+    "answers": [
+      { "text": "Schutz braucht mehrere Maßnahmen", "correct": true },
+      { "text": "Firewallregeln decken jeden Betriebsbereich ab", "correct": false },
+      { "text": "Backups übernehmen die gesamte Zugriffskontrolle", "correct": false },
+      { "text": "Updates ersetzen Rechte und Monitoring", "correct": false }
+    ],
+    "explanation": "Sicherheit umfasst Regeln, Updates, Backups, Rechte, Monitoring, Verschlüsselung und Schulung."
+  },
+  {
+    "id": "lf-03-sach-secu-028",
+    "question": "Warum kann SDN Netzwerke flexibler machen?",
+    "answers": [
+      { "text": "Regeln werden zentral gesteuert", "correct": true },
+      { "text": "Weiterleitung wird fest in Hardware verdrahtet", "correct": false },
+      { "text": "Jeder Switch wird einzeln manuell gepflegt", "correct": false },
+      { "text": "Netzwerkrichtlinien liegen verteilt auf Clients", "correct": false }
+    ],
+    "explanation": "Software Defined Networking trennt Steuerlogik von der Weiterleitung und erlaubt zentrale Regeln."
+  },
+  {
+    "id": "lf-03-sach-secu-029",
+    "question": "Warum ist hohe Verfügbarkeit oft teuer?",
+    "answers": [
+      { "text": "Redundanz und Betrieb erhöhen Aufwand", "correct": true },
+      { "text": "Weniger Komponenten erhöhen die Verfügbarkeit", "correct": false },
+      { "text": "Ausfallzeiten werden bewusst vergrößert", "correct": false },
+      { "text": "Monitoring und Wartung entfallen dabei", "correct": false }
+    ],
+    "explanation": "Mehr Verfügbarkeit erfordert oft redundante Systeme, Überwachung, Wartung und bessere Infrastruktur."
+  },
+  {
+    "id": "lf-03-sach-secu-030",
+    "question": "Warum unterscheidet man Uptime und Downtime?",
+    "answers": [
+      { "text": "So lässt sich Verfügbarkeit bewerten", "correct": true },
+      { "text": "So wird RAID-Parität berechnet", "correct": false },
+      { "text": "So werden Firewallregeln sortiert", "correct": false },
+      { "text": "So werden Backups inkrementell erstellt", "correct": false }
+    ],
+    "explanation": "Verfügbarkeit ergibt sich aus nutzbarer Zeit im Verhältnis zur Gesamtzeit."
+  },
+  {
+    "id": "lf-03-sach-secu-031",
+    "question": "Warum ist Redundanz für kritische Systeme wichtig?",
+    "answers": [
+      { "text": "Einzelne Ausfälle führen nicht sofort zum Stillstand", "correct": true },
+      { "text": "Kritische Systeme arbeiten mit Einzelkomponenten stabiler", "correct": false },
+      { "text": "Redundanz ersetzt Wiederherstellungstests", "correct": false },
+      { "text": "Redundanz entfernt Bedarf an Monitoring", "correct": false }
+    ],
+    "explanation": "Redundante Komponenten können Ausfälle abfangen und die Verfügbarkeit erhöhen."
+  },
+  {
+    "id": "lf-03-sach-secu-032",
+    "question": "Warum ist PoE bei Access Points und IP-Telefonen praktisch?",
+    "answers": [
+      { "text": "Daten und Strom laufen über ein Kabel", "correct": true },
+      { "text": "Daten und Strom laufen über getrennte Medien", "correct": false },
+      { "text": "PoE vergibt IP-Konfigurationen an Clients", "correct": false },
+      { "text": "PoE übernimmt WLAN-Authentifizierung", "correct": false }
+    ],
+    "explanation": "PoE vereinfacht Installation, weil geeignete Geräte über Ethernet mit Strom versorgt werden."
+  },
+  {
+    "id": "lf-03-sach-secu-033",
+    "question": "Warum muss bei PoE das Leistungsbudget geplant werden?",
+    "answers": [
+      { "text": "Alle Geräte müssen ausreichend versorgt werden", "correct": true },
+      { "text": "Die IP-Adresse hängt vom Budget ab", "correct": false },
+      { "text": "Das Budget bestimmt die DNS-Zone", "correct": false },
+      { "text": "Das Budget legt VLAN-Tags fest", "correct": false }
+    ],
+    "explanation": "PoE-Switches haben eine begrenzte Gesamtleistung für angeschlossene Geräte."
+  },
+  {
+    "id": "lf-03-sach-secu-034",
+    "question": "Warum nutzt man Netzersatzanlagen in kritischer Infrastruktur?",
+    "answers": [
+      { "text": "Der Betrieb soll bei Stromausfall weiterlaufen", "correct": true },
+      { "text": "Die Netzersatzanlage ersetzt Firewallregeln", "correct": false },
+      { "text": "Die Netzersatzanlage speichert Nutzdaten", "correct": false },
+      { "text": "Die Netzersatzanlage vergibt DHCP-Leases", "correct": false }
+    ],
+    "explanation": "Netzersatzanlagen liefern Ersatzstrom, wenn die öffentliche Stromversorgung ausfällt."
+  },
+  {
+    "id": "lf-03-sach-secu-035",
+    "question": "Warum wird eine USV vor wichtige IT-Systeme geschaltet?",
+    "answers": [
+      { "text": "Sie überbrückt Stromstörungen kurzzeitig", "correct": true },
+      { "text": "Sie übernimmt dauerhaft den Kraftwerksbetrieb", "correct": false },
+      { "text": "Sie berechnet Routen zwischen IP-Netzen", "correct": false },
+      { "text": "Sie verwaltet Benutzerrechte im Netzwerk", "correct": false }
+    ],
+    "explanation": "Eine USV schützt vor kurzen Stromproblemen und ermöglicht kontrolliertes Herunterfahren."
+  },
+  {
+    "id": "lf-03-sach-secu-036",
+    "question": "Warum ist kontrolliertes Herunterfahren bei Stromausfall wichtig?",
+    "answers": [
+      { "text": "Daten und Dateisysteme werden geschützt", "correct": true },
+      { "text": "Server werden dabei abrupt ausgeschaltet", "correct": false },
+      { "text": "USV-Akkus werden dadurch ersetzt", "correct": false },
+      { "text": "Backups werden dabei verworfen", "correct": false }
+    ],
+    "explanation": "Ein geordnetes Herunterfahren reduziert Datenverlust und Schäden durch abruptes Ausschalten."
+  },
+  {
+    "id": "lf-03-sach-secu-037",
+    "question": "Warum schützt eine Offline-USV weniger umfassend als eine Online-USV?",
+    "answers": [
+      { "text": "Sie schaltet erst bei Störungen um", "correct": true },
+      { "text": "Sie wandelt den Ausgangsstrom dauerhaft", "correct": false },
+      { "text": "Sie bereitet Strom permanent doppelt auf", "correct": false },
+      { "text": "Sie liefert dauerhaft vollständig geregelte Versorgung", "correct": false }
+    ],
+    "explanation": "Offline-USV sind einfach und günstig, gleichen aber weniger Netzstörungen dauerhaft aus."
+  },
+  {
+    "id": "lf-03-sach-secu-038",
+    "question": "Warum hat eine Online-USV keine Umschaltzeit?",
+    "answers": [
+      { "text": "Die Versorgung läuft dauerhaft über die USV", "correct": true },
+      { "text": "Die Versorgung schaltet erst bei Störung um", "correct": false },
+      { "text": "Die Versorgung läuft direkt aus der Steckdose", "correct": false },
+      { "text": "Die Versorgung nutzt einen externen Generator", "correct": false }
+    ],
+    "explanation": "Bei Online-USV wird der Ausgangsstrom dauerhaft aufbereitet, daher entfällt ein Umschaltmoment."
+  },
+  {
+    "id": "lf-03-sach-secu-039",
+    "question": "Warum dürfen IT-Fachkräfte nicht einfach an elektrischen Anlagen arbeiten?",
+    "answers": [
+      { "text": "Elektrischer Strom ist gefährlich", "correct": true },
+      { "text": "Elektrische Anlagen sind reine Softwarekomponenten", "correct": false },
+      { "text": "Netzwerkkabel übernehmen Starkstromarbeiten", "correct": false },
+      { "text": "USV-Systeme schützen vor jeder Gefahr", "correct": false }
+    ],
+    "explanation": "Arbeiten an gefährlichen elektrischen Anlagen erfordern geeignete Qualifikation und Sicherheitsregeln."
+  },
+  {
+    "id": "lf-03-sach-secu-040",
+    "question": "Warum ist vorbeugende Wartung für Sicherheit und Verfügbarkeit wichtig?",
+    "answers": [
+      { "text": "Probleme werden vor Ausfällen erkannt", "correct": true },
+      { "text": "Probleme werden erst nach Ausfällen geprüft", "correct": false },
+      { "text": "Wartung ersetzt Sicherheitsrichtlinien", "correct": false },
+      { "text": "Wartung löscht bestehende Protokolldaten", "correct": false }
+    ],
+    "explanation": "Proaktive Wartung erkennt Risiken früh, bevor daraus Ausfälle oder Sicherheitsprobleme entstehen."
+  }
+]

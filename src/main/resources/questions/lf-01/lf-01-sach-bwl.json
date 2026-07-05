@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-sach-bwl-001",
+    "question": "Warum kann Arbeitsteilung die Wirtschaftlichkeit verbessern?",
+    "answers": [
+      { "text": "Spezialisierung kann Abläufe effizienter machen", "correct": true },
+      { "text": "Mehr Schnittstellen verbessern Abläufe von selbst", "correct": false },
+      { "text": "Gleiche Aufgaben werden von allen parallel erledigt", "correct": false },
+      { "text": "Kontrolle ersetzt dadurch jede Fachkompetenz", "correct": false }
+    ],
+    "explanation": "Arbeitsteilung kann durch Spezialisierung Leistung, Qualität und Effizienz erhöhen."
+  },
+  {
+    "id": "lf-01-sach-bwl-002",
+    "question": "Was ist ein Beispiel für betriebliche Arbeitsteilung?",
+    "answers": [
+      { "text": "Ein Betrieb hat Einkauf, Vertrieb und Service als Abteilungen", "correct": true },
+      { "text": "Ein Unternehmen produziert in mehreren Ländern", "correct": false },
+      { "text": "Mehrere Branchen spezialisieren sich am Markt", "correct": false },
+      { "text": "Ein Betrieb verkauft Produkte an viele Kunden", "correct": false }
+    ],
+    "explanation": "Betriebliche Arbeitsteilung verteilt Aufgaben innerhalb eines Betriebs auf Bereiche oder Stellen."
+  },
+  {
+    "id": "lf-01-sach-bwl-003",
+    "question": "Was ist ein Beispiel für internationale Arbeitsteilung?",
+    "answers": [
+      { "text": "Entwicklung, Produktion und Verkauf erfolgen in verschiedenen Ländern", "correct": true },
+      { "text": "Einkauf, Vertrieb und Service liegen in einem Betrieb", "correct": false },
+      { "text": "Mehrere Abteilungen teilen Aufgaben intern auf", "correct": false },
+      { "text": "Ein Unternehmen nutzt nur regionale Lieferanten", "correct": false }
+    ],
+    "explanation": "Internationale Arbeitsteilung verteilt Wertschöpfung über Ländergrenzen hinweg."
+  },
+  {
+    "id": "lf-01-sach-bwl-004",
+    "question": "Welche Folge kann Globalisierung für Unternehmen haben?",
+    "answers": [
+      { "text": "Weltweite Konkurrenz und stärkere Preisvergleiche", "correct": true },
+      { "text": "Mehr Absatzmärkte ohne zusätzlichen Wettbewerb", "correct": false },
+      { "text": "Lieferketten werden ausschließlich regional", "correct": false },
+      { "text": "Standortvorteile verlieren jede Bedeutung", "correct": false }
+    ],
+    "explanation": "Globalisierung vernetzt Märkte und kann Konkurrenz sowie Preisdruck erhöhen."
+  },
+  {
+    "id": "lf-01-sach-bwl-005",
+    "question": "Warum kann Globalisierung ökologische Nachteile haben?",
+    "answers": [
+      { "text": "Lange Transportwege können Umweltbelastungen erhöhen", "correct": true },
+      { "text": "Standortvorteile senken automatisch alle Emissionen", "correct": false },
+      { "text": "Globale Lieferketten verkürzen jeden Transportweg", "correct": false },
+      { "text": "Internationale Produktion betrifft keine Ressourcen", "correct": false }
+    ],
+    "explanation": "Weltweite Produktion und Lieferung können durch Transporte zusätzliche Umweltbelastungen verursachen."
+  },
+  {
+    "id": "lf-01-sach-bwl-006",
+    "question": "Welche drei volkswirtschaftlichen Produktionsfaktoren werden klassisch unterschieden?",
+    "answers": [
+      { "text": "Boden, Arbeit und Kapital", "correct": true },
+      { "text": "Arbeit, Kapital und Nachfrage", "correct": false },
+      { "text": "Boden, Absatz und Kapital", "correct": false },
+      { "text": "Rohstoffe, Kunden und Werbung", "correct": false }
+    ],
+    "explanation": "Die klassischen Produktionsfaktoren sind Boden, Arbeit und Kapital."
+  },
+  {
+    "id": "lf-01-sach-bwl-007",
+    "question": "Welcher Produktionsfaktor umfasst Rohstoffe und nutzbare Flächen?",
+    "answers": [
+      { "text": "Boden", "correct": true },
+      { "text": "Kapital", "correct": false },
+      { "text": "Arbeit", "correct": false },
+      { "text": "Humankapital", "correct": false }
+    ],
+    "explanation": "Boden umfasst natürliche Ressourcen wie Rohstoffe, Flächen und Energiequellen."
+  },
+  {
+    "id": "lf-01-sach-bwl-008",
+    "question": "Welcher Produktionsfaktor umfasst Maschinen, Gebäude und Geldmittel?",
+    "answers": [
+      { "text": "Kapital", "correct": true },
+      { "text": "Boden", "correct": false },
+      { "text": "Arbeit", "correct": false },
+      { "text": "Humankapital", "correct": false }
+    ],
+    "explanation": "Kapital umfasst Sach- und Geldmittel, die zur Leistungserstellung eingesetzt werden."
+  },
+  {
+    "id": "lf-01-sach-bwl-009",
+    "question": "Welcher Produktionsfaktor beschreibt menschliche Arbeitsleistung?",
+    "answers": [
+      { "text": "Arbeit", "correct": true },
+      { "text": "Kapital", "correct": false },
+      { "text": "Boden", "correct": false },
+      { "text": "Absatz", "correct": false }
+    ],
+    "explanation": "Arbeit beschreibt den menschlichen Beitrag zur Erstellung von Gütern und Dienstleistungen."
+  },
+  {
+    "id": "lf-01-sach-bwl-010",
+    "question": "In welchem Wirtschaftssektor findet Rohstoffgewinnung statt?",
+    "answers": [
+      { "text": "Primärsektor", "correct": true },
+      { "text": "Sekundärsektor", "correct": false },
+      { "text": "Tertiärsektor", "correct": false },
+      { "text": "Quartärsektor", "correct": false }
+    ],
+    "explanation": "Der Primärsektor umfasst Urproduktion und Rohstoffgewinnung."
+  },
+  {
+    "id": "lf-01-sach-bwl-011",
+    "question": "In welchem Wirtschaftssektor werden Rohstoffe weiterverarbeitet?",
+    "answers": [
+      { "text": "Sekundärsektor", "correct": true },
+      { "text": "Primärsektor", "correct": false },
+      { "text": "Tertiärsektor", "correct": false },
+      { "text": "Quartärsektor", "correct": false }
+    ],
+    "explanation": "Der Sekundärsektor umfasst Verarbeitung, Industrie und Handwerk."
+  },
+  {
+    "id": "lf-01-sach-bwl-012",
+    "question": "In welchem Wirtschaftssektor liegen Handel und Dienstleistungen?",
+    "answers": [
+      { "text": "Tertiärsektor", "correct": true },
+      { "text": "Primärsektor", "correct": false },
+      { "text": "Sekundärsektor", "correct": false },
+      { "text": "Urproduktionssektor", "correct": false }
+    ],
+    "explanation": "Der Tertiärsektor umfasst Dienstleistungen, Handel, Beratung und Service."
+  },
+  {
+    "id": "lf-01-sach-bwl-013",
+    "question": "Worin unterscheiden sich Unternehmen und Betrieb?",
+    "answers": [
+      { "text": "Unternehmen ist rechtliche Einheit, Betrieb Leistungseinheit", "correct": true },
+      { "text": "Der Betrieb ist die rechtliche Einheit am Markt", "correct": false },
+      { "text": "Das Unternehmen ist nur der Produktionsort", "correct": false },
+      { "text": "Die Firma ist immer identisch mit dem Betrieb", "correct": false }
+    ],
+    "explanation": "Das Unternehmen ist die rechtlich-wirtschaftliche Einheit; der Betrieb ist die organisatorische Leistungseinheit."
+  },
+  {
+    "id": "lf-01-sach-bwl-014",
+    "question": "Was bedeutet Firma im kaufmännischen Sinn?",
+    "answers": [
+      { "text": "Der Name, unter dem ein Kaufmann Geschäfte betreibt", "correct": true },
+      { "text": "Die rechtliche Wirtschaftseinheit eines Betriebs", "correct": false },
+      { "text": "Der Ort, an dem Leistungen erstellt werden", "correct": false },
+      { "text": "Der Zusammenschluss mehrerer Unternehmen", "correct": false }
+    ],
+    "explanation": "Firma ist der Geschäftsname eines Kaufmanns oder Unternehmens im Handelsverkehr."
+  },
+  {
+    "id": "lf-01-sach-bwl-015",
+    "question": "Was beschreibt eine ARGE oder ein Konsortium?",
+    "answers": [
+      { "text": "Eine befristete Kooperation mehrerer Unternehmen", "correct": true },
+      { "text": "Eine dauerhafte Leitung rechtlich selbstständiger Firmen", "correct": false },
+      { "text": "Eine Verschmelzung zu einer rechtlichen Einheit", "correct": false },
+      { "text": "Eine Absprache zur Wettbewerbsbeschränkung", "correct": false }
+    ],
+    "explanation": "Eine ARGE oder ein Konsortium ist eine zeitlich begrenzte Kooperation für ein gemeinsames Vorhaben."
+  },
+  {
+    "id": "lf-01-sach-bwl-016",
+    "question": "Was beschreibt ein Konzern?",
+    "answers": [
+      { "text": "Selbstständige Unternehmen unter einheitlicher Leitung", "correct": true },
+      { "text": "Eine befristete Kooperation für ein Projekt", "correct": false },
+      { "text": "Eine Absprache zur Beschränkung des Wettbewerbs", "correct": false },
+      { "text": "Eine Verschmelzung zu einem einzigen Betrieb", "correct": false }
+    ],
+    "explanation": "Im Konzern bleiben Unternehmen rechtlich selbstständig, werden aber einheitlich geführt."
+  },
+  {
+    "id": "lf-01-sach-bwl-017",
+    "question": "Was beschreibt eine Fusion?",
+    "answers": [
+      { "text": "Unternehmen verschmelzen zu einer wirtschaftlichen Einheit", "correct": true },
+      { "text": "Unternehmen kooperieren befristet für ein Projekt", "correct": false },
+      { "text": "Unternehmen bleiben getrennt und stimmen Preise ab", "correct": false },
+      { "text": "Unternehmen stehen unter gemeinsamer Konzernleitung", "correct": false }
+    ],
+    "explanation": "Eine Fusion ist ein Unternehmenszusammenschluss durch Verschmelzung."
+  },
+  {
+    "id": "lf-01-sach-bwl-018",
+    "question": "Warum sind Kartelle problematisch?",
+    "answers": [
+      { "text": "Sie können Wettbewerb durch Absprachen beschränken", "correct": true },
+      { "text": "Sie schaffen rechtlich eine gemeinsame Leitung", "correct": false },
+      { "text": "Sie bilden befristete Projektgemeinschaften", "correct": false },
+      { "text": "Sie erhöhen die Markttransparenz ohne Einfluss", "correct": false }
+    ],
+    "explanation": "Kartelle können Wettbewerb durch Preis-, Mengen- oder Marktaufteilungsabsprachen einschränken."
+  },
+  {
+    "id": "lf-01-sach-bwl-019",
+    "question": "Was ist ein Joint Venture?",
+    "answers": [
+      { "text": "Ein gemeinsames Unternehmen mehrerer Partner", "correct": true },
+      { "text": "Eine lose Preisabsprache mehrerer Unternehmen", "correct": false },
+      { "text": "Eine vollständige Verschmelzung zweier Unternehmen", "correct": false },
+      { "text": "Ein Konzern mit einheitlicher Leitung", "correct": false }
+    ],
+    "explanation": "Ein Joint Venture ist ein gemeinsam gegründetes Unternehmen für ein bestimmtes Projekt oder Ziel."
+  },
+  {
+    "id": "lf-01-sach-bwl-020",
+    "question": "Welche Aussage zu wirtschaftlichen Verflechtungen ist richtig?",
+    "answers": [
+      { "text": "Unternehmen können kooperieren, fusionieren oder Absprachen treffen", "correct": true },
+      { "text": "Kooperationen führen immer zu einer Fusion", "correct": false },
+      { "text": "Konzerne entstehen nur durch befristete Projekte", "correct": false },
+      { "text": "Kartelle sind gewöhnliche Lieferverträge", "correct": false }
+    ],
+    "explanation": "Wirtschaftliche Verflechtungen können von befristeter Kooperation bis zu Unternehmenszusammenschlüssen reichen."
+  }
+]

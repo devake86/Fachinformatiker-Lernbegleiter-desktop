@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-seng-001",
+    "question": "Was beschreibt Social Engineering?",
+    "answers": [
+      { "text": "Manipulation von Menschen für Informationen oder Handlungen", "correct": true },
+      { "text": "Ausnutzung technischer Schwachstellen in Systemen", "correct": false },
+      { "text": "Automatisiertes Ausprobieren vieler Passwörter", "correct": false },
+      { "text": "Absicherung von Zugriffen durch mehrere Faktoren", "correct": false }
+    ],
+    "explanation": "Merksatz: Social Engineering nutzt menschliche Schwächen statt rein technischer Schwachstellen aus."
+  },
+  {
+    "id": "lf-04-fach-seng-002",
+    "question": "Was beschreibt Footprinting?",
+    "answers": [
+      { "text": "Informationsbeschaffung über ein Ziel vor einem Angriff", "correct": true },
+      { "text": "Ausnutzung einer gefundenen Schwachstelle", "correct": false },
+      { "text": "Täuschung von Nutzern zur Passwortpreisgabe", "correct": false },
+      { "text": "Manipulation von Webseiten für eine Zielgruppe", "correct": false }
+    ],
+    "explanation": "Merksatz: Footprinting sammelt Informationen, um ein Ziel besser angreifen oder bewerten zu können."
+  },
+  {
+    "id": "lf-04-fach-seng-003",
+    "question": "Was beschreibt passives Footprinting?",
+    "answers": [
+      { "text": "Informationssammlung aus öffentlich verfügbaren Quellen", "correct": true },
+      { "text": "Informationssammlung durch direkte Netzwerkanfragen", "correct": false },
+      { "text": "Ausnutzung bekannter Schwachstellen mit Schadcode", "correct": false },
+      { "text": "Täuschung einzelner Personen per Nachricht", "correct": false }
+    ],
+    "explanation": "Merksatz: Passives Footprinting nutzt öffentlich verfügbare Informationen ohne direkte Interaktion mit dem Ziel."
+  },
+  {
+    "id": "lf-04-fach-seng-004",
+    "question": "Was beschreibt aktives Footprinting?",
+    "answers": [
+      { "text": "Informationssammlung durch direkte Zielinteraktion", "correct": true },
+      { "text": "Recherche über öffentliche Quellen und Archive", "correct": false },
+      { "text": "Manipulation durch gefälschte Autorität", "correct": false },
+      { "text": "Prüfung von Daten durch Hashwerte", "correct": false }
+    ],
+    "explanation": "Merksatz: Aktives Footprinting spricht Zielsysteme direkt an, zum Beispiel über DNS- oder Netzwerkanfragen."
+  },
+  {
+    "id": "lf-04-fach-seng-005",
+    "question": "Was beschreibt Phishing?",
+    "answers": [
+      { "text": "Täuschung zur Erlangung vertraulicher Daten", "correct": true },
+      { "text": "Zielgerichtete Recherche über ein Angriffsziel", "correct": false },
+      { "text": "Überlastung eines Dienstes durch viele Anfragen", "correct": false },
+      { "text": "Verstecken von Informationen in anderen Medien", "correct": false }
+    ],
+    "explanation": "Merksatz: Phishing nutzt gefälschte Nachrichten oder Webseiten, um Zugangsdaten oder andere Informationen zu stehlen."
+  },
+  {
+    "id": "lf-04-fach-seng-006",
+    "question": "Was beschreibt Spear Phishing?",
+    "answers": [
+      { "text": "Gezieltes Phishing gegen bestimmte Personen oder Gruppen", "correct": true },
+      { "text": "Breit gestreute Phishing-Nachricht an viele Empfänger", "correct": false },
+      { "text": "Phishing per Telefon oder Sprachnachricht", "correct": false },
+      { "text": "Phishing gegen besonders hochrangige Zielpersonen", "correct": false }
+    ],
+    "explanation": "Merksatz: Spear Phishing ist personalisiertes und zielgerichtetes Phishing."
+  },
+  {
+    "id": "lf-04-fach-seng-007",
+    "question": "Was beschreibt Whaling?",
+    "answers": [
+      { "text": "Spear Phishing gegen besonders wichtige Zielpersonen", "correct": true },
+      { "text": "Phishing per Telefon oder Sprachnachricht", "correct": false },
+      { "text": "Ungezielter Versand gefälschter Massenmails", "correct": false },
+      { "text": "Täuschung über weggeworfene Unterlagen", "correct": false }
+    ],
+    "explanation": "Merksatz: Whaling richtet sich gegen besonders wertvolle Ziele wie Führungskräfte oder Entscheidungsträger."
+  },
+  {
+    "id": "lf-04-fach-seng-008",
+    "question": "Was beschreibt Vishing?",
+    "answers": [
+      { "text": "Phishing über Telefon oder Sprachkommunikation", "correct": true },
+      { "text": "Phishing über gefälschte Webseiten", "correct": false },
+      { "text": "Gezieltes Phishing gegen Führungskräfte", "correct": false },
+      { "text": "Manipulation über physischen Zutritt", "correct": false }
+    ],
+    "explanation": "Merksatz: Vishing nutzt Telefonanrufe oder Sprachnachrichten zur Täuschung."
+  },
+  {
+    "id": "lf-04-fach-seng-009",
+    "question": "Was beschreibt CEO-Fraud?",
+    "answers": [
+      { "text": "Betrug durch vorgetäuschte Führungsperson", "correct": true },
+      { "text": "Gezieltes Phishing gegen viele Mitarbeitende", "correct": false },
+      { "text": "Täuschung durch gefälschte Sicherheitswarnungen", "correct": false },
+      { "text": "Ausspähen von Eingaben durch Beobachtung", "correct": false }
+    ],
+    "explanation": "Merksatz: CEO-Fraud täuscht Autorität vor, um Zahlungen oder vertrauliche Handlungen auszulösen."
+  },
+  {
+    "id": "lf-04-fach-seng-010",
+    "question": "Was beschreibt Shoulder Surfing?",
+    "answers": [
+      { "text": "Ausspähen durch Beobachten über die Schulter", "correct": true },
+      { "text": "Unbefugtes Mitgehen durch gesicherte Zugänge", "correct": false },
+      { "text": "Durchsuchen entsorgter Unterlagen", "correct": false },
+      { "text": "Täuschung per Telefonanruf", "correct": false }
+    ],
+    "explanation": "Merksatz: Shoulder Surfing nutzt Beobachtung, um PINs, Passwörter oder vertrauliche Informationen zu erkennen."
+  },
+  {
+    "id": "lf-04-fach-seng-011",
+    "question": "Was beschreibt Dumpster Diving?",
+    "answers": [
+      { "text": "Durchsuchen entsorgter Unterlagen oder Datenträger", "correct": true },
+      { "text": "Ausspähen von Eingaben durch Beobachtung", "correct": false },
+      { "text": "Unbefugtes Mitgehen durch Zugangskontrollen", "correct": false },
+      { "text": "Informationssammlung über öffentliche Quellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Dumpster Diving nutzt entsorgte Informationen als Quelle für Angriffe."
+  },
+  {
+    "id": "lf-04-fach-seng-012",
+    "question": "Was beschreibt Tailgating?",
+    "answers": [
+      { "text": "Unbefugtes Mitgehen durch einen gesicherten Zugang", "correct": true },
+      { "text": "Beobachten von Eingaben über die Schulter", "correct": false },
+      { "text": "Durchsuchen weggeworfener Informationen", "correct": false },
+      { "text": "Täuschung durch gefälschte E-Mails", "correct": false }
+    ],
+    "explanation": "Merksatz: Tailgating nutzt Höflichkeit oder Unachtsamkeit, um physische Zugangskontrollen zu umgehen."
+  },
+  {
+    "id": "lf-04-fach-seng-013",
+    "question": "Was beschreibt eine Watering-Hole-Attacke?",
+    "answers": [
+      { "text": "Angriff über häufig besuchte Webseiten der Zielgruppe", "correct": true },
+      { "text": "Gezieltes Phishing gegen einzelne Führungskräfte", "correct": false },
+      { "text": "Informationssammlung durch direkte Zielanfragen", "correct": false },
+      { "text": "Unbefugtes Mitgehen durch gesicherte Türen", "correct": false }
+    ],
+    "explanation": "Merksatz: Watering-Hole-Angriffe kompromittieren Orte, an denen sich die Zielgruppe wahrscheinlich aufhält."
+  },
+  {
+    "id": "lf-04-fach-seng-014",
+    "question": "Was beschreibt ein Hoax?",
+    "answers": [
+      { "text": "Falschmeldung, die Nutzer zu Reaktionen verleiten soll", "correct": true },
+      { "text": "Gefälschte Webseite zur Zugangsdatenabfrage", "correct": false },
+      { "text": "Unerwünschte Massenkommunikation per E-Mail", "correct": false },
+      { "text": "Manipulation durch vorgetäuschte Autorität", "correct": false }
+    ],
+    "explanation": "Merksatz: Hoaxes verbreiten falsche Behauptungen und können Unsicherheit oder Fehlverhalten auslösen."
+  },
+  {
+    "id": "lf-04-fach-seng-015",
+    "question": "Was beschreibt Spam?",
+    "answers": [
+      { "text": "Unerwünschte Massenkommunikation, häufig per E-Mail", "correct": true },
+      { "text": "Falschmeldung zur Manipulation von Nutzern", "correct": false },
+      { "text": "Gezielte Täuschung einer einzelnen Zielperson", "correct": false },
+      { "text": "Gefälschter Anruf zur Datenerlangung", "correct": false }
+    ],
+    "explanation": "Merksatz: Spam ist unerwünschte Massenpost und kann Werbung, Betrug oder Schadsoftware enthalten."
+  },
+  {
+    "id": "lf-04-fach-seng-016",
+    "question": "Was beschreibt Authority als Social-Engineering-Prinzip?",
+    "answers": [
+      { "text": "Angreifer nutzen angebliche Autorität für Druck", "correct": true },
+      { "text": "Angreifer erzeugen starken Zeitdruck", "correct": false },
+      { "text": "Angreifer bauen gezielt Vertrauen auf", "correct": false },
+      { "text": "Angreifer locken mit Knappheit oder Vorteil", "correct": false }
+    ],
+    "explanation": "Merksatz: Authority täuscht Autorität vor, damit Opfer eher Anweisungen folgen."
+  },
+  {
+    "id": "lf-04-fach-seng-017",
+    "question": "Was beschreibt Urgency als Social-Engineering-Prinzip?",
+    "answers": [
+      { "text": "Angreifer erzeugen Zeitdruck für schnelles Handeln", "correct": true },
+      { "text": "Angreifer nutzen angebliche Autorität", "correct": false },
+      { "text": "Angreifer bauen persönliche Vertrautheit auf", "correct": false },
+      { "text": "Angreifer bieten seltene Vorteile als Köder", "correct": false }
+    ],
+    "explanation": "Merksatz: Urgency nutzt Zeitdruck, damit Betroffene weniger kritisch prüfen."
+  },
+  {
+    "id": "lf-04-fach-seng-018",
+    "question": "Was beschreibt Trust als Social-Engineering-Prinzip?",
+    "answers": [
+      { "text": "Angreifer bauen Vertrauen zur Beeinflussung auf", "correct": true },
+      { "text": "Angreifer erzeugen Zeitdruck für Entscheidungen", "correct": false },
+      { "text": "Angreifer nutzen angebliche Hierarchie", "correct": false },
+      { "text": "Angreifer sammeln technische Zielinformationen", "correct": false }
+    ],
+    "explanation": "Merksatz: Trust nutzt Vertrauen als Hebel, um Informationen oder Handlungen zu erhalten."
+  },
+  {
+    "id": "lf-04-fach-seng-019",
+    "question": "Was beschreibt ein Black-Box-Test?",
+    "answers": [
+      { "text": "Test aus externer Sicht mit minimalem Vorwissen", "correct": true },
+      { "text": "Test mit vollständigem internem Wissen", "correct": false },
+      { "text": "Test mit teilweisem technischem Vorwissen", "correct": false },
+      { "text": "Test ausschließlich zur Passwortänderung", "correct": false }
+    ],
+    "explanation": "Merksatz: Black Box bedeutet Test ohne internes Vorwissen über das Ziel."
+  },
+  {
+    "id": "lf-04-fach-seng-020",
+    "question": "Was beschreibt ein White-Box-Test?",
+    "answers": [
+      { "text": "Test mit vollständigen Informationen über das Ziel", "correct": true },
+      { "text": "Test aus externer Sicht mit minimalem Vorwissen", "correct": false },
+      { "text": "Test mit teilweise bekannten Systeminformationen", "correct": false },
+      { "text": "Test durch ungezielte Massenkommunikation", "correct": false }
+    ],
+    "explanation": "Merksatz: White Box bedeutet Test mit umfassendem internem Wissen über das Ziel."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-sach-markt-001",
+    "question": "Wann entsteht ein Markt?",
+    "answers": [
+      { "text": "Wenn Angebot und Nachfrage zusammentreffen", "correct": true },
+      { "text": "Wenn Anbieter ihre Güter intern planen", "correct": false },
+      { "text": "Wenn Nachfrage ohne Angebot besteht", "correct": false },
+      { "text": "Wenn Angebot ohne Kaufinteresse besteht", "correct": false }
+    ],
+    "explanation": "Ein Markt entsteht durch das Zusammentreffen von Anbietern und Nachfragern."
+  },
+  {
+    "id": "lf-01-sach-markt-002",
+    "question": "Was beschreibt das Angebot auf einem Markt?",
+    "answers": [
+      { "text": "Güter oder Leistungen, die Verkäufer bereitstellen wollen", "correct": true },
+      { "text": "Güter oder Leistungen, die Käufer erwerben wollen", "correct": false },
+      { "text": "Die tatsächlich verkaufte Menge nach Vertragsabschluss", "correct": false },
+      { "text": "Die Nachfrage nach einem Gut zu bestimmten Preisen", "correct": false }
+    ],
+    "explanation": "Angebot beschreibt, was Anbieter zu bestimmten Bedingungen verkaufen möchten."
+  },
+  {
+    "id": "lf-01-sach-markt-003",
+    "question": "Was beschreibt die Nachfrage auf einem Markt?",
+    "answers": [
+      { "text": "Güter oder Leistungen, die Käufer erwerben möchten", "correct": true },
+      { "text": "Güter oder Leistungen, die Anbieter verkaufen wollen", "correct": false },
+      { "text": "Die Produktionsmenge eines Unternehmens", "correct": false },
+      { "text": "Der Lagerbestand vor dem Verkauf", "correct": false }
+    ],
+    "explanation": "Nachfrage beschreibt, was Käufer zu bestimmten Bedingungen kaufen möchten."
+  },
+  {
+    "id": "lf-01-sach-markt-004",
+    "question": "Was passiert typischerweise, wenn die Nachfrage steigt und das Angebot gleich bleibt?",
+    "answers": [
+      { "text": "Der Preis kann steigen", "correct": true },
+      { "text": "Der Preis kann durch Angebotsüberhang sinken", "correct": false },
+      { "text": "Die angebotene Menge übersteigt die Nachfrage", "correct": false },
+      { "text": "Der Gleichgewichtspreis bleibt unverändert sicher", "correct": false }
+    ],
+    "explanation": "Steigende Nachfrage bei gleichbleibendem Angebot kann zu höheren Preisen führen."
+  },
+  {
+    "id": "lf-01-sach-markt-005",
+    "question": "Was beschreibt der Gleichgewichtspreis?",
+    "answers": [
+      { "text": "Preis, bei dem Angebot und Nachfrage übereinstimmen", "correct": true },
+      { "text": "Preis, bei dem die Nachfrage größer ist", "correct": false },
+      { "text": "Preis, bei dem das Angebot größer ist", "correct": false },
+      { "text": "Preis, den ein Anbieter unabhängig festlegt", "correct": false }
+    ],
+    "explanation": "Beim Gleichgewichtspreis passen Angebot und Nachfrage mengenmäßig zusammen."
+  },
+  {
+    "id": "lf-01-sach-markt-006",
+    "question": "Welche Bedingung gehört zum Modell des vollkommenen Marktes?",
+    "answers": [
+      { "text": "Alle Marktteilnehmer haben vollständige Informationen", "correct": true },
+      { "text": "Ein Anbieter kann den Marktpreis bestimmen", "correct": false },
+      { "text": "Produkte unterscheiden sich deutlich", "correct": false },
+      { "text": "Käufer reagieren zeitlich verzögert", "correct": false }
+    ],
+    "explanation": "Der vollkommene Markt ist ein theoretisches Modell mit idealen Marktbedingungen."
+  },
+  {
+    "id": "lf-01-sach-markt-007",
+    "question": "Wonach werden Marktformen hauptsächlich unterschieden?",
+    "answers": [
+      { "text": "Nach der Anzahl von Anbietern und Nachfragern", "correct": true },
+      { "text": "Nach der Höhe des Gleichgewichtspreises", "correct": false },
+      { "text": "Nach der Art der angebotenen Produkte", "correct": false },
+      { "text": "Nach der Kaufkraft einzelner Kundengruppen", "correct": false }
+    ],
+    "explanation": "Marktformen beschreiben die Struktur eines Marktes anhand der Marktteilnehmer."
+  },
+  {
+    "id": "lf-01-sach-markt-008",
+    "question": "Welche Marktform liegt bei genau einem Anbieter vor?",
+    "answers": [
+      { "text": "Angebotsmonopol", "correct": true },
+      { "text": "Nachfragemonopol", "correct": false },
+      { "text": "Angebotsoligopol", "correct": false },
+      { "text": "Polypol", "correct": false }
+    ],
+    "explanation": "Beim Angebotsmonopol gibt es auf der Angebotsseite nur einen Anbieter."
+  },
+  {
+    "id": "lf-01-sach-markt-009",
+    "question": "Welche Marktform liegt bei genau einem Nachfrager vor?",
+    "answers": [
+      { "text": "Nachfragemonopol", "correct": true },
+      { "text": "Angebotsmonopol", "correct": false },
+      { "text": "Nachfrageoligopol", "correct": false },
+      { "text": "Polypol", "correct": false }
+    ],
+    "explanation": "Beim Nachfragemonopol gibt es auf der Nachfrageseite nur einen Nachfrager."
+  },
+  {
+    "id": "lf-01-sach-markt-010",
+    "question": "Welche Marktform liegt bei wenigen Anbietern vor?",
+    "answers": [
+      { "text": "Angebotsoligopol", "correct": true },
+      { "text": "Angebotsmonopol", "correct": false },
+      { "text": "Nachfrageoligopol", "correct": false },
+      { "text": "Polypol", "correct": false }
+    ],
+    "explanation": "Beim Angebotsoligopol stehen wenige Anbieter vielen oder mehreren Nachfragern gegenüber."
+  },
+  {
+    "id": "lf-01-sach-markt-011",
+    "question": "Welche Marktform liegt bei vielen Anbietern und vielen Nachfragern vor?",
+    "answers": [
+      { "text": "Polypol", "correct": true },
+      { "text": "Angebotsoligopol", "correct": false },
+      { "text": "Nachfragemonopol", "correct": false },
+      { "text": "Angebotsmonopol", "correct": false }
+    ],
+    "explanation": "Beim Polypol gibt es viele Anbieter und viele Nachfrager."
+  },
+  {
+    "id": "lf-01-sach-markt-012",
+    "question": "Wann spricht man von einem Käufermarkt?",
+    "answers": [
+      { "text": "Wenn das Angebot größer als die Nachfrage ist", "correct": true },
+      { "text": "Wenn die Nachfrage größer als das Angebot ist", "correct": false },
+      { "text": "Wenn Verkäufer mehr Marktmacht besitzen", "correct": false },
+      { "text": "Wenn Güter knapp und stark nachgefragt sind", "correct": false }
+    ],
+    "explanation": "Beim Käufermarkt haben Käufer durch Angebotsüberhang meist eine stärkere Position."
+  },
+  {
+    "id": "lf-01-sach-markt-013",
+    "question": "Wann spricht man von einem Verkäufermarkt?",
+    "answers": [
+      { "text": "Wenn die Nachfrage größer als das Angebot ist", "correct": true },
+      { "text": "Wenn das Angebot größer als die Nachfrage ist", "correct": false },
+      { "text": "Wenn Käufer durch große Auswahl stärker sind", "correct": false },
+      { "text": "Wenn Anbieter ihre Ware kaum absetzen können", "correct": false }
+    ],
+    "explanation": "Beim Verkäufermarkt haben Verkäufer durch Nachfrageüberhang meist eine stärkere Position."
+  },
+  {
+    "id": "lf-01-sach-markt-014",
+    "question": "Welche Aussage zur Preisbildung bei vollständiger Konkurrenz passt?",
+    "answers": [
+      { "text": "Der Preis bildet sich durch Angebot und Nachfrage", "correct": true },
+      { "text": "Ein einzelner Anbieter bestimmt den Marktpreis", "correct": false },
+      { "text": "Der Preis entsteht unabhängig von Nachfrage", "correct": false },
+      { "text": "Der Staat setzt den Gleichgewichtspreis im Modell fest", "correct": false }
+    ],
+    "explanation": "Bei vollständiger Konkurrenz wirken Angebot und Nachfrage auf die Preisbildung."
+  },
+  {
+    "id": "lf-01-sach-markt-015",
+    "question": "Was beschreibt Konjunktur?",
+    "answers": [
+      { "text": "Schwankungen der gesamtwirtschaftlichen Aktivität", "correct": true },
+      { "text": "Preisbildung auf einem einzelnen Markt", "correct": false },
+      { "text": "Marktstruktur nach Anbieterzahl", "correct": false },
+      { "text": "Kundeneinteilung nach Umsatzbedeutung", "correct": false }
+    ],
+    "explanation": "Konjunktur beschreibt Schwankungen der Wirtschaftsleistung über die Zeit."
+  },
+  {
+    "id": "lf-01-sach-markt-016",
+    "question": "Welche Reihenfolge der Konjunkturphasen ist typisch?",
+    "answers": [
+      { "text": "Aufschwung, Hochkonjunktur, Abschwung, Tiefstand", "correct": true },
+      { "text": "Tiefstand, Abschwung, Hochkonjunktur, Aufschwung", "correct": false },
+      { "text": "Hochkonjunktur, Aufschwung, Tiefstand, Abschwung", "correct": false },
+      { "text": "Aufschwung, Tiefstand, Abschwung, Hochkonjunktur", "correct": false }
+    ],
+    "explanation": "Typische Konjunkturphasen sind Aufschwung, Boom, Abschwung und Tiefstand."
+  },
+  {
+    "id": "lf-01-sach-markt-017",
+    "question": "Was kennzeichnet eine Hochkonjunktur?",
+    "answers": [
+      { "text": "Hohe Nachfrage und starke Auslastung", "correct": true },
+      { "text": "Sinkende Nachfrage und fallende Produktion", "correct": false },
+      { "text": "Erste Erholung nach einem Tiefstand", "correct": false },
+      { "text": "Geringe Auslastung bei schwacher Nachfrage", "correct": false }
+    ],
+    "explanation": "In einer Hochkonjunktur ist die Wirtschaft typischerweise stark ausgelastet."
+  },
+  {
+    "id": "lf-01-sach-markt-018",
+    "question": "Was kennzeichnet eine Rezession?",
+    "answers": [
+      { "text": "Sinkende wirtschaftliche Aktivität", "correct": true },
+      { "text": "Stark steigende Auslastung der Wirtschaft", "correct": false },
+      { "text": "Erreichen des konjunkturellen Höhepunkts", "correct": false },
+      { "text": "Nachfrageüberhang im Verkäufermarkt", "correct": false }
+    ],
+    "explanation": "Rezession beschreibt eine Phase des wirtschaftlichen Abschwungs."
+  },
+  {
+    "id": "lf-01-sach-markt-019",
+    "question": "Wozu dient die Analyse der Kundenstruktur?",
+    "answers": [
+      { "text": "Kunden können gezielter eingeordnet und betreut werden", "correct": true },
+      { "text": "Marktformen werden nach Anbieterzahl bestimmt", "correct": false },
+      { "text": "Der Gleichgewichtspreis wird direkt berechnet", "correct": false },
+      { "text": "Konjunkturphasen werden eindeutig vorhergesagt", "correct": false }
+    ],
+    "explanation": "Kundenstrukturanalyse hilft, Kundengruppen und deren Bedeutung besser zu verstehen."
+  },
+  {
+    "id": "lf-01-sach-markt-020",
+    "question": "Wofür wird die ABC-Kundenanalyse genutzt?",
+    "answers": [
+      { "text": "Zur Einteilung von Kunden nach Bedeutung", "correct": true },
+      { "text": "Zur Einteilung von Märkten nach Anbieterzahl", "correct": false },
+      { "text": "Zur Berechnung von Angebot und Nachfrage", "correct": false },
+      { "text": "Zur Bestimmung des Gleichgewichtspreises", "correct": false }
+    ],
+    "explanation": "Die ABC-Kundenanalyse unterstützt die Schwerpunktbildung bei Betreuung und Marketing."
+  }
+]

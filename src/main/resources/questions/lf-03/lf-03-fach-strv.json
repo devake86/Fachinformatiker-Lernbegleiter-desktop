@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-fach-strv-001",
+    "question": "Was ist eine Netzwerktopologie?",
+    "answers": [
+      { "text": "Die Struktur eines Netzwerks", "correct": true },
+      { "text": "Die logische Adresse eines Hosts", "correct": false },
+      { "text": "Die Regel für Datenkommunikation", "correct": false },
+      { "text": "Die Dokumentation von IP-Leases", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Topologie beschreibt, wie Geräte und Leitungen im Netzwerk angeordnet sind."
+  },
+  {
+    "id": "lf-03-fach-strv-002",
+    "question": "Was ist eine Punkt-zu-Punkt-Topologie?",
+    "answers": [
+      { "text": "Direkte Verbindung zweier Stationen", "correct": true },
+      { "text": "Gemeinsame Leitung für mehrere Stationen", "correct": false },
+      { "text": "Ringförmige Verbindung mehrerer Stationen", "correct": false },
+      { "text": "Zentrale Verbindung über einen Verteiler", "correct": false }
+    ],
+    "explanation": "Merksatz: Punkt-zu-Punkt verbindet genau zwei Kommunikationspartner direkt miteinander."
+  },
+  {
+    "id": "lf-03-fach-strv-003",
+    "question": "Was ist eine Bus-Topologie?",
+    "answers": [
+      { "text": "Alle Stationen teilen eine Leitung", "correct": true },
+      { "text": "Stationen sind ringförmig verbunden", "correct": false },
+      { "text": "Stationen hängen an einem Zentrum", "correct": false },
+      { "text": "Teilnehmer sind paarweise vermascht", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Bus nutzen alle Teilnehmer ein gemeinsames Übertragungsmedium."
+  },
+  {
+    "id": "lf-03-fach-strv-004",
+    "question": "Was ist eine Ring-Topologie?",
+    "answers": [
+      { "text": "Stationen sind ringförmig verbunden", "correct": true },
+      { "text": "Stationen teilen eine gemeinsame Leitung", "correct": false },
+      { "text": "Stationen hängen an einem zentralen Punkt", "correct": false },
+      { "text": "Stationen sind vollständig vermascht", "correct": false }
+    ],
+    "explanation": "Merksatz: In der Ringtopologie wandern Daten über eine geschlossene Kette von Stationen."
+  },
+  {
+    "id": "lf-03-fach-strv-005",
+    "question": "Was ist eine Stern-Topologie?",
+    "answers": [
+      { "text": "Alle Stationen hängen an einem Zentrum", "correct": true },
+      { "text": "Alle Stationen teilen eine Busleitung", "correct": false },
+      { "text": "Stationen sind ringförmig verbunden", "correct": false },
+      { "text": "Jeder Teilnehmer ist mit jedem verbunden", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei der Sterntopologie führen Verbindungen zu einem zentralen Punkt."
+  },
+  {
+    "id": "lf-03-fach-strv-006",
+    "question": "Was ist ein erweiterter Stern?",
+    "answers": [
+      { "text": "Mehrere Sterne sind verbunden", "correct": true },
+      { "text": "Mehrere Stationen teilen eine Leitung", "correct": false },
+      { "text": "Stationen bilden eine geschlossene Kette", "correct": false },
+      { "text": "Alle Knoten sind vollständig vermascht", "correct": false }
+    ],
+    "explanation": "Merksatz: Der erweiterte Stern verbindet zentrale Punkte mehrerer Sternstrukturen."
+  },
+  {
+    "id": "lf-03-fach-strv-007",
+    "question": "Was ist eine vollständige Masche?",
+    "answers": [
+      { "text": "Jeder Teilnehmer ist mit jedem verbunden", "correct": true },
+      { "text": "Alle Teilnehmer teilen eine Leitung", "correct": false },
+      { "text": "Alle Teilnehmer hängen an einem Zentrum", "correct": false },
+      { "text": "Wichtige Knoten sind gezielt mehrfach verbunden", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine vollständige Masche bietet hohe Redundanz, ist aber sehr aufwendig."
+  },
+  {
+    "id": "lf-03-fach-strv-008",
+    "question": "Was ist eine unvollständige Masche?",
+    "answers": [
+      { "text": "Wichtige Knoten sind mehrfach verbunden", "correct": true },
+      { "text": "Jeder Knoten ist mit jedem verbunden", "correct": false },
+      { "text": "Alle Knoten teilen eine gemeinsame Leitung", "correct": false },
+      { "text": "Alle Knoten hängen an einem zentralen Verteiler", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine unvollständige Masche nutzt Redundanz gezielt, aber nicht zwischen allen Knoten."
+  },
+  {
+    "id": "lf-03-fach-strv-009",
+    "question": "Was ist eine Zell-Topologie?",
+    "answers": [
+      { "text": "Funkbereiche decken Gebiete ab", "correct": true },
+      { "text": "Stationen teilen eine feste Busleitung", "correct": false },
+      { "text": "Stationen bilden eine geschlossene Kabelkette", "correct": false },
+      { "text": "Endgeräte hängen an einem zentralen Switch", "correct": false }
+    ],
+    "explanation": "Merksatz: Zelltopologien entstehen durch Funkbereiche, z. B. bei WLAN oder Mobilfunk."
+  },
+  {
+    "id": "lf-03-fach-strv-010",
+    "question": "Was ist strukturierte Verkabelung?",
+    "answers": [
+      { "text": "Normierte Gebäudeverkabelung", "correct": true },
+      { "text": "Spontane Verbindung einzelner Endgeräte", "correct": false },
+      { "text": "Drahtlose Zellplanung für WLAN", "correct": false },
+      { "text": "Logische Trennung durch VLANs", "correct": false }
+    ],
+    "explanation": "Merksatz: Strukturierte Verkabelung schafft eine geplante, dokumentierte und erweiterbare Infrastruktur."
+  },
+  {
+    "id": "lf-03-fach-strv-011",
+    "question": "Was ist Primärverkabelung?",
+    "answers": [
+      { "text": "Verkabelung zwischen Gebäuden", "correct": true },
+      { "text": "Verkabelung zwischen Etagen", "correct": false },
+      { "text": "Verkabelung innerhalb einer Etage", "correct": false },
+      { "text": "Verbindung von Dose und Endgerät", "correct": false }
+    ],
+    "explanation": "Merksatz: Primärverkabelung verbindet Standorte oder Gebäude miteinander."
+  },
+  {
+    "id": "lf-03-fach-strv-012",
+    "question": "Was ist Sekundärverkabelung?",
+    "answers": [
+      { "text": "Verkabelung zwischen Etagen", "correct": true },
+      { "text": "Verkabelung zwischen Standorten", "correct": false },
+      { "text": "Verkabelung innerhalb einer Etage", "correct": false },
+      { "text": "Verbindung von Patchkabel und Endgerät", "correct": false }
+    ],
+    "explanation": "Merksatz: Sekundärverkabelung verbindet Gebäudeverteiler mit Etagenverteilern."
+  },
+  {
+    "id": "lf-03-fach-strv-013",
+    "question": "Was ist Tertiärverkabelung?",
+    "answers": [
+      { "text": "Verkabelung innerhalb der Etage", "correct": true },
+      { "text": "Verkabelung zwischen Gebäuden", "correct": false },
+      { "text": "Verkabelung zwischen Standorten", "correct": false },
+      { "text": "Backbone-Verkabelung im Campus", "correct": false }
+    ],
+    "explanation": "Merksatz: Tertiärverkabelung führt vom Etagenverteiler zu Anschlussdosen der Arbeitsplätze."
+  },
+  {
+    "id": "lf-03-fach-strv-014",
+    "question": "Was ist ein Standortverteiler?",
+    "answers": [
+      { "text": "Zentraler Verteiler eines Standorts", "correct": true },
+      { "text": "Verteiler für einzelne Arbeitsplätze", "correct": false },
+      { "text": "Verteiler für eine Etage", "correct": false },
+      { "text": "Anschlussstelle für Endgeräte", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Standortverteiler ist ein zentraler Verteilerpunkt für einen Standort."
+  },
+  {
+    "id": "lf-03-fach-strv-015",
+    "question": "Was ist ein Gebäudeverteiler?",
+    "answers": [
+      { "text": "Verteiler für ein Gebäude", "correct": true },
+      { "text": "Zentraler Verteiler eines Campus", "correct": false },
+      { "text": "Verteiler für eine einzelne Etage", "correct": false },
+      { "text": "Anschlussdose am Arbeitsplatz", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Gebäudeverteiler verteilt Netzwerkverbindungen innerhalb eines Gebäudes weiter."
+  },
+  {
+    "id": "lf-03-fach-strv-016",
+    "question": "Was ist ein Etagenverteiler?",
+    "answers": [
+      { "text": "Verteiler für eine Etage", "correct": true },
+      { "text": "Zentraler Verteiler eines Standorts", "correct": false },
+      { "text": "Verteiler für mehrere Gebäude", "correct": false },
+      { "text": "Endpunkt an der Netzwerkdose", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Etagenverteiler versorgt Räume und Anschlussdosen einer Etage."
+  },
+  {
+    "id": "lf-03-fach-strv-017",
+    "question": "Was ist eine Netzwerkdose?",
+    "answers": [
+      { "text": "Anschlussstelle für Endgeräte", "correct": true },
+      { "text": "Verteilerfeld für Leitungen", "correct": false },
+      { "text": "Zentraler Verteiler einer Etage", "correct": false },
+      { "text": "Kabel für flexible Verbindungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Netzwerkdosen verbinden Endgeräte mit der festen Gebäudeverkabelung."
+  },
+  {
+    "id": "lf-03-fach-strv-018",
+    "question": "Was ist ein Patchpanel?",
+    "answers": [
+      { "text": "Ein Verteilerfeld für Leitungen", "correct": true },
+      { "text": "Eine Anschlussstelle für Endgeräte", "correct": false },
+      { "text": "Ein kurzes Verbindungskabel", "correct": false },
+      { "text": "Ein Schrank für Netzwerkverteilung", "correct": false }
+    ],
+    "explanation": "Merksatz: Patchpanels bündeln Leitungen im Verteiler und machen sie flexibel patchbar."
+  },
+  {
+    "id": "lf-03-fach-strv-019",
+    "question": "Was ist ein Patchkabel?",
+    "answers": [
+      { "text": "Ein kurzes Verbindungskabel", "correct": true },
+      { "text": "Ein Verteilerfeld für Leitungen", "correct": false },
+      { "text": "Eine feste Gebäudeverkabelung", "correct": false },
+      { "text": "Eine Anschlussstelle am Arbeitsplatz", "correct": false }
+    ],
+    "explanation": "Merksatz: Patchkabel verbinden Ports, Dosen oder Geräte flexibel miteinander."
+  },
+  {
+    "id": "lf-03-fach-strv-020",
+    "question": "Was ist ein Netzwerkmedium?",
+    "answers": [
+      { "text": "Ein Übertragungsweg für Daten", "correct": true },
+      { "text": "Eine logische Adresse im Netzwerk", "correct": false },
+      { "text": "Eine Dokumentation von Verbindungen", "correct": false },
+      { "text": "Eine Zuordnung von Ports und Leitungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Netzwerkmedien übertragen Signale, z. B. über Kupfer, Glasfaser oder Funk."
+  },
+  {
+    "id": "lf-03-fach-strv-021",
+    "question": "Was ist eine Kupferleitung im Netzwerk?",
+    "answers": [
+      { "text": "Ein Medium für elektrische Signale", "correct": true },
+      { "text": "Ein Medium für Lichtsignale", "correct": false },
+      { "text": "Ein drahtloser Frequenzbereich", "correct": false },
+      { "text": "Ein Verteilerfeld im Netzwerkschrank", "correct": false }
+    ],
+    "explanation": "Merksatz: Kupferleitungen übertragen Daten als elektrische Signale."
+  },
+  {
+    "id": "lf-03-fach-strv-022",
+    "question": "Was ist Twisted Pair?",
+    "answers": [
+      { "text": "Ein Kabel mit verdrillten Adernpaaren", "correct": true },
+      { "text": "Ein Kabel mit Lichtwellenleiterkern", "correct": false },
+      { "text": "Ein drahtloser Übertragungsstandard", "correct": false },
+      { "text": "Ein Verteiler für Glasfaserleitungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Twisted Pair reduziert Störeinflüsse durch verdrillte Adernpaare."
+  },
+  {
+    "id": "lf-03-fach-strv-023",
+    "question": "Was bedeutet U/UTP bei Netzwerkkabeln?",
+    "answers": [
+      { "text": "Ungeschirmtes Kabel ohne Paarschirmung", "correct": true },
+      { "text": "Geflechtschirm mit folierten Paaren", "correct": false },
+      { "text": "Gesamtschirm mit ungeschirmten Paaren", "correct": false },
+      { "text": "Foliengesamtschirm mit Paarschirmung", "correct": false }
+    ],
+    "explanation": "Merksatz: U/UTP bedeutet ungeschirmtes Kabel mit ungeschirmten Adernpaaren."
+  },
+  {
+    "id": "lf-03-fach-strv-024",
+    "question": "Was bedeutet S/FTP bei Netzwerkkabeln?",
+    "answers": [
+      { "text": "Geflechtschirm und folierte Paare", "correct": true },
+      { "text": "Ungeschirmtes Kabel mit ungeschirmten Paaren", "correct": false },
+      { "text": "Foliengesamtschirm mit ungeschirmten Paaren", "correct": false },
+      { "text": "Kupferkabel mit unverdrillten Adern", "correct": false }
+    ],
+    "explanation": "Merksatz: S/FTP kombiniert Gesamtschirmung mit einzeln folierten Adernpaaren."
+  },
+  {
+    "id": "lf-03-fach-strv-025",
+    "question": "Was beschreibt eine Kabelkategorie wie Cat 6?",
+    "answers": [
+      { "text": "Die Leistungsfähigkeit eines Kabels", "correct": true },
+      { "text": "Die Schirmungsart eines Patchfelds", "correct": false },
+      { "text": "Die Belegung einer Netzwerkdose", "correct": false },
+      { "text": "Die Topologie eines LAN-Segments", "correct": false }
+    ],
+    "explanation": "Merksatz: Kabelkategorien beschreiben elektrische Eigenschaften und mögliche Übertragungsleistungen."
+  },
+  {
+    "id": "lf-03-fach-strv-026",
+    "question": "Was beschreibt die Bandbreite eines Kabels?",
+    "answers": [
+      { "text": "Den nutzbaren Frequenzbereich", "correct": true },
+      { "text": "Die physische Kabellänge", "correct": false },
+      { "text": "Die Anzahl der Adernpaare", "correct": false },
+      { "text": "Die Art der Steckverbindung", "correct": false }
+    ],
+    "explanation": "Merksatz: Höhere Kabelbandbreite ermöglicht meist höhere Datenübertragungsraten."
+  },
+  {
+    "id": "lf-03-fach-strv-027",
+    "question": "Was ist ein Lichtwellenleiter?",
+    "answers": [
+      { "text": "Ein Medium für Lichtsignale", "correct": true },
+      { "text": "Ein Medium für elektrische Signale", "correct": false },
+      { "text": "Ein Kabel mit verdrillten Adernpaaren", "correct": false },
+      { "text": "Ein drahtloser WLAN-Kanal", "correct": false }
+    ],
+    "explanation": "Merksatz: Lichtwellenleiter übertragen Daten mit Licht über Glas- oder Kunststofffasern."
+  },
+  {
+    "id": "lf-03-fach-strv-028",
+    "question": "Was ist Dämpfung bei Leitungen?",
+    "answers": [
+      { "text": "Abnahme der Signalstärke", "correct": true },
+      { "text": "Erhöhung der Übertragungsfrequenz", "correct": false },
+      { "text": "Aufteilung in mehrere Kanäle", "correct": false },
+      { "text": "Verdrillung von Adernpaaren", "correct": false }
+    ],
+    "explanation": "Merksatz: Dämpfung schwächt Signale auf dem Übertragungsweg."
+  },
+  {
+    "id": "lf-03-fach-strv-029",
+    "question": "Was ist Multimode-Lichtwellenleiter?",
+    "answers": [
+      { "text": "Faser mit mehreren Lichtwegen", "correct": true },
+      { "text": "Faser mit einem Lichtweg", "correct": false },
+      { "text": "Kupferkabel mit verdrillten Paaren", "correct": false },
+      { "text": "Funkmedium mit mehreren Kanälen", "correct": false }
+    ],
+    "explanation": "Merksatz: Multimode nutzt mehrere Lichtwege und eignet sich eher für kürzere Strecken."
+  },
+  {
+    "id": "lf-03-fach-strv-030",
+    "question": "Was ist Singlemode-Lichtwellenleiter?",
+    "answers": [
+      { "text": "Faser mit einem Lichtweg", "correct": true },
+      { "text": "Faser mit mehreren Lichtwegen", "correct": false },
+      { "text": "Kupferkabel mit Gesamtschirmung", "correct": false },
+      { "text": "WLAN-Bereich mit Funkzelle", "correct": false }
+    ],
+    "explanation": "Merksatz: Singlemode nutzt einen sehr kleinen Kern und ist für große Entfernungen geeignet."
+  },
+  {
+    "id": "lf-03-fach-strv-031",
+    "question": "Was ist ein Funknetz?",
+    "answers": [
+      { "text": "Ein Netz über elektromagnetische Wellen", "correct": true },
+      { "text": "Ein Netz über Lichtwellenleiter", "correct": false },
+      { "text": "Ein Netz über verdrillte Kupferpaare", "correct": false },
+      { "text": "Ein Netz über feste Patchfelder", "correct": false }
+    ],
+    "explanation": "Merksatz: Funknetze übertragen Daten drahtlos über elektromagnetische Wellen."
+  },
+  {
+    "id": "lf-03-fach-strv-032",
+    "question": "Was ist WLAN?",
+    "answers": [
+      { "text": "Ein drahtloses lokales Netzwerk", "correct": true },
+      { "text": "Ein kabelgebundenes lokales Netzwerk", "correct": false },
+      { "text": "Ein Lichtwellenleiter-Netz", "correct": false },
+      { "text": "Ein Verteilerfeld für Leitungen", "correct": false }
+    ],
+    "explanation": "Merksatz: WLAN erweitert lokale Netzwerke drahtlos über Access Points oder Direktverbindungen."
+  },
+  {
+    "id": "lf-03-fach-strv-033",
+    "question": "Was ist eine Funkzelle?",
+    "answers": [
+      { "text": "Der abgedeckte Bereich eines Funknetzes", "correct": true },
+      { "text": "Der Frequenzbereich eines WLAN-Kanals", "correct": false },
+      { "text": "Der Verteilerpunkt einer Etage", "correct": false },
+      { "text": "Der Anschlussbereich einer Netzwerkdose", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Funkzelle beschreibt den Bereich, in dem ein Funknetz erreichbar ist."
+  },
+  {
+    "id": "lf-03-fach-strv-034",
+    "question": "Was ist ein WLAN-Kanal?",
+    "answers": [
+      { "text": "Ein Frequenzbereich im WLAN", "correct": true },
+      { "text": "Der abgedeckte Bereich eines Funknetzes", "correct": false },
+      { "text": "Ein Anschlussport am Patchpanel", "correct": false },
+      { "text": "Ein Übertragungsweg per Kupferleitung", "correct": false }
+    ],
+    "explanation": "Merksatz: WLAN-Kanäle teilen Funkfrequenzen in nutzbare Bereiche auf."
+  },
+  {
+    "id": "lf-03-fach-strv-035",
+    "question": "Was ist die Reichweite eines Netzwerkmediums?",
+    "answers": [
+      { "text": "Die überbrückbare Entfernung", "correct": true },
+      { "text": "Der nutzbare Frequenzbereich", "correct": false },
+      { "text": "Die Anzahl der Anschlussdosen", "correct": false },
+      { "text": "Die Zuordnung von Ports und Leitungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Reichweite beschreibt, wie weit ein Medium Daten zuverlässig übertragen kann."
+  },
+  {
+    "id": "lf-03-fach-strv-036",
+    "question": "Was ist ein Verteilerschrank?",
+    "answers": [
+      { "text": "Ein Schrank für Netzwerkverteilung", "correct": true },
+      { "text": "Eine Anschlussstelle für Endgeräte", "correct": false },
+      { "text": "Ein kurzes Verbindungskabel", "correct": false },
+      { "text": "Ein Übertragungsmedium für Funknetze", "correct": false }
+    ],
+    "explanation": "Merksatz: Verteilerschränke nehmen Patchpanels, Switches und Dokumentation der Verkabelung auf."
+  },
+  {
+    "id": "lf-03-fach-strv-037",
+    "question": "Was ist ein Netzwerkplan?",
+    "answers": [
+      { "text": "Eine Dokumentation der Netzstruktur", "correct": true },
+      { "text": "Eine Zuordnung von Ports und Leitungen", "correct": false },
+      { "text": "Ein Nachweis geprüfter Leitungswerte", "correct": false },
+      { "text": "Eine Liste aktiver WLAN-Kanäle", "correct": false }
+    ],
+    "explanation": "Merksatz: Netzwerkpläne dokumentieren Aufbau, Verbindungen und wichtige Komponenten."
+  },
+  {
+    "id": "lf-03-fach-strv-038",
+    "question": "Was ist ein Patchplan?",
+    "answers": [
+      { "text": "Eine Zuordnung von Ports und Leitungen", "correct": true },
+      { "text": "Eine Dokumentation der Netzstruktur", "correct": false },
+      { "text": "Ein Nachweis geprüfter Leitungswerte", "correct": false },
+      { "text": "Eine Übersicht verwendeter Funkzellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Patchpläne zeigen, welche Dosen, Patchfelder und Switchports verbunden sind."
+  },
+  {
+    "id": "lf-03-fach-strv-039",
+    "question": "Was ist eine Netzwerkdokumentation?",
+    "answers": [
+      { "text": "Eine Beschreibung der Netzwerkumgebung", "correct": true },
+      { "text": "Eine automatische IP-Konfiguration", "correct": false },
+      { "text": "Eine physische Kabelkategorie", "correct": false },
+      { "text": "Eine drahtlose Funkzelle", "correct": false }
+    ],
+    "explanation": "Merksatz: Netzwerkdokumentation hält Aufbau, Anschlüsse, Adressen und Änderungen nachvollziehbar fest."
+  },
+  {
+    "id": "lf-03-fach-strv-040",
+    "question": "Was ist ein Messprotokoll in der Verkabelung?",
+    "answers": [
+      { "text": "Ein Nachweis geprüfter Leitungswerte", "correct": true },
+      { "text": "Eine Zuordnung von Ports und Leitungen", "correct": false },
+      { "text": "Eine Beschreibung der Netzstruktur", "correct": false },
+      { "text": "Eine Übersicht der WLAN-Frequenzen", "correct": false }
+    ],
+    "explanation": "Merksatz: Messprotokolle dokumentieren, ob Leitungen die geforderten Eigenschaften erreichen."
+  }
+]

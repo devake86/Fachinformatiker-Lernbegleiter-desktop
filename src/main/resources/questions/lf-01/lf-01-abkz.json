@@ -1,0 +1,277 @@
+[
+  {
+    "id": "lf-01-abkz-001",
+    "question": "Wofür steht BBiG?",
+    "answers": [
+      { "text": "Berufsbildungsgesetz", "correct": true },
+      { "text": "Bundesbetriebsordnungsgesetz", "correct": false },
+      { "text": "Berufsberatungsinformationsgesetz", "correct": false },
+      { "text": "Betriebsbildungsgesellschaft", "correct": false }
+    ],
+    "explanation": "BBiG heißt Berufsbildungsgesetz."
+  },
+  {
+    "id": "lf-01-abkz-002",
+    "question": "Wofür steht BetrVG?",
+    "answers": [
+      { "text": "Betriebsverfassungsgesetz", "correct": true },
+      { "text": "Betriebsvertragsgesetz", "correct": false },
+      { "text": "Berufsvertretungsgesetz", "correct": false },
+      { "text": "Betriebsverwaltungsgrundsatz", "correct": false }
+    ],
+    "explanation": "BetrVG heißt Betriebsverfassungsgesetz."
+  },
+  {
+    "id": "lf-01-abkz-003",
+    "question": "Wofür steht BR?",
+    "answers": [
+      { "text": "Betriebsrat", "correct": true },
+      { "text": "Berufsrecht", "correct": false },
+      { "text": "Betriebsregel", "correct": false },
+      { "text": "Bundesrat", "correct": false }
+    ],
+    "explanation": "BR heißt Betriebsrat."
+  },
+  {
+    "id": "lf-01-abkz-004",
+    "question": "Wofür steht JAV?",
+    "answers": [
+      { "text": "Jugend- und Auszubildendenvertretung", "correct": true },
+      { "text": "Jährliche Arbeitsvertretung", "correct": false },
+      { "text": "Jugendlicher Arbeitsvertrag", "correct": false },
+      { "text": "Juristische Ausbildungsverwaltung", "correct": false }
+    ],
+    "explanation": "JAV heißt Jugend- und Auszubildendenvertretung."
+  },
+  {
+    "id": "lf-01-abkz-005",
+    "question": "Wofür steht TV im Arbeitsrecht?",
+    "answers": [
+      { "text": "Tarifvertrag", "correct": true },
+      { "text": "Teilzeitvereinbarung", "correct": false },
+      { "text": "Tätigkeitsverzeichnis", "correct": false },
+      { "text": "Technische Vorschrift", "correct": false }
+    ],
+    "explanation": "TV heißt Tarifvertrag."
+  },
+  {
+    "id": "lf-01-abkz-006",
+    "question": "Wofür steht GG?",
+    "answers": [
+      { "text": "Grundgesetz", "correct": true },
+      { "text": "Geschäftsgrundlage", "correct": false },
+      { "text": "Gesamtgehalt", "correct": false },
+      { "text": "Gemeinschaftsgesetz", "correct": false }
+    ],
+    "explanation": "GG heißt Grundgesetz."
+  },
+  {
+    "id": "lf-01-abkz-007",
+    "question": "Wofür steht e. K.?",
+    "answers": [
+      { "text": "eingetragener Kaufmann", "correct": true },
+      { "text": "einfacher Konzern", "correct": false },
+      { "text": "erweiterter Kredit", "correct": false },
+      { "text": "eingereichte Kapitalgesellschaft", "correct": false }
+    ],
+    "explanation": "e. K. heißt eingetragener Kaufmann."
+  },
+  {
+    "id": "lf-01-abkz-008",
+    "question": "Wofür steht GbR?",
+    "answers": [
+      { "text": "Gesellschaft bürgerlichen Rechts", "correct": true },
+      { "text": "Gemeinschaft betrieblicher Rechte", "correct": false },
+      { "text": "Gesellschaft beschränkter Rendite", "correct": false },
+      { "text": "Gewerblicher Betriebsrat", "correct": false }
+    ],
+    "explanation": "GbR heißt Gesellschaft bürgerlichen Rechts."
+  },
+  {
+    "id": "lf-01-abkz-009",
+    "question": "Wofür steht OHG?",
+    "answers": [
+      { "text": "Offene Handelsgesellschaft", "correct": true },
+      { "text": "Öffentliche Handelsgemeinschaft", "correct": false },
+      { "text": "Organisierte Haftungsgesellschaft", "correct": false },
+      { "text": "Offene Holdinggesellschaft", "correct": false }
+    ],
+    "explanation": "OHG heißt Offene Handelsgesellschaft."
+  },
+  {
+    "id": "lf-01-abkz-010",
+    "question": "Wofür steht KG?",
+    "answers": [
+      { "text": "Kommanditgesellschaft", "correct": true },
+      { "text": "Kapitalgemeinschaft", "correct": false },
+      { "text": "Kaufmännische Genossenschaft", "correct": false },
+      { "text": "Konzern­gesellschaft", "correct": false }
+    ],
+    "explanation": "KG heißt Kommanditgesellschaft."
+  },
+  {
+    "id": "lf-01-abkz-011",
+    "question": "Wofür steht GmbH?",
+    "answers": [
+      { "text": "Gesellschaft mit beschränkter Haftung", "correct": true },
+      { "text": "Gemeinschaft mit betrieblicher Hilfe", "correct": false },
+      { "text": "Gesellschaft mit besonderem Handel", "correct": false },
+      { "text": "Genossenschaft mit hoher Haftung", "correct": false }
+    ],
+    "explanation": "GmbH heißt Gesellschaft mit beschränkter Haftung."
+  },
+  {
+    "id": "lf-01-abkz-012",
+    "question": "Wofür steht UG?",
+    "answers": [
+      { "text": "Unternehmergesellschaft", "correct": true },
+      { "text": "Umsatzgemeinschaft", "correct": false },
+      { "text": "Unternehmensgewinn", "correct": false },
+      { "text": "Übernahmegesetz", "correct": false }
+    ],
+    "explanation": "UG heißt Unternehmergesellschaft."
+  },
+  {
+    "id": "lf-01-abkz-013",
+    "question": "Wofür steht AG?",
+    "answers": [
+      { "text": "Aktiengesellschaft", "correct": true },
+      { "text": "Arbeitsgemeinschaft", "correct": false },
+      { "text": "Ausbildungsgehalt", "correct": false },
+      { "text": "Arbeitgebergesetz", "correct": false }
+    ],
+    "explanation": "AG heißt Aktiengesellschaft."
+  },
+  {
+    "id": "lf-01-abkz-014",
+    "question": "Wofür steht eG?",
+    "answers": [
+      { "text": "eingetragene Genossenschaft", "correct": true },
+      { "text": "erweiterte Geschäftsführung", "correct": false },
+      { "text": "einheitliche Gesellschaft", "correct": false },
+      { "text": "eingetragener Grundstückskauf", "correct": false }
+    ],
+    "explanation": "eG heißt eingetragene Genossenschaft."
+  },
+  {
+    "id": "lf-01-abkz-015",
+    "question": "Wofür steht VVaG?",
+    "answers": [
+      { "text": "Versicherungsverein auf Gegenseitigkeit", "correct": true },
+      { "text": "Vertrag zur Verwaltung aller Güter", "correct": false },
+      { "text": "Verband von Verwaltungsangestellten", "correct": false },
+      { "text": "Verein für variable Gehälter", "correct": false }
+    ],
+    "explanation": "VVaG heißt Versicherungsverein auf Gegenseitigkeit."
+  },
+  {
+    "id": "lf-01-abkz-016",
+    "question": "Wofür steht HR?",
+    "answers": [
+      { "text": "Handelsregister", "correct": true },
+      { "text": "Haftungsrecht", "correct": false },
+      { "text": "Handlungsrahmen", "correct": false },
+      { "text": "Hauptrechnung", "correct": false }
+    ],
+    "explanation": "HR heißt Handelsregister."
+  },
+  {
+    "id": "lf-01-abkz-017",
+    "question": "Wofür steht ppa.?",
+    "answers": [
+      { "text": "per procura", "correct": true },
+      { "text": "pro persönlichem Auftrag", "correct": false },
+      { "text": "per privater Anweisung", "correct": false },
+      { "text": "prozentuale Personalabrechnung", "correct": false }
+    ],
+    "explanation": "ppa. heißt per procura."
+  },
+  {
+    "id": "lf-01-abkz-018",
+    "question": "Wofür steht i. V.?",
+    "answers": [
+      { "text": "in Vertretung", "correct": true },
+      { "text": "in Verantwortung", "correct": false },
+      { "text": "im Vertrag", "correct": false },
+      { "text": "interne Verwaltung", "correct": false }
+    ],
+    "explanation": "i. V. heißt in Vertretung."
+  },
+  {
+    "id": "lf-01-abkz-019",
+    "question": "Wofür steht i. A.?",
+    "answers": [
+      { "text": "im Auftrag", "correct": true },
+      { "text": "in Ausbildung", "correct": false },
+      { "text": "interne Abrechnung", "correct": false },
+      { "text": "im Arbeitsrecht", "correct": false }
+    ],
+    "explanation": "i. A. heißt im Auftrag."
+  },
+  {
+    "id": "lf-01-abkz-020",
+    "question": "Wofür steht SMART?",
+    "answers": [
+      { "text": "Spezifisch, Messbar, Akzeptiert, Realistisch, Terminierbar", "correct": true },
+      { "text": "Sicher, Modern, Aktiv, Rentabel, Technisch", "correct": false },
+      { "text": "Schnell, Messbar, Automatisch, Relevant, Teilbar", "correct": false },
+      { "text": "Sozial, Marktbezogen, Analytisch, Rechtlich, Technisch", "correct": false }
+    ],
+    "explanation": "SMART heißt Spezifisch, Messbar, Akzeptiert, Realistisch, Terminierbar."
+  },
+  {
+    "id": "lf-01-abkz-021",
+    "question": "Wofür steht QM?",
+    "answers": [
+      { "text": "Qualitätsmanagement", "correct": true },
+      { "text": "Quellenmanagement", "correct": false },
+      { "text": "Quantitätsmessung", "correct": false },
+      { "text": "Qualifikationsmodell", "correct": false }
+    ],
+    "explanation": "QM heißt Qualitätsmanagement."
+  },
+  {
+    "id": "lf-01-abkz-022",
+    "question": "Wofür steht TQM?",
+    "answers": [
+      { "text": "Total Quality Management", "correct": true },
+      { "text": "Technical Quality Method", "correct": false },
+      { "text": "Team Quantity Management", "correct": false },
+      { "text": "Tarifliches Qualitätsmodell", "correct": false }
+    ],
+    "explanation": "TQM heißt Total Quality Management."
+  },
+  {
+    "id": "lf-01-abkz-023",
+    "question": "Wofür steht KVP?",
+    "answers": [
+      { "text": "Kontinuierlicher Verbesserungsprozess", "correct": true },
+      { "text": "Kaufmännischer Verwaltungsprozess", "correct": false },
+      { "text": "Kosten- und Vertriebsplanung", "correct": false },
+      { "text": "Kontrollierter Vertragsprozess", "correct": false }
+    ],
+    "explanation": "KVP heißt Kontinuierlicher Verbesserungsprozess."
+  },
+  {
+    "id": "lf-01-abkz-024",
+    "question": "Wofür steht PDCA?",
+    "answers": [
+      { "text": "Plan, Do, Check, Act", "correct": true },
+      { "text": "Plan, Develop, Control, Archive", "correct": false },
+      { "text": "Process, Data, Cost, Audit", "correct": false },
+      { "text": "Prepare, Design, Create, Analyze", "correct": false }
+    ],
+    "explanation": "PDCA heißt Plan, Do, Check, Act."
+  },
+  {
+    "id": "lf-01-abkz-025",
+    "question": "Wofür steht BIP?",
+    "answers": [
+      { "text": "Bruttoinlandsprodukt", "correct": true },
+      { "text": "Betriebliches Informationsprodukt", "correct": false },
+      { "text": "Bruttoinvestitionsplan", "correct": false },
+      { "text": "Beruflicher Integrationsprozess", "correct": false }
+    ],
+    "explanation": "BIP heißt Bruttoinlandsprodukt."
+  }
+]

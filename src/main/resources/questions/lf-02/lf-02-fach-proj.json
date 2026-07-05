@@ -1,0 +1,552 @@
+[
+  {
+    "id": "lf-02-fach-proj-001",
+    "question": "Was ist ein Projekt?",
+    "answers": [
+      { "text": "Ein einmaliges Vorhaben mit Ziel und Begrenzung", "correct": true },
+      { "text": "Eine wiederkehrende Linientätigkeit im Betrieb", "correct": false },
+      { "text": "Ein dauerhaft laufender Regelprozess", "correct": false },
+      { "text": "Eine fortlaufende Routineaufgabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Projekt ist einmalig, zielgerichtet sowie zeitlich und ressourcenmäßig begrenzt."
+  },
+  {
+    "id": "lf-02-fach-proj-002",
+    "question": "Was ist ein Projektziel?",
+    "answers": [
+      { "text": "Ein angestrebtes Ergebnis des Projekts", "correct": true },
+      { "text": "Ein einzelnes Arbeitspaket im Projekt", "correct": false },
+      { "text": "Ein Meilenstein zur Kontrolle", "correct": false },
+      { "text": "Eine Ressource für die Durchführung", "correct": false }
+    ],
+    "explanation": "Merksatz: Projektziele beschreiben, was am Ende erreicht sein soll."
+  },
+  {
+    "id": "lf-02-fach-proj-003",
+    "question": "Was bedeutet SMART bei Projektzielen?",
+    "answers": [
+      { "text": "Spezifisch, Messbar, Akzeptiert, Realistisch, Terminierbar", "correct": true },
+      { "text": "Start, Meilenstein, Aufwand, Risiko, Termin", "correct": false },
+      { "text": "Struktur, Methode, Aufgabe, Ressource, Team", "correct": false },
+      { "text": "Sollwert, Messpunkt, Analyse, Review, Test", "correct": false }
+    ],
+    "explanation": "Merksatz: SMART hilft, Ziele eindeutig, prüfbar und erreichbar zu formulieren."
+  },
+  {
+    "id": "lf-02-fach-proj-004",
+    "question": "Was bedeutet spezifisch bei SMART?",
+    "answers": [
+      { "text": "Das Ziel ist klar und eindeutig formuliert", "correct": true },
+      { "text": "Das Ziel enthält messbare Kennzahlen", "correct": false },
+      { "text": "Das Ziel wird von Beteiligten getragen", "correct": false },
+      { "text": "Das Ziel besitzt einen Endtermin", "correct": false }
+    ],
+    "explanation": "Merksatz: Spezifisch bedeutet, dass klar ist, was genau erreicht werden soll."
+  },
+  {
+    "id": "lf-02-fach-proj-005",
+    "question": "Was bedeutet messbar bei SMART?",
+    "answers": [
+      { "text": "Das Ziel kann überprüft werden", "correct": true },
+      { "text": "Das Ziel ist eindeutig beschrieben", "correct": false },
+      { "text": "Das Ziel ist zeitlich festgelegt", "correct": false },
+      { "text": "Das Ziel wird von Beteiligten akzeptiert", "correct": false }
+    ],
+    "explanation": "Merksatz: Messbar bedeutet, dass Erfolg anhand von Kriterien festgestellt werden kann."
+  },
+  {
+    "id": "lf-02-fach-proj-006",
+    "question": "Was bedeutet akzeptiert bei SMART?",
+    "answers": [
+      { "text": "Das Ziel wird von Beteiligten mitgetragen", "correct": true },
+      { "text": "Das Ziel ist anhand von Kriterien prüfbar", "correct": false },
+      { "text": "Das Ziel ist mit einem Termin versehen", "correct": false },
+      { "text": "Das Ziel beschreibt ein konkretes Ergebnis", "correct": false }
+    ],
+    "explanation": "Merksatz: Akzeptierte Ziele erhöhen die Bereitschaft zur Umsetzung."
+  },
+  {
+    "id": "lf-02-fach-proj-007",
+    "question": "Was bedeutet realistisch bei SMART?",
+    "answers": [
+      { "text": "Das Ziel ist mit vorhandenen Mitteln erreichbar", "correct": true },
+      { "text": "Das Ziel ist besonders detailliert beschrieben", "correct": false },
+      { "text": "Das Ziel besitzt klare Messkriterien", "correct": false },
+      { "text": "Das Ziel hat einen festen Kontrolltermin", "correct": false }
+    ],
+    "explanation": "Merksatz: Realistisch bedeutet, dass Ziel, Zeit, Kosten und Ressourcen zusammenpassen."
+  },
+  {
+    "id": "lf-02-fach-proj-008",
+    "question": "Was bedeutet terminierbar bei SMART?",
+    "answers": [
+      { "text": "Das Ziel hat einen klaren Zeitpunkt", "correct": true },
+      { "text": "Das Ziel ist fachlich eindeutig formuliert", "correct": false },
+      { "text": "Das Ziel wird von Beteiligten getragen", "correct": false },
+      { "text": "Das Ziel passt zu vorhandenen Ressourcen", "correct": false }
+    ],
+    "explanation": "Merksatz: Terminierbar bedeutet, dass ein Abschluss- oder Kontrolltermin festgelegt ist."
+  },
+  {
+    "id": "lf-02-fach-proj-009",
+    "question": "Was beschreibt IPERKA?",
+    "answers": [
+      { "text": "Einen strukturierten Handlungsablauf", "correct": true },
+      { "text": "Eine Methode zur Zielmessung", "correct": false },
+      { "text": "Eine Darstellung von Projektzeiten", "correct": false },
+      { "text": "Eine Zerlegung in Arbeitspakete", "correct": false }
+    ],
+    "explanation": "Merksatz: IPERKA steht für Informieren, Planen, Entscheiden, Realisieren, Kontrollieren und Auswerten."
+  },
+  {
+    "id": "lf-02-fach-proj-010",
+    "question": "Was bedeutet Informieren im IPERKA-Modell?",
+    "answers": [
+      { "text": "Informationen und Anforderungen sammeln", "correct": true },
+      { "text": "Eine passende Alternative auswählen", "correct": false },
+      { "text": "Die geplante Lösung umsetzen", "correct": false },
+      { "text": "Ergebnisse rückblickend bewerten", "correct": false }
+    ],
+    "explanation": "Merksatz: In der Informationsphase werden Ausgangslage, Bedarf und Rahmenbedingungen erfasst."
+  },
+  {
+    "id": "lf-02-fach-proj-011",
+    "question": "Was bedeutet Planen im IPERKA-Modell?",
+    "answers": [
+      { "text": "Vorgehen, Ressourcen und Termine festlegen", "correct": true },
+      { "text": "Informationen und Anforderungen sammeln", "correct": false },
+      { "text": "Die gewählte Lösung durchführen", "correct": false },
+      { "text": "Das Ergebnis mit Vorgaben vergleichen", "correct": false }
+    ],
+    "explanation": "Merksatz: Planen bereitet die Umsetzung strukturiert vor."
+  },
+  {
+    "id": "lf-02-fach-proj-012",
+    "question": "Was bedeutet Entscheiden im IPERKA-Modell?",
+    "answers": [
+      { "text": "Eine passende Alternative auswählen", "correct": true },
+      { "text": "Rahmenbedingungen und Bedarf erfassen", "correct": false },
+      { "text": "Vorgehen und Termine festlegen", "correct": false },
+      { "text": "Ergebnisse und Vorgehen bewerten", "correct": false }
+    ],
+    "explanation": "Merksatz: Entscheiden bedeutet, auf Basis der Planung eine Lösung festzulegen."
+  },
+  {
+    "id": "lf-02-fach-proj-013",
+    "question": "Was bedeutet Realisieren im IPERKA-Modell?",
+    "answers": [
+      { "text": "Die geplante Lösung umsetzen", "correct": true },
+      { "text": "Informationen und Anforderungen sammeln", "correct": false },
+      { "text": "Eine Alternative auswählen", "correct": false },
+      { "text": "Das Ergebnis rückblickend bewerten", "correct": false }
+    ],
+    "explanation": "Merksatz: Realisieren ist die eigentliche Durchführung der geplanten Arbeit."
+  },
+  {
+    "id": "lf-02-fach-proj-014",
+    "question": "Was bedeutet Kontrollieren im IPERKA-Modell?",
+    "answers": [
+      { "text": "Das Ergebnis mit Vorgaben vergleichen", "correct": true },
+      { "text": "Informationen zum Auftrag sammeln", "correct": false },
+      { "text": "Eine Lösung technisch umsetzen", "correct": false },
+      { "text": "Erfahrungen für später auswerten", "correct": false }
+    ],
+    "explanation": "Merksatz: Kontrollieren prüft, ob die Anforderungen erfüllt wurden."
+  },
+  {
+    "id": "lf-02-fach-proj-015",
+    "question": "Was bedeutet Auswerten im IPERKA-Modell?",
+    "answers": [
+      { "text": "Ergebnisse und Vorgehen rückblickend bewerten", "correct": true },
+      { "text": "Ausgangslage und Anforderungen erfassen", "correct": false },
+      { "text": "Ressourcen und Termine festlegen", "correct": false },
+      { "text": "Die geplante Lösung durchführen", "correct": false }
+    ],
+    "explanation": "Merksatz: Auswerten hilft, aus einem Auftrag oder Projekt für spätere Arbeiten zu lernen."
+  },
+  {
+    "id": "lf-02-fach-proj-016",
+    "question": "Was ist Projektplanung?",
+    "answers": [
+      { "text": "Die Vorbereitung von Terminen, Kosten und Ressourcen", "correct": true },
+      { "text": "Die abschließende Bewertung des Projekts", "correct": false },
+      { "text": "Die formale Bestätigung der Leistung", "correct": false },
+      { "text": "Die Übergabe fertiger Ergebnisse", "correct": false }
+    ],
+    "explanation": "Merksatz: Projektplanung legt fest, was wann, womit und durch wen erledigt wird."
+  },
+  {
+    "id": "lf-02-fach-proj-017",
+    "question": "Was ist eine Projektphase?",
+    "answers": [
+      { "text": "Ein abgegrenzter Abschnitt im Projekt", "correct": true },
+      { "text": "Ein einzelner Kontrolltermin", "correct": false },
+      { "text": "Eine Ressource im Projektteam", "correct": false },
+      { "text": "Ein Risiko mit Eintrittswahrscheinlichkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Projektphasen gliedern ein Projekt zeitlich oder sachlich."
+  },
+  {
+    "id": "lf-02-fach-proj-018",
+    "question": "Was ist ein Phasenmodell?",
+    "answers": [
+      { "text": "Eine Gliederung des Projekts in Abschnitte", "correct": true },
+      { "text": "Eine Liste einzelner Projektvorgänge", "correct": false },
+      { "text": "Eine Zeitachsen-Darstellung mit Balken", "correct": false },
+      { "text": "Eine Hierarchie aller Arbeitspakete", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Phasenmodell strukturiert Projekte z. B. in Analyse, Planung, Durchführung und Abschluss."
+  },
+  {
+    "id": "lf-02-fach-proj-019",
+    "question": "Was ist ein Arbeitspaket?",
+    "answers": [
+      { "text": "Eine klar abgegrenzte Teilaufgabe", "correct": true },
+      { "text": "Ein wichtiger Entscheidungspunkt", "correct": false },
+      { "text": "Eine Projektphase mit mehreren Zielen", "correct": false },
+      { "text": "Eine Zeitreserve im Netzplan", "correct": false }
+    ],
+    "explanation": "Merksatz: Arbeitspakete machen Aufgaben planbar, zuordenbar und kontrollierbar."
+  },
+  {
+    "id": "lf-02-fach-proj-020",
+    "question": "Was ist ein Projektstrukturplan?",
+    "answers": [
+      { "text": "Eine hierarchische Zerlegung des Projekts", "correct": true },
+      { "text": "Eine Zeitachsen-Darstellung von Vorgängen", "correct": false },
+      { "text": "Eine Darstellung von Vorgangsabhängigkeiten", "correct": false },
+      { "text": "Eine Übersicht zentraler Kontrolltermine", "correct": false }
+    ],
+    "explanation": "Merksatz: Der PSP zeigt, aus welchen Teilaufgaben und Arbeitspaketen ein Projekt besteht."
+  },
+  {
+    "id": "lf-02-fach-proj-021",
+    "question": "Was ist eine Top-down-Planung?",
+    "answers": [
+      { "text": "Planung vom Gesamtprojekt zu Details", "correct": true },
+      { "text": "Planung von Einzelaufgaben zum Gesamtplan", "correct": false },
+      { "text": "Planung über Netzplanabhängigkeiten", "correct": false },
+      { "text": "Planung entlang einer Zeitachse", "correct": false }
+    ],
+    "explanation": "Merksatz: Top-down beginnt mit dem Gesamtziel und zerlegt es schrittweise."
+  },
+  {
+    "id": "lf-02-fach-proj-022",
+    "question": "Was ist eine Bottom-up-Planung?",
+    "answers": [
+      { "text": "Planung von Einzelaufgaben zum Gesamtplan", "correct": true },
+      { "text": "Planung vom Gesamtprojekt zu Details", "correct": false },
+      { "text": "Planung über wichtige Kontrollpunkte", "correct": false },
+      { "text": "Planung durch Vorgangsbalken", "correct": false }
+    ],
+    "explanation": "Merksatz: Bottom-up sammelt Teilaufgaben und setzt daraus den Gesamtplan zusammen."
+  },
+  {
+    "id": "lf-02-fach-proj-023",
+    "question": "Was ist ein Meilenstein?",
+    "answers": [
+      { "text": "Ein wichtiger Kontroll- oder Entscheidungspunkt", "correct": true },
+      { "text": "Eine Teilaufgabe mit geschätzter Dauer", "correct": false },
+      { "text": "Eine Ressource für die Durchführung", "correct": false },
+      { "text": "Eine Verzögerungszeit im Netzplan", "correct": false }
+    ],
+    "explanation": "Merksatz: Meilensteine markieren wichtige Ergebnisse oder Entscheidungen im Projekt."
+  },
+  {
+    "id": "lf-02-fach-proj-024",
+    "question": "Was ist ein Meilensteinplan?",
+    "answers": [
+      { "text": "Eine Übersicht wichtiger Projektpunkte", "correct": true },
+      { "text": "Eine Hierarchie aller Arbeitspakete", "correct": false },
+      { "text": "Eine Liste aller Ressourcen und Kosten", "correct": false },
+      { "text": "Eine Darstellung aller Abhängigkeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Meilensteinplan zeigt zentrale Termine, Ergebnisse und Prüfpunkte."
+  },
+  {
+    "id": "lf-02-fach-proj-025",
+    "question": "Was ist ein Gantt-Diagramm?",
+    "answers": [
+      { "text": "Eine Zeitachsen-Darstellung von Vorgängen", "correct": true },
+      { "text": "Eine hierarchische Projektzerlegung", "correct": false },
+      { "text": "Eine Abhängigkeitsdarstellung im Netzplan", "correct": false },
+      { "text": "Eine Liste fachlicher Anforderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Gantt-Diagramm zeigt Vorgänge als Balken auf einer Zeitachse."
+  },
+  {
+    "id": "lf-02-fach-proj-026",
+    "question": "Was ist ein Balkendiagramm im Projektmanagement?",
+    "answers": [
+      { "text": "Eine grafische Darstellung von Vorgangsdauern", "correct": true },
+      { "text": "Eine hierarchische Zerlegung in Arbeitspakete", "correct": false },
+      { "text": "Eine Bewertung von Projektrisiken", "correct": false },
+      { "text": "Eine Sammlung von Projektanforderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Balkendiagramme machen zeitliche Abläufe leicht sichtbar."
+  },
+  {
+    "id": "lf-02-fach-proj-027",
+    "question": "Was ist ein Netzplan im Projektmanagement?",
+    "answers": [
+      { "text": "Eine Darstellung von Vorgängen und Abhängigkeiten", "correct": true },
+      { "text": "Eine Zeitachsen-Darstellung mit Balken", "correct": false },
+      { "text": "Eine Übersicht der Projektkosten", "correct": false },
+      { "text": "Eine Sammlung von Kundenanforderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Netzplan zeigt, welche Vorgänge voneinander abhängen."
+  },
+  {
+    "id": "lf-02-fach-proj-028",
+    "question": "Was ist eine Vorgangsliste?",
+    "answers": [
+      { "text": "Eine Liste geplanter Projektvorgänge", "correct": true },
+      { "text": "Eine Liste wichtiger Projektmeilensteine", "correct": false },
+      { "text": "Eine Liste aller Projektrisiken", "correct": false },
+      { "text": "Eine Liste offener Abnahmemängel", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Vorgangsliste enthält Aufgaben, Dauer, Reihenfolge und Abhängigkeiten."
+  },
+  {
+    "id": "lf-02-fach-proj-029",
+    "question": "Was ist ein Vorgang im Netzplan?",
+    "answers": [
+      { "text": "Eine einzelne planbare Tätigkeit", "correct": true },
+      { "text": "Ein zentraler Kontrollpunkt", "correct": false },
+      { "text": "Eine Ressource im Projekt", "correct": false },
+      { "text": "Eine Abschlussbewertung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Vorgang hat meist eine Dauer und kann von anderen Vorgängen abhängen."
+  },
+  {
+    "id": "lf-02-fach-proj-030",
+    "question": "Was ist eine Abhängigkeit im Netzplan?",
+    "answers": [
+      { "text": "Eine Reihenfolgebeziehung zwischen Vorgängen", "correct": true },
+      { "text": "Eine Zeitreserve eines Vorgangs", "correct": false },
+      { "text": "Eine Kostenposition im Projektbudget", "correct": false },
+      { "text": "Ein Kontrollpunkt im Meilensteinplan", "correct": false }
+    ],
+    "explanation": "Merksatz: Abhängigkeiten zeigen, welche Vorgänge erst nach anderen starten können."
+  },
+  {
+    "id": "lf-02-fach-proj-031",
+    "question": "Was ist der früheste Anfangszeitpunkt?",
+    "answers": [
+      { "text": "Der früheste mögliche Start eines Vorgangs", "correct": true },
+      { "text": "Der früheste mögliche Abschluss eines Vorgangs", "correct": false },
+      { "text": "Der späteste Start ohne Projektverzögerung", "correct": false },
+      { "text": "Der späteste Abschluss ohne Projektverzögerung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der früheste Anfangszeitpunkt ergibt sich aus Vorgängern und deren Dauer."
+  },
+  {
+    "id": "lf-02-fach-proj-032",
+    "question": "Was ist der früheste Endzeitpunkt?",
+    "answers": [
+      { "text": "Der früheste mögliche Abschluss eines Vorgangs", "correct": true },
+      { "text": "Der früheste mögliche Start eines Vorgangs", "correct": false },
+      { "text": "Der späteste Start ohne Projektverzögerung", "correct": false },
+      { "text": "Der späteste Abschluss ohne Projektverzögerung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der früheste Endzeitpunkt ergibt sich aus frühestem Anfang plus Dauer."
+  },
+  {
+    "id": "lf-02-fach-proj-033",
+    "question": "Was ist der späteste Anfangszeitpunkt?",
+    "answers": [
+      { "text": "Der späteste Start ohne Projektverzögerung", "correct": true },
+      { "text": "Der früheste mögliche Start eines Vorgangs", "correct": false },
+      { "text": "Der früheste mögliche Abschluss eines Vorgangs", "correct": false },
+      { "text": "Der späteste Abschluss ohne Projektverzögerung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der späteste Anfang zeigt, wann ein Vorgang spätestens starten darf."
+  },
+  {
+    "id": "lf-02-fach-proj-034",
+    "question": "Was ist der späteste Endzeitpunkt?",
+    "answers": [
+      { "text": "Der späteste Abschluss ohne Projektverzögerung", "correct": true },
+      { "text": "Der früheste mögliche Abschluss eines Vorgangs", "correct": false },
+      { "text": "Der früheste mögliche Start eines Vorgangs", "correct": false },
+      { "text": "Der späteste Start ohne Projektverzögerung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der späteste Endzeitpunkt zeigt, wann ein Vorgang spätestens fertig sein muss."
+  },
+  {
+    "id": "lf-02-fach-proj-035",
+    "question": "Was ist Gesamtpuffer?",
+    "answers": [
+      { "text": "Verzögerungszeit ohne Verschiebung des Projektendes", "correct": true },
+      { "text": "Verzögerungszeit ohne Verschiebung nachfolgender Vorgänge", "correct": false },
+      { "text": "Die Vorgangskette mit kritischer Dauer", "correct": false },
+      { "text": "Der früheste mögliche Projektstart", "correct": false }
+    ],
+    "explanation": "Merksatz: Gesamtpuffer zeigt, wie lange ein Vorgang verspätet sein darf, ohne das Projektende zu verschieben."
+  },
+  {
+    "id": "lf-02-fach-proj-036",
+    "question": "Was ist freier Puffer?",
+    "answers": [
+      { "text": "Verzögerungszeit ohne Verschiebung nachfolgender Vorgänge", "correct": true },
+      { "text": "Verzögerungszeit ohne Verschiebung des Projektendes", "correct": false },
+      { "text": "Die Vorgangskette ohne Zeitreserve", "correct": false },
+      { "text": "Der späteste mögliche Projektabschluss", "correct": false }
+    ],
+    "explanation": "Merksatz: Freier Puffer kann genutzt werden, ohne den frühesten Start nachfolgender Vorgänge zu ändern."
+  },
+  {
+    "id": "lf-02-fach-proj-037",
+    "question": "Was ist der kritische Pfad?",
+    "answers": [
+      { "text": "Die Vorgangskette ohne Zeitpuffer", "correct": true },
+      { "text": "Die Vorgangskette mit freiem Puffer", "correct": false },
+      { "text": "Die Übersicht wichtiger Meilensteine", "correct": false },
+      { "text": "Die hierarchische Zerlegung des Projekts", "correct": false }
+    ],
+    "explanation": "Merksatz: Verzögerungen auf dem kritischen Pfad verschieben direkt das Projektende."
+  },
+  {
+    "id": "lf-02-fach-proj-038",
+    "question": "Was ist das magische Dreieck im Projektmanagement?",
+    "answers": [
+      { "text": "Das Verhältnis von Zeit, Kosten und Qualität", "correct": true },
+      { "text": "Das Verhältnis von Ziel, Phase und Vorgang", "correct": false },
+      { "text": "Das Verhältnis von Meilenstein, Puffer und Pfad", "correct": false },
+      { "text": "Das Verhältnis von Lastenheft, Plan und Abnahme", "correct": false }
+    ],
+    "explanation": "Merksatz: Zeit, Kosten und Qualität beeinflussen sich gegenseitig im Projekt."
+  },
+  {
+    "id": "lf-02-fach-proj-039",
+    "question": "Was ist eine Risikoanalyse im Projekt?",
+    "answers": [
+      { "text": "Die Bewertung möglicher Projektrisiken", "correct": true },
+      { "text": "Die Berechnung geplanter Projektkosten", "correct": false },
+      { "text": "Die Gliederung des Projekts in Phasen", "correct": false },
+      { "text": "Die Dokumentation der Übergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Risikoanalyse erkennt mögliche Probleme früh und unterstützt Gegenmaßnahmen."
+  },
+  {
+    "id": "lf-02-fach-proj-040",
+    "question": "Was ist ein Kostenplan?",
+    "answers": [
+      { "text": "Eine Planung der erwarteten Projektkosten", "correct": true },
+      { "text": "Eine Planung benötigter Personen und Mittel", "correct": false },
+      { "text": "Eine Planung zur Qualitätssicherung", "correct": false },
+      { "text": "Eine Planung von Vorgangsabhängigkeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Kostenplan unterstützt Budgetkontrolle und Wirtschaftlichkeit."
+  },
+  {
+    "id": "lf-02-fach-proj-041",
+    "question": "Was ist ein Ressourcenplan?",
+    "answers": [
+      { "text": "Eine Planung benötigter Mittel und Personen", "correct": true },
+      { "text": "Eine Planung der erwarteten Projektkosten", "correct": false },
+      { "text": "Eine Planung von Qualitätsprüfungen", "correct": false },
+      { "text": "Eine Planung der Abnahmefreigabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Ressourcenplanung berücksichtigt Personal, Sachmittel, Zeit und Budget."
+  },
+  {
+    "id": "lf-02-fach-proj-042",
+    "question": "Was ist ein Qualitätsplan?",
+    "answers": [
+      { "text": "Eine Planung zur Sicherung geforderter Qualität", "correct": true },
+      { "text": "Eine Planung aller erwarteten Kosten", "correct": false },
+      { "text": "Eine Planung von Personal und Sachmitteln", "correct": false },
+      { "text": "Eine Planung einzelner Zahlungstermine", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Qualitätsplan legt fest, wie Qualität geprüft und abgesichert wird."
+  },
+  {
+    "id": "lf-02-fach-proj-043",
+    "question": "Was ist ein Soll-Ist-Vergleich?",
+    "answers": [
+      { "text": "Der Vergleich von geplantem und tatsächlichem Zustand", "correct": true },
+      { "text": "Der Vergleich von Risiken und Maßnahmen", "correct": false },
+      { "text": "Der Vergleich von Phasen und Meilensteinen", "correct": false },
+      { "text": "Der Vergleich von Lastenheft und Angebot", "correct": false }
+    ],
+    "explanation": "Merksatz: Soll-Ist-Vergleiche zeigen Abweichungen zwischen Planung und Realität."
+  },
+  {
+    "id": "lf-02-fach-proj-044",
+    "question": "Was ist eine Abnahme im Projekt?",
+    "answers": [
+      { "text": "Die formale Bestätigung der Leistung", "correct": true },
+      { "text": "Die erste Sammlung von Anforderungen", "correct": false },
+      { "text": "Die Planung von Ressourcen und Kosten", "correct": false },
+      { "text": "Die Zerlegung in Arbeitspakete", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei der Abnahme wird geprüft, ob die vereinbarte Leistung erfüllt wurde."
+  },
+  {
+    "id": "lf-02-fach-proj-045",
+    "question": "Was ist ein Abnahmeprotokoll?",
+    "answers": [
+      { "text": "Eine Dokumentation der Abnahmeprüfung", "correct": true },
+      { "text": "Eine Übersicht geplanter Vorgänge", "correct": false },
+      { "text": "Eine Sammlung fachlicher Anforderungen", "correct": false },
+      { "text": "Eine Darstellung der Vorgangsdauern", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Abnahmeprotokoll hält Prüfergebnisse, Mängel und Freigabe fest."
+  },
+  {
+    "id": "lf-02-fach-proj-046",
+    "question": "Was ist ein Übergabeprotokoll?",
+    "answers": [
+      { "text": "Eine Dokumentation der Übergabe an den Kunden", "correct": true },
+      { "text": "Eine Dokumentation geplanter Risiken", "correct": false },
+      { "text": "Eine Übersicht der Projektstruktur", "correct": false },
+      { "text": "Eine Berechnung von Pufferzeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Übergabeprotokoll dokumentiert Zustand, Übergabe, Einweisung und offene Punkte."
+  },
+  {
+    "id": "lf-02-fach-proj-047",
+    "question": "Was ist ein Projektabschluss?",
+    "answers": [
+      { "text": "Die geordnete Beendigung eines Projekts", "correct": true },
+      { "text": "Die erste Informationssammlung", "correct": false },
+      { "text": "Die Auswahl einer Projektalternative", "correct": false },
+      { "text": "Die Erstellung erster Projektziele", "correct": false }
+    ],
+    "explanation": "Merksatz: Zum Projektabschluss gehören Abnahme, Dokumentation, Übergabe und Auswertung."
+  },
+  {
+    "id": "lf-02-fach-proj-048",
+    "question": "Was ist Projektdokumentation?",
+    "answers": [
+      { "text": "Die nachvollziehbare Sammlung wichtiger Projektdaten", "correct": true },
+      { "text": "Die grafische Darstellung von Vorgangsdauern", "correct": false },
+      { "text": "Die Berechnung von frühesten Zeitpunkten", "correct": false },
+      { "text": "Die Auswahl einer Projektalternative", "correct": false }
+    ],
+    "explanation": "Merksatz: Projektdokumentation macht Entscheidungen, Ergebnisse und Änderungen nachvollziehbar."
+  },
+  {
+    "id": "lf-02-fach-proj-049",
+    "question": "Was ist ein Lastenheft im Projektzusammenhang?",
+    "answers": [
+      { "text": "Die Anforderungssammlung des Auftraggebers", "correct": true },
+      { "text": "Die Umsetzungsvorgabe des Auftragnehmers", "correct": false },
+      { "text": "Die Dokumentation der Abnahmeprüfung", "correct": false },
+      { "text": "Die Darstellung von Vorgangsabhängigkeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Lastenheft beschreibt aus Kundensicht, was erreicht werden soll."
+  },
+  {
+    "id": "lf-02-fach-proj-050",
+    "question": "Was ist ein Pflichtenheft im Projektzusammenhang?",
+    "answers": [
+      { "text": "Die Umsetzungsvorgabe des Auftragnehmers", "correct": true },
+      { "text": "Die Anforderungssammlung des Auftraggebers", "correct": false },
+      { "text": "Eine Übersicht wichtiger Meilensteine", "correct": false },
+      { "text": "Eine Dokumentation der Kundenübergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Pflichtenheft beschreibt, wie Anforderungen technisch und organisatorisch umgesetzt werden."
+  }
+]

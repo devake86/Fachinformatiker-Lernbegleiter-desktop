@@ -1,0 +1,585 @@
+[
+  {
+    "id": "lf-03-fach-modl-001",
+    "question": "Was ist ein Netzwerkprotokoll?",
+    "answers": [
+      { "text": "Eine Regel für Datenkommunikation", "correct": true },
+      { "text": "Ein Modell zur Schichtung von Aufgaben", "correct": false },
+      { "text": "Eine Dateneinheit einer Protokollschicht", "correct": false },
+      { "text": "Ein Standard für lokale Ethernet-Frames", "correct": false }
+    ],
+    "explanation": "Merksatz: Protokolle legen fest, wie Systeme Daten austauschen."
+  },
+  {
+    "id": "lf-03-fach-modl-002",
+    "question": "Was beschreibt ein Schichtenmodell in Netzwerken?",
+    "answers": [
+      { "text": "Kommunikation in getrennten Ebenen", "correct": true },
+      { "text": "Regeln für eine einzelne Datenübertragung", "correct": false },
+      { "text": "Dateneinheiten verschiedener Protokolle", "correct": false },
+      { "text": "Adressierung innerhalb eines IP-Netzes", "correct": false }
+    ],
+    "explanation": "Merksatz: Schichtenmodelle zerlegen Netzwerkkommunikation in nachvollziehbare Aufgabenbereiche."
+  },
+  {
+    "id": "lf-03-fach-modl-003",
+    "question": "Was ist das OSI-Modell?",
+    "answers": [
+      { "text": "Ein Referenzmodell mit sieben Schichten", "correct": true },
+      { "text": "Ein praxisnahes Modell mit vier Schichten", "correct": false },
+      { "text": "Ein Protokoll für zuverlässigen Transport", "correct": false },
+      { "text": "Ein Ethernet-Standard für VLAN-Tags", "correct": false }
+    ],
+    "explanation": "Merksatz: Das OSI-Modell beschreibt Netzwerkkommunikation in sieben Schichten."
+  },
+  {
+    "id": "lf-03-fach-modl-004",
+    "question": "Was ist die Bitübertragungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Die Schicht für physische Signalübertragung", "correct": true },
+      { "text": "Die Schicht für Frames und MAC-Adressen", "correct": false },
+      { "text": "Die Schicht für Routing und IP-Pakete", "correct": false },
+      { "text": "Die Schicht für Ende-zu-Ende-Transport", "correct": false }
+    ],
+    "explanation": "Merksatz: Layer 1 überträgt Bits über Medien wie Kupfer, Glasfaser oder Funk."
+  },
+  {
+    "id": "lf-03-fach-modl-005",
+    "question": "Was ist die Sicherungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Die Schicht für Frames und MAC-Adressen", "correct": true },
+      { "text": "Die Schicht für physische Signalübertragung", "correct": false },
+      { "text": "Die Schicht für Routing und IP-Pakete", "correct": false },
+      { "text": "Die Schicht für Anwendungsprotokolle", "correct": false }
+    ],
+    "explanation": "Merksatz: Layer 2 regelt lokale Übertragung, Frames und MAC-basierte Zustellung."
+  },
+  {
+    "id": "lf-03-fach-modl-006",
+    "question": "Was ist die Vermittlungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Die Schicht für Routing und IP-Pakete", "correct": true },
+      { "text": "Die Schicht für Frames und MAC-Adressen", "correct": false },
+      { "text": "Die Schicht für TCP- und UDP-Transport", "correct": false },
+      { "text": "Die Schicht für Datenformate und Kodierung", "correct": false }
+    ],
+    "explanation": "Merksatz: Layer 3 befasst sich mit IP-Adressen, Paketen und Routing zwischen Netzen."
+  },
+  {
+    "id": "lf-03-fach-modl-007",
+    "question": "Was ist die Transportschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Die Schicht für Ende-zu-Ende-Transport", "correct": true },
+      { "text": "Die Schicht für IP-Adressierung und Routing", "correct": false },
+      { "text": "Die Schicht für Kommunikationssitzungen", "correct": false },
+      { "text": "Die Schicht für Frames im lokalen Netz", "correct": false }
+    ],
+    "explanation": "Merksatz: Layer 4 transportiert Daten zwischen Anwendungen, z. B. über TCP oder UDP."
+  },
+  {
+    "id": "lf-03-fach-modl-008",
+    "question": "Was ist die Sitzungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Die Schicht für Kommunikationssitzungen", "correct": true },
+      { "text": "Die Schicht für Ende-zu-Ende-Transport", "correct": false },
+      { "text": "Die Schicht für Datenformate und Darstellung", "correct": false },
+      { "text": "Die Schicht für IP-Pakete und Routing", "correct": false }
+    ],
+    "explanation": "Merksatz: Layer 5 steuert Sitzungen zwischen Anwendungen und hält Dialoge geordnet."
+  },
+  {
+    "id": "lf-03-fach-modl-009",
+    "question": "Was ist die Darstellungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Die Schicht für Datenformate und Darstellung", "correct": true },
+      { "text": "Die Schicht für Kommunikationssitzungen", "correct": false },
+      { "text": "Die Schicht für netznahe Anwendungsdienste", "correct": false },
+      { "text": "Die Schicht für Ende-zu-Ende-Transport", "correct": false }
+    ],
+    "explanation": "Merksatz: Layer 6 bereitet Datenformate auf, z. B. Kodierung, Kompression oder Verschlüsselung."
+  },
+  {
+    "id": "lf-03-fach-modl-010",
+    "question": "Was ist die Anwendungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Die Schicht für netznahe Anwendungsdienste", "correct": true },
+      { "text": "Die Schicht für Datenformate und Darstellung", "correct": false },
+      { "text": "Die Schicht für Kommunikationssitzungen", "correct": false },
+      { "text": "Die Schicht für IP-Adressierung und Routing", "correct": false }
+    ],
+    "explanation": "Merksatz: Layer 7 stellt Netzwerkdienste für Anwendungen bereit, z. B. HTTP, DNS oder FTP."
+  },
+  {
+    "id": "lf-03-fach-modl-011",
+    "question": "Was ist die Anwendungsschicht im OSI-Modell?",
+    "answers": [
+      { "text": "Die Schicht für netznahe Anwendungsdienste", "correct": true },
+      { "text": "Die Schicht für physische Signalübertragung", "correct": false },
+      { "text": "Die Schicht für lokale Frame-Zustellung", "correct": false },
+      { "text": "Die Schicht für IP-Pakete und Routing", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Anwendungsschicht stellt netzwerknahe Dienste für Programme bereit."
+  },
+  {
+    "id": "lf-03-fach-modl-012",
+    "question": "Was ist das TCP/IP-Modell?",
+    "answers": [
+      { "text": "Ein praxisnahes Internet-Schichtenmodell", "correct": true },
+      { "text": "Ein Referenzmodell mit sieben Schichten", "correct": false },
+      { "text": "Ein Protokoll für lokale Ethernet-Frames", "correct": false },
+      { "text": "Ein Verfahren für Medienzugriff im WLAN", "correct": false }
+    ],
+    "explanation": "Merksatz: Das TCP/IP-Modell beschreibt die Protokollwelt des Internets praxisnah."
+  },
+  {
+    "id": "lf-03-fach-modl-013",
+    "question": "Was ist der Network Access Layer im TCP/IP-Modell?",
+    "answers": [
+      { "text": "Die Schicht für Netzzugang", "correct": true },
+      { "text": "Die Schicht für IP-Adressierung", "correct": false },
+      { "text": "Die Schicht für TCP und UDP", "correct": false },
+      { "text": "Die Schicht für Anwendungsprotokolle", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Network Access Layer umfasst Zugangstechniken wie Ethernet oder WLAN."
+  },
+  {
+    "id": "lf-03-fach-modl-014",
+    "question": "Was ist der Internet Layer im TCP/IP-Modell?",
+    "answers": [
+      { "text": "Die Schicht für IP-Adressierung und Routing", "correct": true },
+      { "text": "Die Schicht für Ethernet und WLAN-Zugang", "correct": false },
+      { "text": "Die Schicht für TCP und UDP", "correct": false },
+      { "text": "Die Schicht für HTTP, DNS und FTP", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Internet Layer sorgt dafür, dass IP-Pakete durch Netze geroutet werden."
+  },
+  {
+    "id": "lf-03-fach-modl-015",
+    "question": "Was ist der Transport Layer im TCP/IP-Modell?",
+    "answers": [
+      { "text": "Die Schicht für TCP und UDP", "correct": true },
+      { "text": "Die Schicht für IP-Adressierung", "correct": false },
+      { "text": "Die Schicht für Ethernet-Zugang", "correct": false },
+      { "text": "Die Schicht für HTTP und DNS", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Transport Layer stellt Dienste wie TCP und UDP für Anwendungen bereit."
+  },
+  {
+    "id": "lf-03-fach-modl-016",
+    "question": "Was ist der Application Layer im TCP/IP-Modell?",
+    "answers": [
+      { "text": "Die Schicht für Anwendungsprotokolle", "correct": true },
+      { "text": "Die Schicht für TCP und UDP", "correct": false },
+      { "text": "Die Schicht für IP-Routing", "correct": false },
+      { "text": "Die Schicht für Netzzugang", "correct": false }
+    ],
+    "explanation": "Merksatz: Im Application Layer liegen Protokolle wie HTTP, DNS oder FTP."
+  },
+  {
+    "id": "lf-03-fach-modl-017",
+    "question": "Was bedeutet Encapsulation?",
+    "answers": [
+      { "text": "Daten werden schichtweise verpackt", "correct": true },
+      { "text": "Header werden beim Empfang entfernt", "correct": false },
+      { "text": "Daten werden als Layer-2-Frames geprüft", "correct": false },
+      { "text": "Pakete werden durch Netze geroutet", "correct": false }
+    ],
+    "explanation": "Merksatz: Encapsulation fügt pro Schicht passende Header oder Trailer hinzu."
+  },
+  {
+    "id": "lf-03-fach-modl-018",
+    "question": "Was bedeutet Decapsulation?",
+    "answers": [
+      { "text": "Verpackungen werden schichtweise entfernt", "correct": true },
+      { "text": "Daten werden beim Senden verpackt", "correct": false },
+      { "text": "Frames werden an Ziel-MACs verteilt", "correct": false },
+      { "text": "Pakete erhalten zusätzliche Header", "correct": false }
+    ],
+    "explanation": "Merksatz: Decapsulation entfernt Header und Trailer beim Empfangen schrittweise."
+  },
+  {
+    "id": "lf-03-fach-modl-019",
+    "question": "Was ist eine PDU?",
+    "answers": [
+      { "text": "Eine Dateneinheit einer Schicht", "correct": true },
+      { "text": "Ein Header eines Ethernet-Frames", "correct": false },
+      { "text": "Ein Protokoll für IP-Routing", "correct": false },
+      { "text": "Ein Verfahren für Medienzugriff", "correct": false }
+    ],
+    "explanation": "Merksatz: PDU bezeichnet die Dateneinheit auf einer bestimmten Protokollschicht."
+  },
+  {
+    "id": "lf-03-fach-modl-020",
+    "question": "Was ist ein Segment im Netzwerkmodell?",
+    "answers": [
+      { "text": "Eine PDU der Transportschicht", "correct": true },
+      { "text": "Eine PDU der Vermittlungsschicht", "correct": false },
+      { "text": "Eine PDU der Sicherungsschicht", "correct": false },
+      { "text": "Eine PDU der Bitübertragungsschicht", "correct": false }
+    ],
+    "explanation": "Merksatz: Segmente gehören typischerweise zur Transportschicht."
+  },
+  {
+    "id": "lf-03-fach-modl-021",
+    "question": "Was ist ein Paket im Netzwerkmodell?",
+    "answers": [
+      { "text": "Eine PDU der Vermittlungsschicht", "correct": true },
+      { "text": "Eine PDU der Transportschicht", "correct": false },
+      { "text": "Eine PDU der Sicherungsschicht", "correct": false },
+      { "text": "Eine PDU der Anwendungsschicht", "correct": false }
+    ],
+    "explanation": "Merksatz: Pakete sind Dateneinheiten auf Layer 3, z. B. IP-Pakete."
+  },
+  {
+    "id": "lf-03-fach-modl-022",
+    "question": "Was ist ein Frame im Netzwerkmodell?",
+    "answers": [
+      { "text": "Eine PDU der Sicherungsschicht", "correct": true },
+      { "text": "Eine PDU der Vermittlungsschicht", "correct": false },
+      { "text": "Eine PDU der Transportschicht", "correct": false },
+      { "text": "Eine PDU der Sitzungsschicht", "correct": false }
+    ],
+    "explanation": "Merksatz: Frames sind Layer-2-Dateneinheiten, z. B. im Ethernet."
+  },
+  {
+    "id": "lf-03-fach-modl-023",
+    "question": "Was ist Ethernet?",
+    "answers": [
+      { "text": "Ein LAN-Standard für lokale Netze", "correct": true },
+      { "text": "Ein Transportprotokoll für Anwendungen", "correct": false },
+      { "text": "Ein Protokoll zur Namensauflösung", "correct": false },
+      { "text": "Ein Verfahren zur IP-Adressvergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Ethernet definiert wichtige Regeln für kabelgebundene lokale Netzwerke."
+  },
+  {
+    "id": "lf-03-fach-modl-024",
+    "question": "Welche OSI-Schichten deckt Ethernet hauptsächlich ab?",
+    "answers": [
+      { "text": "Schicht 1 und 2", "correct": true },
+      { "text": "Schicht 3 und 4", "correct": false },
+      { "text": "Schicht 5 und 6", "correct": false },
+      { "text": "Schicht 6 und 7", "correct": false }
+    ],
+    "explanation": "Merksatz: Ethernet betrifft vor allem physische Übertragung und Sicherungsschicht."
+  },
+  {
+    "id": "lf-03-fach-modl-025",
+    "question": "Was ist ein Ethernet-Frame?",
+    "answers": [
+      { "text": "Ein Datenrahmen im Ethernet", "correct": true },
+      { "text": "Ein IP-Paket auf Layer 3", "correct": false },
+      { "text": "Ein TCP-Segment auf Layer 4", "correct": false },
+      { "text": "Ein DNS-Eintrag im Cache", "correct": false }
+    ],
+    "explanation": "Merksatz: Ethernet überträgt Daten in Frames mit Adressen, Nutzdaten und Prüfinformation."
+  },
+  {
+    "id": "lf-03-fach-modl-026",
+    "question": "Was ist die Preamble im Ethernet-Frame?",
+    "answers": [
+      { "text": "Ein Bitmuster zur Synchronisation", "correct": true },
+      { "text": "Die Prüfsumme zur Fehlererkennung", "correct": false },
+      { "text": "Die Nutzdaten eines Ethernet-Frames", "correct": false },
+      { "text": "Die Kennzeichnung der VLAN-Zugehörigkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Preamble bereitet den Empfänger auf den kommenden Frame vor."
+  },
+  {
+    "id": "lf-03-fach-modl-027",
+    "question": "Was ist der SFD im Ethernet-Frame?",
+    "answers": [
+      { "text": "Das Startsignal für den Frame", "correct": true },
+      { "text": "Die Prüfsumme am Frame-Ende", "correct": false },
+      { "text": "Die Nutzlast des Ethernet-Frames", "correct": false },
+      { "text": "Die Kennzeichnung des VLANs", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Start Frame Delimiter markiert das Ende der Preamble und den Framebeginn."
+  },
+  {
+    "id": "lf-03-fach-modl-028",
+    "question": "Was ist die Payload eines Frames?",
+    "answers": [
+      { "text": "Die eigentlichen Nutzdaten", "correct": true },
+      { "text": "Das Startsignal des Frames", "correct": false },
+      { "text": "Das Bitmuster zur Synchronisation", "correct": false },
+      { "text": "Die Prüfsumme zur Fehlererkennung", "correct": false }
+    ],
+    "explanation": "Merksatz: Payload bezeichnet die Daten, die ein Frame transportiert."
+  },
+  {
+    "id": "lf-03-fach-modl-029",
+    "question": "Was ist eine Checksum im Ethernet-Frame?",
+    "answers": [
+      { "text": "Eine Prüfsumme zur Fehlererkennung", "correct": true },
+      { "text": "Das Startsignal eines Ethernet-Frames", "correct": false },
+      { "text": "Die Nutzdaten des Frames", "correct": false },
+      { "text": "Das Bitmuster zur Synchronisation", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Prüfsumme hilft zu erkennen, ob ein Frame beschädigt wurde."
+  },
+  {
+    "id": "lf-03-fach-modl-030",
+    "question": "Was ist ein VLAN-Tag im Ethernet-Frame?",
+    "answers": [
+      { "text": "Eine Kennzeichnung für VLAN-Zugehörigkeit", "correct": true },
+      { "text": "Eine Prüfsumme zur Fehlererkennung", "correct": false },
+      { "text": "Ein Bitmuster zur Synchronisation", "correct": false },
+      { "text": "Die Nutzlast eines Ethernet-Frames", "correct": false }
+    ],
+    "explanation": "Merksatz: VLAN-Tags zeigen, zu welchem virtuellen LAN ein Frame gehört."
+  },
+  {
+    "id": "lf-03-fach-modl-031",
+    "question": "Was ist IEEE 802.1Q?",
+    "answers": [
+      { "text": "Ein Standard für VLAN-Tagging", "correct": true },
+      { "text": "Ein Standard für Ethernet-Prüfsummen", "correct": false },
+      { "text": "Ein Standard für TCP-Verbindungen", "correct": false },
+      { "text": "Ein Standard für DNS-Namensauflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: IEEE 802.1Q beschreibt VLAN-Tags in Ethernet-Frames."
+  },
+  {
+    "id": "lf-03-fach-modl-032",
+    "question": "Was ist TCP?",
+    "answers": [
+      { "text": "Ein verbindungsorientiertes Transportprotokoll", "correct": true },
+      { "text": "Ein verbindungsloses Transportprotokoll", "correct": false },
+      { "text": "Ein Protokoll für Kontrollnachrichten", "correct": false },
+      { "text": "Ein Protokoll für IP-Adressierung", "correct": false }
+    ],
+    "explanation": "Merksatz: TCP setzt auf zuverlässige Übertragung mit Verbindung und Bestätigungen."
+  },
+  {
+    "id": "lf-03-fach-modl-033",
+    "question": "Was ist UDP?",
+    "answers": [
+      { "text": "Ein verbindungsloses Transportprotokoll", "correct": true },
+      { "text": "Ein verbindungsorientiertes Transportprotokoll", "correct": false },
+      { "text": "Ein Protokoll für IP-Adressierung", "correct": false },
+      { "text": "Ein Protokoll für Kontrollnachrichten", "correct": false }
+    ],
+    "explanation": "Merksatz: UDP sendet Datagrams schnell und ohne Verbindungsaufbau."
+  },
+  {
+    "id": "lf-03-fach-modl-034",
+    "question": "Was ist IP im TCP/IP-Modell?",
+    "answers": [
+      { "text": "Ein Protokoll für Adressierung und Routing", "correct": true },
+      { "text": "Ein Protokoll für zuverlässigen Transport", "correct": false },
+      { "text": "Ein Protokoll für Namensauflösung", "correct": false },
+      { "text": "Ein Protokoll für Medienzugriff im WLAN", "correct": false }
+    ],
+    "explanation": "Merksatz: IP adressiert Schnittstellen logisch und ermöglicht Routing durch Netze."
+  },
+  {
+    "id": "lf-03-fach-modl-035",
+    "question": "Was bedeutet verbindungsorientiert bei TCP?",
+    "answers": [
+      { "text": "Kommunikation wird kontrolliert aufgebaut", "correct": true },
+      { "text": "Datagramme werden direkt versendet", "correct": false },
+      { "text": "Frames werden im LAN verteilt", "correct": false },
+      { "text": "Adressen werden per DHCP vergeben", "correct": false }
+    ],
+    "explanation": "Merksatz: Verbindungsorientiert bedeutet, dass Sender und Empfänger den Austausch steuern."
+  },
+  {
+    "id": "lf-03-fach-modl-036",
+    "question": "Was bedeutet verbindungslos bei UDP?",
+    "answers": [
+      { "text": "Es gibt keinen formellen Verbindungsaufbau", "correct": true },
+      { "text": "Der Austausch wird vorab kontrolliert aufgebaut", "correct": false },
+      { "text": "Pakete werden durch ARP adressiert", "correct": false },
+      { "text": "Frames werden per VLAN-Tag sortiert", "correct": false }
+    ],
+    "explanation": "Merksatz: Verbindungslos bedeutet, dass Pakete ohne vorherige Sitzung gesendet werden."
+  },
+  {
+    "id": "lf-03-fach-modl-037",
+    "question": "Was ist ICMP?",
+    "answers": [
+      { "text": "Ein Protokoll für Kontrollnachrichten", "correct": true },
+      { "text": "Ein Protokoll für zuverlässigen Transport", "correct": false },
+      { "text": "Ein Protokoll für Namensauflösung", "correct": false },
+      { "text": "Ein Standard für VLAN-Tagging", "correct": false }
+    ],
+    "explanation": "Merksatz: ICMP wird für Diagnose und Kontrollmeldungen in IP-Netzen genutzt."
+  },
+  {
+    "id": "lf-03-fach-modl-038",
+    "question": "Was ist CSMA/CD?",
+    "answers": [
+      { "text": "Ein Verfahren zur Kollisionserkennung", "correct": true },
+      { "text": "Ein Verfahren zur Kollisionsvermeidung", "correct": false },
+      { "text": "Ein Verfahren mit Senderecht per Token", "correct": false },
+      { "text": "Ein Verfahren zur Namensauflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: CSMA/CD erkennt Kollisionen beim gemeinsamen Medienzugriff."
+  },
+  {
+    "id": "lf-03-fach-modl-039",
+    "question": "Was ist CSMA/CA?",
+    "answers": [
+      { "text": "Ein Verfahren zur Kollisionsvermeidung", "correct": true },
+      { "text": "Ein Verfahren zur Kollisionserkennung", "correct": false },
+      { "text": "Ein Verfahren mit Senderecht per Token", "correct": false },
+      { "text": "Ein Verfahren für VLAN-Tagging", "correct": false }
+    ],
+    "explanation": "Merksatz: CSMA/CA versucht Kollisionen vor dem Senden zu vermeiden."
+  },
+  {
+    "id": "lf-03-fach-modl-040",
+    "question": "Was ist Token Passing?",
+    "answers": [
+      { "text": "Senden ist nur mit Token erlaubt", "correct": true },
+      { "text": "Senden erfolgt nach Kollisionserkennung", "correct": false },
+      { "text": "Senden erfolgt nach Kollisionsvermeidung", "correct": false },
+      { "text": "Senden erfolgt über DNS-Auflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Token Passing darf nur der Teilnehmer mit Token senden."
+  },
+  {
+    "id": "lf-03-fach-modl-041",
+    "question": "Was bedeutet Simplex-Übertragung?",
+    "answers": [
+      { "text": "Daten fließen nur in eine Richtung", "correct": true },
+      { "text": "Daten fließen abwechselnd in beide Richtungen", "correct": false },
+      { "text": "Daten fließen gleichzeitig in beide Richtungen", "correct": false },
+      { "text": "Daten fließen über mehrere Frequenzbereiche", "correct": false }
+    ],
+    "explanation": "Merksatz: Simplex bedeutet Kommunikation in nur eine Richtung."
+  },
+  {
+    "id": "lf-03-fach-modl-042",
+    "question": "Was bedeutet Halbduplex?",
+    "answers": [
+      { "text": "Beide Richtungen, aber nicht gleichzeitig", "correct": true },
+      { "text": "Daten fließen in eine feste Richtung", "correct": false },
+      { "text": "Daten fließen gleichzeitig in beide Richtungen", "correct": false },
+      { "text": "Daten teilen sich mehrere Frequenzen", "correct": false }
+    ],
+    "explanation": "Merksatz: Halbduplex erlaubt Senden und Empfangen abwechselnd."
+  },
+  {
+    "id": "lf-03-fach-modl-043",
+    "question": "Was bedeutet Vollduplex?",
+    "answers": [
+      { "text": "Gleichzeitiges Senden und Empfangen", "correct": true },
+      { "text": "Übertragung in eine feste Richtung", "correct": false },
+      { "text": "Abwechselndes Senden und Empfangen", "correct": false },
+      { "text": "Senden nach Erhalt eines Tokens", "correct": false }
+    ],
+    "explanation": "Merksatz: Vollduplex ermöglicht Kommunikation in beide Richtungen gleichzeitig."
+  },
+  {
+    "id": "lf-03-fach-modl-044",
+    "question": "Was ist serielle Datenübertragung?",
+    "answers": [
+      { "text": "Bits werden nacheinander übertragen", "correct": true },
+      { "text": "Mehrere Bits werden gleichzeitig übertragen", "correct": false },
+      { "text": "Signale werden nach Frequenzen getrennt", "correct": false },
+      { "text": "Daten werden in Zeitslots aufgeteilt", "correct": false }
+    ],
+    "explanation": "Merksatz: Seriell bedeutet, dass Bits zeitlich nacheinander übertragen werden."
+  },
+  {
+    "id": "lf-03-fach-modl-045",
+    "question": "Was ist parallele Datenübertragung?",
+    "answers": [
+      { "text": "Mehrere Bits werden gleichzeitig übertragen", "correct": true },
+      { "text": "Bits werden nacheinander übertragen", "correct": false },
+      { "text": "Daten werden in Zeitslots gesendet", "correct": false },
+      { "text": "Signale werden nach Wellenlängen getrennt", "correct": false }
+    ],
+    "explanation": "Merksatz: Parallel bedeutet, dass mehrere Bits gleichzeitig über mehrere Leitungen laufen."
+  },
+  {
+    "id": "lf-03-fach-modl-046",
+    "question": "Was ist Multiplexing?",
+    "answers": [
+      { "text": "Mehrere Signale teilen sich ein Medium", "correct": true },
+      { "text": "Ein Signal nutzt eine eigene Leitung dauerhaft", "correct": false },
+      { "text": "Daten werden auf Layer 3 geroutet", "correct": false },
+      { "text": "Frames werden anhand von MAC-Adressen verteilt", "correct": false }
+    ],
+    "explanation": "Merksatz: Multiplexing kombiniert mehrere Datenströme auf einem gemeinsamen Übertragungsweg."
+  },
+  {
+    "id": "lf-03-fach-modl-047",
+    "question": "Was ist Zeitmultiplexing?",
+    "answers": [
+      { "text": "Aufteilung eines Mediums in Zeitslots", "correct": true },
+      { "text": "Aufteilung eines Mediums in Frequenzbereiche", "correct": false },
+      { "text": "Aufteilung nach Lichtwellenlängen", "correct": false },
+      { "text": "Aufteilung nach Empfängeradressen", "correct": false }
+    ],
+    "explanation": "Merksatz: Zeitmultiplexing teilt Übertragung in zeitliche Abschnitte."
+  },
+  {
+    "id": "lf-03-fach-modl-048",
+    "question": "Was ist Frequenzmultiplexing?",
+    "answers": [
+      { "text": "Aufteilung nach Frequenzbereichen", "correct": true },
+      { "text": "Aufteilung eines Mediums in Zeitslots", "correct": false },
+      { "text": "Aufteilung nach Lichtwellenlängen", "correct": false },
+      { "text": "Aufteilung nach Portnummern", "correct": false }
+    ],
+    "explanation": "Merksatz: Frequenzmultiplexing nutzt unterschiedliche Frequenzen auf demselben Medium."
+  },
+  {
+    "id": "lf-03-fach-modl-049",
+    "question": "Was ist Wellenlängenmultiplexing?",
+    "answers": [
+      { "text": "Aufteilung nach Lichtwellenlängen", "correct": true },
+      { "text": "Aufteilung eines Mediums in Zeitslots", "correct": false },
+      { "text": "Aufteilung nach Frequenzbereichen", "correct": false },
+      { "text": "Aufteilung nach TCP-Portnummern", "correct": false }
+    ],
+    "explanation": "Merksatz: Wellenlängenmultiplexing überträgt mehrere Lichtsignale über Glasfaser."
+  },
+  {
+    "id": "lf-03-fach-modl-050",
+    "question": "Was ist Unicast?",
+    "answers": [
+      { "text": "Kommunikation zu einem Empfänger", "correct": true },
+      { "text": "Kommunikation zu einer Empfängergruppe", "correct": false },
+      { "text": "Kommunikation an alle im Netzbereich", "correct": false },
+      { "text": "Kommunikation zu einem passenden Gruppenziel", "correct": false }
+    ],
+    "explanation": "Merksatz: Unicast sendet Daten gezielt an genau einen Empfänger."
+  },
+  {
+    "id": "lf-03-fach-modl-051",
+    "question": "Was ist Multicast?",
+    "answers": [
+      { "text": "Kommunikation zu einer Empfängergruppe", "correct": true },
+      { "text": "Kommunikation zu einem Empfänger", "correct": false },
+      { "text": "Kommunikation an alle im Netzbereich", "correct": false },
+      { "text": "Kommunikation zu einem passenden Gruppenziel", "correct": false }
+    ],
+    "explanation": "Merksatz: Multicast sendet Daten an eine definierte Gruppe von Empfängern."
+  },
+  {
+    "id": "lf-03-fach-modl-052",
+    "question": "Was ist Broadcast?",
+    "answers": [
+      { "text": "Kommunikation an alle im Netzbereich", "correct": true },
+      { "text": "Kommunikation zu einem Empfänger", "correct": false },
+      { "text": "Kommunikation zu einer Empfängergruppe", "correct": false },
+      { "text": "Kommunikation zu einem passenden Gruppenziel", "correct": false }
+    ],
+    "explanation": "Merksatz: Broadcast richtet sich an alle erreichbaren Teilnehmer eines Netzbereichs."
+  },
+  {
+    "id": "lf-03-fach-modl-053",
+    "question": "Was ist Anycast?",
+    "answers": [
+      { "text": "Kommunikation zu einem passenden Gruppenziel", "correct": true },
+      { "text": "Kommunikation an alle im Netzbereich", "correct": false },
+      { "text": "Kommunikation zu einer festen Empfängergruppe", "correct": false },
+      { "text": "Kommunikation zu einem einzelnen Empfänger", "correct": false }
+    ],
+    "explanation": "Merksatz: Anycast erreicht einen geeigneten Empfänger aus einer Gruppe."
+  }
+]

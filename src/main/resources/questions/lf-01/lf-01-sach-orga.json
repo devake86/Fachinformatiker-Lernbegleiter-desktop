@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-sach-orga-001",
+    "question": "Wofür wird ein Organigramm genutzt?",
+    "answers": [
+      { "text": "Zur Darstellung von Aufbauorganisation und Hierarchien", "correct": true },
+      { "text": "Zur Darstellung von Prozessabläufen und Reihenfolgen", "correct": false },
+      { "text": "Zur Übersicht über Produkte und Marktpreise", "correct": false },
+      { "text": "Zur Analyse von Kunden nach Umsatzbedeutung", "correct": false }
+    ],
+    "explanation": "Ein Organigramm zeigt, wie Stellen, Instanzen und Zuständigkeiten im Unternehmen angeordnet sind."
+  },
+  {
+    "id": "lf-01-sach-orga-002",
+    "question": "Was legt die Aufbauorganisation eines Unternehmens fest?",
+    "answers": [
+      { "text": "Zuständigkeiten, Stellen und Weisungswege", "correct": true },
+      { "text": "Abläufe, Reihenfolgen und Prozessschritte", "correct": false },
+      { "text": "Marktpreise, Nachfrage und Absatzmengen", "correct": false },
+      { "text": "Arbeitszeiten, Urlaub und Tarifentgelt", "correct": false }
+    ],
+    "explanation": "Die Aufbauorganisation regelt, wer welche Aufgaben übernimmt und wer wem unterstellt ist."
+  },
+  {
+    "id": "lf-01-sach-orga-003",
+    "question": "Was ist eine Stelle in der Aufbauorganisation?",
+    "answers": [
+      { "text": "Eine Einheit mit Aufgaben, Kompetenzen und Verantwortung", "correct": true },
+      { "text": "Eine Instanz mit zwingender Weisungsbefugnis", "correct": false },
+      { "text": "Ein beratender Stab ohne eigene Aufgaben", "correct": false },
+      { "text": "Eine Abteilung mit rechtlicher Selbstständigkeit", "correct": false }
+    ],
+    "explanation": "Eine Stelle bündelt Aufgaben und Verantwortlichkeiten innerhalb der Organisation."
+  },
+  {
+    "id": "lf-01-sach-orga-004",
+    "question": "Was unterscheidet eine Instanz von einer normalen Stelle?",
+    "answers": [
+      { "text": "Eine Instanz besitzt Leitungs- und Weisungsbefugnis", "correct": true },
+      { "text": "Eine Instanz berät ohne Weisungsbefugnis", "correct": false },
+      { "text": "Eine Instanz bündelt Aufgaben ohne Leitung", "correct": false },
+      { "text": "Eine Instanz ist rechtlich selbstständig", "correct": false }
+    ],
+    "explanation": "Instanzen sind Leitungsstellen, die Entscheidungen treffen und Weisungen geben können."
+  },
+  {
+    "id": "lf-01-sach-orga-005",
+    "question": "Welche Aufgabe hat eine Stabsstelle?",
+    "answers": [
+      { "text": "Sie unterstützt und berät eine Instanz", "correct": true },
+      { "text": "Sie gibt direkte Weisungen an Linienstellen", "correct": false },
+      { "text": "Sie ersetzt die vorgesetzte Instanz", "correct": false },
+      { "text": "Sie übernimmt die vollständige Linienverantwortung", "correct": false }
+    ],
+    "explanation": "Stabsstellen beraten Instanzen, haben aber typischerweise keine direkte Weisungsbefugnis in der Linie."
+  },
+  {
+    "id": "lf-01-sach-orga-006",
+    "question": "Warum können flache Hierarchien vorteilhaft sein?",
+    "answers": [
+      { "text": "Entscheidungs- und Kommunikationswege können kürzer werden", "correct": true },
+      { "text": "Weisungswege werden dadurch automatisch eindeutiger", "correct": false },
+      { "text": "Stabsstellen übernehmen alle Entscheidungen", "correct": false },
+      { "text": "Verantwortung wird vollständig abgeschafft", "correct": false }
+    ],
+    "explanation": "Flache Hierarchien können schnellere Kommunikation und mehr Eigenverantwortung ermöglichen."
+  },
+  {
+    "id": "lf-01-sach-orga-007",
+    "question": "Was kennzeichnet einen autoritären Führungsstil?",
+    "answers": [
+      { "text": "Entscheidungen werden zentral getroffen und klar angewiesen", "correct": true },
+      { "text": "Mitarbeiter entscheiden weitgehend selbstständig", "correct": false },
+      { "text": "Führung erfolgt über gemeinsame Zielvereinbarung", "correct": false },
+      { "text": "Mitarbeiter werden stark in Entscheidungen einbezogen", "correct": false }
+    ],
+    "explanation": "Beim autoritären Führungsstil entscheidet die Führungskraft stark zentral."
+  },
+  {
+    "id": "lf-01-sach-orga-008",
+    "question": "Was kennzeichnet einen kooperativen Führungsstil?",
+    "answers": [
+      { "text": "Mitarbeiter werden stärker in Entscheidungen einbezogen", "correct": true },
+      { "text": "Entscheidungen werden zentral ohne Beteiligung getroffen", "correct": false },
+      { "text": "Führung beschränkt sich auf reine Anweisungen", "correct": false },
+      { "text": "Verantwortung bleibt vollständig bei der Leitung", "correct": false }
+    ],
+    "explanation": "Kooperative Führung setzt auf Beteiligung, Zusammenarbeit und Kommunikation."
+  },
+  {
+    "id": "lf-01-sach-orga-009",
+    "question": "Was bedeutet Management by Objectives?",
+    "answers": [
+      { "text": "Führung durch Zielvereinbarung", "correct": true },
+      { "text": "Führung durch Eingreifen bei Abweichungen", "correct": false },
+      { "text": "Führung durch Aufgabenübertragung", "correct": false },
+      { "text": "Führung durch laufende Einzelkontrolle", "correct": false }
+    ],
+    "explanation": "Management by Objectives bedeutet, dass Führungskraft und Mitarbeiter Ziele vereinbaren."
+  },
+  {
+    "id": "lf-01-sach-orga-010",
+    "question": "Was bedeutet Management by Exception?",
+    "answers": [
+      { "text": "Die Führungskraft greift bei besonderen Abweichungen ein", "correct": true },
+      { "text": "Die Führungskraft führt über Zielvereinbarungen", "correct": false },
+      { "text": "Die Führungskraft überträgt Aufgaben vollständig", "correct": false },
+      { "text": "Die Führungskraft kontrolliert jeden Einzelschritt", "correct": false }
+    ],
+    "explanation": "Management by Exception entlastet Führungskräfte, weil nur Ausnahmen eskaliert werden."
+  },
+  {
+    "id": "lf-01-sach-orga-011",
+    "question": "Was ist das Ziel von Management by Delegation?",
+    "answers": [
+      { "text": "Aufgaben, Kompetenzen und Verantwortung werden übertragen", "correct": true },
+      { "text": "Führung greift erst bei Abweichungen ein", "correct": false },
+      { "text": "Ziele werden gemeinsam vereinbart", "correct": false },
+      { "text": "Entscheidungen bleiben zentral bei der Leitung", "correct": false }
+    ],
+    "explanation": "Management by Delegation soll Verantwortung sinnvoll übertragen und Entscheidungen beschleunigen."
+  },
+  {
+    "id": "lf-01-sach-orga-012",
+    "question": "Was kennzeichnet ein Einliniensystem?",
+    "answers": [
+      { "text": "Jede Stelle hat genau eine direkte vorgesetzte Stelle", "correct": true },
+      { "text": "Jede Stelle erhält Weisungen von mehreren Instanzen", "correct": false },
+      { "text": "Linien werden durch beratende Stäbe ersetzt", "correct": false },
+      { "text": "Fach- und Objektverantwortung überlappen", "correct": false }
+    ],
+    "explanation": "Im Einliniensystem sind Weisungswege eindeutig über eine Linie geregelt."
+  },
+  {
+    "id": "lf-01-sach-orga-013",
+    "question": "Was ist ein möglicher Nachteil des Mehrliniensystems?",
+    "answers": [
+      { "text": "Mehrere Vorgesetzte können widersprüchliche Weisungen geben", "correct": true },
+      { "text": "Weisungswege sind stets eindeutig festgelegt", "correct": false },
+      { "text": "Stabsstellen geben keine Empfehlungen mehr", "correct": false },
+      { "text": "Eine Stelle hat keine fachlichen Ansprechpartner", "correct": false }
+    ],
+    "explanation": "Im Mehrliniensystem können Zuständigkeiten unklar werden, wenn mehrere Vorgesetzte Weisungen geben."
+  },
+  {
+    "id": "lf-01-sach-orga-014",
+    "question": "Was ergänzt ein Stabliniensystem gegenüber einem einfachen Liniensystem?",
+    "answers": [
+      { "text": "Beratende Stabsstellen", "correct": true },
+      { "text": "Mehrere weisende Fachvorgesetzte", "correct": false },
+      { "text": "Überlappende Fach- und Objektverantwortung", "correct": false },
+      { "text": "Wegfall der Linieninstanzen", "correct": false }
+    ],
+    "explanation": "Das Stabliniensystem verbindet Linieninstanzen mit beratenden Stabsstellen."
+  },
+  {
+    "id": "lf-01-sach-orga-015",
+    "question": "Was ist typisch für eine Matrixorganisation?",
+    "answers": [
+      { "text": "Mitarbeiter sind mehreren Verantwortungsdimensionen zugeordnet", "correct": true },
+      { "text": "Jede Stelle hat genau eine eindeutige Linie", "correct": false },
+      { "text": "Stabsstellen beraten ohne Linienbezug", "correct": false },
+      { "text": "Weisungen erfolgen ausschließlich zentral", "correct": false }
+    ],
+    "explanation": "Matrixorganisationen verbinden zum Beispiel Fachbereiche mit Produkt- oder Projektverantwortung."
+  },
+  {
+    "id": "lf-01-sach-orga-016",
+    "question": "Welche Funktion hat das Handelsregister?",
+    "answers": [
+      { "text": "Es stellt wichtige Unternehmensinformationen öffentlich bereit", "correct": true },
+      { "text": "Es bildet die interne Hierarchie eines Betriebs ab", "correct": false },
+      { "text": "Es regelt Weisungswege in der Aufbauorganisation", "correct": false },
+      { "text": "Es vergibt Handlungsvollmachten im Betrieb", "correct": false }
+    ],
+    "explanation": "Das Handelsregister ist ein öffentliches Verzeichnis rechtlich relevanter Unternehmensdaten."
+  },
+  {
+    "id": "lf-01-sach-orga-017",
+    "question": "Was ist Prokura?",
+    "answers": [
+      { "text": "Eine umfangreiche handelsrechtliche Vertretungsmacht", "correct": true },
+      { "text": "Eine begrenzte Vollmacht für gewöhnliche Geschäfte", "correct": false },
+      { "text": "Eine interne Weisung ohne Außenwirkung", "correct": false },
+      { "text": "Eine Leitungsstelle mit Personalverantwortung", "correct": false }
+    ],
+    "explanation": "Prokura berechtigt zu weitreichenden Rechtsgeschäften im Handelsverkehr."
+  },
+  {
+    "id": "lf-01-sach-orga-018",
+    "question": "Welche Aussage zur Handlungsvollmacht ist richtig?",
+    "answers": [
+      { "text": "Sie ist begrenzter als Prokura", "correct": true },
+      { "text": "Sie umfasst weitergehende Rechte als Prokura", "correct": false },
+      { "text": "Sie wird typischerweise mit ppa. gekennzeichnet", "correct": false },
+      { "text": "Sie gilt für alle außergewöhnlichen Handelsgeschäfte", "correct": false }
+    ],
+    "explanation": "Handlungsvollmacht ist eine begrenzte Vertretungsmacht und weniger umfassend als Prokura."
+  },
+  {
+    "id": "lf-01-sach-orga-019",
+    "question": "Welche Unterschrift passt typischerweise zur Prokura?",
+    "answers": [
+      { "text": "ppa.", "correct": true },
+      { "text": "i. V.", "correct": false },
+      { "text": "i. A.", "correct": false },
+      { "text": "gez.", "correct": false }
+    ],
+    "explanation": "Prokuristen unterschreiben typischerweise mit ppa."
+  },
+  {
+    "id": "lf-01-sach-orga-020",
+    "question": "Was bestimmt die Rechtsform eines Unternehmens unter anderem?",
+    "answers": [
+      { "text": "Haftung, Kapitalbedarf, Leitung und steuerliche Behandlung", "correct": true },
+      { "text": "Weisungswege, Stabsstellen und Instanzen", "correct": false },
+      { "text": "Marktform, Nachfrage und Gleichgewichtspreis", "correct": false },
+      { "text": "Konjunkturphase, Kundengruppe und Absatzweg", "correct": false }
+    ],
+    "explanation": "Die Rechtsform beeinflusst wichtige rechtliche und wirtschaftliche Rahmenbedingungen eines Unternehmens."
+  }
+]

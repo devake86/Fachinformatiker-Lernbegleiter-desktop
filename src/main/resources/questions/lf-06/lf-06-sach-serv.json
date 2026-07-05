@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-sach-serv-001",
+    "question": "Was ist das Ziel eines IT-Services?",
+    "answers": [
+      { "text": "Kunden bei einem gewünschten Ergebnis unterstützen", "correct": true },
+      { "text": "IT-Systeme unabhängig vom Kundennutzen bereitstellen", "correct": false },
+      { "text": "Servicefälle ausschließlich intern dokumentieren", "correct": false },
+      { "text": "Verträge ohne konkrete Leistung beschreiben", "correct": false }
+    ],
+    "explanation": "Ein IT-Service unterstützt Kunden dabei, ein gewünschtes Ergebnis zuverlässiger zu erreichen."
+  },
+  {
+    "id": "lf-06-sach-serv-002",
+    "question": "Warum sind IT-Abteilungen oft Servicedienstleister im Unternehmen?",
+    "answers": [
+      { "text": "Sie stellen IT-Systeme für interne Kunden bereit", "correct": true },
+      { "text": "Sie steuern ausschließlich externe Anbieter", "correct": false },
+      { "text": "Sie erstellen nur kaufmännische Abrechnungen", "correct": false },
+      { "text": "Sie verwalten vor allem Serviceportfolios", "correct": false }
+    ],
+    "explanation": "IT-Abteilungen unterstützen interne Abläufe durch funktionierende IT-Services."
+  },
+  {
+    "id": "lf-06-sach-serv-003",
+    "question": "Welche Aussage beschreibt IT-Service-Management richtig?",
+    "answers": [
+      { "text": "IT-Services werden geplant, gesteuert und verbessert", "correct": true },
+      { "text": "IT-Services werden nur technisch überwacht", "correct": false },
+      { "text": "ITSM beschreibt einzelne Hardwarebeschaffung", "correct": false },
+      { "text": "ITSM ist ein einzelner Supportfall", "correct": false }
+    ],
+    "explanation": "ITSM organisiert IT-Services so, dass sie zuverlässig, messbar und kundenorientiert erbracht werden."
+  },
+  {
+    "id": "lf-06-sach-serv-004",
+    "question": "Wozu dient ein Servicekatalog?",
+    "answers": [
+      { "text": "Er macht angebotene Services strukturiert sichtbar", "correct": true },
+      { "text": "Er zeigt alle aktiven, geplanten und auslaufenden Services", "correct": false },
+      { "text": "Er beschreibt den Lebenszyklus einzelner Services", "correct": false },
+      { "text": "Er ersetzt das Serviceportfolio vollständig", "correct": false }
+    ],
+    "explanation": "Ein Servicekatalog beschreibt verfügbare Services verständlich und strukturiert."
+  },
+  {
+    "id": "lf-06-sach-serv-005",
+    "question": "Was unterscheidet ein Serviceportfolio von einem Servicekatalog?",
+    "answers": [
+      { "text": "Das Portfolio umfasst aktive, geplante und auslaufende Services", "correct": true },
+      { "text": "Der Katalog umfasst interne und auslaufende Services", "correct": false },
+      { "text": "Das Portfolio zeigt nur bestellbare Kundenservices", "correct": false },
+      { "text": "Der Katalog beschreibt alle geplanten Services", "correct": false }
+    ],
+    "explanation": "Das Serviceportfolio betrachtet Services über ihren gesamten Lebenszyklus."
+  },
+  {
+    "id": "lf-06-sach-serv-006",
+    "question": "Welche Aussage passt zum Service Lifecycle?",
+    "answers": [
+      { "text": "Services werden von Planung bis Ablösung betrachtet", "correct": true },
+      { "text": "Services werden nur im Betrieb betrachtet", "correct": false },
+      { "text": "Services werden nur im Servicekatalog geführt", "correct": false },
+      { "text": "Services werden nur bei Störungen bewertet", "correct": false }
+    ],
+    "explanation": "Der Service Lifecycle betrachtet Services von der Idee bis zur Ablösung."
+  },
+  {
+    "id": "lf-06-sach-serv-007",
+    "question": "Welche Reihenfolge passt zu IMAC/R/D?",
+    "answers": [
+      { "text": "Install, Move, Add, Change, Remove, Dispose", "correct": true },
+      { "text": "Incident, Monitor, Alert, Control, Repair, Deploy", "correct": false },
+      { "text": "Improve, Measure, Analyze, Control, Report, Define", "correct": false },
+      { "text": "Input, Manage, Audit, Check, Review, Document", "correct": false }
+    ],
+    "explanation": "IMAC/R/D beschreibt typische Servicehandlungen im Lebenszyklus von IT-Objekten."
+  },
+  {
+    "id": "lf-06-sach-serv-008",
+    "question": "Was ist ein Beispiel für eine technische IT-Serviceleistung?",
+    "answers": [
+      { "text": "Installation, Wartung oder Remote-Support", "correct": true },
+      { "text": "Servicekoordination und Prozessorganisation", "correct": false },
+      { "text": "Angebotserstellung und Lizenzverwaltung", "correct": false },
+      { "text": "Abrechnung und Vertragsverwaltung", "correct": false }
+    ],
+    "explanation": "Technische IT-Services unterstützen Betrieb, Pflege oder Nutzung von IT-Systemen."
+  },
+  {
+    "id": "lf-06-sach-serv-009",
+    "question": "Was ist ein Beispiel für eine organisatorische IT-Serviceleistung?",
+    "answers": [
+      { "text": "Servicekoordination, Ticketsteuerung oder Prozessorganisation", "correct": true },
+      { "text": "Installation und Wartung eines Systems", "correct": false },
+      { "text": "Angebotserstellung und Abrechnung", "correct": false },
+      { "text": "Lizenzverwaltung und Rechnungsprüfung", "correct": false }
+    ],
+    "explanation": "Organisatorische IT-Services steuern Abläufe, Zuständigkeiten und Serviceprozesse."
+  },
+  {
+    "id": "lf-06-sach-serv-010",
+    "question": "Was ist ein Beispiel für eine kaufmännische Serviceleistung?",
+    "answers": [
+      { "text": "Angebotserstellung, Abrechnung oder Lizenzverwaltung", "correct": true },
+      { "text": "Installation, Wartung und Remote-Support", "correct": false },
+      { "text": "Ticketsteuerung und Prozessorganisation", "correct": false },
+      { "text": "Monitoring von Servern und Netzwerken", "correct": false }
+    ],
+    "explanation": "Kaufmännische Serviceleistungen betreffen wirtschaftliche und vertragliche Aufgaben rund um Services."
+  },
+  {
+    "id": "lf-06-sach-serv-011",
+    "question": "Welche Aussage zu Managed Services ist richtig?",
+    "answers": [
+      { "text": "Ein Dienstleister betreut IT-Leistungen regelmäßig", "correct": true },
+      { "text": "Ein Cloud-Service wird immer lokal betrieben", "correct": false },
+      { "text": "Ein Service wird nur einmalig installiert", "correct": false },
+      { "text": "Ein Serviceportfolio wird extern gelöscht", "correct": false }
+    ],
+    "explanation": "Managed Services übertragen wiederkehrende IT-Betreuung an einen Anbieter."
+  },
+  {
+    "id": "lf-06-sach-serv-012",
+    "question": "Welche Aussage zu Cloud Services passt?",
+    "answers": [
+      { "text": "IT-Leistungen werden über ein Netzwerk bereitgestellt", "correct": true },
+      { "text": "IT-Leistungen werden ausschließlich lokal betrieben", "correct": false },
+      { "text": "IT-Leistungen werden nur einmalig installiert", "correct": false },
+      { "text": "IT-Leistungen werden ohne Servicebezug verwaltet", "correct": false }
+    ],
+    "explanation": "Cloud Services stellen IT-Leistungen netzbasiert und meist flexibel nutzbar bereit."
+  },
+  {
+    "id": "lf-06-sach-serv-013",
+    "question": "Was bedeutet Outsourcing im IT-Service?",
+    "answers": [
+      { "text": "Interne IT-Aufgaben werden an externe Dienstleister ausgelagert", "correct": true },
+      { "text": "IT-Leistungen werden über ein Netzwerk bereitgestellt", "correct": false },
+      { "text": "Ein Dienstleister betreut dauerhaft IT-Services", "correct": false },
+      { "text": "Interne Serviceprozesse werden verbessert", "correct": false }
+    ],
+    "explanation": "Outsourcing verlagert Aufgaben, Prozesse oder Services an externe Anbieter."
+  },
+  {
+    "id": "lf-06-sach-serv-014",
+    "question": "Warum werden Frameworks im IT-Service genutzt?",
+    "answers": [
+      { "text": "Sie schaffen Begriffe, Prozesse und bewährte Vorgehen", "correct": true },
+      { "text": "Sie beschreiben einzelne Servicekatalogeinträge", "correct": false },
+      { "text": "Sie messen konkrete Serviceverfügbarkeiten", "correct": false },
+      { "text": "Sie ersetzen Service Level Agreements", "correct": false }
+    ],
+    "explanation": "Frameworks erleichtern einheitliche, nachvollziehbare und bewährte Serviceprozesse."
+  },
+  {
+    "id": "lf-06-sach-serv-015",
+    "question": "Welche Aussage zu ITIL ist richtig?",
+    "answers": [
+      { "text": "ITIL ist ein Framework für IT-Service-Management", "correct": true },
+      { "text": "ITIL ist ein Standard für Prozessreifegrade", "correct": false },
+      { "text": "ITIL ist ein Framework für IT-Governance", "correct": false },
+      { "text": "ITIL ist ein schlanker ITSM-Standard", "correct": false }
+    ],
+    "explanation": "ITIL liefert Best Practices zur Gestaltung und Verbesserung von IT-Services."
+  },
+  {
+    "id": "lf-06-sach-serv-016",
+    "question": "Was betont ITIL 4 besonders?",
+    "answers": [
+      { "text": "Gemeinsame Wertschöpfung und Service Value Chain", "correct": true },
+      { "text": "Reine Service-Lebenszyklen ohne Wertbezug", "correct": false },
+      { "text": "Prozessreife über feste Reifegradstufen", "correct": false },
+      { "text": "Governance und Kontrolle der Unternehmens-IT", "correct": false }
+    ],
+    "explanation": "ITIL 4 legt den Fokus stärker auf gemeinsame Wertschöpfung und vernetzte Serviceaktivitäten."
+  },
+  {
+    "id": "lf-06-sach-serv-017",
+    "question": "Welche Aussage zu COBIT passt?",
+    "answers": [
+      { "text": "COBIT unterstützt Governance und Management der Unternehmens-IT", "correct": true },
+      { "text": "COBIT liefert Service Value Chain Best Practices", "correct": false },
+      { "text": "COBIT bewertet primär Prozessreifegrade", "correct": false },
+      { "text": "COBIT beschreibt Anforderungen an ITSM-Zertifizierung", "correct": false }
+    ],
+    "explanation": "COBIT hilft, IT nach Unternehmenszielen zu steuern und zu kontrollieren."
+  },
+  {
+    "id": "lf-06-sach-serv-018",
+    "question": "Welche Aussage zu ISO/IEC 20000 ist richtig?",
+    "answers": [
+      { "text": "Der Standard beschreibt Anforderungen an IT-Service-Management", "correct": true },
+      { "text": "Der Standard bewertet Prozessreife in Stufen", "correct": false },
+      { "text": "Der Standard steuert Governance von Unternehmens-IT", "correct": false },
+      { "text": "Der Standard beschreibt nur ITIL-4-Wertketten", "correct": false }
+    ],
+    "explanation": "ISO/IEC 20000 ist ein internationaler Standard für professionelles IT-Service-Management."
+  },
+  {
+    "id": "lf-06-sach-serv-019",
+    "question": "Wozu dient CMMI im Prozessumfeld?",
+    "answers": [
+      { "text": "Zur Bewertung und Verbesserung von Prozessreife", "correct": true },
+      { "text": "Zur Zertifizierung von IT-Service-Management", "correct": false },
+      { "text": "Zur Governance und Steuerung der IT", "correct": false },
+      { "text": "Zur Strukturierung eines Servicekatalogs", "correct": false }
+    ],
+    "explanation": "CMMI unterstützt die Einordnung und Weiterentwicklung von Prozessreife."
+  },
+  {
+    "id": "lf-06-sach-serv-020",
+    "question": "Warum ist kontinuierliche Verbesserung im IT-Service wichtig?",
+    "answers": [
+      { "text": "Services können durch Feedback und Kennzahlen verbessert werden", "correct": true },
+      { "text": "Services werden dadurch nur einmal geplant", "correct": false },
+      { "text": "Servicequalität wird nur vertraglich beschrieben", "correct": false },
+      { "text": "Servicefälle werden ohne Analyse abgeschlossen", "correct": false }
+    ],
+    "explanation": "Kontinuierliche Verbesserung nutzt Auswertungen und Rückmeldungen zur Steigerung der Servicequalität."
+  }
+]

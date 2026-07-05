@@ -1,0 +1,552 @@
+[
+  {
+    "id": "lf-02-sach-hard-001",
+    "question": "Warum hilft das EVA-Prinzip beim Verstehen eines Computers?",
+    "answers": [
+      { "text": "Es ordnet Eingabe, Verarbeitung und Ausgabe", "correct": true },
+      { "text": "Es beschreibt Einkauf, Verwaltung und Abnahme", "correct": false },
+      { "text": "Es gliedert Energie, Verbrauch und Abwärme", "correct": false },
+      { "text": "Es bewertet Ergonomie, Volumen und Ausstattung", "correct": false }
+    ],
+    "explanation": "Das EVA-Prinzip zeigt den Grundablauf der Datenverarbeitung: Daten werden eingegeben, verarbeitet und ausgegeben."
+  },
+  {
+    "id": "lf-02-sach-hard-002",
+    "question": "Warum muss ein Arbeitsplatz-PC nach Kundenanforderungen dimensioniert werden?",
+    "answers": [
+      { "text": "Die Leistung muss zum Einsatzzweck passen", "correct": true },
+      { "text": "Die Ausstattung folgt dem aktuellen Lagerbestand", "correct": false },
+      { "text": "Die Hardware richtet sich nach der Gehäusefarbe", "correct": false },
+      { "text": "Die Auswahl erfolgt anhand der Verpackungsgröße", "correct": false }
+    ],
+    "explanation": "Office, CAD, Bildbearbeitung oder mobile Arbeit stellen unterschiedliche Anforderungen an CPU, RAM, Speicher, Grafik und Peripherie."
+  },
+  {
+    "id": "lf-02-sach-hard-003",
+    "question": "Warum ist die CPU-Auswahl vom Einsatzzweck abhängig?",
+    "answers": [
+      { "text": "Unterschiedliche Aufgaben benötigen unterschiedlich viel Rechenleistung", "correct": true },
+      { "text": "Unterschiedliche Aufgaben benötigen dieselbe CPU-Klasse", "correct": false },
+      { "text": "Die CPU-Auswahl richtet sich primär nach Monitorgröße", "correct": false },
+      { "text": "Die CPU-Auswahl ersetzt RAM- und Speicherplanung", "correct": false }
+    ],
+    "explanation": "Einfache Büroarbeit benötigt weniger CPU-Leistung als CAD, Rendering oder professionelle Medienbearbeitung."
+  },
+  {
+    "id": "lf-02-sach-hard-004",
+    "question": "Warum sind mehrere CPU-Kerne bei anspruchsvollen Anwendungen hilfreich?",
+    "answers": [
+      { "text": "Aufgaben können besser parallel verarbeitet werden", "correct": true },
+      { "text": "Grafiksignale werden dadurch automatisch extern ausgegeben", "correct": false },
+      { "text": "Massenspeicher erhalten dadurch mehr Kapazität", "correct": false },
+      { "text": "Displayhelligkeit wird dadurch direkt erhöht", "correct": false }
+    ],
+    "explanation": "Mehrere Kerne können parallele Berechnungen unterstützen und die Leistung bei geeigneter Software verbessern."
+  },
+  {
+    "id": "lf-02-sach-hard-005",
+    "question": "Warum ist RAM für flüssiges Arbeiten wichtig?",
+    "answers": [
+      { "text": "Laufende Programme und Daten benötigen schnellen Speicher", "correct": true },
+      { "text": "Installierte Programme liegen dauerhaft im RAM", "correct": false },
+      { "text": "Grafikkartenstrom wird über RAM bereitgestellt", "correct": false },
+      { "text": "Datenträgerpartitionen werden im RAM erstellt", "correct": false }
+    ],
+    "explanation": "Zu wenig RAM kann Systeme ausbremsen, weil Daten häufiger auf langsamere Datenträger ausgelagert werden."
+  },
+  {
+    "id": "lf-02-sach-hard-006",
+    "question": "Warum ist eine SSD für viele Arbeitsplatz-PCs sinnvoll?",
+    "answers": [
+      { "text": "Sie ermöglicht schnelle Zugriffe und kurze Ladezeiten", "correct": true },
+      { "text": "Sie speichert Daten auf rotierenden Magnetscheiben", "correct": false },
+      { "text": "Sie arbeitet als flüchtiger Arbeitsspeicher", "correct": false },
+      { "text": "Sie übernimmt die Bildausgabe am Monitor", "correct": false }
+    ],
+    "explanation": "SSDs sind schnell, leise, robust und energieeffizient, weil sie keine beweglichen Teile besitzen."
+  },
+  {
+    "id": "lf-02-sach-hard-007",
+    "question": "Warum werden HDDs trotz SSDs noch eingesetzt?",
+    "answers": [
+      { "text": "Sie bieten oft viel Speicherplatz zu niedrigen Kosten", "correct": true },
+      { "text": "Sie bieten besonders geringe Zugriffszeiten", "correct": false },
+      { "text": "Sie speichern Daten in flüchtigen Speicherzellen", "correct": false },
+      { "text": "Sie dienen als CPU-Cache für Programme", "correct": false }
+    ],
+    "explanation": "HDDs sind für große Datenmengen weiterhin wirtschaftlich, auch wenn SSDs meist schneller sind."
+  },
+  {
+    "id": "lf-02-sach-hard-008",
+    "question": "Warum kann eine langsame Festplatte das gesamte System ausbremsen?",
+    "answers": [
+      { "text": "Programme und Daten müssen vom Datenträger geladen werden", "correct": true },
+      { "text": "CPU-Kerne werden durch Datenträgerzahl festgelegt", "correct": false },
+      { "text": "Grafikleistung steigt mit Datenträgerdrehzahl", "correct": false },
+      { "text": "Monitorauflösung hängt vom Laufwerkstyp ab", "correct": false }
+    ],
+    "explanation": "Wenn Daten langsam gelesen oder geschrieben werden, warten CPU und Programme auf den Datenträger."
+  },
+  {
+    "id": "lf-02-sach-hard-009",
+    "question": "Warum ist die Kompatibilität des Mainboards wichtig?",
+    "answers": [
+      { "text": "CPU, RAM, Gehäuse, Netzteil und Anschlüsse müssen passen", "correct": true },
+      { "text": "Mainboards bestimmen die Höhe des Kundenrabatts", "correct": false },
+      { "text": "Mainboards übernehmen die Auswahl der Softwarelizenz", "correct": false },
+      { "text": "Mainboards legen die Seitendruckkosten fest", "correct": false }
+    ],
+    "explanation": "Ein Mainboard muss zu Formfaktor, Sockel, RAM-Typ, Steckplätzen, Speicheranschlüssen und Gehäuse passen."
+  },
+  {
+    "id": "lf-02-sach-hard-010",
+    "question": "Warum ist der Formfaktor bei Mainboards und Gehäusen relevant?",
+    "answers": [
+      { "text": "Baugröße und Befestigung müssen zusammenpassen", "correct": true },
+      { "text": "CPU-Takt und Cachegröße werden dadurch festgelegt", "correct": false },
+      { "text": "Umsatzsteuer und Skonto werden dadurch berechnet", "correct": false },
+      { "text": "Druckgeschwindigkeit und Tonerbedarf hängen davon ab", "correct": false }
+    ],
+    "explanation": "Formfaktoren wie ATX, Micro-ATX oder Mini-ITX beeinflussen Gehäusewahl, Erweiterbarkeit und Platzbedarf."
+  },
+  {
+    "id": "lf-02-sach-hard-011",
+    "question": "Warum muss ein Netzteil passend dimensioniert werden?",
+    "answers": [
+      { "text": "Es muss die Komponenten zuverlässig mit Strom versorgen", "correct": true },
+      { "text": "Es bestimmt die Anzahl installierter Anwendungen", "correct": false },
+      { "text": "Es ersetzt die Wärmeabfuhr des Gehäuses", "correct": false },
+      { "text": "Es legt die Auflösung der Bildausgabe fest", "correct": false }
+    ],
+    "explanation": "Das Netzteil muss genügend Leistung, passende Anschlüsse und stabile Spannungen bereitstellen."
+  },
+  {
+    "id": "lf-02-sach-hard-012",
+    "question": "Warum ist die Effizienz eines Netzteils wichtig?",
+    "answers": [
+      { "text": "Weniger Energie geht als Wärme verloren", "correct": true },
+      { "text": "Mehr CPU-Kerne werden dadurch freigeschaltet", "correct": false },
+      { "text": "RAM-Daten bleiben dadurch dauerhaft erhalten", "correct": false },
+      { "text": "Grafikkarten erhalten dadurch mehr VRAM", "correct": false }
+    ],
+    "explanation": "Ein effizientes Netzteil senkt Energieverluste, Wärmeentwicklung und Betriebskosten."
+  },
+  {
+    "id": "lf-02-sach-hard-013",
+    "question": "Warum benötigen leistungsstarke Grafikkarten oft eigene Stromanschlüsse?",
+    "answers": [
+      { "text": "Der PCIe-Steckplatz liefert nicht genug Leistung", "correct": true },
+      { "text": "Der Monitor versorgt die Grafikkarte mit Energie", "correct": false },
+      { "text": "Der VRAM erzeugt den benötigten Betriebsstrom", "correct": false },
+      { "text": "Der Arbeitsspeicher übernimmt die Stromversorgung", "correct": false }
+    ],
+    "explanation": "Hochleistungs-GPUs haben einen hohen Strombedarf und benötigen zusätzliche Stromzufuhr."
+  },
+  {
+    "id": "lf-02-sach-hard-014",
+    "question": "Warum ist VRAM bei Grafikkarten wichtig?",
+    "answers": [
+      { "text": "Grafikdaten können schnell gespeichert und verarbeitet werden", "correct": true },
+      { "text": "CPU-Befehle werden dort dauerhaft archiviert", "correct": false },
+      { "text": "Betriebssystemdateien werden dort installiert", "correct": false },
+      { "text": "Netzteileffizienz wird dort gemessen", "correct": false }
+    ],
+    "explanation": "VRAM speichert Bilddaten, Texturen und Grafikdaten nahe an der GPU."
+  },
+  {
+    "id": "lf-02-sach-hard-015",
+    "question": "Warum ist eine dedizierte Grafikkarte nicht für jeden Arbeitsplatz nötig?",
+    "answers": [
+      { "text": "Viele Büroaufgaben benötigen nur geringe Grafikleistung", "correct": true },
+      { "text": "Viele Office-Aufgaben erfordern professionelle CAD-Leistung", "correct": false },
+      { "text": "Integrierte Grafik kann Bildausgabe grundsätzlich vermeiden", "correct": false },
+      { "text": "Monitore benötigen stets eine High-End-Grafikkarte", "correct": false }
+    ],
+    "explanation": "Für Office, Web und einfache Anwendungen reicht oft integrierte Grafik aus."
+  },
+  {
+    "id": "lf-02-sach-hard-016",
+    "question": "Warum sind Schnittstellen bei der Hardwareauswahl wichtig?",
+    "answers": [
+      { "text": "Peripherie und vorhandene Geräte müssen anschließbar sein", "correct": true },
+      { "text": "Schnittstellen bestimmen den Arbeitsspeichertyp", "correct": false },
+      { "text": "Schnittstellen ersetzen die Softwarekompatibilität", "correct": false },
+      { "text": "Schnittstellen berechnen die Betriebskosten", "correct": false }
+    ],
+    "explanation": "USB, HDMI, DisplayPort, LAN, Audio oder Docking-Anschlüsse müssen zum Arbeitsplatzbedarf passen."
+  },
+  {
+    "id": "lf-02-sach-hard-017",
+    "question": "Warum ist USB-C bei modernen Arbeitsplätzen praktisch?",
+    "answers": [
+      { "text": "Es kann je nach Gerät Daten, Strom und Bildsignale übertragen", "correct": true },
+      { "text": "Es dient ausschließlich als interner CPU-Sockel", "correct": false },
+      { "text": "Es beschreibt einen Arbeitsspeicherstandard", "correct": false },
+      { "text": "Es verwaltet Softwarelizenzen zentral", "correct": false }
+    ],
+    "explanation": "USB-C kann vielseitig genutzt werden, abhängig von Gerät, Kabel und unterstütztem Standard."
+  },
+  {
+    "id": "lf-02-sach-hard-018",
+    "question": "Warum muss bei USB nicht nur der Stecker betrachtet werden?",
+    "answers": [
+      { "text": "Steckerform und unterstützter Standard können unterschiedlich sein", "correct": true },
+      { "text": "Steckerform legt jede Datenrate eindeutig fest", "correct": false },
+      { "text": "Steckerform bestimmt die Bildschirmdiagonale", "correct": false },
+      { "text": "Steckerform ersetzt die Gerätekompatibilität", "correct": false }
+    ],
+    "explanation": "Ein USB-C-Stecker sagt nicht automatisch, welche Datenrate, Ladeleistung oder Bildausgabe unterstützt wird."
+  },
+  {
+    "id": "lf-02-sach-hard-019",
+    "question": "Warum ist eine Dockingstation für mobile Arbeitsplätze nützlich?",
+    "answers": [
+      { "text": "Notebook und Peripherie lassen sich schnell verbinden", "correct": true },
+      { "text": "Notebook-Akkus werden dadurch dauerhaft ersetzt", "correct": false },
+      { "text": "Drucker werden dadurch zu Servern umgewandelt", "correct": false },
+      { "text": "Internetverbindungen werden dadurch überflüssig", "correct": false }
+    ],
+    "explanation": "Dockingstationen verbinden Notebook, Monitore, Netzwerk, Tastatur, Maus und weitere Geräte bequem."
+  },
+  {
+    "id": "lf-02-sach-hard-020",
+    "question": "Warum ist ein Notebook für manche Kunden besser als ein Desktop-PC?",
+    "answers": [
+      { "text": "Es ermöglicht mobiles Arbeiten", "correct": true },
+      { "text": "Es bietet grundsätzlich mehr Erweiterungsplätze", "correct": false },
+      { "text": "Es eignet sich vorrangig für feste Serverracks", "correct": false },
+      { "text": "Es benötigt feste interne Arbeitsplatzverkabelung", "correct": false }
+    ],
+    "explanation": "Notebooks eignen sich für Homeoffice, Außendienst oder flexible Arbeitsplätze."
+  },
+  {
+    "id": "lf-02-sach-hard-021",
+    "question": "Warum ist eine Workstation für CAD oder Rendering sinnvoll?",
+    "answers": [
+      { "text": "Sie bietet hohe CPU-, RAM- und Grafikleistung", "correct": true },
+      { "text": "Sie ist für einfache Textverarbeitung optimiert", "correct": false },
+      { "text": "Sie reduziert professionelle Grafikleistung", "correct": false },
+      { "text": "Sie ersetzt die fachliche Anforderungsanalyse", "correct": false }
+    ],
+    "explanation": "Workstations sind für rechenintensive, grafikintensive oder professionelle Anwendungen ausgelegt."
+  },
+  {
+    "id": "lf-02-sach-hard-022",
+    "question": "Warum ist ein Thin Client in zentral verwalteten Umgebungen sinnvoll?",
+    "answers": [
+      { "text": "Anwendungen laufen zentral auf Servern oder virtuellen Desktops", "correct": true },
+      { "text": "Anwendungen laufen lokal mit maximaler Clientleistung", "correct": false },
+      { "text": "Serverdienste werden vollständig auf Clients verlagert", "correct": false },
+      { "text": "Arbeitsumgebungen werden pro Gerät einzeln gepflegt", "correct": false }
+    ],
+    "explanation": "Thin Clients reduzieren lokale Leistung und Verwaltung, benötigen aber zuverlässige zentrale Infrastruktur."
+  },
+  {
+    "id": "lf-02-sach-hard-023",
+    "question": "Warum ist bei Thin Clients eine stabile Netzwerkverbindung besonders wichtig?",
+    "answers": [
+      { "text": "Viele Funktionen hängen von zentralen Systemen ab", "correct": true },
+      { "text": "Viele Funktionen liegen vollständig lokal vor", "correct": false },
+      { "text": "Zentrale Desktops arbeiten unabhängig von Latenz", "correct": false },
+      { "text": "Serverdaten werden dauerhaft lokal gespiegelt", "correct": false }
+    ],
+    "explanation": "Wenn Anwendungen oder Desktops zentral bereitgestellt werden, beeinflusst die Netzwerkverbindung die Nutzbarkeit stark."
+  },
+  {
+    "id": "lf-02-sach-hard-024",
+    "question": "Warum kann Desktop as a Service für Unternehmen attraktiv sein?",
+    "answers": [
+      { "text": "Virtuelle Arbeitsplätze können zentral bereitgestellt werden", "correct": true },
+      { "text": "Arbeitsplätze werden physisch an jedem Ort aufgebaut", "correct": false },
+      { "text": "Lokale Hardware wird dadurch beliebig leistungsfähig", "correct": false },
+      { "text": "Benutzerverwaltung wird dadurch ausgeschlossen", "correct": false }
+    ],
+    "explanation": "DaaS kann Administration, Skalierung und ortsunabhängiges Arbeiten erleichtern."
+  },
+  {
+    "id": "lf-02-sach-hard-025",
+    "question": "Warum ist DaaS nicht für jeden Arbeitsplatz ideal?",
+    "answers": [
+      { "text": "Bandbreite, Anbieterabhängigkeit und Lizenzen müssen passen", "correct": true },
+      { "text": "Lokale Hardwareanforderungen steigen dadurch stark", "correct": false },
+      { "text": "DaaS stellt physische Monitore als Dienst bereit", "correct": false },
+      { "text": "Virtuelle Desktops umgehen alle Vertragsfragen", "correct": false }
+    ],
+    "explanation": "Virtuelle Desktops benötigen passende Netzwerkqualität, Sicherheitsregeln, Lizenzmodelle und Verfügbarkeit."
+  },
+  {
+    "id": "lf-02-sach-hard-026",
+    "question": "Warum ist Virtualisierung bei Arbeitsplatz- und Serverkonzepten wichtig?",
+    "answers": [
+      { "text": "Ressourcen können flexibel bereitgestellt werden", "correct": true },
+      { "text": "Anwendungen werden fest an einzelne Hardware gebunden", "correct": false },
+      { "text": "Serververwaltung wird dadurch dezentraler", "correct": false },
+      { "text": "Backups werden dadurch organisatorisch ersetzt", "correct": false }
+    ],
+    "explanation": "Virtualisierung trennt logische Systeme von physischer Hardware und erleichtert Bereitstellung und Verwaltung."
+  },
+  {
+    "id": "lf-02-sach-hard-027",
+    "question": "Warum muss bei Monitoren der Einsatzzweck beachtet werden?",
+    "answers": [
+      { "text": "Größe, Panel, Auflösung und Ergonomie müssen passen", "correct": true },
+      { "text": "Monitore besitzen für jede Aufgabe gleiche Eigenschaften", "correct": false },
+      { "text": "Bildschirmwahl richtet sich primär nach RAM-Kapazität", "correct": false },
+      { "text": "Schnittstellen spielen bei Monitoren keine Rolle", "correct": false }
+    ],
+    "explanation": "Office, Grafikarbeit, CAD oder Mehrmonitorbetrieb haben unterschiedliche Anforderungen."
+  },
+  {
+    "id": "lf-02-sach-hard-028",
+    "question": "Warum sind IPS-Panels für bestimmte Arbeitsplätze beliebt?",
+    "answers": [
+      { "text": "Sie bieten gute Blickwinkel und Farbdarstellung", "correct": true },
+      { "text": "Sie dienen als schneller Massenspeicher", "correct": false },
+      { "text": "Sie ersetzen professionelle Grafikkarten", "correct": false },
+      { "text": "Sie erhöhen die CPU-Kernanzahl", "correct": false }
+    ],
+    "explanation": "IPS-Panels eignen sich besonders, wenn Farbdarstellung und Blickwinkel wichtig sind."
+  },
+  {
+    "id": "lf-02-sach-hard-029",
+    "question": "Warum ist die Bildschirmhöhe ergonomisch wichtig?",
+    "answers": [
+      { "text": "Sie beeinflusst Kopf- und Körperhaltung", "correct": true },
+      { "text": "Sie bestimmt die CPU-Taktfrequenz", "correct": false },
+      { "text": "Sie legt die SSD-Kapazität fest", "correct": false },
+      { "text": "Sie steuert die Netzwerkbandbreite", "correct": false }
+    ],
+    "explanation": "Ein falsch positionierter Monitor kann Nacken, Rücken und Augen belasten."
+  },
+  {
+    "id": "lf-02-sach-hard-030",
+    "question": "Warum ist gute Beleuchtung am Arbeitsplatz wichtig?",
+    "answers": [
+      { "text": "Sie reduziert Belastung durch Blendung und schlechte Sicht", "correct": true },
+      { "text": "Sie erhöht die Rechenleistung der CPU", "correct": false },
+      { "text": "Sie ersetzt ergonomische Eingabegeräte", "correct": false },
+      { "text": "Sie vergrößert die Bildschirmdiagonale", "correct": false }
+    ],
+    "explanation": "Gute Beleuchtung unterstützt konzentriertes, augenschonendes und sicheres Arbeiten."
+  },
+  {
+    "id": "lf-02-sach-hard-031",
+    "question": "Warum sind ergonomische Eingabegeräte sinnvoll?",
+    "answers": [
+      { "text": "Sie können körperliche Belastungen reduzieren", "correct": true },
+      { "text": "Sie erhöhen die Internetgeschwindigkeit", "correct": false },
+      { "text": "Sie ersetzen den Bildschirmarbeitsplatz", "correct": false },
+      { "text": "Sie übernehmen automatische Datensicherung", "correct": false }
+    ],
+    "explanation": "Ergonomische Tastaturen und Mäuse können Handgelenke, Arme und Schultern entlasten."
+  },
+  {
+    "id": "lf-02-sach-hard-032",
+    "question": "Warum ist Barrierefreiheit bei Arbeitsplatzausstattung relevant?",
+    "answers": [
+      { "text": "Arbeitsplätze müssen für unterschiedliche Nutzer geeignet sein", "correct": true },
+      { "text": "Arbeitsplätze werden dadurch weniger sicher", "correct": false },
+      { "text": "Barrierefreiheit betrifft vorrangig Serverhardware", "correct": false },
+      { "text": "Barrierefreiheit beschreibt Druckerwartung", "correct": false }
+    ],
+    "explanation": "Barrierefreiheit ermöglicht Nutzbarkeit z. B. bei Seh-, Hör- oder motorischen Einschränkungen."
+  },
+  {
+    "id": "lf-02-sach-hard-033",
+    "question": "Warum kann ein größerer Monitor für sehbehinderte Nutzer hilfreich sein?",
+    "answers": [
+      { "text": "Inhalte lassen sich größer und besser erkennbar darstellen", "correct": true },
+      { "text": "Softwarelizenzen werden dadurch automatisch ersetzt", "correct": false },
+      { "text": "Festplattenkapazität steigt mit Bildschirmgröße", "correct": false },
+      { "text": "Datenschutzmaßnahmen entfallen dadurch", "correct": false }
+    ],
+    "explanation": "Größere oder besser geeignete Displays können Lesbarkeit und Bedienbarkeit verbessern."
+  },
+  {
+    "id": "lf-02-sach-hard-034",
+    "question": "Warum ist ein Datenschutzfilter an manchen Arbeitsplätzen sinnvoll?",
+    "answers": [
+      { "text": "Er erschwert seitliches Mitlesen am Bildschirm", "correct": true },
+      { "text": "Er verschlüsselt Datenträger automatisch", "correct": false },
+      { "text": "Er ersetzt Zugriffsrechte im Betriebssystem", "correct": false },
+      { "text": "Er beschleunigt die Bildberechnung", "correct": false }
+    ],
+    "explanation": "Datenschutzfilter können Sichtschutz bieten, ersetzen aber keine weiteren Sicherheitsmaßnahmen."
+  },
+  {
+    "id": "lf-02-sach-hard-035",
+    "question": "Warum muss ein Drucker passend zum Druckvolumen ausgewählt werden?",
+    "answers": [
+      { "text": "Geräte unterscheiden sich bei Leistung und Seitenkosten", "correct": true },
+      { "text": "Druckvolumen bestimmt die Monitorauflösung", "correct": false },
+      { "text": "Druckvolumen ersetzt die Papierzufuhr", "correct": false },
+      { "text": "Geräte besitzen identische Verbrauchskosten", "correct": false }
+    ],
+    "explanation": "Einzelarbeitsplatz, Abteilung und Hochleistungsdruck unterscheiden sich deutlich bei Kosten und Belastbarkeit."
+  },
+  {
+    "id": "lf-02-sach-hard-036",
+    "question": "Warum ist ein Laserdrucker bei hohem Schwarz-Weiß-Druckvolumen oft wirtschaftlich?",
+    "answers": [
+      { "text": "Die Seitendruckkosten können niedrig sein", "correct": true },
+      { "text": "Flüssige Tinte wird besonders sparsam verteilt", "correct": false },
+      { "text": "Fotopapier ist sein hauptsächlicher Einsatzbereich", "correct": false },
+      { "text": "Verbrauchsmaterialien fallen dabei kaum an", "correct": false }
+    ],
+    "explanation": "Laserdrucker sind oft schnell und bei hohem Textdruckvolumen kostengünstig pro Seite."
+  },
+  {
+    "id": "lf-02-sach-hard-037",
+    "question": "Warum kann ein Tintenstrahldrucker für Fotodruck geeignet sein?",
+    "answers": [
+      { "text": "Er kann hochwertige Farbausgaben auf Spezialpapier liefern", "correct": true },
+      { "text": "Er nutzt Tonerpulver und eine Fixiereinheit", "correct": false },
+      { "text": "Er ist vorrangig für Massentextdruck ausgelegt", "correct": false },
+      { "text": "Er verarbeitet Farbdaten ausschließlich schwarzweiß", "correct": false }
+    ],
+    "explanation": "Tintenstrahldrucker können bei Fotos Vorteile haben, verursachen bei hohem Volumen aber oft höhere Verbrauchskosten."
+  },
+  {
+    "id": "lf-02-sach-hard-038",
+    "question": "Warum muss bei Druckern auch die IT-Sicherheit betrachtet werden?",
+    "answers": [
+      { "text": "Drucker können vertrauliche Daten verarbeiten und speichern", "correct": true },
+      { "text": "Drucker arbeiten stets getrennt vom Netzwerk", "correct": false },
+      { "text": "Druckdaten enthalten ausschließlich technische Metadaten", "correct": false },
+      { "text": "Druckersicherheit ersetzt gesetzliche Vorgaben", "correct": false }
+    ],
+    "explanation": "Multifunktionsgeräte können Druck-, Scan- und Kopierdaten verarbeiten und benötigen Schutzmaßnahmen."
+  },
+  {
+    "id": "lf-02-sach-hard-039",
+    "question": "Warum ist Netzwerkfähigkeit bei Druckern oft wichtig?",
+    "answers": [
+      { "text": "Mehrere Nutzer können zentral auf den Drucker zugreifen", "correct": true },
+      { "text": "Der Drucker arbeitet dadurch als Arbeitsspeicher", "correct": false },
+      { "text": "Papierverbrauch wird dadurch technisch verhindert", "correct": false },
+      { "text": "Druckertreiber werden dadurch grundsätzlich ersetzt", "correct": false }
+    ],
+    "explanation": "Netzwerkdrucker können gemeinsam genutzt, verwaltet und in Arbeitsabläufe eingebunden werden."
+  },
+  {
+    "id": "lf-02-sach-hard-040",
+    "question": "Warum ist ein Multifunktionsdrucker nicht immer die beste Lösung?",
+    "answers": [
+      { "text": "Ausfall oder Sicherheitsrisiken betreffen mehrere Funktionen", "correct": true },
+      { "text": "Mehrere Funktionen werden dadurch räumlich getrennt", "correct": false },
+      { "text": "Drucken und Scannen laufen auf separaten Geräten", "correct": false },
+      { "text": "Wartungsaufwand verteilt sich auf mehrere Systeme", "correct": false }
+    ],
+    "explanation": "Multifunktionsgeräte sparen Platz, bündeln aber Drucken, Scannen und Kopieren in einem Gerät."
+  },
+  {
+    "id": "lf-02-sach-hard-041",
+    "question": "Warum muss ein Scanner passend zur Aufgabe ausgewählt werden?",
+    "answers": [
+      { "text": "Scanvolumen, Qualität und Dokumentenart unterscheiden sich", "correct": true },
+      { "text": "Scanner besitzen identische Einzugsleistungen", "correct": false },
+      { "text": "Scanner dienen vorrangig zur Papierausgabe", "correct": false },
+      { "text": "Scanner ersetzen die Softwareauswahl", "correct": false }
+    ],
+    "explanation": "Flachbett-, Dokumenten-, Abteilungs- oder mobile Scanner passen zu unterschiedlichen Einsatzfällen."
+  },
+  {
+    "id": "lf-02-sach-hard-042",
+    "question": "Warum ist ein Dokumentenscanner für viele Papierdokumente besser als ein einfacher Flachbettscanner?",
+    "answers": [
+      { "text": "Er ist auf schnelles Scannen vieler Seiten ausgelegt", "correct": true },
+      { "text": "Er digitalisiert vorrangig einzelne Bücher schonend", "correct": false },
+      { "text": "Er arbeitet als Ausgabegerät für Papierdruck", "correct": false },
+      { "text": "Er ersetzt die Dateiverwaltung des Systems", "correct": false }
+    ],
+    "explanation": "Dokumentenscanner unterstützen häufig Stapelverarbeitung und höhere Scanleistung."
+  },
+  {
+    "id": "lf-02-sach-hard-043",
+    "question": "Warum ist Softwareauswahl Teil der Arbeitsplatzausstattung?",
+    "answers": [
+      { "text": "Hardware muss mit benötigten Anwendungen zusammenpassen", "correct": true },
+      { "text": "Softwareauswahl bestimmt allein die Netzteilleistung", "correct": false },
+      { "text": "Arbeitsplatzanforderungen betreffen ausschließlich Hardware", "correct": false },
+      { "text": "Software ersetzt die fachlichen Kundenanforderungen", "correct": false }
+    ],
+    "explanation": "Arbeitsplatzanforderungen umfassen Betriebssystem, Anwendungen, Lizenzen, Sicherheitssoftware und Kompatibilität."
+  },
+  {
+    "id": "lf-02-sach-hard-044",
+    "question": "Warum sind Lizenzmodelle bei der Auswahl von Software wichtig?",
+    "answers": [
+      { "text": "Nutzung, Kosten und Rechte hängen davon ab", "correct": true },
+      { "text": "Lizenzmodelle beschreiben Monitorauflösungen", "correct": false },
+      { "text": "Lizenzen regeln die Netzteil-Effizienz", "correct": false },
+      { "text": "Lizenzmodelle ersetzen Datenschutzanforderungen", "correct": false }
+    ],
+    "explanation": "Einzelplatz-, Volumen-, Abo- oder SaaS-Modelle wirken sich auf Kosten, Verwaltung und Nutzung aus."
+  },
+  {
+    "id": "lf-02-sach-hard-045",
+    "question": "Warum kann SaaS für Arbeitsplatzsoftware sinnvoll sein?",
+    "answers": [
+      { "text": "Software kann zentral bereitgestellt und aktualisiert werden", "correct": true },
+      { "text": "Software wird dadurch lokal dauerhaft wartungsfrei", "correct": false },
+      { "text": "SaaS macht Benutzerverwaltung entbehrlich", "correct": false },
+      { "text": "SaaS ersetzt Arbeitsplatzhardware vollständig", "correct": false }
+    ],
+    "explanation": "SaaS kann Wartung vereinfachen, erfordert aber passende Verträge, Datenschutz und Verfügbarkeit."
+  },
+  {
+    "id": "lf-02-sach-hard-046",
+    "question": "Warum ist Standardisierung bei Arbeitsplatz-PCs vorteilhaft?",
+    "answers": [
+      { "text": "Wartung, Austausch und Support werden einfacher", "correct": true },
+      { "text": "Jeder Arbeitsplatz erhält dadurch individuelle Hardware", "correct": false },
+      { "text": "Dokumentation wird dadurch schlechter nutzbar", "correct": false },
+      { "text": "Anforderungen müssen dadurch neu entstehen", "correct": false }
+    ],
+    "explanation": "Einheitliche Hardware und Software erleichtern Betrieb, Ersatzteile, Images und Support."
+  },
+  {
+    "id": "lf-02-sach-hard-047",
+    "question": "Warum sollte bei neuer Hardware auch Wartbarkeit beachtet werden?",
+    "answers": [
+      { "text": "Geräte müssen später repariert oder erweitert werden können", "correct": true },
+      { "text": "Wartbarkeit beschreibt ausschließlich Papierverbrauch", "correct": false },
+      { "text": "Wartbarkeit ersetzt vertragliche Gewährleistung", "correct": false },
+      { "text": "Wartbarkeit verhindert technische Störungen vollständig", "correct": false }
+    ],
+    "explanation": "Gute Wartbarkeit senkt Aufwand bei Reparatur, Erweiterung, Reinigung oder Austausch."
+  },
+  {
+    "id": "lf-02-sach-hard-048",
+    "question": "Warum ist Erweiterbarkeit bei Arbeitsplatzsystemen ein Auswahlkriterium?",
+    "answers": [
+      { "text": "Zukünftige Anforderungen können besser erfüllt werden", "correct": true },
+      { "text": "Erweiterbarkeit betrifft ausschließlich Rechnungswesen", "correct": false },
+      { "text": "Erweiterbarkeit ersetzt die Erstinstallation", "correct": false },
+      { "text": "Erweiterbarkeit verhindert spätere Änderungen", "correct": false }
+    ],
+    "explanation": "Freie RAM-Steckplätze, Anschlüsse, Laufwerksschächte oder PCIe-Slots können spätere Anpassungen erleichtern."
+  },
+  {
+    "id": "lf-02-sach-hard-049",
+    "question": "Warum sollte IT-Refurbishing geprüft werden?",
+    "answers": [
+      { "text": "Überholte Geräte können wirtschaftlich und nachhaltig sein", "correct": true },
+      { "text": "Überholte Geräte umgehen Sicherheitsprüfung", "correct": false },
+      { "text": "Refurbishing ersetzt die Anforderungsanalyse", "correct": false },
+      { "text": "Refurbishing betrifft vorrangig Verbrauchsmaterial", "correct": false }
+    ],
+    "explanation": "Refurbishing kann Kosten senken und Ressourcen schonen, wenn Leistung und Sicherheit ausreichen."
+  },
+  {
+    "id": "lf-02-sach-hard-050",
+    "question": "Warum ist IT-Recycling bei Altgeräten wichtig?",
+    "answers": [
+      { "text": "Rohstoffe und Umweltbelastungen müssen berücksichtigt werden", "correct": true },
+      { "text": "Datenträgerdaten werden dadurch automatisch geschützt", "correct": false },
+      { "text": "Altgeräte verlieren dadurch jede Rohstoffbedeutung", "correct": false },
+      { "text": "Recycling ersetzt sichere Datenlöschung", "correct": false }
+    ],
+    "explanation": "IT-Recycling unterstützt Ressourcenschonung, muss aber mit sicherer Datenlöschung kombiniert werden."
+  }
+]

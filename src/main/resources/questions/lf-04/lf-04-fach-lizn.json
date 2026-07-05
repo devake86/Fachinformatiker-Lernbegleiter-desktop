@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-lizn-001",
+    "question": "Was beschreibt das Urheberrecht?",
+    "answers": [
+      { "text": "Schutz geistiger Werke und ihrer Urheber", "correct": true },
+      { "text": "Erlaubnis zur Nutzung durch eine Lizenz", "correct": false },
+      { "text": "Schutz geschäftlicher Kennzeichen", "correct": false },
+      { "text": "Wirtschaftliches Recht zur Vervielfältigung", "correct": false }
+    ],
+    "explanation": "Merksatz: Urheberrecht schützt geistige Werke wie Texte, Musik, Bilder, Software oder andere kreative Leistungen."
+  },
+  {
+    "id": "lf-04-fach-lizn-002",
+    "question": "Was beschreibt geistiges Eigentum?",
+    "answers": [
+      { "text": "Schutzwürdige immaterielle Leistungen", "correct": true },
+      { "text": "Physisches Eigentum an Datenträgern", "correct": false },
+      { "text": "Nutzungsrecht an fremden Werken", "correct": false },
+      { "text": "Kennzeichen im geschäftlichen Verkehr", "correct": false }
+    ],
+    "explanation": "Merksatz: Geistiges Eigentum schützt immaterielle Ergebnisse menschlicher Kreativität oder Entwicklung."
+  },
+  {
+    "id": "lf-04-fach-lizn-003",
+    "question": "Was beschreibt Copyright?",
+    "answers": [
+      { "text": "Recht zur Vervielfältigung und wirtschaftlichen Nutzung", "correct": true },
+      { "text": "Pflicht zur Weitergabe unter gleicher Lizenz", "correct": false },
+      { "text": "Schutz von Marken, Namen und Logos", "correct": false },
+      { "text": "Erlaubnis zur kostenlosen Nutzung ohne Bedingungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Copyright beschreibt vor allem wirtschaftliche Nutzungs- und Vervielfältigungsrechte an Werken."
+  },
+  {
+    "id": "lf-04-fach-lizn-004",
+    "question": "Was beschreibt Copyleft?",
+    "answers": [
+      { "text": "Weitergabe oft unter gleichen Bedingungen", "correct": true },
+      { "text": "Weitergabe nur ohne Bearbeitung", "correct": false },
+      { "text": "Nutzung nur gegen Lizenzgebühr", "correct": false },
+      { "text": "Vervielfältigung nur durch den Urheber", "correct": false }
+    ],
+    "explanation": "Merksatz: Copyleft erlaubt Nutzung und Weitergabe, verlangt aber häufig gleiche Lizenzbedingungen für abgeleitete Werke."
+  },
+  {
+    "id": "lf-04-fach-lizn-005",
+    "question": "Was beschreibt das Markenrecht?",
+    "answers": [
+      { "text": "Schutz geschäftlicher Kennzeichen", "correct": true },
+      { "text": "Schutz kreativer Werke vor Kopien", "correct": false },
+      { "text": "Erlaubnis zur Nutzung einer Software", "correct": false },
+      { "text": "Regelung zur Weitergabe von Quellcode", "correct": false }
+    ],
+    "explanation": "Merksatz: Markenrecht schützt Kennzeichen, die Waren oder Dienstleistungen im Geschäftsverkehr unterscheidbar machen."
+  },
+  {
+    "id": "lf-04-fach-lizn-006",
+    "question": "Was beschreibt ein Nutzungsrecht?",
+    "answers": [
+      { "text": "Erlaubnis zur Nutzung eines Werks in bestimmter Weise", "correct": true },
+      { "text": "Übertragung des Urheberrechts selbst", "correct": false },
+      { "text": "Automatisches Eigentum am Quellcode", "correct": false },
+      { "text": "Kennzeichnung einer Marke im Handel", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Nutzungsrecht erlaubt eine bestimmte Nutzung, ohne dass das Urheberrecht selbst übertragen wird."
+  },
+  {
+    "id": "lf-04-fach-lizn-007",
+    "question": "Was beschreibt ein einfaches Nutzungsrecht?",
+    "answers": [
+      { "text": "Mehrere Personen können dasselbe Werk nutzen dürfen", "correct": true },
+      { "text": "Eine Person schließt alle anderen Nutzer aus", "correct": false },
+      { "text": "Der Urheber verliert sein Urheberrecht", "correct": false },
+      { "text": "Das Werk wird ohne Lizenzbedingungen gemeinfrei", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein einfaches Nutzungsrecht erlaubt Nutzung, schließt andere Nutzungsberechtigte aber nicht zwingend aus."
+  },
+  {
+    "id": "lf-04-fach-lizn-008",
+    "question": "Was beschreibt ein ausschließliches Nutzungsrecht?",
+    "answers": [
+      { "text": "Nur der Berechtigte darf das Werk vereinbart nutzen", "correct": true },
+      { "text": "Mehrere Nutzer dürfen das Werk parallel nutzen", "correct": false },
+      { "text": "Das Werk wird ohne Urheberangabe nutzbar", "correct": false },
+      { "text": "Das Werk verliert automatisch seinen Schutz", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein ausschließliches Nutzungsrecht kann andere einschließlich des Urhebers von der Nutzung ausschließen."
+  },
+  {
+    "id": "lf-04-fach-lizn-009",
+    "question": "Was beschreibt eine Lizenz?",
+    "answers": [
+      { "text": "Erlaubnis zur Nutzung unter bestimmten Bedingungen", "correct": true },
+      { "text": "Übertragung des gesamten Urheberrechts", "correct": false },
+      { "text": "Schutz eines Namens oder Logos", "correct": false },
+      { "text": "Gemeinfreigabe ohne Nutzungsregeln", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Lizenz regelt, was mit einem Werk oder einer Software erlaubt ist."
+  },
+  {
+    "id": "lf-04-fach-lizn-010",
+    "question": "Was beschreibt eine Softwarelizenz?",
+    "answers": [
+      { "text": "Nutzungsbedingungen für ein Softwareprodukt", "correct": true },
+      { "text": "Offener Quellcode ohne Bedingungen", "correct": false },
+      { "text": "Eigentum am Programmcode durch Installation", "correct": false },
+      { "text": "Technischer Kopierschutz ohne Rechtswirkung", "correct": false }
+    ],
+    "explanation": "Merksatz: Softwarelizenzen legen fest, wie Software installiert, genutzt, kopiert oder weitergegeben werden darf."
+  },
+  {
+    "id": "lf-04-fach-lizn-011",
+    "question": "Was beschreibt eine EULA?",
+    "answers": [
+      { "text": "Endnutzer-Lizenzvereinbarung für Software", "correct": true },
+      { "text": "Open-Source-Lizenz mit Copyleft-Pflicht", "correct": false },
+      { "text": "Creative-Commons-Lizenz für Bilder", "correct": false },
+      { "text": "Vertrag zur Markenregistrierung", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine EULA regelt die Rechte und Pflichten des Endnutzers bei der Softwarenutzung."
+  },
+  {
+    "id": "lf-04-fach-lizn-012",
+    "question": "Was beschreibt Creative Commons?",
+    "answers": [
+      { "text": "Standardisierte Lizenzen für kreative Werke", "correct": true },
+      { "text": "Proprietäre Lizenz für geschlossene Software", "correct": false },
+      { "text": "Gesetzlicher Schutz für Unternehmensmarken", "correct": false },
+      { "text": "Verfahren zur Prüfung von Urheberrechten", "correct": false }
+    ],
+    "explanation": "Merksatz: Creative-Commons-Lizenzen zeigen verständlich, unter welchen Bedingungen Werke genutzt werden dürfen."
+  },
+  {
+    "id": "lf-04-fach-lizn-013",
+    "question": "Was beschreibt CC BY?",
+    "answers": [
+      { "text": "Nutzung mit Namensnennung des Urhebers", "correct": true },
+      { "text": "Nutzung ohne Bearbeitung des Werks", "correct": false },
+      { "text": "Nutzung ohne kommerzielle Zwecke", "correct": false },
+      { "text": "Weitergabe unter gleichen Bedingungen", "correct": false }
+    ],
+    "explanation": "Merksatz: BY bedeutet Namensnennung des Urhebers."
+  },
+  {
+    "id": "lf-04-fach-lizn-014",
+    "question": "Was beschreibt CC SA?",
+    "answers": [
+      { "text": "Weitergabe unter gleichen Bedingungen", "correct": true },
+      { "text": "Nutzung mit Namensnennung", "correct": false },
+      { "text": "Verbot kommerzieller Nutzung", "correct": false },
+      { "text": "Verbot bearbeiteter Weitergabe", "correct": false }
+    ],
+    "explanation": "Merksatz: SA bedeutet Share Alike, also Weitergabe unter gleichen Bedingungen."
+  },
+  {
+    "id": "lf-04-fach-lizn-015",
+    "question": "Was beschreibt CC ND?",
+    "answers": [
+      { "text": "Keine Weitergabe bearbeiteter Versionen", "correct": true },
+      { "text": "Weitergabe unter gleichen Bedingungen", "correct": false },
+      { "text": "Nutzung nur mit Namensnennung", "correct": false },
+      { "text": "Nutzung nur nicht kommerziell", "correct": false }
+    ],
+    "explanation": "Merksatz: ND bedeutet No Derivatives, also keine Weitergabe abgeleiteter Bearbeitungen."
+  },
+  {
+    "id": "lf-04-fach-lizn-016",
+    "question": "Was beschreibt CC NC?",
+    "answers": [
+      { "text": "Nutzung nur für nicht kommerzielle Zwecke", "correct": true },
+      { "text": "Nutzung nur mit identischer Lizenz", "correct": false },
+      { "text": "Nutzung ohne Bearbeitung des Werks", "correct": false },
+      { "text": "Nutzung nur mit Quellcode-Offenlegung", "correct": false }
+    ],
+    "explanation": "Merksatz: NC bedeutet Non-Commercial, also keine kommerzielle Nutzung."
+  },
+  {
+    "id": "lf-04-fach-lizn-017",
+    "question": "Was beschreibt Open-Source-Software?",
+    "answers": [
+      { "text": "Software mit offenem Quellcode unter Bedingungen", "correct": true },
+      { "text": "Software ohne Urheberrecht und Lizenz", "correct": false },
+      { "text": "Kostenlose Software ohne Quellcodezugang", "correct": false },
+      { "text": "Proprietäre Software mit geschlossenen Quellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Open Source macht Quellcode zugänglich, bleibt aber an Lizenzbedingungen gebunden."
+  },
+  {
+    "id": "lf-04-fach-lizn-018",
+    "question": "Was beschreibt proprietäre Software?",
+    "answers": [
+      { "text": "Software nach Vorgaben des Rechteinhabers", "correct": true },
+      { "text": "Software mit frei verfügbarem Quellcode", "correct": false },
+      { "text": "Software ohne Lizenzbedingungen", "correct": false },
+      { "text": "Software, die automatisch gemeinfrei ist", "correct": false }
+    ],
+    "explanation": "Merksatz: Proprietäre Software wird durch Lizenzbedingungen des Rechteinhabers kontrolliert."
+  },
+  {
+    "id": "lf-04-fach-lizn-019",
+    "question": "Was beschreibt Freeware?",
+    "answers": [
+      { "text": "Software, die kostenlos genutzt werden darf", "correct": true },
+      { "text": "Software mit offenem Quellcode", "correct": false },
+      { "text": "Software ohne Urheberrechtsschutz", "correct": false },
+      { "text": "Software mit zeitlich begrenzter Testphase", "correct": false }
+    ],
+    "explanation": "Merksatz: Freeware ist kostenlos nutzbar, aber nicht automatisch Open Source."
+  },
+  {
+    "id": "lf-04-fach-lizn-020",
+    "question": "Was beschreibt Shareware?",
+    "answers": [
+      { "text": "Software zur testweisen oder eingeschränkten Nutzung", "correct": true },
+      { "text": "Software mit dauerhaft offenem Quellcode", "correct": false },
+      { "text": "Software ohne Nutzungsbedingungen", "correct": false },
+      { "text": "Software, die kostenlos vollumfänglich bleibt", "correct": false }
+    ],
+    "explanation": "Merksatz: Shareware erlaubt meist eine Probe- oder eingeschränkte Nutzung vor dem Kauf."
+  }
+]

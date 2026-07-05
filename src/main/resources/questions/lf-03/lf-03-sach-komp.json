@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-sach-komp-001",
+    "question": "Warum unterscheidet man Clients und Server im Netzwerk?",
+    "answers": [
+      { "text": "Weil sie unterschiedliche Rollen haben", "correct": true },
+      { "text": "Weil beide zentrale Dienste bereitstellen", "correct": false },
+      { "text": "Weil beide identische Aufgaben im Netz haben", "correct": false },
+      { "text": "Weil Clients Routingtabellen verwalten", "correct": false }
+    ],
+    "explanation": "Clients nutzen Dienste, Server stellen Dienste oder Ressourcen im Netzwerk bereit."
+  },
+  {
+    "id": "lf-03-sach-komp-002",
+    "question": "Wann ist ein Client-Server-Netz sinnvoller als Peer-to-Peer?",
+    "answers": [
+      { "text": "Bei zentraler Verwaltung vieler Geräte", "correct": true },
+      { "text": "Bei gleichrangiger Freigabe weniger Geräte", "correct": false },
+      { "text": "Bei direkter Verbindung einzelner Peers", "correct": false },
+      { "text": "Bei spontaner Nutzung kleiner Arbeitsgruppen", "correct": false }
+    ],
+    "explanation": "Zentrale Server erleichtern Verwaltung, Rechte, Datenspeicherung und Wartung."
+  },
+  {
+    "id": "lf-03-sach-komp-003",
+    "question": "Was ist ein Vorteil eines Peer-to-Peer-Netzes?",
+    "answers": [
+      { "text": "Es ist für kleine Umgebungen einfach", "correct": true },
+      { "text": "Es bietet zentrale Rechteverwaltung", "correct": false },
+      { "text": "Es skaliert gut für viele Clients", "correct": false },
+      { "text": "Es bündelt Dienste auf Servern", "correct": false }
+    ],
+    "explanation": "Peer-to-Peer kann für kleine Netze einfach sein, wird aber bei vielen Geräten schnell unübersichtlich."
+  },
+  {
+    "id": "lf-03-sach-komp-004",
+    "question": "Warum sind dedizierte Server in größeren Netzwerken üblich?",
+    "answers": [
+      { "text": "Dienste werden zentral bereitgestellt", "correct": true },
+      { "text": "Dienste werden verteilt auf Clients gepflegt", "correct": false },
+      { "text": "Freigaben entstehen spontan zwischen Peers", "correct": false },
+      { "text": "Endgeräte übernehmen zentrale Verwaltung", "correct": false }
+    ],
+    "explanation": "Zentrale Server machen Dienste, Daten und Rechte zuverlässiger verwaltbar."
+  },
+  {
+    "id": "lf-03-sach-komp-005",
+    "question": "Warum eignet sich ein File-Server für gemeinsame Daten?",
+    "answers": [
+      { "text": "Dateien werden zentral bereitgestellt", "correct": true },
+      { "text": "Dateien werden auf Clients verteilt gepflegt", "correct": false },
+      { "text": "Druckaufträge werden zentral verwaltet", "correct": false },
+      { "text": "Webinhalte werden per Browser geliefert", "correct": false }
+    ],
+    "explanation": "Ein File-Server ermöglicht zentrale Ablage, Zugriff und Sicherung gemeinsamer Dateien."
+  },
+  {
+    "id": "lf-03-sach-komp-006",
+    "question": "Warum ist ein Print-Server in Unternehmen nützlich?",
+    "answers": [
+      { "text": "Druckdienste werden zentral verwaltet", "correct": true },
+      { "text": "Dateifreigaben werden zentral gespeichert", "correct": false },
+      { "text": "Webinhalte werden zentral ausgeliefert", "correct": false },
+      { "text": "E-Mail-Postfächer werden bereitgestellt", "correct": false }
+    ],
+    "explanation": "Print-Server vereinfachen Druckerbereitstellung, Warteschlangen und Rechteverwaltung."
+  },
+  {
+    "id": "lf-03-sach-komp-007",
+    "question": "Warum sollte ein DNS-Server zuverlässig erreichbar sein?",
+    "answers": [
+      { "text": "Viele Dienste nutzen Namensauflösung", "correct": true },
+      { "text": "Viele Dienste nutzen Druckwarteschlangen", "correct": false },
+      { "text": "Viele Dienste nutzen Dateifreigaben", "correct": false },
+      { "text": "Viele Dienste nutzen VLAN-Zuordnung", "correct": false }
+    ],
+    "explanation": "Wenn DNS ausfällt, funktionieren viele Zugriffe über Namen nicht mehr."
+  },
+  {
+    "id": "lf-03-sach-komp-008",
+    "question": "Warum ist ein Webserver nicht dasselbe wie ein Datenserver?",
+    "answers": [
+      { "text": "Er stellt Webinhalte per Webprotokoll bereit", "correct": true },
+      { "text": "Er verwaltet zentrale Dateifreigaben", "correct": false },
+      { "text": "Er verteilt IP-Konfigurationen", "correct": false },
+      { "text": "Er löst Namen in IP-Adressen auf", "correct": false }
+    ],
+    "explanation": "Ein Webserver liefert Inhalte für Webzugriffe, meist über HTTP oder HTTPS."
+  },
+  {
+    "id": "lf-03-sach-komp-009",
+    "question": "Wann ist ein Terminalserver besonders sinnvoll?",
+    "answers": [
+      { "text": "Bei zentral bereitgestellten Arbeitsumgebungen", "correct": true },
+      { "text": "Bei lokal installierten Einzelplatzprogrammen", "correct": false },
+      { "text": "Bei direkter Peer-to-Peer-Freigabe", "correct": false },
+      { "text": "Bei reiner Namensauflösung im Netz", "correct": false }
+    ],
+    "explanation": "Terminalserver stellen Anwendungen oder Desktops zentral für mehrere Clients bereit."
+  },
+  {
+    "id": "lf-03-sach-komp-010",
+    "question": "Warum brauchen Thin Clients leistungsfähige Server?",
+    "answers": [
+      { "text": "Viele Aufgaben laufen zentral auf Servern", "correct": true },
+      { "text": "Viele Anwendungen laufen lokal am Client", "correct": false },
+      { "text": "Clients übernehmen Serverdienste zentral", "correct": false },
+      { "text": "Arbeitsumgebungen werden pro Gerät gepflegt", "correct": false }
+    ],
+    "explanation": "Thin Clients haben wenig lokale Leistung und hängen stark von Servern und Netzwerk ab."
+  },
+  {
+    "id": "lf-03-sach-komp-011",
+    "question": "Warum können Fat Clients höheren Wartungsaufwand verursachen?",
+    "answers": [
+      { "text": "Software läuft oft lokal auf jedem Gerät", "correct": true },
+      { "text": "Anwendungen laufen zentral auf Servern", "correct": false },
+      { "text": "Clients beziehen alle Desktops zentral", "correct": false },
+      { "text": "Wartung erfolgt gebündelt am Terminalserver", "correct": false }
+    ],
+    "explanation": "Viele lokal installierte Systeme müssen einzeln gepflegt, aktualisiert und abgesichert werden."
+  },
+  {
+    "id": "lf-03-sach-komp-012",
+    "question": "Warum kann BYOD für Administratoren problematisch sein?",
+    "answers": [
+      { "text": "Private Geräte erhöhen Sicherheitsrisiken", "correct": true },
+      { "text": "Private Geräte vereinheitlichen die Verwaltung", "correct": false },
+      { "text": "Private Geräte sind zentral standardisiert", "correct": false },
+      { "text": "Private Geräte vereinfachen Rechteprüfung", "correct": false }
+    ],
+    "explanation": "BYOD erfordert klare Regeln für Zugriff, Sicherheit, Datenschutz und Geräteverwaltung."
+  },
+  {
+    "id": "lf-03-sach-komp-013",
+    "question": "Warum sind eingebettete Systeme im Netzwerk besonders zu beachten?",
+    "answers": [
+      { "text": "Sie können versteckte Angriffsflächen bieten", "correct": true },
+      { "text": "Sie werden wie klassische Clients verwaltet", "correct": false },
+      { "text": "Sie besitzen meist vollständige Serverrollen", "correct": false },
+      { "text": "Sie ersetzen zentrale Sicherheitskonzepte", "correct": false }
+    ],
+    "explanation": "Embedded Systems sind oft dauerhaft vernetzt und müssen ebenfalls verwaltet und abgesichert werden."
+  },
+  {
+    "id": "lf-03-sach-komp-014",
+    "question": "Warum sind Cyber-Physical Systems für Netzwerke relevant?",
+    "answers": [
+      { "text": "Sie verbinden IT mit physischen Prozessen", "correct": true },
+      { "text": "Sie verwalten klassische Dateifreigaben", "correct": false },
+      { "text": "Sie liefern Webinhalte per HTTP aus", "correct": false },
+      { "text": "Sie verteilen IP-Adressen an Clients", "correct": false }
+    ],
+    "explanation": "Cyber-Physical Systems verknüpfen Software, Netzwerk und reale Maschinen oder Prozesse."
+  },
+  {
+    "id": "lf-03-sach-komp-015",
+    "question": "Warum hat ein Hub in modernen LANs kaum noch Bedeutung?",
+    "answers": [
+      { "text": "Er leitet ungezielt an alle Ports weiter", "correct": true },
+      { "text": "Er leitet Frames gezielt per MAC weiter", "correct": false },
+      { "text": "Er trennt IP-Netze per Routingtabelle", "correct": false },
+      { "text": "Er verwaltet VLANs und Portprofile", "correct": false }
+    ],
+    "explanation": "Hubs erzeugen unnötigen Datenverkehr und teilen ein Kollisionsmedium."
+  },
+  {
+    "id": "lf-03-sach-komp-016",
+    "question": "Warum ist ein Switch effizienter als ein Hub?",
+    "answers": [
+      { "text": "Er leitet Frames gezielt weiter", "correct": true },
+      { "text": "Er verteilt Signale an alle Ports", "correct": false },
+      { "text": "Er arbeitet als reiner Layer-1-Verteiler", "correct": false },
+      { "text": "Er verbindet IP-Netze per Routing", "correct": false }
+    ],
+    "explanation": "Switches lernen MAC-Adressen und senden Frames meist nur an den passenden Port."
+  },
+  {
+    "id": "lf-03-sach-komp-017",
+    "question": "Warum lernt ein Switch MAC-Adressen?",
+    "answers": [
+      { "text": "Um Zielgeräte passenden Ports zuzuordnen", "correct": true },
+      { "text": "Um IP-Netze per Routing zu verbinden", "correct": false },
+      { "text": "Um DNS-Namen zentral aufzulösen", "correct": false },
+      { "text": "Um DHCP-Leases an Clients zu vergeben", "correct": false }
+    ],
+    "explanation": "Die MAC-Adresstabelle ermöglicht gezielte Weiterleitung innerhalb des LANs."
+  },
+  {
+    "id": "lf-03-sach-komp-018",
+    "question": "Wann ist ein managebarer Switch sinnvoll?",
+    "answers": [
+      { "text": "Wenn Funktionen wie VLANs benötigt werden", "correct": true },
+      { "text": "Wenn einfache Frame-Verteilung ausreicht", "correct": false },
+      { "text": "Wenn ein Hub als Layer-1-Verteiler genügt", "correct": false },
+      { "text": "Wenn Routing zwischen IP-Netzen gefragt ist", "correct": false }
+    ],
+    "explanation": "Managebare Switches bieten Steuerung, Überwachung und Funktionen wie VLAN oder Portkonfiguration."
+  },
+  {
+    "id": "lf-03-sach-komp-019",
+    "question": "Warum ist Port Mirroring bei der Fehlersuche nützlich?",
+    "answers": [
+      { "text": "Datenverkehr kann analysiert werden", "correct": true },
+      { "text": "Frames werden schneller weitergeleitet", "correct": false },
+      { "text": "Ports werden automatisch adressiert", "correct": false },
+      { "text": "VLANs werden dynamisch erstellt", "correct": false }
+    ],
+    "explanation": "Port Mirroring kopiert Verkehr auf einen Analyseport, ohne den normalen Datenfluss direkt zu ersetzen."
+  },
+  {
+    "id": "lf-03-sach-komp-020",
+    "question": "Warum kann Store-and-Forward bei Switches Fehler reduzieren?",
+    "answers": [
+      { "text": "Der Frame wird vor Weiterleitung geprüft", "correct": true },
+      { "text": "Die Zieladresse reicht für Senden aus", "correct": false },
+      { "text": "Der Switch verteilt an alle Ports", "correct": false },
+      { "text": "Die ersten 64 Byte werden genutzt", "correct": false }
+    ],
+    "explanation": "Store-and-Forward prüft den kompletten Frame, bevor er weitergeleitet wird."
+  },
+  {
+    "id": "lf-03-sach-komp-021",
+    "question": "Warum ist Cut-Through Switching besonders schnell?",
+    "answers": [
+      { "text": "Es leitet nach Lesen der Zieladresse weiter", "correct": true },
+      { "text": "Es prüft den gesamten Frame vorab", "correct": false },
+      { "text": "Es analysiert Paketinhalt vollständig", "correct": false },
+      { "text": "Es wartet auf eine Routingtabelle", "correct": false }
+    ],
+    "explanation": "Cut-Through reduziert Latenz, prüft aber weniger als Store-and-Forward."
+  },
+  {
+    "id": "lf-03-sach-komp-022",
+    "question": "Warum braucht ein Switch ausreichend Ports?",
+    "answers": [
+      { "text": "Alle benötigten Geräte müssen angeschlossen werden", "correct": true },
+      { "text": "Alle VLANs brauchen eine eigene IP-Adresse", "correct": false },
+      { "text": "Alle Ports ersetzen Routingtabellen", "correct": false },
+      { "text": "Alle Clients erhalten dadurch mehr WLAN-Reichweite", "correct": false }
+    ],
+    "explanation": "Portanzahl muss zu Endgeräten, Uplinks, Reserven und späteren Erweiterungen passen."
+  },
+  {
+    "id": "lf-03-sach-komp-023",
+    "question": "Warum sind Uplink-Ports zwischen Switches oft besonders wichtig?",
+    "answers": [
+      { "text": "Über sie läuft Verkehr vieler Geräte", "correct": true },
+      { "text": "Über sie werden DNS-Zonen gepflegt", "correct": false },
+      { "text": "Über sie werden Druckdienste installiert", "correct": false },
+      { "text": "Über sie werden Endgeräte authentifiziert", "correct": false }
+    ],
+    "explanation": "Uplinks bündeln Datenverkehr zwischen Netzbereichen und sollten passend dimensioniert sein."
+  },
+  {
+    "id": "lf-03-sach-komp-024",
+    "question": "Warum ist PoE bei Switches praktisch?",
+    "answers": [
+      { "text": "Geräte können über Netzwerkkabel Strom erhalten", "correct": true },
+      { "text": "Geräte erhalten dadurch DNS-Namen", "correct": false },
+      { "text": "Geräte wechseln automatisch das VLAN", "correct": false },
+      { "text": "Geräte routen dadurch externe Netze", "correct": false }
+    ],
+    "explanation": "PoE vereinfacht die Versorgung z. B. von Access Points, IP-Telefonen oder Kameras."
+  },
+  {
+    "id": "lf-03-sach-komp-025",
+    "question": "Warum muss beim PoE-Switch das Leistungsbudget beachtet werden?",
+    "answers": [
+      { "text": "Die Gesamtleistung muss für alle Geräte reichen", "correct": true },
+      { "text": "Die Gateway-Adresse hängt davon ab", "correct": false },
+      { "text": "Die MAC-Tabelle wird dadurch größer", "correct": false },
+      { "text": "Die VLAN-ID wird dadurch festgelegt", "correct": false }
+    ],
+    "explanation": "Nicht nur die Portanzahl, sondern auch die verfügbare PoE-Gesamtleistung ist entscheidend."
+  },
+  {
+    "id": "lf-03-sach-komp-026",
+    "question": "Warum verbindet ein Router andere Netzwerke als ein Switch?",
+    "answers": [
+      { "text": "Router arbeiten mit IP-Netzen", "correct": true },
+      { "text": "Router verteilen Frames per MAC-Tabelle", "correct": false },
+      { "text": "Router arbeiten als Layer-1-Verteiler", "correct": false },
+      { "text": "Router stellen zentrale Dateien bereit", "correct": false }
+    ],
+    "explanation": "Router treffen Weiterleitungsentscheidungen anhand von IP-Adressen und Routingtabellen."
+  },
+  {
+    "id": "lf-03-sach-komp-027",
+    "question": "Warum ist ein Router für Internetzugang im LAN nötig?",
+    "answers": [
+      { "text": "Er verbindet LAN und externes Netz", "correct": true },
+      { "text": "Er verteilt lokale Frames im Switch", "correct": false },
+      { "text": "Er speichert zentrale Benutzerdateien", "correct": false },
+      { "text": "Er stellt WLAN-Clients direkt dar", "correct": false }
+    ],
+    "explanation": "Der Router leitet Verkehr zwischen dem lokalen Netzwerk und anderen Netzen weiter."
+  },
+  {
+    "id": "lf-03-sach-komp-028",
+    "question": "Warum trennt ein Router Broadcast-Domänen?",
+    "answers": [
+      { "text": "Broadcasts werden nicht einfach weitergeleitet", "correct": true },
+      { "text": "Broadcasts werden gezielt per DNS verteilt", "correct": false },
+      { "text": "Broadcasts werden als TCP-Ports behandelt", "correct": false },
+      { "text": "Broadcasts werden in MAC-Tabellen gespeichert", "correct": false }
+    ],
+    "explanation": "Router verbinden IP-Netze, leiten lokale Broadcasts aber normalerweise nicht in andere Netze."
+  },
+  {
+    "id": "lf-03-sach-komp-029",
+    "question": "Warum braucht ein Router eine Routingtabelle?",
+    "answers": [
+      { "text": "Sie legt Wege zu Zielnetzen fest", "correct": true },
+      { "text": "Sie ordnet MAC-Adressen Ports zu", "correct": false },
+      { "text": "Sie speichert DNS-Namen zu IPs", "correct": false },
+      { "text": "Sie verwaltet Druckwarteschlangen", "correct": false }
+    ],
+    "explanation": "Routingtabellen zeigen, wohin Pakete für bestimmte Zielnetze weitergeleitet werden."
+  },
+  {
+    "id": "lf-03-sach-komp-030",
+    "question": "Warum bieten SOHO-Router oft mehrere Funktionen in einem Gerät?",
+    "answers": [
+      { "text": "Kleine Netze brauchen kompakte Lösungen", "correct": true },
+      { "text": "Große Netze nutzen einzelne Heimrouter zentral", "correct": false },
+      { "text": "Provider-Netze benötigen integrierte Druckdienste", "correct": false },
+      { "text": "Rechenzentren ersetzen damit Core-Switches", "correct": false }
+    ],
+    "explanation": "SOHO-Router kombinieren oft Routing, Switchports, WLAN, Firewall und weitere Dienste."
+  },
+  {
+    "id": "lf-03-sach-komp-031",
+    "question": "Warum ist WLAN-Leistung bei der Routerauswahl relevant?",
+    "answers": [
+      { "text": "Der abzudeckende Bereich muss versorgt werden", "correct": true },
+      { "text": "Die Routingtabelle wird dadurch kürzer", "correct": false },
+      { "text": "Die DNS-Auflösung wird dadurch zentraler", "correct": false },
+      { "text": "Die Portanzahl wird dadurch beliebig", "correct": false }
+    ],
+    "explanation": "Reichweite, Funkstandard und Auslastung beeinflussen die Nutzbarkeit drahtloser Clients."
+  },
+  {
+    "id": "lf-03-sach-komp-032",
+    "question": "Warum ist ein Access Point keine reine Antenne?",
+    "answers": [
+      { "text": "Er verbindet WLAN-Clients mit dem LAN", "correct": true },
+      { "text": "Er routet IP-Netze wie ein Gateway", "correct": false },
+      { "text": "Er speichert zentrale Dateifreigaben", "correct": false },
+      { "text": "Er verteilt Druckaufträge im Netzwerk", "correct": false }
+    ],
+    "explanation": "Ein Access Point vermittelt zwischen drahtlosen Clients und kabelgebundenem Netzwerk."
+  },
+  {
+    "id": "lf-03-sach-komp-033",
+    "question": "Warum ist die Platzierung von Access Points wichtig?",
+    "answers": [
+      { "text": "Sie beeinflusst Funkabdeckung und Stabilität", "correct": true },
+      { "text": "Sie legt die IPv4-Adresslänge fest", "correct": false },
+      { "text": "Sie ersetzt Gateway und Subnetzmaske", "correct": false },
+      { "text": "Sie bestimmt die MAC-Adresse des Clients", "correct": false }
+    ],
+    "explanation": "Wände, Abstand, Störungen und Zellüberlappung beeinflussen WLAN-Qualität."
+  },
+  {
+    "id": "lf-03-sach-komp-034",
+    "question": "Wann eignet sich der Infrastrukturmodus im WLAN?",
+    "answers": [
+      { "text": "Wenn Clients über Access Points ins LAN sollen", "correct": true },
+      { "text": "Wenn Geräte direkt miteinander funken", "correct": false },
+      { "text": "Wenn Switches über Glasfaser koppeln", "correct": false },
+      { "text": "Wenn Router IP-Netze verbinden", "correct": false }
+    ],
+    "explanation": "Im Infrastrukturmodus ist der Access Point die zentrale WLAN-Basisstation."
+  },
+  {
+    "id": "lf-03-sach-komp-035",
+    "question": "Wann eignet sich der Ad-hoc-Modus im WLAN?",
+    "answers": [
+      { "text": "Für direkte Geräteverbindungen ohne Access Point", "correct": true },
+      { "text": "Für zentrale WLAN-Versorgung über Access Points", "correct": false },
+      { "text": "Für kabelgebundene Switch-Verbindungen", "correct": false },
+      { "text": "Für Routing zwischen mehreren IP-Netzen", "correct": false }
+    ],
+    "explanation": "Ad-hoc verbindet WLAN-Geräte direkt, ist aber weniger typisch für professionelle WLAN-Infrastruktur."
+  },
+  {
+    "id": "lf-03-sach-komp-036",
+    "question": "Warum kann ein Repeater nicht dieselben Aufgaben wie ein Router übernehmen?",
+    "answers": [
+      { "text": "Er regeneriert nur Signale auf Layer 1", "correct": true },
+      { "text": "Er verbindet IP-Netze per Routingtabelle", "correct": false },
+      { "text": "Er löst DNS-Namen in IP-Adressen auf", "correct": false },
+      { "text": "Er stellt zentrale Netzwerkdienste bereit", "correct": false }
+    ],
+    "explanation": "Repeater arbeiten auf der Bitübertragungsschicht und treffen keine Routingentscheidungen."
+  },
+  {
+    "id": "lf-03-sach-komp-037",
+    "question": "Warum kann ein Gateway in heterogenen Umgebungen nötig sein?",
+    "answers": [
+      { "text": "Es vermittelt zwischen unterschiedlichen Systemen", "correct": true },
+      { "text": "Es verteilt Frames innerhalb eines LANs", "correct": false },
+      { "text": "Es verstärkt elektrische Signale auf Layer 1", "correct": false },
+      { "text": "Es stellt Dateien für Benutzer bereit", "correct": false }
+    ],
+    "explanation": "Gateways ermöglichen Kommunikation über Grenzen von Netzen, Diensten oder Protokollen hinweg."
+  },
+  {
+    "id": "lf-03-sach-komp-038",
+    "question": "Warum ist eine Komponente nicht allein nach Portanzahl auszuwählen?",
+    "answers": [
+      { "text": "Leistung und Funktionen müssen auch passen", "correct": true },
+      { "text": "Portanzahl bestimmt alle Sicherheitsfunktionen", "correct": false },
+      { "text": "Portanzahl ersetzt Datenrate und PoE", "correct": false },
+      { "text": "Portanzahl legt alle VLANs automatisch an", "correct": false }
+    ],
+    "explanation": "Neben der Portanzahl zählen Datenrate, PoE, Management, Sicherheit und Erweiterbarkeit."
+  },
+  {
+    "id": "lf-03-sach-komp-039",
+    "question": "Warum sollten zentrale Netzwerkkomponenten dokumentiert werden?",
+    "answers": [
+      { "text": "Betrieb und Fehlersuche werden nachvollziehbar", "correct": true },
+      { "text": "Konfiguration entsteht daraus automatisch", "correct": false },
+      { "text": "Routingtabellen werden dadurch ersetzt", "correct": false },
+      { "text": "Switchports werden dadurch unbegrenzt", "correct": false }
+    ],
+    "explanation": "Dokumentation von Geräten, Ports, Standorten und Funktionen erleichtert Wartung und Änderungen."
+  },
+  {
+    "id": "lf-03-sach-komp-040",
+    "question": "Warum ist bei Netzwerkkomponenten die passende OSI-Schicht hilfreich?",
+    "answers": [
+      { "text": "Fehler lassen sich gezielter eingrenzen", "correct": true },
+      { "text": "Geräte erhalten dadurch dieselbe Aufgabe", "correct": false },
+      { "text": "Verkabelung wird dadurch automatisch geprüft", "correct": false },
+      { "text": "IP-Routing wird dadurch überflüssig", "correct": false }
+    ],
+    "explanation": "Wer Layer-Aufgaben kennt, kann Probleme besser Komponenten, Protokollen oder Medien zuordnen."
+  }
+]

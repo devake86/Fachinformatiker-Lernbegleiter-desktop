@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-datg-001",
+    "question": "Was ist das Ziel des Datenschutzes?",
+    "answers": [
+      { "text": "Der Schutz personenbezogener Daten", "correct": true },
+      { "text": "Der technische Schutz aller Datenbestände", "correct": false },
+      { "text": "Die sichere Speicherung beliebiger Systemdaten", "correct": false },
+      { "text": "Die Verfügbarkeit von IT-Systemen und Diensten", "correct": false }
+    ],
+    "explanation": "Datenschutz schützt personenbezogene Daten und die Rechte betroffener Personen."
+  },
+  {
+    "id": "lf-04-sach-datg-002",
+    "question": "Welche Aussage zur DSGVO ist richtig?",
+    "answers": [
+      { "text": "Sie regelt den Schutz personenbezogener Daten in der EU", "correct": true },
+      { "text": "Sie ergänzt als deutsches Gesetz nationale Sonderregeln", "correct": false },
+      { "text": "Sie beschreibt technische Anforderungen an ein ISMS", "correct": false },
+      { "text": "Sie regelt vorrangig kritische Infrastrukturen", "correct": false }
+    ],
+    "explanation": "Die DSGVO regelt den Datenschutz für personenbezogene Daten in der EU."
+  },
+  {
+    "id": "lf-04-sach-datg-003",
+    "question": "Welche Aussage zum BDSG ist richtig?",
+    "answers": [
+      { "text": "Es ergänzt die DSGVO in nationalen Regelungsbereichen", "correct": true },
+      { "text": "Es ist die EU-weite Grundverordnung zum Datenschutz", "correct": false },
+      { "text": "Es regelt primär IT-Sicherheit für KRITIS", "correct": false },
+      { "text": "Es ersetzt technische und organisatorische Maßnahmen", "correct": false }
+    ],
+    "explanation": "Das BDSG ergänzt die DSGVO dort, wo nationale Gestaltungsspielräume bestehen."
+  },
+  {
+    "id": "lf-04-sach-datg-004",
+    "question": "Welche Aussage zum Verhältnis von DSGVO und BDSG passt?",
+    "answers": [
+      { "text": "Die DSGVO hat Vorrang, das BDSG ergänzt national", "correct": true },
+      { "text": "Das BDSG regelt als EU-Verordnung alle Mitgliedstaaten", "correct": false },
+      { "text": "Die DSGVO gilt nur bei technischen Sicherheitsvorfällen", "correct": false },
+      { "text": "Das BDSG bestimmt allein alle Datenschutzgrundsätze", "correct": false }
+    ],
+    "explanation": "Die DSGVO gilt vorrangig; das BDSG ergänzt bestimmte nationale Bereiche."
+  },
+  {
+    "id": "lf-04-sach-datg-005",
+    "question": "Welche Daten fallen unter die DSGVO?",
+    "answers": [
+      { "text": "Personenbezogene Daten", "correct": true },
+      { "text": "Anonyme Statistikdaten ohne Personenbezug", "correct": false },
+      { "text": "Reine Systemdaten ohne Bezug zu Personen", "correct": false },
+      { "text": "Öffentliche Unternehmensdaten ohne Personenbezug", "correct": false }
+    ],
+    "explanation": "Die DSGVO schützt Daten, die sich auf identifizierte oder identifizierbare natürliche Personen beziehen."
+  },
+  {
+    "id": "lf-04-sach-datg-006",
+    "question": "Was ist ein Beispiel für personenbezogene Daten?",
+    "answers": [
+      { "text": "Name und Adresse einer Person", "correct": true },
+      { "text": "Anonyme Messwerte aus einem Testsystem", "correct": false },
+      { "text": "Ein Produktname ohne Käuferbezug", "correct": false },
+      { "text": "Eine allgemeine Wetterinformation", "correct": false }
+    ],
+    "explanation": "Name und Adresse können eine natürliche Person direkt identifizieren."
+  },
+  {
+    "id": "lf-04-sach-datg-007",
+    "question": "Was bedeutet Zweckbindung bei personenbezogenen Daten?",
+    "answers": [
+      { "text": "Daten dürfen nur für festgelegte Zwecke verarbeitet werden", "correct": true },
+      { "text": "Daten werden für spätere Zwecke gesammelt", "correct": false },
+      { "text": "Daten werden nach Bedarf neu bewertet", "correct": false },
+      { "text": "Daten werden mit beliebigen Quellen kombiniert", "correct": false }
+    ],
+    "explanation": "Zweckbindung begrenzt die Verarbeitung auf vorher festgelegte Zwecke."
+  },
+  {
+    "id": "lf-04-sach-datg-008",
+    "question": "Was bedeutet Datenminimierung?",
+    "answers": [
+      { "text": "Es werden nur erforderliche personenbezogene Daten verarbeitet", "correct": true },
+      { "text": "Es werden Daten für mögliche spätere Zwecke gesammelt", "correct": false },
+      { "text": "Es werden möglichst vollständige Profile aufgebaut", "correct": false },
+      { "text": "Es werden zusätzliche Daten zur Reserve gespeichert", "correct": false }
+    ],
+    "explanation": "Datenminimierung reduziert die Verarbeitung auf das notwendige Maß."
+  },
+  {
+    "id": "lf-04-sach-datg-009",
+    "question": "Welcher Grundsatz gehört zu Art. 5 DSGVO?",
+    "answers": [
+      { "text": "Zweckbindung", "correct": true },
+      { "text": "Vorratsdatensammlung", "correct": false },
+      { "text": "Freie Zweckänderung", "correct": false },
+      { "text": "Dauerhafte Profilerweiterung", "correct": false }
+    ],
+    "explanation": "Art. 5 DSGVO enthält zentrale Grundsätze wie Zweckbindung, Datenminimierung und Transparenz."
+  },
+  {
+    "id": "lf-04-sach-datg-010",
+    "question": "Was ist kein typischer Grundsatz aus Art. 5 DSGVO?",
+    "answers": [
+      { "text": "Unbegrenzte Datensammlung", "correct": true },
+      { "text": "Datenminimierung", "correct": false },
+      { "text": "Zweckbindung", "correct": false },
+      { "text": "Richtigkeit", "correct": false }
+    ],
+    "explanation": "Unbegrenzte Datensammlung widerspricht dem Grundsatz der Datenminimierung."
+  },
+  {
+    "id": "lf-04-sach-datg-011",
+    "question": "Welches Recht erlaubt Betroffenen zu erfahren, welche Daten über sie verarbeitet werden?",
+    "answers": [
+      { "text": "Auskunftsrecht", "correct": true },
+      { "text": "Recht auf Berichtigung", "correct": false },
+      { "text": "Recht auf Datenübertragbarkeit", "correct": false },
+      { "text": "Widerspruchsrecht", "correct": false }
+    ],
+    "explanation": "Das Auskunftsrecht schafft Transparenz über gespeicherte und verarbeitete personenbezogene Daten."
+  },
+  {
+    "id": "lf-04-sach-datg-012",
+    "question": "Welches Recht betrifft falsch gespeicherte personenbezogene Daten?",
+    "answers": [
+      { "text": "Recht auf Berichtigung", "correct": true },
+      { "text": "Auskunftsrecht", "correct": false },
+      { "text": "Recht auf Löschung", "correct": false },
+      { "text": "Recht auf Datenübertragbarkeit", "correct": false }
+    ],
+    "explanation": "Das Recht auf Berichtigung ermöglicht die Korrektur falscher personenbezogener Daten."
+  },
+  {
+    "id": "lf-04-sach-datg-013",
+    "question": "Was beschreibt das Recht auf Löschung?",
+    "answers": [
+      { "text": "Betroffene können unter Bedingungen Löschung verlangen", "correct": true },
+      { "text": "Betroffene erhalten eine Kopie ihrer Daten", "correct": false },
+      { "text": "Betroffene lassen fehlerhafte Daten korrigieren", "correct": false },
+      { "text": "Betroffene widersprechen bestimmten Verarbeitungen", "correct": false }
+    ],
+    "explanation": "Das Recht auf Löschung wird auch als Recht auf Vergessenwerden bezeichnet."
+  },
+  {
+    "id": "lf-04-sach-datg-014",
+    "question": "Was beschreibt das Recht auf Datenübertragbarkeit?",
+    "answers": [
+      { "text": "Betroffene erhalten Daten in übertragbarem Format", "correct": true },
+      { "text": "Betroffene verlangen die Korrektur falscher Daten", "correct": false },
+      { "text": "Betroffene erhalten Auskunft über Verarbeitungen", "correct": false },
+      { "text": "Betroffene verlangen die Einschränkung der Nutzung", "correct": false }
+    ],
+    "explanation": "Datenübertragbarkeit erleichtert den Wechsel zwischen Diensten oder Anbietern."
+  },
+  {
+    "id": "lf-04-sach-datg-015",
+    "question": "Was verlangt Art. 24 DSGVO grundsätzlich von Verantwortlichen?",
+    "answers": [
+      { "text": "Geeignete TOMs einführen und nachweisen", "correct": true },
+      { "text": "Auskunftsanfragen durch Aufsichtsbehörden ersetzen", "correct": false },
+      { "text": "Betroffenenrechte technisch abschaffen", "correct": false },
+      { "text": "Personenbezogene Daten dauerhaft sammeln", "correct": false }
+    ],
+    "explanation": "Verantwortliche müssen geeignete TOMs zum Schutz personenbezogener Daten umsetzen."
+  },
+  {
+    "id": "lf-04-sach-datg-016",
+    "question": "Welche Maßnahme passt zu technischen und organisatorischen Maßnahmen?",
+    "answers": [
+      { "text": "Rollenmodelle, Verschlüsselung und Protokollierung", "correct": true },
+      { "text": "Zweckänderung ohne neue Rechtsgrundlage", "correct": false },
+      { "text": "Datensammlung über den Zweck hinaus", "correct": false },
+      { "text": "Verzicht auf Nachweis der Verarbeitung", "correct": false }
+    ],
+    "explanation": "TOMs können technische und organisatorische Schutzmaßnahmen wie Zugriffskontrollen, Verschlüsselung und Logging umfassen."
+  },
+  {
+    "id": "lf-04-sach-datg-017",
+    "question": "Was ist eine Datenschutzverletzung?",
+    "answers": [
+      { "text": "Ein Sicherheitsvorfall mit personenbezogenen Daten", "correct": true },
+      { "text": "Eine zulässige Verarbeitung mit Rechtsgrundlage", "correct": false },
+      { "text": "Eine Auskunft an eine betroffene Person", "correct": false },
+      { "text": "Eine reguläre Aktualisierung von Kontaktdaten", "correct": false }
+    ],
+    "explanation": "Eine Datenschutzverletzung betrifft die Sicherheit personenbezogener Daten, etwa Verlust, Offenlegung oder unbefugten Zugriff."
+  },
+  {
+    "id": "lf-04-sach-datg-018",
+    "question": "Wovon kann die Höhe eines DSGVO-Bußgelds abhängen?",
+    "answers": [
+      { "text": "Von Schwere, Dauer und Umständen des Verstoßes", "correct": true },
+      { "text": "Vom eingesetzten Betriebssystem des Nutzers", "correct": false },
+      { "text": "Von der Anzahl der Monitore im Unternehmen", "correct": false },
+      { "text": "Vom Namen der verwendeten Datenbanksoftware", "correct": false }
+    ],
+    "explanation": "Bußgelder richten sich unter anderem nach Schwere, Dauer, Anzahl Betroffener und Vorsatz oder Fahrlässigkeit."
+  },
+  {
+    "id": "lf-04-sach-datg-019",
+    "question": "Welche maximale Bußgeldhöhe kann nach DSGVO besonders schwerwiegend sein?",
+    "answers": [
+      { "text": "Bis zu 20 Mio. Euro oder 4 % des weltweiten Jahresumsatzes", "correct": true },
+      { "text": "Bis zu 10 Mio. Euro oder 2 % des Jahresumsatzes", "correct": false },
+      { "text": "Bis zu 5 Mio. Euro oder 1 % des Jahresumsatzes", "correct": false },
+      { "text": "Bis zu 50.000 Euro je betroffener Person", "correct": false }
+    ],
+    "explanation": "Die DSGVO sieht bei schweren Verstößen hohe Bußgelder bis zu 20 Mio. Euro oder 4 % des weltweiten Jahresumsatzes vor."
+  },
+  {
+    "id": "lf-04-sach-datg-020",
+    "question": "Welche Aufgabe gehört typischerweise nicht zum BSI?",
+    "answers": [
+      { "text": "Strafverfolgung durchführen", "correct": true },
+      { "text": "IT-Grundschutz entwickeln", "correct": false },
+      { "text": "Sicherheitswarnungen herausgeben", "correct": false },
+      { "text": "Cyber-Sicherheitslage bewerten", "correct": false }
+    ],
+    "explanation": "Das BSI unterstützt Informationssicherheit, ist aber keine Strafverfolgungsbehörde."
+  }
+]

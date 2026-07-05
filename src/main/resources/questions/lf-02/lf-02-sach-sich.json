@@ -1,0 +1,552 @@
+[
+  {
+    "id": "lf-02-sach-sich-001",
+    "question": "Warum muss IT-Sicherheit schon bei der Arbeitsplatzausstattung berücksichtigt werden?",
+    "answers": [
+      { "text": "Neue Systeme müssen sicher betrieben werden können", "correct": true },
+      { "text": "Neue Systeme werden später automatisch abgesichert", "correct": false },
+      { "text": "Arbeitsplätze bleiben vom Sicherheitskonzept getrennt", "correct": false },
+      { "text": "Hardwareauswahl ersetzt organisatorische Regeln", "correct": false }
+    ],
+    "explanation": "Sicherheit muss früh eingeplant werden, damit Hardware, Software und Nutzung zusammenpassen."
+  },
+  {
+    "id": "lf-02-sach-sich-002",
+    "question": "Warum ist Datenschutz bei Arbeitsplatz-PCs wichtig?",
+    "answers": [
+      { "text": "Personenbezogene Daten müssen geschützt werden", "correct": true },
+      { "text": "Datenschutz betrifft vorrangig reine Lagerdaten", "correct": false },
+      { "text": "Benutzeranmeldung ersetzt Datenschutzmaßnahmen", "correct": false },
+      { "text": "Arbeitsplatzdaten sind automatisch öffentlich", "correct": false }
+    ],
+    "explanation": "Arbeitsplatzsysteme können personenbezogene Daten verarbeiten und müssen entsprechend geschützt werden."
+  },
+  {
+    "id": "lf-02-sach-sich-003",
+    "question": "Warum unterscheidet man Datenschutz und Datensicherheit?",
+    "answers": [
+      { "text": "Datenschutz schützt Personen, Datensicherheit schützt Daten", "correct": true },
+      { "text": "Datenschutz beschreibt technische Datenverfügbarkeit", "correct": false },
+      { "text": "Datensicherheit bezieht sich auf betroffene Personen", "correct": false },
+      { "text": "Beide Begriffe beschreiben reine Hardwareauswahl", "correct": false }
+    ],
+    "explanation": "Datenschutz bezieht sich auf personenbezogene Daten, Datensicherheit auf Schutzmaßnahmen für Daten allgemein."
+  },
+  {
+    "id": "lf-02-sach-sich-004",
+    "question": "Warum ist Vertraulichkeit ein wichtiges Schutzziel?",
+    "answers": [
+      { "text": "Nur Berechtigte sollen Informationen sehen können", "correct": true },
+      { "text": "Daten sollen vor unbemerkter Änderung geschützt werden", "correct": false },
+      { "text": "Systeme sollen bei Bedarf erreichbar bleiben", "correct": false },
+      { "text": "Daten sollen nachvollziehbar gesichert werden", "correct": false }
+    ],
+    "explanation": "Vertraulichkeit schützt Informationen vor unbefugtem Zugriff."
+  },
+  {
+    "id": "lf-02-sach-sich-005",
+    "question": "Warum ist Integrität ein wichtiges Schutzziel?",
+    "answers": [
+      { "text": "Daten sollen korrekt und unverändert bleiben", "correct": true },
+      { "text": "Daten sollen vor unbefugtem Lesen geschützt werden", "correct": false },
+      { "text": "Dienste sollen bei Bedarf nutzbar sein", "correct": false },
+      { "text": "Benutzer sollen eindeutig angemeldet werden", "correct": false }
+    ],
+    "explanation": "Integrität bedeutet, dass Daten nicht unbemerkt verändert oder verfälscht werden."
+  },
+  {
+    "id": "lf-02-sach-sich-006",
+    "question": "Warum ist Verfügbarkeit ein wichtiges Schutzziel?",
+    "answers": [
+      { "text": "Systeme und Daten müssen bei Bedarf nutzbar sein", "correct": true },
+      { "text": "Daten müssen vor unbefugtem Lesen geschützt sein", "correct": false },
+      { "text": "Daten müssen unverändert und korrekt bleiben", "correct": false },
+      { "text": "Benutzerrechte müssen minimal vergeben werden", "correct": false }
+    ],
+    "explanation": "Verfügbarkeit beschreibt, ob Systeme, Dienste und Daten zuverlässig erreichbar sind."
+  },
+  {
+    "id": "lf-02-sach-sich-007",
+    "question": "Warum sind starke Passwörter bei Arbeitsplatzsystemen wichtig?",
+    "answers": [
+      { "text": "Sie erschweren unbefugten Zugriff", "correct": true },
+      { "text": "Sie ersetzen regelmäßige Sicherheitsupdates", "correct": false },
+      { "text": "Sie übernehmen automatische Datensicherung", "correct": false },
+      { "text": "Sie erhöhen die Rechenleistung des Systems", "correct": false }
+    ],
+    "explanation": "Passwörter schützen Benutzerkonten und damit Daten, Anwendungen und Systeme."
+  },
+  {
+    "id": "lf-02-sach-sich-008",
+    "question": "Warum sind Benutzerrechte bei Arbeitsplatz-PCs wichtig?",
+    "answers": [
+      { "text": "Nutzer sollen nur benötigte Berechtigungen erhalten", "correct": true },
+      { "text": "Nutzer erhalten dadurch zentrale Datensicherungen", "correct": false },
+      { "text": "Rechte ersetzen die Anmeldung am System", "correct": false },
+      { "text": "Rechte bestimmen die Hardwareleistung", "correct": false }
+    ],
+    "explanation": "Das Prinzip minimaler Rechte reduziert Risiken durch Fehlbedienung oder Schadsoftware."
+  },
+  {
+    "id": "lf-02-sach-sich-009",
+    "question": "Warum sind automatische Sicherheitsupdates sinnvoll?",
+    "answers": [
+      { "text": "Bekannte Schwachstellen werden schneller geschlossen", "correct": true },
+      { "text": "Benutzerrechte werden dadurch vollständig ersetzt", "correct": false },
+      { "text": "Datensicherungen entstehen dadurch automatisch", "correct": false },
+      { "text": "Phishing-Mails werden dadurch fachlich erklärt", "correct": false }
+    ],
+    "explanation": "Aktuelle Systeme sind besser gegen bekannte Angriffe und Fehler geschützt."
+  },
+  {
+    "id": "lf-02-sach-sich-010",
+    "question": "Warum ist Virenschutz auf Arbeitsplatzsystemen sinnvoll?",
+    "answers": [
+      { "text": "Schadsoftware kann erkannt oder blockiert werden", "correct": true },
+      { "text": "Benutzeranmeldungen werden dadurch ersetzt", "correct": false },
+      { "text": "Sicherheitsupdates werden dadurch entbehrlich", "correct": false },
+      { "text": "Backups werden dadurch dauerhaft gespeichert", "correct": false }
+    ],
+    "explanation": "Virenschutz ist eine Schutzmaßnahme gegen Malware, ersetzt aber kein vollständiges Sicherheitskonzept."
+  },
+  {
+    "id": "lf-02-sach-sich-011",
+    "question": "Warum ist eine Firewall am Arbeitsplatzsystem nützlich?",
+    "answers": [
+      { "text": "Netzwerkzugriffe können kontrolliert werden", "correct": true },
+      { "text": "Benutzerkennwörter werden dadurch verwaltet", "correct": false },
+      { "text": "Datenträger werden dadurch verschlüsselt", "correct": false },
+      { "text": "Mängelrechte werden dadurch dokumentiert", "correct": false }
+    ],
+    "explanation": "Eine Firewall hilft, unerwünschten ein- oder ausgehenden Netzwerkverkehr zu begrenzen."
+  },
+  {
+    "id": "lf-02-sach-sich-012",
+    "question": "Warum ist Festplattenverschlüsselung bei mobilen Geräten sinnvoll?",
+    "answers": [
+      { "text": "Daten bleiben bei Verlust besser geschützt", "correct": true },
+      { "text": "Backups werden dadurch automatisch erstellt", "correct": false },
+      { "text": "Benutzerrechte werden dadurch erweitert", "correct": false },
+      { "text": "Akkulaufzeit wird dadurch garantiert", "correct": false }
+    ],
+    "explanation": "Bei Diebstahl oder Verlust schützt Verschlüsselung gespeicherte Daten vor einfachem Zugriff."
+  },
+  {
+    "id": "lf-02-sach-sich-013",
+    "question": "Warum sind Backups auch bei Arbeitsplatzsystemen wichtig?",
+    "answers": [
+      { "text": "Daten können nach Verlust wiederhergestellt werden", "correct": true },
+      { "text": "Datenschutzanforderungen werden dadurch ersetzt", "correct": false },
+      { "text": "Hardwaredefekte werden dadurch ausgeschlossen", "correct": false },
+      { "text": "Benutzerfehler werden dadurch verhindert", "correct": false }
+    ],
+    "explanation": "Backups schützen vor Datenverlust durch Defekte, Fehlbedienung oder Schadsoftware."
+  },
+  {
+    "id": "lf-02-sach-sich-014",
+    "question": "Warum ist Phishing für Unternehmen gefährlich?",
+    "answers": [
+      { "text": "Zugangsdaten oder vertrauliche Informationen können abgegriffen werden", "correct": true },
+      { "text": "Sicherheitsupdates werden dadurch zentral verteilt", "correct": false },
+      { "text": "Datensicherungen werden dadurch verbessert", "correct": false },
+      { "text": "Arbeitsplätze werden dadurch ergonomischer", "correct": false }
+    ],
+    "explanation": "Phishing täuscht Nutzer, um Informationen oder Zugänge zu erhalten."
+  },
+  {
+    "id": "lf-02-sach-sich-015",
+    "question": "Warum sind Mitarbeiterschulungen zur IT-Sicherheit wichtig?",
+    "answers": [
+      { "text": "Viele Sicherheitsvorfälle entstehen durch menschliches Verhalten", "correct": true },
+      { "text": "Technische Schutzmaßnahmen werden dadurch vollständig ersetzt", "correct": false },
+      { "text": "Passwörter werden dadurch dauerhaft unnötig", "correct": false },
+      { "text": "Hardwaredefekte werden dadurch technisch verhindert", "correct": false }
+    ],
+    "explanation": "Sensibilisierte Nutzer erkennen Risiken besser und handeln sicherer."
+  },
+  {
+    "id": "lf-02-sach-sich-016",
+    "question": "Warum ist ein Vorfallreaktionsplan sinnvoll?",
+    "answers": [
+      { "text": "Bei Sicherheitsvorfällen ist bekannt, was zu tun ist", "correct": true },
+      { "text": "Schutzmaßnahmen werden dadurch ausgelassen", "correct": false },
+      { "text": "Vorfälle werden dadurch automatisch unsichtbar", "correct": false },
+      { "text": "Marketingmaßnahmen werden dadurch geplant", "correct": false }
+    ],
+    "explanation": "Ein Vorfallreaktionsplan hilft, Schäden zu begrenzen und schnell geordnet zu reagieren."
+  },
+  {
+    "id": "lf-02-sach-sich-017",
+    "question": "Warum müssen Sicherheitsvorfälle protokolliert werden?",
+    "answers": [
+      { "text": "Ursachen und Maßnahmen bleiben nachvollziehbar", "correct": true },
+      { "text": "Passwörter werden dadurch systemweit ersetzt", "correct": false },
+      { "text": "Analysen werden dadurch verhindert", "correct": false },
+      { "text": "Monitorhelligkeit wird dadurch dokumentiert", "correct": false }
+    ],
+    "explanation": "Protokollierung unterstützt Nachverfolgung, Auswertung und Verbesserung der Sicherheitsmaßnahmen."
+  },
+  {
+    "id": "lf-02-sach-sich-018",
+    "question": "Warum ist ein Datenschutzfilter am Monitor sinnvoll?",
+    "answers": [
+      { "text": "Er reduziert seitliches Mitlesen", "correct": true },
+      { "text": "Er verschlüsselt gespeicherte Dateien", "correct": false },
+      { "text": "Er blockiert Netzwerkangriffe", "correct": false },
+      { "text": "Er erweitert den Arbeitsspeicher", "correct": false }
+    ],
+    "explanation": "Datenschutzfilter schützen Bildschirminhalte vor Blicken aus seitlichen Winkeln."
+  },
+  {
+    "id": "lf-02-sach-sich-019",
+    "question": "Warum sollten Drucker in Sicherheitskonzepte einbezogen werden?",
+    "answers": [
+      { "text": "Sie können vertrauliche Dokumente und Daten verarbeiten", "correct": true },
+      { "text": "Drucker arbeiten getrennt von Benutzerrechten", "correct": false },
+      { "text": "Netzwerkdrucker speichern ausschließlich Papierformate", "correct": false },
+      { "text": "Drucker ersetzen zentrale Sicherheitsregeln", "correct": false }
+    ],
+    "explanation": "Netzwerk- und Multifunktionsdrucker können Druck-, Scan- und Kopierdaten enthalten."
+  },
+  {
+    "id": "lf-02-sach-sich-020",
+    "question": "Warum ist Authentifizierung am Drucker sinnvoll?",
+    "answers": [
+      { "text": "Vertrauliche Ausdrucke werden nicht frei zugänglich ausgegeben", "correct": true },
+      { "text": "Druckdaten werden dadurch vor Erstellung gelöscht", "correct": false },
+      { "text": "Papierverbrauch wird dadurch technisch ersetzt", "correct": false },
+      { "text": "Druckkosten werden dadurch automatisch null", "correct": false }
+    ],
+    "explanation": "Druckfreigabe per PIN, Karte oder Login kann vertrauliche Ausdrucke schützen."
+  },
+  {
+    "id": "lf-02-sach-sich-021",
+    "question": "Warum ist Green IT bei der Beschaffung relevant?",
+    "answers": [
+      { "text": "Energieverbrauch und Umweltbelastung sollen reduziert werden", "correct": true },
+      { "text": "Beschaffung richtet sich dadurch nach Gerätefarbe", "correct": false },
+      { "text": "Wirtschaftlichkeitsprüfung wird dadurch ersetzt", "correct": false },
+      { "text": "Datenschutzmaßnahmen werden dadurch überflüssig", "correct": false }
+    ],
+    "explanation": "Green IT berücksichtigt umweltfreundliche Beschaffung, Betrieb, Nutzung und Entsorgung."
+  },
+  {
+    "id": "lf-02-sach-sich-022",
+    "question": "Warum ist Energieeffizienz bei IT-Systemen wirtschaftlich wichtig?",
+    "answers": [
+      { "text": "Geringerer Verbrauch senkt Betriebskosten", "correct": true },
+      { "text": "Softwarelizenzen werden dadurch günstiger geregelt", "correct": false },
+      { "text": "Wartungsaufwand wird dadurch ausgeschlossen", "correct": false },
+      { "text": "Datenschutz wird dadurch automatisch erfüllt", "correct": false }
+    ],
+    "explanation": "Energieeffiziente Geräte können über die Nutzungsdauer Kosten sparen."
+  },
+  {
+    "id": "lf-02-sach-sich-023",
+    "question": "Warum sind Umwelt- und Prüfzeichen bei IT-Produkten hilfreich?",
+    "answers": [
+      { "text": "Sie geben Hinweise auf geprüfte Eigenschaften", "correct": true },
+      { "text": "Sie ersetzen technische Anforderungen vollständig", "correct": false },
+      { "text": "Sie garantieren stets den niedrigsten Preis", "correct": false },
+      { "text": "Sie beschreiben ausschließlich Verpackungsfarben", "correct": false }
+    ],
+    "explanation": "Prüf- und Umweltzeichen können bei Sicherheit, Energieeffizienz oder Umweltverträglichkeit unterstützen."
+  },
+  {
+    "id": "lf-02-sach-sich-024",
+    "question": "Warum sollte der Standby-Verbrauch von Geräten beachtet werden?",
+    "answers": [
+      { "text": "Auch geringe Dauerverbräuche verursachen Kosten", "correct": true },
+      { "text": "Standby ersetzt den normalen Betriebsverbrauch", "correct": false },
+      { "text": "Standby betrifft ausschließlich Eingabegeräte", "correct": false },
+      { "text": "Dauerverbrauch wird dadurch technisch abgeschaltet", "correct": false }
+    ],
+    "explanation": "Viele kleine Dauerverbräuche können sich über Zeit und viele Geräte summieren."
+  },
+  {
+    "id": "lf-02-sach-sich-025",
+    "question": "Warum ist Recycling von IT-Altgeräten wichtig?",
+    "answers": [
+      { "text": "Rohstoffe können wiederverwendet und Umweltbelastungen reduziert werden", "correct": true },
+      { "text": "Datenträger werden dadurch automatisch sicher gelöscht", "correct": false },
+      { "text": "Altgeräte verlieren dadurch ihren Datenschutzbezug", "correct": false },
+      { "text": "Papierverbrauch wird dadurch vollständig ersetzt", "correct": false }
+    ],
+    "explanation": "Recycling unterstützt Ressourcenschonung, muss aber mit Datenschutz bei Datenträgern kombiniert werden."
+  },
+  {
+    "id": "lf-02-sach-sich-026",
+    "question": "Warum müssen Datenträger vor Entsorgung sicher gelöscht werden?",
+    "answers": [
+      { "text": "Vertrauliche Daten könnten sonst wiederhergestellt werden", "correct": true },
+      { "text": "Recycling entfernt gespeicherte Daten automatisch", "correct": false },
+      { "text": "Datenträger enthalten vorrangig Prüfsiegel", "correct": false },
+      { "text": "Entsorgung ersetzt jede Datenschutzmaßnahme", "correct": false }
+    ],
+    "explanation": "Vor Wiederverwendung, Rückgabe oder Recycling müssen gespeicherte Daten zuverlässig entfernt werden."
+  },
+  {
+    "id": "lf-02-sach-sich-027",
+    "question": "Warum ist IT-Refurbishing nachhaltig?",
+    "answers": [
+      { "text": "Geräte können länger genutzt werden", "correct": true },
+      { "text": "Geräte werden dadurch schneller verschrottet", "correct": false },
+      { "text": "Sicherheitsprüfung wird dadurch ersetzt", "correct": false },
+      { "text": "Elektroschrott steigt dadurch automatisch", "correct": false }
+    ],
+    "explanation": "Überholte Geräte können Ressourcen sparen, wenn Leistung, Sicherheit und Zustand passen."
+  },
+  {
+    "id": "lf-02-sach-sich-028",
+    "question": "Warum ist IT-Remarketing bei Altgeräten interessant?",
+    "answers": [
+      { "text": "Nicht mehr benötigte Geräte können weitervermarktet werden", "correct": true },
+      { "text": "Altgeräte werden dadurch direkt vernichtet", "correct": false },
+      { "text": "Datenschutz wird dadurch automatisch geregelt", "correct": false },
+      { "text": "Zustandsprüfung wird dadurch überflüssig", "correct": false }
+    ],
+    "explanation": "Remarketing kann Werte erhalten, erfordert aber Datenlöschung und Zustandsprüfung."
+  },
+  {
+    "id": "lf-02-sach-sich-029",
+    "question": "Warum ist Arbeitsschutz bei der Installation von IT-Arbeitsplätzen relevant?",
+    "answers": [
+      { "text": "Beschäftigte sollen vor Gefährdungen geschützt werden", "correct": true },
+      { "text": "Technische Planung wird dadurch ersetzt", "correct": false },
+      { "text": "Installationen werden dadurch verhindert", "correct": false },
+      { "text": "Arbeitsschutz betrifft ausschließlich Privatgeräte", "correct": false }
+    ],
+    "explanation": "Bei Aufbau, Verkabelung, Stromversorgung und Arbeitsplatzgestaltung können Gefährdungen entstehen."
+  },
+  {
+    "id": "lf-02-sach-sich-030",
+    "question": "Warum ist eine Gefährdungsbeurteilung wichtig?",
+    "answers": [
+      { "text": "Gefahren werden erkannt und Schutzmaßnahmen geplant", "correct": true },
+      { "text": "Kaufverträge werden dadurch ersetzt", "correct": false },
+      { "text": "Schutzmaßnahmen werden dadurch ausgeschlossen", "correct": false },
+      { "text": "Gefahren werden dadurch weniger sichtbar", "correct": false }
+    ],
+    "explanation": "Gefährdungsbeurteilungen helfen, Risiken am Arbeitsplatz systematisch zu erkennen."
+  },
+  {
+    "id": "lf-02-sach-sich-031",
+    "question": "Warum darf nicht jede IT-Fachkraft an elektrischen Anlagen arbeiten?",
+    "answers": [
+      { "text": "Elektrischer Strom kann lebensgefährlich sein", "correct": true },
+      { "text": "IT-Geräte arbeiten unabhängig von Stromversorgung", "correct": false },
+      { "text": "Qualifikation wird durch Werkzeug ersetzt", "correct": false },
+      { "text": "Elektrische Arbeiten sind reine Dokumentation", "correct": false }
+    ],
+    "explanation": "Arbeiten an elektrischen Anlagen erfordern geeignete Qualifikation und Sicherheitsregeln."
+  },
+  {
+    "id": "lf-02-sach-sich-032",
+    "question": "Warum ist Freischalten die erste Sicherheitsregel bei elektrischen Anlagen?",
+    "answers": [
+      { "text": "Die Anlage wird von der Stromversorgung getrennt", "correct": true },
+      { "text": "Die Anlage wird gezielt unter Spannung gesetzt", "correct": false },
+      { "text": "Die Spannungsprüfung wird dadurch ersetzt", "correct": false },
+      { "text": "Die Arbeit wird dadurch dokumentiert", "correct": false }
+    ],
+    "explanation": "Freischalten entfernt die Energiequelle als ersten Schutzschritt."
+  },
+  {
+    "id": "lf-02-sach-sich-033",
+    "question": "Warum muss gegen Wiedereinschalten gesichert werden?",
+    "answers": [
+      { "text": "Unbeabsichtigtes Einschalten soll verhindert werden", "correct": true },
+      { "text": "Die Anlage soll schneller aktiviert werden", "correct": false },
+      { "text": "Andere Sicherheitsregeln werden dadurch ersetzt", "correct": false },
+      { "text": "Spannungsfreiheit wird dadurch angenommen", "correct": false }
+    ],
+    "explanation": "Ein Warnschild oder eine Sicherung verhindert, dass jemand die Anlage während der Arbeit wieder einschaltet."
+  },
+  {
+    "id": "lf-02-sach-sich-034",
+    "question": "Warum wird Spannungsfreiheit festgestellt?",
+    "answers": [
+      { "text": "Man prüft, ob wirklich keine gefährliche Spannung anliegt", "correct": true },
+      { "text": "Man erhöht dadurch die Betriebsspannung", "correct": false },
+      { "text": "Man ersetzt dadurch das Freischalten", "correct": false },
+      { "text": "Man misst dadurch die Monitorhelligkeit", "correct": false }
+    ],
+    "explanation": "Spannungsfreiheit darf nicht nur angenommen, sondern muss geeignet geprüft werden."
+  },
+  {
+    "id": "lf-02-sach-sich-035",
+    "question": "Warum werden benachbarte unter Spannung stehende Teile abgedeckt?",
+    "answers": [
+      { "text": "Kontakt mit gefährlichen Teilen soll verhindert werden", "correct": true },
+      { "text": "Kontakt mit spannungsführenden Teilen wird erleichtert", "correct": false },
+      { "text": "Abdecken dient primär der Preisauszeichnung", "correct": false },
+      { "text": "Gefährdungen werden dadurch erhöht", "correct": false }
+    ],
+    "explanation": "Abdecken oder Abschranken schützt vor versehentlichem Kontakt mit spannungsführenden Teilen."
+  },
+  {
+    "id": "lf-02-sach-sich-036",
+    "question": "Warum sind Warnzeichen am Arbeitsplatz wichtig?",
+    "answers": [
+      { "text": "Sie weisen auf Gefahren hin", "correct": true },
+      { "text": "Sie zeigen verpflichtende Schutzmaßnahmen", "correct": false },
+      { "text": "Sie untersagen bestimmte Handlungen", "correct": false },
+      { "text": "Sie markieren Rettungswege und Hilfe", "correct": false }
+    ],
+    "explanation": "Warnzeichen machen auf mögliche Gefahren aufmerksam."
+  },
+  {
+    "id": "lf-02-sach-sich-037",
+    "question": "Warum sind Gebotszeichen am Arbeitsplatz wichtig?",
+    "answers": [
+      { "text": "Sie weisen auf verpflichtende Schutzmaßnahmen hin", "correct": true },
+      { "text": "Sie weisen allgemein auf Gefahren hin", "correct": false },
+      { "text": "Sie untersagen gefährliche Handlungen", "correct": false },
+      { "text": "Sie kennzeichnen Rettungsmittel", "correct": false }
+    ],
+    "explanation": "Gebotszeichen fordern bestimmte Schutzmaßnahmen, z. B. Schutzbrille oder Gehörschutz."
+  },
+  {
+    "id": "lf-02-sach-sich-038",
+    "question": "Warum sind Verbotszeichen am Arbeitsplatz wichtig?",
+    "answers": [
+      { "text": "Sie untersagen gefährliche oder unerlaubte Handlungen", "correct": true },
+      { "text": "Sie fordern bestimmte Schutzmaßnahmen", "correct": false },
+      { "text": "Sie warnen vor einer Gefahrenquelle", "correct": false },
+      { "text": "Sie zeigen Rettungs- und Fluchtwege", "correct": false }
+    ],
+    "explanation": "Verbotszeichen zeigen, was aus Sicherheitsgründen nicht erlaubt ist."
+  },
+  {
+    "id": "lf-02-sach-sich-039",
+    "question": "Warum ist Ergonomie ein Sicherheits- und Gesundheitsthema?",
+    "answers": [
+      { "text": "Falsche Arbeitsplatzgestaltung kann Beschwerden verursachen", "correct": true },
+      { "text": "Ergonomie beschreibt vor allem Einkaufspreise", "correct": false },
+      { "text": "Pausen werden dadurch organisatorisch ersetzt", "correct": false },
+      { "text": "Serverleistung steht dabei im Mittelpunkt", "correct": false }
+    ],
+    "explanation": "Ergonomische Arbeitsplätze reduzieren Belastungen für Augen, Rücken, Nacken und Hände."
+  },
+  {
+    "id": "lf-02-sach-sich-040",
+    "question": "Warum sollte Lärm bei Arbeitsplatzgeräten berücksichtigt werden?",
+    "answers": [
+      { "text": "Hohe Geräuschbelastung kann Konzentration und Gesundheit beeinträchtigen", "correct": true },
+      { "text": "Lärm verbessert Arbeitssicherheit im Büro", "correct": false },
+      { "text": "Geräusche ersetzen Klimatisierung", "correct": false },
+      { "text": "Bürogeräte werden dadurch leistungsfähiger", "correct": false }
+    ],
+    "explanation": "Leise Geräte und passende Aufstellung verbessern Arbeitsumgebung und Konzentration."
+  },
+  {
+    "id": "lf-02-sach-sich-041",
+    "question": "Warum ist Beleuchtung am Bildschirmarbeitsplatz wichtig?",
+    "answers": [
+      { "text": "Blendung und schlechte Sicht sollen vermieden werden", "correct": true },
+      { "text": "Betriebssysteme werden dadurch ersetzt", "correct": false },
+      { "text": "Je dunkler der Raum, desto ergonomischer die Arbeit", "correct": false },
+      { "text": "Beleuchtung betrifft vorrangig Lagerbestände", "correct": false }
+    ],
+    "explanation": "Gute Beleuchtung unterstützt augenschonendes Arbeiten und reduziert Fehlbelastungen."
+  },
+  {
+    "id": "lf-02-sach-sich-042",
+    "question": "Warum ist Barrierefreiheit bei IT-Arbeitsplätzen wichtig?",
+    "answers": [
+      { "text": "Arbeitsplätze sollen für unterschiedliche Einschränkungen nutzbar sein", "correct": true },
+      { "text": "Bedienbarkeit wird dadurch verringert", "correct": false },
+      { "text": "Datenschutzmaßnahmen werden dadurch ersetzt", "correct": false },
+      { "text": "Barrierefreiheit beschreibt Druckerpapier", "correct": false }
+    ],
+    "explanation": "Barrierefreiheit unterstützt z. B. Menschen mit Seh-, Hör- oder motorischen Einschränkungen."
+  },
+  {
+    "id": "lf-02-sach-sich-043",
+    "question": "Warum muss bei Homeoffice-Arbeitsplätzen Sicherheit besonders geplant werden?",
+    "answers": [
+      { "text": "Geräte arbeiten außerhalb der direkten Firmenumgebung", "correct": true },
+      { "text": "Private Geräte ersetzen Firmenrichtlinien", "correct": false },
+      { "text": "Homeoffice-Geräte werden weniger geschützt", "correct": false },
+      { "text": "Sicherheit bleibt auf Serverräume begrenzt", "correct": false }
+    ],
+    "explanation": "Bei Homeoffice sind VPN, Updates, Benutzerrechte, Datenschutz und Geräteschutz besonders wichtig."
+  },
+  {
+    "id": "lf-02-sach-sich-044",
+    "question": "Warum sollte private und berufliche Nutzung technisch oder organisatorisch geregelt werden?",
+    "answers": [
+      { "text": "Daten, Verantwortlichkeiten und Risiken müssen getrennt werden", "correct": true },
+      { "text": "Private Nutzung schützt Firmendaten automatisch", "correct": false },
+      { "text": "Regeln verhindern die Nutzung des Geräts", "correct": false },
+      { "text": "Trennung gilt als Ersatz für Datenschutz", "correct": false }
+    ],
+    "explanation": "Klare Regeln schützen Unternehmensdaten und reduzieren Datenschutz- sowie Haftungsrisiken."
+  },
+  {
+    "id": "lf-02-sach-sich-045",
+    "question": "Warum sollte die Sicherheitskonfiguration bei der Übergabe dokumentiert werden?",
+    "answers": [
+      { "text": "Schutzmaßnahmen und Einstellungen bleiben nachvollziehbar", "correct": true },
+      { "text": "Sicherheitskonfiguration wird dadurch unwirksam", "correct": false },
+      { "text": "Einweisung wird dadurch vollständig ersetzt", "correct": false },
+      { "text": "Prüfung der Einstellungen wird dadurch ausgeschlossen", "correct": false }
+    ],
+    "explanation": "Dokumentation hilft bei Betrieb, Wartung, Kontrolle und späteren Änderungen."
+  },
+  {
+    "id": "lf-02-sach-sich-046",
+    "question": "Warum sollte der Kunde zur sicheren Nutzung eingewiesen werden?",
+    "answers": [
+      { "text": "Sicherheitsmaßnahmen funktionieren nur mit richtigem Verhalten", "correct": true },
+      { "text": "Technische Schutzmaßnahmen werden dadurch ersetzt", "correct": false },
+      { "text": "Sicherheitsregeln bleiben dadurch verborgen", "correct": false },
+      { "text": "Einweisung dient hauptsächlich der Preiskalkulation", "correct": false }
+    ],
+    "explanation": "Einweisung erklärt z. B. Login, Updates, Datenschutz, Backup, Phishing-Risiken und Supportwege."
+  },
+  {
+    "id": "lf-02-sach-sich-047",
+    "question": "Warum sind organisatorische Sicherheitsmaßnahmen neben technischen Maßnahmen wichtig?",
+    "answers": [
+      { "text": "Regeln, Zuständigkeiten und Schulungen steuern das Verhalten", "correct": true },
+      { "text": "Technische Maßnahmen lösen jedes Sicherheitsproblem allein", "correct": false },
+      { "text": "Organisation bleibt ohne Einfluss auf Sicherheit", "correct": false },
+      { "text": "Organisatorische Maßnahmen ersetzen Systemanmeldung", "correct": false }
+    ],
+    "explanation": "Sicherheit entsteht durch Zusammenspiel von Technik, Organisation und Verhalten."
+  },
+  {
+    "id": "lf-02-sach-sich-048",
+    "question": "Warum ist ein Sicherheitskonzept besser als einzelne Einzelmaßnahmen?",
+    "answers": [
+      { "text": "Maßnahmen werden aufeinander abgestimmt", "correct": true },
+      { "text": "Einzelmaßnahmen decken den Schutzbedarf vollständig ab", "correct": false },
+      { "text": "Prüfungen werden durch ein Konzept verhindert", "correct": false },
+      { "text": "Kundenbedarf wird durch ein Konzept ersetzt", "correct": false }
+    ],
+    "explanation": "Ein Sicherheitskonzept bündelt Schutzbedarf, Risiken, Maßnahmen, Zuständigkeiten und Kontrolle."
+  },
+  {
+    "id": "lf-02-sach-sich-049",
+    "question": "Warum ist Nachhaltigkeit nicht nur ein Umwelt-, sondern auch ein Wirtschaftsthema?",
+    "answers": [
+      { "text": "Energieverbrauch, Lebensdauer und Entsorgung beeinflussen Kosten", "correct": true },
+      { "text": "Nachhaltigkeit ist unabhängig von Betriebskosten", "correct": false },
+      { "text": "Kalkulation wird durch Nachhaltigkeit ersetzt", "correct": false },
+      { "text": "Nachhaltigkeit betrifft vorrangig private Haushalte", "correct": false }
+    ],
+    "explanation": "Nachhaltige IT kann Betriebskosten senken, Ressourcen schonen und Folgekosten reduzieren."
+  },
+  {
+    "id": "lf-02-sach-sich-050",
+    "question": "Warum sollten Sicherheit, Datenschutz und Nachhaltigkeit bereits in der Angebotserstellung auftauchen?",
+    "answers": [
+      { "text": "Sie beeinflussen Leistungsumfang, Kosten und Kundennutzen", "correct": true },
+      { "text": "Sie werden erst nach Vertragsende eingeplant", "correct": false },
+      { "text": "Sie ersetzen die fachliche Produktbeschreibung", "correct": false },
+      { "text": "Sie bleiben unabhängig von Einrichtung und Preis", "correct": false }
+    ],
+    "explanation": "Diese Anforderungen können Hardware, Software, Service, Einrichtung, Dokumentation und Preis beeinflussen."
+  }
+]

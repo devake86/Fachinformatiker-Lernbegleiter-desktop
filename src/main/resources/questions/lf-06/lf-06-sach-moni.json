@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-sach-moni-001",
+    "question": "Wozu dient IT-Monitoring im Servicebetrieb?",
+    "answers": [
+      { "text": "Zur laufenden Überwachung von Systemen und Diensten", "correct": true },
+      { "text": "Zur schnellen Wiederherstellung gestörter Services", "correct": false },
+      { "text": "Zur Dokumentation von Ereignissen in Logdateien", "correct": false },
+      { "text": "Zur Darstellung wichtiger Messwerte im Dashboard", "correct": false }
+    ],
+    "explanation": "IT-Monitoring hilft, Störungen früh zu erkennen und den Betrieb besser zu überwachen."
+  },
+  {
+    "id": "lf-06-sach-moni-002",
+    "question": "Welcher Vorteil entsteht durch 24/7-Monitoring?",
+    "answers": [
+      { "text": "Störungen können auch außerhalb der Arbeitszeit erkannt werden", "correct": true },
+      { "text": "Störungen werden dadurch automatisch dauerhaft behoben", "correct": false },
+      { "text": "Servicezeiten werden dadurch im SLA festgelegt", "correct": false },
+      { "text": "Tickets werden dadurch direkt abschließend gelöst", "correct": false }
+    ],
+    "explanation": "24/7-Monitoring überwacht Systeme dauerhaft und kann Warnungen jederzeit auslösen."
+  },
+  {
+    "id": "lf-06-sach-moni-003",
+    "question": "Was zeigt ein Monitoring-Dashboard typischerweise?",
+    "answers": [
+      { "text": "Wichtige Messwerte, Zustände und Warnungen", "correct": true },
+      { "text": "Einzelne Rohdaten aus einer Logdatei", "correct": false },
+      { "text": "Festgelegte Schwellenwerte ohne Übersicht", "correct": false },
+      { "text": "Bearbeitungsstände einzelner Supporttickets", "correct": false }
+    ],
+    "explanation": "Ein Dashboard bündelt zentrale Monitoring-Informationen übersichtlich."
+  },
+  {
+    "id": "lf-06-sach-moni-004",
+    "question": "Wann wird im Monitoring typischerweise ein Alert ausgelöst?",
+    "answers": [
+      { "text": "Wenn ein Grenzwert überschritten oder eine Störung erkannt wird", "correct": true },
+      { "text": "Wenn ein Dashboard Messwerte nur grafisch darstellt", "correct": false },
+      { "text": "Wenn eine Logdatei alte Ereignisse archiviert", "correct": false },
+      { "text": "Wenn ein Service im normalen Bereich läuft", "correct": false }
+    ],
+    "explanation": "Alerts weisen auf auffällige oder kritische Zustände hin."
+  },
+  {
+    "id": "lf-06-sach-moni-005",
+    "question": "Was ist ein Beispiel für Infrastruktur-Monitoring?",
+    "answers": [
+      { "text": "CPU, Speicher, Server, Netzwerk und Dienste überwachen", "correct": true },
+      { "text": "Nur Netzwerkverbindungen zwischen Routern prüfen", "correct": false },
+      { "text": "Nur Kundentickets nach Priorität auswerten", "correct": false },
+      { "text": "Nur Serviceverträge nach Laufzeit prüfen", "correct": false }
+    ],
+    "explanation": "Infrastruktur-Monitoring überwacht technische Basisbestandteile der IT."
+  },
+  {
+    "id": "lf-06-sach-moni-006",
+    "question": "Welche Komponente passt zum Netzwerk-Monitoring?",
+    "answers": [
+      { "text": "Router, Switches, Firewalls und Netzwerkverbindungen", "correct": true },
+      { "text": "CPU-Auslastung einzelner Serverprozesse", "correct": false },
+      { "text": "Backupstände und Wiederherstellungstests", "correct": false },
+      { "text": "Ticketstatus und SLA-Bearbeitungszeiten", "correct": false }
+    ],
+    "explanation": "Netzwerk-Monitoring beobachtet Netzwerkkomponenten und Verbindungsqualität."
+  },
+  {
+    "id": "lf-06-sach-moni-007",
+    "question": "Welche Aussage zu Logdateien ist richtig?",
+    "answers": [
+      { "text": "Sie protokollieren Ereignisse und helfen bei der Fehlersuche", "correct": true },
+      { "text": "Sie zeigen aktuelle Zustände grafisch auf einen Blick", "correct": false },
+      { "text": "Sie lösen bei Grenzwerten direkt Warnmeldungen aus", "correct": false },
+      { "text": "Sie messen die Verfügbarkeit eines Services in Prozent", "correct": false }
+    ],
+    "explanation": "Logdateien machen Ereignisse nachvollziehbar und unterstützen die Störungsanalyse."
+  },
+  {
+    "id": "lf-06-sach-moni-008",
+    "question": "Wozu dient ein Ereignisprotokoll?",
+    "answers": [
+      { "text": "Zur Nachverfolgung von Systemereignissen und Fehlern", "correct": true },
+      { "text": "Zur Anzeige aktueller Kennzahlen im Dashboard", "correct": false },
+      { "text": "Zur Festlegung kritischer Grenzwerte", "correct": false },
+      { "text": "Zur Berechnung der mittleren Reparaturzeit", "correct": false }
+    ],
+    "explanation": "Ereignisprotokolle helfen, Vorgänge und Fehler im System nachzuvollziehen."
+  },
+  {
+    "id": "lf-06-sach-moni-009",
+    "question": "Was beschreibt Bandbreite im Netzwerk?",
+    "answers": [
+      { "text": "Die mögliche Datenrate einer Verbindung", "correct": true },
+      { "text": "Die tatsächlich erreichte Datenmenge pro Zeit", "correct": false },
+      { "text": "Die Verzögerung einer Datenübertragung", "correct": false },
+      { "text": "Der Verlust einzelner TCP-Datenpakete", "correct": false }
+    ],
+    "explanation": "Bandbreite beschreibt, wie viele Daten pro Zeit übertragen werden können."
+  },
+  {
+    "id": "lf-06-sach-moni-010",
+    "question": "Was beschreibt Datendurchsatz?",
+    "answers": [
+      { "text": "Die tatsächlich übertragene Datenmenge pro Zeit", "correct": true },
+      { "text": "Die theoretisch mögliche Datenrate einer Verbindung", "correct": false },
+      { "text": "Die Verzögerungszeit bis zur Antwort", "correct": false },
+      { "text": "Die durchschnittliche Zeit zwischen Ausfällen", "correct": false }
+    ],
+    "explanation": "Datendurchsatz zeigt die tatsächlich erreichte Übertragungsleistung."
+  },
+  {
+    "id": "lf-06-sach-moni-011",
+    "question": "Was bedeutet Latenz bei einer Netzwerkverbindung?",
+    "answers": [
+      { "text": "Die Verzögerungszeit bei der Datenübertragung", "correct": true },
+      { "text": "Die tatsächlich übertragene Datenmenge pro Zeit", "correct": false },
+      { "text": "Die mögliche Datenrate einer Verbindung", "correct": false },
+      { "text": "Die Zeit bis zur Reparatur nach einer Störung", "correct": false }
+    ],
+    "explanation": "Latenz beschreibt, wie lange Daten bis zum Ziel benötigen."
+  },
+  {
+    "id": "lf-06-sach-moni-012",
+    "question": "Welche Aussage zu TCP-Latenz passt?",
+    "answers": [
+      { "text": "Sie misst Verzögerungen bei TCP-Verbindungen", "correct": true },
+      { "text": "Sie misst Paketverluste bei TCP-Verbindungen", "correct": false },
+      { "text": "Sie beschreibt Fehler beim TCP-Verbindungsaufbau", "correct": false },
+      { "text": "Sie beschreibt Fehler beim TCP-Verbindungsabbau", "correct": false }
+    ],
+    "explanation": "TCP-Latenz zeigt Verzögerungen bei TCP-basierter Kommunikation."
+  },
+  {
+    "id": "lf-06-sach-moni-013",
+    "question": "Was bedeutet TCP-Verlust?",
+    "answers": [
+      { "text": "Gesendete Datenpakete kommen nicht beim Empfänger an", "correct": true },
+      { "text": "TCP-Verbindungen bauen sich verzögert auf", "correct": false },
+      { "text": "TCP-Verbindungen werden regulär beendet", "correct": false },
+      { "text": "Antwortzeiten einer Verbindung steigen an", "correct": false }
+    ],
+    "explanation": "TCP-Verlust weist auf Paketverluste in der Datenübertragung hin."
+  },
+  {
+    "id": "lf-06-sach-moni-014",
+    "question": "Worauf deutet ein SYN-Fehler hin?",
+    "answers": [
+      { "text": "Auf ein Problem beim TCP-Verbindungsaufbau", "correct": true },
+      { "text": "Auf ein Problem beim TCP-Verbindungsabbau", "correct": false },
+      { "text": "Auf Paketverluste während der Datenübertragung", "correct": false },
+      { "text": "Auf erhöhte Verzögerung bestehender Verbindungen", "correct": false }
+    ],
+    "explanation": "SYN steht im TCP-Kontext für den Verbindungsaufbau."
+  },
+  {
+    "id": "lf-06-sach-moni-015",
+    "question": "Worauf deutet ein FIN-Fehler hin?",
+    "answers": [
+      { "text": "Auf ein Problem beim TCP-Verbindungsabbau", "correct": true },
+      { "text": "Auf ein Problem beim TCP-Verbindungsaufbau", "correct": false },
+      { "text": "Auf verlorene Pakete während der Übertragung", "correct": false },
+      { "text": "Auf hohe Latenz bei TCP-Verbindungen", "correct": false }
+    ],
+    "explanation": "FIN steht im TCP-Kontext für das Beenden einer Verbindung."
+  },
+  {
+    "id": "lf-06-sach-moni-016",
+    "question": "Was misst die KPI Verfügbarkeit?",
+    "answers": [
+      { "text": "Wie lange ein Service im Zeitraum nutzbar ist", "correct": true },
+      { "text": "Wie lange die Wiederherstellung nach Störungen dauert", "correct": false },
+      { "text": "Wie viel Zeit zwischen zwei Ausfällen liegt", "correct": false },
+      { "text": "Wie viele Daten tatsächlich übertragen werden", "correct": false }
+    ],
+    "explanation": "Verfügbarkeit zeigt, ob ein Service wie vereinbart erreichbar und nutzbar ist."
+  },
+  {
+    "id": "lf-06-sach-moni-017",
+    "question": "Was beschreibt MTTR?",
+    "answers": [
+      { "text": "Die durchschnittliche Zeit bis zur Wiederherstellung", "correct": true },
+      { "text": "Die durchschnittliche Zeit zwischen zwei Ausfällen", "correct": false },
+      { "text": "Die verfügbare Servicezeit im Messzeitraum", "correct": false },
+      { "text": "Die mögliche Datenrate einer Verbindung", "correct": false }
+    ],
+    "explanation": "MTTR zeigt, wie lange die Wiederherstellung nach Störungen durchschnittlich dauert."
+  },
+  {
+    "id": "lf-06-sach-moni-018",
+    "question": "Was beschreibt MTBF?",
+    "answers": [
+      { "text": "Die durchschnittliche Zeit zwischen zwei Ausfällen", "correct": true },
+      { "text": "Die durchschnittliche Reparaturzeit nach Störungen", "correct": false },
+      { "text": "Die Zeit bis zur ersten Warnmeldung", "correct": false },
+      { "text": "Der Anteil nutzbarer Servicezeit", "correct": false }
+    ],
+    "explanation": "MTBF zeigt, wie viel Zeit durchschnittlich zwischen Ausfällen liegt."
+  },
+  {
+    "id": "lf-06-sach-moni-019",
+    "question": "Wozu dient Predictive Maintenance?",
+    "answers": [
+      { "text": "Störungen durch Messdaten möglichst vorherzusagen", "correct": true },
+      { "text": "Störungen nach Ausfall reaktiv zu beheben", "correct": false },
+      { "text": "Wartung nach festem Kalender durchzuführen", "correct": false },
+      { "text": "Alerts ohne weitere Analyse zu eskalieren", "correct": false }
+    ],
+    "explanation": "Predictive Maintenance nutzt Daten und Messwerte, um Ausfälle frühzeitig zu vermeiden."
+  },
+  {
+    "id": "lf-06-sach-moni-020",
+    "question": "Warum sind Monitoring-Kennzahlen für Servicequalität wichtig?",
+    "answers": [
+      { "text": "Sie machen Leistung, Störungen und Verbesserungen messbar", "correct": true },
+      { "text": "Sie ersetzen Service Level Agreements vollständig", "correct": false },
+      { "text": "Sie lösen Incidents dauerhaft automatisch", "correct": false },
+      { "text": "Sie machen Kundenrückmeldungen irrelevant", "correct": false }
+    ],
+    "explanation": "Kennzahlen helfen, Servicequalität zu bewerten und Verbesserungen gezielt abzuleiten."
+  }
+]

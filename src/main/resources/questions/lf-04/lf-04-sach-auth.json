@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-auth-001",
+    "question": "Welche drei Bestandteile gehören zum Triple-A-Prinzip?",
+    "answers": [
+      { "text": "Authentifizierung, Autorisierung und Accounting", "correct": true },
+      { "text": "Authentisierung, Auditing und Administration", "correct": false },
+      { "text": "Authentifizierung, Anmeldung und Auditierung", "correct": false },
+      { "text": "Autorisierung, Zugriffsschutz und Archivierung", "correct": false }
+    ],
+    "explanation": "Triple-A steht für Authentifizierung (Identitätsprüfung), Autorisierung (Rechtevergabe) und Accounting (Nachvollziehbarkeit)."
+  },
+  {
+    "id": "lf-04-sach-auth-002",
+    "question": "Was passiert bei der Authentifizierung?",
+    "answers": [
+      { "text": "Die Identität eines Benutzers oder Systems wird geprüft", "correct": true },
+      { "text": "Zugriffsrechte werden nach der Anmeldung vergeben", "correct": false },
+      { "text": "Benutzeraktionen werden protokolliert", "correct": false },
+      { "text": "Rollen werden einem angemeldeten Konto zugeordnet", "correct": false }
+    ],
+    "explanation": "Authentifizierung beantwortet die Frage: Ist die Person oder das System wirklich die behauptete Identität?"
+  },
+  {
+    "id": "lf-04-sach-auth-003",
+    "question": "Was passiert bei der Autorisierung?",
+    "answers": [
+      { "text": "Erlaubte Aktionen eines Benutzers werden festgelegt", "correct": true },
+      { "text": "Die Identität wird beim Anmelden geprüft", "correct": false },
+      { "text": "Benutzeraktionen werden nachvollziehbar protokolliert", "correct": false },
+      { "text": "Ein Passwort wird als Wissensfaktor geprüft", "correct": false }
+    ],
+    "explanation": "Autorisierung legt nach erfolgreicher Anmeldung die erlaubten Rechte und Zugriffe fest."
+  },
+  {
+    "id": "lf-04-sach-auth-004",
+    "question": "Wozu dient Accounting im Sicherheitskontext?",
+    "answers": [
+      { "text": "Benutzeraktionen werden protokolliert und nachvollziehbar", "correct": true },
+      { "text": "Benutzer erhalten Rollen und Zugriffsrechte", "correct": false },
+      { "text": "Die Identität wird durch Faktoren geprüft", "correct": false },
+      { "text": "Zugangsdaten werden bei anderen Diensten getestet", "correct": false }
+    ],
+    "explanation": "Accounting sorgt dafür, dass sicherheitsrelevante Aktionen später überprüft werden können."
+  },
+  {
+    "id": "lf-04-sach-auth-005",
+    "question": "Warum erhöht Zwei-Faktor-Authentifizierung die Sicherheit?",
+    "answers": [
+      { "text": "Ein Angreifer braucht mehr als ein Passwort", "correct": true },
+      { "text": "Ein zweites Passwort derselben Art reicht aus", "correct": false },
+      { "text": "Die Anmeldung wird durch Rollen ersetzt", "correct": false },
+      { "text": "Der Benutzername wird zum zweiten Faktor", "correct": false }
+    ],
+    "explanation": "Zwei-Faktor-Authentifizierung kombiniert zwei unabhängige Nachweise."
+  },
+  {
+    "id": "lf-04-sach-auth-006",
+    "question": "Welches Beispiel beschreibt Zwei-Faktor-Authentifizierung?",
+    "answers": [
+      { "text": "Passwort plus Code auf dem Smartphone", "correct": true },
+      { "text": "Passwort plus Sicherheitsfrage als Wissen", "correct": false },
+      { "text": "Benutzername plus öffentliches Profilbild", "correct": false },
+      { "text": "Zweimalige Eingabe desselben Passworts", "correct": false }
+    ],
+    "explanation": "Ein Passwort ist ein Wissensfaktor, ein Smartphone-Code kann als zusätzlicher Faktor dienen."
+  },
+  {
+    "id": "lf-04-sach-auth-007",
+    "question": "Welche Kombination beschreibt unterschiedliche Authentifizierungsfaktoren?",
+    "answers": [
+      { "text": "Wissen, Besitz und biometrisches Merkmal", "correct": true },
+      { "text": "Passwort, PIN und Sicherheitsfrage", "correct": false },
+      { "text": "Rolle, Recht und Benutzergruppe", "correct": false },
+      { "text": "Loginname, E-Mail-Adresse und Profilbild", "correct": false }
+    ],
+    "explanation": "Authentifizierungsfaktoren können auf Wissen, Besitz oder persönlichen Merkmalen beruhen."
+  },
+  {
+    "id": "lf-04-sach-auth-008",
+    "question": "Welches Beispiel ist ein Wissensfaktor?",
+    "answers": [
+      { "text": "Ein Passwort oder eine PIN", "correct": true },
+      { "text": "Ein Smartphone als zweiter Faktor", "correct": false },
+      { "text": "Ein Fingerabdruck zur Anmeldung", "correct": false },
+      { "text": "Ein Hardware-Token am Schlüsselbund", "correct": false }
+    ],
+    "explanation": "Ein Wissensfaktor ist etwas, das nur der berechtigte Benutzer kennen sollte."
+  },
+  {
+    "id": "lf-04-sach-auth-009",
+    "question": "Welches Beispiel ist ein Besitzfaktor?",
+    "answers": [
+      { "text": "Ein Smartphone, Token oder Sicherheitsschlüssel", "correct": true },
+      { "text": "Ein Passwort oder eine geheime PIN", "correct": false },
+      { "text": "Ein Fingerabdruck oder Gesichtsmerkmal", "correct": false },
+      { "text": "Eine Rolle mit bestimmten Berechtigungen", "correct": false }
+    ],
+    "explanation": "Ein Besitzfaktor ist etwas, das der Benutzer physisch oder digital besitzt."
+  },
+  {
+    "id": "lf-04-sach-auth-010",
+    "question": "Was ist das Ziel einer Passwortrichtlinie?",
+    "answers": [
+      { "text": "Passwörter sicherer und einheitlich regelbar machen", "correct": true },
+      { "text": "Zugriffsrechte nach Rollen verteilen", "correct": false },
+      { "text": "Benutzeraktionen nachvollziehbar protokollieren", "correct": false },
+      { "text": "Konten nach Fehlversuchen automatisch prüfen", "correct": false }
+    ],
+    "explanation": "Passwortrichtlinien legen Regeln für sichere Erstellung, Nutzung und Änderung von Kennwörtern fest."
+  },
+  {
+    "id": "lf-04-sach-auth-011",
+    "question": "Welche Eigenschaft macht ein Passwort grundsätzlich sicherer?",
+    "answers": [
+      { "text": "Ausreichende Länge und Einzigartigkeit", "correct": true },
+      { "text": "Kurze Wörter mit persönlichem Bezug", "correct": false },
+      { "text": "Wiederverwendung bei mehreren Konten", "correct": false },
+      { "text": "Einfache Muster mit kleinen Änderungen", "correct": false }
+    ],
+    "explanation": "Sichere Passwörter sind schwer zu erraten, ausreichend lang und werden nicht mehrfach verwendet."
+  },
+  {
+    "id": "lf-04-sach-auth-012",
+    "question": "Warum ist Passwort-Wiederverwendung gefährlich?",
+    "answers": [
+      { "text": "Ein Datenleck kann mehrere Konten gefährden", "correct": true },
+      { "text": "Ein Passwort wird dadurch schwerer erratbar", "correct": false },
+      { "text": "Ein zweiter Faktor wird dadurch ersetzt", "correct": false },
+      { "text": "Mehrere Konten erhalten dadurch bessere Trennung", "correct": false }
+    ],
+    "explanation": "Wenn dasselbe Passwort mehrfach genutzt wird, kann ein kompromittiertes Konto weitere Konten gefährden."
+  },
+  {
+    "id": "lf-04-sach-auth-013",
+    "question": "Was beschreibt Credential Stuffing?",
+    "answers": [
+      { "text": "Gestohlene Logins werden bei anderen Diensten getestet", "correct": true },
+      { "text": "Viele mögliche Passwörter werden ausprobiert", "correct": false },
+      { "text": "Ein Konto wird nach Fehlversuchen gesperrt", "correct": false },
+      { "text": "Ein Passwort wird mit einem Faktor ergänzt", "correct": false }
+    ],
+    "explanation": "Credential Stuffing nutzt aus, dass viele Menschen Zugangsdaten mehrfach verwenden."
+  },
+  {
+    "id": "lf-04-sach-auth-014",
+    "question": "Welche Maßnahme hilft besonders gegen Credential Stuffing?",
+    "answers": [
+      { "text": "Einzigartige Passwörter und MFA", "correct": true },
+      { "text": "Längere Sperrdauer nach jedem Login", "correct": false },
+      { "text": "Gleiche Passwörter mit höherer Komplexität", "correct": false },
+      { "text": "Reine Protokollierung ohne Login-Schutz", "correct": false }
+    ],
+    "explanation": "Einzigartige Passwörter verhindern Ketteneffekte; MFA erschwert zusätzlich den Missbrauch."
+  },
+  {
+    "id": "lf-04-sach-auth-015",
+    "question": "Was ist eine Brute-Force-Attacke?",
+    "answers": [
+      { "text": "Viele Passwörter werden systematisch ausprobiert", "correct": true },
+      { "text": "Gestohlene Logins werden bei Diensten getestet", "correct": false },
+      { "text": "Ein Passwort wird mehrfach wiederverwendet", "correct": false },
+      { "text": "Ein Konto wird nach Fehlversuchen gesperrt", "correct": false }
+    ],
+    "explanation": "Brute Force versucht Passwörter durch massenhaftes Ausprobieren zu erraten."
+  },
+  {
+    "id": "lf-04-sach-auth-016",
+    "question": "Warum erschwert eine größere Passwortlänge Brute-Force-Angriffe?",
+    "answers": [
+      { "text": "Die Anzahl möglicher Kombinationen steigt stark an", "correct": true },
+      { "text": "Die Sperrdauer eines Kontos wird kürzer", "correct": false },
+      { "text": "Der Besitzfaktor wird dadurch stärker", "correct": false },
+      { "text": "Credential Stuffing wird dadurch zur Anmeldung", "correct": false }
+    ],
+    "explanation": "Mit jeder zusätzlichen Stelle wächst der Suchraum für Angreifer deutlich."
+  },
+  {
+    "id": "lf-04-sach-auth-017",
+    "question": "Was kann eine Kontosperre nach Fehlversuchen bewirken?",
+    "answers": [
+      { "text": "Sie erschwert automatisiertes Passwort-Ausprobieren", "correct": true },
+      { "text": "Sie erhöht die Passwortkomplexität des Kontos", "correct": false },
+      { "text": "Sie ersetzt eindeutige Passwörter und MFA", "correct": false },
+      { "text": "Sie prüft die Identität über Biometrie", "correct": false }
+    ],
+    "explanation": "Sperren nach Fehlversuchen bremsen oder blockieren automatisierte Angriffe."
+  },
+  {
+    "id": "lf-04-sach-auth-018",
+    "question": "Welche Passwortstrategie ist grundsätzlich sinnvoll?",
+    "answers": [
+      { "text": "Für jeden Account ein eigenes starkes Passwort nutzen", "correct": true },
+      { "text": "Ein komplexes Passwort für alle Konten verwenden", "correct": false },
+      { "text": "Passwörter aus persönlichen Daten bilden", "correct": false },
+      { "text": "Passwörter regelmäßig in Chats speichern", "correct": false }
+    ],
+    "explanation": "Einzigartige starke Passwörter begrenzen den Schaden bei kompromittierten Zugangsdaten."
+  },
+  {
+    "id": "lf-04-sach-auth-019",
+    "question": "Warum können einfache Muster wie „1234abcd“ problematisch sein?",
+    "answers": [
+      { "text": "Sie sind leicht zu erraten oder automatisiert testbar", "correct": true },
+      { "text": "Sie erhöhen die Zahl möglicher Kombinationen stark", "correct": false },
+      { "text": "Sie wirken wie ein unabhängiger zweiter Faktor", "correct": false },
+      { "text": "Sie verhindern Wiederverwendung bei anderen Konten", "correct": false }
+    ],
+    "explanation": "Einfache Muster kommen häufig vor und sind deshalb für Angreifer leicht vorhersehbar."
+  },
+  {
+    "id": "lf-04-sach-auth-020",
+    "question": "Welche Aussage zu MFA ist richtig?",
+    "answers": [
+      { "text": "MFA ergänzt Passwörter durch unabhängige Faktoren", "correct": true },
+      { "text": "MFA beschreibt die Vergabe von Benutzerrechten", "correct": false },
+      { "text": "MFA protokolliert Benutzeraktionen nach dem Login", "correct": false },
+      { "text": "MFA nutzt mehrere Passwörter derselben Faktorart", "correct": false }
+    ],
+    "explanation": "MFA erhöht die Zugriffssicherheit, weil ein einzelnes kompromittiertes Passwort nicht ausreicht."
+  }
+]

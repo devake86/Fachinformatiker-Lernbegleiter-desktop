@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-sach-integ-001",
+    "question": "Warum prüft man vor dem Einbinden eines Clients die Netzwerkanforderungen?",
+    "answers": [
+      { "text": "Damit Leistung und Anschluss passen", "correct": true },
+      { "text": "Damit IP-Konfiguration und Dienste vorbereitet sind", "correct": false },
+      { "text": "Damit Patchfeld und Switchport dokumentiert sind", "correct": false },
+      { "text": "Damit Benutzerrechte zentral zugeordnet sind", "correct": false }
+    ],
+    "explanation": "Vor der Integration müssen Datenrate, Anschluss, IP-Konfiguration und Dienste zum Client passen."
+  },
+  {
+    "id": "lf-03-sach-integ-002",
+    "question": "Warum ist eine Ist-Aufnahme vor Netzwerkänderungen wichtig?",
+    "answers": [
+      { "text": "Sie zeigt den tatsächlichen Zustand", "correct": true },
+      { "text": "Sie beschreibt den geplanten Sollzustand", "correct": false },
+      { "text": "Sie dokumentiert abgeschlossene Abnahmetests", "correct": false },
+      { "text": "Sie legt künftige Benutzerrechte fest", "correct": false }
+    ],
+    "explanation": "Eine Ist-Aufnahme verhindert Planung auf Basis veralteter oder falscher Dokumentation."
+  },
+  {
+    "id": "lf-03-sach-integ-003",
+    "question": "Warum sollte die vorhandene Netzwerkdokumentation vor Ort geprüft werden?",
+    "answers": [
+      { "text": "Dokumentation und Realität können abweichen", "correct": true },
+      { "text": "Patchpläne zeigen bereits den Sollzustand", "correct": false },
+      { "text": "Messprotokolle zeigen Leistungswerte", "correct": false },
+      { "text": "Geräteinventar zeigt beschaffte Hardware", "correct": false }
+    ],
+    "explanation": "Vor-Ort-Prüfung hilft, falsche Dosen, alte Patchungen oder unklare Leitungswege zu erkennen."
+  },
+  {
+    "id": "lf-03-sach-integ-004",
+    "question": "Warum prüft man vor dem Anschluss eines Clients die Kategorie von Dose und Kabel?",
+    "answers": [
+      { "text": "Sie muss zur geplanten Datenrate passen", "correct": true },
+      { "text": "Sie legt die IP-Adressklasse fest", "correct": false },
+      { "text": "Sie bestimmt den Namen des Clients", "correct": false },
+      { "text": "Sie vergibt die Gateway-Adresse", "correct": false }
+    ],
+    "explanation": "Die Verkabelung muss die benötigte Übertragungsleistung zuverlässig unterstützen."
+  },
+  {
+    "id": "lf-03-sach-integ-005",
+    "question": "Warum wird ein Patchpanel beim Clientanschluss benötigt?",
+    "answers": [
+      { "text": "Um Dose und Switch-Port zu verbinden", "correct": true },
+      { "text": "Um IP-Adresse und Maske zu berechnen", "correct": false },
+      { "text": "Um DNS-Zonen zentral zu verwalten", "correct": false },
+      { "text": "Um WLAN-Zellen räumlich zu erweitern", "correct": false }
+    ],
+    "explanation": "Im Verteiler wird die Anschlussdose meist über ein Patchpanel mit einem Switch-Port verbunden."
+  },
+  {
+    "id": "lf-03-sach-integ-006",
+    "question": "Welche Angaben sind für die IP-Konfiguration eines Clients typisch?",
+    "answers": [
+      { "text": "IP-Adresse, Maske, Gateway und DNS", "correct": true },
+      { "text": "Hostname, Raum, Benutzer und Inventarnummer", "correct": false },
+      { "text": "MAC-Adresse, Switchport und Patchfeld", "correct": false },
+      { "text": "SSID, Kanal, Funkzelle und Signalstärke", "correct": false }
+    ],
+    "explanation": "Diese Angaben bestimmen lokale Kommunikation, Routing und Namensauflösung."
+  },
+  {
+    "id": "lf-03-sach-integ-007",
+    "question": "Warum ist DHCP beim Einbinden vieler Clients praktisch?",
+    "answers": [
+      { "text": "Es verteilt IP-Konfigurationen automatisch", "correct": true },
+      { "text": "Es löst DNS-Namen in IP-Adressen auf", "correct": false },
+      { "text": "Es verbindet Patchpanel und Switchport", "correct": false },
+      { "text": "Es prüft Kabelkategorien im Verteiler", "correct": false }
+    ],
+    "explanation": "DHCP spart manuelle Arbeit und reduziert Fehler bei IP-Adresse, Gateway und DNS."
+  },
+  {
+    "id": "lf-03-sach-integ-008",
+    "question": "Wann ist eine statische IP-Konfiguration sinnvoll?",
+    "answers": [
+      { "text": "Bei dauerhaft erreichbaren Geräten", "correct": true },
+      { "text": "Bei kurzfristigen Gastgeräten im WLAN", "correct": false },
+      { "text": "Bei häufig wechselnden mobilen Clients", "correct": false },
+      { "text": "Bei temporären Testzugängen im Netz", "correct": false }
+    ],
+    "explanation": "Server, Router und Drucker brauchen oft feste Adressen, damit sie zuverlässig erreichbar sind."
+  },
+  {
+    "id": "lf-03-sach-integ-009",
+    "question": "Warum sind Schreibfehler bei manueller IP-Konfiguration kritisch?",
+    "answers": [
+      { "text": "Schon kleine Fehler können Verbindungen verhindern", "correct": true },
+      { "text": "Sie ändern die Kabelkategorie am Anschluss", "correct": false },
+      { "text": "Sie erhöhen die Reichweite des WLANs", "correct": false },
+      { "text": "Sie aktualisieren Patchpläne automatisch", "correct": false }
+    ],
+    "explanation": "Falsche IP, Maske, Gateway oder DNS-Adresse können Kommunikation vollständig stören."
+  },
+  {
+    "id": "lf-03-sach-integ-010",
+    "question": "Warum prüft man nach dem Anschluss die IP-Konfiguration?",
+    "answers": [
+      { "text": "Um korrekte Netzparameter zu bestätigen", "correct": true },
+      { "text": "Um die Verkabelungskategorie festzulegen", "correct": false },
+      { "text": "Um Benutzerrechte zentral zu vergeben", "correct": false },
+      { "text": "Um Patchkabel farblich zuzuordnen", "correct": false }
+    ],
+    "explanation": "Nach dem Anschluss muss klar sein, ob IP-Adresse, Gateway und DNS korrekt gesetzt wurden."
+  },
+  {
+    "id": "lf-03-sach-integ-011",
+    "question": "Wofür nutzt man ipconfig auf Windows-Systemen?",
+    "answers": [
+      { "text": "Zum Anzeigen der IP-Konfiguration", "correct": true },
+      { "text": "Zum Prüfen der Namensauflösung", "correct": false },
+      { "text": "Zum Anzeigen des Paketwegs", "correct": false },
+      { "text": "Zum Testen der Zielerreichbarkeit", "correct": false }
+    ],
+    "explanation": "ipconfig zeigt Netzwerkadapter und deren IP-Konfiguration an."
+  },
+  {
+    "id": "lf-03-sach-integ-012",
+    "question": "Wofür nutzt man ip address show auf Linux-Systemen?",
+    "answers": [
+      { "text": "Zum Anzeigen von Netzwerkadressen", "correct": true },
+      { "text": "Zum Abfragen von DNS-Servern", "correct": false },
+      { "text": "Zum Anzeigen des Paketwegs", "correct": false },
+      { "text": "Zum Prüfen erreichbarer Ziele", "correct": false }
+    ],
+    "explanation": "Der Befehl zeigt Interfaces und IP-Adressen eines Linux-Systems an."
+  },
+  {
+    "id": "lf-03-sach-integ-013",
+    "question": "Warum testet man nach der Clientintegration die Erreichbarkeit lokaler Server?",
+    "answers": [
+      { "text": "Um LAN-Zugriff auf Dienste zu prüfen", "correct": true },
+      { "text": "Um DNS-Namen extern zu registrieren", "correct": false },
+      { "text": "Um WLAN-Kanäle neu zu planen", "correct": false },
+      { "text": "Um Benutzerkonten lokal anzulegen", "correct": false }
+    ],
+    "explanation": "Lokale Serverzugriffe zeigen, ob Client, Verkabelung, IP-Netz und Dienste zusammen funktionieren."
+  },
+  {
+    "id": "lf-03-sach-integ-014",
+    "question": "Was prüft ein Ping auf eine IP-Adresse hauptsächlich?",
+    "answers": [
+      { "text": "Die Erreichbarkeit eines Ziels", "correct": true },
+      { "text": "Die Namensauflösung eines Ziels", "correct": false },
+      { "text": "Die Route über Zwischenstationen", "correct": false },
+      { "text": "Die Zuordnung von Namen zu Adressen", "correct": false }
+    ],
+    "explanation": "Ping nutzt ICMP und prüft, ob ein Ziel antwortet und wie lange die Antwort dauert."
+  },
+  {
+    "id": "lf-03-sach-integ-015",
+    "question": "Warum kann ein fehlgeschlagener Ping trotzdem nicht immer einen Totalausfall beweisen?",
+    "answers": [
+      { "text": "Firewalls können ICMP blockieren", "correct": true },
+      { "text": "DNS kann einen falschen Namen liefern", "correct": false },
+      { "text": "DHCP kann eine Adresse neu vergeben", "correct": false },
+      { "text": "Traceroute kann andere Wege anzeigen", "correct": false }
+    ],
+    "explanation": "Ein Ziel kann erreichbar sein, auch wenn ICMP-Antworten durch Firewalls blockiert werden."
+  },
+  {
+    "id": "lf-03-sach-integ-016",
+    "question": "Warum testet man manchmal zuerst eine IP-Adresse und dann einen Namen?",
+    "answers": [
+      { "text": "So trennt man Verbindung und DNS", "correct": true },
+      { "text": "So prüft man Kabel und Patchpanel gleichzeitig", "correct": false },
+      { "text": "So verbindet man Client und Domäne automatisch", "correct": false },
+      { "text": "So vergibt man Gateway und Maske neu", "correct": false }
+    ],
+    "explanation": "IP-Test prüft Erreichbarkeit; Namenstest prüft zusätzlich die Namensauflösung."
+  },
+  {
+    "id": "lf-03-sach-integ-017",
+    "question": "Wofür nutzt man tracert oder traceroute?",
+    "answers": [
+      { "text": "Zum Prüfen des Wegs zu einem Ziel", "correct": true },
+      { "text": "Zum Anzeigen der lokalen IP-Konfiguration", "correct": false },
+      { "text": "Zum Abfragen eines DNS-Namens", "correct": false },
+      { "text": "Zum Testen eines einzelnen ICMP-Ziels", "correct": false }
+    ],
+    "explanation": "tracert/traceroute zeigt Zwischenstationen auf dem Weg zu einem Netzwerkziel."
+  },
+  {
+    "id": "lf-03-sach-integ-018",
+    "question": "Was kann traceroute bei Netzwerkproblemen zeigen?",
+    "answers": [
+      { "text": "Wo der Weg zum Ziel abbricht", "correct": true },
+      { "text": "Welche DNS-Zone zuständig ist", "correct": false },
+      { "text": "Welche IP-Adresse lokal vergeben wurde", "correct": false },
+      { "text": "Welche Ports ein Dienst verwendet", "correct": false }
+    ],
+    "explanation": "Die Ausgabe kann Hinweise geben, an welcher Zwischenstation Pakete nicht weiterkommen."
+  },
+  {
+    "id": "lf-03-sach-integ-019",
+    "question": "Wofür nutzt man nslookup?",
+    "answers": [
+      { "text": "Zum Prüfen der Namensauflösung", "correct": true },
+      { "text": "Zum Anzeigen lokaler IP-Parameter", "correct": false },
+      { "text": "Zum Prüfen des Paketwegs", "correct": false },
+      { "text": "Zum Testen einer ICMP-Antwort", "correct": false }
+    ],
+    "explanation": "nslookup fragt DNS ab und zeigt, welcher Server welche Adresse liefert."
+  },
+  {
+    "id": "lf-03-sach-integ-020",
+    "question": "Warum kann das Leeren des DNS-Caches bei Fehlern helfen?",
+    "answers": [
+      { "text": "Veraltete Namenseinträge werden entfernt", "correct": true },
+      { "text": "Alte IP-Konfigurationen werden angezeigt", "correct": false },
+      { "text": "Zwischenstationen werden neu ermittelt", "correct": false },
+      { "text": "Patchverbindungen werden neu dokumentiert", "correct": false }
+    ],
+    "explanation": "Ein veralteter DNS-Cache kann falsche IP-Adressen weiterverwenden."
+  },
+  {
+    "id": "lf-03-sach-integ-021",
+    "question": "Warum muss ein WLAN-Client die passende SSID auswählen?",
+    "answers": [
+      { "text": "Damit er sich mit dem richtigen WLAN verbindet", "correct": true },
+      { "text": "Damit er eine passende IP-Route erhält", "correct": false },
+      { "text": "Damit der DNS-Cache geleert wird", "correct": false },
+      { "text": "Damit ein Patchpanel verbunden wird", "correct": false }
+    ],
+    "explanation": "Die SSID kennzeichnet das WLAN, mit dem sich der Client verbinden soll."
+  },
+  {
+    "id": "lf-03-sach-integ-022",
+    "question": "Warum benötigt ein WLAN-Client meist einen PSK?",
+    "answers": [
+      { "text": "Zur Authentifizierung am WLAN", "correct": true },
+      { "text": "Zur Auswahl der WLAN-SSID", "correct": false },
+      { "text": "Zur Vergabe der Subnetzmaske", "correct": false },
+      { "text": "Zur Messung der Funkzelle", "correct": false }
+    ],
+    "explanation": "Ein Pre-Shared Key dient als gemeinsamer Schlüssel für den WLAN-Zugang."
+  },
+  {
+    "id": "lf-03-sach-integ-023",
+    "question": "Warum prüft man bei WLAN-Problemen auch die Ausleuchtung?",
+    "answers": [
+      { "text": "Schwaches Signal kann Verbindungen stören", "correct": true },
+      { "text": "Falsche IP-Parameter können Routen stören", "correct": false },
+      { "text": "Veraltete DNS-Einträge können Namen stören", "correct": false },
+      { "text": "Fehlende Patchungen können LAN-Ports stören", "correct": false }
+    ],
+    "explanation": "Standort, Hindernisse und Access-Point-Platzierung beeinflussen Signalqualität und Stabilität."
+  },
+  {
+    "id": "lf-03-sach-integ-024",
+    "question": "Warum dokumentiert man Access Points im Netzwerk?",
+    "answers": [
+      { "text": "Für Planung, Wartung und Fehlersuche", "correct": true },
+      { "text": "Für zentrale Vergabe von IP-Leases", "correct": false },
+      { "text": "Für Zuordnung von Dosen zu Patchports", "correct": false },
+      { "text": "Für Abfrage von DNS-Namenseinträgen", "correct": false }
+    ],
+    "explanation": "Dokumentierte Access Points erleichtern Ausleuchtung, Kanalplanung, Wartung und Störungssuche."
+  },
+  {
+    "id": "lf-03-sach-integ-025",
+    "question": "Warum kann ein mobiler Hotspot kurzfristig nützlich sein?",
+    "answers": [
+      { "text": "Er stellt vorübergehend WLAN-Zugang bereit", "correct": true },
+      { "text": "Er ersetzt strukturierte Gebäudeverkabelung", "correct": false },
+      { "text": "Er verwaltet zentrale Benutzerkonten", "correct": false },
+      { "text": "Er dokumentiert Patchfeld und Switchport", "correct": false }
+    ],
+    "explanation": "Ein Hotspot kann kurzfristig Netzwerkzugang bieten, ersetzt aber keine geplante Infrastruktur."
+  },
+  {
+    "id": "lf-03-sach-integ-026",
+    "question": "Warum wird ein Netzwerkdrucker oft per IP-Adresse eingerichtet?",
+    "answers": [
+      { "text": "Damit der Client ihn gezielt erreichen kann", "correct": true },
+      { "text": "Damit der Druckdienst lokal kompiliert wird", "correct": false },
+      { "text": "Damit WLAN-Kanäle automatisch wechseln", "correct": false },
+      { "text": "Damit DNS-Einträge regelmäßig gelöscht werden", "correct": false }
+    ],
+    "explanation": "Die IP-Adresse ermöglicht die direkte Konfiguration und Erreichbarkeit des Druckers."
+  },
+  {
+    "id": "lf-03-sach-integ-027",
+    "question": "Warum sollte die IP-Adresse eines Netzwerkdruckers dokumentiert sein?",
+    "answers": [
+      { "text": "Damit Einrichtung und Fehlersuche leichter sind", "correct": true },
+      { "text": "Damit der Drucker als Gateway arbeitet", "correct": false },
+      { "text": "Damit WLAN-Ausleuchtung berechnet wird", "correct": false },
+      { "text": "Damit Benutzerrechte zentral entfallen", "correct": false }
+    ],
+    "explanation": "Dokumentierte Druckeradressen helfen beim Einrichten, Prüfen und Ändern von Clients."
+  },
+  {
+    "id": "lf-03-sach-integ-028",
+    "question": "Warum dokumentiert man Clientname, Anschlussdose und IP-Adresse?",
+    "answers": [
+      { "text": "Für nachvollziehbare Zuordnung im Betrieb", "correct": true },
+      { "text": "Für automatische DNS-Cache-Bereinigung", "correct": false },
+      { "text": "Für direkte Vergabe von Benutzerrechten", "correct": false },
+      { "text": "Für Messung der WLAN-Signalstärke", "correct": false }
+    ],
+    "explanation": "Diese Angaben erleichtern Wartung, Fehlersuche, Inventarisierung und spätere Änderungen."
+  },
+  {
+    "id": "lf-03-sach-integ-029",
+    "question": "Warum müssen Netzwerkänderungen laufend dokumentiert werden?",
+    "answers": [
+      { "text": "Damit der Betriebszustand nachvollziehbar bleibt", "correct": true },
+      { "text": "Damit Verbindungstests automatisch erfolgreich sind", "correct": false },
+      { "text": "Damit DNS-Abfragen priorisiert werden", "correct": false },
+      { "text": "Damit WLAN-Kanäle synchron wechseln", "correct": false }
+    ],
+    "explanation": "Aktuelle Dokumentation verhindert Fehlersuche auf Basis veralteter Informationen."
+  },
+  {
+    "id": "lf-03-sach-integ-030",
+    "question": "Warum sind Patchpläne für den Netzwerkbetrieb wichtig?",
+    "answers": [
+      { "text": "Sie zeigen Verbindungen zwischen Ports", "correct": true },
+      { "text": "Sie zeigen DNS-Namen und IP-Adressen", "correct": false },
+      { "text": "Sie zeigen Benutzerrechte und Gruppen", "correct": false },
+      { "text": "Sie zeigen Routen zu externen Netzen", "correct": false }
+    ],
+    "explanation": "Patchpläne zeigen, welche Dose mit welchem Patchfeld- und Switchport verbunden ist."
+  },
+  {
+    "id": "lf-03-sach-integ-031",
+    "question": "Was ist der Vorteil zentral verwalteter Benutzerkonten?",
+    "answers": [
+      { "text": "Rechte und Konten sind zentral steuerbar", "correct": true },
+      { "text": "Konten werden pro Gerät getrennt gepflegt", "correct": false },
+      { "text": "IP-Parameter werden pro Nutzer berechnet", "correct": false },
+      { "text": "Patchpläne werden pro Anmeldung erstellt", "correct": false }
+    ],
+    "explanation": "Zentrale Konten erleichtern Anmeldung, Rechteverwaltung und Sperrung in größeren Netzen."
+  },
+  {
+    "id": "lf-03-sach-integ-032",
+    "question": "Wann sind lokale Benutzerkonten eher unpraktisch?",
+    "answers": [
+      { "text": "Bei vielen Geräten und Nutzern", "correct": true },
+      { "text": "Bei zentral verwalteten Verzeichnisdiensten", "correct": false },
+      { "text": "Bei einheitlicher Rechteverwaltung", "correct": false },
+      { "text": "Bei zentraler Sperrung von Konten", "correct": false }
+    ],
+    "explanation": "Lokale Konten müssen auf jedem Gerät einzeln gepflegt werden."
+  },
+  {
+    "id": "lf-03-sach-integ-033",
+    "question": "Was prüft Authentication im AAA-Konzept?",
+    "answers": [
+      { "text": "Die Identität des Nutzers", "correct": true },
+      { "text": "Die erlaubten Netzwerkrechte", "correct": false },
+      { "text": "Die protokollierte Nutzung", "correct": false },
+      { "text": "Die Zuordnung zum Switchport", "correct": false }
+    ],
+    "explanation": "Authentication klärt, wer der Nutzer oder das Gerät ist."
+  },
+  {
+    "id": "lf-03-sach-integ-034",
+    "question": "Was prüft Authorization im AAA-Konzept?",
+    "answers": [
+      { "text": "Ob Zugriff erlaubt ist", "correct": true },
+      { "text": "Welche Identität sich anmeldet", "correct": false },
+      { "text": "Welche Nutzung protokolliert wurde", "correct": false },
+      { "text": "Welche IP-Adresse per DHCP kommt", "correct": false }
+    ],
+    "explanation": "Authorization entscheidet, welche Ressourcen oder Dienste genutzt werden dürfen."
+  },
+  {
+    "id": "lf-03-sach-integ-035",
+    "question": "Was beschreibt Accounting im AAA-Konzept?",
+    "answers": [
+      { "text": "Das Protokollieren der Nutzung", "correct": true },
+      { "text": "Das Prüfen der Benutzeridentität", "correct": false },
+      { "text": "Das Entscheiden über Zugriffsrechte", "correct": false },
+      { "text": "Das Verteilen von IP-Konfigurationen", "correct": false }
+    ],
+    "explanation": "Accounting zeichnet Nutzung auf, z. B. Zeiten, Datenmengen oder Zugriffe."
+  },
+  {
+    "id": "lf-03-sach-integ-036",
+    "question": "Warum wird RADIUS häufig für WLAN oder VPN genutzt?",
+    "answers": [
+      { "text": "Es unterstützt zentrale Authentifizierung", "correct": true },
+      { "text": "Es verteilt IP-Adressen als DHCP-Dienst", "correct": false },
+      { "text": "Es verwaltet Patchfelder und Dosen", "correct": false },
+      { "text": "Es misst Signalstärke von Access Points", "correct": false }
+    ],
+    "explanation": "RADIUS setzt AAA zentral um und eignet sich für kontrollierten Netzwerkzugang."
+  },
+  {
+    "id": "lf-03-sach-integ-037",
+    "question": "Was unterscheidet reaktives von proaktivem Management?",
+    "answers": [
+      { "text": "Reaktiv reagiert, proaktiv beugt vor", "correct": true },
+      { "text": "Reaktiv plant Störungen vorab", "correct": false },
+      { "text": "Proaktiv handelt erst nach Ausfällen", "correct": false },
+      { "text": "Beide beschreiben denselben Betriebsansatz", "correct": false }
+    ],
+    "explanation": "Proaktives Management überwacht frühzeitig, während reaktives Management erst nach Problemen handelt."
+  },
+  {
+    "id": "lf-03-sach-integ-038",
+    "question": "Warum sind Baselines im Netzwerkmanagement hilfreich?",
+    "answers": [
+      { "text": "Abweichungen vom Normalzustand fallen auf", "correct": true },
+      { "text": "Aktuelle Messwerte werden dadurch ersetzt", "correct": false },
+      { "text": "Patchverbindungen werden dadurch erstellt", "correct": false },
+      { "text": "Benutzerrechte werden dadurch vergeben", "correct": false }
+    ],
+    "explanation": "Nur wer Normalwerte kennt, kann ungewöhnliche Auslastung oder Störungen schneller erkennen."
+  },
+  {
+    "id": "lf-03-sach-integ-039",
+    "question": "Warum sollte man nach der Integration ein Abnahmeprotokoll erstellen?",
+    "answers": [
+      { "text": "Funktion und Ergebnis werden nachweisbar", "correct": true },
+      { "text": "Netzparameter werden automatisch vergeben", "correct": false },
+      { "text": "Fehler werden technisch selbst korrigiert", "correct": false },
+      { "text": "DNS-Einträge werden zentral gelöscht", "correct": false }
+    ],
+    "explanation": "Ein Protokoll dokumentiert, was eingerichtet, geprüft und übergeben wurde."
+  },
+  {
+    "id": "lf-03-sach-integ-040",
+    "question": "Warum sollte die Clientintegration systematisch erfolgen?",
+    "answers": [
+      { "text": "Fehler lassen sich gezielter erkennen", "correct": true },
+      { "text": "Zufällige Reihenfolge erhöht Nachvollziehbarkeit", "correct": false },
+      { "text": "Ungeprüfte Anschlüsse beschleunigen Abnahme", "correct": false },
+      { "text": "Spontane Konfiguration ersetzt Dokumentation", "correct": false }
+    ],
+    "explanation": "Planung, Anschluss, Konfiguration, Test und Dokumentation reduzieren Fehler im Netzwerkbetrieb."
+  }
+]

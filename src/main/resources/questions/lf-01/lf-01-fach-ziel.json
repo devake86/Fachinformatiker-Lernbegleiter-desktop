@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-fach-ziel-001",
+    "question": "Was beschreibt der Fachbegriff Vision?",
+    "answers": [
+      { "text": "Ein langfristiges Zukunftsbild eines Unternehmens", "correct": true },
+      { "text": "Ein konkret messbares Jahresziel", "correct": false },
+      { "text": "Ein Leitbild mit Werten und Grundsätzen", "correct": false },
+      { "text": "Eine operative Vorgabe für Tagesaufgaben", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Vision gibt dem Unternehmen eine langfristige Richtung."
+  },
+  {
+    "id": "lf-01-fach-ziel-002",
+    "question": "Was beschreibt ein Leitbild?",
+    "answers": [
+      { "text": "Grundsätze, Werte und Selbstverständnis eines Unternehmens", "correct": true },
+      { "text": "Ein langfristiges Zukunftsbild des Unternehmens", "correct": false },
+      { "text": "Ein messbares Ziel für konkrete Maßnahmen", "correct": false },
+      { "text": "Eine Kennzahl zur Bewertung des Erfolgs", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Leitbild beschreibt, wofür ein Unternehmen steht und woran es sich orientiert."
+  },
+  {
+    "id": "lf-01-fach-ziel-003",
+    "question": "Was beschreibt ein Unternehmensziel?",
+    "answers": [
+      { "text": "Ein angestrebter Zustand des Unternehmens", "correct": true },
+      { "text": "Ein allgemeines Selbstbild des Unternehmens", "correct": false },
+      { "text": "Eine vergangene Entwicklung am Markt", "correct": false },
+      { "text": "Eine rechtliche Pflicht ohne Zielbezug", "correct": false }
+    ],
+    "explanation": "Merksatz: Unternehmensziele machen messbar, was ein Unternehmen erreichen möchte."
+  },
+  {
+    "id": "lf-01-fach-ziel-004",
+    "question": "Was beschreibt ein strategisches Ziel?",
+    "answers": [
+      { "text": "Ein langfristig ausgerichtetes Unternehmensziel", "correct": true },
+      { "text": "Ein kurzfristiges Ziel für einzelne Arbeitsschritte", "correct": false },
+      { "text": "Eine konkrete Maßnahme zur Tagessteuerung", "correct": false },
+      { "text": "Eine reine Kennzahl ohne Zukunftsbezug", "correct": false }
+    ],
+    "explanation": "Merksatz: Strategische Ziele geben langfristige Orientierung für das Unternehmen."
+  },
+  {
+    "id": "lf-01-fach-ziel-005",
+    "question": "Was beschreibt ein operatives Ziel?",
+    "answers": [
+      { "text": "Ein kurz- oder mittelfristiges Umsetzungsziel", "correct": true },
+      { "text": "Ein langfristiges Ziel zur Unternehmensausrichtung", "correct": false },
+      { "text": "Ein allgemeines Leitbild ohne Messbezug", "correct": false },
+      { "text": "Eine Vision ohne konkrete Maßnahmen", "correct": false }
+    ],
+    "explanation": "Merksatz: Operative Ziele übersetzen langfristige Vorgaben in konkrete Maßnahmen."
+  },
+  {
+    "id": "lf-01-fach-ziel-006",
+    "question": "Was beschreibt ein Formalziel?",
+    "answers": [
+      { "text": "Ein Erfolgsziel wie Gewinn oder Rentabilität", "correct": true },
+      { "text": "Ein Leistungsziel zu Produkten oder Leistungen", "correct": false },
+      { "text": "Ein soziales Ziel zur Mitarbeiterzufriedenheit", "correct": false },
+      { "text": "Ein ökologisches Ziel zur Ressourcenschonung", "correct": false }
+    ],
+    "explanation": "Merksatz: Formalziele bewerten den Erfolg unternehmerischen Handelns."
+  },
+  {
+    "id": "lf-01-fach-ziel-007",
+    "question": "Was beschreibt ein Sachziel?",
+    "answers": [
+      { "text": "Ein konkretes Leistungsziel des Unternehmens", "correct": true },
+      { "text": "Eine Kennzahl zu Gewinn oder Rentabilität", "correct": false },
+      { "text": "Ein Ziel zur Kapitalverzinsung", "correct": false },
+      { "text": "Ein rein finanzieller Erfolgsmaßstab", "correct": false }
+    ],
+    "explanation": "Merksatz: Sachziele beschreiben, welche Leistungen oder Produkte erstellt werden sollen."
+  },
+  {
+    "id": "lf-01-fach-ziel-008",
+    "question": "Was beschreibt ein Zielkonflikt?",
+    "answers": [
+      { "text": "Ziele behindern oder widersprechen sich gegenseitig", "correct": true },
+      { "text": "Ziele unterstützen sich gegenseitig", "correct": false },
+      { "text": "Ziele stehen ohne Wirkung nebeneinander", "correct": false },
+      { "text": "Ziele werden durch dieselbe Maßnahme erreicht", "correct": false }
+    ],
+    "explanation": "Merksatz: Zielkonflikte entstehen, wenn die Verfolgung eines Ziels ein anderes erschwert."
+  },
+  {
+    "id": "lf-01-fach-ziel-009",
+    "question": "Was beschreibt ein komplementäres Ziel?",
+    "answers": [
+      { "text": "Ein Ziel, das ein anderes Ziel unterstützt", "correct": true },
+      { "text": "Ein Ziel, das einem anderen Ziel entgegenwirkt", "correct": false },
+      { "text": "Ein Ziel ohne Beziehung zu anderen Zielen", "correct": false },
+      { "text": "Ein Ziel mit gleichem Inhalt, aber anderer Bezeichnung", "correct": false }
+    ],
+    "explanation": "Merksatz: Komplementäre Ziele verstärken sich gegenseitig."
+  },
+  {
+    "id": "lf-01-fach-ziel-010",
+    "question": "Was beschreibt ein konkurrierendes Ziel?",
+    "answers": [
+      { "text": "Ein Ziel, das mit einem anderen Ziel im Konflikt steht", "correct": true },
+      { "text": "Ein Ziel, das ein anderes Ziel unterstützt", "correct": false },
+      { "text": "Ein Ziel ohne Einfluss auf andere Ziele", "correct": false },
+      { "text": "Ein Ziel mit identischer Wirkung auf alle Bereiche", "correct": false }
+    ],
+    "explanation": "Merksatz: Konkurrierende Ziele können nicht gleichzeitig ohne Abwägung optimal erreicht werden."
+  },
+  {
+    "id": "lf-01-fach-ziel-011",
+    "question": "Was beschreibt ein Stakeholder?",
+    "answers": [
+      { "text": "Eine Person oder Gruppe mit Interesse am Unternehmen", "correct": true },
+      { "text": "Eine Person mit Eigentumsanteilen am Unternehmen", "correct": false },
+      { "text": "Eine interne Stelle für operative Ziele", "correct": false },
+      { "text": "Eine Kennzahl zur Kundenzufriedenheit", "correct": false }
+    ],
+    "explanation": "Merksatz: Stakeholder sind Anspruchsgruppen, die vom Unternehmen beeinflusst werden oder Einfluss nehmen."
+  },
+  {
+    "id": "lf-01-fach-ziel-012",
+    "question": "Was beschreibt Produktivität?",
+    "answers": [
+      { "text": "Das Verhältnis von Output zu Input", "correct": true },
+      { "text": "Das Verhältnis von Gewinn zu Kapital", "correct": false },
+      { "text": "Das Verhältnis von Ertrag zu Aufwand", "correct": false },
+      { "text": "Die Fähigkeit, Zahlungen fristgerecht zu leisten", "correct": false }
+    ],
+    "explanation": "Merksatz: Produktivität zeigt, wie viel Leistung aus eingesetzten Mitteln entsteht."
+  },
+  {
+    "id": "lf-01-fach-ziel-013",
+    "question": "Was beschreibt Wirtschaftlichkeit?",
+    "answers": [
+      { "text": "Das Verhältnis von Ertrag oder Leistung zu Aufwand", "correct": true },
+      { "text": "Das Verhältnis von Output zu eingesetztem Input", "correct": false },
+      { "text": "Das Verhältnis von Gewinn zu Kapital", "correct": false },
+      { "text": "Die Fähigkeit, fällige Zahlungen zu leisten", "correct": false }
+    ],
+    "explanation": "Merksatz: Wirtschaftlichkeit zeigt, ob sich eingesetzte Mittel wirtschaftlich lohnen."
+  },
+  {
+    "id": "lf-01-fach-ziel-014",
+    "question": "Was beschreibt Rentabilität?",
+    "answers": [
+      { "text": "Das Verhältnis von Gewinn zu Kapital oder Umsatz", "correct": true },
+      { "text": "Das Verhältnis von Output zu Input", "correct": false },
+      { "text": "Das Verhältnis von Ertrag zu Aufwand", "correct": false },
+      { "text": "Die kurzfristige Zahlungsfähigkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Rentabilität zeigt, wie stark sich Kapital oder Umsatz verzinst."
+  },
+  {
+    "id": "lf-01-fach-ziel-015",
+    "question": "Was beschreibt Liquidität?",
+    "answers": [
+      { "text": "Fähigkeit, fällige Zahlungen leisten zu können", "correct": true },
+      { "text": "Verhältnis von Gewinn zu eingesetztem Kapital", "correct": false },
+      { "text": "Verhältnis von Leistung zu Aufwand", "correct": false },
+      { "text": "Leistungsergebnis je eingesetztem Mittel", "correct": false }
+    ],
+    "explanation": "Merksatz: Liquidität bedeutet Zahlungsfähigkeit zum richtigen Zeitpunkt."
+  },
+  {
+    "id": "lf-01-fach-ziel-016",
+    "question": "Was beschreibt die SMART-Methode?",
+    "answers": [
+      { "text": "Eine Methode zur klaren Formulierung von Zielen", "correct": true },
+      { "text": "Eine Methode zur Bewertung von Rentabilität", "correct": false },
+      { "text": "Ein Zyklus zur kontinuierlichen Verbesserung", "correct": false },
+      { "text": "Ein Verfahren zur Stakeholder-Einteilung", "correct": false }
+    ],
+    "explanation": "Merksatz: SMART macht Ziele spezifisch, messbar, akzeptiert, realistisch und terminierbar."
+  },
+  {
+    "id": "lf-01-fach-ziel-017",
+    "question": "Was beschreibt Qualitätsmanagement?",
+    "answers": [
+      { "text": "Systematische Planung und Steuerung von Qualität", "correct": true },
+      { "text": "Ein einzelner Kreis zur Mitarbeiterbesprechung", "correct": false },
+      { "text": "Eine einmalige Endprüfung fertiger Produkte", "correct": false },
+      { "text": "Ein reines Zielsystem für Gewinnkennzahlen", "correct": false }
+    ],
+    "explanation": "Merksatz: Qualitätsmanagement verbessert Produkte, Dienstleistungen und Prozesse systematisch."
+  },
+  {
+    "id": "lf-01-fach-ziel-018",
+    "question": "Was beschreibt ein Qualitätszirkel?",
+    "answers": [
+      { "text": "Eine Arbeitsgruppe zur Qualitätsverbesserung", "correct": true },
+      { "text": "Ein unternehmensweites Qualitätsmanagementsystem", "correct": false },
+      { "text": "Ein Zyklus aus Planen, Umsetzen und Prüfen", "correct": false },
+      { "text": "Eine externe Zertifizierung von Prozessen", "correct": false }
+    ],
+    "explanation": "Merksatz: Qualitätszirkel entwickeln gemeinsam Verbesserungen für betriebliche Abläufe."
+  },
+  {
+    "id": "lf-01-fach-ziel-019",
+    "question": "Was beschreibt Total Quality Management?",
+    "answers": [
+      { "text": "Umfassendes Qualitätsmanagement im Unternehmen", "correct": true },
+      { "text": "Eine einzelne Endkontrolle vor Auslieferung", "correct": false },
+      { "text": "Ein kleiner Qualitätszirkel in einer Abteilung", "correct": false },
+      { "text": "Ein Zielsystem nur für Produktivität", "correct": false }
+    ],
+    "explanation": "Merksatz: TQM versteht Qualität als Aufgabe aller Bereiche und Mitarbeitenden."
+  },
+  {
+    "id": "lf-01-fach-ziel-020",
+    "question": "Was beschreibt der PDCA-Zyklus?",
+    "answers": [
+      { "text": "Verbesserungszyklus aus Plan, Do, Check, Act", "correct": true },
+      { "text": "Methode zur spezifischen Zielformulierung", "correct": false },
+      { "text": "Arbeitsgruppe zur Qualitätsverbesserung", "correct": false },
+      { "text": "Kennzahlensystem für Rentabilität", "correct": false }
+    ],
+    "explanation": "Merksatz: PDCA steht für Plan, Do, Check, Act und unterstützt kontinuierliche Verbesserung."
+  }
+]

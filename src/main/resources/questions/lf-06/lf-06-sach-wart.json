@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-sach-wart-001",
+    "question": "Warum ist reaktive Instandhaltung allein im IT-Betrieb oft nicht ausreichend?",
+    "answers": [
+      { "text": "Weil sie erst nach einer eingetretenen Störung reagiert", "correct": true },
+      { "text": "Weil sie geplante Wartung vor Störungen ersetzt", "correct": false },
+      { "text": "Weil sie auf Messwerte und Prognosen setzt", "correct": false },
+      { "text": "Weil sie Störungen bereits im Voraus behebt", "correct": false }
+    ],
+    "explanation": "Reaktive Instandhaltung behebt Störungen erst nach ihrem Auftreten und verhindert sie nicht im Voraus."
+  },
+  {
+    "id": "lf-06-sach-wart-002",
+    "question": "Welche Maßnahme passt zur reaktiven Instandhaltung?",
+    "answers": [
+      { "text": "Ein defektes System nach einem Ausfall reparieren", "correct": true },
+      { "text": "Regelmäßige Wartung vor einer Störung durchführen", "correct": false },
+      { "text": "Ausfälle anhand von Messwerten vorhersagen", "correct": false },
+      { "text": "Updates nach festem Wartungsplan einspielen", "correct": false }
+    ],
+    "explanation": "Reaktive Maßnahmen setzen ein, nachdem ein Fehler oder Ausfall bereits eingetreten ist."
+  },
+  {
+    "id": "lf-06-sach-wart-003",
+    "question": "Was ist ein Ziel proaktiver Instandhaltung?",
+    "answers": [
+      { "text": "Störungen möglichst vor kritischen Auswirkungen verhindern", "correct": true },
+      { "text": "Störungen erst nach vollständigem Ausfall bearbeiten", "correct": false },
+      { "text": "Wiederherstellung nach Datenverlust priorisieren", "correct": false },
+      { "text": "Reparaturen nur auf Kundenmeldung starten", "correct": false }
+    ],
+    "explanation": "Proaktive Instandhaltung soll Ausfälle durch geplante und vorsorgliche Maßnahmen reduzieren."
+  },
+  {
+    "id": "lf-06-sach-wart-004",
+    "question": "Welche Maßnahme passt zu proaktiver Instandhaltung?",
+    "answers": [
+      { "text": "Regelmäßige Wartung und Überwachung wichtiger Systeme", "correct": true },
+      { "text": "Reparatur erst nach vollständigem Systemausfall", "correct": false },
+      { "text": "Entstörung nur nach Kundenbeschwerde", "correct": false },
+      { "text": "Wiederherstellung erst nach Datenverlust", "correct": false }
+    ],
+    "explanation": "Proaktive Instandhaltung nutzt geplante Wartung und Überwachung zur Störungsvermeidung."
+  },
+  {
+    "id": "lf-06-sach-wart-005",
+    "question": "Welche Aussage beschreibt präventive Wartung richtig?",
+    "answers": [
+      { "text": "Sie senkt vorsorglich das Risiko späterer Störungen", "correct": true },
+      { "text": "Sie repariert Systeme nach eingetretenem Schaden", "correct": false },
+      { "text": "Sie nutzt Prognosen für den optimalen Wartungszeitpunkt", "correct": false },
+      { "text": "Sie stellt Daten nach Verlust wieder her", "correct": false }
+    ],
+    "explanation": "Präventive Wartung soll mögliche Störungen frühzeitig vermeiden."
+  },
+  {
+    "id": "lf-06-sach-wart-006",
+    "question": "Welche Maßnahme ist ein Beispiel für präventive Wartung?",
+    "answers": [
+      { "text": "Sicherheitsupdates und Patches regelmäßig einspielen", "correct": true },
+      { "text": "Defektes System nach Ausfall reparieren", "correct": false },
+      { "text": "Ausfall anhand aktueller Messwerte prognostizieren", "correct": false },
+      { "text": "Daten nach einem Angriff wiederherstellen", "correct": false }
+    ],
+    "explanation": "Regelmäßige Updates und Patches reduzieren bekannte Schwachstellen und damit Störungsrisiken."
+  },
+  {
+    "id": "lf-06-sach-wart-007",
+    "question": "Was ist das Ziel prädiktiver Wartung?",
+    "answers": [
+      { "text": "Ausfälle anhand von Daten und Messwerten vorhersagen", "correct": true },
+      { "text": "Störungen nach Eintritt möglichst schnell beheben", "correct": false },
+      { "text": "Wartung nach festem Kalender durchführen", "correct": false },
+      { "text": "Updates unabhängig von Messwerten einspielen", "correct": false }
+    ],
+    "explanation": "Prädiktive Wartung nutzt Daten, Monitoring oder KI, um Ausfälle frühzeitig zu erkennen."
+  },
+  {
+    "id": "lf-06-sach-wart-008",
+    "question": "Welche Technik unterstützt prädiktive Wartung besonders?",
+    "answers": [
+      { "text": "Monitoring mit Messwerten, Alerts und Auswertung", "correct": true },
+      { "text": "Reaktive Entstörung nach vollständigem Ausfall", "correct": false },
+      { "text": "Fester Wartungsplan ohne Zustandsdaten", "correct": false },
+      { "text": "Manuelle Dokumentation ohne Messwertbezug", "correct": false }
+    ],
+    "explanation": "Prädiktive Wartung benötigt Daten und Auswertung, um Trends oder kritische Zustände zu erkennen."
+  },
+  {
+    "id": "lf-06-sach-wart-009",
+    "question": "Warum ist Patchmanagement für die Störungsvermeidung wichtig?",
+    "answers": [
+      { "text": "Bekannte Fehler und Sicherheitslücken werden kontrolliert behoben", "correct": true },
+      { "text": "Störungen werden erst nach Ausfall bearbeitet", "correct": false },
+      { "text": "Backups werden dadurch wiederherstellbar geprüft", "correct": false },
+      { "text": "Prognosen ersetzen alle Sicherheitsupdates", "correct": false }
+    ],
+    "explanation": "Patchmanagement hält Systeme kontrolliert aktuell und reduziert Risiken durch bekannte Schwachstellen."
+  },
+  {
+    "id": "lf-06-sach-wart-010",
+    "question": "Welche Aussage zu Backups ist richtig?",
+    "answers": [
+      { "text": "Backups ermöglichen Wiederherstellung nach Datenverlust", "correct": true },
+      { "text": "Backups verhindern jede Störung im Voraus", "correct": false },
+      { "text": "Backups ersetzen Patchmanagement vollständig", "correct": false },
+      { "text": "Backups dienen primär zur Angriffserkennung", "correct": false }
+    ],
+    "explanation": "Backups schützen nicht vor jeder Störung, ermöglichen aber Wiederherstellung nach Verlust oder Fehlern."
+  },
+  {
+    "id": "lf-06-sach-wart-011",
+    "question": "Warum sollten Backups regelmäßig getestet werden?",
+    "answers": [
+      { "text": "Damit Wiederherstellung im Ernstfall funktioniert", "correct": true },
+      { "text": "Damit Backupdaten schneller gelöscht werden", "correct": false },
+      { "text": "Damit Patchstände automatisch geprüft werden", "correct": false },
+      { "text": "Damit Monitoringdaten ersetzt werden", "correct": false }
+    ],
+    "explanation": "Ein Backup ist nur nützlich, wenn die Wiederherstellung tatsächlich funktioniert."
+  },
+  {
+    "id": "lf-06-sach-wart-012",
+    "question": "Welche Maßnahme unterstützt die Verfügbarkeit bei Stromproblemen?",
+    "answers": [
+      { "text": "USV und Batteriezustand überwachen", "correct": true },
+      { "text": "Antivirus-Meldungen regelmäßig prüfen", "correct": false },
+      { "text": "Passwortqualität im Audit bewerten", "correct": false },
+      { "text": "Webangebote auf Schwachstellen prüfen", "correct": false }
+    ],
+    "explanation": "Eine überwachte USV kann helfen, Ausfälle durch Stromprobleme abzufedern."
+  },
+  {
+    "id": "lf-06-sach-wart-013",
+    "question": "Warum ist Antivirus-Überwachung sinnvoll?",
+    "answers": [
+      { "text": "Schutzsoftware, Meldungen und Bereinigung werden kontrolliert", "correct": true },
+      { "text": "Stromversorgung und Batteriezustand werden geprüft", "correct": false },
+      { "text": "Passwortqualität und Richtlinien werden bewertet", "correct": false },
+      { "text": "Webseiten werden auf Qualität geprüft", "correct": false }
+    ],
+    "explanation": "Antivirus-Überwachung hilft sicherzustellen, dass Schutzsoftware aktiv bleibt und Meldungen beachtet werden."
+  },
+  {
+    "id": "lf-06-sach-wart-014",
+    "question": "Wozu dient ein Passwort-Audit?",
+    "answers": [
+      { "text": "Passwortqualität und Passwortregeln werden geprüft", "correct": true },
+      { "text": "Schutzsoftware und Virenmeldungen werden überwacht", "correct": false },
+      { "text": "Systeme werden durch simulierte Angriffe geprüft", "correct": false },
+      { "text": "Stromversorgung und Batterien werden kontrolliert", "correct": false }
+    ],
+    "explanation": "Ein Passwort-Audit kann schwache Kennwörter und Regelverstöße sichtbar machen."
+  },
+  {
+    "id": "lf-06-sach-wart-015",
+    "question": "Was ist ein Ziel eines Penetrationstests?",
+    "answers": [
+      { "text": "Schwachstellen durch kontrollierte Angriffe aufdecken", "correct": true },
+      { "text": "Passwortregeln durch Richtlinien prüfen", "correct": false },
+      { "text": "Webseiten nur auf Bedienbarkeit bewerten", "correct": false },
+      { "text": "Schutzsoftware im Alltag überwachen", "correct": false }
+    ],
+    "explanation": "Penetrationstests prüfen kontrolliert, ob Systeme angreifbare Schwachstellen besitzen."
+  },
+  {
+    "id": "lf-06-sach-wart-016",
+    "question": "Wozu können Schulungsmaßnahmen im IT-Service beitragen?",
+    "answers": [
+      { "text": "Wissen, Sicherheit und Servicequalität verbessern", "correct": true },
+      { "text": "Technische Wartung vollständig ersetzen", "correct": false },
+      { "text": "Monitoring und Backups überflüssig machen", "correct": false },
+      { "text": "Servicefälle automatisch abschließen", "correct": false }
+    ],
+    "explanation": "Schulungen verbessern Kompetenzen und können Fehler, Missverständnisse und Risiken verringern."
+  },
+  {
+    "id": "lf-06-sach-wart-017",
+    "question": "Warum ist Medienkompetenz im IT-Service wichtig?",
+    "answers": [
+      { "text": "Medien und Tools werden sicher und passend genutzt", "correct": true },
+      { "text": "Technische Fachkenntnis wird vollständig ersetzt", "correct": false },
+      { "text": "Kundenberatung wird dadurch unnötig", "correct": false },
+      { "text": "Datenschutz wird durch Toolnutzung aufgehoben", "correct": false }
+    ],
+    "explanation": "Medienkompetenz unterstützt sicheren Umgang mit Tools, Kommunikation und digitalen Informationen."
+  },
+  {
+    "id": "lf-06-sach-wart-018",
+    "question": "Welche Inhalte können bei Schulungen zur Kundenberatung wichtig sein?",
+    "answers": [
+      { "text": "Bedarfsanalyse, Fragetechnik und aktives Zuhören", "correct": true },
+      { "text": "Patchmanagement, USV-Prüfung und Antivirus-Logs", "correct": false },
+      { "text": "Penetrationstest, Webcheck und Passwort-Audit", "correct": false },
+      { "text": "Backup-Retention, Restore-Test und Speicherkonzept", "correct": false }
+    ],
+    "explanation": "Gute Kundenberatung benötigt fachliche, kommunikative und methodische Kompetenzen."
+  },
+  {
+    "id": "lf-06-sach-wart-019",
+    "question": "Was ist das Ziel einer Bedarfsanalyse beim Kunden?",
+    "answers": [
+      { "text": "Tatsächliche Anforderungen und passende Services ermitteln", "correct": true },
+      { "text": "Eine bereits festgelegte Lösung präsentieren", "correct": false },
+      { "text": "Schulungsinhalte unabhängig vom Bedarf wählen", "correct": false },
+      { "text": "Wartungsmaßnahmen nach Kalender festlegen", "correct": false }
+    ],
+    "explanation": "Eine Bedarfsanalyse hilft, passende Lösungen statt zufälliger Maßnahmen anzubieten."
+  },
+  {
+    "id": "lf-06-sach-wart-020",
+    "question": "Welche Kombination passt gut zur präventiven Störungsvermeidung?",
+    "answers": [
+      { "text": "Monitoring, Backups, Updates, Schulungen und Prüfungen", "correct": true },
+      { "text": "Reparatur, Entstörung und Wiederherstellung nach Ausfall", "correct": false },
+      { "text": "Workaround, Known Error und Incident-Abschluss", "correct": false },
+      { "text": "Kaufvertrag, SLA, Rechnung und Rahmenvertrag", "correct": false }
+    ],
+    "explanation": "Präventive Störungsvermeidung entsteht durch mehrere technische und organisatorische Maßnahmen zusammen."
+  }
+]

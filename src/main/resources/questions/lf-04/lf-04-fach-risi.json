@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-risi-001",
+    "question": "Was beschreibt Risiko in der Informationssicherheit?",
+    "answers": [
+      { "text": "Möglichkeit eines Schadens durch eine Bedrohung", "correct": true },
+      { "text": "Ein mögliches schädliches Ereignis für ein Asset", "correct": false },
+      { "text": "Eine verwundbare Stelle in System oder Prozess", "correct": false },
+      { "text": "Auswirkung eines bereits eingetretenen Vorfalls", "correct": false }
+    ],
+    "explanation": "Merksatz: Risiko beschreibt die Möglichkeit, dass eine Bedrohung einen Schaden verursacht."
+  },
+  {
+    "id": "lf-04-fach-risi-002",
+    "question": "Was beschreibt eine Bedrohung?",
+    "answers": [
+      { "text": "Ein mögliches Ereignis, das Schaden verursachen kann", "correct": true },
+      { "text": "Eine verwundbare Stelle in einem System", "correct": false },
+      { "text": "Ein bereits eingetretener Schaden", "correct": false },
+      { "text": "Eine Maßnahme zur Senkung eines Risikos", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Bedrohung ist ein mögliches schädliches Ereignis für Werte, Systeme oder Informationen."
+  },
+  {
+    "id": "lf-04-fach-risi-003",
+    "question": "Was beschreibt eine Schwachstelle?",
+    "answers": [
+      { "text": "Eine verwundbare Stelle, die ausgenutzt werden kann", "correct": true },
+      { "text": "Ein mögliches schädliches Ereignis", "correct": false },
+      { "text": "Die Auswirkung eines eingetretenen Vorfalls", "correct": false },
+      { "text": "Eine umgesetzte Schutzmaßnahme", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Schwachstelle macht ein System, einen Prozess oder eine Organisation angreifbar."
+  },
+  {
+    "id": "lf-04-fach-risi-004",
+    "question": "Was beschreibt ein Asset?",
+    "answers": [
+      { "text": "Ein schützenswerter Wert wie Daten, Systeme oder Prozesse", "correct": true },
+      { "text": "Eine Bedrohung gegen ein Informationssystem", "correct": false },
+      { "text": "Eine verwundbare Stelle in einer Organisation", "correct": false },
+      { "text": "Eine Maßnahme zur Risikobehandlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Assets sind Werte, die für eine Organisation wichtig und deshalb schützenswert sind."
+  },
+  {
+    "id": "lf-04-fach-risi-005",
+    "question": "Was beschreibt Risikoanalyse?",
+    "answers": [
+      { "text": "Systematische Untersuchung und Bewertung von Risiken", "correct": true },
+      { "text": "Umsetzung aller Schutzmaßnahmen ohne Bewertung", "correct": false },
+      { "text": "Akzeptanz aller Risiken ohne Prüfung", "correct": false },
+      { "text": "Beseitigung aller Bedrohungen aus einem System", "correct": false }
+    ],
+    "explanation": "Merksatz: Risikoanalyse identifiziert, bewertet und priorisiert mögliche Risiken."
+  },
+  {
+    "id": "lf-04-fach-risi-006",
+    "question": "Was beschreibt Risikomanagement?",
+    "answers": [
+      { "text": "Umgang mit Risiken durch Bewertung und Maßnahmen", "correct": true },
+      { "text": "Reine Auflistung von Assets ohne Bewertung", "correct": false },
+      { "text": "Einmalige Erfassung ohne spätere Überwachung", "correct": false },
+      { "text": "Vollständige Vermeidung jeder Geschäftstätigkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Risikomanagement steuert Risiken durch Erkennen, Bewerten, Behandeln und Überwachen."
+  },
+  {
+    "id": "lf-04-fach-risi-007",
+    "question": "Was beschreibt Eintrittswahrscheinlichkeit?",
+    "answers": [
+      { "text": "Wie wahrscheinlich das Eintreten eines Risikos ist", "correct": true },
+      { "text": "Wie stark die Auswirkung eines Vorfalls ist", "correct": false },
+      { "text": "Welche Werte durch ein Risiko betroffen sind", "correct": false },
+      { "text": "Welche Maßnahme ein Risiko vollständig entfernt", "correct": false }
+    ],
+    "explanation": "Merksatz: Eintrittswahrscheinlichkeit bewertet, wie wahrscheinlich ein Schadensereignis eintritt."
+  },
+  {
+    "id": "lf-04-fach-risi-008",
+    "question": "Was beschreibt Schadensausmaß?",
+    "answers": [
+      { "text": "Wie stark die Auswirkungen eines Risikos sind", "correct": true },
+      { "text": "Wie wahrscheinlich ein Ereignis eintritt", "correct": false },
+      { "text": "Welche Bedrohung ein Asset erreichen kann", "correct": false },
+      { "text": "Wie viele Schwachstellen ein System enthält", "correct": false }
+    ],
+    "explanation": "Merksatz: Schadensausmaß beschreibt die Folgen eines Sicherheitsvorfalls."
+  },
+  {
+    "id": "lf-04-fach-risi-009",
+    "question": "Was beschreibt Impact?",
+    "answers": [
+      { "text": "Die Auswirkung oder Schadenshöhe eines Ereignisses", "correct": true },
+      { "text": "Die Wahrscheinlichkeit eines Ereignisses", "correct": false },
+      { "text": "Die verwundbare Stelle eines Systems", "correct": false },
+      { "text": "Der schützenswerte Wert einer Organisation", "correct": false }
+    ],
+    "explanation": "Merksatz: Impact beschreibt den Schaden oder die Auswirkung eines eingetretenen Ereignisses."
+  },
+  {
+    "id": "lf-04-fach-risi-010",
+    "question": "Was beschreibt Likelihood?",
+    "answers": [
+      { "text": "Die Wahrscheinlichkeit, mit der ein Ereignis eintreten kann", "correct": true },
+      { "text": "Die Schadenshöhe nach einem Ereignis", "correct": false },
+      { "text": "Der Wert eines betroffenen Assets", "correct": false },
+      { "text": "Die Kategorie eines entstandenen Schadens", "correct": false }
+    ],
+    "explanation": "Merksatz: Likelihood bedeutet Eintrittswahrscheinlichkeit."
+  },
+  {
+    "id": "lf-04-fach-risi-011",
+    "question": "Was beschreibt Risikoidentifikation?",
+    "answers": [
+      { "text": "Das Erkennen und Erfassen möglicher Risiken", "correct": true },
+      { "text": "Das Bewerten nach Wahrscheinlichkeit und Schaden", "correct": false },
+      { "text": "Das Umsetzen konkreter Schutzmaßnahmen", "correct": false },
+      { "text": "Das Akzeptieren eines verbleibenden Risikos", "correct": false }
+    ],
+    "explanation": "Merksatz: Risikoidentifikation sammelt mögliche Risiken, bevor sie bewertet werden."
+  },
+  {
+    "id": "lf-04-fach-risi-012",
+    "question": "Was beschreibt Risikobewertung?",
+    "answers": [
+      { "text": "Einschätzung von Wahrscheinlichkeit und Schadensausmaß", "correct": true },
+      { "text": "Ersterfassung möglicher Risiken ohne Einstufung", "correct": false },
+      { "text": "Umsetzung technischer Schutzmaßnahmen", "correct": false },
+      { "text": "Beseitigung aller Restrisiken", "correct": false }
+    ],
+    "explanation": "Merksatz: Risikobewertung ordnet Risiken nach Wahrscheinlichkeit und Auswirkung ein."
+  },
+  {
+    "id": "lf-04-fach-risi-013",
+    "question": "Was beschreibt Risikominimierung?",
+    "answers": [
+      { "text": "Verringerung von Wahrscheinlichkeit oder Schadensausmaß", "correct": true },
+      { "text": "Bewusste Übernahme eines unveränderten Risikos", "correct": false },
+      { "text": "Erfassung möglicher Risiken ohne Maßnahmen", "correct": false },
+      { "text": "Erhöhung der Auswirkung bei gleichem Risiko", "correct": false }
+    ],
+    "explanation": "Merksatz: Risikominimierung senkt die Wahrscheinlichkeit oder die Auswirkung eines Risikos."
+  },
+  {
+    "id": "lf-04-fach-risi-014",
+    "question": "Was beschreibt Restrisiko?",
+    "answers": [
+      { "text": "Risiko, das nach Schutzmaßnahmen bestehen bleibt", "correct": true },
+      { "text": "Risiko vor jeder Bewertung und Maßnahme", "correct": false },
+      { "text": "Risiko, das durch eine Bedrohung neu entsteht", "correct": false },
+      { "text": "Risiko, das ohne Auswirkung eingetreten ist", "correct": false }
+    ],
+    "explanation": "Merksatz: Restrisiko bleibt auch nach umgesetzten Sicherheitsmaßnahmen übrig."
+  },
+  {
+    "id": "lf-04-fach-risi-015",
+    "question": "Was beschreibt eine elementare Gefährdung?",
+    "answers": [
+      { "text": "Grundlegende Gefährdungsart im IT-Grundschutz", "correct": true },
+      { "text": "Konkrete Schwachstelle eines einzelnen Servers", "correct": false },
+      { "text": "Umgesetzte Maßnahme zur Risikominimierung", "correct": false },
+      { "text": "Bewertung eines Risikos in einer Matrix", "correct": false }
+    ],
+    "explanation": "Merksatz: Elementare Gefährdungen sind grundlegende Gefährdungskategorien des IT-Grundschutzes."
+  },
+  {
+    "id": "lf-04-fach-risi-016",
+    "question": "Was beschreibt ein materieller Schaden?",
+    "answers": [
+      { "text": "Direkt messbarer wirtschaftlicher oder sachlicher Schaden", "correct": true },
+      { "text": "Rufschaden ohne unmittelbaren Sachbezug", "correct": false },
+      { "text": "Vertrauensverlust ohne direkte Bezifferung", "correct": false },
+      { "text": "Beeinträchtigung persönlicher Rechte ohne Sachwert", "correct": false }
+    ],
+    "explanation": "Merksatz: Materielle Schäden sind greifbar oder wirtschaftlich direkt bezifferbar."
+  },
+  {
+    "id": "lf-04-fach-risi-017",
+    "question": "Was beschreibt ein immaterieller Schaden?",
+    "answers": [
+      { "text": "Nicht direkt sachlicher Schaden wie Rufverlust", "correct": true },
+      { "text": "Direkt bezifferbare Reparaturkosten", "correct": false },
+      { "text": "Beschädigte Hardware mit Wiederbeschaffungswert", "correct": false },
+      { "text": "Kosten für Ersatzgeräte und Arbeitsaufwand", "correct": false }
+    ],
+    "explanation": "Merksatz: Immaterielle Schäden betreffen z. B. Ruf, Vertrauen oder persönliche Rechte."
+  },
+  {
+    "id": "lf-04-fach-risi-018",
+    "question": "Was beschreibt eine Schadenskategorie?",
+    "answers": [
+      { "text": "Einordnung möglicher Schäden nach Art oder Auswirkung", "correct": true },
+      { "text": "Berechnung der Eintrittswahrscheinlichkeit", "correct": false },
+      { "text": "Liste aller Assets ohne Schadenbezug", "correct": false },
+      { "text": "Maßnahme zur vollständigen Risikovermeidung", "correct": false }
+    ],
+    "explanation": "Merksatz: Schadenskategorien helfen, Auswirkungen von Sicherheitsvorfällen strukturiert zu bewerten."
+  },
+  {
+    "id": "lf-04-fach-risi-019",
+    "question": "Was beschreibt eine Risikomatrix?",
+    "answers": [
+      { "text": "Darstellung nach Wahrscheinlichkeit und Auswirkung", "correct": true },
+      { "text": "Liste aller technischen Schutzmaßnahmen", "correct": false },
+      { "text": "Sammlung von Assets ohne Bewertung", "correct": false },
+      { "text": "Protokoll eingetretener Sicherheitsvorfälle", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Risikomatrix ordnet Risiken nach Eintrittswahrscheinlichkeit und Schadensausmaß."
+  },
+  {
+    "id": "lf-04-fach-risi-020",
+    "question": "Was beschreibt eine Schutzmaßnahme im Risikomanagement?",
+    "answers": [
+      { "text": "Maßnahme zur Verringerung oder Kontrolle von Risiken", "correct": true },
+      { "text": "Beschreibung eines möglichen schädlichen Ereignisses", "correct": false },
+      { "text": "Bewertung von Eintrittswahrscheinlichkeit und Schaden", "correct": false },
+      { "text": "Das Risiko, das nach Maßnahmen verbleibt", "correct": false }
+    ],
+    "explanation": "Merksatz: Schutzmaßnahmen reduzieren Risiken oder begrenzen deren Auswirkungen."
+  }
+]

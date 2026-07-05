@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-02-rech-finanz-001",
+    "question": "Ein Darlehen besteht aus Zinsen und Tilgung. Welcher Anteil senkt die Restschuld?",
+    "answers": [
+      { "text": "Tilgung", "correct": true },
+      { "text": "Zinsen", "correct": false },
+      { "text": "Bearbeitungsgebühr", "correct": false },
+      { "text": "Leasingrate", "correct": false }
+    ],
+    "explanation": "Tilgung ist die Rückzahlung des Darlehens und senkt die Restschuld."
+  },
+  {
+    "id": "lf-02-rech-finanz-002",
+    "question": "Ein Darlehen hat 1.000 € Restschuld. Es werden 200 € getilgt. Wie hoch ist die neue Restschuld?",
+    "answers": [
+      { "text": "800 €", "correct": true },
+      { "text": "1.200 €", "correct": false },
+      { "text": "200 €", "correct": false },
+      { "text": "1.000 €", "correct": false }
+    ],
+    "explanation": "Restschuld = alte Restschuld - Tilgung. 1.000 € - 200 € = 800 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-003",
+    "question": "Ein Darlehen hat 1.000 € Restschuld und 5 % Jahreszins. Wie hoch sind die Zinsen für ein Jahr?",
+    "answers": [
+      { "text": "50 €", "correct": true },
+      { "text": "5 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "500 €", "correct": false }
+    ],
+    "explanation": "Zinsen = Kapital × Zinssatz. 1.000 € × 5 % = 50 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-004",
+    "question": "Ein Darlehen hat 2.000 € Restschuld und 4 % Jahreszins. Wie hoch sind die Zinsen für ein Jahr?",
+    "answers": [
+      { "text": "80 €", "correct": true },
+      { "text": "40 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "800 €", "correct": false }
+    ],
+    "explanation": "2.000 € × 4 % = 80 € Jahreszinsen."
+  },
+  {
+    "id": "lf-02-rech-finanz-005",
+    "question": "Ein Darlehen hat 1.200 € Restschuld und es werden 300 € getilgt. Wie hoch ist die neue Restschuld?",
+    "answers": [
+      { "text": "900 €", "correct": true },
+      { "text": "1.500 €", "correct": false },
+      { "text": "300 €", "correct": false },
+      { "text": "1.200 €", "correct": false }
+    ],
+    "explanation": "1.200 € - 300 € = 900 € Restschuld."
+  },
+  {
+    "id": "lf-02-rech-finanz-006",
+    "question": "Was ist beim Ratendarlehen typischerweise gleichbleibend?",
+    "answers": [
+      { "text": "Die Tilgung", "correct": true },
+      { "text": "Die Zinsen", "correct": false },
+      { "text": "Die Restschuld", "correct": false },
+      { "text": "Der Kaufpreis", "correct": false }
+    ],
+    "explanation": "Beim Ratendarlehen bleibt die Tilgung gleich, während die Zinsen mit sinkender Restschuld abnehmen."
+  },
+  {
+    "id": "lf-02-rech-finanz-007",
+    "question": "Ein Ratendarlehen wird jährlich mit 100 € getilgt. Wie viel wurde nach 3 Jahren getilgt?",
+    "answers": [
+      { "text": "300 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "200 €", "correct": false },
+      { "text": "400 €", "correct": false }
+    ],
+    "explanation": "3 Jahre × 100 € Tilgung = 300 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-008",
+    "question": "Ein Ratendarlehen hat 1.000 € Restschuld. Die jährliche Tilgung beträgt 100 €. Wie viele Jahre dauert die Tilgung ohne Sonderzahlungen?",
+    "answers": [
+      { "text": "10 Jahre", "correct": true },
+      { "text": "5 Jahre", "correct": false },
+      { "text": "20 Jahre", "correct": false },
+      { "text": "100 Jahre", "correct": false }
+    ],
+    "explanation": "1.000 € / 100 € pro Jahr = 10 Jahre."
+  },
+  {
+    "id": "lf-02-rech-finanz-009",
+    "question": "Was ist beim Annuitätendarlehen typischerweise gleichbleibend?",
+    "answers": [
+      { "text": "Die Rate aus Zins und Tilgung", "correct": true },
+      { "text": "Nur der Zinsanteil", "correct": false },
+      { "text": "Nur die Restschuld", "correct": false },
+      { "text": "Nur der Kaufpreis", "correct": false }
+    ],
+    "explanation": "Beim Annuitätendarlehen bleibt die Annuität gleich, aber Zins- und Tilgungsanteil verändern sich."
+  },
+  {
+    "id": "lf-02-rech-finanz-010",
+    "question": "Eine Annuität beträgt 120 €. Der Zinsanteil beträgt 50 €. Wie hoch ist der Tilgungsanteil?",
+    "answers": [
+      { "text": "70 €", "correct": true },
+      { "text": "50 €", "correct": false },
+      { "text": "120 €", "correct": false },
+      { "text": "170 €", "correct": false }
+    ],
+    "explanation": "Tilgung = Annuität - Zinsen. 120 € - 50 € = 70 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-011",
+    "question": "Eine Annuität beträgt 100 €. Der Zinsanteil beträgt 40 €. Wie hoch ist der Tilgungsanteil?",
+    "answers": [
+      { "text": "60 €", "correct": true },
+      { "text": "40 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "140 €", "correct": false }
+    ],
+    "explanation": "100 € - 40 € = 60 € Tilgung."
+  },
+  {
+    "id": "lf-02-rech-finanz-012",
+    "question": "Warum steigt beim Annuitätendarlehen der Tilgungsanteil im Laufe der Zeit?",
+    "answers": [
+      { "text": "Weil die Restschuld und damit die Zinsen sinken", "correct": true },
+      { "text": "Weil die Rate jedes Jahr automatisch steigt", "correct": false },
+      { "text": "Weil keine Zinsen gezahlt werden", "correct": false },
+      { "text": "Weil die Restschuld immer gleich bleibt", "correct": false }
+    ],
+    "explanation": "Wenn die Restschuld sinkt, sinkt der Zinsanteil. Bei gleicher Rate bleibt dadurch mehr für Tilgung übrig."
+  },
+  {
+    "id": "lf-02-rech-finanz-013",
+    "question": "Was ist beim Fälligkeitsdarlehen typisch?",
+    "answers": [
+      { "text": "Die Tilgung erfolgt am Ende der Laufzeit", "correct": true },
+      { "text": "Die Tilgung erfolgt jeden Monat gleich hoch", "correct": false },
+      { "text": "Die Rate besteht immer aus gleicher Annuität", "correct": false },
+      { "text": "Es gibt keine Rückzahlung", "correct": false }
+    ],
+    "explanation": "Beim Fälligkeitsdarlehen wird die Darlehenssumme erst am Ende zurückgezahlt."
+  },
+  {
+    "id": "lf-02-rech-finanz-014",
+    "question": "Ein Fälligkeitsdarlehen über 1.000 € läuft bis zum Ende ohne Tilgung. Wie hoch ist die Restschuld kurz vor der Endtilgung?",
+    "answers": [
+      { "text": "1.000 €", "correct": true },
+      { "text": "0 €", "correct": false },
+      { "text": "500 €", "correct": false },
+      { "text": "100 €", "correct": false }
+    ],
+    "explanation": "Ohne laufende Tilgung bleibt die Restschuld bis zur Endzahlung unverändert."
+  },
+  {
+    "id": "lf-02-rech-finanz-015",
+    "question": "Ein Gerät kostet beim Kauf 1.200 €. Bei Leasing kostet es 100 € pro Monat für 12 Monate. Wie hoch sind die Leasingzahlungen insgesamt?",
+    "answers": [
+      { "text": "1.200 €", "correct": true },
+      { "text": "100 €", "correct": false },
+      { "text": "1.000 €", "correct": false },
+      { "text": "12.000 €", "correct": false }
+    ],
+    "explanation": "12 Monate × 100 € = 1.200 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-016",
+    "question": "Ein Leasingvertrag kostet 50 € monatlich für 24 Monate. Wie hoch ist die Summe der Leasingraten?",
+    "answers": [
+      { "text": "1.200 €", "correct": true },
+      { "text": "600 €", "correct": false },
+      { "text": "2.400 €", "correct": false },
+      { "text": "50 €", "correct": false }
+    ],
+    "explanation": "50 € × 24 = 1.200 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-017",
+    "question": "Leasing kostet 100 € monatlich für 12 Monate und zusätzlich 200 € Restwertzahlung. Wie hoch sind die Gesamtkosten?",
+    "answers": [
+      { "text": "1.400 €", "correct": true },
+      { "text": "1.200 €", "correct": false },
+      { "text": "1.300 €", "correct": false },
+      { "text": "200 €", "correct": false }
+    ],
+    "explanation": "12 × 100 € = 1.200 €. Plus 200 € Restwertzahlung = 1.400 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-018",
+    "question": "Ein Gerät kostet beim Kauf 1.000 €. Leasing kostet insgesamt 1.100 €. Welche Variante ist rein nach Gesamtkosten günstiger?",
+    "answers": [
+      { "text": "Kauf", "correct": true },
+      { "text": "Leasing", "correct": false },
+      { "text": "Beide gleich teuer", "correct": false },
+      { "text": "Nicht vergleichbar, weil keine Kosten vorliegen", "correct": false }
+    ],
+    "explanation": "1.000 € Kaufkosten sind niedriger als 1.100 € Leasingkosten."
+  },
+  {
+    "id": "lf-02-rech-finanz-019",
+    "question": "Ein Gerät kostet beim Kauf 1.200 €. Leasing kostet insgesamt 1.200 €. Welche Variante ist rein nach Gesamtkosten günstiger?",
+    "answers": [
+      { "text": "Beide sind gleich teuer", "correct": true },
+      { "text": "Kauf ist günstiger", "correct": false },
+      { "text": "Leasing ist günstiger", "correct": false },
+      { "text": "Leasing kostet immer null", "correct": false }
+    ],
+    "explanation": "Beide Varianten verursachen 1.200 € Gesamtkosten."
+  },
+  {
+    "id": "lf-02-rech-finanz-020",
+    "question": "Warum reicht bei Kauf- oder Leasingvergleich nicht immer nur die Gesamtsumme?",
+    "answers": [
+      { "text": "Eigentum, Liquidität, Wartung und Flexibilität können ebenfalls wichtig sein", "correct": true },
+      { "text": "Kosten spielen bei Finanzierung nie eine Rolle", "correct": false },
+      { "text": "Leasing bedeutet immer Eigentum", "correct": false },
+      { "text": "Kauf bedeutet immer keine Zahlung", "correct": false }
+    ],
+    "explanation": "Neben Kosten zählen auch Mittelabfluss, Eigentum, Risiko, Vertragsbindung und Aktualität der Technik."
+  },
+  {
+    "id": "lf-02-rech-finanz-021",
+    "question": "Ein Kauf verursacht sofort 1.200 € Mittelabfluss. Leasing kostet 100 € pro Monat. Wie hoch ist der Mittelabfluss im ersten Monat beim Leasing?",
+    "answers": [
+      { "text": "100 €", "correct": true },
+      { "text": "1.200 €", "correct": false },
+      { "text": "0 €", "correct": false },
+      { "text": "12.000 €", "correct": false }
+    ],
+    "explanation": "Beim Leasing fällt hier zuerst nur die Monatsrate von 100 € an."
+  },
+  {
+    "id": "lf-02-rech-finanz-022",
+    "question": "Warum kann Leasing trotz höherer Gesamtkosten interessant sein?",
+    "answers": [
+      { "text": "Der Mittelabfluss verteilt sich über die Laufzeit", "correct": true },
+      { "text": "Leasing ist immer kostenlos", "correct": false },
+      { "text": "Beim Leasing gehört das Gerät immer sofort dem Nutzer", "correct": false },
+      { "text": "Leasing hat nie Vertragsbindung", "correct": false }
+    ],
+    "explanation": "Leasing kann Liquidität schonen, weil nicht der gesamte Betrag sofort gezahlt wird."
+  },
+  {
+    "id": "lf-02-rech-finanz-023",
+    "question": "Ein Gerät wird für 1.000 € gekauft und nach einem Jahr für 250 € verkauft. Wie hoch sind die Kosten nach Verkaufserlös vereinfacht?",
+    "answers": [
+      { "text": "750 €", "correct": true },
+      { "text": "1.250 €", "correct": false },
+      { "text": "250 €", "correct": false },
+      { "text": "1.000 €", "correct": false }
+    ],
+    "explanation": "Kosten vereinfacht = Kaufpreis - Verkaufserlös. 1.000 € - 250 € = 750 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-024",
+    "question": "Ein Gerät kostet 1.000 €. Die Finanzierung kostet zusätzlich 100 € Zinsen. Wie hoch sind die Gesamtkosten?",
+    "answers": [
+      { "text": "1.100 €", "correct": true },
+      { "text": "900 €", "correct": false },
+      { "text": "1.000 €", "correct": false },
+      { "text": "100 €", "correct": false }
+    ],
+    "explanation": "Gesamtkosten = Kaufpreis + Zinsen. 1.000 € + 100 € = 1.100 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-025",
+    "question": "Ein Kreditkauf kostet 1.000 € Kaufpreis und 120 € Zinsen. Wie hoch ist die Gesamtbelastung?",
+    "answers": [
+      { "text": "1.120 €", "correct": true },
+      { "text": "880 €", "correct": false },
+      { "text": "1.000 €", "correct": false },
+      { "text": "120 €", "correct": false }
+    ],
+    "explanation": "1.000 € + 120 € = 1.120 € Gesamtbelastung."
+  },
+  {
+    "id": "lf-02-rech-finanz-026",
+    "question": "Ein Darlehen über 1.000 € hat 6 % Jahreszins. Wie viel Zinsen fallen für ein Jahr an?",
+    "answers": [
+      { "text": "60 €", "correct": true },
+      { "text": "6 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "600 €", "correct": false }
+    ],
+    "explanation": "1.000 € × 6 % = 60 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-027",
+    "question": "Ein Darlehen über 1.000 € hat 6 % Jahreszins. Wie viel Zinsen fallen ungefähr für einen Monat an?",
+    "answers": [
+      { "text": "5 €", "correct": true },
+      { "text": "60 €", "correct": false },
+      { "text": "6 €", "correct": false },
+      { "text": "50 €", "correct": false }
+    ],
+    "explanation": "Jahreszinsen 60 €. Pro Monat vereinfacht: 60 € / 12 = 5 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-028",
+    "question": "Ein Kredit über 1.000 € wird mit 250 € getilgt. Wie hoch ist die Restschuld danach?",
+    "answers": [
+      { "text": "750 €", "correct": true },
+      { "text": "1.250 €", "correct": false },
+      { "text": "250 €", "correct": false },
+      { "text": "1.000 €", "correct": false }
+    ],
+    "explanation": "1.000 € - 250 € = 750 € Restschuld."
+  },
+  {
+    "id": "lf-02-rech-finanz-029",
+    "question": "Die Restschuld beträgt 750 € und der Zinssatz 4 %. Wie hoch sind die Jahreszinsen?",
+    "answers": [
+      { "text": "30 €", "correct": true },
+      { "text": "40 €", "correct": false },
+      { "text": "75 €", "correct": false },
+      { "text": "300 €", "correct": false }
+    ],
+    "explanation": "750 € × 4 % = 30 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-030",
+    "question": "Eine Rate beträgt 100 €. Davon sind 30 € Zinsen. Wie hoch ist die Tilgung?",
+    "answers": [
+      { "text": "70 €", "correct": true },
+      { "text": "30 €", "correct": false },
+      { "text": "100 €", "correct": false },
+      { "text": "130 €", "correct": false }
+    ],
+    "explanation": "Tilgung = Rate - Zinsen. 100 € - 30 € = 70 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-031",
+    "question": "Eine Rate beträgt 80 €. Davon sind 20 € Zinsen. Wie hoch ist die Tilgung?",
+    "answers": [
+      { "text": "60 €", "correct": true },
+      { "text": "20 €", "correct": false },
+      { "text": "80 €", "correct": false },
+      { "text": "100 €", "correct": false }
+    ],
+    "explanation": "80 € - 20 € = 60 € Tilgung."
+  },
+  {
+    "id": "lf-02-rech-finanz-032",
+    "question": "Ein Darlehen hat 500 € Restschuld. Eine Rate enthält 50 € Tilgung. Wie hoch ist die Restschuld danach?",
+    "answers": [
+      { "text": "450 €", "correct": true },
+      { "text": "550 €", "correct": false },
+      { "text": "50 €", "correct": false },
+      { "text": "500 €", "correct": false }
+    ],
+    "explanation": "500 € - 50 € = 450 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-033",
+    "question": "Warum sinken die Zinsen bei einem Ratendarlehen im Lauf der Zeit?",
+    "answers": [
+      { "text": "Die Restschuld wird durch Tilgung kleiner", "correct": true },
+      { "text": "Der Zinssatz wird automatisch immer null", "correct": false },
+      { "text": "Die Tilgung wird nicht gezahlt", "correct": false },
+      { "text": "Die Restschuld steigt immer", "correct": false }
+    ],
+    "explanation": "Zinsen werden auf die Restschuld berechnet. Sinkt die Restschuld, sinken auch die Zinsen."
+  },
+  {
+    "id": "lf-02-rech-finanz-034",
+    "question": "Ein Leasingvertrag kostet 120 € monatlich für 10 Monate. Wie hoch sind die Leasingraten insgesamt?",
+    "answers": [
+      { "text": "1.200 €", "correct": true },
+      { "text": "1.000 €", "correct": false },
+      { "text": "120 €", "correct": false },
+      { "text": "12.000 €", "correct": false }
+    ],
+    "explanation": "120 € × 10 = 1.200 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-035",
+    "question": "Leasing kostet 120 € monatlich für 10 Monate und zusätzlich 100 € Gebühr. Wie hoch sind die Gesamtkosten?",
+    "answers": [
+      { "text": "1.300 €", "correct": true },
+      { "text": "1.200 €", "correct": false },
+      { "text": "1.100 €", "correct": false },
+      { "text": "220 €", "correct": false }
+    ],
+    "explanation": "120 € × 10 = 1.200 €. Plus 100 € Gebühr = 1.300 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-036",
+    "question": "Warum kann Kauf bei langer Nutzung günstiger sein als Leasing?",
+    "answers": [
+      { "text": "Nach dem Kauf fallen keine Leasingraten mehr an", "correct": true },
+      { "text": "Kauf verursacht nie Anschaffungskosten", "correct": false },
+      { "text": "Leasing führt immer sofort zu Eigentum", "correct": false },
+      { "text": "Kauf ist grundsätzlich immer verboten", "correct": false }
+    ],
+    "explanation": "Bei langer Nutzung können laufende Leasingraten teurer werden als einmaliger Kauf."
+  },
+  {
+    "id": "lf-02-rech-finanz-037",
+    "question": "Warum kann Leasing bei schnell alternder IT-Technik sinnvoll sein?",
+    "answers": [
+      { "text": "Geräte können nach Laufzeit einfacher erneuert werden", "correct": true },
+      { "text": "Leasing macht Technik unzerstörbar", "correct": false },
+      { "text": "Leasing verhindert jede Vertragsbindung", "correct": false },
+      { "text": "Leasing bedeutet immer niedrigere Gesamtkosten", "correct": false }
+    ],
+    "explanation": "Leasing kann helfen, Hardware regelmäßig zu erneuern, ohne sie dauerhaft besitzen zu müssen."
+  },
+  {
+    "id": "lf-02-rech-finanz-038",
+    "question": "Warum ist bei Finanzierung der Mittelabfluss wichtig?",
+    "answers": [
+      { "text": "Er zeigt, wann tatsächlich Geld gezahlt werden muss", "correct": true },
+      { "text": "Er zeigt nur die technische Leistung", "correct": false },
+      { "text": "Er ersetzt jede Kostenrechnung", "correct": false },
+      { "text": "Er ist nur bei Monitoren relevant", "correct": false }
+    ],
+    "explanation": "Ein Kauf belastet die Liquidität oft sofort stärker als Ratenzahlung oder Leasing."
+  },
+  {
+    "id": "lf-02-rech-finanz-039",
+    "question": "Ein Gerät kostet 1.000 €. Bei Sofortkauf fließen sofort 1.000 € ab. Bei 10 Monatsraten zu 100 € fließen im ersten Monat wie viel ab?",
+    "answers": [
+      { "text": "100 €", "correct": true },
+      { "text": "1.000 €", "correct": false },
+      { "text": "900 €", "correct": false },
+      { "text": "10 €", "correct": false }
+    ],
+    "explanation": "Bei Ratenzahlung ist der erste Mittelabfluss hier nur die erste Rate von 100 €."
+  },
+  {
+    "id": "lf-02-rech-finanz-040",
+    "question": "Was ist bei einem Kostenvergleich von Kauf, Kredit und Leasing der wichtigste erste Schritt?",
+    "answers": [
+      { "text": "Alle Zahlungen über die Laufzeit sammeln", "correct": true },
+      { "text": "Nur die kleinste Monatsrate betrachten", "correct": false },
+      { "text": "Nur die höchste Einmalzahlung betrachten", "correct": false },
+      { "text": "Alle Nebenkosten ignorieren", "correct": false }
+    ],
+    "explanation": "Für einen fairen Vergleich müssen Anschaffung, Raten, Zinsen, Gebühren und Restwerte betrachtet werden."
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-subn-ipv4-001",
+    "question": "Welche Subnetzmaske gehört zu /24?",
+    "answers": [
+      { "text": "255.255.255.0", "correct": true },
+      { "text": "255.255.0.0", "correct": false },
+      { "text": "255.255.255.128", "correct": false },
+      { "text": "255.255.255.252", "correct": false }
+    ],
+    "explanation": "/24 bedeutet 24 Netzbits. Das entspricht 255.255.255.0."
+  },
+  {
+    "id": "lf-03-subn-ipv4-002",
+    "question": "Welche Subnetzmaske gehört zu /25?",
+    "answers": [
+      { "text": "255.255.255.128", "correct": true },
+      { "text": "255.255.255.0", "correct": false },
+      { "text": "255.255.255.192", "correct": false },
+      { "text": "255.255.255.240", "correct": false }
+    ],
+    "explanation": "/25 hat ein weiteres Netzbit im letzten Oktett: 128."
+  },
+  {
+    "id": "lf-03-subn-ipv4-003",
+    "question": "Welche Subnetzmaske gehört zu /26?",
+    "answers": [
+      { "text": "255.255.255.192", "correct": true },
+      { "text": "255.255.255.128", "correct": false },
+      { "text": "255.255.255.224", "correct": false },
+      { "text": "255.255.255.0", "correct": false }
+    ],
+    "explanation": "/26 bedeutet 26 Netzbits. Im letzten Oktett ergibt das 192."
+  },
+  {
+    "id": "lf-03-subn-ipv4-004",
+    "question": "Welche Subnetzmaske gehört zu /27?",
+    "answers": [
+      { "text": "255.255.255.224", "correct": true },
+      { "text": "255.255.255.192", "correct": false },
+      { "text": "255.255.255.240", "correct": false },
+      { "text": "255.255.255.128", "correct": false }
+    ],
+    "explanation": "/27 bedeutet 27 Netzbits. Im letzten Oktett ergibt das 224."
+  },
+  {
+    "id": "lf-03-subn-ipv4-005",
+    "question": "Welche Subnetzmaske gehört zu /28?",
+    "answers": [
+      { "text": "255.255.255.240", "correct": true },
+      { "text": "255.255.255.224", "correct": false },
+      { "text": "255.255.255.248", "correct": false },
+      { "text": "255.255.255.192", "correct": false }
+    ],
+    "explanation": "/28 bedeutet 28 Netzbits. Im letzten Oktett ergibt das 240."
+  },
+  {
+    "id": "lf-03-subn-ipv4-006",
+    "question": "Welche Subnetzmaske gehört zu /29?",
+    "answers": [
+      { "text": "255.255.255.248", "correct": true },
+      { "text": "255.255.255.240", "correct": false },
+      { "text": "255.255.255.252", "correct": false },
+      { "text": "255.255.255.224", "correct": false }
+    ],
+    "explanation": "/29 bedeutet 29 Netzbits. Im letzten Oktett ergibt das 248."
+  },
+  {
+    "id": "lf-03-subn-ipv4-007",
+    "question": "Welche Subnetzmaske gehört zu /30?",
+    "answers": [
+      { "text": "255.255.255.252", "correct": true },
+      { "text": "255.255.255.248", "correct": false },
+      { "text": "255.255.255.240", "correct": false },
+      { "text": "255.255.255.254", "correct": false }
+    ],
+    "explanation": "/30 bedeutet 30 Netzbits. Es bleiben 2 Hostbits."
+  },
+  {
+    "id": "lf-03-subn-ipv4-008",
+    "question": "Welcher CIDR-Wert gehört zu 255.255.255.0?",
+    "answers": [
+      { "text": "/24", "correct": true },
+      { "text": "/16", "correct": false },
+      { "text": "/25", "correct": false },
+      { "text": "/30", "correct": false }
+    ],
+    "explanation": "255.255.255.0 enthält 24 gesetzte Netzbits."
+  },
+  {
+    "id": "lf-03-subn-ipv4-009",
+    "question": "Welcher CIDR-Wert gehört zu 255.255.255.192?",
+    "answers": [
+      { "text": "/26", "correct": true },
+      { "text": "/25", "correct": false },
+      { "text": "/27", "correct": false },
+      { "text": "/24", "correct": false }
+    ],
+    "explanation": "192 im letzten Oktett entspricht zwei zusätzlichen Netzbits: /26."
+  },
+  {
+    "id": "lf-03-subn-ipv4-010",
+    "question": "Welcher CIDR-Wert gehört zu 255.255.255.240?",
+    "answers": [
+      { "text": "/28", "correct": true },
+      { "text": "/27", "correct": false },
+      { "text": "/29", "correct": false },
+      { "text": "/26", "correct": false }
+    ],
+    "explanation": "240 im letzten Oktett entspricht vier zusätzlichen Netzbits: /28."
+  },
+  {
+    "id": "lf-03-subn-ipv4-011",
+    "question": "Wie viele Adressen hat ein /24-Netz insgesamt?",
+    "answers": [
+      { "text": "256 Adressen", "correct": true },
+      { "text": "254 Adressen", "correct": false },
+      { "text": "128 Adressen", "correct": false },
+      { "text": "64 Adressen", "correct": false }
+    ],
+    "explanation": "/24 lässt 8 Hostbits übrig. 2^8 = 256 Adressen."
+  },
+  {
+    "id": "lf-03-subn-ipv4-012",
+    "question": "Wie viele nutzbare Hosts hat ein /24-Netz normalerweise?",
+    "answers": [
+      { "text": "254 Hosts", "correct": true },
+      { "text": "256 Hosts", "correct": false },
+      { "text": "255 Hosts", "correct": false },
+      { "text": "252 Hosts", "correct": false }
+    ],
+    "explanation": "Von 256 Adressen entfallen Netz-ID und Broadcast. 256 - 2 = 254."
+  },
+  {
+    "id": "lf-03-subn-ipv4-013",
+    "question": "Wie viele nutzbare Hosts hat ein /25-Netz normalerweise?",
+    "answers": [
+      { "text": "126 Hosts", "correct": true },
+      { "text": "128 Hosts", "correct": false },
+      { "text": "64 Hosts", "correct": false },
+      { "text": "62 Hosts", "correct": false }
+    ],
+    "explanation": "/25 hat 128 Adressen. 128 - 2 = 126 nutzbare Hosts."
+  },
+  {
+    "id": "lf-03-subn-ipv4-014",
+    "question": "Wie viele nutzbare Hosts hat ein /26-Netz normalerweise?",
+    "answers": [
+      { "text": "62 Hosts", "correct": true },
+      { "text": "64 Hosts", "correct": false },
+      { "text": "30 Hosts", "correct": false },
+      { "text": "126 Hosts", "correct": false }
+    ],
+    "explanation": "/26 hat 64 Adressen. 64 - 2 = 62 nutzbare Hosts."
+  },
+  {
+    "id": "lf-03-subn-ipv4-015",
+    "question": "Wie viele nutzbare Hosts hat ein /27-Netz normalerweise?",
+    "answers": [
+      { "text": "30 Hosts", "correct": true },
+      { "text": "32 Hosts", "correct": false },
+      { "text": "14 Hosts", "correct": false },
+      { "text": "62 Hosts", "correct": false }
+    ],
+    "explanation": "/27 hat 32 Adressen. 32 - 2 = 30 nutzbare Hosts."
+  },
+  {
+    "id": "lf-03-subn-ipv4-016",
+    "question": "Wie viele nutzbare Hosts hat ein /28-Netz normalerweise?",
+    "answers": [
+      { "text": "14 Hosts", "correct": true },
+      { "text": "16 Hosts", "correct": false },
+      { "text": "6 Hosts", "correct": false },
+      { "text": "30 Hosts", "correct": false }
+    ],
+    "explanation": "/28 hat 16 Adressen. 16 - 2 = 14 nutzbare Hosts."
+  },
+  {
+    "id": "lf-03-subn-ipv4-017",
+    "question": "Wie viele nutzbare Hosts hat ein /29-Netz normalerweise?",
+    "answers": [
+      { "text": "6 Hosts", "correct": true },
+      { "text": "8 Hosts", "correct": false },
+      { "text": "2 Hosts", "correct": false },
+      { "text": "14 Hosts", "correct": false }
+    ],
+    "explanation": "/29 hat 8 Adressen. 8 - 2 = 6 nutzbare Hosts."
+  },
+  {
+    "id": "lf-03-subn-ipv4-018",
+    "question": "Wie viele nutzbare Hosts hat ein /30-Netz normalerweise?",
+    "answers": [
+      { "text": "2 Hosts", "correct": true },
+      { "text": "4 Hosts", "correct": false },
+      { "text": "6 Hosts", "correct": false },
+      { "text": "1 Host", "correct": false }
+    ],
+    "explanation": "/30 hat 4 Adressen. 4 - 2 = 2 nutzbare Hosts."
+  },
+  {
+    "id": "lf-03-subn-ipv4-019",
+    "question": "Welche Netzadresse hat 192.168.1.10/24?",
+    "answers": [
+      { "text": "192.168.1.0", "correct": true },
+      { "text": "192.168.1.10", "correct": false },
+      { "text": "192.168.1.255", "correct": false },
+      { "text": "192.168.0.0", "correct": false }
+    ],
+    "explanation": "Bei /24 ist das letzte Oktett Hostanteil. Die Netzadresse endet auf .0."
+  },
+  {
+    "id": "lf-03-subn-ipv4-020",
+    "question": "Welche Broadcastadresse hat 192.168.1.10/24?",
+    "answers": [
+      { "text": "192.168.1.255", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.10", "correct": false },
+      { "text": "192.168.0.255", "correct": false }
+    ],
+    "explanation": "Bei /24 ist die letzte Adresse im Netz die .255."
+  },
+  {
+    "id": "lf-03-subn-ipv4-021",
+    "question": "Welcher Hostbereich gehört zu 192.168.1.0/24?",
+    "answers": [
+      { "text": "192.168.1.1 bis 192.168.1.254", "correct": true },
+      { "text": "192.168.1.0 bis 192.168.1.255", "correct": false },
+      { "text": "192.168.0.1 bis 192.168.0.254", "correct": false },
+      { "text": "192.168.1.2 bis 192.168.1.255", "correct": false }
+    ],
+    "explanation": "Netz-ID .0 und Broadcast .255 sind nicht als Hostadressen nutzbar."
+  },
+  {
+    "id": "lf-03-subn-ipv4-022",
+    "question": "Welche Netzadresse hat 192.168.1.130/25?",
+    "answers": [
+      { "text": "192.168.1.128", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.130", "correct": false },
+      { "text": "192.168.1.255", "correct": false }
+    ],
+    "explanation": "/25 teilt das /24 in Blöcke 0-127 und 128-255."
+  },
+  {
+    "id": "lf-03-subn-ipv4-023",
+    "question": "Welche Broadcastadresse hat 192.168.1.130/25?",
+    "answers": [
+      { "text": "192.168.1.255", "correct": true },
+      { "text": "192.168.1.127", "correct": false },
+      { "text": "192.168.1.128", "correct": false },
+      { "text": "192.168.1.254", "correct": false }
+    ],
+    "explanation": "192.168.1.130 liegt im /25-Netz 192.168.1.128 bis 192.168.1.255."
+  },
+  {
+    "id": "lf-03-subn-ipv4-024",
+    "question": "Welche Netzadresse hat 192.168.1.70/26?",
+    "answers": [
+      { "text": "192.168.1.64", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.70", "correct": false },
+      { "text": "192.168.1.128", "correct": false }
+    ],
+    "explanation": "/26 hat 64er-Blöcke: 0, 64, 128, 192. Die 70 liegt im Block ab 64."
+  },
+  {
+    "id": "lf-03-subn-ipv4-025",
+    "question": "Welche Broadcastadresse hat 192.168.1.70/26?",
+    "answers": [
+      { "text": "192.168.1.127", "correct": true },
+      { "text": "192.168.1.63", "correct": false },
+      { "text": "192.168.1.128", "correct": false },
+      { "text": "192.168.1.255", "correct": false }
+    ],
+    "explanation": "Der /26-Block 64-127 endet mit Broadcast 192.168.1.127."
+  },
+  {
+    "id": "lf-03-subn-ipv4-026",
+    "question": "Welcher Hostbereich gehört zu 192.168.1.64/26?",
+    "answers": [
+      { "text": "192.168.1.65 bis 192.168.1.126", "correct": true },
+      { "text": "192.168.1.64 bis 192.168.1.127", "correct": false },
+      { "text": "192.168.1.1 bis 192.168.1.62", "correct": false },
+      { "text": "192.168.1.128 bis 192.168.1.190", "correct": false }
+    ],
+    "explanation": "Netz-ID ist .64, Broadcast ist .127. Nutzbar sind .65 bis .126."
+  },
+  {
+    "id": "lf-03-subn-ipv4-027",
+    "question": "Welche Netzadresse hat 192.168.1.50/27?",
+    "answers": [
+      { "text": "192.168.1.32", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.48", "correct": false },
+      { "text": "192.168.1.64", "correct": false }
+    ],
+    "explanation": "/27 hat 32er-Blöcke. Die 50 liegt im Block 32-63."
+  },
+  {
+    "id": "lf-03-subn-ipv4-028",
+    "question": "Welche Broadcastadresse hat 192.168.1.50/27?",
+    "answers": [
+      { "text": "192.168.1.63", "correct": true },
+      { "text": "192.168.1.31", "correct": false },
+      { "text": "192.168.1.64", "correct": false },
+      { "text": "192.168.1.255", "correct": false }
+    ],
+    "explanation": "Der /27-Block 32-63 endet mit Broadcast 192.168.1.63."
+  },
+  {
+    "id": "lf-03-subn-ipv4-029",
+    "question": "Welche Netzadresse hat 192.168.1.20/28?",
+    "answers": [
+      { "text": "192.168.1.16", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.20", "correct": false },
+      { "text": "192.168.1.32", "correct": false }
+    ],
+    "explanation": "/28 hat 16er-Blöcke. Die 20 liegt im Block 16-31."
+  },
+  {
+    "id": "lf-03-subn-ipv4-030",
+    "question": "Welche Broadcastadresse hat 192.168.1.20/28?",
+    "answers": [
+      { "text": "192.168.1.31", "correct": true },
+      { "text": "192.168.1.15", "correct": false },
+      { "text": "192.168.1.16", "correct": false },
+      { "text": "192.168.1.255", "correct": false }
+    ],
+    "explanation": "Der /28-Block 16-31 endet mit Broadcast 192.168.1.31."
+  },
+  {
+    "id": "lf-03-subn-ipv4-031",
+    "question": "Welche Netzadresse hat 192.168.1.10/29?",
+    "answers": [
+      { "text": "192.168.1.8", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.10", "correct": false },
+      { "text": "192.168.1.16", "correct": false }
+    ],
+    "explanation": "/29 hat 8er-Blöcke. Die 10 liegt im Block 8-15."
+  },
+  {
+    "id": "lf-03-subn-ipv4-032",
+    "question": "Welche Broadcastadresse hat 192.168.1.10/29?",
+    "answers": [
+      { "text": "192.168.1.15", "correct": true },
+      { "text": "192.168.1.7", "correct": false },
+      { "text": "192.168.1.8", "correct": false },
+      { "text": "192.168.1.16", "correct": false }
+    ],
+    "explanation": "Der /29-Block 8-15 endet mit Broadcast 192.168.1.15."
+  },
+  {
+    "id": "lf-03-subn-ipv4-033",
+    "question": "Welche Netzadresse hat 192.168.1.6/30?",
+    "answers": [
+      { "text": "192.168.1.4", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.6", "correct": false },
+      { "text": "192.168.1.8", "correct": false }
+    ],
+    "explanation": "/30 hat 4er-Blöcke. Die 6 liegt im Block 4-7."
+  },
+  {
+    "id": "lf-03-subn-ipv4-034",
+    "question": "Welche Broadcastadresse hat 192.168.1.6/30?",
+    "answers": [
+      { "text": "192.168.1.7", "correct": true },
+      { "text": "192.168.1.3", "correct": false },
+      { "text": "192.168.1.4", "correct": false },
+      { "text": "192.168.1.8", "correct": false }
+    ],
+    "explanation": "Der /30-Block 4-7 endet mit Broadcast 192.168.1.7."
+  },
+  {
+    "id": "lf-03-subn-ipv4-035",
+    "question": "Welcher Hostbereich gehört zu 192.168.1.4/30?",
+    "answers": [
+      { "text": "192.168.1.5 bis 192.168.1.6", "correct": true },
+      { "text": "192.168.1.4 bis 192.168.1.7", "correct": false },
+      { "text": "192.168.1.1 bis 192.168.1.2", "correct": false },
+      { "text": "192.168.1.6 bis 192.168.1.7", "correct": false }
+    ],
+    "explanation": "Bei 192.168.1.4/30 sind .4 Netz-ID, .7 Broadcast und .5-.6 Hosts."
+  },
+  {
+    "id": "lf-03-subn-ipv4-036",
+    "question": "Gehört 192.168.1.70 zu 192.168.1.64/26?",
+    "answers": [
+      { "text": "Ja, sie liegt im Bereich 64-127", "correct": true },
+      { "text": "Nein, sie liegt im Bereich 0-63", "correct": false },
+      { "text": "Nein, sie ist Broadcast", "correct": false },
+      { "text": "Nein, sie ist Netz-ID", "correct": false }
+    ],
+    "explanation": "Das Netz 192.168.1.64/26 umfasst 192.168.1.64 bis 192.168.1.127."
+  },
+  {
+    "id": "lf-03-subn-ipv4-037",
+    "question": "Gehört 192.168.1.130 zu 192.168.1.0/25?",
+    "answers": [
+      { "text": "Nein, /25 endet bei .127", "correct": true },
+      { "text": "Ja, /25 endet bei .255", "correct": false },
+      { "text": "Ja, sie ist die Netz-ID", "correct": false },
+      { "text": "Ja, sie ist Broadcast", "correct": false }
+    ],
+    "explanation": "192.168.1.0/25 reicht von .0 bis .127. Die .130 liegt im nächsten /25."
+  },
+  {
+    "id": "lf-03-subn-ipv4-038",
+    "question": "Welche Adresse ist privat?",
+    "answers": [
+      { "text": "10.5.1.20", "correct": true },
+      { "text": "8.8.8.8", "correct": false },
+      { "text": "1.1.1.1", "correct": false },
+      { "text": "224.0.0.1", "correct": false }
+    ],
+    "explanation": "10.0.0.0/8 ist ein privater IPv4-Bereich."
+  },
+  {
+    "id": "lf-03-subn-ipv4-039",
+    "question": "Welche Adresse ist privat?",
+    "answers": [
+      { "text": "172.16.5.10", "correct": true },
+      { "text": "172.15.5.10", "correct": false },
+      { "text": "172.32.5.10", "correct": false },
+      { "text": "8.8.4.4", "correct": false }
+    ],
+    "explanation": "Privat ist 172.16.0.0 bis 172.31.255.255."
+  },
+  {
+    "id": "lf-03-subn-ipv4-040",
+    "question": "Welche Adresse ist privat?",
+    "answers": [
+      { "text": "192.168.5.10", "correct": true },
+      { "text": "192.167.5.10", "correct": false },
+      { "text": "193.168.5.10", "correct": false },
+      { "text": "224.168.5.10", "correct": false }
+    ],
+    "explanation": "192.168.0.0/16 ist ein privater IPv4-Bereich."
+  }
+]

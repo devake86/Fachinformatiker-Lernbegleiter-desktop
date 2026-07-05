@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-risi-001",
+    "question": "Was beschreibt ein Risiko in der Informationssicherheit?",
+    "answers": [
+      { "text": "Möglichkeit, dass eine Bedrohung Schaden verursacht", "correct": true },
+      { "text": "Ein mögliches schädliches Ereignis für ein Asset", "correct": false },
+      { "text": "Eine verwundbare Stelle in System oder Prozess", "correct": false },
+      { "text": "Auswirkung eines eingetretenen Vorfalls", "correct": false }
+    ],
+    "explanation": "Ein Risiko beschreibt die Möglichkeit eines Schadens durch ein zukünftiges Ereignis."
+  },
+  {
+    "id": "lf-04-sach-risi-002",
+    "question": "Welche Bestandteile werden bei Risiken typischerweise betrachtet?",
+    "answers": [
+      { "text": "Eintrittswahrscheinlichkeit und Schadensausmaß", "correct": true },
+      { "text": "Bedrohung und Asset ohne Bewertung", "correct": false },
+      { "text": "Schwachstelle und Schutzmaßnahme", "correct": false },
+      { "text": "Risikokategorie und Kontrollziel", "correct": false }
+    ],
+    "explanation": "Risiken werden häufig nach Wahrscheinlichkeit und möglicher Auswirkung bewertet."
+  },
+  {
+    "id": "lf-04-sach-risi-003",
+    "question": "Was beschreibt eine Bedrohung?",
+    "answers": [
+      { "text": "Ein mögliches Ereignis, das Schaden verursachen kann", "correct": true },
+      { "text": "Eine verwundbare Stelle in einem System", "correct": false },
+      { "text": "Die Auswirkung eines eingetretenen Vorfalls", "correct": false },
+      { "text": "Eine Maßnahme zur Senkung eines Risikos", "correct": false }
+    ],
+    "explanation": "Eine Bedrohung kann schädliche Auswirkungen auf Systeme, Daten oder Prozesse haben."
+  },
+  {
+    "id": "lf-04-sach-risi-004",
+    "question": "Was beschreibt eine Schwachstelle?",
+    "answers": [
+      { "text": "Eine verwundbare Stelle, die ausgenutzt werden kann", "correct": true },
+      { "text": "Ein mögliches schädliches Ereignis", "correct": false },
+      { "text": "Eine Maßnahme zur Risikominimierung", "correct": false },
+      { "text": "Ein bereits eingetretener Schaden", "correct": false }
+    ],
+    "explanation": "Schwachstellen können von Bedrohungen ausgenutzt werden und dadurch Risiken erzeugen."
+  },
+  {
+    "id": "lf-04-sach-risi-005",
+    "question": "Was ist ein Asset im Sicherheitskontext?",
+    "answers": [
+      { "text": "Ein schützenswerter Wert wie Daten, Systeme oder Prozesse", "correct": true },
+      { "text": "Eine Bedrohung gegen ein Informationssystem", "correct": false },
+      { "text": "Eine Schwachstelle in einer Organisation", "correct": false },
+      { "text": "Eine Maßnahme zur Risikobehandlung", "correct": false }
+    ],
+    "explanation": "Assets sind Werte einer Organisation, die geschützt werden müssen."
+  },
+  {
+    "id": "lf-04-sach-risi-006",
+    "question": "Was ist das Ziel einer Risikoanalyse?",
+    "answers": [
+      { "text": "Risiken erkennen, bewerten und priorisieren", "correct": true },
+      { "text": "Schutzmaßnahmen ohne Bewertung umsetzen", "correct": false },
+      { "text": "Assets erfassen und unverändert übernehmen", "correct": false },
+      { "text": "Restrisiken übernehmen und dokumentieren", "correct": false }
+    ],
+    "explanation": "Eine Risikoanalyse hilft, Sicherheitsrisiken systematisch zu beurteilen."
+  },
+  {
+    "id": "lf-04-sach-risi-007",
+    "question": "Was gehört zum Risikomanagement?",
+    "answers": [
+      { "text": "Risiken identifizieren, bewerten, behandeln und überwachen", "correct": true },
+      { "text": "Risiken erfassen und danach unverändert übernehmen", "correct": false },
+      { "text": "Risiken bewerten, aber Maßnahmen auslassen", "correct": false },
+      { "text": "Schutzmaßnahmen einmalig installieren", "correct": false }
+    ],
+    "explanation": "Risikomanagement steuert den Umgang mit Risiken über den gesamten Sicherheitsprozess."
+  },
+  {
+    "id": "lf-04-sach-risi-008",
+    "question": "Was beschreibt Eintrittswahrscheinlichkeit?",
+    "answers": [
+      { "text": "Wie wahrscheinlich ein Schadensereignis eintritt", "correct": true },
+      { "text": "Wie stark ein eingetretener Schaden wirkt", "correct": false },
+      { "text": "Welche Werte von einem Risiko betroffen sind", "correct": false },
+      { "text": "Welche Maßnahme ein Risiko verringert", "correct": false }
+    ],
+    "explanation": "Die Eintrittswahrscheinlichkeit bewertet, wie realistisch ein Risiko eintreten kann."
+  },
+  {
+    "id": "lf-04-sach-risi-009",
+    "question": "Was beschreibt Schadensausmaß?",
+    "answers": [
+      { "text": "Wie schwer die Folgen eines Ereignisses sind", "correct": true },
+      { "text": "Wie wahrscheinlich ein Ereignis eintritt", "correct": false },
+      { "text": "Welche Schwachstelle ausgenutzt wird", "correct": false },
+      { "text": "Welche Schutzmaßnahme umgesetzt wurde", "correct": false }
+    ],
+    "explanation": "Das Schadensausmaß beschreibt die möglichen Auswirkungen eines Sicherheitsvorfalls."
+  },
+  {
+    "id": "lf-04-sach-risi-010",
+    "question": "Welche Aussage beschreibt Impact korrekt?",
+    "answers": [
+      { "text": "Impact beschreibt die Auswirkung oder Schadenshöhe", "correct": true },
+      { "text": "Impact beschreibt die Eintrittswahrscheinlichkeit", "correct": false },
+      { "text": "Impact beschreibt ein schützenswertes Asset", "correct": false },
+      { "text": "Impact beschreibt eine verwundbare Stelle", "correct": false }
+    ],
+    "explanation": "Impact ist die Wirkung oder Schadenshöhe eines eingetretenen Ereignisses."
+  },
+  {
+    "id": "lf-04-sach-risi-011",
+    "question": "Welche Aussage beschreibt Likelihood korrekt?",
+    "answers": [
+      { "text": "Likelihood beschreibt die Eintrittswahrscheinlichkeit", "correct": true },
+      { "text": "Likelihood beschreibt die Schadenshöhe", "correct": false },
+      { "text": "Likelihood beschreibt ein betroffenes Asset", "correct": false },
+      { "text": "Likelihood beschreibt eine Schadenskategorie", "correct": false }
+    ],
+    "explanation": "Likelihood bedeutet Wahrscheinlichkeit eines möglichen Ereignisses."
+  },
+  {
+    "id": "lf-04-sach-risi-012",
+    "question": "Wozu dient eine Risikomatrix?",
+    "answers": [
+      { "text": "Zur Einordnung von Risiken nach Wahrscheinlichkeit und Auswirkung", "correct": true },
+      { "text": "Zur Auflistung von Assets ohne Bewertung", "correct": false },
+      { "text": "Zur Dokumentation umgesetzter Schutzmaßnahmen", "correct": false },
+      { "text": "Zur Beschreibung einzelner Schwachstellen", "correct": false }
+    ],
+    "explanation": "Eine Risikomatrix macht Risiken vergleichbar und unterstützt Priorisierung."
+  },
+  {
+    "id": "lf-04-sach-risi-013",
+    "question": "Was ist ein typisches Ziel der Risikominimierung?",
+    "answers": [
+      { "text": "Eintrittswahrscheinlichkeit oder Schadensausmaß verringern", "correct": true },
+      { "text": "Restrisiken bewusst vollständig übernehmen", "correct": false },
+      { "text": "Risiken erfassen und unverändert lassen", "correct": false },
+      { "text": "Schadensausmaß in der Matrix höher bewerten", "correct": false }
+    ],
+    "explanation": "Risikominimierung soll Risiken durch geeignete Maßnahmen reduzieren."
+  },
+  {
+    "id": "lf-04-sach-risi-014",
+    "question": "Was ist ein Restrisiko?",
+    "answers": [
+      { "text": "Das verbleibende Risiko nach umgesetzten Maßnahmen", "correct": true },
+      { "text": "Das Risiko vor der ersten Bewertung", "correct": false },
+      { "text": "Das Risiko aus einer neuen Bedrohung", "correct": false },
+      { "text": "Das Schadensausmaß nach einem Vorfall", "correct": false }
+    ],
+    "explanation": "Auch nach Schutzmaßnahmen kann ein Restrisiko bestehen bleiben."
+  },
+  {
+    "id": "lf-04-sach-risi-015",
+    "question": "Welche Aussage zu elementaren Gefährdungen ist richtig?",
+    "answers": [
+      { "text": "Sie sind grundlegende Gefährdungsarten im IT-Grundschutz", "correct": true },
+      { "text": "Sie sind konkrete Maßnahmen zur Risikominimierung", "correct": false },
+      { "text": "Sie sind einzelne Assets mit Schutzbedarf", "correct": false },
+      { "text": "Sie sind Bewertungen in einer Risikomatrix", "correct": false }
+    ],
+    "explanation": "Elementare Gefährdungen helfen, typische Sicherheitsrisiken systematisch zu betrachten."
+  },
+  {
+    "id": "lf-04-sach-risi-016",
+    "question": "Was ist ein Beispiel für eine Bedrohung?",
+    "answers": [
+      { "text": "Ein Angriff, ein Ausfall oder ein Datenverlust", "correct": true },
+      { "text": "Ein ungepatchtes System mit Schwachstelle", "correct": false },
+      { "text": "Eine aktivierte Mehr-Faktor-Authentifizierung", "correct": false },
+      { "text": "Eine verschlüsselte Sicherungskopie", "correct": false }
+    ],
+    "explanation": "Bedrohungen sind mögliche Ereignisse, die zu Schäden führen können."
+  },
+  {
+    "id": "lf-04-sach-risi-017",
+    "question": "Was ist ein Beispiel für eine Schwachstelle?",
+    "answers": [
+      { "text": "Ein ungepatchtes System oder ein schwaches Passwort", "correct": true },
+      { "text": "Ein Angriff durch Schadsoftware", "correct": false },
+      { "text": "Ein Stromausfall im Rechenzentrum", "correct": false },
+      { "text": "Ein verschlüsselter Datenträger mit Backup", "correct": false }
+    ],
+    "explanation": "Schwachstellen sind verwundbare Punkte, die durch Bedrohungen ausgenutzt werden können."
+  },
+  {
+    "id": "lf-04-sach-risi-018",
+    "question": "Welche Aussage zu materiellen Schäden passt?",
+    "answers": [
+      { "text": "Sie sind wirtschaftlich oder sachlich direkt greifbar", "correct": true },
+      { "text": "Sie betreffen vor allem Ruf und Vertrauen", "correct": false },
+      { "text": "Sie betreffen persönliche Rechte ohne Sachwert", "correct": false },
+      { "text": "Sie beschreiben schwer bezifferbare Imagefolgen", "correct": false }
+    ],
+    "explanation": "Materielle Schäden sind zum Beispiel finanzielle Verluste, Reparaturkosten oder Produktionsausfälle."
+  },
+  {
+    "id": "lf-04-sach-risi-019",
+    "question": "Welche Aussage zu immateriellen Schäden passt?",
+    "answers": [
+      { "text": "Sie betreffen zum Beispiel Ruf, Vertrauen oder persönliche Rechte", "correct": true },
+      { "text": "Sie bestehen aus direkt bezifferbaren Reparaturkosten", "correct": false },
+      { "text": "Sie betreffen beschädigte Geräte mit Ersatzwert", "correct": false },
+      { "text": "Sie beschreiben Produktionsausfall mit Kostenrechnung", "correct": false }
+    ],
+    "explanation": "Immaterielle Schäden sind nicht direkt körperlich oder sachlich, können aber sehr schwer wiegen."
+  },
+  {
+    "id": "lf-04-sach-risi-020",
+    "question": "Welche Maßnahme kann ein Risiko verringern?",
+    "answers": [
+      { "text": "Patches einspielen, Zugriff beschränken oder Daten verschlüsseln", "correct": true },
+      { "text": "Restrisiken dokumentieren und weiter beobachten", "correct": false },
+      { "text": "Bedrohungen erfassen und nach Kategorien ordnen", "correct": false },
+      { "text": "Schadensausmaß und Wahrscheinlichkeit bewerten", "correct": false }
+    ],
+    "explanation": "Schutzmaßnahmen können Risiken verringern, indem sie Schwachstellen reduzieren oder Auswirkungen begrenzen."
+  }
+]

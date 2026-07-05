@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-sach-komm-001",
+    "question": "Warum ist gute Kommunikation am Servicedesk wichtig?",
+    "answers": [
+      { "text": "Sie hilft, Anliegen zu verstehen und Lösungen zu vermitteln", "correct": true },
+      { "text": "Sie unterstützt die technische Problemanalyse", "correct": false },
+      { "text": "Sie dokumentiert Servicefälle im Ticketsystem", "correct": false },
+      { "text": "Sie priorisiert Aufgaben nach Dringlichkeit", "correct": false }
+    ],
+    "explanation": "Gute Kommunikation unterstützt Verständnis, Vertrauen und eine zielgerichtete Fallbearbeitung."
+  },
+  {
+    "id": "lf-06-sach-komm-002",
+    "question": "Welches Beispiel beschreibt synchrone Kommunikation?",
+    "answers": [
+      { "text": "Ein Telefonat mit direkter Rückfrage", "correct": true },
+      { "text": "Eine E-Mail mit späterer Antwort", "correct": false },
+      { "text": "Eine Nachricht im Ticketsystem zur späteren Bearbeitung", "correct": false },
+      { "text": "Ein schriftlicher Bericht zur nachträglichen Prüfung", "correct": false }
+    ],
+    "explanation": "Synchrone Kommunikation findet zeitgleich statt, sodass direkt reagiert werden kann."
+  },
+  {
+    "id": "lf-06-sach-komm-003",
+    "question": "Welches Beispiel beschreibt asynchrone Kommunikation?",
+    "answers": [
+      { "text": "Eine E-Mail mit späterer Antwort", "correct": true },
+      { "text": "Ein Live-Telefonat mit Rückfrage", "correct": false },
+      { "text": "Ein direktes Gespräch am Arbeitsplatz", "correct": false },
+      { "text": "Eine Sofortdiskussion im Meeting", "correct": false }
+    ],
+    "explanation": "Asynchrone Kommunikation erfolgt zeitversetzt."
+  },
+  {
+    "id": "lf-06-sach-komm-004",
+    "question": "Warum kann nonverbale Kommunikation auch am Telefon eine Rolle spielen?",
+    "answers": [
+      { "text": "Haltung und Stimme können die Gesprächswirkung beeinflussen", "correct": true },
+      { "text": "Mimik ist am Telefon vollständig sichtbar", "correct": false },
+      { "text": "Körpersprache ersetzt den gesprochenen Inhalt", "correct": false },
+      { "text": "Schriftliche Signale bestimmen das Telefonat", "correct": false }
+    ],
+    "explanation": "Auch ohne Sichtkontakt können Stimme, Tempo und Haltung die Gesprächswirkung beeinflussen."
+  },
+  {
+    "id": "lf-06-sach-komm-005",
+    "question": "Wozu dient Netiquette?",
+    "answers": [
+      { "text": "Sie beschreibt angemessenes Verhalten digitaler Kommunikation", "correct": true },
+      { "text": "Sie legt erwartetes Verhalten in Organisationen fest", "correct": false },
+      { "text": "Sie erklärt vier Ebenen einer Nachricht", "correct": false },
+      { "text": "Sie klärt Kommunikation über Kommunikation", "correct": false }
+    ],
+    "explanation": "Netiquette hilft, digitale Kommunikation respektvoll und verständlich zu gestalten."
+  },
+  {
+    "id": "lf-06-sach-komm-006",
+    "question": "Was ist der Zweck eines Code of Conduct?",
+    "answers": [
+      { "text": "Er legt erwartetes Verhalten in bestimmten Situationen fest", "correct": true },
+      { "text": "Er beschreibt Regeln für digitale Kommunikation", "correct": false },
+      { "text": "Er ordnet Aufgaben nach Dringlichkeit", "correct": false },
+      { "text": "Er erklärt Ebenen einer Nachricht", "correct": false }
+    ],
+    "explanation": "Ein Code of Conduct schafft Orientierung für angemessenes Verhalten."
+  },
+  {
+    "id": "lf-06-sach-komm-007",
+    "question": "Wann ist Metakommunikation im Team sinnvoll?",
+    "answers": [
+      { "text": "Wenn Kommunikations- und Zusammenarbeitsregeln geklärt werden", "correct": true },
+      { "text": "Wenn reine Sachinformationen übertragen werden", "correct": false },
+      { "text": "Wenn Aufgaben nach Eisenhower sortiert werden", "correct": false },
+      { "text": "Wenn Kundenanliegen technisch eskaliert werden", "correct": false }
+    ],
+    "explanation": "Metakommunikation hilft, Zusammenarbeit und Kommunikationsregeln bewusst zu klären."
+  },
+  {
+    "id": "lf-06-sach-komm-008",
+    "question": "Welche vier Ebenen gehören zum Vier-Ohren-Modell?",
+    "answers": [
+      { "text": "Sachebene, Selbstoffenbarung, Beziehung und Appell", "correct": true },
+      { "text": "Sender, Empfänger, Kanal und Rückmeldung", "correct": false },
+      { "text": "Netiquette, Conduct, Eskalation und Deeskalation", "correct": false },
+      { "text": "Auftauen, Bewegen, Einfrieren und Stabilisieren", "correct": false }
+    ],
+    "explanation": "Das Vier-Ohren-Modell zeigt, dass Nachrichten auf mehreren Ebenen wirken können."
+  },
+  {
+    "id": "lf-06-sach-komm-009",
+    "question": "Welche Ebene des Vier-Ohren-Modells fragt: Worüber wird informiert?",
+    "answers": [
+      { "text": "Sachebene", "correct": true },
+      { "text": "Beziehungsebene", "correct": false },
+      { "text": "Appellebene", "correct": false },
+      { "text": "Selbstoffenbarungsebene", "correct": false }
+    ],
+    "explanation": "Die Sachebene betrifft den reinen Informationsinhalt einer Nachricht."
+  },
+  {
+    "id": "lf-06-sach-komm-010",
+    "question": "Welche Ebene des Vier-Ohren-Modells fragt: Was soll der Empfänger tun?",
+    "answers": [
+      { "text": "Appell", "correct": true },
+      { "text": "Sachebene", "correct": false },
+      { "text": "Beziehung", "correct": false },
+      { "text": "Selbstoffenbarung", "correct": false }
+    ],
+    "explanation": "Der Appell beschreibt, wozu der Empfänger veranlasst werden soll."
+  },
+  {
+    "id": "lf-06-sach-komm-011",
+    "question": "Was kann passieren, wenn Sender und Empfänger unterschiedliche Ebenen einer Nachricht betonen?",
+    "answers": [
+      { "text": "Es können Missverständnisse entstehen", "correct": true },
+      { "text": "Die Sachebene wird automatisch priorisiert", "correct": false },
+      { "text": "Der Appell wird eindeutig dokumentiert", "correct": false },
+      { "text": "Die Beziehungsebene wird neutralisiert", "correct": false }
+    ],
+    "explanation": "Kommunikationsstörungen entstehen oft, wenn eine Nachricht anders gemeint als verstanden wird."
+  },
+  {
+    "id": "lf-06-sach-komm-012",
+    "question": "Was meint Watzlawicks Aussage „Man kann nicht nicht kommunizieren“?",
+    "answers": [
+      { "text": "Auch Schweigen oder Verhalten kann eine Botschaft senden", "correct": true },
+      { "text": "Kommunikation besteht vor allem aus Worten", "correct": false },
+      { "text": "Kommunikation entsteht erst durch Tickets", "correct": false },
+      { "text": "Nonverbale Signale bleiben wirkungslos", "correct": false }
+    ],
+    "explanation": "Nach Watzlawick hat jedes Verhalten in einer sozialen Situation kommunikative Wirkung."
+  },
+  {
+    "id": "lf-06-sach-komm-013",
+    "question": "Welche Aussage passt zum Drei-Phasen-Modell nach Lewin?",
+    "answers": [
+      { "text": "Veränderungen durchlaufen Auftauen, Bewegen und Einfrieren", "correct": true },
+      { "text": "Veränderungen werden in sieben Emotionen beschrieben", "correct": false },
+      { "text": "Nachrichten wirken auf vier Ebenen", "correct": false },
+      { "text": "Aufgaben werden nach Wichtigkeit sortiert", "correct": false }
+    ],
+    "explanation": "Lewin beschreibt Veränderung als Lösen alter Muster, Umsetzen neuer Muster und Stabilisieren."
+  },
+  {
+    "id": "lf-06-sach-komm-014",
+    "question": "Wozu kann das Sieben-Phasen-Modell nach Streich helfen?",
+    "answers": [
+      { "text": "Emotionale Reaktionen auf Veränderungen einzuordnen", "correct": true },
+      { "text": "Veränderungen in drei Grundphasen zu stabilisieren", "correct": false },
+      { "text": "Nachrichten auf vier Ebenen zu deuten", "correct": false },
+      { "text": "Aufgaben nach Dringlichkeit zu priorisieren", "correct": false }
+    ],
+    "explanation": "Das Modell hilft zu verstehen, dass Veränderungen unterschiedlich verarbeitet werden."
+  },
+  {
+    "id": "lf-06-sach-komm-015",
+    "question": "Welche Aussage beschreibt aktives Zuhören richtig?",
+    "answers": [
+      { "text": "Zuhören, Rückfragen stellen und Verstandenes bestätigen", "correct": true },
+      { "text": "Gespräch schnell auf technische Details lenken", "correct": false },
+      { "text": "Anliegen sofort bewerten und priorisieren", "correct": false },
+      { "text": "Antworten vor der Schilderung vorbereiten", "correct": false }
+    ],
+    "explanation": "Aktives Zuhören verbessert Verständnis und zeigt dem Kunden Aufmerksamkeit."
+  },
+  {
+    "id": "lf-06-sach-komm-016",
+    "question": "Welche Vorgehensweise ist bei schwierigen Kundengesprächen sinnvoll?",
+    "answers": [
+      { "text": "Ruhig bleiben, ausreden lassen und sachlich klären", "correct": true },
+      { "text": "Beschwerden direkt technisch eskalieren", "correct": false },
+      { "text": "Gespräch schnell ohne Zusammenfassung beenden", "correct": false },
+      { "text": "Kundenanliegen nur nach Ticketpriorität bewerten", "correct": false }
+    ],
+    "explanation": "Ruhige und sachliche Kommunikation unterstützt Deeskalation und Lösungsfindung."
+  },
+  {
+    "id": "lf-06-sach-komm-017",
+    "question": "Was ist ein Ziel von Deeskalation?",
+    "answers": [
+      { "text": "Eine angespannte Situation beruhigen und sachlich klären", "correct": true },
+      { "text": "Einen Konflikt an eine höhere Supportstufe geben", "correct": false },
+      { "text": "Aufgaben nach Wichtigkeit und Dringlichkeit ordnen", "correct": false },
+      { "text": "Kommunikationsregeln im Team besprechen", "correct": false }
+    ],
+    "explanation": "Deeskalation soll Konflikte beruhigen und die sachliche Bearbeitung ermöglichen."
+  },
+  {
+    "id": "lf-06-sach-komm-018",
+    "question": "Was ist bei einer professionellen Verabschiedung am Telefon sinnvoll?",
+    "answers": [
+      { "text": "Besprochenes zusammenfassen und nächsten Schritt nennen", "correct": true },
+      { "text": "Den Appell der Nachricht ausführlich analysieren", "correct": false },
+      { "text": "Die Beziehungsebene des Gesprächs dokumentieren", "correct": false },
+      { "text": "Das Gespräch ohne Rückblick eskalieren", "correct": false }
+    ],
+    "explanation": "Eine kurze Zusammenfassung schafft Klarheit über Ergebnis und nächste Schritte."
+  },
+  {
+    "id": "lf-06-sach-komm-019",
+    "question": "Wofür wird das Eisenhower-Prinzip genutzt?",
+    "answers": [
+      { "text": "Zur Priorisierung nach Wichtigkeit und Dringlichkeit", "correct": true },
+      { "text": "Zur Fokussierung auf wenige besonders wirksame Aufgaben", "correct": false },
+      { "text": "Zur Einordnung emotionaler Veränderungsphasen", "correct": false },
+      { "text": "Zur Analyse von vier Ebenen einer Nachricht", "correct": false }
+    ],
+    "explanation": "Das Eisenhower-Prinzip hilft, Aufgaben bewusst nach wichtig und dringlich zu ordnen."
+  },
+  {
+    "id": "lf-06-sach-komm-020",
+    "question": "Welche Aussage passt zum Pareto-Prinzip in der Arbeitsorganisation?",
+    "answers": [
+      { "text": "Ein kleiner Aufgabenanteil kann viel Ergebnis bewirken", "correct": true },
+      { "text": "Aufgaben werden nach Dringlichkeit und Wichtigkeit sortiert", "correct": false },
+      { "text": "Veränderungen werden in drei Phasen stabilisiert", "correct": false },
+      { "text": "Gespräche werden auf vier Ebenen interpretiert", "correct": false }
+    ],
+    "explanation": "Pareto unterstützt den Fokus auf besonders wirksame Aufgaben."
+  }
+]

@@ -1,0 +1,441 @@
+[
+  {
+    "id": "lf-03-rech-netz-001",
+    "question": "Wie viele Bit entsprechen 1 Byte?",
+    "answers": [
+      { "text": "8 Bit", "correct": true },
+      { "text": "4 Bit", "correct": false },
+      { "text": "10 Bit", "correct": false },
+      { "text": "16 Bit", "correct": false }
+    ],
+    "explanation": "1 Byte besteht aus 8 Bit. Diese Umrechnung ist bei Datenraten wichtig."
+  },
+  {
+    "id": "lf-03-rech-netz-002",
+    "question": "Wie viele MByte/s entsprechen 16 Mbit/s?",
+    "answers": [
+      { "text": "2 MByte/s", "correct": true },
+      { "text": "4 MByte/s", "correct": false },
+      { "text": "8 MByte/s", "correct": false },
+      { "text": "16 MByte/s", "correct": false }
+    ],
+    "explanation": "16 Mbit/s geteilt durch 8 ergibt 2 MByte/s."
+  },
+  {
+    "id": "lf-03-rech-netz-003",
+    "question": "Wie viele MByte/s entsprechen 100 Mbit/s?",
+    "answers": [
+      { "text": "12,5 MByte/s", "correct": true },
+      { "text": "10 MByte/s", "correct": false },
+      { "text": "25 MByte/s", "correct": false },
+      { "text": "100 MByte/s", "correct": false }
+    ],
+    "explanation": "100 Mbit/s geteilt durch 8 ergibt 12,5 MByte/s."
+  },
+  {
+    "id": "lf-03-rech-netz-004",
+    "question": "Wie viele MByte/s entsprechen 1 Gbit/s?",
+    "answers": [
+      { "text": "125 MByte/s", "correct": true },
+      { "text": "100 MByte/s", "correct": false },
+      { "text": "250 MByte/s", "correct": false },
+      { "text": "1000 MByte/s", "correct": false }
+    ],
+    "explanation": "1 Gbit/s sind 1000 Mbit/s. 1000 / 8 = 125 MByte/s."
+  },
+  {
+    "id": "lf-03-rech-netz-005",
+    "question": "Eine Datei mit 50 MB wird mit 10 MB/s übertragen. Wie lange dauert das?",
+    "answers": [
+      { "text": "5 Sekunden", "correct": true },
+      { "text": "2 Sekunden", "correct": false },
+      { "text": "10 Sekunden", "correct": false },
+      { "text": "50 Sekunden", "correct": false }
+    ],
+    "explanation": "Zeit = Datenmenge / Datenrate. 50 MB / 10 MB/s = 5 s."
+  },
+  {
+    "id": "lf-03-rech-netz-006",
+    "question": "Eine Datei mit 500 MB wird mit 100 MB/s übertragen. Wie lange dauert das?",
+    "answers": [
+      { "text": "5 Sekunden", "correct": true },
+      { "text": "2 Sekunden", "correct": false },
+      { "text": "10 Sekunden", "correct": false },
+      { "text": "50 Sekunden", "correct": false }
+    ],
+    "explanation": "500 MB / 100 MB/s = 5 s."
+  },
+  {
+    "id": "lf-03-rech-netz-007",
+    "question": "Wie lange dauert die Übertragung von 1 GB bei 100 MB/s?",
+    "answers": [
+      { "text": "10 Sekunden", "correct": true },
+      { "text": "1 Sekunde", "correct": false },
+      { "text": "20 Sekunden", "correct": false },
+      { "text": "100 Sekunden", "correct": false }
+    ],
+    "explanation": "Grob gerechnet: 1 GB = 1000 MB. 1000 / 100 = 10 s."
+  },
+  {
+    "id": "lf-03-rech-netz-008",
+    "question": "Wie lange dauert die Übertragung von 2 GB bei 1 GB/s?",
+    "answers": [
+      { "text": "2 Sekunden", "correct": true },
+      { "text": "1 Sekunde", "correct": false },
+      { "text": "4 Sekunden", "correct": false },
+      { "text": "20 Sekunden", "correct": false }
+    ],
+    "explanation": "2 GB / 1 GB/s = 2 s."
+  },
+  {
+    "id": "lf-03-rech-netz-009",
+    "question": "80 Mbit werden in 10 Sekunden übertragen. Wie hoch ist die Datenrate?",
+    "answers": [
+      { "text": "8 Mbit/s", "correct": true },
+      { "text": "4 Mbit/s", "correct": false },
+      { "text": "10 Mbit/s", "correct": false },
+      { "text": "80 Mbit/s", "correct": false }
+    ],
+    "explanation": "Datenrate = Datenmenge / Zeit. 80 Mbit / 10 s = 8 Mbit/s."
+  },
+  {
+    "id": "lf-03-rech-netz-010",
+    "question": "60 MB werden in 30 Sekunden übertragen. Wie hoch ist die Datenrate?",
+    "answers": [
+      { "text": "2 MB/s", "correct": true },
+      { "text": "3 MB/s", "correct": false },
+      { "text": "10 MB/s", "correct": false },
+      { "text": "30 MB/s", "correct": false }
+    ],
+    "explanation": "60 MB / 30 s = 2 MB/s."
+  },
+  {
+    "id": "lf-03-rech-netz-011",
+    "question": "Ein System ist 9 von 10 Stunden verfügbar. Wie hoch ist die Verfügbarkeit?",
+    "answers": [
+      { "text": "90 %", "correct": true },
+      { "text": "9 %", "correct": false },
+      { "text": "91 %", "correct": false },
+      { "text": "99 %", "correct": false }
+    ],
+    "explanation": "Verfügbarkeit = Uptime / Gesamtzeit. 9 / 10 = 0,9 = 90 %."
+  },
+  {
+    "id": "lf-03-rech-netz-012",
+    "question": "Ein System läuft 99 von 100 Stunden. Wie hoch ist die Verfügbarkeit?",
+    "answers": [
+      { "text": "99 %", "correct": true },
+      { "text": "90 %", "correct": false },
+      { "text": "98 %", "correct": false },
+      { "text": "100 %", "correct": false }
+    ],
+    "explanation": "99 Stunden Uptime / 100 Stunden Gesamtzeit = 99 %."
+  },{
+  "id": "lf-03-rech-netz-013",
+  "question": "Ein System ist 100 Stunden geplant. Es fällt 1 Stunde aus. Wie hoch ist die Verfügbarkeit?",
+  "answers": [
+    { "text": "99 %", "correct": true },
+    { "text": "90 %", "correct": false },
+    { "text": "98 %", "correct": false },
+    { "text": "100 %", "correct": false }
+  ],
+  "explanation": "99 Stunden Uptime von 100 Stunden Gesamtzeit ergeben 99 % Verfügbarkeit."
+},
+  {
+    "id": "lf-03-rech-netz-014",
+    "question": "Ein System ist 100 Stunden geplant. Es fällt 5 Stunden aus. Wie hoch ist die Verfügbarkeit?",
+    "answers": [
+      { "text": "95 %", "correct": true },
+      { "text": "90 %", "correct": false },
+      { "text": "97 %", "correct": false },
+      { "text": "99 %", "correct": false }
+    ],
+    "explanation": "95 Stunden Uptime von 100 Stunden Gesamtzeit ergeben 95 % Verfügbarkeit."
+  },
+  {
+    "id": "lf-03-rech-netz-015",
+    "question": "Ein System hat 80 Stunden Uptime und 20 Stunden Downtime. Wie hoch ist die Verfügbarkeit?",
+    "answers": [
+      { "text": "80 %", "correct": true },
+      { "text": "20 %", "correct": false },
+      { "text": "60 %", "correct": false },
+      { "text": "100 %", "correct": false }
+    ],
+    "explanation": "Verfügbarkeit = Uptime / Gesamtzeit. 80 / 100 = 80 %."
+  },
+  {
+    "id": "lf-03-rech-netz-016",
+    "question": "Ein System ist 50 Stunden geplant und 45 Stunden verfügbar. Wie hoch ist die Verfügbarkeit?",
+    "answers": [
+      { "text": "90 %", "correct": true },
+      { "text": "80 %", "correct": false },
+      { "text": "95 %", "correct": false },
+      { "text": "45 %", "correct": false }
+    ],
+    "explanation": "45 Stunden Uptime von 50 Stunden Gesamtzeit ergeben 90 % Verfügbarkeit."
+  },
+  {
+    "id": "lf-03-rech-netz-017",
+    "question": "Ein RAID 0 nutzt 4 Platten mit je 2 TB. Wie groß ist die Nettokapazität?",
+    "answers": [
+      { "text": "8 TB", "correct": true },
+      { "text": "2 TB", "correct": false },
+      { "text": "4 TB", "correct": false },
+      { "text": "6 TB", "correct": false }
+    ],
+    "explanation": "RAID 0 nutzt die volle Kapazität: 4 × 2 TB = 8 TB."
+  },
+  {
+    "id": "lf-03-rech-netz-018",
+    "question": "Ein RAID 1 nutzt 2 Platten mit je 2 TB. Wie groß ist die Nettokapazität?",
+    "answers": [
+      { "text": "2 TB", "correct": true },
+      { "text": "1 TB", "correct": false },
+      { "text": "4 TB", "correct": false },
+      { "text": "6 TB", "correct": false }
+    ],
+    "explanation": "RAID 1 spiegelt Daten. Nutzbar ist bei zwei Platten die Kapazität einer Platte."
+  },
+  {
+    "id": "lf-03-rech-netz-019",
+    "question": "Ein RAID 5 nutzt 4 Platten mit je 2 TB. Wie groß ist die Nettokapazität?",
+    "answers": [
+      { "text": "6 TB", "correct": true },
+      { "text": "4 TB", "correct": false },
+      { "text": "8 TB", "correct": false },
+      { "text": "2 TB", "correct": false }
+    ],
+    "explanation": "RAID 5: Größe × (Anzahl - 1). 2 TB × 3 = 6 TB."
+  },
+  {
+    "id": "lf-03-rech-netz-020",
+    "question": "Ein RAID 5 nutzt 3 Platten mit je 1 TB. Wie groß ist die Nettokapazität?",
+    "answers": [
+      { "text": "2 TB", "correct": true },
+      { "text": "1 TB", "correct": false },
+      { "text": "3 TB", "correct": false },
+      { "text": "4 TB", "correct": false }
+    ],
+    "explanation": "RAID 5: 1 TB × (3 - 1) = 2 TB."
+  },
+  {
+    "id": "lf-03-rech-netz-021",
+    "question": "Ein RAID 6 nutzt 5 Platten mit je 2 TB. Wie groß ist die Nettokapazität?",
+    "answers": [
+      { "text": "6 TB", "correct": true },
+      { "text": "4 TB", "correct": false },
+      { "text": "8 TB", "correct": false },
+      { "text": "10 TB", "correct": false }
+    ],
+    "explanation": "RAID 6: Größe × (Anzahl - 2). 2 TB × 3 = 6 TB."
+  },
+  {
+    "id": "lf-03-rech-netz-022",
+    "question": "Ein RAID 6 nutzt 6 Platten mit je 1 TB. Wie groß ist die Nettokapazität?",
+    "answers": [
+      { "text": "4 TB", "correct": true },
+      { "text": "3 TB", "correct": false },
+      { "text": "5 TB", "correct": false },
+      { "text": "6 TB", "correct": false }
+    ],
+    "explanation": "RAID 6: 1 TB × (6 - 2) = 4 TB."
+  },
+  {
+    "id": "lf-03-rech-netz-023",
+    "question": "Ein RAID 10 nutzt 4 Platten mit je 2 TB. Wie groß ist die Nettokapazität?",
+    "answers": [
+      { "text": "4 TB", "correct": true },
+      { "text": "2 TB", "correct": false },
+      { "text": "6 TB", "correct": false },
+      { "text": "8 TB", "correct": false }
+    ],
+    "explanation": "RAID 10 nutzt etwa die Hälfte: 4 × 2 TB / 2 = 4 TB."
+  },
+  {
+    "id": "lf-03-rech-netz-024",
+    "question": "Ein RAID 10 nutzt 6 Platten mit je 1 TB. Wie groß ist die Nettokapazität?",
+    "answers": [
+      { "text": "3 TB", "correct": true },
+      { "text": "2 TB", "correct": false },
+      { "text": "4 TB", "correct": false },
+      { "text": "6 TB", "correct": false }
+    ],
+    "explanation": "RAID 10 nutzt etwa die Hälfte: 6 × 1 TB / 2 = 3 TB."
+  },
+  {
+    "id": "lf-03-rech-netz-025",
+    "question": "Ein PoE-Budget beträgt 60 W. Wie viele Geräte mit je 12 W passen maximal?",
+    "answers": [
+      { "text": "5 Geräte", "correct": true },
+      { "text": "4 Geräte", "correct": false },
+      { "text": "6 Geräte", "correct": false },
+      { "text": "12 Geräte", "correct": false }
+    ],
+    "explanation": "60 W / 12 W = 5 Geräte."
+  },
+  {
+    "id": "lf-03-rech-netz-026",
+    "question": "Ein PoE-Budget beträgt 80 W. Wie viele Geräte mit je 20 W passen maximal?",
+    "answers": [
+      { "text": "4 Geräte", "correct": true },
+      { "text": "3 Geräte", "correct": false },
+      { "text": "5 Geräte", "correct": false },
+      { "text": "8 Geräte", "correct": false }
+    ],
+    "explanation": "80 W / 20 W = 4 Geräte."
+  },
+  {
+    "id": "lf-03-rech-netz-027",
+    "question": "Ein PoE-Budget beträgt 100 W. Wie viele Geräte mit je 25 W passen maximal?",
+    "answers": [
+      { "text": "4 Geräte", "correct": true },
+      { "text": "3 Geräte", "correct": false },
+      { "text": "5 Geräte", "correct": false },
+      { "text": "25 Geräte", "correct": false }
+    ],
+    "explanation": "100 W / 25 W = 4 Geräte."
+  },
+  {
+    "id": "lf-03-rech-netz-028",
+    "question": "Ein PoE-Switch versorgt 8 Geräte mit je 10 W. Wie viel Leistung wird benötigt?",
+    "answers": [
+      { "text": "80 W", "correct": true },
+      { "text": "18 W", "correct": false },
+      { "text": "40 W", "correct": false },
+      { "text": "100 W", "correct": false }
+    ],
+    "explanation": "8 × 10 W = 80 W."
+  },
+  {
+    "id": "lf-03-rech-netz-029",
+    "question": "Ein PoE-Gerät benötigt 15 W. Wie viel Leistung brauchen 4 Geräte?",
+    "answers": [
+      { "text": "60 W", "correct": true },
+      { "text": "45 W", "correct": false },
+      { "text": "75 W", "correct": false },
+      { "text": "120 W", "correct": false }
+    ],
+    "explanation": "4 × 15 W = 60 W."
+  },
+  {
+    "id": "lf-03-rech-netz-030",
+    "question": "Ein Akku hat 12 V und 100 Ah. Wie viel Energie speichert er ungefähr?",
+    "answers": [
+      { "text": "1200 Wh", "correct": true },
+      { "text": "112 Wh", "correct": false },
+      { "text": "120 Wh", "correct": false },
+      { "text": "12000 Wh", "correct": false }
+    ],
+    "explanation": "Energie = Spannung × Kapazität. 12 V × 100 Ah = 1200 Wh."
+  },
+  {
+    "id": "lf-03-rech-netz-031",
+    "question": "Zwei Akkus haben je 12 V und 100 Ah. Wie viel Energie ist das zusammen?",
+    "answers": [
+      { "text": "2400 Wh", "correct": true },
+      { "text": "1200 Wh", "correct": false },
+      { "text": "2000 Wh", "correct": false },
+      { "text": "12000 Wh", "correct": false }
+    ],
+    "explanation": "Ein Akku hat 1200 Wh. Zwei Akkus haben 2 × 1200 Wh = 2400 Wh."
+  },
+  {
+    "id": "lf-03-rech-netz-032",
+    "question": "Eine USV hat 1200 Wh. Eine Last braucht 600 W. Wie lange reicht sie?",
+    "answers": [
+      { "text": "2 Stunden", "correct": true },
+      { "text": "1 Stunde", "correct": false },
+      { "text": "3 Stunden", "correct": false },
+      { "text": "6 Stunden", "correct": false }
+    ],
+    "explanation": "Zeit = Energie / Leistung. 1200 Wh / 600 W = 2 h."
+  },
+  {
+    "id": "lf-03-rech-netz-033",
+    "question": "Eine USV hat 2000 Wh. Eine Last braucht 400 W. Wie lange reicht sie?",
+    "answers": [
+      { "text": "5 Stunden", "correct": true },
+      { "text": "2 Stunden", "correct": false },
+      { "text": "4 Stunden", "correct": false },
+      { "text": "8 Stunden", "correct": false }
+    ],
+    "explanation": "2000 Wh / 400 W = 5 h."
+  },
+  {
+    "id": "lf-03-rech-netz-034",
+    "question": "10 Server benötigen je 750 W. Wie hoch ist die Gesamtleistung?",
+    "answers": [
+      { "text": "7500 W", "correct": true },
+      { "text": "750 W", "correct": false },
+      { "text": "1500 W", "correct": false },
+      { "text": "75000 W", "correct": false }
+    ],
+    "explanation": "10 × 750 W = 7500 W."
+  },
+  {
+    "id": "lf-03-rech-netz-035",
+    "question": "Eine USV hat 1200 Wh und liefert 600 W. Wie lange reicht sie?",
+    "answers": [
+      { "text": "2 Stunden", "correct": true },
+      { "text": "1 Stunde", "correct": false },
+      { "text": "3 Stunden", "correct": false },
+      { "text": "6 Stunden", "correct": false }
+    ],
+    "explanation": "Zeit = Energie / Leistung. 1200 Wh / 600 W = 2 h."
+  },
+  {
+    "id": "lf-03-rech-netz-036",
+    "question": "Wie viel Leistung ergibt sich aus 230 V und 2 A?",
+    "answers": [
+      { "text": "460 W", "correct": true },
+      { "text": "115 W", "correct": false },
+      { "text": "232 W", "correct": false },
+      { "text": "2300 W", "correct": false }
+    ],
+    "explanation": "Leistung = Spannung × Stromstärke. 230 V × 2 A = 460 W."
+  },
+  {
+    "id": "lf-03-rech-netz-037",
+    "question": "Wie viel Leistung ergibt sich aus 12 V und 5 A?",
+    "answers": [
+      { "text": "60 W", "correct": true },
+      { "text": "17 W", "correct": false },
+      { "text": "24 W", "correct": false },
+      { "text": "120 W", "correct": false }
+    ],
+    "explanation": "12 V × 5 A = 60 W."
+  },
+  {
+    "id": "lf-03-rech-netz-038",
+    "question": "Ein Gerät braucht 24 W bei 12 V. Wie hoch ist die Stromstärke?",
+    "answers": [
+      { "text": "2 A", "correct": true },
+      { "text": "0,5 A", "correct": false },
+      { "text": "12 A", "correct": false },
+      { "text": "24 A", "correct": false }
+    ],
+    "explanation": "Stromstärke = Leistung / Spannung. 24 W / 12 V = 2 A."
+  },
+  {
+    "id": "lf-03-rech-netz-039",
+    "question": "Eine Übertragung schafft 200 Mbit in 20 Sekunden. Wie hoch ist die Datenrate?",
+    "answers": [
+      { "text": "10 Mbit/s", "correct": true },
+      { "text": "5 Mbit/s", "correct": false },
+      { "text": "20 Mbit/s", "correct": false },
+      { "text": "200 Mbit/s", "correct": false }
+    ],
+    "explanation": "200 Mbit / 20 s = 10 Mbit/s."
+  },
+  {
+    "id": "lf-03-rech-netz-040",
+    "question": "Wie lange dauert die Übertragung von 800 Mbit bei 100 Mbit/s?",
+    "answers": [
+      { "text": "8 Sekunden", "correct": true },
+      { "text": "4 Sekunden", "correct": false },
+      { "text": "10 Sekunden", "correct": false },
+      { "text": "80 Sekunden", "correct": false }
+    ],
+    "explanation": "Zeit = Datenmenge / Datenrate. 800 Mbit / 100 Mbit/s = 8 s."
+  }
+]

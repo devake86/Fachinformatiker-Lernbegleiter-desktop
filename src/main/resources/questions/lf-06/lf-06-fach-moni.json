@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-fach-moni-001",
+    "question": "Was beschreibt IT-Monitoring?",
+    "answers": [
+      { "text": "Laufende Überwachung von IT-Systemen und Diensten", "correct": true },
+      { "text": "Bearbeitung von Störungen nach Kundeneingang", "correct": false },
+      { "text": "Dokumentation bekannter Fehler und Lösungen", "correct": false },
+      { "text": "Planung von Serviceverträgen und Leistungen", "correct": false }
+    ],
+    "explanation": "Merksatz: IT-Monitoring überwacht Systeme, Dienste und Ressourcen, um Störungen früh zu erkennen."
+  },
+  {
+    "id": "lf-06-fach-moni-002",
+    "question": "Was beschreibt Infrastruktur-Monitoring?",
+    "answers": [
+      { "text": "Überwachung von Servern, Netzwerk und Ressourcen", "correct": true },
+      { "text": "Überwachung einzelner Kundenanfragen im Ticketsystem", "correct": false },
+      { "text": "Überwachung von Serviceverträgen und Preisen", "correct": false },
+      { "text": "Überwachung von Gesprächsqualität im Servicedesk", "correct": false }
+    ],
+    "explanation": "Merksatz: Infrastruktur-Monitoring beobachtet technische Basisbestandteile wie Server, Netzwerke und Speicher."
+  },
+  {
+    "id": "lf-06-fach-moni-003",
+    "question": "Was beschreibt Netzwerk-Monitoring?",
+    "answers": [
+      { "text": "Überwachung von Netzwerkkomponenten und Verbindungen", "correct": true },
+      { "text": "Überwachung von Serverprozessen und CPU-Last", "correct": false },
+      { "text": "Überwachung von Kundentickets und SLAs", "correct": false },
+      { "text": "Überwachung von Backupständen und Wiederherstellung", "correct": false }
+    ],
+    "explanation": "Merksatz: Netzwerk-Monitoring prüft Zustände, Auslastung und Erreichbarkeit von Netzwerkkomponenten."
+  },
+  {
+    "id": "lf-06-fach-moni-004",
+    "question": "Was beschreibt ein Dashboard im Monitoring?",
+    "answers": [
+      { "text": "Übersicht wichtiger Messwerte und Zustände", "correct": true },
+      { "text": "Warnmeldung bei kritischer Grenzwertverletzung", "correct": false },
+      { "text": "Protokolldatei mit einzelnen Systemereignissen", "correct": false },
+      { "text": "Schwellenwert für eine überwachte Kennzahl", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Dashboard stellt Monitoring-Daten übersichtlich dar."
+  },
+  {
+    "id": "lf-06-fach-moni-005",
+    "question": "Was beschreibt ein Alert?",
+    "answers": [
+      { "text": "Warnmeldung bei Grenzwertüberschreitung oder Störung", "correct": true },
+      { "text": "Übersicht mehrerer Messwerte in einem Dashboard", "correct": false },
+      { "text": "Festgelegter Schwellenwert einer Kennzahl", "correct": false },
+      { "text": "Protokollierter Eintrag in einer Logdatei", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Alert informiert über auffällige Zustände oder kritische Ereignisse."
+  },
+  {
+    "id": "lf-06-fach-moni-006",
+    "question": "Was beschreibt ein Grenzwert im Monitoring?",
+    "answers": [
+      { "text": "Festgelegter Schwellenwert für eine Kennzahl", "correct": true },
+      { "text": "Warnmeldung bei auffälligem Systemzustand", "correct": false },
+      { "text": "Grafische Zusammenfassung mehrerer Messwerte", "correct": false },
+      { "text": "Protokollierter Ablauf eines Systemereignisses", "correct": false }
+    ],
+    "explanation": "Merksatz: Grenzwerte legen fest, ab wann ein Zustand auffällig oder kritisch wird."
+  },
+  {
+    "id": "lf-06-fach-moni-007",
+    "question": "Was beschreibt eine Logdatei?",
+    "answers": [
+      { "text": "Datei mit protokollierten Ereignissen oder Meldungen", "correct": true },
+      { "text": "Grafische Übersicht aktueller Monitoring-Werte", "correct": false },
+      { "text": "Warnmeldung bei einer Grenzwertverletzung", "correct": false },
+      { "text": "Kennzahl zur Verfügbarkeit eines Services", "correct": false }
+    ],
+    "explanation": "Merksatz: Logdateien dokumentieren Ereignisse und helfen bei Analyse und Nachvollziehbarkeit."
+  },
+  {
+    "id": "lf-06-fach-moni-008",
+    "question": "Was beschreibt ein Ereignisprotokoll?",
+    "answers": [
+      { "text": "Strukturierte Sammlung protokollierter Systemereignisse", "correct": true },
+      { "text": "Live-Übersicht über Messwerte und Zustände", "correct": false },
+      { "text": "Schwellenwert für kritische Systemzustände", "correct": false },
+      { "text": "Durchschnittliche Zeit zwischen Ausfällen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ereignisprotokolle zeigen, was in Systemen passiert ist."
+  },
+  {
+    "id": "lf-06-fach-moni-009",
+    "question": "Was beschreibt Bandbreite?",
+    "answers": [
+      { "text": "Mögliche Datenrate einer Netzwerkverbindung", "correct": true },
+      { "text": "Tatsächlich übertragene Datenmenge pro Zeit", "correct": false },
+      { "text": "Verzögerungszeit bei der Datenübertragung", "correct": false },
+      { "text": "Anteil der Zeit mit nutzbarem Service", "correct": false }
+    ],
+    "explanation": "Merksatz: Bandbreite beschreibt, wie viele Daten pro Zeit über eine Verbindung übertragen werden können."
+  },
+  {
+    "id": "lf-06-fach-moni-010",
+    "question": "Was beschreibt Datendurchsatz?",
+    "answers": [
+      { "text": "Tatsächlich übertragene Datenmenge pro Zeit", "correct": true },
+      { "text": "Theoretisch mögliche Datenrate einer Verbindung", "correct": false },
+      { "text": "Verzögerung bis zur Antwort eines Systems", "correct": false },
+      { "text": "Anzahl verlorener Pakete bei TCP-Verbindungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Datendurchsatz zeigt, wie viel Datenverkehr tatsächlich übertragen wird."
+  },
+  {
+    "id": "lf-06-fach-moni-011",
+    "question": "Was beschreibt Latenz?",
+    "answers": [
+      { "text": "Verzögerungszeit bei der Datenübertragung", "correct": true },
+      { "text": "Tatsächlich übertragene Datenmenge pro Zeit", "correct": false },
+      { "text": "Mögliche Datenrate einer Netzwerkverbindung", "correct": false },
+      { "text": "Durchschnittliche Zeit zwischen Ausfällen", "correct": false }
+    ],
+    "explanation": "Merksatz: Latenz beschreibt, wie lange Daten bis zum Ziel benötigen."
+  },
+  {
+    "id": "lf-06-fach-moni-012",
+    "question": "Was beschreibt TCP-Latenz?",
+    "answers": [
+      { "text": "Verzögerung bei einer TCP-Datenübertragung", "correct": true },
+      { "text": "Paketverlust bei einer TCP-Datenübertragung", "correct": false },
+      { "text": "Fehler beim Aufbau einer TCP-Verbindung", "correct": false },
+      { "text": "Fehler beim Abbau einer TCP-Verbindung", "correct": false }
+    ],
+    "explanation": "Merksatz: TCP-Latenz misst Verzögerungen bei TCP-Verbindungen."
+  },
+  {
+    "id": "lf-06-fach-moni-013",
+    "question": "Was beschreibt TCP-Verlust?",
+    "answers": [
+      { "text": "Datenpakete werden gesendet, aber nicht empfangen", "correct": true },
+      { "text": "TCP-Verbindungen bauen sich verzögert auf", "correct": false },
+      { "text": "TCP-Verbindungen werden regulär beendet", "correct": false },
+      { "text": "Antwortzeiten einer Verbindung steigen an", "correct": false }
+    ],
+    "explanation": "Merksatz: TCP-Verlust zeigt Paketverluste bei der Datenübertragung."
+  },
+  {
+    "id": "lf-06-fach-moni-014",
+    "question": "Was beschreibt ein SYN-Fehler?",
+    "answers": [
+      { "text": "Fehler beim Aufbau einer TCP-Verbindung", "correct": true },
+      { "text": "Fehler beim Abbau einer TCP-Verbindung", "correct": false },
+      { "text": "Verlust einzelner TCP-Datenpakete", "correct": false },
+      { "text": "Verzögerung einer bestehenden TCP-Verbindung", "correct": false }
+    ],
+    "explanation": "Merksatz: SYN-Fehler deuten auf Probleme beim TCP-Verbindungsaufbau hin."
+  },
+  {
+    "id": "lf-06-fach-moni-015",
+    "question": "Was beschreibt ein FIN-Fehler?",
+    "answers": [
+      { "text": "Fehler beim Abbau einer TCP-Verbindung", "correct": true },
+      { "text": "Fehler beim Aufbau einer TCP-Verbindung", "correct": false },
+      { "text": "Verlust von Paketen während der Übertragung", "correct": false },
+      { "text": "Verzögerung bei einer TCP-Datenübertragung", "correct": false }
+    ],
+    "explanation": "Merksatz: FIN-Fehler deuten auf Probleme beim TCP-Verbindungsabbau hin."
+  },
+  {
+    "id": "lf-06-fach-moni-016",
+    "question": "Was beschreibt Verfügbarkeit als KPI?",
+    "answers": [
+      { "text": "Anteil der Zeit, in der ein Service nutzbar ist", "correct": true },
+      { "text": "Durchschnittliche Zeit bis zur Wiederherstellung", "correct": false },
+      { "text": "Durchschnittliche Zeit zwischen zwei Ausfällen", "correct": false },
+      { "text": "Menge tatsächlich übertragener Daten pro Zeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Verfügbarkeit misst, wie zuverlässig ein Service nutzbar bereitsteht."
+  },
+  {
+    "id": "lf-06-fach-moni-017",
+    "question": "Was beschreibt MTTR?",
+    "answers": [
+      { "text": "Durchschnittliche Zeit bis zur Wiederherstellung", "correct": true },
+      { "text": "Durchschnittliche Zeit zwischen zwei Ausfällen", "correct": false },
+      { "text": "Anteil der Zeit mit nutzbarem Service", "correct": false },
+      { "text": "Zeit bis zur Vorhersage eines Ausfalls", "correct": false }
+    ],
+    "explanation": "Merksatz: MTTR misst, wie lange die Wiederherstellung nach Störungen durchschnittlich dauert."
+  },
+  {
+    "id": "lf-06-fach-moni-018",
+    "question": "Was beschreibt MTBF?",
+    "answers": [
+      { "text": "Durchschnittliche Zeit zwischen zwei Ausfällen", "correct": true },
+      { "text": "Durchschnittliche Zeit bis zur Wiederherstellung", "correct": false },
+      { "text": "Anteil der Zeit mit gestörtem Service", "correct": false },
+      { "text": "Zeit bis zur ersten Warnmeldung im Monitoring", "correct": false }
+    ],
+    "explanation": "Merksatz: MTBF misst die durchschnittliche Zeitspanne zwischen Ausfällen."
+  },
+  {
+    "id": "lf-06-fach-moni-019",
+    "question": "Was beschreibt Predictive Maintenance?",
+    "answers": [
+      { "text": "Vorausschauende Wartung auf Basis von Messwerten", "correct": true },
+      { "text": "Reaktive Entstörung nach einem Ausfall", "correct": false },
+      { "text": "Regelmäßige Wartung nach festem Kalender", "correct": false },
+      { "text": "Sofortige Eskalation jedes Monitoring-Alerts", "correct": false }
+    ],
+    "explanation": "Merksatz: Predictive Maintenance soll Störungen vorhersagen und Ausfälle vermeiden."
+  },
+  {
+    "id": "lf-06-fach-moni-020",
+    "question": "Was beschreibt Entstörung?",
+    "answers": [
+      { "text": "Beseitigung einer Störung und Wiederherstellung des Betriebs", "correct": true },
+      { "text": "Laufende Überwachung von Systemen und Diensten", "correct": false },
+      { "text": "Vorhersage möglicher Ausfälle anhand von Messwerten", "correct": false },
+      { "text": "Darstellung wichtiger Messwerte in einem Dashboard", "correct": false }
+    ],
+    "explanation": "Merksatz: Entstörung stellt einen gestörten Service wieder funktionsfähig bereit."
+  }
+]

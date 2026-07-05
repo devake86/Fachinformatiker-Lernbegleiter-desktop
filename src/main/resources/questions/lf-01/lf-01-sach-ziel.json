@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-sach-ziel-001",
+    "question": "Welche Aufgabe hat eine Vision im Unternehmen?",
+    "answers": [
+      { "text": "Sie gibt langfristige Richtung für die Zukunft vor", "correct": true },
+      { "text": "Sie legt operative Tagesziele verbindlich fest", "correct": false },
+      { "text": "Sie misst den Erfolg über konkrete Kennzahlen", "correct": false },
+      { "text": "Sie beschreibt Werte und Selbstverständnis", "correct": false }
+    ],
+    "explanation": "Eine Vision beschreibt ein langfristiges Zukunftsbild und gibt Orientierung."
+  },
+  {
+    "id": "lf-01-sach-ziel-002",
+    "question": "Was beschreibt ein Unternehmensleitbild?",
+    "answers": [
+      { "text": "Werte, Grundsätze und Selbstverständnis des Unternehmens", "correct": true },
+      { "text": "Ein langfristiges Zukunftsbild des Unternehmens", "correct": false },
+      { "text": "Messbare Vorgaben für operative Maßnahmen", "correct": false },
+      { "text": "Kennzahlen zur Bewertung der Wirtschaftlichkeit", "correct": false }
+    ],
+    "explanation": "Ein Leitbild beschreibt, wofür ein Unternehmen steht und woran es sich orientiert."
+  },
+  {
+    "id": "lf-01-sach-ziel-003",
+    "question": "Worin unterscheiden sich strategische und operative Ziele?",
+    "answers": [
+      { "text": "Strategische Ziele sind langfristiger, operative konkreter", "correct": true },
+      { "text": "Operative Ziele geben die langfristige Richtung vor", "correct": false },
+      { "text": "Strategische Ziele betreffen einzelne Tagesaufgaben", "correct": false },
+      { "text": "Operative Ziele ersetzen alle strategischen Vorgaben", "correct": false }
+    ],
+    "explanation": "Strategische Ziele geben langfristige Richtung, operative Ziele steuern konkrete Umsetzung."
+  },
+  {
+    "id": "lf-01-sach-ziel-004",
+    "question": "Welche Aussage passt zu Formalzielen?",
+    "answers": [
+      { "text": "Sie beziehen sich auf Erfolg, Gewinn oder Rentabilität", "correct": true },
+      { "text": "Sie beschreiben konkrete Produkte oder Leistungen", "correct": false },
+      { "text": "Sie legen einzelne Produktionsaufgaben fest", "correct": false },
+      { "text": "Sie zeigen ausschließlich soziale Zielsetzungen", "correct": false }
+    ],
+    "explanation": "Formalziele bewerten den wirtschaftlichen Erfolg eines Unternehmens."
+  },
+  {
+    "id": "lf-01-sach-ziel-005",
+    "question": "Welche Aussage passt zu Sachzielen?",
+    "answers": [
+      { "text": "Sie beschreiben konkrete Leistungen, Produkte oder Aufgaben", "correct": true },
+      { "text": "Sie bewerten den Erfolg über Gewinnkennzahlen", "correct": false },
+      { "text": "Sie messen die Verzinsung des eingesetzten Kapitals", "correct": false },
+      { "text": "Sie beschreiben nur finanzielle Erfolgsmaßstäbe", "correct": false }
+    ],
+    "explanation": "Sachziele legen fest, welche konkreten Leistungen ein Unternehmen erbringen will."
+  },
+  {
+    "id": "lf-01-sach-ziel-006",
+    "question": "Wann entsteht ein Zielkonflikt?",
+    "answers": [
+      { "text": "Wenn ein Ziel ein anderes Ziel erschwert", "correct": true },
+      { "text": "Wenn zwei Ziele sich gegenseitig unterstützen", "correct": false },
+      { "text": "Wenn Ziele unabhängig nebeneinanderstehen", "correct": false },
+      { "text": "Wenn mehrere Ziele dieselbe Wirkung haben", "correct": false }
+    ],
+    "explanation": "Zielkonflikte entstehen, wenn Ziele miteinander konkurrieren."
+  },
+  {
+    "id": "lf-01-sach-ziel-007",
+    "question": "Welches Beispiel beschreibt einen Zielkonflikt?",
+    "answers": [
+      { "text": "Kostensenkung und gleichzeitige Kapazitätserweiterung", "correct": true },
+      { "text": "Bessere Qualität und weniger Reklamationen", "correct": false },
+      { "text": "Mehr Service und höhere Kundenzufriedenheit", "correct": false },
+      { "text": "Kürzere Lieferzeit und schnellere Auslieferung", "correct": false }
+    ],
+    "explanation": "Kostensenkung und Kapazitätserweiterung können sich widersprechen, weil Erweiterung oft Investitionen erfordert."
+  },
+  {
+    "id": "lf-01-sach-ziel-008",
+    "question": "Warum sollten Ziele priorisiert werden?",
+    "answers": [
+      { "text": "Damit bei Zielkonflikten eine Rangfolge besteht", "correct": true },
+      { "text": "Damit komplementäre Ziele sich ausschließen", "correct": false },
+      { "text": "Damit operative Ziele strategische Ziele ersetzen", "correct": false },
+      { "text": "Damit Zielbeziehungen nicht mehr geprüft werden", "correct": false }
+    ],
+    "explanation": "Priorisierung hilft, Zielkonflikte bewusst zu lösen."
+  },
+  {
+    "id": "lf-01-sach-ziel-009",
+    "question": "Welche Gruppe zählt zu den Stakeholdern eines Unternehmens?",
+    "answers": [
+      { "text": "Kunden, Mitarbeiter, Lieferanten, Gesellschaft und Eigentümer", "correct": true },
+      { "text": "Nur Eigentümer mit Kapitalanteilen", "correct": false },
+      { "text": "Nur Kunden mit direktem Kaufvertrag", "correct": false },
+      { "text": "Nur interne Stellen der Aufbauorganisation", "correct": false }
+    ],
+    "explanation": "Stakeholder sind Anspruchsgruppen, die vom Unternehmen betroffen sind oder Einfluss nehmen."
+  },
+  {
+    "id": "lf-01-sach-ziel-010",
+    "question": "Welches Ziel ist typisch für erwerbswirtschaftliche Unternehmen?",
+    "answers": [
+      { "text": "Gewinnmaximierung oder Rentabilität", "correct": true },
+      { "text": "Reine Bedarfsdeckung ohne Erfolgsziel", "correct": false },
+      { "text": "Kostendeckung als alleiniger öffentlicher Zweck", "correct": false },
+      { "text": "Verzicht auf Umsatz- und Marktanteilsziele", "correct": false }
+    ],
+    "explanation": "Erwerbswirtschaftliche Unternehmen verfolgen häufig Gewinn-, Rentabilitäts- oder Marktanteilsziele."
+  },
+  {
+    "id": "lf-01-sach-ziel-011",
+    "question": "Welches Ziel kann für öffentliche Unternehmen typisch sein?",
+    "answers": [
+      { "text": "Bedarfsdeckung oder Kostendeckung", "correct": true },
+      { "text": "Maximale Ausschüttung an private Eigentümer", "correct": false },
+      { "text": "Gewinnmaximierung als alleiniger Zweck", "correct": false },
+      { "text": "Marktverdrängung durch Preisabsprachen", "correct": false }
+    ],
+    "explanation": "Öffentliche Unternehmen orientieren sich häufig an Versorgung, Bedarfsdeckung und Kostendeckung."
+  },
+  {
+    "id": "lf-01-sach-ziel-012",
+    "question": "Was misst Produktivität grundsätzlich?",
+    "answers": [
+      { "text": "Das Verhältnis von Output zu Input", "correct": true },
+      { "text": "Das Verhältnis von Gewinn zu Kapital", "correct": false },
+      { "text": "Das Verhältnis von Leistung zu Kosten", "correct": false },
+      { "text": "Die Fähigkeit, Zahlungen fristgerecht zu leisten", "correct": false }
+    ],
+    "explanation": "Produktivität zeigt, wie viel Ergebnis aus eingesetzten Mitteln entsteht."
+  },
+  {
+    "id": "lf-01-sach-ziel-013",
+    "question": "Was beschreibt Wirtschaftlichkeit?",
+    "answers": [
+      { "text": "Das Verhältnis von Leistung oder Ertrag zu Aufwand", "correct": true },
+      { "text": "Das Verhältnis von Output zu eingesetztem Input", "correct": false },
+      { "text": "Das Verhältnis von Gewinn zu Kapital", "correct": false },
+      { "text": "Die Fähigkeit, fällige Zahlungen zu leisten", "correct": false }
+    ],
+    "explanation": "Wirtschaftlichkeit zeigt, ob Aufwand und Ergebnis in einem günstigen Verhältnis stehen."
+  },
+  {
+    "id": "lf-01-sach-ziel-014",
+    "question": "Wann ist ein wirtschaftliches Handeln nach der Kennzahl Wirtschaftlichkeit positiv?",
+    "answers": [
+      { "text": "Wenn der Wert größer als 1 ist", "correct": true },
+      { "text": "Wenn Aufwand und Leistung gleich null sind", "correct": false },
+      { "text": "Wenn der Aufwand den Ertrag übersteigt", "correct": false },
+      { "text": "Wenn Kosten ohne Leistung entstehen", "correct": false }
+    ],
+    "explanation": "Eine Wirtschaftlichkeit größer als 1 bedeutet, dass der Ertrag beziehungsweise die Leistung den Aufwand übersteigt."
+  },
+  {
+    "id": "lf-01-sach-ziel-015",
+    "question": "Was beschreibt Rentabilität?",
+    "answers": [
+      { "text": "Das Verhältnis von Gewinn zu Kapital oder Umsatz", "correct": true },
+      { "text": "Das Verhältnis von Output zu Input", "correct": false },
+      { "text": "Das Verhältnis von Leistung zu Aufwand", "correct": false },
+      { "text": "Die Fähigkeit, Zahlungen fristgerecht zu leisten", "correct": false }
+    ],
+    "explanation": "Rentabilität zeigt, wie erfolgreich eingesetztes Kapital oder Umsatz Gewinn erzeugt."
+  },
+  {
+    "id": "lf-01-sach-ziel-016",
+    "question": "Welche Aussage zur SMART-Methode ist richtig?",
+    "answers": [
+      { "text": "Ziele sollen spezifisch, messbar und terminierbar sein", "correct": true },
+      { "text": "Ziele sollen allgemein und schwer prüfbar bleiben", "correct": false },
+      { "text": "SMART beschreibt einen Qualitätsprüfzyklus", "correct": false },
+      { "text": "SMART ersetzt Zielkonflikte durch Kennzahlen", "correct": false }
+    ],
+    "explanation": "SMART hilft dabei, Ziele klar und überprüfbar zu formulieren."
+  },
+  {
+    "id": "lf-01-sach-ziel-017",
+    "question": "Wozu dient Qualitätsmanagement?",
+    "answers": [
+      { "text": "Prozesse, Produkte und Dienstleistungen zu verbessern", "correct": true },
+      { "text": "Qualität erst nach der Auslieferung zu bewerten", "correct": false },
+      { "text": "Ziele nur über Gewinnkennzahlen zu steuern", "correct": false },
+      { "text": "Kundenanforderungen aus Prozessen auszuschließen", "correct": false }
+    ],
+    "explanation": "Qualitätsmanagement plant und steuert Maßnahmen zur Qualitätssicherung und Verbesserung."
+  },
+  {
+    "id": "lf-01-sach-ziel-018",
+    "question": "Welches Ziel kann Qualitätsmanagement verfolgen?",
+    "answers": [
+      { "text": "Kundenzufriedenheit und Produktqualität erhöhen", "correct": true },
+      { "text": "Fehlerkosten durch weniger Prüfung erhöhen", "correct": false },
+      { "text": "Prozessqualität ohne Kundenbezug bewerten", "correct": false },
+      { "text": "Verbesserungen auf Endkontrolle begrenzen", "correct": false }
+    ],
+    "explanation": "Qualitätsmanagement kann Kundenzufriedenheit, Prozessqualität und Produktqualität verbessern."
+  },
+  {
+    "id": "lf-01-sach-ziel-019",
+    "question": "Was ist die Grundidee des kontinuierlichen Verbesserungsprozesses?",
+    "answers": [
+      { "text": "Abläufe werden fortlaufend schrittweise verbessert", "correct": true },
+      { "text": "Verbesserungen erfolgen einmalig am Projektende", "correct": false },
+      { "text": "Fehler werden gesammelt, aber nicht ausgewertet", "correct": false },
+      { "text": "Prozesse bleiben trotz Ergebnissen unverändert", "correct": false }
+    ],
+    "explanation": "KVP setzt auf regelmäßige kleine Verbesserungen statt einmaliger Einzelmaßnahmen."
+  },
+  {
+    "id": "lf-01-sach-ziel-020",
+    "question": "Welche Reihenfolge passt zum PDCA-Zyklus?",
+    "answers": [
+      { "text": "Plan, Do, Check, Act", "correct": true },
+      { "text": "Plan, Check, Do, Act", "correct": false },
+      { "text": "Do, Plan, Act, Check", "correct": false },
+      { "text": "Check, Act, Plan, Do", "correct": false }
+    ],
+    "explanation": "PDCA beschreibt einen Verbesserungszyklus aus Planen, Umsetzen, Prüfen und Handeln."
+  }
+]

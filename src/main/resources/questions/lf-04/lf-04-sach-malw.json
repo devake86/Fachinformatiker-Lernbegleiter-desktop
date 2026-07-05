@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-malw-001",
+    "question": "Was beschreibt Malware?",
+    "answers": [
+      { "text": "Schädliche Software, die Systeme oder Daten beeinträchtigt", "correct": true },
+      { "text": "Schutzsoftware zur Erkennung von Angriffen", "correct": false },
+      { "text": "Software zur Absicherung von Endgeräten", "correct": false },
+      { "text": "Werkzeug zur Verwaltung von Sicherheitsupdates", "correct": false }
+    ],
+    "explanation": "Malware ist der Oberbegriff für schädliche Software wie Viren, Würmer, Trojaner oder Ransomware."
+  },
+  {
+    "id": "lf-04-sach-malw-002",
+    "question": "Welche Aussage zu Computerviren ist richtig?",
+    "answers": [
+      { "text": "Viren hängen sich meist an Dateien oder Programme an", "correct": true },
+      { "text": "Viren verbreiten sich typischerweise ohne Wirtsdatei", "correct": false },
+      { "text": "Viren tarnen sich vor allem als Schutzsoftware", "correct": false },
+      { "text": "Viren steuern viele Systeme zentral fern", "correct": false }
+    ],
+    "explanation": "Ein Computervirus benötigt meist einen Wirt, zum Beispiel eine Datei oder ein Programm."
+  },
+  {
+    "id": "lf-04-sach-malw-003",
+    "question": "Was unterscheidet einen Wurm typischerweise von einem Virus?",
+    "answers": [
+      { "text": "Ein Wurm kann sich selbstständig über Netzwerke verbreiten", "correct": true },
+      { "text": "Ein Wurm benötigt meist eine infizierte Wirtsdatei", "correct": false },
+      { "text": "Ein Wurm tarnt sich primär als nützliches Programm", "correct": false },
+      { "text": "Ein Wurm sperrt Daten und fordert Lösegeld", "correct": false }
+    ],
+    "explanation": "Würmer können sich ohne direkte Benutzeraktion über Netzwerke weiterverbreiten."
+  },
+  {
+    "id": "lf-04-sach-malw-004",
+    "question": "Was ist typisch für einen Trojaner?",
+    "answers": [
+      { "text": "Er tarnt sich als nützliches oder harmloses Programm", "correct": true },
+      { "text": "Er verbreitet sich selbstständig über Netzwerke", "correct": false },
+      { "text": "Er hängt sich typischerweise an Wirtsdateien an", "correct": false },
+      { "text": "Er zeigt hauptsächlich unerwünschte Werbung an", "correct": false }
+    ],
+    "explanation": "Trojaner täuschen eine legitime Funktion vor, führen aber im Hintergrund schädliche Aktionen aus."
+  },
+  {
+    "id": "lf-04-sach-malw-005",
+    "question": "Was macht Ransomware typischerweise?",
+    "answers": [
+      { "text": "Sie sperrt oder verschlüsselt Daten und fordert Lösegeld", "correct": true },
+      { "text": "Sie blendet Werbung zur Finanzierung ein", "correct": false },
+      { "text": "Sie protokolliert vor allem Tastatureingaben", "correct": false },
+      { "text": "Sie sammelt heimlich Nutzerdaten zur Analyse", "correct": false }
+    ],
+    "explanation": "Ransomware erpresst Betroffene, indem Daten verschlüsselt oder Systeme gesperrt werden."
+  },
+  {
+    "id": "lf-04-sach-malw-006",
+    "question": "Was beschreibt Scareware?",
+    "answers": [
+      { "text": "Software, die mit falschen Warnungen Angst erzeugt", "correct": true },
+      { "text": "Fake-Sicherheitssoftware mit vorgetäuschter Prüfung", "correct": false },
+      { "text": "Werbesoftware mit störenden Einblendungen", "correct": false },
+      { "text": "Malware zur verschlüsselten Erpressung", "correct": false }
+    ],
+    "explanation": "Scareware nutzt angebliche Sicherheitsprobleme, um Betroffene zu bestimmten Handlungen zu drängen."
+  },
+  {
+    "id": "lf-04-sach-malw-007",
+    "question": "Was ist Rogueware?",
+    "answers": [
+      { "text": "Gefälschte Sicherheitssoftware, die Probleme vortäuscht", "correct": true },
+      { "text": "Software mit falschen Warnungen zur Einschüchterung", "correct": false },
+      { "text": "Software mit unerwünschten Werbeeinblendungen", "correct": false },
+      { "text": "Malware mit verstecktem Zugriffskanal", "correct": false }
+    ],
+    "explanation": "Rogueware tritt oft als angebliche Schutzsoftware auf, verfolgt aber betrügerische oder schädliche Ziele."
+  },
+  {
+    "id": "lf-04-sach-malw-008",
+    "question": "Was beschreibt Adware?",
+    "answers": [
+      { "text": "Software, die unerwünschte Werbung einblendet", "correct": true },
+      { "text": "Software, die heimlich Nutzerdaten ausspäht", "correct": false },
+      { "text": "Fake-Schutzsoftware mit vorgetäuschter Prüfung", "correct": false },
+      { "text": "Malware, die Daten sperrt und Lösegeld fordert", "correct": false }
+    ],
+    "explanation": "Adware zeigt Werbung an und kann zusätzlich störend oder datenschutzkritisch sein."
+  },
+  {
+    "id": "lf-04-sach-malw-009",
+    "question": "Was ist eine Backdoor?",
+    "answers": [
+      { "text": "Ein versteckter Zugriffskanal für Angreifer", "correct": true },
+      { "text": "Ein Netzwerk fernsteuerbarer infizierter Systeme", "correct": false },
+      { "text": "Eine Schadfunktion innerhalb eines Angriffs", "correct": false },
+      { "text": "Eine Schwachstelle mit aktivem Exploit", "correct": false }
+    ],
+    "explanation": "Eine Backdoor ermöglicht Zugriff über einen versteckten oder nicht vorgesehenen Weg."
+  },
+  {
+    "id": "lf-04-sach-malw-010",
+    "question": "Was beschreibt ein Botnet?",
+    "answers": [
+      { "text": "Ein Netzwerk kompromittierter fernsteuerbarer Systeme", "correct": true },
+      { "text": "Ein einzelner versteckter Zugriffskanal", "correct": false },
+      { "text": "Ein lokaler Keylogger auf einem Endgerät", "correct": false },
+      { "text": "Ein Exploit zur Ausnutzung einer Schwachstelle", "correct": false }
+    ],
+    "explanation": "Botnetze bestehen aus infizierten Geräten, die von Angreifern zentral gesteuert werden können."
+  },
+  {
+    "id": "lf-04-sach-malw-011",
+    "question": "Wofür werden Botnetze häufig missbraucht?",
+    "answers": [
+      { "text": "Für DDoS-Angriffe, Spam oder weitere Angriffe", "correct": true },
+      { "text": "Für lokale Verschlüsselung einzelner Dateien", "correct": false },
+      { "text": "Für Tastaturaufzeichnung auf einem Endgerät", "correct": false },
+      { "text": "Für gefälschte Sicherheitswarnungen", "correct": false }
+    ],
+    "explanation": "Botnetze können viele kompromittierte Systeme gleichzeitig für Angriffe einsetzen."
+  },
+  {
+    "id": "lf-04-sach-malw-012",
+    "question": "Was ist ein DoS-Angriff?",
+    "answers": [
+      { "text": "Angriff zur Überlastung oder Unerreichbarkeit eines Dienstes", "correct": true },
+      { "text": "Verteilter Angriff vieler Systeme gleichzeitig", "correct": false },
+      { "text": "Ausnutzung einer Schwachstelle mit Schadcode", "correct": false },
+      { "text": "Ausspähen von Eingaben über Schadsoftware", "correct": false }
+    ],
+    "explanation": "DoS-Angriffe zielen auf die Verfügbarkeit eines Dienstes."
+  },
+  {
+    "id": "lf-04-sach-malw-013",
+    "question": "Was unterscheidet einen DDoS-Angriff von einem DoS-Angriff?",
+    "answers": [
+      { "text": "DDoS nutzt viele verteilte Systeme für den Angriff", "correct": true },
+      { "text": "DoS nutzt viele kompromittierte Systeme gleichzeitig", "correct": false },
+      { "text": "DDoS zielt primär auf Passwortdiebstahl", "correct": false },
+      { "text": "DoS beschreibt langfristige Infiltration", "correct": false }
+    ],
+    "explanation": "DDoS steht für verteilte Überlastung durch viele beteiligte Systeme."
+  },
+  {
+    "id": "lf-04-sach-malw-014",
+    "question": "Was ist ein Keylogger?",
+    "answers": [
+      { "text": "Programm oder Gerät zum Aufzeichnen von Tastatureingaben", "correct": true },
+      { "text": "Malware zur Verschlüsselung und Erpressung", "correct": false },
+      { "text": "Dienst zur Steuerung kompromittierter Systeme", "correct": false },
+      { "text": "Werkzeug zur Überlastung eines Online-Dienstes", "correct": false }
+    ],
+    "explanation": "Keylogger können Passwörter, TANs oder andere vertrauliche Eingaben ausspähen."
+  },
+  {
+    "id": "lf-04-sach-malw-015",
+    "question": "Welches Risiko entsteht durch einen Keylogger besonders?",
+    "answers": [
+      { "text": "Zugangsdaten können ausgespäht werden", "correct": true },
+      { "text": "Dienste können durch viele Anfragen ausfallen", "correct": false },
+      { "text": "Dateien können durch Lösegeldforderung gesperrt werden", "correct": false },
+      { "text": "Werbung kann dauerhaft eingeblendet werden", "correct": false }
+    ],
+    "explanation": "Keylogger gefährden besonders Vertraulichkeit und Zugriffssicherheit."
+  },
+  {
+    "id": "lf-04-sach-malw-016",
+    "question": "Was beschreibt ein APT-Angriff?",
+    "answers": [
+      { "text": "Einen langfristigen, zielgerichteten und professionellen Angriff", "correct": true },
+      { "text": "Eine kurzzeitige Überlastung eines Dienstes", "correct": false },
+      { "text": "Eine breit gestreute Werbeeinblendung", "correct": false },
+      { "text": "Ein automatisiertes Testen gestohlener Logins", "correct": false }
+    ],
+    "explanation": "APT-Angriffe sind fortgeschrittene, dauerhafte und gezielte Bedrohungen."
+  },
+  {
+    "id": "lf-04-sach-malw-017",
+    "question": "Was ist eine typische Eigenschaft von APT-Angriffen?",
+    "answers": [
+      { "text": "Sie zielen oft auf langfristige Infiltration ab", "correct": true },
+      { "text": "Sie beschränken sich auf einzelne Passwortversuche", "correct": false },
+      { "text": "Sie zeigen hauptsächlich unerwünschte Werbung", "correct": false },
+      { "text": "Sie dienen vor allem der lokalen Dateisuche", "correct": false }
+    ],
+    "explanation": "APT-Angriffe versuchen häufig, über längere Zeit unbemerkt Zugriff zu behalten."
+  },
+  {
+    "id": "lf-04-sach-malw-018",
+    "question": "Welche Maßnahme hilft grundsätzlich gegen Malware?",
+    "answers": [
+      { "text": "Aktuelle Systeme, Endpoint-Schutz und vorsichtiger Umgang", "correct": true },
+      { "text": "Stärkere Passwörter als einzige Schutzmaßnahme", "correct": false },
+      { "text": "Backups ohne Prüfung und Zugriffsschutz", "correct": false },
+      { "text": "Freigabe unbekannter Anhänge zur Analyse durch Nutzer", "correct": false }
+    ],
+    "explanation": "Malware-Risiken lassen sich durch Updates, Schutzsoftware und vorsichtiges Verhalten reduzieren."
+  },
+  {
+    "id": "lf-04-sach-malw-019",
+    "question": "Warum sind regelmäßige Updates eine wichtige Schutzmaßnahme?",
+    "answers": [
+      { "text": "Sie können bekannte Sicherheitslücken schließen", "correct": true },
+      { "text": "Sie ersetzen Endpoint-Schutz und Benutzerbewusstsein", "correct": false },
+      { "text": "Sie verhindern automatisch jede Fehlkonfiguration", "correct": false },
+      { "text": "Sie machen Backups und Wiederherstellung überflüssig", "correct": false }
+    ],
+    "explanation": "Updates schließen bekannte Schwachstellen, die sonst ausgenutzt werden könnten."
+  },
+  {
+    "id": "lf-04-sach-malw-020",
+    "question": "Welche Aussage zu Spam ist richtig?",
+    "answers": [
+      { "text": "Spam kann Werbung, Betrug oder Malware enthalten", "correct": true },
+      { "text": "Spam ist gezieltes Phishing gegen Führungskräfte", "correct": false },
+      { "text": "Spam ist ein verteilter Angriff auf Verfügbarkeit", "correct": false },
+      { "text": "Spam beschreibt versteckte Systemzugänge", "correct": false }
+    ],
+    "explanation": "Spam ist unerwünschte Massenkommunikation und kann Sicherheitsrisiken enthalten."
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "id": "lf-02-fach-hard-001",
+    "question": "Was beschreibt das EVA-Prinzip?",
+    "answers": [
+      { "text": "Eingabe, Verarbeitung und Ausgabe", "correct": true },
+      { "text": "Energieaufnahme, Verbrauch und Abwärme", "correct": false },
+      { "text": "Erweiterung, Verbindung und Anschluss", "correct": false },
+      { "text": "Einkauf, Vergleich und Auswahl", "correct": false }
+    ],
+    "explanation": "Merksatz: EVA beschreibt den Grundablauf der Datenverarbeitung."
+  },
+  {
+    "id": "lf-02-fach-hard-002",
+    "question": "Was ist die Zentraleinheit eines Computers?",
+    "answers": [
+      { "text": "Der zentrale Teil zur Verarbeitung", "correct": true },
+      { "text": "Die externe Anzeigeeinheit des Systems", "correct": false },
+      { "text": "Ein angeschlossenes Eingabegerät", "correct": false },
+      { "text": "Ein mobiles Zubehörgerät am Arbeitsplatz", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Zentraleinheit enthält zentrale Komponenten wie Mainboard, CPU, RAM und Datenträger."
+  },
+  {
+    "id": "lf-02-fach-hard-003",
+    "question": "Was ist ein Mainboard?",
+    "answers": [
+      { "text": "Die zentrale Hauptplatine des Computers", "correct": true },
+      { "text": "Ein externer Massenspeicher", "correct": false },
+      { "text": "Eine Schnittstelle für Bildausgabe", "correct": false },
+      { "text": "Ein Gehäuse für Druckmedien", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Mainboard verbindet zentrale Hardwarekomponenten miteinander."
+  },
+  {
+    "id": "lf-02-fach-hard-004",
+    "question": "Was ist ein Chipsatz?",
+    "answers": [
+      { "text": "Eine Steuerlogik für Datenflüsse", "correct": true },
+      { "text": "Ein Steckplatz für Arbeitsspeicher", "correct": false },
+      { "text": "Eine Schnittstelle für Monitore", "correct": false },
+      { "text": "Ein Gehäuseformat für Mainboards", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Chipsatz unterstützt die Kommunikation zwischen CPU, RAM, Speicher und Anschlüssen."
+  },
+  {
+    "id": "lf-02-fach-hard-005",
+    "question": "Was ist ein Formfaktor beim Mainboard?",
+    "answers": [
+      { "text": "Die Baugröße und Anschlussanordnung", "correct": true },
+      { "text": "Die Taktfrequenz des Prozessors", "correct": false },
+      { "text": "Die Kapazität des Arbeitsspeichers", "correct": false },
+      { "text": "Die Effizienzklasse des Netzteils", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Formfaktor bestimmt, ob Mainboard, Gehäuse und Netzteil zusammenpassen."
+  },
+  {
+    "id": "lf-02-fach-hard-006",
+    "question": "Was ist eine CPU?",
+    "answers": [
+      { "text": "Der zentrale Prozessor eines Computers", "correct": true },
+      { "text": "Ein Prozessor für Grafikberechnungen", "correct": false },
+      { "text": "Ein Speicher für laufende Programme", "correct": false },
+      { "text": "Eine Schnittstelle für externe Geräte", "correct": false }
+    ],
+    "explanation": "Merksatz: Die CPU führt Befehle aus und verarbeitet Daten."
+  },
+  {
+    "id": "lf-02-fach-hard-007",
+    "question": "Was ist eine GPU?",
+    "answers": [
+      { "text": "Ein Prozessor für Grafikberechnungen", "correct": true },
+      { "text": "Der zentrale Prozessor für Programmbefehle", "correct": false },
+      { "text": "Ein Massenspeicher mit Flash-Zellen", "correct": false },
+      { "text": "Ein Netzteil für mobile Geräte", "correct": false }
+    ],
+    "explanation": "Merksatz: Die GPU berechnet Bilder, Videos, Animationen und 3D-Grafiken."
+  },
+  {
+    "id": "lf-02-fach-hard-008",
+    "question": "Was ist ein CPU-Kern?",
+    "answers": [
+      { "text": "Eine Recheneinheit innerhalb der CPU", "correct": true },
+      { "text": "Ein Steckplatz für Erweiterungskarten", "correct": false },
+      { "text": "Ein Cachebereich auf dem Datenträger", "correct": false },
+      { "text": "Ein Anschluss für Bildschirmkabel", "correct": false }
+    ],
+    "explanation": "Merksatz: Mehrere Kerne können mehrere Aufgaben parallel oder schneller bearbeiten."
+  },
+  {
+    "id": "lf-02-fach-hard-009",
+    "question": "Was ist CPU-Cache?",
+    "answers": [
+      { "text": "Sehr schneller Zwischenspeicher der CPU", "correct": true },
+      { "text": "Dauerhafter Speicher für Archivdaten", "correct": false },
+      { "text": "Ein externer Speicher über USB", "correct": false },
+      { "text": "Ein Arbeitsspeichermodul im Notebook", "correct": false }
+    ],
+    "explanation": "Merksatz: Cache beschleunigt Zugriffe auf häufig benötigte Daten."
+  },
+  {
+    "id": "lf-02-fach-hard-010",
+    "question": "Was beschreibt die TDP eines Prozessors?",
+    "answers": [
+      { "text": "Die auszulegende Wärmeleistung", "correct": true },
+      { "text": "Die Anzahl der Prozessorkerne", "correct": false },
+      { "text": "Die Größe des CPU-Caches", "correct": false },
+      { "text": "Die Datenrate des Arbeitsspeichers", "correct": false }
+    ],
+    "explanation": "Merksatz: TDP hilft bei der Auswahl von Kühlung und Energieversorgung."
+  },
+  {
+    "id": "lf-02-fach-hard-011",
+    "question": "Was ist Arbeitsspeicher?",
+    "answers": [
+      { "text": "Flüchtiger Speicher für laufende Programme", "correct": true },
+      { "text": "Dauerhafter Speicher für installierte Daten", "correct": false },
+      { "text": "Ein Steckplatz für Grafikkarten", "correct": false },
+      { "text": "Eine Schnittstelle für Bildsignale", "correct": false }
+    ],
+    "explanation": "Merksatz: RAM speichert Daten nur während des Betriebs."
+  },
+  {
+    "id": "lf-02-fach-hard-012",
+    "question": "Was bedeutet volatil bei Speicher?",
+    "answers": [
+      { "text": "Daten gehen ohne Strom verloren", "correct": true },
+      { "text": "Daten bleiben nach dem Ausschalten erhalten", "correct": false },
+      { "text": "Daten werden magnetisch archiviert", "correct": false },
+      { "text": "Daten werden auf Flash dauerhaft abgelegt", "correct": false }
+    ],
+    "explanation": "Merksatz: Volatiler Speicher benötigt Strom, um Daten zu halten."
+  },
+  {
+    "id": "lf-02-fach-hard-013",
+    "question": "Was ist ein DIMM-Modul?",
+    "answers": [
+      { "text": "Ein Arbeitsspeichermodul für PCs", "correct": true },
+      { "text": "Ein kompakter RAM-Typ für Notebooks", "correct": false },
+      { "text": "Ein Steckplatz für Grafikkarten", "correct": false },
+      { "text": "Ein Anschluss für externe Displays", "correct": false }
+    ],
+    "explanation": "Merksatz: DIMMs werden typischerweise in Desktop-PCs und Servern genutzt."
+  },
+  {
+    "id": "lf-02-fach-hard-014",
+    "question": "Was ist ein SO-DIMM?",
+    "answers": [
+      { "text": "Ein kleineres RAM-Modul für mobile Geräte", "correct": true },
+      { "text": "Ein RAM-Modul für Desktop-PCs", "correct": false },
+      { "text": "Ein Massenspeicher mit Flash-Zellen", "correct": false },
+      { "text": "Ein Steckplatz für Erweiterungskarten", "correct": false }
+    ],
+    "explanation": "Merksatz: SO-DIMMs werden häufig in Notebooks und kompakten Systemen eingesetzt."
+  },
+  {
+    "id": "lf-02-fach-hard-015",
+    "question": "Was ist ECC-Speicher?",
+    "answers": [
+      { "text": "RAM mit Fehlererkennung und Korrektur", "correct": true },
+      { "text": "RAM mit besonders kleinem Formfaktor", "correct": false },
+      { "text": "Massenspeicher mit magnetischen Scheiben", "correct": false },
+      { "text": "Zwischenspeicher innerhalb der CPU", "correct": false }
+    ],
+    "explanation": "Merksatz: ECC verbessert die Zuverlässigkeit, besonders bei Servern und Workstations."
+  },
+  {
+    "id": "lf-02-fach-hard-016",
+    "question": "Was ist eine HDD?",
+    "answers": [
+      { "text": "Ein magnetischer Massenspeicher", "correct": true },
+      { "text": "Ein elektronischer Flash-Massenspeicher", "correct": false },
+      { "text": "Ein flüchtiger Arbeitsspeicher", "correct": false },
+      { "text": "Ein optisches Ausgabegerät", "correct": false }
+    ],
+    "explanation": "Merksatz: HDDs speichern Daten magnetisch auf rotierenden Scheiben."
+  },
+  {
+    "id": "lf-02-fach-hard-017",
+    "question": "Was ist eine SSD?",
+    "answers": [
+      { "text": "Ein elektronischer Massenspeicher", "correct": true },
+      { "text": "Ein magnetischer Massenspeicher", "correct": false },
+      { "text": "Ein flüchtiger Arbeitsspeicher", "correct": false },
+      { "text": "Ein externer Bildschirmanschluss", "correct": false }
+    ],
+    "explanation": "Merksatz: SSDs speichern Daten auf Flash-Speicher und haben keine beweglichen Teile."
+  },
+  {
+    "id": "lf-02-fach-hard-018",
+    "question": "Was ist eine SSHD?",
+    "answers": [
+      { "text": "Ein Hybridlaufwerk aus HDD und Flash", "correct": true },
+      { "text": "Ein reines Flash-Laufwerk", "correct": false },
+      { "text": "Ein flüchtiges RAM-Modul", "correct": false },
+      { "text": "Ein optisches Eingabegerät", "correct": false }
+    ],
+    "explanation": "Merksatz: SSHDs kombinieren Massenspeicher mit einem schnellen Flash-Anteil."
+  },
+  {
+    "id": "lf-02-fach-hard-019",
+    "question": "Was ist eine Partition?",
+    "answers": [
+      { "text": "Ein logischer Bereich eines Datenträgers", "correct": true },
+      { "text": "Ein physischer Kern der CPU", "correct": false },
+      { "text": "Ein Steckplatz auf dem Mainboard", "correct": false },
+      { "text": "Ein Anschluss für externe Monitore", "correct": false }
+    ],
+    "explanation": "Merksatz: Partitionen teilen einen Datenträger logisch in Bereiche auf."
+  },
+  {
+    "id": "lf-02-fach-hard-020",
+    "question": "Was ist ein Dateisystem?",
+    "answers": [
+      { "text": "Eine Struktur zur Verwaltung von Dateien", "correct": true },
+      { "text": "Eine logische Aufteilung eines Datenträgers", "correct": false },
+      { "text": "Ein physischer Massenspeicher", "correct": false },
+      { "text": "Ein schneller Zwischenspeicher der CPU", "correct": false }
+    ],
+    "explanation": "Merksatz: Dateisysteme organisieren, wie Daten auf Datenträgern gespeichert werden."
+  },
+  {
+    "id": "lf-02-fach-hard-021",
+    "question": "Was ist DAS?",
+    "answers": [
+      { "text": "Direkt angeschlossener Speicher", "correct": true },
+      { "text": "Speicher als Netzwerkdienst", "correct": false },
+      { "text": "Ein eigenes Speichernetzwerk", "correct": false },
+      { "text": "Ein virtueller Arbeitsplatzdienst", "correct": false }
+    ],
+    "explanation": "Merksatz: DAS ist direkt und meist exklusiv mit einem Rechner verbunden."
+  },
+  {
+    "id": "lf-02-fach-hard-022",
+    "question": "Was ist NAS?",
+    "answers": [
+      { "text": "Speicher, der über das Netzwerk bereitsteht", "correct": true },
+      { "text": "Direkt angeschlossener lokaler Speicher", "correct": false },
+      { "text": "Ein eigenes Speichernetzwerk auf Blockebene", "correct": false },
+      { "text": "Ein flüchtiger Speicher für Programme", "correct": false }
+    ],
+    "explanation": "Merksatz: NAS stellt Speicher zentral als Netzwerkdienst bereit."
+  },
+  {
+    "id": "lf-02-fach-hard-023",
+    "question": "Was ist SAN?",
+    "answers": [
+      { "text": "Ein eigenes Speichernetzwerk", "correct": true },
+      { "text": "Ein Dateispeicher als Netzwerkfreigabe", "correct": false },
+      { "text": "Ein direkt angeschlossener Datenträger", "correct": false },
+      { "text": "Ein Arbeitsspeichermodul für Server", "correct": false }
+    ],
+    "explanation": "Merksatz: SAN bündelt Speicherressourcen für mehrere Systeme über ein Speichernetz."
+  },
+  {
+    "id": "lf-02-fach-hard-024",
+    "question": "Was ist ein Netzteil im Computer?",
+    "answers": [
+      { "text": "Die Stromversorgung der Komponenten", "correct": true },
+      { "text": "Die zentrale Hauptplatine", "correct": false },
+      { "text": "Der Prozessor für Grafiksignale", "correct": false },
+      { "text": "Der Massenspeicher für Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Netzteil wandelt Netzspannung in benötigte Gleichspannungen um."
+  },
+  {
+    "id": "lf-02-fach-hard-025",
+    "question": "Was beschreibt die Leistung eines Netzteils in Watt?",
+    "answers": [
+      { "text": "Die mögliche elektrische Leistungsabgabe", "correct": true },
+      { "text": "Die Effizienzklasse des Netzteils", "correct": false },
+      { "text": "Die Taktfrequenz des Prozessors", "correct": false },
+      { "text": "Die Kapazität des Arbeitsspeichers", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Netzteilleistung muss zum Bedarf der Komponenten passen."
+  },
+  {
+    "id": "lf-02-fach-hard-026",
+    "question": "Was ist eine 80-Plus-Zertifizierung?",
+    "answers": [
+      { "text": "Ein Hinweis auf Netzteil-Effizienz", "correct": true },
+      { "text": "Ein Hinweis auf Netzteil-Leistungsreserve", "correct": false },
+      { "text": "Ein Hinweis auf CPU-Kühlleistung", "correct": false },
+      { "text": "Ein Hinweis auf SSD-Schreibrate", "correct": false }
+    ],
+    "explanation": "Merksatz: 80 Plus bewertet die Energieeffizienz von Netzteilen."
+  },
+  {
+    "id": "lf-02-fach-hard-027",
+    "question": "Was ist USB?",
+    "answers": [
+      { "text": "Eine universelle serielle Schnittstelle", "correct": true },
+      { "text": "Eine digitale Bild- und Tonschnittstelle", "correct": false },
+      { "text": "Eine schnelle interne Erweiterungsschnittstelle", "correct": false },
+      { "text": "Ein Speichernetzwerk für Server", "correct": false }
+    ],
+    "explanation": "Merksatz: USB verbindet Peripheriegeräte und überträgt Daten oder Strom."
+  },
+  {
+    "id": "lf-02-fach-hard-028",
+    "question": "Was ist HDMI?",
+    "answers": [
+      { "text": "Eine digitale Bild- und Tonschnittstelle", "correct": true },
+      { "text": "Eine universelle serielle Schnittstelle", "correct": false },
+      { "text": "Eine interne Erweiterungsschnittstelle", "correct": false },
+      { "text": "Ein Formfaktor für Arbeitsspeicher", "correct": false }
+    ],
+    "explanation": "Merksatz: HDMI verbindet z. B. Computer, Monitore und Projektoren digital."
+  },
+  {
+    "id": "lf-02-fach-hard-029",
+    "question": "Was ist DisplayPort?",
+    "answers": [
+      { "text": "Eine digitale Schnittstelle für Bildsignale", "correct": true },
+      { "text": "Eine Schnittstelle für Massenspeicher", "correct": false },
+      { "text": "Eine Schnittstelle für Arbeitsspeicher", "correct": false },
+      { "text": "Eine Stromversorgung für Mainboards", "correct": false }
+    ],
+    "explanation": "Merksatz: DisplayPort wird häufig für Monitore mit hoher Auflösung oder Bildfrequenz genutzt."
+  },
+  {
+    "id": "lf-02-fach-hard-030",
+    "question": "Was ist PCIe?",
+    "answers": [
+      { "text": "Eine schnelle interne Erweiterungsschnittstelle", "correct": true },
+      { "text": "Eine externe Schnittstelle für Peripherie", "correct": false },
+      { "text": "Eine Bildschnittstelle für Monitore", "correct": false },
+      { "text": "Ein Dateisystem für SSDs", "correct": false }
+    ],
+    "explanation": "Merksatz: PCIe verbindet z. B. Grafikkarten, SSDs oder Erweiterungskarten mit dem Mainboard."
+  },
+  {
+    "id": "lf-02-fach-hard-031",
+    "question": "Was ist ein Desktop-PC?",
+    "answers": [
+      { "text": "Ein stationärer Arbeitsplatzcomputer", "correct": true },
+      { "text": "Ein mobiler Computer mit Akku", "correct": false },
+      { "text": "Ein zentral bereitgestellter virtueller Desktop", "correct": false },
+      { "text": "Ein stark reduzierter Client für Serverdienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Desktop-PCs sind für feste Arbeitsplätze ausgelegt."
+  },
+  {
+    "id": "lf-02-fach-hard-032",
+    "question": "Was ist eine Workstation?",
+    "answers": [
+      { "text": "Ein besonders leistungsfähiger Arbeitsplatzrechner", "correct": true },
+      { "text": "Ein kompakter Arbeitsplatzcomputer", "correct": false },
+      { "text": "Ein tragbarer Computer mit Akku", "correct": false },
+      { "text": "Ein Client für zentrale Serverumgebungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Workstations sind für anspruchsvolle Aufgaben wie CAD, Rendering oder Datenverarbeitung ausgelegt."
+  },
+  {
+    "id": "lf-02-fach-hard-033",
+    "question": "Was ist ein All-in-One-PC?",
+    "answers": [
+      { "text": "Ein PC mit integrierter Anzeigeeinheit", "correct": true },
+      { "text": "Ein Desktop-PC mit separatem Tower", "correct": false },
+      { "text": "Ein Server für virtuelle Maschinen", "correct": false },
+      { "text": "Ein tragbares Gerät mit Touchscreen", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim All-in-One-PC sind Rechnerkomponenten und Monitor in einem Gerät kombiniert."
+  },
+  {
+    "id": "lf-02-fach-hard-034",
+    "question": "Was ist ein Mini-PC?",
+    "answers": [
+      { "text": "Ein kompakter Arbeitsplatzcomputer", "correct": true },
+      { "text": "Ein besonders großer Tower-PC", "correct": false },
+      { "text": "Ein mobiler Computer mit Klappdisplay", "correct": false },
+      { "text": "Ein zentraler Server im Rack", "correct": false }
+    ],
+    "explanation": "Merksatz: Mini-PCs sparen Platz und eignen sich für einfache bis mittlere Arbeitsplatzaufgaben."
+  },
+  {
+    "id": "lf-02-fach-hard-035",
+    "question": "Was ist ein Notebook?",
+    "answers": [
+      { "text": "Ein tragbarer Computer", "correct": true },
+      { "text": "Ein stationärer Arbeitsplatzcomputer", "correct": false },
+      { "text": "Ein Desktop mit integrierter Anzeige", "correct": false },
+      { "text": "Ein reduzierter Client für zentrale Desktops", "correct": false }
+    ],
+    "explanation": "Merksatz: Notebooks verbinden Rechner, Bildschirm, Tastatur und Akku in einem mobilen Gerät."
+  },
+  {
+    "id": "lf-02-fach-hard-036",
+    "question": "Was ist ein Tablet?",
+    "answers": [
+      { "text": "Ein mobiles Gerät mit Touchscreen", "correct": true },
+      { "text": "Ein stationärer Arbeitsplatzcomputer", "correct": false },
+      { "text": "Ein externer Datenträger", "correct": false },
+      { "text": "Ein interner Erweiterungssteckplatz", "correct": false }
+    ],
+    "explanation": "Merksatz: Tablets sind besonders auf mobile Bedienung per Touchscreen ausgelegt."
+  },
+  {
+    "id": "lf-02-fach-hard-037",
+    "question": "Was ist eine Dockingstation?",
+    "answers": [
+      { "text": "Eine Anschlussstation für mobile Geräte", "correct": true },
+      { "text": "Ein interner Steckplatz für Grafikkarten", "correct": false },
+      { "text": "Ein Massenspeicher mit Flash-Zellen", "correct": false },
+      { "text": "Ein virtueller Desktopdienst", "correct": false }
+    ],
+    "explanation": "Merksatz: Dockingstationen verbinden Notebooks schnell mit Monitoren, Netzwerk und Peripherie."
+  },
+  {
+    "id": "lf-02-fach-hard-038",
+    "question": "Was ist ein Thin Client?",
+    "answers": [
+      { "text": "Ein schlanker Client für zentrale Dienste", "correct": true },
+      { "text": "Ein leistungsstarker lokaler Arbeitsplatz-PC", "correct": false },
+      { "text": "Ein Server zur Verwaltung virtueller Maschinen", "correct": false },
+      { "text": "Ein externer Speicher ohne Netzwerkzugriff", "correct": false }
+    ],
+    "explanation": "Merksatz: Thin Clients nutzen meist zentrale Server oder virtuelle Desktops."
+  },
+  {
+    "id": "lf-02-fach-hard-039",
+    "question": "Was ist ein Zero Client?",
+    "answers": [
+      { "text": "Ein sehr reduzierter Client für zentrale Umgebung", "correct": true },
+      { "text": "Ein eigenständig leistungsfähiger Arbeitsplatz-PC", "correct": false },
+      { "text": "Ein Server für lokale Dateifreigaben", "correct": false },
+      { "text": "Ein Massenspeicher mit Betriebssystem", "correct": false }
+    ],
+    "explanation": "Merksatz: Zero Clients sind stark auf eine zentrale Desktop-Infrastruktur ausgerichtet."
+  },
+  {
+    "id": "lf-02-fach-hard-040",
+    "question": "Was ist Desktop as a Service?",
+    "answers": [
+      { "text": "Bereitstellung virtueller Arbeitsplätze als Dienst", "correct": true },
+      { "text": "Bereitstellung lokaler Drucker als Zubehör", "correct": false },
+      { "text": "Bereitstellung interner Steckplätze", "correct": false },
+      { "text": "Bereitstellung physischer Monitorkabel", "correct": false }
+    ],
+    "explanation": "Merksatz: DaaS stellt Arbeitsumgebungen zentral und ortsunabhängig bereit."
+  },
+  {
+    "id": "lf-02-fach-hard-041",
+    "question": "Was ist ein Hypervisor?",
+    "answers": [
+      { "text": "Software zur Verwaltung virtueller Maschinen", "correct": true },
+      { "text": "Ein emulierter Computer in Software", "correct": false },
+      { "text": "Ein Desktopdienst aus der Cloud", "correct": false },
+      { "text": "Ein Anschluss für mobile Geräte", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Hypervisor stellt virtuellen Maschinen Hardware-Ressourcen bereit."
+  },
+  {
+    "id": "lf-02-fach-hard-042",
+    "question": "Was ist eine virtuelle Maschine?",
+    "answers": [
+      { "text": "Ein emulierter Computer in Software", "correct": true },
+      { "text": "Software zur Verwaltung virtueller Maschinen", "correct": false },
+      { "text": "Ein physischer Arbeitsplatzcomputer", "correct": false },
+      { "text": "Ein externer Anschluss für Peripherie", "correct": false }
+    ],
+    "explanation": "Merksatz: Virtuelle Maschinen nutzen virtuelle CPU-, RAM-, Speicher- und Netzwerkressourcen."
+  },
+  {
+    "id": "lf-02-fach-hard-043",
+    "question": "Was ist Peripherie?",
+    "answers": [
+      { "text": "Zusatzgeräte für Ein- und Ausgabe", "correct": true },
+      { "text": "Zentrale Komponenten für Verarbeitung", "correct": false },
+      { "text": "Interne Steuerlogik des Mainboards", "correct": false },
+      { "text": "Logische Bereiche eines Datenträgers", "correct": false }
+    ],
+    "explanation": "Merksatz: Peripheriegeräte erweitern den Computer, z. B. Tastatur, Maus, Monitor, Drucker oder Scanner."
+  },
+  {
+    "id": "lf-02-fach-hard-044",
+    "question": "Was ist ein Multifunktionsdrucker?",
+    "answers": [
+      { "text": "Ein Gerät mit mehreren Bürofunktionen", "correct": true },
+      { "text": "Ein Drucker für einzelne Arbeitsplatznähe", "correct": false },
+      { "text": "Ein Scanner für viele Dokumentseiten", "correct": false },
+      { "text": "Ein Monitor mit Flüssigkristalltechnik", "correct": false }
+    ],
+    "explanation": "Merksatz: Multifunktionsdrucker kombinieren häufig Drucken, Scannen, Kopieren und teilweise Faxen."
+  },
+  {
+    "id": "lf-02-fach-hard-045",
+    "question": "Was ist ein Arbeitsplatzdrucker?",
+    "answers": [
+      { "text": "Ein Drucker für einzelne oder wenige Nutzer", "correct": true },
+      { "text": "Ein Drucker für viele Nutzer einer Abteilung", "correct": false },
+      { "text": "Ein Gerät zur Digitalisierung von Vorlagen", "correct": false },
+      { "text": "Ein Drucker mit mehreren Bürofunktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Arbeitsplatzdrucker sind für kleinere Druckmengen in Arbeitsplatznähe gedacht."
+  },
+  {
+    "id": "lf-02-fach-hard-046",
+    "question": "Was ist ein Abteilungsdrucker?",
+    "answers": [
+      { "text": "Ein Drucker für mehrere Nutzer einer Gruppe", "correct": true },
+      { "text": "Ein Drucker für einzelne Arbeitsplatznähe", "correct": false },
+      { "text": "Ein Scanner mit flacher Glasauflage", "correct": false },
+      { "text": "Ein Display mit guter Blickwinkelstabilität", "correct": false }
+    ],
+    "explanation": "Merksatz: Abteilungsdrucker sind für höhere Druckmengen und mehrere Benutzer ausgelegt."
+  },
+  {
+    "id": "lf-02-fach-hard-047",
+    "question": "Was ist ein Tintenstrahldrucker?",
+    "answers": [
+      { "text": "Ein Drucker, der Tinte auf Papier bringt", "correct": true },
+      { "text": "Ein Drucker mit Tonerpulver und Fixierung", "correct": false },
+      { "text": "Ein Gerät zur Digitalisierung von Vorlagen", "correct": false },
+      { "text": "Ein Monitor mit Flüssigkristalltechnik", "correct": false }
+    ],
+    "explanation": "Merksatz: Tintenstrahldrucker eignen sich oft für Farbdruck und Fotos, können aber höhere Verbrauchskosten haben."
+  },
+  {
+    "id": "lf-02-fach-hard-048",
+    "question": "Was ist ein Laserdrucker?",
+    "answers": [
+      { "text": "Ein Drucker mit xerografischem Druckprinzip", "correct": true },
+      { "text": "Ein Drucker mit flüssiger Tinte", "correct": false },
+      { "text": "Ein Scanner mit automatischem Einzug", "correct": false },
+      { "text": "Ein mobiles Gerät mit Touchscreen", "correct": false }
+    ],
+    "explanation": "Merksatz: Laserdrucker sind oft schnell und bei hohem Druckvolumen wirtschaftlich."
+  },
+  {
+    "id": "lf-02-fach-hard-049",
+    "question": "Was ist ein Scanner?",
+    "answers": [
+      { "text": "Ein Gerät zur Digitalisierung von Vorlagen", "correct": true },
+      { "text": "Ein Gerät zur Ausgabe von Papierdokumenten", "correct": false },
+      { "text": "Ein Prozessor für Grafikberechnungen", "correct": false },
+      { "text": "Ein Netzwerkanschluss für Peripherie", "correct": false }
+    ],
+    "explanation": "Merksatz: Scanner erfassen Papierdokumente oder Bilder digital."
+  },
+  {
+    "id": "lf-02-fach-hard-050",
+    "question": "Was ist ein Flachbettscanner?",
+    "answers": [
+      { "text": "Ein Scanner mit flacher Glasauflage", "correct": true },
+      { "text": "Ein Scanner für Stapelverarbeitung", "correct": false },
+      { "text": "Ein Drucker mit Tonerpulver", "correct": false },
+      { "text": "Ein Monitor mit hoher Bildfrequenz", "correct": false }
+    ],
+    "explanation": "Merksatz: Flachbettscanner eignen sich für einzelne Dokumente, Bücher oder empfindliche Vorlagen."
+  },
+  {
+    "id": "lf-02-fach-hard-051",
+    "question": "Was ist ein Dokumentenscanner?",
+    "answers": [
+      { "text": "Ein Scanner für viele Dokumentseiten", "correct": true },
+      { "text": "Ein Scanner mit flacher Glasauflage", "correct": false },
+      { "text": "Ein Drucker für einzelne Nutzer", "correct": false },
+      { "text": "Ein Displaypanel für farbtreue Darstellung", "correct": false }
+    ],
+    "explanation": "Merksatz: Dokumentenscanner sind auf schnelles Einscannen vieler Seiten ausgelegt."
+  },
+  {
+    "id": "lf-02-fach-hard-052",
+    "question": "Was ist ein LCD-Monitor?",
+    "answers": [
+      { "text": "Ein Monitor mit Flüssigkristalltechnik", "correct": true },
+      { "text": "Ein Monitor mit Papierausgabe", "correct": false },
+      { "text": "Ein Scanner mit Glasauflage", "correct": false },
+      { "text": "Ein elektronischer Massenspeicher", "correct": false }
+    ],
+    "explanation": "Merksatz: LCDs nutzen Flüssigkristalle zur Bilddarstellung."
+  },
+  {
+    "id": "lf-02-fach-hard-053",
+    "question": "Was ist ein IPS-Panel?",
+    "answers": [
+      { "text": "Ein Displaypanel mit guter Blickwinkelstabilität", "correct": true },
+      { "text": "Ein Displayanschluss für Bildsignale", "correct": false },
+      { "text": "Ein Arbeitsspeichermodul für PCs", "correct": false },
+      { "text": "Ein Drucker für hohe Abteilungsleistung", "correct": false }
+    ],
+    "explanation": "Merksatz: IPS-Panels sind oft für farbtreue und blickwinkelstabile Darstellung geeignet."
+  },
+  {
+    "id": "lf-02-fach-hard-054",
+    "question": "Was ist die Bildwiederholfrequenz?",
+    "answers": [
+      { "text": "Die Anzahl der Bilder pro Sekunde", "correct": true },
+      { "text": "Die diagonale Größe des Displays", "correct": false },
+      { "text": "Die Lichtstärke der Anzeige", "correct": false },
+      { "text": "Das Verhältnis heller und dunkler Bildwerte", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Bildwiederholfrequenz wird in Hertz angegeben."
+  },
+  {
+    "id": "lf-02-fach-hard-055",
+    "question": "Was ist die Bildschirmdiagonale?",
+    "answers": [
+      { "text": "Die diagonale Größe des Displays", "correct": true },
+      { "text": "Die Anzahl der Bilder pro Sekunde", "correct": false },
+      { "text": "Die Lichtstärke der Anzeige", "correct": false },
+      { "text": "Das Verhältnis von hell zu dunkel", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Bildschirmdiagonale wird meist in Zoll angegeben."
+  },
+  {
+    "id": "lf-02-fach-hard-056",
+    "question": "Was ist Helligkeit bei Monitoren?",
+    "answers": [
+      { "text": "Die Lichtstärke der Anzeige", "correct": true },
+      { "text": "Die diagonale Größe des Displays", "correct": false },
+      { "text": "Die Anzahl der Bilder pro Sekunde", "correct": false },
+      { "text": "Die Aufteilung eines Datenträgers", "correct": false }
+    ],
+    "explanation": "Merksatz: Monitorhelligkeit wird häufig in Candela pro Quadratmeter angegeben."
+  },
+  {
+    "id": "lf-02-fach-hard-057",
+    "question": "Was ist Kontrast bei einem Monitor?",
+    "answers": [
+      { "text": "Das Verhältnis von hellstem zu dunkelstem Bildwert", "correct": true },
+      { "text": "Die Lichtstärke der Anzeige", "correct": false },
+      { "text": "Die diagonale Größe des Displays", "correct": false },
+      { "text": "Die Anzahl der Bilder pro Sekunde", "correct": false }
+    ],
+    "explanation": "Merksatz: Hoher Kontrast verbessert die Unterscheidung heller und dunkler Bildbereiche."
+  },
+  {
+    "id": "lf-02-fach-hard-058",
+    "question": "Was ist ergonomische Hardware?",
+    "answers": [
+      { "text": "Hardware zur gesunden und passenden Nutzung", "correct": true },
+      { "text": "Hardware mit maximaler Rechenleistung", "correct": false },
+      { "text": "Hardware für zentrale Serverräume", "correct": false },
+      { "text": "Hardware zur dauerhaften Datenspeicherung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ergonomische Hardware unterstützt gesunde Haltung, Bedienbarkeit und langfristiges Arbeiten."
+  },
+  {
+    "id": "lf-02-fach-hard-059",
+    "question": "Was ist Barrierefreiheit bei IT-Arbeitsplätzen?",
+    "answers": [
+      { "text": "Nutzbarkeit für Menschen mit unterschiedlichen Einschränkungen", "correct": true },
+      { "text": "Optimierung auf maximale Prozessorleistung", "correct": false },
+      { "text": "Reduzierung der Netzteilleistung", "correct": false },
+      { "text": "Auswahl besonders großer Massenspeicher", "correct": false }
+    ],
+    "explanation": "Merksatz: Barrierefreiheit berücksichtigt z. B. Seh-, Hör-, Motorik- oder Bedienanforderungen."
+  },
+  {
+    "id": "lf-02-fach-hard-060",
+    "question": "Was ist ein Datenschutzfilter?",
+    "answers": [
+      { "text": "Ein Sichtschutz für Bildschirminhalte", "correct": true },
+      { "text": "Ein Fehlerkorrekturverfahren für RAM", "correct": false },
+      { "text": "Ein Effizienzzertifikat für Netzteile", "correct": false },
+      { "text": "Ein Filter für Druckerverbrauchsmaterial", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenschutzfilter erschweren seitliches Mitlesen am Bildschirm."
+  }
+]

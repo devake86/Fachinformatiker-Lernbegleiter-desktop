@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-fach-tick-001",
+    "question": "Was beschreibt eine Serviceanfrage?",
+    "answers": [
+      { "text": "Anfrage eines Kunden zu einem IT-Service", "correct": true },
+      { "text": "Ungeplante Störung eines IT-Services", "correct": false },
+      { "text": "Anfrage zur Änderung eines IT-Objekts", "correct": false },
+      { "text": "Dokumentierter Vorgang im Ticketsystem", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Serviceanfrage ist ein Kundenanliegen zu einem IT-Service."
+  },
+  {
+    "id": "lf-06-fach-tick-002",
+    "question": "Was beschreibt ein Service Request?",
+    "answers": [
+      { "text": "Standardisierte Anfrage nach einer Serviceleistung", "correct": true },
+      { "text": "Ungeplante Unterbrechung eines Services", "correct": false },
+      { "text": "Anfrage zur Änderung eines Services", "correct": false },
+      { "text": "Eskalierter Fall mit Spezialproblem", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Service Request ist eine normale Anfrage nach einer definierten Serviceleistung."
+  },
+  {
+    "id": "lf-06-fach-tick-003",
+    "question": "Was beschreibt ein Incident?",
+    "answers": [
+      { "text": "Ungeplante Unterbrechung oder Qualitätsminderung eines IT-Services", "correct": true },
+      { "text": "Standardisierte Anfrage nach Serviceleistung", "correct": false },
+      { "text": "Geplante Änderung eines IT-Services", "correct": false },
+      { "text": "Dokumentierter bekannter Fehler mit Ursache", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Incident ist eine Störung, die den normalen Servicebetrieb beeinträchtigt."
+  },
+  {
+    "id": "lf-06-fach-tick-004",
+    "question": "Was beschreibt ein Request for Change?",
+    "answers": [
+      { "text": "Anfrage zur Änderung eines IT-Services oder IT-Objekts", "correct": true },
+      { "text": "Meldung einer ungeplanten Serviceunterbrechung", "correct": false },
+      { "text": "Standardanfrage nach definierter Serviceleistung", "correct": false },
+      { "text": "Dokumentation des aktuellen Ticketstatus", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Request for Change beschreibt eine gewünschte Änderung mit möglicher Auswirkung auf die IT."
+  },
+  {
+    "id": "lf-06-fach-tick-005",
+    "question": "Was beschreibt ein Ticket im Servicedesk?",
+    "answers": [
+      { "text": "Dokumentierter Vorgang zu Anfrage oder Störung", "correct": true },
+      { "text": "Standardisierte Serviceleistung im Katalog", "correct": false },
+      { "text": "Aktueller Bearbeitungsstand eines Falls", "correct": false },
+      { "text": "Zentrale Anlaufstelle für Kundenanliegen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Ticket dokumentiert Servicefälle nachvollziehbar von Annahme bis Abschluss."
+  },
+  {
+    "id": "lf-06-fach-tick-006",
+    "question": "Was beschreibt ein Ticketsystem?",
+    "answers": [
+      { "text": "System zur Erfassung und Nachverfolgung von Servicefällen", "correct": true },
+      { "text": "Zentrale Kontaktstelle für alle Servicefälle", "correct": false },
+      { "text": "Supportstufe für vertiefte technische Analyse", "correct": false },
+      { "text": "Matrix zur Klärung von Verantwortlichkeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Ticketsystem macht Servicefälle strukturiert bearbeitbar und nachvollziehbar."
+  },
+  {
+    "id": "lf-06-fach-tick-007",
+    "question": "Was beschreibt der Ticketstatus?",
+    "answers": [
+      { "text": "Aktueller Bearbeitungsstand eines Tickets", "correct": true },
+      { "text": "Fachliche Zuordnung eines Servicefalls", "correct": false },
+      { "text": "Einordnung nach Art oder Merkmalen", "correct": false },
+      { "text": "Festlegung der Bearbeitungsreihenfolge", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Ticketstatus zeigt, wo ein Servicefall im Bearbeitungsprozess steht."
+  },
+  {
+    "id": "lf-06-fach-tick-008",
+    "question": "Was beschreibt Kategorisierung bei Servicefällen?",
+    "answers": [
+      { "text": "Zuordnung eines Tickets zu Themen- oder Fachbereich", "correct": true },
+      { "text": "Einordnung eines Vorgangs nach Art und Merkmalen", "correct": false },
+      { "text": "Festlegung der Bearbeitung nach Dringlichkeit", "correct": false },
+      { "text": "Weitergabe an eine höhere Supportstufe", "correct": false }
+    ],
+    "explanation": "Merksatz: Kategorisierung ordnet Servicefälle fachlich ein."
+  },
+  {
+    "id": "lf-06-fach-tick-009",
+    "question": "Was beschreibt Klassifizierung bei Servicefällen?",
+    "answers": [
+      { "text": "Einordnung eines Vorgangs nach Art oder Merkmalen", "correct": true },
+      { "text": "Zuordnung zu einem Themen- oder Fachbereich", "correct": false },
+      { "text": "Festlegung der Bearbeitung nach Priorität", "correct": false },
+      { "text": "Zuweisung an einen verantwortlichen Bearbeiter", "correct": false }
+    ],
+    "explanation": "Merksatz: Klassifizierung hilft, Servicefälle nach Art und Bearbeitungsbedarf zu unterscheiden."
+  },
+  {
+    "id": "lf-06-fach-tick-010",
+    "question": "Was beschreibt Priorisierung im Ticketsystem?",
+    "answers": [
+      { "text": "Bearbeitungsreihenfolge nach Wichtigkeit und Dringlichkeit", "correct": true },
+      { "text": "Fachliche Zuordnung zu einem Themenbereich", "correct": false },
+      { "text": "Einordnung nach Art des Servicefalls", "correct": false },
+      { "text": "Dokumentation des aktuellen Bearbeitungsstands", "correct": false }
+    ],
+    "explanation": "Merksatz: Priorisierung steuert, welche Tickets zuerst bearbeitet werden müssen."
+  },
+  {
+    "id": "lf-06-fach-tick-011",
+    "question": "Was beschreibt Eskalation im Support?",
+    "answers": [
+      { "text": "Weitergabe an höhere oder passendere Bearbeitungsstufe", "correct": true },
+      { "text": "Erfassung eines Servicefalls im Ticketsystem", "correct": false },
+      { "text": "Fachliche Zuordnung eines Tickets", "correct": false },
+      { "text": "Festlegung des aktuellen Ticketstatus", "correct": false }
+    ],
+    "explanation": "Merksatz: Eskalation sorgt dafür, dass ein Fall die passende Zuständigkeit oder Dringlichkeit erhält."
+  },
+  {
+    "id": "lf-06-fach-tick-012",
+    "question": "Was beschreibt First-Level-Support?",
+    "answers": [
+      { "text": "Erste Supportstufe für Annahme und einfache Lösungen", "correct": true },
+      { "text": "Supportstufe für vertiefte technische Analyse", "correct": false },
+      { "text": "Supportstufe für Spezialprobleme und Expertenlösungen", "correct": false },
+      { "text": "Zentrale Verteilung eingehender Anrufe", "correct": false }
+    ],
+    "explanation": "Merksatz: First-Level-Support ist die erste Anlaufstelle für Servicefälle."
+  },
+  {
+    "id": "lf-06-fach-tick-013",
+    "question": "Was beschreibt Second-Level-Support?",
+    "answers": [
+      { "text": "Supportstufe für vertiefte Analyse und komplexere Lösungen", "correct": true },
+      { "text": "Erste Supportstufe für Annahme und Standardlösungen", "correct": false },
+      { "text": "Supportstufe für hochspezialisierte Expertenfälle", "correct": false },
+      { "text": "Zentrale Anlaufstelle für alle Servicefälle", "correct": false }
+    ],
+    "explanation": "Merksatz: Second-Level-Support übernimmt Fälle, die mehr Fachwissen oder Berechtigungen benötigen."
+  },
+  {
+    "id": "lf-06-fach-tick-014",
+    "question": "Was beschreibt Third-Level-Support?",
+    "answers": [
+      { "text": "Supportstufe für Spezialprobleme und Expertenlösungen", "correct": true },
+      { "text": "Erste Anlaufstelle für einfache Servicefälle", "correct": false },
+      { "text": "Supportstufe für vertiefte Standardanalyse", "correct": false },
+      { "text": "Automatische Verteilung eingehender Anrufe", "correct": false }
+    ],
+    "explanation": "Merksatz: Third-Level-Support bearbeitet besonders komplexe oder spezialisierte Probleme."
+  },
+  {
+    "id": "lf-06-fach-tick-015",
+    "question": "Was beschreibt ein Servicedesk?",
+    "answers": [
+      { "text": "Organisierte Anlaufstelle für IT-Servicefälle", "correct": true },
+      { "text": "Technische Supportstufe für Spezialprobleme", "correct": false },
+      { "text": "System zur Erfassung einzelner Tickets", "correct": false },
+      { "text": "Matrix zur Klärung von Rollen und Verantwortung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Servicedesk koordiniert Serviceanfragen, Störungen und Kommunikation."
+  },
+  {
+    "id": "lf-06-fach-tick-016",
+    "question": "Was beschreibt ein Helpdesk?",
+    "answers": [
+      { "text": "Unterstützungsstelle für technische Fragen und Störungen", "correct": true },
+      { "text": "Serviceportfolio mit aktiven und geplanten Services", "correct": false },
+      { "text": "Supportstufe für strategische Serviceplanung", "correct": false },
+      { "text": "Rollenmodell für Projektverantwortlichkeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Helpdesk unterstützt Anwender bei technischen Problemen und Fragen."
+  },
+  {
+    "id": "lf-06-fach-tick-017",
+    "question": "Was beschreibt ein Single Point of Contact?",
+    "answers": [
+      { "text": "Zentrale Anlaufstelle für Servicefälle", "correct": true },
+      { "text": "Verantwortliche Person für einen einzelnen Fall", "correct": false },
+      { "text": "Automatische Verteilung eingehender Anrufe", "correct": false },
+      { "text": "Erste Supportstufe für einfache Lösungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein SPOC vermeidet unklare Zuständigkeiten durch eine zentrale Kontaktstelle."
+  },
+  {
+    "id": "lf-06-fach-tick-018",
+    "question": "Was beschreibt Automatic Call Distribution?",
+    "answers": [
+      { "text": "Automatische Verteilung eingehender Anrufe", "correct": true },
+      { "text": "Zentrale Anlaufstelle für Servicefälle", "correct": false },
+      { "text": "Zuweisung eines Falls an den Case Owner", "correct": false },
+      { "text": "Einordnung eines Tickets nach Fachbereich", "correct": false }
+    ],
+    "explanation": "Merksatz: ACD verteilt eingehende Anrufe automatisch an passende Stellen."
+  },
+  {
+    "id": "lf-06-fach-tick-019",
+    "question": "Was beschreibt ein Case Owner?",
+    "answers": [
+      { "text": "Verantwortliche Person für einen konkreten Servicefall", "correct": true },
+      { "text": "Zentrale Kontaktstelle für alle Servicefälle", "correct": false },
+      { "text": "Supportstufe für einfache Standardlösungen", "correct": false },
+      { "text": "Automatische Verteilung eingehender Anrufe", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Case Owner behält Verantwortung und Überblick für einen Servicefall."
+  },
+  {
+    "id": "lf-06-fach-tick-020",
+    "question": "Was beschreibt eine RACI-Matrix?",
+    "answers": [
+      { "text": "Darstellung von Verantwortlichkeiten mit R, A, C und I", "correct": true },
+      { "text": "Priorisierung von Tickets nach Dringlichkeit", "correct": false },
+      { "text": "Kategorisierung von Servicefällen nach Fachbereich", "correct": false },
+      { "text": "Automatische Verteilung eingehender Anrufe", "correct": false }
+    ],
+    "explanation": "Merksatz: RACI klärt, wer verantwortlich, rechenschaftspflichtig, beratend oder informiert ist."
+  }
+]

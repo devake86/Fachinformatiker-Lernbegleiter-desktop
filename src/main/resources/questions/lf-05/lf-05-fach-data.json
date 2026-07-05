@@ -1,0 +1,387 @@
+[
+  {
+    "id": "lf-05-fach-data-001",
+    "question": "Was beschreibt Information?",
+    "answers": [
+      { "text": "Bedeutung, die aus Daten durch Interpretation entsteht", "correct": true },
+      { "text": "Gespeicherte Zeichenfolge ohne betrachteten Kontext", "correct": false },
+      { "text": "Strukturierte Darstellung zur maschinellen Verarbeitung", "correct": false },
+      { "text": "Kleinste digitale Einheit mit zwei Zuständen", "correct": false }
+    ],
+    "explanation": "Merksatz: Information entsteht, wenn Daten in einem Zusammenhang verstanden werden."
+  },
+  {
+    "id": "lf-05-fach-data-002",
+    "question": "Was beschreibt Daten?",
+    "answers": [
+      { "text": "Darstellungen von Informationen zur Speicherung, Verarbeitung oder Übertragung", "correct": true },
+      { "text": "Bedeutung, die erst durch Interpretation entsteht", "correct": false },
+      { "text": "Erkenntnisse aus ausgewerteten Messwerten", "correct": false },
+      { "text": "Kontextbezogen verstandene Zeichen und Werte", "correct": false }
+    ],
+    "explanation": "Merksatz: Daten sind gespeicherte, verarbeitbare oder übertragbare Darstellungen von Information."
+  },
+  {
+    "id": "lf-05-fach-data-003",
+    "question": "Was beschreibt der Unterschied zwischen Daten und Informationen?",
+    "answers": [
+      { "text": "Daten sind Darstellungen; Informationen entstehen durch Bedeutung und Interpretation", "correct": true },
+      { "text": "Informationen sind Rohwerte, Daten sind deren Bedeutung", "correct": false },
+      { "text": "Daten entstehen erst nach fachlicher Interpretation", "correct": false },
+      { "text": "Informationen sind reine Zeichen ohne Kontext", "correct": false }
+    ],
+    "explanation": "Merksatz: Daten werden erst durch Kontext und Interpretation zu Informationen."
+  },
+  {
+    "id": "lf-05-fach-data-004",
+    "question": "Was beschreibt strukturierte Daten?",
+    "answers": [
+      { "text": "Daten mit klarer Ordnung, zum Beispiel in Tabellen oder festen Feldern", "correct": true },
+      { "text": "Daten mit freiem Aufbau wie Bilder oder Fließtexte", "correct": false },
+      { "text": "Daten, die aus vorhandenen Quellen erneut genutzt werden", "correct": false },
+      { "text": "Daten, die direkt für einen Zweck erhoben werden", "correct": false }
+    ],
+    "explanation": "Merksatz: Strukturierte Daten folgen einem festen Aufbau und sind dadurch gut maschinell auswertbar."
+  },
+  {
+    "id": "lf-05-fach-data-005",
+    "question": "Was beschreibt unstrukturierte Daten?",
+    "answers": [
+      { "text": "Daten ohne festes Schema, zum Beispiel freie Texte, Bilder oder Audiodateien", "correct": true },
+      { "text": "Daten in Tabellen mit festen Spalten und Datentypen", "correct": false },
+      { "text": "Daten mit eindeutigem Primärschlüssel", "correct": false },
+      { "text": "Daten in klar definierten Datenbankfeldern", "correct": false }
+    ],
+    "explanation": "Merksatz: Unstrukturierte Daten besitzen keine einfache, feste Tabellenstruktur."
+  },
+  {
+    "id": "lf-05-fach-data-006",
+    "question": "Was beschreibt Primärdaten?",
+    "answers": [
+      { "text": "Daten, die direkt für einen bestimmten Zweck neu erhoben werden", "correct": true },
+      { "text": "Vorhandene Daten aus früheren Erhebungen", "correct": false },
+      { "text": "Daten aus externen Statistiken oder Archiven", "correct": false },
+      { "text": "Daten, die für einen neuen Zweck wiederverwendet werden", "correct": false }
+    ],
+    "explanation": "Merksatz: Primärdaten werden unmittelbar und zweckbezogen selbst erhoben."
+  },
+  {
+    "id": "lf-05-fach-data-007",
+    "question": "Was beschreibt Sekundärdaten?",
+    "answers": [
+      { "text": "Bereits vorhandene Daten, die für einen neuen Zweck genutzt werden", "correct": true },
+      { "text": "Daten, die direkt für eine aktuelle Fragestellung erhoben werden", "correct": false },
+      { "text": "Neu gemessene Daten aus einer eigenen Befragung", "correct": false },
+      { "text": "Rohdaten aus einer unmittelbar geplanten Messung", "correct": false }
+    ],
+    "explanation": "Merksatz: Sekundärdaten stammen aus vorhandenen Quellen und werden erneut verwendet."
+  },
+  {
+    "id": "lf-05-fach-data-008",
+    "question": "Was beschreibt ein Stellenwertsystem?",
+    "answers": [
+      { "text": "Ein Zahlensystem, bei dem der Wert einer Ziffer von ihrer Position abhängt", "correct": true },
+      { "text": "Ein Zeichensatz zur Codierung von Buchstaben", "correct": false },
+      { "text": "Ein System zur Speicherung von Bildpunkten", "correct": false },
+      { "text": "Ein Verfahren zur Abtastung analoger Signale", "correct": false }
+    ],
+    "explanation": "Merksatz: In Stellenwertsystemen bestimmt die Position einer Ziffer ihren tatsächlichen Wert."
+  },
+  {
+    "id": "lf-05-fach-data-009",
+    "question": "Was beschreibt das Dezimalsystem?",
+    "answers": [
+      { "text": "Ein Stellenwertsystem mit der Basis 10", "correct": true },
+      { "text": "Ein Stellenwertsystem mit der Basis 2", "correct": false },
+      { "text": "Ein Stellenwertsystem mit der Basis 16", "correct": false },
+      { "text": "Ein Zeichensatz für grundlegende Zeichen", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Dezimalsystem nutzt zehn Ziffern von 0 bis 9."
+  },
+  {
+    "id": "lf-05-fach-data-010",
+    "question": "Was beschreibt das Dualsystem?",
+    "answers": [
+      { "text": "Ein Stellenwertsystem mit der Basis 2", "correct": true },
+      { "text": "Ein Stellenwertsystem mit der Basis 10", "correct": false },
+      { "text": "Ein Stellenwertsystem mit der Basis 16", "correct": false },
+      { "text": "Ein Codierungsstandard für viele Schriftsysteme", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Dualsystem nutzt nur die Ziffern 0 und 1."
+  },
+  {
+    "id": "lf-05-fach-data-011",
+    "question": "Was beschreibt das Hexadezimalsystem?",
+    "answers": [
+      { "text": "Ein Stellenwertsystem mit der Basis 16", "correct": true },
+      { "text": "Ein Stellenwertsystem mit der Basis 2", "correct": false },
+      { "text": "Ein Stellenwertsystem mit der Basis 10", "correct": false },
+      { "text": "Eine Unicode-Codierung für Textzeichen", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Hexadezimalsystem nutzt 0 bis 9 und A bis F."
+  },
+  {
+    "id": "lf-05-fach-data-012",
+    "question": "Was beschreibt ein Bit?",
+    "answers": [
+      { "text": "Die kleinste digitale Informationseinheit mit zwei möglichen Zuständen", "correct": true },
+      { "text": "Eine Dateneinheit aus acht Bit", "correct": false },
+      { "text": "Eine Bitfolge aus vier Bit", "correct": false },
+      { "text": "Eine Einheit aus zwei Byte", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Bit kann zwei Zustände darstellen, typischerweise 0 oder 1."
+  },
+  {
+    "id": "lf-05-fach-data-013",
+    "question": "Was beschreibt ein Byte?",
+    "answers": [
+      { "text": "Eine Dateneinheit aus acht Bit", "correct": true },
+      { "text": "Die kleinste Einheit mit zwei Zuständen", "correct": false },
+      { "text": "Eine Bitfolge aus vier Bit", "correct": false },
+      { "text": "Eine Einheit aus vier Byte", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Byte besteht aus 8 Bit."
+  },
+  {
+    "id": "lf-05-fach-data-014",
+    "question": "Was beschreibt ein Nibble?",
+    "answers": [
+      { "text": "Eine Bitfolge aus vier Bit", "correct": true },
+      { "text": "Eine Dateneinheit aus acht Bit", "correct": false },
+      { "text": "Eine Einheit aus zwei Byte", "correct": false },
+      { "text": "Eine Einheit aus vier Byte", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Nibble ist ein halbes Byte und besteht aus 4 Bit."
+  },
+  {
+    "id": "lf-05-fach-data-015",
+    "question": "Was beschreibt ein Word im Speichergrößenkontext?",
+    "answers": [
+      { "text": "Eine Einheit aus zwei Byte beziehungsweise 16 Bit", "correct": true },
+      { "text": "Eine Einheit aus vier Byte beziehungsweise 32 Bit", "correct": false },
+      { "text": "Eine Bitfolge aus vier Bit", "correct": false },
+      { "text": "Eine binäre Speichereinheit mit 1024 Byte", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Word entspricht typischerweise 2 Byte beziehungsweise 16 Bit."
+  },
+  {
+    "id": "lf-05-fach-data-016",
+    "question": "Was beschreibt ein Double Word?",
+    "answers": [
+      { "text": "Eine Einheit aus vier Byte beziehungsweise 32 Bit", "correct": true },
+      { "text": "Eine Einheit aus zwei Byte beziehungsweise 16 Bit", "correct": false },
+      { "text": "Eine Bitfolge aus acht Bit", "correct": false },
+      { "text": "Eine binäre Speichereinheit mit 1024 KiB", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Double Word entspricht typischerweise 4 Byte beziehungsweise 32 Bit."
+  },
+  {
+    "id": "lf-05-fach-data-017",
+    "question": "Was beschreibt ein Kibibyte?",
+    "answers": [
+      { "text": "Eine binäre Speichereinheit mit 1024 Byte", "correct": true },
+      { "text": "Eine dezimale Speichereinheit mit 1000 Byte", "correct": false },
+      { "text": "Eine binäre Speichereinheit mit 1024 MiB", "correct": false },
+      { "text": "Eine Einheit aus vier Byte beziehungsweise 32 Bit", "correct": false }
+    ],
+    "explanation": "Merksatz: KiB steht für Kibibyte und entspricht 1024 Byte."
+  },
+  {
+    "id": "lf-05-fach-data-018",
+    "question": "Was beschreibt ein Mebibyte?",
+    "answers": [
+      { "text": "Eine binäre Speichereinheit mit 1024 KiB", "correct": true },
+      { "text": "Eine dezimale Speichereinheit mit 1000 KB", "correct": false },
+      { "text": "Eine binäre Speichereinheit mit 1024 Byte", "correct": false },
+      { "text": "Eine Einheit aus zwei Byte beziehungsweise 16 Bit", "correct": false }
+    ],
+    "explanation": "Merksatz: MiB steht für Mebibyte und entspricht 1024 KiB."
+  },
+  {
+    "id": "lf-05-fach-data-019",
+    "question": "Was beschreibt ein Gibibyte?",
+    "answers": [
+      { "text": "Eine binäre Speichereinheit mit 1024 MiB", "correct": true },
+      { "text": "Eine dezimale Speichereinheit mit 1000 MB", "correct": false },
+      { "text": "Eine binäre Speichereinheit mit 1024 KiB", "correct": false },
+      { "text": "Eine Einheit aus vier Byte beziehungsweise 32 Bit", "correct": false }
+    ],
+    "explanation": "Merksatz: GiB steht für Gibibyte und entspricht 1024 MiB."
+  },
+  {
+    "id": "lf-05-fach-data-020",
+    "question": "Was beschreibt ASCII?",
+    "answers": [
+      { "text": "Einen Zeichensatz zur Codierung von Zeichen als Zahlenwerte", "correct": true },
+      { "text": "Einen Standard für Zeichen vieler Schriftsysteme", "correct": false },
+      { "text": "Eine Unicode-Codierung mit ASCII-Kompatibilität", "correct": false },
+      { "text": "Ein Stellenwertsystem mit der Basis 16", "correct": false }
+    ],
+    "explanation": "Merksatz: ASCII codiert grundlegende Zeichen wie Buchstaben, Ziffern und Sonderzeichen."
+  },
+  {
+    "id": "lf-05-fach-data-021",
+    "question": "Was beschreibt Unicode?",
+    "answers": [
+      { "text": "Einen internationalen Standard zur Darstellung von Zeichen vieler Schriftsysteme", "correct": true },
+      { "text": "Einen Zeichensatz für grundlegende englische Zeichen", "correct": false },
+      { "text": "Eine konkrete Textcodierung mit variabler Bytelänge", "correct": false },
+      { "text": "Ein Farbmodell für Lichtfarben auf Monitoren", "correct": false }
+    ],
+    "explanation": "Merksatz: Unicode ermöglicht eine einheitliche Darstellung sehr vieler Zeichen weltweit."
+  },
+  {
+    "id": "lf-05-fach-data-022",
+    "question": "Was beschreibt UTF-8?",
+    "answers": [
+      { "text": "Eine Unicode-Codierung, die einfache ASCII-Zeichen mit 8 Bit speichern kann", "correct": true },
+      { "text": "Ein Zeichensatz mit grundlegenden 7-Bit-Zeichen", "correct": false },
+      { "text": "Ein Stellenwertsystem mit der Basis 8", "correct": false },
+      { "text": "Eine Speichereinheit aus acht Bit", "correct": false }
+    ],
+    "explanation": "Merksatz: UTF-8 ist eine verbreitete Unicode-Codierung und ist zu ASCII kompatibel."
+  },
+  {
+    "id": "lf-05-fach-data-023",
+    "question": "Was beschreibt eine Rastergrafik?",
+    "answers": [
+      { "text": "Eine Grafik, die aus einzelnen Bildpunkten besteht", "correct": true },
+      { "text": "Eine Grafik aus geometrischen Formen und Kurven", "correct": false },
+      { "text": "Eine Grafik mit beliebig skalierbaren Pfaden", "correct": false },
+      { "text": "Eine Audioaufnahme aus diskreten Messwerten", "correct": false }
+    ],
+    "explanation": "Merksatz: Rastergrafiken bestehen aus Pixeln und eignen sich besonders für detailreiche Bilder."
+  },
+  {
+    "id": "lf-05-fach-data-024",
+    "question": "Was beschreibt eine Vektorgrafik?",
+    "answers": [
+      { "text": "Eine Grafik aus geometrischen Formen und Konstruktionsvorschriften", "correct": true },
+      { "text": "Eine Grafik aus fest angeordneten Bildpunkten", "correct": false },
+      { "text": "Eine Rastergrafik mit hoher Farbtiefe", "correct": false },
+      { "text": "Eine Audiodatei mit mehreren Tonkanälen", "correct": false }
+    ],
+    "explanation": "Merksatz: Vektorgrafiken lassen sich ohne Qualitätsverlust skalieren."
+  },
+  {
+    "id": "lf-05-fach-data-025",
+    "question": "Was beschreibt ein Pixel?",
+    "answers": [
+      { "text": "Einen einzelnen Bildpunkt einer Rastergrafik", "correct": true },
+      { "text": "Eine geometrische Linie einer Vektorgrafik", "correct": false },
+      { "text": "Eine Bitfolge aus vier Bit", "correct": false },
+      { "text": "Einen einzelnen Messwert eines Audiosignals", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Pixel ist der einzelne Bildpunkt einer Rastergrafik."
+  },
+  {
+    "id": "lf-05-fach-data-026",
+    "question": "Was beschreibt Farbtiefe?",
+    "answers": [
+      { "text": "Die Anzahl der Bits, mit denen Farbinformationen pro Pixel gespeichert werden", "correct": true },
+      { "text": "Die Anzahl einzelner Bildpunkte einer Rastergrafik", "correct": false },
+      { "text": "Die Anzahl geometrischer Formen einer Vektorgrafik", "correct": false },
+      { "text": "Die Anzahl der Messungen pro Sekunde bei Audio", "correct": false }
+    ],
+    "explanation": "Merksatz: Farbtiefe bestimmt, wie viele Farben oder Helligkeitswerte dargestellt werden können."
+  },
+  {
+    "id": "lf-05-fach-data-027",
+    "question": "Was beschreibt RGB?",
+    "answers": [
+      { "text": "Ein additives Farbmodell aus Rot, Grün und Blau", "correct": true },
+      { "text": "Ein subtraktives Farbmodell für Druckfarben", "correct": false },
+      { "text": "Ein Zeichensatz zur Codierung von Text", "correct": false },
+      { "text": "Eine binäre Speichereinheit mit 1024 Byte", "correct": false }
+    ],
+    "explanation": "Merksatz: RGB ist ein additives Farbmodell für Lichtfarben, zum Beispiel auf Monitoren."
+  },
+  {
+    "id": "lf-05-fach-data-028",
+    "question": "Was beschreibt CMYK?",
+    "answers": [
+      { "text": "Ein subtraktives Farbmodell für Druckfarben", "correct": true },
+      { "text": "Ein additives Farbmodell für Bildschirmlicht", "correct": false },
+      { "text": "Eine Unicode-Codierung für Textzeichen", "correct": false },
+      { "text": "Eine Bitfolge aus vier Speicherbits", "correct": false }
+    ],
+    "explanation": "Merksatz: CMYK wird vor allem im Druck verwendet und basiert auf Farbpigmenten."
+  },
+  {
+    "id": "lf-05-fach-data-029",
+    "question": "Was beschreibt additive Farbmischung?",
+    "answers": [
+      { "text": "Farbmischung durch Licht, bei der Farben durch Addition heller werden", "correct": true },
+      { "text": "Farbmischung durch Pigmente mit absorbiertem Licht", "correct": false },
+      { "text": "Farbmodell für Druck mit Cyan, Magenta, Gelb und Schwarz", "correct": false },
+      { "text": "Speicherung von Farbinformation pro Pixel", "correct": false }
+    ],
+    "explanation": "Merksatz: Additive Farbmischung arbeitet mit Lichtfarben und wird bei Bildschirmen genutzt."
+  },
+  {
+    "id": "lf-05-fach-data-030",
+    "question": "Was beschreibt subtraktive Farbmischung?",
+    "answers": [
+      { "text": "Farbmischung durch Pigmente, die Lichtanteile absorbieren", "correct": true },
+      { "text": "Farbmischung durch Lichtquellen in Rot, Grün und Blau", "correct": false },
+      { "text": "Additive Mischung für Bildschirme und Projektoren", "correct": false },
+      { "text": "Codierung von Zeichen als Zahlenwerte", "correct": false }
+    ],
+    "explanation": "Merksatz: Subtraktive Farbmischung wird beim Drucken mit Farbpigmenten genutzt."
+  },
+  {
+    "id": "lf-05-fach-data-031",
+    "question": "Was beschreibt Sampling?",
+    "answers": [
+      { "text": "Das Abtasten eines analogen Signals zur digitalen Speicherung", "correct": true },
+      { "text": "Die Codierung von Zeichen in Zahlenwerte", "correct": false },
+      { "text": "Die Speicherung von Farbinformation pro Pixel", "correct": false },
+      { "text": "Die Darstellung negativer Zahlen im Dualsystem", "correct": false }
+    ],
+    "explanation": "Merksatz: Sampling wandelt analoge Signale durch Messungen in digitale Daten um."
+  },
+  {
+    "id": "lf-05-fach-data-032",
+    "question": "Was beschreibt Sampling-Rate?",
+    "answers": [
+      { "text": "Die Anzahl der Messungen pro Sekunde bei der Digitalisierung von Audio", "correct": true },
+      { "text": "Die Anzahl der Bits pro gespeichertem Audiomesswert", "correct": false },
+      { "text": "Die Anzahl getrennter Audiokanäle", "correct": false },
+      { "text": "Die Anzahl der Farben pro Pixel", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Sampling-Rate bestimmt, wie oft ein Audiosignal pro Sekunde abgetastet wird."
+  },
+  {
+    "id": "lf-05-fach-data-033",
+    "question": "Was beschreibt Sampling-Tiefe?",
+    "answers": [
+      { "text": "Die Anzahl der Bits pro gespeichertem Messwert eines Audiosignals", "correct": true },
+      { "text": "Die Anzahl der Messungen pro Sekunde", "correct": false },
+      { "text": "Die Anzahl getrennter Audiokanäle", "correct": false },
+      { "text": "Die Anzahl der Pixel einer Rastergrafik", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Sampling-Tiefe bestimmt, wie genau einzelne Audio-Messwerte gespeichert werden."
+  },
+  {
+    "id": "lf-05-fach-data-034",
+    "question": "Was beschreibt ein Tonkanal?",
+    "answers": [
+      { "text": "Einen getrennten Audiokanal, zum Beispiel für Mono oder Stereo", "correct": true },
+      { "text": "Einen einzelnen digitalen Messwert eines Audiosignals", "correct": false },
+      { "text": "Die Anzahl der Messungen pro Sekunde", "correct": false },
+      { "text": "Die Bitanzahl pro gespeichertem Audiowert", "correct": false }
+    ],
+    "explanation": "Merksatz: Tonkanäle bestimmen, ob Audio zum Beispiel mono, stereo oder räumlich wiedergegeben wird."
+  },
+  {
+    "id": "lf-05-fach-data-035",
+    "question": "Was beschreibt das Zweierkomplement?",
+    "answers": [
+      { "text": "Eine verbreitete Binärdarstellung negativer ganzer Zahlen", "correct": true },
+      { "text": "Ein Stellenwertsystem mit der Basis 2", "correct": false },
+      { "text": "Eine Zeichencodierung für viele Schriftsysteme", "correct": false },
+      { "text": "Eine Speichereinheit aus zwei Byte", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Zweierkomplement stellt negative Binärzahlen durch Invertieren und Addition von 1 dar."
+  }
+]

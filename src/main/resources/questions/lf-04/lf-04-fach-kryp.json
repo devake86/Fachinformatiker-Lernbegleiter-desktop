@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-kryp-001",
+    "question": "Was beschreibt Kryptografie?",
+    "answers": [
+      { "text": "Schutz von Informationen durch mathematische Verfahren", "correct": true },
+      { "text": "Schutz von Systemen durch Zugriffskontrolle", "correct": false },
+      { "text": "Verbergen von Nachrichten in anderen Medien", "correct": false },
+      { "text": "Prüfung personenbezogener Daten nach DSGVO", "correct": false }
+    ],
+    "explanation": "Merksatz: Kryptografie schützt Informationen durch mathematische Verfahren wie Verschlüsselung, Hashes und Signaturen."
+  },
+  {
+    "id": "lf-04-fach-kryp-002",
+    "question": "Was beschreibt Klartext?",
+    "answers": [
+      { "text": "Unverschlüsselte, direkt lesbare Informationen", "correct": true },
+      { "text": "Verschlüsselte Daten nach Anwendung eines Schlüssels", "correct": false },
+      { "text": "Ein Prüfwert fester Länge aus Daten", "correct": false },
+      { "text": "Ein signierter Nachweis der Datenherkunft", "correct": false }
+    ],
+    "explanation": "Merksatz: Klartext ist die lesbare Ausgangsinformation vor der Verschlüsselung."
+  },
+  {
+    "id": "lf-04-fach-kryp-003",
+    "question": "Was beschreibt Ciphertext?",
+    "answers": [
+      { "text": "Verschlüsselter Text, der ohne Schlüssel nicht lesbar sein soll", "correct": true },
+      { "text": "Direkt lesbarer Ausgangstext vor der Verschlüsselung", "correct": false },
+      { "text": "Ein Hashwert zur Integritätsprüfung", "correct": false },
+      { "text": "Ein öffentlicher Schlüssel zur Prüfung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ciphertext ist das Ergebnis einer Verschlüsselung."
+  },
+  {
+    "id": "lf-04-fach-kryp-004",
+    "question": "Was beschreibt ein kryptografischer Schlüssel?",
+    "answers": [
+      { "text": "Information für Ver- oder Entschlüsselung", "correct": true },
+      { "text": "Das mathematische Verfahren selbst", "correct": false },
+      { "text": "Der unverschlüsselte Ausgangstext", "correct": false },
+      { "text": "Ein Prüfwert ohne Geheimhaltungsfunktion", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Schlüssel steuert kryptografische Verfahren und muss je nach Verfahren geschützt werden."
+  },
+  {
+    "id": "lf-04-fach-kryp-005",
+    "question": "Was beschreibt ein Verschlüsselungsalgorithmus?",
+    "answers": [
+      { "text": "Ein festgelegtes Verfahren zur Ver- und Entschlüsselung", "correct": true },
+      { "text": "Ein geheimer Wert zur Steuerung des Verfahrens", "correct": false },
+      { "text": "Ein Ergebnis nach erfolgreicher Verschlüsselung", "correct": false },
+      { "text": "Eine Prüfsumme zur Erkennung von Änderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Algorithmus beschreibt die Rechenschritte eines kryptografischen Verfahrens."
+  },
+  {
+    "id": "lf-04-fach-kryp-006",
+    "question": "Was beschreibt symmetrische Verschlüsselung?",
+    "answers": [
+      { "text": "Ver- und Entschlüsselung mit demselben geheimen Schlüssel", "correct": true },
+      { "text": "Verschlüsselung mit öffentlichem und privatem Schlüssel", "correct": false },
+      { "text": "Erzeugung eines Hashwerts ohne Rückumwandlung", "correct": false },
+      { "text": "Signieren von Daten mit einem privaten Schlüssel", "correct": false }
+    ],
+    "explanation": "Merksatz: Symmetrische Verschlüsselung nutzt denselben Schlüssel für Ver- und Entschlüsselung."
+  },
+  {
+    "id": "lf-04-fach-kryp-007",
+    "question": "Was ist ein typischer Vorteil symmetrischer Verschlüsselung?",
+    "answers": [
+      { "text": "Sie ist meist schnell bei Ver- und Entschlüsselung", "correct": true },
+      { "text": "Sie löst die Schlüsselverteilung automatisch", "correct": false },
+      { "text": "Sie erlaubt öffentliche Nutzung des geheimen Schlüssels", "correct": false },
+      { "text": "Sie prüft die Herkunft von Daten ohne Zusatzverfahren", "correct": false }
+    ],
+    "explanation": "Merksatz: Symmetrische Verfahren sind schnell, haben aber ein Schlüsselverteilungsproblem."
+  },
+  {
+    "id": "lf-04-fach-kryp-008",
+    "question": "Was beschreibt das Schlüsselverteilungsproblem?",
+    "answers": [
+      { "text": "Der geheime Schlüssel muss sicher übertragen werden", "correct": true },
+      { "text": "Der öffentliche Schlüssel muss geheim bleiben", "correct": false },
+      { "text": "Der Hashwert muss in Klartext zurückgerechnet werden", "correct": false },
+      { "text": "Der private Schlüssel wird an alle Empfänger verteilt", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Schlüsselverteilungsproblem betrifft besonders symmetrische Verfahren."
+  },
+  {
+    "id": "lf-04-fach-kryp-009",
+    "question": "Was beschreibt asymmetrische Verschlüsselung?",
+    "answers": [
+      { "text": "Ein Verfahren mit öffentlichem und privatem Schlüssel", "correct": true },
+      { "text": "Ein Verfahren mit einem gemeinsamen geheimen Schlüssel", "correct": false },
+      { "text": "Ein Verfahren zur Bildung eines Hashwerts", "correct": false },
+      { "text": "Ein Verfahren ohne Schlüsselverwaltung", "correct": false }
+    ],
+    "explanation": "Merksatz: Asymmetrische Verschlüsselung nutzt ein Schlüsselpaar aus Public Key und Private Key."
+  },
+  {
+    "id": "lf-04-fach-kryp-010",
+    "question": "Was beschreibt der öffentliche Schlüssel?",
+    "answers": [
+      { "text": "Ein Schlüssel, der weitergegeben werden darf", "correct": true },
+      { "text": "Ein Schlüssel, der geheim beim Besitzer bleibt", "correct": false },
+      { "text": "Ein gemeinsamer Schlüssel für beide Richtungen", "correct": false },
+      { "text": "Ein Hashwert zur Prüfung der Integrität", "correct": false }
+    ],
+    "explanation": "Merksatz: Der öffentliche Schlüssel darf verteilt werden und dient z. B. zum Verschlüsseln oder Prüfen."
+  },
+  {
+    "id": "lf-04-fach-kryp-011",
+    "question": "Was beschreibt der private Schlüssel?",
+    "answers": [
+      { "text": "Ein geheimer Schlüssel, der beim Besitzer bleibt", "correct": true },
+      { "text": "Ein Schlüssel, der frei verteilt werden darf", "correct": false },
+      { "text": "Ein gemeinsames Passwort für alle Benutzer", "correct": false },
+      { "text": "Ein Zertifikat ohne Schutzbedarf", "correct": false }
+    ],
+    "explanation": "Merksatz: Der private Schlüssel muss geheim bleiben und dient z. B. zum Entschlüsseln oder Signieren."
+  },
+  {
+    "id": "lf-04-fach-kryp-012",
+    "question": "Was beschreibt hybride Verschlüsselung?",
+    "answers": [
+      { "text": "Asymmetrischer Schlüsseltausch mit symmetrischer Datenverschlüsselung", "correct": true },
+      { "text": "Symmetrische Verschlüsselung ohne Schlüsselverteilung", "correct": false },
+      { "text": "Hashfunktion mit anschließender Rückumwandlung", "correct": false },
+      { "text": "Digitale Signatur ohne Schlüsselpaar", "correct": false }
+    ],
+    "explanation": "Merksatz: Hybride Verschlüsselung kombiniert sichere Schlüsselübergabe mit schneller Datenverschlüsselung."
+  },
+  {
+    "id": "lf-04-fach-kryp-013",
+    "question": "Was beschreibt AES?",
+    "answers": [
+      { "text": "Einen modernen symmetrischen Verschlüsselungsstandard", "correct": true },
+      { "text": "Ein asymmetrisches Verfahren für digitale Signaturen", "correct": false },
+      { "text": "Eine Hashfunktion zur Integritätsprüfung", "correct": false },
+      { "text": "Ein Zertifikat zur Schlüsselzuordnung", "correct": false }
+    ],
+    "explanation": "Merksatz: AES ist ein verbreiteter symmetrischer Verschlüsselungsstandard."
+  },
+  {
+    "id": "lf-04-fach-kryp-014",
+    "question": "Was beschreibt eine Hashfunktion?",
+    "answers": [
+      { "text": "Einwegfunktion für einen Hashwert fester Länge", "correct": true },
+      { "text": "Verschlüsselung mit öffentlichem Schlüssel", "correct": false },
+      { "text": "Entschlüsselung von Ciphertext in Klartext", "correct": false },
+      { "text": "Signaturprüfung mit geheimem Schlüssel", "correct": false }
+    ],
+    "explanation": "Merksatz: Hashfunktionen erzeugen aus Daten einen festen Prüfwert und sind nicht zur Rückumwandlung gedacht."
+  },
+  {
+    "id": "lf-04-fach-kryp-015",
+    "question": "Was beschreibt ein Hashwert?",
+    "answers": [
+      { "text": "Das Ergebnis einer Hashfunktion", "correct": true },
+      { "text": "Der lesbare Ausgangstext vor Verschlüsselung", "correct": false },
+      { "text": "Der geheime Schlüssel eines symmetrischen Verfahrens", "correct": false },
+      { "text": "Der verschlüsselte Text nach AES", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Hashwert ist ein digitaler Fingerabdruck von Daten."
+  },
+  {
+    "id": "lf-04-fach-kryp-016",
+    "question": "Warum dienen Hashwerte der Integritätsprüfung?",
+    "answers": [
+      { "text": "Kleine Datenänderungen sollen andere Hashwerte erzeugen", "correct": true },
+      { "text": "Hashwerte verschlüsseln Daten für Unbefugte", "correct": false },
+      { "text": "Hashwerte stellen Klartext ohne Schlüssel wieder her", "correct": false },
+      { "text": "Hashwerte verteilen geheime Schlüssel sicher", "correct": false }
+    ],
+    "explanation": "Merksatz: Hashwerte helfen zu erkennen, ob Daten verändert wurden."
+  },
+  {
+    "id": "lf-04-fach-kryp-017",
+    "question": "Was beschreibt eine Einwegfunktion?",
+    "answers": [
+      { "text": "Leicht berechenbar, praktisch nicht zurückzurechnen", "correct": true },
+      { "text": "Leicht in beide Richtungen umzurechnen", "correct": false },
+      { "text": "Ein Verfahren zur symmetrischen Entschlüsselung", "correct": false },
+      { "text": "Ein Schlüsselwechsel nach jeder Anmeldung", "correct": false }
+    ],
+    "explanation": "Merksatz: Einwegfunktionen sind Grundlage vieler Hashverfahren."
+  },
+  {
+    "id": "lf-04-fach-kryp-018",
+    "question": "Was beschreibt eine digitale Signatur?",
+    "answers": [
+      { "text": "Kryptografischer Nachweis für Herkunft und Integrität", "correct": true },
+      { "text": "Verschlüsselung von Daten mit gemeinsamem Schlüssel", "correct": false },
+      { "text": "Verbergen einer Nachricht in einem Bild", "correct": false },
+      { "text": "Erzeugung eines geheimen Sitzungsschlüssels", "correct": false }
+    ],
+    "explanation": "Merksatz: Digitale Signaturen unterstützen Authentizität, Integrität und Verbindlichkeit."
+  },
+  {
+    "id": "lf-04-fach-kryp-019",
+    "question": "Was beschreibt ein digitales Zertifikat?",
+    "answers": [
+      { "text": "Zuordnung eines öffentlichen Schlüssels zu einer Identität", "correct": true },
+      { "text": "Geheimer Schlüssel zum Entschlüsseln von Daten", "correct": false },
+      { "text": "Hashwert ohne Bezug zu einer Identität", "correct": false },
+      { "text": "Verschlüsselter Text ohne lesbaren Inhalt", "correct": false }
+    ],
+    "explanation": "Merksatz: Zertifikate verbinden öffentliche Schlüssel mit geprüften Identitäten."
+  },
+  {
+    "id": "lf-04-fach-kryp-020",
+    "question": "Was beschreibt Steganographie?",
+    "answers": [
+      { "text": "Verbergen von Informationen in anderen Daten oder Medien", "correct": true },
+      { "text": "Unlesbarmachen von Informationen durch Verschlüsselung", "correct": false },
+      { "text": "Prüfung der Unverändertheit durch Hashwerte", "correct": false },
+      { "text": "Nachweis der Herkunft durch digitale Signatur", "correct": false }
+    ],
+    "explanation": "Merksatz: Steganographie versteckt die Existenz einer Nachricht, statt nur ihren Inhalt unlesbar zu machen."
+  }
+]

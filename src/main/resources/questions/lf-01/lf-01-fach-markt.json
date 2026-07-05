@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-fach-markt-001",
+    "question": "Was beschreibt einen Markt?",
+    "answers": [
+      { "text": "Das Zusammentreffen von Angebot und Nachfrage", "correct": true },
+      { "text": "Der Verkaufsbereich eines einzelnen Anbieters", "correct": false },
+      { "text": "Die interne Beschaffung eines Unternehmens", "correct": false },
+      { "text": "Die Produktionsmenge eines Betriebs", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Markt entsteht, wenn Angebot und Nachfrage aufeinandertreffen."
+  },
+  {
+    "id": "lf-01-fach-markt-002",
+    "question": "Was beschreibt Angebot im Markt?",
+    "answers": [
+      { "text": "Verkaufsbereite Menge an Gütern oder Leistungen", "correct": true },
+      { "text": "Kaufbereite Menge der Nachfrager", "correct": false },
+      { "text": "Tatsächlich verkaufte Menge nach Marktschluss", "correct": false },
+      { "text": "Produktionsmenge ohne Verkaufsabsicht", "correct": false }
+    ],
+    "explanation": "Merksatz: Angebot beschreibt, was Verkäufer zu bestimmten Bedingungen bereitstellen."
+  },
+  {
+    "id": "lf-01-fach-markt-003",
+    "question": "Was beschreibt Nachfrage im Markt?",
+    "answers": [
+      { "text": "Kaufbereite Menge an Gütern oder Leistungen", "correct": true },
+      { "text": "Verkaufsbereite Menge der Anbieter", "correct": false },
+      { "text": "Lagerbestand vor dem Verkauf", "correct": false },
+      { "text": "Produktionskapazität eines Betriebs", "correct": false }
+    ],
+    "explanation": "Merksatz: Nachfrage beschreibt, was Käufer zu bestimmten Bedingungen erwerben möchten."
+  },
+  {
+    "id": "lf-01-fach-markt-004",
+    "question": "Was beschreibt der Gleichgewichtspreis?",
+    "answers": [
+      { "text": "Preis, bei dem Angebot und Nachfrage übereinstimmen", "correct": true },
+      { "text": "Preis, bei dem das Angebot größer ist", "correct": false },
+      { "text": "Preis, bei dem die Nachfrage größer ist", "correct": false },
+      { "text": "Preis, den ein Anbieter frei festlegt", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Gleichgewichtspreis liegt dort, wo angebotene und nachgefragte Menge zusammenpassen."
+  },
+  {
+    "id": "lf-01-fach-markt-005",
+    "question": "Was beschreibt vollständige Konkurrenz?",
+    "answers": [
+      { "text": "Viele Anbieter und Nachfrager ohne Marktmacht", "correct": true },
+      { "text": "Viele Anbieter mit starker Preissetzungsmacht", "correct": false },
+      { "text": "Wenige Anbieter mit gegenseitiger Abhängigkeit", "correct": false },
+      { "text": "Ein Anbieter mit vielen Nachfragern", "correct": false }
+    ],
+    "explanation": "Merksatz: Vollständige Konkurrenz bedeutet, dass einzelne Marktteilnehmer den Preis nicht bestimmen können."
+  },
+  {
+    "id": "lf-01-fach-markt-006",
+    "question": "Was beschreibt ein vollkommener Markt?",
+    "answers": [
+      { "text": "Ein theoretischer Markt mit idealen Bedingungen", "correct": true },
+      { "text": "Ein realer Markt mit vielen Anbietern", "correct": false },
+      { "text": "Ein Markt mit vollständiger Marktmacht", "correct": false },
+      { "text": "Ein Markt mit gesetzlich fixierten Preisen", "correct": false }
+    ],
+    "explanation": "Merksatz: Der vollkommene Markt ist ein Modell mit idealer Vergleichbarkeit, Information und Reaktionsgeschwindigkeit."
+  },
+  {
+    "id": "lf-01-fach-markt-007",
+    "question": "Was beschreibt eine Marktform?",
+    "answers": [
+      { "text": "Marktstruktur nach Anbietern und Nachfragern", "correct": true },
+      { "text": "Preisbildung durch Angebot und Nachfrage", "correct": false },
+      { "text": "Qualität der angebotenen Güter", "correct": false },
+      { "text": "Vertriebsweg eines Unternehmens", "correct": false }
+    ],
+    "explanation": "Merksatz: Marktformen zeigen, wie viele Anbieter und Nachfrager am Markt beteiligt sind."
+  },
+  {
+    "id": "lf-01-fach-markt-008",
+    "question": "Was beschreibt ein Monopol?",
+    "answers": [
+      { "text": "Eine Marktform mit nur einem Anbieter oder Nachfrager", "correct": true },
+      { "text": "Eine Marktform mit wenigen Anbietern", "correct": false },
+      { "text": "Eine Marktform mit vielen Marktteilnehmern", "correct": false },
+      { "text": "Ein Markt mit vollständiger Konkurrenz", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Monopol steht einer Marktseite nur ein Marktteilnehmer gegenüber."
+  },
+  {
+    "id": "lf-01-fach-markt-009",
+    "question": "Was beschreibt ein Angebotsmonopol?",
+    "answers": [
+      { "text": "Eine Marktform mit genau einem Anbieter", "correct": true },
+      { "text": "Eine Marktform mit genau einem Nachfrager", "correct": false },
+      { "text": "Eine Marktform mit wenigen Anbietern", "correct": false },
+      { "text": "Eine Marktform mit vielen Anbietern", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Angebotsmonopol bietet nur ein Unternehmen ein Gut oder eine Leistung an."
+  },
+  {
+    "id": "lf-01-fach-markt-010",
+    "question": "Was beschreibt ein Nachfragemonopol?",
+    "answers": [
+      { "text": "Eine Marktform mit genau einem Nachfrager", "correct": true },
+      { "text": "Eine Marktform mit genau einem Anbieter", "correct": false },
+      { "text": "Eine Marktform mit wenigen Nachfragern", "correct": false },
+      { "text": "Eine Marktform mit vielen Nachfragern", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Nachfragemonopol fragt nur ein Käufer ein Gut oder eine Leistung nach."
+  },
+  {
+    "id": "lf-01-fach-markt-011",
+    "question": "Was beschreibt ein Oligopol?",
+    "answers": [
+      { "text": "Eine Marktform mit wenigen Anbietern oder Nachfragern", "correct": true },
+      { "text": "Eine Marktform mit einem Marktteilnehmer", "correct": false },
+      { "text": "Eine Marktform mit vielen Marktteilnehmern", "correct": false },
+      { "text": "Ein Markt mit vollkommenen Bedingungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Oligopol stehen wenige Marktteilnehmer einer Marktseite gegenüber."
+  },
+  {
+    "id": "lf-01-fach-markt-012",
+    "question": "Was beschreibt ein Angebotsoligopol?",
+    "answers": [
+      { "text": "Eine Marktform mit wenigen Anbietern", "correct": true },
+      { "text": "Eine Marktform mit wenigen Nachfragern", "correct": false },
+      { "text": "Eine Marktform mit einem Anbieter", "correct": false },
+      { "text": "Eine Marktform mit vielen Anbietern", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Angebotsoligopol gibt es nur wenige Anbieter auf dem Markt."
+  },
+  {
+    "id": "lf-01-fach-markt-013",
+    "question": "Was beschreibt ein Polypol?",
+    "answers": [
+      { "text": "Eine Marktform mit vielen Anbietern und Nachfragern", "correct": true },
+      { "text": "Eine Marktform mit einem Anbieter", "correct": false },
+      { "text": "Eine Marktform mit wenigen Anbietern", "correct": false },
+      { "text": "Eine Marktform mit einem Nachfrager", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Polypol konkurrieren viele Anbieter um viele Nachfrager."
+  },
+  {
+    "id": "lf-01-fach-markt-014",
+    "question": "Was beschreibt ein Käufermarkt?",
+    "answers": [
+      { "text": "Eine Marktsituation mit Angebotsüberhang", "correct": true },
+      { "text": "Eine Marktsituation mit Nachfrageüberhang", "correct": false },
+      { "text": "Ein Markt mit Angebotsknappheit", "correct": false },
+      { "text": "Ein Markt mit starker Verkäufermacht", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Käufermarkt ist das Angebot größer als die Nachfrage, Käufer haben mehr Auswahl."
+  },
+  {
+    "id": "lf-01-fach-markt-015",
+    "question": "Was beschreibt ein Verkäufermarkt?",
+    "answers": [
+      { "text": "Eine Marktsituation mit Nachfrageüberhang", "correct": true },
+      { "text": "Eine Marktsituation mit Angebotsüberhang", "correct": false },
+      { "text": "Ein Markt mit starker Käufermacht", "correct": false },
+      { "text": "Ein Markt mit großem Angebotsüberschuss", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Verkäufermarkt ist die Nachfrage größer als das Angebot, Verkäufer haben mehr Marktmacht."
+  },
+  {
+    "id": "lf-01-fach-markt-016",
+    "question": "Was beschreibt Konjunktur?",
+    "answers": [
+      { "text": "Schwankungen der gesamtwirtschaftlichen Aktivität", "correct": true },
+      { "text": "Entwicklung eines einzelnen Unternehmens", "correct": false },
+      { "text": "Marktform nach Anbieterzahl", "correct": false },
+      { "text": "Preisbildung auf einem Einzelmarkt", "correct": false }
+    ],
+    "explanation": "Merksatz: Konjunktur beschreibt Auf- und Abwärtsbewegungen der Wirtschaft."
+  },
+  {
+    "id": "lf-01-fach-markt-017",
+    "question": "Was beschreibt Aufschwung?",
+    "answers": [
+      { "text": "Eine Phase steigender wirtschaftlicher Aktivität", "correct": true },
+      { "text": "Eine Phase sinkender Wirtschaftsleistung", "correct": false },
+      { "text": "Die Spitze einer Boomphase", "correct": false },
+      { "text": "Eine Phase mit Nachfrage- und Produktionsrückgang", "correct": false }
+    ],
+    "explanation": "Merksatz: Im Aufschwung steigen Nachfrage, Produktion und Beschäftigung meist an."
+  },
+  {
+    "id": "lf-01-fach-markt-018",
+    "question": "Was beschreibt Hochkonjunktur?",
+    "answers": [
+      { "text": "Eine Boomphase mit hoher Auslastung", "correct": true },
+      { "text": "Eine Erholungsphase nach einer Rezession", "correct": false },
+      { "text": "Eine Phase sinkender Nachfrage", "correct": false },
+      { "text": "Ein Tiefpunkt der gesamtwirtschaftlichen Aktivität", "correct": false }
+    ],
+    "explanation": "Merksatz: Hochkonjunktur bedeutet starke Nachfrage und hohe Auslastung der Wirtschaft."
+  },
+  {
+    "id": "lf-01-fach-markt-019",
+    "question": "Was beschreibt Rezession?",
+    "answers": [
+      { "text": "Eine Phase sinkender wirtschaftlicher Aktivität", "correct": true },
+      { "text": "Eine Phase steigender Wirtschaftsleistung", "correct": false },
+      { "text": "Eine Boomphase mit hoher Auslastung", "correct": false },
+      { "text": "Ein kurzfristiger Nachfrageüberhang", "correct": false }
+    ],
+    "explanation": "Merksatz: Rezession bedeutet wirtschaftlicher Abschwung mit sinkender Nachfrage oder Produktion."
+  },
+  {
+    "id": "lf-01-fach-markt-020",
+    "question": "Was beschreibt eine ABC-Kundenanalyse?",
+    "answers": [
+      { "text": "Einteilung von Kunden nach Bedeutung", "correct": true },
+      { "text": "Einteilung von Gütern nach Lagerwert", "correct": false },
+      { "text": "Sortierung von Kunden nach Namen", "correct": false },
+      { "text": "Bewertung von Märkten nach Anbieterzahl", "correct": false }
+    ],
+    "explanation": "Merksatz: Die ABC-Kundenanalyse hilft, wichtige Kunden gezielt zu betreuen."
+  }
+]

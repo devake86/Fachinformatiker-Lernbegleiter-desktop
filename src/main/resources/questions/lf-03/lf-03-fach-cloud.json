@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-fach-cloud-001",
+    "question": "Was ist ein Rechenzentrum?",
+    "answers": [
+      { "text": "Ein Standort für zentrale IT-Systeme", "correct": true },
+      { "text": "Ein einzelner Serverdienst im Netzwerk", "correct": false },
+      { "text": "Ein Arbeitsplatz mit lokaler Software", "correct": false },
+      { "text": "Ein Verteiler für Endgeräte im LAN", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Rechenzentrum bündelt Server, Speicher, Netzwerk, Stromversorgung und Kühlung."
+  },
+  {
+    "id": "lf-03-fach-cloud-002",
+    "question": "Was bedeutet On-Premises?",
+    "answers": [
+      { "text": "IT-Betrieb in eigener Umgebung", "correct": true },
+      { "text": "IT-Betrieb bei einem externen Anbieter", "correct": false },
+      { "text": "IT-Nutzung über öffentliche Cloud-Dienste", "correct": false },
+      { "text": "IT-Ressourcen aus gemeinsamem Cloud-Pool", "correct": false }
+    ],
+    "explanation": "Merksatz: On-Premises bedeutet, dass IT-Systeme lokal beim Unternehmen betrieben werden."
+  },
+  {
+    "id": "lf-03-fach-cloud-003",
+    "question": "Was bedeutet Off-Premises?",
+    "answers": [
+      { "text": "IT-Betrieb außerhalb eigener Räume", "correct": true },
+      { "text": "IT-Betrieb im eigenen Serverraum", "correct": false },
+      { "text": "Lokale Ausführung auf Arbeitsplatzrechnern", "correct": false },
+      { "text": "Eigene Hardware am Unternehmensstandort", "correct": false }
+    ],
+    "explanation": "Merksatz: Off-Premises verlagert IT-Systeme oder Dienste an einen externen Standort."
+  },
+  {
+    "id": "lf-03-fach-cloud-004",
+    "question": "Was ist Co-Location?",
+    "answers": [
+      { "text": "Eigene Hardware im fremden Rechenzentrum", "correct": true },
+      { "text": "Mietsoftware aus einer Public Cloud", "correct": false },
+      { "text": "Virtuelle Server aus Anbieterressourcen", "correct": false },
+      { "text": "Lokaler Betrieb im eigenen Serverraum", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei Co-Location wird eigene Hardware in einem externen Rechenzentrum betrieben."
+  },
+  {
+    "id": "lf-03-fach-cloud-005",
+    "question": "Was ist Cloud Computing?",
+    "answers": [
+      { "text": "IT-Ressourcen über ein Netzwerk nutzen", "correct": true },
+      { "text": "IT-Systeme lokal im Serverraum betreiben", "correct": false },
+      { "text": "Eigene Hardware im Fremdrechenzentrum hosten", "correct": false },
+      { "text": "Endgeräte direkt im LAN verbinden", "correct": false }
+    ],
+    "explanation": "Merksatz: Cloud Computing stellt IT-Ressourcen flexibel über Netzwerke bereit."
+  },
+  {
+    "id": "lf-03-fach-cloud-006",
+    "question": "Was ist ein Cloud-Speicher?",
+    "answers": [
+      { "text": "Online bereitgestellter Speicherplatz", "correct": true },
+      { "text": "Lokaler Speicher im Arbeitsplatzrechner", "correct": false },
+      { "text": "Arbeitsspeicher im Serverbetrieb", "correct": false },
+      { "text": "Speicherbereich auf einem USB-Medium", "correct": false }
+    ],
+    "explanation": "Merksatz: Cloud-Speicher ermöglicht das Ablegen und Abrufen von Daten über ein Netzwerk."
+  },
+  {
+    "id": "lf-03-fach-cloud-007",
+    "question": "Was beschreibt SaaS?",
+    "answers": [
+      { "text": "Anwendungssoftware als Dienst", "correct": true },
+      { "text": "Entwicklungsplattform als Dienst", "correct": false },
+      { "text": "Infrastrukturressourcen als Dienst", "correct": false },
+      { "text": "Speicher- und Netzwerkbasis als Dienst", "correct": false }
+    ],
+    "explanation": "Merksatz: SaaS stellt fertige Anwendungen online bereit."
+  },
+  {
+    "id": "lf-03-fach-cloud-008",
+    "question": "Was beschreibt PaaS?",
+    "answers": [
+      { "text": "Eine Plattform als Dienst", "correct": true },
+      { "text": "Fertige Anwendungssoftware als Dienst", "correct": false },
+      { "text": "Virtuelle Infrastruktur als Dienst", "correct": false },
+      { "text": "Online-Speicherplatz als Dienst", "correct": false }
+    ],
+    "explanation": "Merksatz: PaaS bietet eine Umgebung zum Entwickeln, Testen und Bereitstellen von Software."
+  },
+  {
+    "id": "lf-03-fach-cloud-009",
+    "question": "Was beschreibt IaaS?",
+    "answers": [
+      { "text": "Infrastruktur als Dienst", "correct": true },
+      { "text": "Fertige Anwendung als Dienst", "correct": false },
+      { "text": "Entwicklungsplattform als Dienst", "correct": false },
+      { "text": "Benutzerkonto als Cloud-Leistung", "correct": false }
+    ],
+    "explanation": "Merksatz: IaaS stellt Infrastruktur wie Server, Speicher und Netzwerkressourcen bereit."
+  },
+  {
+    "id": "lf-03-fach-cloud-010",
+    "question": "Was bedeutet XaaS?",
+    "answers": [
+      { "text": "Beliebige IT-Leistung als Dienst", "correct": true },
+      { "text": "Infrastrukturressourcen als Dienstmodell", "correct": false },
+      { "text": "Anwendungssoftware als Dienstmodell", "correct": false },
+      { "text": "Entwicklungsplattform als Dienstmodell", "correct": false }
+    ],
+    "explanation": "Merksatz: XaaS fasst Dienstmodelle zusammen, bei denen IT-Leistungen bereitgestellt werden."
+  },
+  {
+    "id": "lf-03-fach-cloud-011",
+    "question": "Was ist eine Public Cloud?",
+    "answers": [
+      { "text": "Eine öffentlich angebotene Cloud", "correct": true },
+      { "text": "Eine Cloud für eine Organisation", "correct": false },
+      { "text": "Eine Kombination mehrerer Cloud-Modelle", "correct": false },
+      { "text": "Eine Cloud für gemeinsame Interessengruppen", "correct": false }
+    ],
+    "explanation": "Merksatz: Public Clouds werden öffentlich angeboten und meist nutzungsabhängig abgerechnet."
+  },
+  {
+    "id": "lf-03-fach-cloud-012",
+    "question": "Was ist eine Private Cloud?",
+    "answers": [
+      { "text": "Eine Cloud für eine Organisation", "correct": true },
+      { "text": "Eine öffentlich angebotene Cloud", "correct": false },
+      { "text": "Eine Cloud aus Public- und Private-Anteilen", "correct": false },
+      { "text": "Eine Cloud mehrerer Organisationen mit gleichem Bedarf", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Private Cloud ist exklusiv für eine Organisation vorgesehen."
+  },
+  {
+    "id": "lf-03-fach-cloud-013",
+    "question": "Was ist eine Hybrid Cloud?",
+    "answers": [
+      { "text": "Kombination aus Public und Private Cloud", "correct": true },
+      { "text": "Öffentlich angebotene Cloud-Ressourcen", "correct": false },
+      { "text": "Cloud-Umgebung einer einzelnen Organisation", "correct": false },
+      { "text": "Gemeinsame Cloud einer Interessengruppe", "correct": false }
+    ],
+    "explanation": "Merksatz: Hybrid Cloud kombiniert private Kontrolle mit flexiblen öffentlichen Cloud-Ressourcen."
+  },
+  {
+    "id": "lf-03-fach-cloud-014",
+    "question": "Was ist eine Community Cloud?",
+    "answers": [
+      { "text": "Eine Cloud für gemeinsame Interessen", "correct": true },
+      { "text": "Eine Cloud für eine einzelne Organisation", "correct": false },
+      { "text": "Eine öffentlich buchbare Cloud-Plattform", "correct": false },
+      { "text": "Eine Mischung aus privater und öffentlicher Cloud", "correct": false }
+    ],
+    "explanation": "Merksatz: Community Clouds werden von Gruppen mit ähnlichen Anforderungen gemeinsam genutzt."
+  },
+  {
+    "id": "lf-03-fach-cloud-015",
+    "question": "Was bedeutet On-demand Self-service?",
+    "answers": [
+      { "text": "Ressourcen selbst bei Bedarf buchen", "correct": true },
+      { "text": "Ressourcen durch Anbieter manuell zuweisen lassen", "correct": false },
+      { "text": "Ressourcen mit fester Laufzeit planen", "correct": false },
+      { "text": "Ressourcen aus lokaler Hardware bereitstellen", "correct": false }
+    ],
+    "explanation": "Merksatz: On-demand Self-service erlaubt das selbstständige Abrufen benötigter Cloud-Ressourcen."
+  },
+  {
+    "id": "lf-03-fach-cloud-016",
+    "question": "Was bedeutet Rapid Elasticity?",
+    "answers": [
+      { "text": "Schnelle flexible Skalierung", "correct": true },
+      { "text": "Gemeinsame Ressourcennutzung mehrerer Kunden", "correct": false },
+      { "text": "Messung der verbrauchten Cloud-Leistung", "correct": false },
+      { "text": "Selbstständige Buchung von Ressourcen", "correct": false }
+    ],
+    "explanation": "Merksatz: Rapid Elasticity passt Cloud-Ressourcen schnell an den aktuellen Bedarf an."
+  },
+  {
+    "id": "lf-03-fach-cloud-017",
+    "question": "Was bedeutet Resource Pooling?",
+    "answers": [
+      { "text": "Gemeinsam verwaltete IT-Ressourcen", "correct": true },
+      { "text": "Schnelle Anpassung an Leistungsbedarf", "correct": false },
+      { "text": "Messung der Ressourcennutzung", "correct": false },
+      { "text": "Selbstständige Bereitstellung durch Nutzer", "correct": false }
+    ],
+    "explanation": "Merksatz: Resource Pooling bündelt Ressourcen und verteilt sie bedarfsgerecht."
+  },
+  {
+    "id": "lf-03-fach-cloud-018",
+    "question": "Was bedeutet Measured Service?",
+    "answers": [
+      { "text": "Nutzung wird gemessen und abgerechnet", "correct": true },
+      { "text": "Ressourcen werden flexibel skaliert", "correct": false },
+      { "text": "Ressourcen werden gemeinsam gebündelt", "correct": false },
+      { "text": "Ressourcen werden selbstständig gebucht", "correct": false }
+    ],
+    "explanation": "Merksatz: Measured Service misst Ressourcennutzung für Abrechnung und Planung."
+  },
+  {
+    "id": "lf-03-fach-cloud-019",
+    "question": "Was ist Skalierbarkeit?",
+    "answers": [
+      { "text": "Anpassbarkeit an steigenden Bedarf", "correct": true },
+      { "text": "Abrechnung nach gemessener Nutzung", "correct": false },
+      { "text": "Trennung mehrerer Kundendaten", "correct": false },
+      { "text": "Bündelung geteilter Ressourcen", "correct": false }
+    ],
+    "explanation": "Merksatz: Skalierbarkeit beschreibt, wie gut ein System mit wachsendem Bedarf umgehen kann."
+  },
+  {
+    "id": "lf-03-fach-cloud-020",
+    "question": "Was ist Mandantenfähigkeit?",
+    "answers": [
+      { "text": "Getrennte Nutzung durch mehrere Kunden", "correct": true },
+      { "text": "Flexible Anpassung von Ressourcen", "correct": false },
+      { "text": "Messung verbrauchter Cloud-Leistung", "correct": false },
+      { "text": "Bereitstellung physischer Einzelserver", "correct": false }
+    ],
+    "explanation": "Merksatz: Mandantenfähigkeit trennt Daten und Einstellungen unterschiedlicher Nutzergruppen."
+  },
+  {
+    "id": "lf-03-fach-cloud-021",
+    "question": "Was ist Virtualisierung?",
+    "answers": [
+      { "text": "Abstraktion physischer IT-Ressourcen", "correct": true },
+      { "text": "Bereitstellung fertiger Anwendungen", "correct": false },
+      { "text": "Messung von Cloud-Ressourcen", "correct": false },
+      { "text": "Auflösung von Namen in IP-Adressen", "correct": false }
+    ],
+    "explanation": "Merksatz: Virtualisierung trennt logische Systeme von der physischen Hardware."
+  },
+  {
+    "id": "lf-03-fach-cloud-022",
+    "question": "Was ist ein virtueller Server?",
+    "answers": [
+      { "text": "Ein logisch bereitgestellter Server", "correct": true },
+      { "text": "Ein physischer Server im eigenen Rack", "correct": false },
+      { "text": "Ein zentraler Dienst zur Namensauflösung", "correct": false },
+      { "text": "Ein Endgerät für Terminalzugriffe", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein virtueller Server nutzt geteilte Hardware, wirkt aber wie ein eigener Server."
+  },
+  {
+    "id": "lf-03-fach-cloud-023",
+    "question": "Was ist ein Cloud-Anbieter?",
+    "answers": [
+      { "text": "Ein Betreiber von Cloud-Diensten", "correct": true },
+      { "text": "Ein Nutzer gebuchter Cloud-Ressourcen", "correct": false },
+      { "text": "Ein Server für zentrale Anwendungen", "correct": false },
+      { "text": "Ein Dienst zur lokalen Namensauflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: Cloud-Anbieter stellen Cloud-Ressourcen technisch bereit und betreiben sie."
+  },
+  {
+    "id": "lf-03-fach-cloud-024",
+    "question": "Was ist ein Service-Level in der Cloud?",
+    "answers": [
+      { "text": "Eine zugesagte Dienstqualität", "correct": true },
+      { "text": "Eine gebuchte Serverinstanz", "correct": false },
+      { "text": "Ein gemessener Datenstrom", "correct": false },
+      { "text": "Ein lokaler Speicherbereich", "correct": false }
+    ],
+    "explanation": "Merksatz: Service-Level beschreiben erwartete Eigenschaften wie Verfügbarkeit oder Leistung."
+  },
+  {
+    "id": "lf-03-fach-cloud-025",
+    "question": "Was ist Latenz?",
+    "answers": [
+      { "text": "Die Verzögerung bei der Übertragung", "correct": true },
+      { "text": "Die verfügbare Datenrate einer Verbindung", "correct": false },
+      { "text": "Die Größe eines Cloud-Speichers", "correct": false },
+      { "text": "Die Anzahl aktiver Serverinstanzen", "correct": false }
+    ],
+    "explanation": "Merksatz: Latenz ist die Verzögerung, bis Daten oder Antworten beim Ziel ankommen."
+  },
+  {
+    "id": "lf-03-fach-cloud-026",
+    "question": "Was ist Fog Computing?",
+    "answers": [
+      { "text": "Datenverarbeitung nahe am Netzwerkrand", "correct": true },
+      { "text": "Datenverarbeitung im zentralen Cloud-Kern", "correct": false },
+      { "text": "Bereitstellung fertiger Anwendungen online", "correct": false },
+      { "text": "Speicherung von Dateien im lokalen NAS", "correct": false }
+    ],
+    "explanation": "Merksatz: Fog Computing verarbeitet Daten näher an der Quelle als zentrale Cloud-Systeme."
+  },
+  {
+    "id": "lf-03-fach-cloud-027",
+    "question": "Was ist Edge Computing?",
+    "answers": [
+      { "text": "Verarbeitung direkt nahe am Endgerät", "correct": true },
+      { "text": "Verarbeitung im zentralen Rechenzentrum", "correct": false },
+      { "text": "Bereitstellung einer Entwicklungsplattform", "correct": false },
+      { "text": "Gemeinsame Nutzung von Cloud-Ressourcen", "correct": false }
+    ],
+    "explanation": "Merksatz: Edge Computing verlagert Verarbeitung an den Rand des Netzwerks."
+  },
+  {
+    "id": "lf-03-fach-cloud-028",
+    "question": "Was ist der Netzwerkrand?",
+    "answers": [
+      { "text": "Der Bereich nahe bei Endgeräten", "correct": true },
+      { "text": "Der Kernbereich eines Rechenzentrums", "correct": false },
+      { "text": "Die zentrale Cloud-Verwaltungsebene", "correct": false },
+      { "text": "Die interne Zone eines Serverracks", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Netzwerkrand liegt dort, wo Daten entstehen oder Endgeräte angebunden sind."
+  },
+  {
+    "id": "lf-03-fach-cloud-029",
+    "question": "Was ist das Internet of Things?",
+    "answers": [
+      { "text": "Vernetzung physischer Geräte", "correct": true },
+      { "text": "Zentrale Bereitstellung von Webinhalten", "correct": false },
+      { "text": "Virtuelle Bereitstellung von Servern", "correct": false },
+      { "text": "Messung verbrauchter Cloud-Ressourcen", "correct": false }
+    ],
+    "explanation": "Merksatz: IoT verbindet Geräte, Sensoren und Systeme über Netzwerke."
+  },
+  {
+    "id": "lf-03-fach-cloud-030",
+    "question": "Was ist ein Remote-Server?",
+    "answers": [
+      { "text": "Ein entfernt erreichbarer Server", "correct": true },
+      { "text": "Ein Arbeitsplatzrechner am lokalen Tisch", "correct": false },
+      { "text": "Ein Endgerät für Terminalzugriffe", "correct": false },
+      { "text": "Ein Speichergerät für lokale Dateien", "correct": false }
+    ],
+    "explanation": "Merksatz: Remote-Server stehen nicht direkt am Arbeitsplatz, sind aber über ein Netzwerk erreichbar."
+  },
+  {
+    "id": "lf-03-fach-cloud-031",
+    "question": "Was ist ein Terminalserver?",
+    "answers": [
+      { "text": "Ein Server für entfernte Arbeitsumgebungen", "correct": true },
+      { "text": "Ein Server für zentrale Dateifreigaben", "correct": false },
+      { "text": "Ein Server für Namensauflösung", "correct": false },
+      { "text": "Ein Server für Softwareaktualisierungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Terminalserver stellen Arbeitsplatzumgebungen zentral bereit."
+  },
+  {
+    "id": "lf-03-fach-cloud-032",
+    "question": "Was ist ein Thin Client?",
+    "answers": [
+      { "text": "Ein schlanker Client für Serverarbeit", "correct": true },
+      { "text": "Ein leistungsfähiger Arbeitsplatzrechner", "correct": false },
+      { "text": "Ein Server für entfernte Desktops", "correct": false },
+      { "text": "Ein Speichergerät für Netzwerkfreigaben", "correct": false }
+    ],
+    "explanation": "Merksatz: Thin Clients nutzen zentrale Serverleistung und benötigen selbst wenig lokale Leistung."
+  },
+  {
+    "id": "lf-03-fach-cloud-033",
+    "question": "Was ist ein Fat Client?",
+    "answers": [
+      { "text": "Ein eigenständig leistungsfähiger Client", "correct": true },
+      { "text": "Ein schlanker Client für Serverarbeit", "correct": false },
+      { "text": "Ein Server für zentrale Arbeitsplatzumgebungen", "correct": false },
+      { "text": "Ein Cloud-Dienst für Dateispeicher", "correct": false }
+    ],
+    "explanation": "Merksatz: Fat Clients können viele Aufgaben lokal mit eigener Software ausführen."
+  },
+  {
+    "id": "lf-03-fach-cloud-034",
+    "question": "Was ist ein File-Server?",
+    "answers": [
+      { "text": "Ein Server für Dateidienste", "correct": true },
+      { "text": "Ein Server für Namensauflösung", "correct": false },
+      { "text": "Ein Server für Webinhalte", "correct": false },
+      { "text": "Ein Server für E-Mail-Dienste", "correct": false }
+    ],
+    "explanation": "Merksatz: File-Server stellen Dateien zentral im Netzwerk bereit."
+  },
+  {
+    "id": "lf-03-fach-cloud-035",
+    "question": "Was ist ein DNS-Server?",
+    "answers": [
+      { "text": "Ein Server für Namensauflösung", "correct": true },
+      { "text": "Ein Server für Dateifreigaben", "correct": false },
+      { "text": "Ein Server für Webinhalte", "correct": false },
+      { "text": "Ein Server für E-Mail-Dienste", "correct": false }
+    ],
+    "explanation": "Merksatz: DNS-Server übersetzen Namen in IP-Adressen."
+  },
+  {
+    "id": "lf-03-fach-cloud-036",
+    "question": "Was ist ein Webserver?",
+    "answers": [
+      { "text": "Ein Server für Webinhalte", "correct": true },
+      { "text": "Ein Server für Dateifreigaben", "correct": false },
+      { "text": "Ein Server für Namensauflösung", "correct": false },
+      { "text": "Ein Server für E-Mail-Dienste", "correct": false }
+    ],
+    "explanation": "Merksatz: Webserver liefern Inhalte aus, die typischerweise per Browser abgerufen werden."
+  },
+  {
+    "id": "lf-03-fach-cloud-037",
+    "question": "Was ist ein Mailserver?",
+    "answers": [
+      { "text": "Ein Server für E-Mail-Dienste", "correct": true },
+      { "text": "Ein Server für Webinhalte", "correct": false },
+      { "text": "Ein Server für Dateifreigaben", "correct": false },
+      { "text": "Ein Server für Namensauflösung", "correct": false }
+    ],
+    "explanation": "Merksatz: Mailserver senden, empfangen oder speichern E-Mails."
+  },
+  {
+    "id": "lf-03-fach-cloud-038",
+    "question": "Was ist ein Anwendungsserver?",
+    "answers": [
+      { "text": "Ein Server für zentrale Anwendungen", "correct": true },
+      { "text": "Ein Server für Dateifreigaben", "correct": false },
+      { "text": "Ein Server für Namensauflösung", "correct": false },
+      { "text": "Ein Server für Updatepakete", "correct": false }
+    ],
+    "explanation": "Merksatz: Anwendungsserver stellen Programme oder Programmlogik zentral bereit."
+  },
+  {
+    "id": "lf-03-fach-cloud-039",
+    "question": "Was ist ein NAS?",
+    "answers": [
+      { "text": "Netzwerkgebundener Speicher", "correct": true },
+      { "text": "Server für zentrale Anwendungen", "correct": false },
+      { "text": "Server für Namensauflösung", "correct": false },
+      { "text": "Dienst für Softwareaktualisierungen", "correct": false }
+    ],
+    "explanation": "Merksatz: NAS stellt Speicherplatz als Netzwerkdienst bereit."
+  },
+  {
+    "id": "lf-03-fach-cloud-040",
+    "question": "Was ist ein Update-Server?",
+    "answers": [
+      { "text": "Ein Server zur Bereitstellung von Updates", "correct": true },
+      { "text": "Ein Server für Namensauflösung", "correct": false },
+      { "text": "Ein Server für zentrale Dateifreigaben", "correct": false },
+      { "text": "Ein Server für entfernte Arbeitsumgebungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Update-Server verteilen Softwareaktualisierungen zentral im Netzwerk."
+  }
+]

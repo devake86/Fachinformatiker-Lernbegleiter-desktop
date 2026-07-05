@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-03-sach-adrs-001",
+    "question": "Warum benötigt ein Client eine gültige IP-Konfiguration?",
+    "answers": [
+      { "text": "Damit er im IP-Netz kommunizieren kann", "correct": true },
+      { "text": "Damit er im lokalen Netz eindeutig benannt ist", "correct": false },
+      { "text": "Damit Anwendungen passende Ports erhalten", "correct": false },
+      { "text": "Damit Frames per MAC-Adresse verteilt werden", "correct": false }
+    ],
+    "explanation": "IP-Adresse, Subnetzmaske, Gateway und DNS ermöglichen die Kommunikation im lokalen und entfernten Netz."
+  },
+  {
+    "id": "lf-03-sach-adrs-002",
+    "question": "Warum reicht eine IP-Adresse ohne Subnetzmaske nicht aus?",
+    "answers": [
+      { "text": "Der Netzanteil wäre nicht erkennbar", "correct": true },
+      { "text": "Der Hostname wäre im DNS unbekannt", "correct": false },
+      { "text": "Die Portnummer wäre dem Dienst zugeordnet", "correct": false },
+      { "text": "Die MAC-Adresse wäre lokal zuständig", "correct": false }
+    ],
+    "explanation": "Die Subnetzmaske trennt Netz- und Hostanteil und zeigt, welche Ziele direkt erreichbar sind."
+  },
+  {
+    "id": "lf-03-sach-adrs-003",
+    "question": "Warum braucht ein Client ein Standardgateway?",
+    "answers": [
+      { "text": "Für Verbindungen in andere Netzwerke", "correct": true },
+      { "text": "Für die Namensauflösung von Domains", "correct": false },
+      { "text": "Für die lokale Zuordnung per ARP", "correct": false },
+      { "text": "Für die Auswahl eines Dienstports", "correct": false }
+    ],
+    "explanation": "Ohne Standardgateway erreicht ein Client normalerweise nur Geräte im eigenen IP-Netz."
+  },
+  {
+    "id": "lf-03-sach-adrs-004",
+    "question": "Ein Client erreicht Geräte im LAN, aber keine Internetseiten. Was ist wahrscheinlich falsch?",
+    "answers": [
+      { "text": "Gateway oder DNS-Konfiguration", "correct": true },
+      { "text": "Lokale MAC-Zuordnung im ARP-Cache", "correct": false },
+      { "text": "Eigene IP-Adresse im passenden Subnetz", "correct": false },
+      { "text": "Hostanteil der lokalen IPv4-Adresse", "correct": false }
+    ],
+    "explanation": "LAN-Verbindungen funktionieren lokal; Internetzugriff benötigt Gateway und meist DNS."
+  },
+  {
+    "id": "lf-03-sach-adrs-005",
+    "question": "Ein Client erreicht eine IP-Adresse, aber keinen Domainnamen. Was ist wahrscheinlich gestört?",
+    "answers": [
+      { "text": "Die DNS-Auflösung", "correct": true },
+      { "text": "Die lokale IP-Adresse", "correct": false },
+      { "text": "Die Gateway-Route ins Fremdnetz", "correct": false },
+      { "text": "Die ARP-Zuordnung im LAN", "correct": false }
+    ],
+    "explanation": "Wenn IP-Ziele erreichbar sind, aber Namen nicht, liegt der Fehler oft bei DNS."
+  },
+  {
+    "id": "lf-03-sach-adrs-006",
+    "question": "Warum ist DHCP in größeren Netzwerken hilfreich?",
+    "answers": [
+      { "text": "IP-Konfigurationen werden automatisch verteilt", "correct": true },
+      { "text": "Namensauflösung wird zentral dokumentiert", "correct": false },
+      { "text": "MAC-Adressen werden in Switches gelernt", "correct": false },
+      { "text": "Ports werden Anwendungen fest zugeordnet", "correct": false }
+    ],
+    "explanation": "DHCP reduziert manuelle Eingaben und vermeidet typische Fehler bei IP, Gateway und DNS."
+  },
+  {
+    "id": "lf-03-sach-adrs-007",
+    "question": "Warum haben Server und Drucker oft feste IP-Adressen?",
+    "answers": [
+      { "text": "Damit Dienste zuverlässig erreichbar bleiben", "correct": true },
+      { "text": "Damit Clients dynamische Quellports erhalten", "correct": false },
+      { "text": "Damit ARP-Einträge dauerhaft gleich bleiben", "correct": false },
+      { "text": "Damit Broadcasts im Subnetz verteilt werden", "correct": false }
+    ],
+    "explanation": "Feste Adressen erleichtern Zugriff, Dokumentation und Konfiguration zentraler Geräte."
+  },
+  {
+    "id": "lf-03-sach-adrs-008",
+    "question": "Warum sind doppelt vergebene IP-Adressen problematisch?",
+    "answers": [
+      { "text": "Antworten können dem falschen Gerät zugeordnet werden", "correct": true },
+      { "text": "Gateway-Routen werden dadurch priorisiert", "correct": false },
+      { "text": "DNS-Namen erhalten mehrere gültige Zonen", "correct": false },
+      { "text": "Portnummern wechseln auf dynamische Bereiche", "correct": false }
+    ],
+    "explanation": "IP-Adresskonflikte führen zu unzuverlässiger oder fehlgeschlagener Kommunikation."
+  },
+  {
+    "id": "lf-03-sach-adrs-009",
+    "question": "Warum nutzt man private IPv4-Adressen in LANs?",
+    "answers": [
+      { "text": "Sie sind intern wiederverwendbar", "correct": true },
+      { "text": "Sie sind global eindeutig im Internet", "correct": false },
+      { "text": "Sie dienen als Portbereich für Webdienste", "correct": false },
+      { "text": "Sie beschreiben MAC-Adressen auf Layer 2", "correct": false }
+    ],
+    "explanation": "Private IPv4-Bereiche können in vielen LANs genutzt werden und werden im Internet nicht direkt geroutet."
+  },
+  {
+    "id": "lf-03-sach-adrs-010",
+    "question": "Welche IPv4-Adresse gehört zu einem privaten Adressbereich?",
+    "answers": [
+      { "text": "192.168.10.25", "correct": true },
+      { "text": "8.8.8.8", "correct": false },
+      { "text": "1.1.1.1", "correct": false },
+      { "text": "224.0.0.1", "correct": false }
+    ],
+    "explanation": "192.168.0.0/16 ist ein privater IPv4-Bereich für interne Netze."
+  },
+  {
+    "id": "lf-03-sach-adrs-011",
+    "question": "Welche IPv4-Adresse gehört zum Loopback-Bereich?",
+    "answers": [
+      { "text": "127.0.0.1", "correct": true },
+      { "text": "192.168.0.1", "correct": false },
+      { "text": "10.0.0.1", "correct": false },
+      { "text": "172.16.0.1", "correct": false }
+    ],
+    "explanation": "127.0.0.0/8 ist für Loopback reserviert; 127.0.0.1 zeigt auf das eigene System."
+  },
+  {
+    "id": "lf-03-sach-adrs-012",
+    "question": "Wofür eignet sich ein Ping auf 127.0.0.1?",
+    "answers": [
+      { "text": "Zum Testen des lokalen IP-Stacks", "correct": true },
+      { "text": "Zum Prüfen des Standardgateways", "correct": false },
+      { "text": "Zum Testen externer DNS-Auflösung", "correct": false },
+      { "text": "Zum Messen erreichbarer WLAN-Zellen", "correct": false }
+    ],
+    "explanation": "Loopback prüft, ob die lokale TCP/IP-Funktion des Systems grundsätzlich arbeitet."
+  },
+  {
+    "id": "lf-03-sach-adrs-013",
+    "question": "Was zeigt eine APIPA-Adresse meist an?",
+    "answers": [
+      { "text": "DHCP hat keine Adresse geliefert", "correct": true },
+      { "text": "DNS hat einen Namen aufgelöst", "correct": false },
+      { "text": "Das Gateway wurde erfolgreich erreicht", "correct": false },
+      { "text": "Eine öffentliche Adresse wurde vergeben", "correct": false }
+    ],
+    "explanation": "APIPA-Adressen aus 169.254.0.0/16 entstehen oft, wenn kein DHCP-Lease erhalten wurde."
+  },
+  {
+    "id": "lf-03-sach-adrs-014",
+    "question": "Warum kann ein Client mit APIPA-Adresse meist nicht ins normale LAN?",
+    "answers": [
+      { "text": "Er liegt in einem anderen lokalen Ersatznetz", "correct": true },
+      { "text": "Er nutzt eine öffentliche Internetadresse", "correct": false },
+      { "text": "Er erhält DNS direkt vom Router", "correct": false },
+      { "text": "Er verwendet den Hostbereich des LANs", "correct": false }
+    ],
+    "explanation": "APIPA ist nur eine lokale Ersatzkonfiguration und passt meist nicht zum geplanten LAN."
+  },
+  {
+    "id": "lf-03-sach-adrs-015",
+    "question": "Warum darf die Netz-ID nicht als Hostadresse vergeben werden?",
+    "answers": [
+      { "text": "Sie beschreibt das gesamte Netz", "correct": true },
+      { "text": "Sie beschreibt den letzten Host im Netz", "correct": false },
+      { "text": "Sie beschreibt den DNS-Server des Netzes", "correct": false },
+      { "text": "Sie beschreibt einen dynamischen Clientport", "correct": false }
+    ],
+    "explanation": "Die Netz-ID kennzeichnet das Netz selbst und nicht ein einzelnes Gerät."
+  },
+  {
+    "id": "lf-03-sach-adrs-016",
+    "question": "Warum darf die Broadcastadresse nicht als Hostadresse vergeben werden?",
+    "answers": [
+      { "text": "Sie adressiert alle Hosts im Netz", "correct": true },
+      { "text": "Sie adressiert den ersten Host im Netz", "correct": false },
+      { "text": "Sie beschreibt das gesamte IP-Netz", "correct": false },
+      { "text": "Sie verweist auf den zuständigen DNS-Server", "correct": false }
+    ],
+    "explanation": "Die Broadcastadresse ist für Nachrichten an alle Teilnehmer eines IPv4-Netzes reserviert."
+  },
+  {
+    "id": "lf-03-sach-adrs-017",
+    "question": "Welche Adresse ist bei 192.168.1.0/24 die Netz-ID?",
+    "answers": [
+      { "text": "192.168.1.0", "correct": true },
+      { "text": "192.168.1.1", "correct": false },
+      { "text": "192.168.1.254", "correct": false },
+      { "text": "192.168.1.255", "correct": false }
+    ],
+    "explanation": "Bei /24 ist die erste Adresse des Bereichs die Netz-ID."
+  },
+  {
+    "id": "lf-03-sach-adrs-018",
+    "question": "Welche Adresse ist bei 192.168.1.0/24 die Broadcastadresse?",
+    "answers": [
+      { "text": "192.168.1.255", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.1", "correct": false },
+      { "text": "192.168.1.24", "correct": false }
+    ],
+    "explanation": "Bei /24 ist die letzte Adresse des Bereichs die Broadcastadresse."
+  },
+  {
+    "id": "lf-03-sach-adrs-019",
+    "question": "Welche Adresse ist bei 192.168.1.0/24 eine gültige Hostadresse?",
+    "answers": [
+      { "text": "192.168.1.10", "correct": true },
+      { "text": "192.168.1.0", "correct": false },
+      { "text": "192.168.1.255", "correct": false },
+      { "text": "127.0.0.1", "correct": false }
+    ],
+    "explanation": "Gültige Hosts liegen zwischen Netz-ID und Broadcastadresse."
+  },
+  {
+    "id": "lf-03-sach-adrs-020",
+    "question": "Was bedeutet /24 bei 192.168.1.20/24 praktisch?",
+    "answers": [
+      { "text": "Die ersten 24 Bit sind Netzanteil", "correct": true },
+      { "text": "Die letzten 24 Bit sind Hostanteil", "correct": false },
+      { "text": "Die Portnummer 24 wird verwendet", "correct": false },
+      { "text": "Die Adresse liegt im Loopback-Bereich", "correct": false }
+    ],
+    "explanation": "CIDR /24 bedeutet, dass 24 Bits die Netzadresse beschreiben."
+  },
+  {
+    "id": "lf-03-sach-adrs-021",
+    "question": "Welche Subnetzmaske passt zu /24?",
+    "answers": [
+      { "text": "255.255.255.0", "correct": true },
+      { "text": "255.255.0.0", "correct": false },
+      { "text": "255.0.0.0", "correct": false },
+      { "text": "255.255.255.255", "correct": false }
+    ],
+    "explanation": "/24 bedeutet 24 gesetzte Netzbits und entspricht 255.255.255.0."
+  },
+  {
+    "id": "lf-03-sach-adrs-022",
+    "question": "Welche Subnetzmaske passt zu /16?",
+    "answers": [
+      { "text": "255.255.0.0", "correct": true },
+      { "text": "255.255.255.0", "correct": false },
+      { "text": "255.0.0.0", "correct": false },
+      { "text": "255.255.255.252", "correct": false }
+    ],
+    "explanation": "/16 bedeutet 16 gesetzte Netzbits und entspricht 255.255.0.0."
+  },
+  {
+    "id": "lf-03-sach-adrs-023",
+    "question": "Welche Subnetzmaske passt zu /8?",
+    "answers": [
+      { "text": "255.0.0.0", "correct": true },
+      { "text": "255.255.0.0", "correct": false },
+      { "text": "255.255.255.0", "correct": false },
+      { "text": "0.0.0.0", "correct": false }
+    ],
+    "explanation": "/8 bedeutet 8 gesetzte Netzbits und entspricht 255.0.0.0."
+  },
+  {
+    "id": "lf-03-sach-adrs-024",
+    "question": "Warum ist CIDR-Schreibweise praktisch?",
+    "answers": [
+      { "text": "Sie verkürzt die Angabe der Netzmaske", "correct": true },
+      { "text": "Sie beschreibt die MAC-Adresse kompakt", "correct": false },
+      { "text": "Sie benennt den DNS-Server eindeutig", "correct": false },
+      { "text": "Sie ordnet Anwendungen Portnummern zu", "correct": false }
+    ],
+    "explanation": "CIDR gibt die Länge des Netzanteils kompakt mit Schrägstrich an."
+  },
+  {
+    "id": "lf-03-sach-adrs-025",
+    "question": "Warum nutzt man ARP in IPv4-Netzen?",
+    "answers": [
+      { "text": "Um zu einer IP die MAC-Adresse zu finden", "correct": true },
+      { "text": "Um zu einem Namen die IP-Adresse zu finden", "correct": false },
+      { "text": "Um IP-Konfigurationen automatisch zu vergeben", "correct": false },
+      { "text": "Um Dienste über Portnummern zu trennen", "correct": false }
+    ],
+    "explanation": "ARP verbindet Layer-3-Adressierung mit Layer-2-Zustellung im lokalen Netz."
+  },
+  {
+    "id": "lf-03-sach-adrs-026",
+    "question": "Warum besitzen TCP und UDP eigene Portnummern?",
+    "answers": [
+      { "text": "Ihre Portbereiche sind getrennt zu betrachten", "correct": true },
+      { "text": "Ihre IP-Adressbereiche sind identisch", "correct": false },
+      { "text": "Ihre MAC-Adressen werden gemeinsam genutzt", "correct": false },
+      { "text": "Ihre DNS-Namen werden lokal gespeichert", "correct": false }
+    ],
+    "explanation": "Dieselbe Portnummer kann bei TCP und UDP unterschiedliche Dienste betreffen."
+  },
+  {
+    "id": "lf-03-sach-adrs-027",
+    "question": "Warum reicht die IP-Adresse eines Servers allein nicht für einen Dienst?",
+    "answers": [
+      { "text": "Der Dienst wird zusätzlich über Ports erreicht", "correct": true },
+      { "text": "Der Dienst wird zusätzlich über ARP benannt", "correct": false },
+      { "text": "Der Dienst wird über die Subnetzmaske gewählt", "correct": false },
+      { "text": "Der Dienst wird über die Netz-ID gestartet", "correct": false }
+    ],
+    "explanation": "Die IP erreicht den Host, der Port die passende Anwendung auf diesem Host."
+  },
+  {
+    "id": "lf-03-sach-adrs-028",
+    "question": "Warum nutzt ein Client oft einen dynamischen Quellport?",
+    "answers": [
+      { "text": "Damit Antworten der Anfrage zugeordnet werden", "correct": true },
+      { "text": "Damit der Zielserver eine IP-Adresse erhält", "correct": false },
+      { "text": "Damit ARP den DNS-Namen auflöst", "correct": false },
+      { "text": "Damit die Subnetzmaske zum Gateway passt", "correct": false }
+    ],
+    "explanation": "Dynamische Quellports helfen, mehrere gleichzeitige Verbindungen sauber zu unterscheiden."
+  },
+  {
+    "id": "lf-03-sach-adrs-029",
+    "question": "Welcher Port wird typischerweise für HTTP genutzt?",
+    "answers": [
+      { "text": "80", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "22", "correct": false },
+      { "text": "443", "correct": false }
+    ],
+    "explanation": "HTTP nutzt typischerweise TCP-Port 80."
+  },
+  {
+    "id": "lf-03-sach-adrs-030",
+    "question": "Welcher Port wird typischerweise für HTTPS genutzt?",
+    "answers": [
+      { "text": "443", "correct": true },
+      { "text": "80", "correct": false },
+      { "text": "21", "correct": false },
+      { "text": "110", "correct": false }
+    ],
+    "explanation": "HTTPS nutzt typischerweise TCP-Port 443."
+  },
+  {
+    "id": "lf-03-sach-adrs-031",
+    "question": "Welcher Port wird typischerweise für SSH genutzt?",
+    "answers": [
+      { "text": "22", "correct": true },
+      { "text": "21", "correct": false },
+      { "text": "23", "correct": false },
+      { "text": "25", "correct": false }
+    ],
+    "explanation": "SSH nutzt typischerweise TCP-Port 22 für verschlüsselte Konsolenzugriffe."
+  },
+  {
+    "id": "lf-03-sach-adrs-032",
+    "question": "Welcher Port wird typischerweise für DNS-Abfragen genutzt?",
+    "answers": [
+      { "text": "53", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "80", "correct": false },
+      { "text": "143", "correct": false }
+    ],
+    "explanation": "DNS nutzt typischerweise Port 53, häufig über UDP."
+  },
+  {
+    "id": "lf-03-sach-adrs-033",
+    "question": "Was prüft man mit nslookup besonders gut?",
+    "answers": [
+      { "text": "Ob DNS-Namen aufgelöst werden", "correct": true },
+      { "text": "Ob ein Gateway Pakete weiterleitet", "correct": false },
+      { "text": "Ob ARP eine MAC-Adresse findet", "correct": false },
+      { "text": "Ob ein Port von TCP genutzt wird", "correct": false }
+    ],
+    "explanation": "nslookup zeigt, welcher DNS-Server antwortet und welche Adresse zu einem Namen gehört."
+  },
+  {
+    "id": "lf-03-sach-adrs-034",
+    "question": "Warum kann ein veralteter DNS-Cache Probleme verursachen?",
+    "answers": [
+      { "text": "Alte Namensauflösungen werden weiter genutzt", "correct": true },
+      { "text": "Alte ARP-Zuordnungen werden weiter genutzt", "correct": false },
+      { "text": "Alte DHCP-Leases werden neu berechnet", "correct": false },
+      { "text": "Alte Portnummern werden automatisch geöffnet", "correct": false }
+    ],
+    "explanation": "Ein alter Cache kann auf falsche IP-Adressen zeigen, obwohl DNS extern schon geändert wurde."
+  },
+  {
+    "id": "lf-03-sach-adrs-035",
+    "question": "Warum ist IPv6 langfristig wichtig?",
+    "answers": [
+      { "text": "Es bietet deutlich mehr Adressen", "correct": true },
+      { "text": "Es nutzt denselben Adressraum wie IPv4", "correct": false },
+      { "text": "Es beschreibt Ports mit 128 Bit", "correct": false },
+      { "text": "Es ersetzt MAC-Adressen im lokalen Netz", "correct": false }
+    ],
+    "explanation": "IPv6 nutzt 128 Bit und erweitert damit den verfügbaren IP-Adressraum stark."
+  },
+  {
+    "id": "lf-03-sach-adrs-036",
+    "question": "Welche Aussage zu MAC- und IP-Adressen ist richtig?",
+    "answers": [
+      { "text": "MAC ist lokal, IP ist logisch routbar", "correct": true },
+      { "text": "MAC ist routbar, IP wirkt lokal", "correct": false },
+      { "text": "MAC beschreibt Ports, IP beschreibt Dienste", "correct": false },
+      { "text": "MAC wird per DNS, IP per ARP aufgelöst", "correct": false }
+    ],
+    "explanation": "MAC-Adressen wirken im lokalen Netz, IP-Adressen ermöglichen logische Kommunikation über Netze."
+  },
+  {
+    "id": "lf-03-sach-adrs-037",
+    "question": "Warum muss ein Router IP-Adressen statt MAC-Adressen auswerten?",
+    "answers": [
+      { "text": "Router verbinden unterschiedliche IP-Netze", "correct": true },
+      { "text": "Router ordnen Anwendungen Portnummern zu", "correct": false },
+      { "text": "Router speichern DNS-Namen im Cache", "correct": false },
+      { "text": "Router verteilen MAC-Adressen per DHCP", "correct": false }
+    ],
+    "explanation": "Router treffen Weiterleitungsentscheidungen auf Layer 3 anhand von IP-Netzen."
+  },
+  {
+    "id": "lf-03-sach-adrs-038",
+    "question": "Warum brauchen Anwendungen Ports?",
+    "answers": [
+      { "text": "Damit Daten beim richtigen Dienst landen", "correct": true },
+      { "text": "Damit Hosts im IP-Netz adressiert werden", "correct": false },
+      { "text": "Damit Namen in IPs aufgelöst werden", "correct": false },
+      { "text": "Damit MAC-Adressen lokal gefunden werden", "correct": false }
+    ],
+    "explanation": "Ports unterscheiden mehrere Anwendungen oder Dienste auf demselben Host."
+  },
+  {
+    "id": "lf-03-sach-adrs-039",
+    "question": "Was ist bei einer manuellen IP-Konfiguration besonders fehleranfällig?",
+    "answers": [
+      { "text": "Schreibfehler bei IP, Gateway oder DNS", "correct": true },
+      { "text": "Automatische Vergabe durch DHCP-Leases", "correct": false },
+      { "text": "Lokale Zuordnung von IP zu MAC", "correct": false },
+      { "text": "Dynamische Auswahl von Quellports", "correct": false }
+    ],
+    "explanation": "Manuelle Konfigurationen sind anfällig für Tippfehler und doppelt vergebene Adressen."
+  },
+  {
+    "id": "lf-03-sach-adrs-040",
+    "question": "Warum sollte die IP-Konfiguration dokumentiert werden?",
+    "answers": [
+      { "text": "Damit Fehler und Änderungen nachvollziehbar sind", "correct": true },
+      { "text": "Damit ARP-Einträge dauerhaft gespeichert sind", "correct": false },
+      { "text": "Damit Portbereiche automatisch reserviert werden", "correct": false },
+      { "text": "Damit DNS-Namen durch MAC-Adressen ersetzt werden", "correct": false }
+    ],
+    "explanation": "Dokumentierte Adressen, Gateways und DNS-Server erleichtern Betrieb, Fehlersuche und Änderungen."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-fach-auth-001",
+    "question": "Was beschreibt Authentifizierung?",
+    "answers": [
+      { "text": "Nachweis der behaupteten Identität", "correct": true },
+      { "text": "Vergabe von Rechten nach der Anmeldung", "correct": false },
+      { "text": "Protokollierung ausgeführter Benutzeraktionen", "correct": false },
+      { "text": "Prüfung erlaubter Zugriffe auf Ressourcen", "correct": false }
+    ],
+    "explanation": "Merksatz: Authentifizierung prüft die Identität eines Benutzers oder Systems."
+  },
+  {
+    "id": "lf-04-fach-auth-002",
+    "question": "Was beschreibt Autorisierung?",
+    "answers": [
+      { "text": "Entscheidung über Rechte nach der Anmeldung", "correct": true },
+      { "text": "Nachweis der Identität durch Faktoren", "correct": false },
+      { "text": "Protokollierung von Benutzeraktivitäten", "correct": false },
+      { "text": "Prüfung eines Passworts beim Login", "correct": false }
+    ],
+    "explanation": "Merksatz: Autorisierung legt fest, was ein angemeldeter Benutzer tun darf."
+  },
+  {
+    "id": "lf-04-fach-auth-003",
+    "question": "Was beschreibt Accounting im Triple-A-Modell?",
+    "answers": [
+      { "text": "Protokollierung und Nachvollziehbarkeit von Aktionen", "correct": true },
+      { "text": "Prüfung der Identität beim Anmeldevorgang", "correct": false },
+      { "text": "Vergabe von Zugriffsrechten nach Rollen", "correct": false },
+      { "text": "Sperrung eines Kontos nach Fehlversuchen", "correct": false }
+    ],
+    "explanation": "Merksatz: Accounting macht Benutzeraktionen nachvollziehbar und auswertbar."
+  },
+  {
+    "id": "lf-04-fach-auth-004",
+    "question": "Was beschreibt das Triple-A-Prinzip?",
+    "answers": [
+      { "text": "Authentifizierung, Autorisierung und Accounting", "correct": true },
+      { "text": "Authentisierung, Auditing und Antivirusprüfung", "correct": false },
+      { "text": "Autorisierung, Analyse und Archivierung", "correct": false },
+      { "text": "Accounting, Absicherung und Anonymisierung", "correct": false }
+    ],
+    "explanation": "Merksatz: Triple-A strukturiert Zugriffskontrolle in Identitätsprüfung, Rechtevergabe und Protokollierung."
+  },
+  {
+    "id": "lf-04-fach-auth-005",
+    "question": "Was beschreibt Zwei-Faktor-Authentifizierung?",
+    "answers": [
+      { "text": "Anmeldung mit zwei unterschiedlichen Nachweisarten", "correct": true },
+      { "text": "Anmeldung mit zwei Passwörtern derselben Art", "correct": false },
+      { "text": "Anmeldung mit Benutzername und Kontoname", "correct": false },
+      { "text": "Rechtevergabe nach erfolgreicher Anmeldung", "correct": false }
+    ],
+    "explanation": "Merksatz: Zwei-Faktor-Authentifizierung kombiniert zwei unterschiedliche Faktoren für mehr Sicherheit."
+  },
+  {
+    "id": "lf-04-fach-auth-006",
+    "question": "Was beschreibt Mehr-Faktor-Authentifizierung?",
+    "answers": [
+      { "text": "Authentifizierung mit mehreren unabhängigen Faktoren", "correct": true },
+      { "text": "Anmeldung mit mehreren ähnlichen Passwörtern", "correct": false },
+      { "text": "Vergabe mehrerer Rollen nach dem Login", "correct": false },
+      { "text": "Protokollierung mehrerer Benutzeraktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: MFA erhöht die Zugriffssicherheit durch mehrere unabhängige Nachweise."
+  },
+  {
+    "id": "lf-04-fach-auth-007",
+    "question": "Was ist ein Wissensfaktor bei der Authentifizierung?",
+    "answers": [
+      { "text": "Etwas, das der Benutzer weiß, etwa ein Passwort", "correct": true },
+      { "text": "Etwas, das der Benutzer besitzt, etwa ein Token", "correct": false },
+      { "text": "Ein persönliches biometrisches Merkmal", "correct": false },
+      { "text": "Eine Berechtigung nach erfolgreichem Login", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Wissensfaktor basiert auf geheimem Wissen wie Passwort oder PIN."
+  },
+  {
+    "id": "lf-04-fach-auth-008",
+    "question": "Was ist ein Besitzfaktor bei der Authentifizierung?",
+    "answers": [
+      { "text": "Etwas, das der Benutzer besitzt, etwa ein Token", "correct": true },
+      { "text": "Etwas, das der Benutzer weiß, etwa eine PIN", "correct": false },
+      { "text": "Ein körperliches Merkmal des Benutzers", "correct": false },
+      { "text": "Ein zugewiesenes Recht im Zielsystem", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Besitzfaktor nutzt einen Gegenstand oder ein Gerät als zusätzlichen Nachweis."
+  },
+  {
+    "id": "lf-04-fach-auth-009",
+    "question": "Was ist ein biometrischer Faktor?",
+    "answers": [
+      { "text": "Ein körperliches oder verhaltensbezogenes Merkmal", "correct": true },
+      { "text": "Ein geheimes Passwort oder eine PIN", "correct": false },
+      { "text": "Ein physischer Token oder ein Smartphone", "correct": false },
+      { "text": "Eine Rolle mit bestimmten Zugriffsrechten", "correct": false }
+    ],
+    "explanation": "Merksatz: Biometrische Faktoren nutzen persönliche Merkmale zur Authentifizierung."
+  },
+  {
+    "id": "lf-04-fach-auth-010",
+    "question": "Was beschreibt eine Passwortrichtlinie?",
+    "answers": [
+      { "text": "Regeln für Erstellung, Nutzung und Verwaltung von Passwörtern", "correct": true },
+      { "text": "Eine Liste gesperrter Benutzerkonten", "correct": false },
+      { "text": "Ein Verfahren zur Vergabe von Rollen", "correct": false },
+      { "text": "Eine Protokollregel für Benutzeraktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Passwortrichtlinien legen Mindestanforderungen für sichere Kennwörter fest."
+  },
+  {
+    "id": "lf-04-fach-auth-011",
+    "question": "Was beschreibt Passwortkomplexität?",
+    "answers": [
+      { "text": "Vielfalt der verwendeten Zeichenarten im Passwort", "correct": true },
+      { "text": "Laufzeit bis zur nächsten Passwortänderung", "correct": false },
+      { "text": "Anzahl erlaubter Fehlversuche beim Login", "correct": false },
+      { "text": "Dauer einer Kontosperre nach Fehlversuchen", "correct": false }
+    ],
+    "explanation": "Merksatz: Passwortkomplexität steigt durch unterschiedliche Zeichenarten wie Buchstaben, Zahlen und Sonderzeichen."
+  },
+  {
+    "id": "lf-04-fach-auth-012",
+    "question": "Was beschreibt die Kennwortlebensdauer?",
+    "answers": [
+      { "text": "Zeitraum, nach dem ein Passwort geändert werden muss", "correct": true },
+      { "text": "Anzahl erlaubter Fehlversuche vor der Sperre", "correct": false },
+      { "text": "Zeitspanne einer Kontosperre nach Fehlversuchen", "correct": false },
+      { "text": "Vielfalt der Zeichenarten in einem Passwort", "correct": false }
+    ],
+    "explanation": "Merksatz: Kennwortlebensdauer begrenzt, wie lange ein Passwort gültig bleibt."
+  },
+  {
+    "id": "lf-04-fach-auth-013",
+    "question": "Was beschreibt eine Sperrdauer bei Passwortrichtlinien?",
+    "answers": [
+      { "text": "Zeit, für die ein Konto nach Fehlversuchen gesperrt wird", "correct": true },
+      { "text": "Zeitraum bis zur Pflichtänderung des Passworts", "correct": false },
+      { "text": "Anzahl Zeichen, die ein Passwort enthalten muss", "correct": false },
+      { "text": "Zeit, bis ein Einmalpasswort erzeugt wird", "correct": false }
+    ],
+    "explanation": "Merksatz: Sperrdauer erschwert wiederholte Anmeldeversuche nach falschen Eingaben."
+  },
+  {
+    "id": "lf-04-fach-auth-014",
+    "question": "Was beschreibt Brute Force?",
+    "answers": [
+      { "text": "Systematisches Ausprobieren vieler Passwörter", "correct": true },
+      { "text": "Testen gestohlener Logins bei anderen Diensten", "correct": false },
+      { "text": "Erraten von Passwörtern aus Wörterlisten", "correct": false },
+      { "text": "Abfangen eines Tokens während der Anmeldung", "correct": false }
+    ],
+    "explanation": "Merksatz: Brute Force versucht Passwörter durch massenhaftes Ausprobieren zu knacken."
+  },
+  {
+    "id": "lf-04-fach-auth-015",
+    "question": "Was beschreibt Credential Stuffing?",
+    "answers": [
+      { "text": "Testen gestohlener Zugangsdaten bei anderen Diensten", "correct": true },
+      { "text": "Systematisches Ausprobieren möglicher Passwörter", "correct": false },
+      { "text": "Erraten von Passwörtern aus Wörterlisten", "correct": false },
+      { "text": "Sperren eines Kontos nach Fehlversuchen", "correct": false }
+    ],
+    "explanation": "Merksatz: Credential Stuffing nutzt wiederverwendete Zugangsdaten aus Datenlecks aus."
+  },
+  {
+    "id": "lf-04-fach-auth-016",
+    "question": "Was beschreibt Passwort-Wiederverwendung?",
+    "answers": [
+      { "text": "Dasselbe Passwort wird für mehrere Konten genutzt", "correct": true },
+      { "text": "Ein Passwort wird mit einem zweiten Faktor ergänzt", "correct": false },
+      { "text": "Ein Passwort wird regelmäßig automatisch geändert", "correct": false },
+      { "text": "Ein Passwort wird einmalig als OTP verwendet", "correct": false }
+    ],
+    "explanation": "Merksatz: Passwort-Wiederverwendung erhöht das Risiko, wenn ein einzelnes Konto kompromittiert wird."
+  },
+  {
+    "id": "lf-04-fach-auth-017",
+    "question": "Was beschreibt ein sicheres Passwort?",
+    "answers": [
+      { "text": "Ein langes, einzigartiges und schwer erratbares Passwort", "correct": true },
+      { "text": "Ein kurzes Passwort mit persönlichem Bezug", "correct": false },
+      { "text": "Ein bekanntes Wort mit kleiner Änderung", "correct": false },
+      { "text": "Ein wiederverwendetes Passwort mit einfacher PIN", "correct": false }
+    ],
+    "explanation": "Merksatz: Sichere Passwörter sind lang, einzigartig und nicht leicht erratbar."
+  },
+  {
+    "id": "lf-04-fach-auth-018",
+    "question": "Was beschreibt ein Passwortmanager?",
+    "answers": [
+      { "text": "Werkzeug zum sicheren Speichern und Erzeugen von Passwörtern", "correct": true },
+      { "text": "Werkzeug zum Mitschneiden von Tastatureingaben", "correct": false },
+      { "text": "Verfahren zur Vergabe von Zugriffsrechten", "correct": false },
+      { "text": "Dienst zur Protokollierung von Benutzeraktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Passwortmanager helfen, viele starke und einzigartige Passwörter sicher zu verwalten."
+  },
+  {
+    "id": "lf-04-fach-auth-019",
+    "question": "Was beschreibt ein Einmalpasswort?",
+    "answers": [
+      { "text": "Ein kurzzeitig oder einmal gültiger Authentifizierungscode", "correct": true },
+      { "text": "Ein dauerhaft gültiges Hauptpasswort", "correct": false },
+      { "text": "Ein wiederverwendetes Passwort für mehrere Konten", "correct": false },
+      { "text": "Ein Passwortmanager für viele Zugangsdaten", "correct": false }
+    ],
+    "explanation": "Merksatz: Einmalpasswörter erhöhen Sicherheit, weil sie nach Nutzung oder kurzer Zeit ungültig werden."
+  },
+  {
+    "id": "lf-04-fach-auth-020",
+    "question": "Was beschreibt Zugriffssicherheit?",
+    "answers": [
+      { "text": "Schutz vor unbefugtem Zugriff auf Systeme und Daten", "correct": true },
+      { "text": "Nachweis der Identität beim Anmelden", "correct": false },
+      { "text": "Vergabe konkreter Rechte nach der Anmeldung", "correct": false },
+      { "text": "Protokollierung aller Benutzeraktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Zugriffssicherheit soll sicherstellen, dass nur berechtigte Personen Zugriff erhalten."
+  }
+]

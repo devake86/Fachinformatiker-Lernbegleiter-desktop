@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-02-sach-kommun-001",
+    "question": "Warum ist Kundenorientierung bei der Arbeitsplatzausstattung wichtig?",
+    "answers": [
+      { "text": "Die Lösung soll zum tatsächlichen Bedarf passen", "correct": true },
+      { "text": "Die Lösung folgt vorrangig dem Lagerbestand", "correct": false },
+      { "text": "Die Lösung richtet sich nach Standardpaketen", "correct": false },
+      { "text": "Die Lösung basiert auf allgemeinen Trends", "correct": false }
+    ],
+    "explanation": "Kundenorientierung bedeutet, Anforderungen, Nutzen und passende Lösungen in den Mittelpunkt zu stellen."
+  },
+  {
+    "id": "lf-02-sach-kommun-002",
+    "question": "Warum beginnt ein gutes Beratungsgespräch mit einer Bedarfsanalyse?",
+    "answers": [
+      { "text": "Damit Anforderungen vor der Lösung geklärt werden", "correct": true },
+      { "text": "Damit Produktdetails zuerst präsentiert werden", "correct": false },
+      { "text": "Damit Standardangebote schneller passen", "correct": false },
+      { "text": "Damit Preise direkt festgelegt werden", "correct": false }
+    ],
+    "explanation": "Ohne Bedarfsanalyse besteht die Gefahr, am eigentlichen Kundenproblem vorbeizuplanen."
+  },
+  {
+    "id": "lf-02-sach-kommun-003",
+    "question": "Warum sind offene Fragen im Kundengespräch hilfreich?",
+    "answers": [
+      { "text": "Kunden können ihren Bedarf ausführlich schildern", "correct": true },
+      { "text": "Kunden wählen zwischen festen Optionen", "correct": false },
+      { "text": "Kunden bestätigen einzelne Details kurz", "correct": false },
+      { "text": "Kunden entscheiden direkt über Preise", "correct": false }
+    ],
+    "explanation": "Offene Fragen liefern mehr Kontext und helfen, Anforderungen besser zu verstehen."
+  },
+  {
+    "id": "lf-02-sach-kommun-004",
+    "question": "Wann sind geschlossene Fragen im Beratungsgespräch sinnvoll?",
+    "answers": [
+      { "text": "Wenn konkrete Punkte bestätigt werden sollen", "correct": true },
+      { "text": "Wenn der Bedarf frei beschrieben werden soll", "correct": false },
+      { "text": "Wenn neue Ideen gesammelt werden sollen", "correct": false },
+      { "text": "Wenn ein Problem offen erkundet wird", "correct": false }
+    ],
+    "explanation": "Geschlossene Fragen eignen sich, um Details wie Anzahl, Termin oder Zustimmung gezielt zu klären."
+  },
+  {
+    "id": "lf-02-sach-kommun-005",
+    "question": "Warum sind Kontrollfragen nach einer Beratung sinnvoll?",
+    "answers": [
+      { "text": "Sie prüfen gemeinsames Verständnis", "correct": true },
+      { "text": "Sie legen technische Datenblätter fest", "correct": false },
+      { "text": "Sie ersetzen die Anforderungsanalyse", "correct": false },
+      { "text": "Sie bestimmen den Lieferantenrabatt", "correct": false }
+    ],
+    "explanation": "Kontrollfragen reduzieren Missverständnisse, bevor Angebot oder Umsetzung starten."
+  },
+  {
+    "id": "lf-02-sach-kommun-006",
+    "question": "Warum sollte man im Kundengespräch Fachbegriffe erklären?",
+    "answers": [
+      { "text": "Damit der Kunde die Lösung nachvollziehen kann", "correct": true },
+      { "text": "Damit technische Tiefe im Vordergrund steht", "correct": false },
+      { "text": "Damit Fachsprache stärker betont wird", "correct": false },
+      { "text": "Damit Details unabhängig vom Bedarf wirken", "correct": false }
+    ],
+    "explanation": "Verständliche Sprache erhöht Vertrauen und verhindert Fehlentscheidungen durch Missverständnisse."
+  },
+  {
+    "id": "lf-02-sach-kommun-007",
+    "question": "Warum ist aktives Zuhören in der Beratung wichtig?",
+    "answers": [
+      { "text": "Kunden fühlen sich verstanden und liefern bessere Informationen", "correct": true },
+      { "text": "Berater können schneller Produktdetails nennen", "correct": false },
+      { "text": "Gesprächsnotizen werden dadurch ersetzt", "correct": false },
+      { "text": "Technische Prüfung wird dadurch abgeschlossen", "correct": false }
+    ],
+    "explanation": "Aktives Zuhören zeigt Aufmerksamkeit und hilft, zentrale Anforderungen korrekt zu erfassen."
+  },
+  {
+    "id": "lf-02-sach-kommun-008",
+    "question": "Warum sollte ein Berater nicht sofort mit Produktdetails starten?",
+    "answers": [
+      { "text": "Zuerst muss der Bedarf verstanden werden", "correct": true },
+      { "text": "Zuerst muss der Listenpreis genannt werden", "correct": false },
+      { "text": "Zuerst muss ein Standardmodell gewählt werden", "correct": false },
+      { "text": "Zuerst muss die Bestellung erfasst werden", "correct": false }
+    ],
+    "explanation": "Ohne Bedarfsklärung können Produktdetails am Kundenproblem vorbeigehen."
+  },
+  {
+    "id": "lf-02-sach-kommun-009",
+    "question": "Warum sind Gesprächsnotizen nach Kundengesprächen sinnvoll?",
+    "answers": [
+      { "text": "Anforderungen und Zusagen bleiben nachvollziehbar", "correct": true },
+      { "text": "Kundenaussagen werden dadurch bewertet", "correct": false },
+      { "text": "Angebote werden dadurch automatisch angenommen", "correct": false },
+      { "text": "Abnahmen werden dadurch vollständig ersetzt", "correct": false }
+    ],
+    "explanation": "Gesprächsnotizen helfen bei Angebot, Lastenheft, Pflichtenheft und späterer Abstimmung."
+  },
+  {
+    "id": "lf-02-sach-kommun-010",
+    "question": "Warum ist Nachbereitung nach einem Kundengespräch wichtig?",
+    "answers": [
+      { "text": "Offene Punkte und nächste Schritte werden gesichert", "correct": true },
+      { "text": "Produktmerkmale werden dadurch festgelegt", "correct": false },
+      { "text": "Kundenbedarf wird dadurch neu erzeugt", "correct": false },
+      { "text": "Lieferantenangebote werden dadurch ersetzt", "correct": false }
+    ],
+    "explanation": "Nachbereitung sorgt dafür, dass Informationen nicht verloren gehen und Folgeaktionen klar sind."
+  },
+  {
+    "id": "lf-02-sach-kommun-011",
+    "question": "Warum hilft das Vier-Seiten-Modell bei Missverständnissen?",
+    "answers": [
+      { "text": "Eine Nachricht kann auf mehreren Ebenen wirken", "correct": true },
+      { "text": "Eine Nachricht besteht aus technischen Daten", "correct": false },
+      { "text": "Eine Nachricht wird rechtlich beurkundet", "correct": false },
+      { "text": "Eine Nachricht dient als Angebotsvergleich", "correct": false }
+    ],
+    "explanation": "Sachinhalt, Selbstoffenbarung, Beziehung und Appell können unterschiedlich verstanden werden."
+  },
+  {
+    "id": "lf-02-sach-kommun-012",
+    "question": "Ein Kunde sagt: „Das ist aber teuer.“ Welche Reaktion ist im Beratungsgespräch sinnvoll?",
+    "answers": [
+      { "text": "Nachfragen und Nutzen sowie Kosten erklären", "correct": true },
+      { "text": "Direkt auf ein anderes Thema wechseln", "correct": false },
+      { "text": "Den Preis ohne Begründung senken", "correct": false },
+      { "text": "Das Angebot kommentarlos beenden", "correct": false }
+    ],
+    "explanation": "Einwände sollten ernst genommen und sachlich mit Nutzen, Alternativen oder Kostenstruktur beantwortet werden."
+  },
+  {
+    "id": "lf-02-sach-kommun-013",
+    "question": "Warum ist die Beziehungsebene im Kundengespräch wichtig?",
+    "answers": [
+      { "text": "Sie beeinflusst Vertrauen und Gesprächsverlauf", "correct": true },
+      { "text": "Sie beschreibt technische Produkteigenschaften", "correct": false },
+      { "text": "Sie legt Lieferfristen und Zahlungsziele fest", "correct": false },
+      { "text": "Sie berechnet Angebotspreise automatisch", "correct": false }
+    ],
+    "explanation": "Auch sachlich richtige Informationen können schlecht wirken, wenn der Beziehungston nicht passt."
+  },
+  {
+    "id": "lf-02-sach-kommun-014",
+    "question": "Warum ist das Eisbergmodell für Beratungsgespräche nützlich?",
+    "answers": [
+      { "text": "Nicht nur sichtbare Sachinhalte beeinflussen Gespräche", "correct": true },
+      { "text": "Sachinformationen stehen im Modell allein", "correct": false },
+      { "text": "Kommunikation wird damit technisch gemessen", "correct": false },
+      { "text": "Kundenbedarf wird damit kalkuliert", "correct": false }
+    ],
+    "explanation": "Das Eisbergmodell zeigt, dass Einstellungen, Gefühle und Beziehungen unter der Oberfläche mitwirken."
+  },
+  {
+    "id": "lf-02-sach-kommun-015",
+    "question": "Warum ist nonverbale Kommunikation im Kundengespräch relevant?",
+    "answers": [
+      { "text": "Körpersprache kann Aussagen unterstützen oder stören", "correct": true },
+      { "text": "Fachbegriffe ersetzen nonverbale Signale", "correct": false },
+      { "text": "Angebote entstehen durch Gestik", "correct": false },
+      { "text": "Preisvergleiche hängen von Blickkontakt ab", "correct": false }
+    ],
+    "explanation": "Mimik, Gestik, Haltung und Blickkontakt beeinflussen, wie Aussagen aufgenommen werden."
+  },
+  {
+    "id": "lf-02-sach-kommun-016",
+    "question": "Warum sollte man bei Beschwerden ruhig und sachlich bleiben?",
+    "answers": [
+      { "text": "So kann das Problem lösungsorientiert geklärt werden", "correct": true },
+      { "text": "So wird die Reklamation formal beendet", "correct": false },
+      { "text": "So wird der Sachverhalt nebensächlich", "correct": false },
+      { "text": "So entsteht automatisch ein Folgeauftrag", "correct": false }
+    ],
+    "explanation": "Ruhiges Verhalten hilft, Eskalation zu vermeiden und den Sachverhalt sauber zu klären."
+  },
+  {
+    "id": "lf-02-sach-kommun-017",
+    "question": "Warum ist eine Reklamation anders als eine allgemeine Beschwerde?",
+    "answers": [
+      { "text": "Eine Reklamation bezieht sich auf einen konkreten Mangel", "correct": true },
+      { "text": "Eine Reklamation beschreibt allgemeine Unzufriedenheit", "correct": false },
+      { "text": "Eine Beschwerde ist eine formale Mängelrüge", "correct": false },
+      { "text": "Eine Beschwerde betrifft ausschließlich Ware", "correct": false }
+    ],
+    "explanation": "Reklamationen betreffen konkrete Waren- oder Leistungsfehler, Beschwerden können allgemeiner sein."
+  },
+  {
+    "id": "lf-02-sach-kommun-018",
+    "question": "Warum sollten Reklamationen dokumentiert werden?",
+    "answers": [
+      { "text": "Sachverhalt und Bearbeitung bleiben nachvollziehbar", "correct": true },
+      { "text": "Kundenkontakt wird dadurch abgeschlossen", "correct": false },
+      { "text": "Mängelrechte werden dadurch ersetzt", "correct": false },
+      { "text": "Produktqualität wird dadurch automatisch erhöht", "correct": false }
+    ],
+    "explanation": "Dokumentation hilft bei Nachweis, Fehleranalyse und Verbesserung der Prozesse."
+  },
+  {
+    "id": "lf-02-sach-kommun-019",
+    "question": "Warum ist eine gute Beschwerdebearbeitung auch eine Chance?",
+    "answers": [
+      { "text": "Sie kann Vertrauen und Kundenbindung stärken", "correct": true },
+      { "text": "Sie verlagert Probleme auf den Kunden", "correct": false },
+      { "text": "Sie ersetzt das Qualitätsmanagement vollständig", "correct": false },
+      { "text": "Sie verhindert weitere Kommunikation", "correct": false }
+    ],
+    "explanation": "Wenn Probleme fair gelöst werden, kann die Kundenbeziehung trotz Fehler stabil bleiben."
+  },
+  {
+    "id": "lf-02-sach-kommun-020",
+    "question": "Warum ist Marketing mehr als Werbung?",
+    "answers": [
+      { "text": "Es umfasst auch Produkt, Preis und Vertrieb", "correct": true },
+      { "text": "Es besteht aus einzelnen Werbeanzeigen", "correct": false },
+      { "text": "Es beschreibt vor allem Wareneingang", "correct": false },
+      { "text": "Es ist eine reine Buchungsaufgabe", "correct": false }
+    ],
+    "explanation": "Marketing betrachtet Markt, Kunden, Produkte, Preise, Kommunikation und Vertriebswege."
+  },
+  {
+    "id": "lf-02-sach-kommun-021",
+    "question": "Warum ist der Marketingmix für Unternehmen wichtig?",
+    "answers": [
+      { "text": "Mehrere Maßnahmen müssen aufeinander abgestimmt werden", "correct": true },
+      { "text": "Einzelne Maßnahmen wirken getrennt voneinander", "correct": false },
+      { "text": "Produkt und Vertrieb werden dabei ausgelassen", "correct": false },
+      { "text": "Der Preis ersetzt alle übrigen Instrumente", "correct": false }
+    ],
+    "explanation": "Produkt-, Preis-, Kommunikations- und Distributionspolitik wirken zusammen auf den Markterfolg."
+  },
+  {
+    "id": "lf-02-sach-kommun-022",
+    "question": "Warum gehört Kundendienst zur Produktpolitik?",
+    "answers": [
+      { "text": "Service beeinflusst den Nutzen des Produkts", "correct": true },
+      { "text": "Service beschreibt Zahlungsbedingungen", "correct": false },
+      { "text": "Kundendienst ist Teil der Steuerberechnung", "correct": false },
+      { "text": "Kundendienst ersetzt den Vertriebsweg", "correct": false }
+    ],
+    "explanation": "Produktpolitik umfasst nicht nur das Produkt selbst, sondern auch begleitende Leistungen."
+  },
+  {
+    "id": "lf-02-sach-kommun-023",
+    "question": "Warum sind Rabatte und Skonto Teil der Preispolitik?",
+    "answers": [
+      { "text": "Sie verändern Konditionen und Zahlungsanreize", "correct": true },
+      { "text": "Sie gestalten Eigenschaften des Produkts", "correct": false },
+      { "text": "Sie bestimmen den Vertriebsweg", "correct": false },
+      { "text": "Sie beschreiben Werbebotschaften", "correct": false }
+    ],
+    "explanation": "Preispolitik umfasst Preise, Preisnachlässe, Zahlungsbedingungen und Finanzierungsangebote."
+  },
+  {
+    "id": "lf-02-sach-kommun-024",
+    "question": "Warum ist Kommunikationspolitik für IT-Dienstleister wichtig?",
+    "answers": [
+      { "text": "Kunden müssen Leistungen verstehen und Vertrauen aufbauen", "correct": true },
+      { "text": "IT-Leistungen werden über Lagerbestand erklärt", "correct": false },
+      { "text": "Technische Qualität entsteht durch Kommunikation", "correct": false },
+      { "text": "Kommunikation betrifft vor allem Wareneingang", "correct": false }
+    ],
+    "explanation": "IT-Leistungen sind oft erklärungsbedürftig; gute Kommunikation macht Nutzen und Ablauf verständlich."
+  },
+  {
+    "id": "lf-02-sach-kommun-025",
+    "question": "Warum ist Distributionspolitik bei Produkten relevant?",
+    "answers": [
+      { "text": "Der Weg zum Kunden beeinflusst Verfügbarkeit und Kosten", "correct": true },
+      { "text": "Der Lieferweg beschreibt die Werbebotschaft", "correct": false },
+      { "text": "Distribution legt Produktqualität fest", "correct": false },
+      { "text": "Distribution berechnet den Verkaufspreis", "correct": false }
+    ],
+    "explanation": "Distributionspolitik legt fest, wie Waren oder Leistungen zum Kunden gelangen."
+  },
+  {
+    "id": "lf-02-sach-kommun-026",
+    "question": "Warum kann AIDA beim Verkaufsgespräch helfen?",
+    "answers": [
+      { "text": "Es strukturiert Schritte von Aufmerksamkeit bis Handlung", "correct": true },
+      { "text": "Es ersetzt die fachliche Bedarfsklärung", "correct": false },
+      { "text": "Es berechnet den Verkaufspreis", "correct": false },
+      { "text": "Es beschreibt technische Schnittstellen", "correct": false }
+    ],
+    "explanation": "AIDA unterstützt die gedankliche Struktur von Werbe- und Verkaufssituationen."
+  },
+  {
+    "id": "lf-02-sach-kommun-027",
+    "question": "Warum ergänzt AIDCA das AIDA-Prinzip um Vertrauen?",
+    "answers": [
+      { "text": "Vertrauen kann vor der Kaufentscheidung wichtig sein", "correct": true },
+      { "text": "Vertrauen ersetzt die Produktauswahl", "correct": false },
+      { "text": "Vertrauen bestimmt den Lieferweg", "correct": false },
+      { "text": "Vertrauen gehört zur Lagerplanung", "correct": false }
+    ],
+    "explanation": "Gerade bei beratungsintensiven IT-Leistungen ist Vertrauen oft entscheidend."
+  },
+  {
+    "id": "lf-02-sach-kommun-028",
+    "question": "Warum ist Marktforschung vor Produkt- oder Angebotsentscheidungen sinnvoll?",
+    "answers": [
+      { "text": "Sie liefert Informationen über Kunden und Markt", "correct": true },
+      { "text": "Sie ersetzt technische Produktdaten", "correct": false },
+      { "text": "Sie dient primär der Reklamationsannahme", "correct": false },
+      { "text": "Sie verhindert Kundenorientierung", "correct": false }
+    ],
+    "explanation": "Marktforschung hilft, Nachfrage, Zielgruppen, Wettbewerb und Trends besser einzuschätzen."
+  },
+  {
+    "id": "lf-02-sach-kommun-029",
+    "question": "Wann ist Primärforschung besonders sinnvoll?",
+    "answers": [
+      { "text": "Wenn neue, eigene Daten benötigt werden", "correct": true },
+      { "text": "Wenn vorhandene Statistiken genügen", "correct": false },
+      { "text": "Wenn interne Quellen ausgewertet werden", "correct": false },
+      { "text": "Wenn Marktberichte bereits ausreichen", "correct": false }
+    ],
+    "explanation": "Primärforschung sammelt neue Informationen, zum Beispiel durch Befragung oder Beobachtung."
+  },
+  {
+    "id": "lf-02-sach-kommun-030",
+    "question": "Wann ist Sekundärforschung besonders sinnvoll?",
+    "answers": [
+      { "text": "Wenn vorhandene Daten genutzt werden können", "correct": true },
+      { "text": "Wenn Befragungen neu durchgeführt werden", "correct": false },
+      { "text": "Wenn Beobachtungen vor Ort nötig sind", "correct": false },
+      { "text": "Wenn Interviews erstmals geplant sind", "correct": false }
+    ],
+    "explanation": "Sekundärforschung wertet vorhandene interne oder externe Informationen aus."
+  },
+  {
+    "id": "lf-02-sach-kommun-031",
+    "question": "Warum unterscheidet man Marktanalyse und Marktbeobachtung?",
+    "answers": [
+      { "text": "Einmalige und laufende Betrachtung unterscheiden sich", "correct": true },
+      { "text": "Analyse und Beobachtung beschreiben Primärdaten", "correct": false },
+      { "text": "Marktanalyse verfolgt Entwicklungen dauerhaft", "correct": false },
+      { "text": "Marktbeobachtung beschreibt einen Zeitpunkt", "correct": false }
+    ],
+    "explanation": "Marktanalyse betrachtet einen Zeitpunkt, Marktbeobachtung verfolgt Entwicklungen über Zeit."
+  },
+  {
+    "id": "lf-02-sach-kommun-032",
+    "question": "Warum ist eine Marktprognose unsicherer als eine Marktanalyse?",
+    "answers": [
+      { "text": "Sie versucht zukünftige Entwicklungen vorherzusagen", "correct": true },
+      { "text": "Sie beschreibt einen aktuellen Marktzeitpunkt", "correct": false },
+      { "text": "Sie wertet ausschließlich vorhandene Zahlen aus", "correct": false },
+      { "text": "Sie dokumentiert gelieferte Waren", "correct": false }
+    ],
+    "explanation": "Prognosen beruhen auf Annahmen und können durch neue Entwicklungen abweichen."
+  },
+  {
+    "id": "lf-02-sach-kommun-033",
+    "question": "Warum ist CRM für Kundenbeziehungen nützlich?",
+    "answers": [
+      { "text": "Kundendaten und Kontakte können strukturiert gepflegt werden", "correct": true },
+      { "text": "Kundengespräche werden dadurch überflüssig", "correct": false },
+      { "text": "Reklamationen werden dadurch automatisch verhindert", "correct": false },
+      { "text": "Druckertreiber werden dadurch verwaltet", "correct": false }
+    ],
+    "explanation": "CRM unterstützt Vertrieb, Service, Kontaktverlauf und gezielte Kundenbetreuung."
+  },
+  {
+    "id": "lf-02-sach-kommun-034",
+    "question": "Warum ist eine Zielgruppenanalyse für Angebote sinnvoll?",
+    "answers": [
+      { "text": "Angebote können passender formuliert werden", "correct": true },
+      { "text": "Beratung wird dadurch vollständig ersetzt", "correct": false },
+      { "text": "Alle Kundenbedarfe werden dadurch gleich", "correct": false },
+      { "text": "Lagerhaltung wird dadurch bewertet", "correct": false }
+    ],
+    "explanation": "Unterschiedliche Zielgruppen haben verschiedene Anforderungen, Prioritäten und Entscheidungswege."
+  },
+  {
+    "id": "lf-02-sach-kommun-035",
+    "question": "Warum wird eine ABC-Kundenanalyse durchgeführt?",
+    "answers": [
+      { "text": "Kunden können nach wirtschaftlicher Bedeutung eingeteilt werden", "correct": true },
+      { "text": "Kunden werden nach Zufallsprinzip sortiert", "correct": false },
+      { "text": "Kunden werden nach Hardwaregruppen eingeteilt", "correct": false },
+      { "text": "Umsatzsteuer wird je Kunde berechnet", "correct": false }
+    ],
+    "explanation": "ABC-Analysen helfen, Betreuungsaufwand und Maßnahmen nach Kundenwert zu steuern."
+  },
+  {
+    "id": "lf-02-sach-kommun-036",
+    "question": "Warum erhalten A-Kunden oft besondere Aufmerksamkeit?",
+    "answers": [
+      { "text": "Sie haben meist einen hohen Umsatz- oder Wertanteil", "correct": true },
+      { "text": "Sie liegen zwischen B- und C-Kunden", "correct": false },
+      { "text": "Sie haben meist einen geringen Wertanteil", "correct": false },
+      { "text": "Sie werden nach technischer Ausstattung sortiert", "correct": false }
+    ],
+    "explanation": "A-Kunden tragen häufig wesentlich zum Unternehmenserfolg bei und sollen gezielt gebunden werden."
+  },
+  {
+    "id": "lf-02-sach-kommun-037",
+    "question": "Warum kann man B-Kunden gezielt entwickeln?",
+    "answers": [
+      { "text": "Sie haben mittlere Bedeutung und mögliches Wachstumspotenzial", "correct": true },
+      { "text": "Sie haben meist den höchsten Wertanteil", "correct": false },
+      { "text": "Sie gehören zur Gruppe mit geringem Wertanteil", "correct": false },
+      { "text": "Sie werden über technische Mängel definiert", "correct": false }
+    ],
+    "explanation": "B-Kunden können durch passende Betreuung zu wichtigeren Kunden werden."
+  },
+  {
+    "id": "lf-02-sach-kommun-038",
+    "question": "Warum werden C-Kunden häufig effizient betreut?",
+    "answers": [
+      { "text": "Ihr Wertanteil ist meist geringer", "correct": true },
+      { "text": "Ihr Wertanteil ist meist besonders hoch", "correct": false },
+      { "text": "Sie gehören zur wichtigsten Kundengruppe", "correct": false },
+      { "text": "Sie werden durch Projektphasen bestimmt", "correct": false }
+    ],
+    "explanation": "C-Kunden sind oft zahlreich, bringen aber meist einen kleineren Wertanteil."
+  },
+  {
+    "id": "lf-02-sach-kommun-039",
+    "question": "Warum ist Kundenbindung wirtschaftlich interessant?",
+    "answers": [
+      { "text": "Zufriedene Kunden kaufen eher erneut", "correct": true },
+      { "text": "Bestandskunden verursachen stets Neukundenaufwand", "correct": false },
+      { "text": "Kundenbindung senkt automatisch jeden Preis", "correct": false },
+      { "text": "Folgeaufträge werden dadurch ausgeschlossen", "correct": false }
+    ],
+    "explanation": "Kundenbindung kann Folgeaufträge, Empfehlungen und stabilere Geschäftsbeziehungen fördern."
+  },
+  {
+    "id": "lf-02-sach-kommun-040",
+    "question": "Warum ist adressatengerechte Kommunikation bei der Übergabe wichtig?",
+    "answers": [
+      { "text": "Der Kunde muss die Bedienung und wichtigsten Punkte verstehen", "correct": true },
+      { "text": "Die Erklärung richtet sich nach internen Fachbegriffen", "correct": false },
+      { "text": "Die Übergabe ersetzt praktische Einweisung", "correct": false },
+      { "text": "Technische Hinweise stehen unabhängig vom Vorwissen", "correct": false }
+    ],
+    "explanation": "Bei der Übergabe müssen Sprache, Detailtiefe und Erklärung zum Wissen des Kunden passen."
+  }
+]

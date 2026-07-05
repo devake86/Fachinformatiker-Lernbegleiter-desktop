@@ -1,0 +1,387 @@
+[
+  {
+    "id": "lf-05-fach-dev-001",
+    "question": "Was beschreibt Software?",
+    "answers": [
+      { "text": "Nicht-physische Bestandteile eines computergestützten Systems", "correct": true },
+      { "text": "Physische Komponenten eines IT-Systems", "correct": false },
+      { "text": "Elektronische Bauteile zur Datenverarbeitung", "correct": false },
+      { "text": "Einzelne Datenträger ohne Programme", "correct": false }
+    ],
+    "explanation": "Merksatz: Software umfasst Programme, Daten und Anweisungen, die Hardware nutzbar machen."
+  },
+  {
+    "id": "lf-05-fach-dev-002",
+    "question": "Was beschreibt ein Softwareentwickler?",
+    "answers": [
+      { "text": "Eine Person, die Software analysiert, plant, entwickelt, testet oder wartet", "correct": true },
+      { "text": "Eine Person, die IT-Systeme nur im Betrieb überwacht", "correct": false },
+      { "text": "Eine Person, die Hardware beschafft und installiert", "correct": false },
+      { "text": "Eine Person, die nur Anwender in Software schult", "correct": false }
+    ],
+    "explanation": "Merksatz: Softwareentwicklung umfasst mehr als Programmieren, nämlich Analyse, Entwurf, Test und Wartung."
+  },
+  {
+    "id": "lf-05-fach-dev-003",
+    "question": "Was beschreibt Programmieren?",
+    "answers": [
+      { "text": "Das Umsetzen von Anforderungen in ausführbaren Code", "correct": true },
+      { "text": "Das Ermitteln fachlicher Anforderungen", "correct": false },
+      { "text": "Das Prüfen fertiger Software gegen Anforderungen", "correct": false },
+      { "text": "Das Planen von Zeit, Ressourcen und Vorgehen", "correct": false }
+    ],
+    "explanation": "Merksatz: Programmieren ist die konkrete Umsetzung einer Lösung in Quellcode."
+  },
+  {
+    "id": "lf-05-fach-dev-004",
+    "question": "Was beschreibt Systemsoftware?",
+    "answers": [
+      { "text": "Software, die den Betrieb und die Nutzung von Hardware oder Anwendungen ermöglicht", "correct": true },
+      { "text": "Software zur Lösung konkreter Benutzeraufgaben", "correct": false },
+      { "text": "Software zur Unterstützung von Entwicklungsprozessen", "correct": false },
+      { "text": "Software, die speziell für einen Kunden entwickelt wird", "correct": false }
+    ],
+    "explanation": "Merksatz: Systemsoftware bildet die Grundlage für den Betrieb weiterer Software."
+  },
+  {
+    "id": "lf-05-fach-dev-005",
+    "question": "Was beschreibt Unterstützungssoftware?",
+    "answers": [
+      { "text": "Software, die Entwicklung oder allgemeine Arbeitsprozesse unterstützt", "correct": true },
+      { "text": "Software zur direkten Lösung fachlicher Benutzeraufgaben", "correct": false },
+      { "text": "Software als Grundlage für Hardware- und Systembetrieb", "correct": false },
+      { "text": "Software mit eingeschränkter Nutzung durch Rechteinhaber", "correct": false }
+    ],
+    "explanation": "Merksatz: Unterstützungssoftware hilft beim Entwickeln, Verwalten oder Bearbeiten von Aufgaben."
+  },
+  {
+    "id": "lf-05-fach-dev-006",
+    "question": "Was beschreibt Anwendersoftware?",
+    "answers": [
+      { "text": "Software zur Unterstützung konkreter fachlicher oder betrieblicher Aufgaben", "correct": true },
+      { "text": "Software als technische Grundlage für andere Programme", "correct": false },
+      { "text": "Software zur Entwicklung und Verwaltung von Projekten", "correct": false },
+      { "text": "Software zur Steuerung grundlegender Hardwarefunktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Anwendersoftware unterstützt Benutzer bei konkreten Aufgaben."
+  },
+  {
+    "id": "lf-05-fach-dev-007",
+    "question": "Was beschreibt Standardsoftware?",
+    "answers": [
+      { "text": "Software für viele Nutzer mit ähnlichen Anforderungen", "correct": true },
+      { "text": "Software für spezielle Anforderungen eines Auftraggebers", "correct": false },
+      { "text": "Software, die durch zusätzlichen Code erweitert wird", "correct": false },
+      { "text": "Software, die durch Einstellungen angepasst wird", "correct": false }
+    ],
+    "explanation": "Merksatz: Standardsoftware deckt typische Anforderungen vieler Nutzer ab."
+  },
+  {
+    "id": "lf-05-fach-dev-008",
+    "question": "Was beschreibt Individualsoftware?",
+    "answers": [
+      { "text": "Software, die speziell für bestimmte Anforderungen entwickelt wird", "correct": true },
+      { "text": "Software für viele Nutzer mit ähnlichen Anforderungen", "correct": false },
+      { "text": "Standardsoftware mit angepassten Einstellungen", "correct": false },
+      { "text": "Software mit offen zugänglichem Quellcode", "correct": false }
+    ],
+    "explanation": "Merksatz: Individualsoftware wird gezielt auf besondere Anforderungen zugeschnitten."
+  },
+  {
+    "id": "lf-05-fach-dev-009",
+    "question": "Was beschreibt proprietäre Software?",
+    "answers": [
+      { "text": "Software mit eingeschränkter Nutzung nach Vorgaben des Rechteinhabers", "correct": true },
+      { "text": "Software mit offen zugänglichem Quellcode", "correct": false },
+      { "text": "Software zur freien Bearbeitung unter Lizenzbedingungen", "correct": false },
+      { "text": "Software, die kostenlos genutzt werden darf", "correct": false }
+    ],
+    "explanation": "Merksatz: Proprietäre Software wird durch Lizenz- und Nutzungsbedingungen kontrolliert."
+  },
+  {
+    "id": "lf-05-fach-dev-010",
+    "question": "Was beschreibt Open-Source-Software?",
+    "answers": [
+      { "text": "Software, deren Quellcode unter Lizenzbedingungen offen zugänglich ist", "correct": true },
+      { "text": "Software mit geschlossener Nutzung nach Rechteinhaber-Vorgaben", "correct": false },
+      { "text": "Software, die kostenlos, aber mit geschlossenem Quellcode ist", "correct": false },
+      { "text": "Software, die testweise vor dem Kauf genutzt wird", "correct": false }
+    ],
+    "explanation": "Merksatz: Open Source macht Quellcode zugänglich, bleibt aber an Lizenzbedingungen gebunden."
+  },
+  {
+    "id": "lf-05-fach-dev-011",
+    "question": "Was beschreibt Customizing?",
+    "answers": [
+      { "text": "Anpassung von Standardsoftware durch Einstellungen oder Konfiguration", "correct": true },
+      { "text": "Funktionale Erweiterung durch zusätzlichen Code", "correct": false },
+      { "text": "Entwicklung einer Softwarelösung von Grund auf", "correct": false },
+      { "text": "Übertragung von Daten in ein neues System", "correct": false }
+    ],
+    "explanation": "Merksatz: Customizing passt vorhandene Software an, ohne sie komplett neu zu entwickeln."
+  },
+  {
+    "id": "lf-05-fach-dev-012",
+    "question": "Was beschreibt Erweiterungsprogrammierung?",
+    "answers": [
+      { "text": "Funktionale Erweiterung vorhandener Software durch zusätzlichen Code", "correct": true },
+      { "text": "Anpassung vorhandener Software über Einstellungen", "correct": false },
+      { "text": "Entwicklung einer Softwarelösung von Grund auf", "correct": false },
+      { "text": "Übertragung bestehender Daten in ein neues System", "correct": false }
+    ],
+    "explanation": "Merksatz: Erweiterungsprogrammierung ergänzt Software, wenn Konfiguration nicht ausreicht."
+  },
+  {
+    "id": "lf-05-fach-dev-013",
+    "question": "Was beschreibt Neuentwicklung?",
+    "answers": [
+      { "text": "Die Entwicklung einer Softwarelösung von Grund auf", "correct": true },
+      { "text": "Die Anpassung vorhandener Software per Konfiguration", "correct": false },
+      { "text": "Die Erweiterung vorhandener Software durch Zusatzcode", "correct": false },
+      { "text": "Die Übernahme von Daten in ein neues System", "correct": false }
+    ],
+    "explanation": "Merksatz: Neuentwicklung erstellt eine neue Softwarelösung statt nur vorhandene Software anzupassen."
+  },
+  {
+    "id": "lf-05-fach-dev-014",
+    "question": "Was beschreibt Datenmigration?",
+    "answers": [
+      { "text": "Das Übertragen von Daten von einem alten in ein neues System", "correct": true },
+      { "text": "Die Entwicklung einer neuen Softwarelösung", "correct": false },
+      { "text": "Die Anpassung vorhandener Software durch Einstellungen", "correct": false },
+      { "text": "Die Prüfung von Software gegen Anforderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenmigration überführt Datenbestände in ein anderes System oder Format."
+  },
+  {
+    "id": "lf-05-fach-dev-015",
+    "question": "Was beschreibt ein Projekt?",
+    "answers": [
+      { "text": "Ein zeitlich begrenztes Vorhaben mit definiertem Ziel", "correct": true },
+      { "text": "Eine dauerhaft wiederkehrende Routineaufgabe", "correct": false },
+      { "text": "Ein einzelner Arbeitsschritt ohne eigenes Ziel", "correct": false },
+      { "text": "Ein laufender Betrieb ohne festes Ende", "correct": false }
+    ],
+    "explanation": "Merksatz: Projekte haben ein Ziel, einen Anfang, ein Ende und meist besondere Rahmenbedingungen."
+  },
+  {
+    "id": "lf-05-fach-dev-016",
+    "question": "Was beschreibt Projektmanagement?",
+    "answers": [
+      { "text": "Planung, Organisation, Steuerung und Kontrolle eines Projekts", "correct": true },
+      { "text": "Die reine Umsetzung einzelner Programmieraufgaben", "correct": false },
+      { "text": "Die fachliche Beschreibung einer Softwareanforderung", "correct": false },
+      { "text": "Die technische Prüfung fertiger Software", "correct": false }
+    ],
+    "explanation": "Merksatz: Projektmanagement sorgt dafür, dass Projektarbeit zielgerichtet und kontrolliert abläuft."
+  },
+  {
+    "id": "lf-05-fach-dev-017",
+    "question": "Was beschreibt ein Kick-off-Meeting?",
+    "answers": [
+      { "text": "Ein Starttermin zur gemeinsamen Ausrichtung eines Projekts", "correct": true },
+      { "text": "Eine Abschlussbesprechung nach Projektübergabe", "correct": false },
+      { "text": "Ein Review zur Bewertung fertiger Ergebnisse", "correct": false },
+      { "text": "Eine Testphase vor der Produktivsetzung", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Kick-off-Meeting startet ein Projekt für das Team sichtbar und abgestimmt."
+  },
+  {
+    "id": "lf-05-fach-dev-018",
+    "question": "Was beschreibt der Softwarelebenszyklus?",
+    "answers": [
+      { "text": "Die Phasen einer Software von Analyse bis Wartung oder Ablösung", "correct": true },
+      { "text": "Ein einzelner Sprint innerhalb eines Scrum-Projekts", "correct": false },
+      { "text": "Die reine Implementierung einer Softwarelösung", "correct": false },
+      { "text": "Ein einmaliger Test vor der Auslieferung", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Softwarelebenszyklus betrachtet Software über Entwicklung, Betrieb und Pflege hinweg."
+  },
+  {
+    "id": "lf-05-fach-dev-019",
+    "question": "Was beschreibt die Analysephase?",
+    "answers": [
+      { "text": "Anforderungen und Ausgangssituation werden untersucht und beschrieben", "correct": true },
+      { "text": "Die geplante Lösung wird in Code umgesetzt", "correct": false },
+      { "text": "Die Software wird gegen Anforderungen geprüft", "correct": false },
+      { "text": "Zeit, Ressourcen und Vorgehen werden vorbereitet", "correct": false }
+    ],
+    "explanation": "Merksatz: In der Analysephase wird geklärt, was die Software leisten soll."
+  },
+  {
+    "id": "lf-05-fach-dev-020",
+    "question": "Was beschreibt die Planungsphase?",
+    "answers": [
+      { "text": "Vorgehen, Ressourcen, Zeit und Umsetzung werden vorbereitet", "correct": true },
+      { "text": "Anforderungen und Ausgangssituation werden erhoben", "correct": false },
+      { "text": "Der Entwurf wird in lauffähigen Code umgesetzt", "correct": false },
+      { "text": "Die Software wird auf Fehler geprüft", "correct": false }
+    ],
+    "explanation": "Merksatz: Planung legt fest, wie ein Softwarevorhaben umgesetzt werden soll."
+  },
+  {
+    "id": "lf-05-fach-dev-021",
+    "question": "Was beschreibt die Implementierungsphase?",
+    "answers": [
+      { "text": "Die geplante Lösung wird programmiertechnisch umgesetzt", "correct": true },
+      { "text": "Anforderungen werden fachlich aufgenommen", "correct": false },
+      { "text": "Ressourcen und Zeitplan werden vorbereitet", "correct": false },
+      { "text": "Ergebnisse werden durch Reviews bewertet", "correct": false }
+    ],
+    "explanation": "Merksatz: Implementierung bedeutet, den Entwurf in Code und lauffähige Software umzusetzen."
+  },
+  {
+    "id": "lf-05-fach-dev-022",
+    "question": "Was beschreibt die Testphase?",
+    "answers": [
+      { "text": "Die Software wird auf Fehler und Erfüllung der Anforderungen geprüft", "correct": true },
+      { "text": "Die Anforderungen werden erstmals erhoben", "correct": false },
+      { "text": "Die Lösung wird programmiertechnisch umgesetzt", "correct": false },
+      { "text": "Das Vorgehen und die Ressourcen werden geplant", "correct": false }
+    ],
+    "explanation": "Merksatz: Tests prüfen, ob Software korrekt und anforderungsgemäß funktioniert."
+  },
+  {
+    "id": "lf-05-fach-dev-023",
+    "question": "Was beschreibt Review im Softwareprozess?",
+    "answers": [
+      { "text": "Eine Überprüfung oder Bewertung von Ergebnissen und Vorgehen", "correct": true },
+      { "text": "Eine Phase zur reinen Codeausführung", "correct": false },
+      { "text": "Eine Methode zur Datenmigration", "correct": false },
+      { "text": "Ein Sprint zur Umsetzung neuer Funktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Reviews helfen, Ergebnisse zu beurteilen und Verbesserungen abzuleiten."
+  },
+  {
+    "id": "lf-05-fach-dev-024",
+    "question": "Was beschreibt das Wasserfallmodell?",
+    "answers": [
+      { "text": "Ein lineares Vorgehensmodell mit nacheinander ablaufenden Phasen", "correct": true },
+      { "text": "Ein agiles Rahmenwerk mit kurzen Iterationen", "correct": false },
+      { "text": "Ein iteratives Modell mit starker Risikoanalyse", "correct": false },
+      { "text": "Ein Modell mit Testphasen parallel zu Spezifikationen", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Wasserfallmodell folgt eine Phase auf die nächste."
+  },
+  {
+    "id": "lf-05-fach-dev-025",
+    "question": "Was beschreibt das V-Modell?",
+    "answers": [
+      { "text": "Ein Vorgehensmodell, das Spezifikationsphasen passenden Testphasen gegenüberstellt", "correct": true },
+      { "text": "Ein lineares Modell mit nacheinander folgenden Phasen", "correct": false },
+      { "text": "Ein agiles Rahmenwerk mit Sprints und Rollen", "correct": false },
+      { "text": "Ein iteratives Modell mit wiederholter Risikoanalyse", "correct": false }
+    ],
+    "explanation": "Merksatz: Das V-Modell verbindet Entwicklungsschritte mit passenden Teststufen."
+  },
+  {
+    "id": "lf-05-fach-dev-026",
+    "question": "Was beschreibt das Spiralmodell?",
+    "answers": [
+      { "text": "Ein iteratives Vorgehensmodell mit wiederholter Planung, Risikoanalyse, Umsetzung und Bewertung", "correct": true },
+      { "text": "Ein lineares Modell mit festen Folgephasen", "correct": false },
+      { "text": "Ein Modell mit Spezifikations- und Testseite", "correct": false },
+      { "text": "Ein agiles Rahmenwerk mit festen Scrum-Rollen", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Spiralmodell wiederholt Entwicklungszyklen und betrachtet Risiken gezielt."
+  },
+  {
+    "id": "lf-05-fach-dev-027",
+    "question": "Was beschreibt Scrum?",
+    "answers": [
+      { "text": "Ein agiles Rahmenwerk zur iterativen und inkrementellen Entwicklung", "correct": true },
+      { "text": "Ein lineares Vorgehensmodell mit festen Phasen", "correct": false },
+      { "text": "Ein Modell mit Tests passend zu Spezifikationen", "correct": false },
+      { "text": "Eine Methode mit starkem Fokus auf Paarprogrammierung", "correct": false }
+    ],
+    "explanation": "Merksatz: Scrum arbeitet in kurzen Iterationen und ermöglicht flexible Reaktion auf Änderungen."
+  },
+  {
+    "id": "lf-05-fach-dev-028",
+    "question": "Was beschreibt ein Sprint in Scrum?",
+    "answers": [
+      { "text": "Einen kurzen, festgelegten Entwicklungszeitraum", "correct": true },
+      { "text": "Eine vollständige Projektlaufzeit bis zur Ablösung", "correct": false },
+      { "text": "Eine einmalige Analysephase vor Projektstart", "correct": false },
+      { "text": "Eine abschließende Wartungsphase nach Betrieb", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Sprint ist ein zeitlich begrenzter Arbeitsabschnitt in Scrum."
+  },
+  {
+    "id": "lf-05-fach-dev-029",
+    "question": "Was beschreibt DevOps?",
+    "answers": [
+      { "text": "Die enge Verbindung von Softwareentwicklung und IT-Betrieb", "correct": true },
+      { "text": "Ein agiles Rahmenwerk mit Sprintplanung", "correct": false },
+      { "text": "Ein lineares Modell von Analyse bis Wartung", "correct": false },
+      { "text": "Eine Methode zur Erhebung von Kundenanforderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: DevOps verbindet Entwicklung und Betrieb für schnellere und zuverlässigere Auslieferung."
+  },
+  {
+    "id": "lf-05-fach-dev-030",
+    "question": "Was beschreibt Extreme Programming?",
+    "answers": [
+      { "text": "Eine agile Methode mit starkem Fokus auf Qualität, Feedback und kurze Entwicklungszyklen", "correct": true },
+      { "text": "Ein lineares Vorgehensmodell mit festen Übergaben", "correct": false },
+      { "text": "Ein Rahmenwerk zur Verbindung von Entwicklung und Betrieb", "correct": false },
+      { "text": "Ein Modell mit Schwerpunkt auf Risikospiralen", "correct": false }
+    ],
+    "explanation": "Merksatz: Extreme Programming ist eine agile Entwicklungsmethode mit Fokus auf Feedback und Qualität."
+  },
+  {
+    "id": "lf-05-fach-dev-031",
+    "question": "Was beschreibt eine Anforderung?",
+    "answers": [
+      { "text": "Eine geforderte Eigenschaft oder Leistung einer Software", "correct": true },
+      { "text": "Eine konkrete technische Umsetzung im Pflichtenheft", "correct": false },
+      { "text": "Ein Testfall zur Prüfung fertiger Software", "correct": false },
+      { "text": "Ein Projekttreffen zur gemeinsamen Ausrichtung", "correct": false }
+    ],
+    "explanation": "Merksatz: Anforderungen beschreiben, was eine Software leisten oder erfüllen soll."
+  },
+  {
+    "id": "lf-05-fach-dev-032",
+    "question": "Was beschreibt eine funktionale Anforderung?",
+    "answers": [
+      { "text": "Eine konkrete Funktion oder Leistung, die eine Software bereitstellen soll", "correct": true },
+      { "text": "Eine Qualitätsanforderung wie Zuverlässigkeit", "correct": false },
+      { "text": "Eine Rahmenbedingung zur Performance", "correct": false },
+      { "text": "Eine Vorgabe zur Bedienbarkeit oder Sicherheit", "correct": false }
+    ],
+    "explanation": "Merksatz: Funktionale Anforderungen beschreiben, was die Software tun soll."
+  },
+  {
+    "id": "lf-05-fach-dev-033",
+    "question": "Was beschreibt eine nicht funktionale Anforderung?",
+    "answers": [
+      { "text": "Eine Qualitäts- oder Rahmenanforderung an die Software", "correct": true },
+      { "text": "Eine konkrete Funktion wie Speichern oder Drucken", "correct": false },
+      { "text": "Ein einzelner Programmschritt im Quellcode", "correct": false },
+      { "text": "Eine direkte Nutzeraktion in einer Maske", "correct": false }
+    ],
+    "explanation": "Merksatz: Nicht funktionale Anforderungen beschreiben, wie gut oder unter welchen Bedingungen Software funktionieren soll."
+  },
+  {
+    "id": "lf-05-fach-dev-034",
+    "question": "Was beschreibt ein Lastenheft?",
+    "answers": [
+      { "text": "Die Anforderungen und Wünsche des Auftraggebers an eine Lösung", "correct": true },
+      { "text": "Die konkrete Umsetzung aus Sicht des Auftragnehmers", "correct": false },
+      { "text": "Die technische Architektur der fertigen Software", "correct": false },
+      { "text": "Die Testergebnisse nach der Implementierung", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Lastenheft beschreibt aus Auftraggebersicht, was gefordert wird."
+  },
+  {
+    "id": "lf-05-fach-dev-035",
+    "question": "Was beschreibt ein Pflichtenheft?",
+    "answers": [
+      { "text": "Die konkrete Beschreibung, wie der Auftragnehmer die Anforderungen umsetzen will", "correct": true },
+      { "text": "Die Anforderungen und Wünsche aus Sicht des Auftraggebers", "correct": false },
+      { "text": "Eine Sammlung erster Ideen ohne Umsetzungsvorgaben", "correct": false },
+      { "text": "Eine Übersicht gefundener Fehler nach dem Test", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Pflichtenheft beschreibt aus Auftragnehmersicht, wie Anforderungen umgesetzt werden."
+  }
+]

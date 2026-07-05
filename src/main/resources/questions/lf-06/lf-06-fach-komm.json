@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-fach-komm-001",
+    "question": "Was beschreibt Kommunikation im Servicekontext?",
+    "answers": [
+      { "text": "Austausch von Informationen zwischen Prozessbeteiligten", "correct": true },
+      { "text": "Dokumentation von Störungen ohne Rückmeldung", "correct": false },
+      { "text": "Technische Überwachung von Services und Systemen", "correct": false },
+      { "text": "Priorisierung von Tickets nach Dringlichkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Kommunikation sorgt dafür, dass Informationen verständlich und situationsgerecht ausgetauscht werden."
+  },
+  {
+    "id": "lf-06-fach-komm-002",
+    "question": "Was beschreibt synchrone Kommunikation?",
+    "answers": [
+      { "text": "Kommunikation mit zeitgleicher Reaktion", "correct": true },
+      { "text": "Kommunikation mit zeitversetzter Antwort", "correct": false },
+      { "text": "Dokumentation zur späteren Bearbeitung", "correct": false },
+      { "text": "Schriftliche Übergabe im Ticketsystem", "correct": false }
+    ],
+    "explanation": "Merksatz: Synchrone Kommunikation findet zeitgleich statt, zum Beispiel im Gespräch oder Telefonat."
+  },
+  {
+    "id": "lf-06-fach-komm-003",
+    "question": "Was beschreibt asynchrone Kommunikation?",
+    "answers": [
+      { "text": "Kommunikation mit zeitversetzter Reaktion", "correct": true },
+      { "text": "Kommunikation mit direkter Echtzeitantwort", "correct": false },
+      { "text": "Gespräch mit sofortigem Rollenwechsel", "correct": false },
+      { "text": "Telefonat mit unmittelbarer Rückfrage", "correct": false }
+    ],
+    "explanation": "Merksatz: Asynchrone Kommunikation erfolgt zeitversetzt, zum Beispiel per E-Mail oder Nachricht."
+  },
+  {
+    "id": "lf-06-fach-komm-004",
+    "question": "Was beschreibt nonverbale Kommunikation?",
+    "answers": [
+      { "text": "Kommunikation durch Mimik, Gestik oder Körperhaltung", "correct": true },
+      { "text": "Kommunikation über schriftliche Sachinformationen", "correct": false },
+      { "text": "Kommunikation über Ticketstatus und Priorität", "correct": false },
+      { "text": "Kommunikation über vereinbarte Servicezeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Nonverbale Kommunikation wirkt auch ohne gesprochene Worte."
+  },
+  {
+    "id": "lf-06-fach-komm-005",
+    "question": "Was beschreibt Netiquette?",
+    "answers": [
+      { "text": "Regeln für angemessenes Verhalten digitaler Kommunikation", "correct": true },
+      { "text": "Verhaltenskodex für eine Organisation", "correct": false },
+      { "text": "Modell mit vier Ebenen einer Nachricht", "correct": false },
+      { "text": "Kommunikation über Kommunikation selbst", "correct": false }
+    ],
+    "explanation": "Merksatz: Netiquette beschreibt respektvolles und angemessenes Verhalten im Internet."
+  },
+  {
+    "id": "lf-06-fach-komm-006",
+    "question": "Was beschreibt ein Code of Conduct?",
+    "answers": [
+      { "text": "Verhaltenskodex mit Regeln für angemessenes Verhalten", "correct": true },
+      { "text": "Regeln für höfliche digitale Kommunikation", "correct": false },
+      { "text": "Modell zur Deutung von Nachrichtenebenen", "correct": false },
+      { "text": "Vorgehen zur Priorisierung von Aufgaben", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Code of Conduct legt erwartetes Verhalten in bestimmten Situationen fest."
+  },
+  {
+    "id": "lf-06-fach-komm-007",
+    "question": "Was beschreibt Metakommunikation?",
+    "answers": [
+      { "text": "Kommunikation über die Art der Kommunikation", "correct": true },
+      { "text": "Austausch reiner Sachinformationen", "correct": false },
+      { "text": "Nonverbale Wirkung im Kundengespräch", "correct": false },
+      { "text": "Regeln für Verhalten in digitalen Kanälen", "correct": false }
+    ],
+    "explanation": "Merksatz: Metakommunikation klärt, wie miteinander gesprochen und gearbeitet werden soll."
+  },
+  {
+    "id": "lf-06-fach-komm-008",
+    "question": "Was beschreibt das Vier-Ohren-Modell?",
+    "answers": [
+      { "text": "Kommunikationsmodell mit vier Ebenen einer Nachricht", "correct": true },
+      { "text": "Modell für Veränderung in drei Phasen", "correct": false },
+      { "text": "Modell emotionaler Phasen bei Veränderungen", "correct": false },
+      { "text": "Methode zur Priorisierung von Aufgaben", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Vier-Ohren-Modell zeigt, dass Nachrichten auf mehreren Ebenen verstanden werden können."
+  },
+  {
+    "id": "lf-06-fach-komm-009",
+    "question": "Welche Ebene gehört zum Vier-Ohren-Modell?",
+    "answers": [
+      { "text": "Sachebene", "correct": true },
+      { "text": "Dringlichkeitsebene", "correct": false },
+      { "text": "Serviceebene", "correct": false },
+      { "text": "Eskalationsebene", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Sachebene beschreibt den reinen Informationsinhalt einer Nachricht."
+  },
+  {
+    "id": "lf-06-fach-komm-010",
+    "question": "Was beschreibt die Beziehungsebene im Vier-Ohren-Modell?",
+    "answers": [
+      { "text": "Wie Sender und Empfänger zueinander stehen", "correct": true },
+      { "text": "Welcher Sachinhalt übertragen wird", "correct": false },
+      { "text": "Was der Sender über sich selbst zeigt", "correct": false },
+      { "text": "Wozu der Empfänger bewegt werden soll", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Beziehungsebene zeigt, wie die Beteiligten ihre Beziehung wahrnehmen."
+  },
+  {
+    "id": "lf-06-fach-komm-011",
+    "question": "Was beschreibt die Selbstoffenbarung im Vier-Ohren-Modell?",
+    "answers": [
+      { "text": "Was der Sender über sich selbst mitteilt", "correct": true },
+      { "text": "Wie Sender und Empfänger zueinander stehen", "correct": false },
+      { "text": "Welcher Sachinhalt übermittelt wird", "correct": false },
+      { "text": "Welche Handlung erwartet wird", "correct": false }
+    ],
+    "explanation": "Merksatz: Selbstoffenbarung zeigt, was eine Nachricht über den Sender verrät."
+  },
+  {
+    "id": "lf-06-fach-komm-012",
+    "question": "Was beschreibt der Appell im Vier-Ohren-Modell?",
+    "answers": [
+      { "text": "Wozu der Empfänger veranlasst werden soll", "correct": true },
+      { "text": "Was der Sender über sich selbst mitteilt", "correct": false },
+      { "text": "Wie die Beziehung bewertet wird", "correct": false },
+      { "text": "Welche Sachinformation enthalten ist", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Appell beschreibt, was der Sender beim Empfänger erreichen möchte."
+  },
+  {
+    "id": "lf-06-fach-komm-013",
+    "question": "Was beschreibt Watzlawicks Aussage „Man kann nicht nicht kommunizieren“?",
+    "answers": [
+      { "text": "Auch Verhalten ohne Worte kann eine Botschaft vermitteln", "correct": true },
+      { "text": "Kommunikation besteht nur aus gesprochenen Worten", "correct": false },
+      { "text": "Nachrichten haben ausschließlich eine Sachebene", "correct": false },
+      { "text": "Missverständnisse entstehen nur durch Fachsprache", "correct": false }
+    ],
+    "explanation": "Merksatz: Nach Watzlawick hat jedes Verhalten in einer Situation Kommunikationswirkung."
+  },
+  {
+    "id": "lf-06-fach-komm-014",
+    "question": "Was beschreibt das Drei-Phasen-Modell nach Lewin?",
+    "answers": [
+      { "text": "Veränderung durch Auftauen, Bewegen und Einfrieren", "correct": true },
+      { "text": "Vier Ebenen einer gesendeten Nachricht", "correct": false },
+      { "text": "Emotionale Phasen bei Veränderung", "correct": false },
+      { "text": "Priorisierung nach Wichtigkeit und Dringlichkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Lewin beschreibt Veränderung als Auftauen, Verändern und Stabilisieren."
+  },
+  {
+    "id": "lf-06-fach-komm-015",
+    "question": "Was beschreibt das Sieben-Phasen-Modell nach Streich?",
+    "answers": [
+      { "text": "Emotionale Phasen bei Veränderungen", "correct": true },
+      { "text": "Drei Schritte zur Stabilisierung von Wandel", "correct": false },
+      { "text": "Vier Ebenen einer Nachricht", "correct": false },
+      { "text": "Zwei Faktoren der Aufgabenpriorisierung", "correct": false }
+    ],
+    "explanation": "Merksatz: Streich zeigt, dass Veränderungen emotional verarbeitet werden müssen."
+  },
+  {
+    "id": "lf-06-fach-komm-016",
+    "question": "Was beschreibt aktives Zuhören?",
+    "answers": [
+      { "text": "Aufmerksam zuhören, nachfragen und zurückmelden", "correct": true },
+      { "text": "Gespräch schnell auf technische Details lenken", "correct": false },
+      { "text": "Anliegen sofort bewerten und priorisieren", "correct": false },
+      { "text": "Antworten vor der Schilderung vorbereiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Aktives Zuhören hilft, Anliegen richtig zu verstehen und Vertrauen aufzubauen."
+  },
+  {
+    "id": "lf-06-fach-komm-017",
+    "question": "Was beschreibt Empathie im Kundengespräch?",
+    "answers": [
+      { "text": "Kundensituation nachvollziehbar berücksichtigen", "correct": true },
+      { "text": "Gespräch ausschließlich sachlich verkürzen", "correct": false },
+      { "text": "Technische Begriffe bewusst verdichten", "correct": false },
+      { "text": "Ticket nur nach interner Priorität betrachten", "correct": false }
+    ],
+    "explanation": "Merksatz: Empathie verbessert Kundengespräche, weil Anliegen ernst genommen werden."
+  },
+  {
+    "id": "lf-06-fach-komm-018",
+    "question": "Was beschreibt Deeskalation?",
+    "answers": [
+      { "text": "Beruhigung und sachliche Klärung einer Konfliktsituation", "correct": true },
+      { "text": "Schnelle technische Eskalation an höhere Ebenen", "correct": false },
+      { "text": "Priorisierung nach Wichtigkeit und Dringlichkeit", "correct": false },
+      { "text": "Kommunikation über den Gesprächsverlauf", "correct": false }
+    ],
+    "explanation": "Merksatz: Deeskalation soll Konflikte beruhigen und wieder lösungsorientierte Kommunikation ermöglichen."
+  },
+  {
+    "id": "lf-06-fach-komm-019",
+    "question": "Was beschreibt das Eisenhower-Prinzip?",
+    "answers": [
+      { "text": "Priorisierung nach Wichtigkeit und Dringlichkeit", "correct": true },
+      { "text": "Fokus auf wenige besonders wirksame Aufgaben", "correct": false },
+      { "text": "Veränderung über Auftauen und Stabilisieren", "correct": false },
+      { "text": "Kommunikation auf vier Nachrichtensebenen", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Eisenhower-Prinzip ordnet Aufgaben nach wichtig und dringlich."
+  },
+  {
+    "id": "lf-06-fach-komm-020",
+    "question": "Was beschreibt das Pareto-Prinzip in der Arbeitsorganisation?",
+    "answers": [
+      { "text": "Großer Ergebnisanteil entsteht oft durch wenig Aufwand", "correct": true },
+      { "text": "Aufgaben werden nach Wichtigkeit und Dringlichkeit sortiert", "correct": false },
+      { "text": "Veränderungen werden in drei Phasen stabilisiert", "correct": false },
+      { "text": "Kommunikation wird auf Beziehungsebene geprüft", "correct": false }
+    ],
+    "explanation": "Merksatz: Pareto hilft, sich auf besonders wirksame Aufgaben zu konzentrieren."
+  }
+]

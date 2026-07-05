@@ -1,0 +1,662 @@
+[
+  {
+    "id": "lf-02-fach-kalk-001",
+    "question": "Was ist Umsatz?",
+    "answers": [
+      { "text": "Der Wert verkaufter Lieferungen und Leistungen", "correct": true },
+      { "text": "Der betriebliche Verbrauch in Geldwert", "correct": false },
+      { "text": "Der Überschuss nach Abzug der Kosten", "correct": false },
+      { "text": "Der verbleibende Darlehensbetrag", "correct": false }
+    ],
+    "explanation": "Merksatz: Umsatz entsteht durch verkaufte Waren oder Dienstleistungen."
+  },
+  {
+    "id": "lf-02-fach-kalk-002",
+    "question": "Was sind Kosten?",
+    "answers": [
+      { "text": "Bewerteter Verbrauch von Gütern und Leistungen", "correct": true },
+      { "text": "Der Erlös aus verkauften Leistungen", "correct": false },
+      { "text": "Der Überschuss nach Kostenabzug", "correct": false },
+      { "text": "Die Steuer auf Ausgangsrechnungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Kosten zeigen, was der betriebliche Verbrauch wertmäßig verursacht."
+  },
+  {
+    "id": "lf-02-fach-kalk-003",
+    "question": "Was ist Gewinn?",
+    "answers": [
+      { "text": "Der Überschuss nach Abzug der Kosten", "correct": true },
+      { "text": "Der gesamte Verkaufserlös", "correct": false },
+      { "text": "Der Einkaufspreis nach Rabatt", "correct": false },
+      { "text": "Die Steuer auf steuerpflichtige Umsätze", "correct": false }
+    ],
+    "explanation": "Merksatz: Gewinn entsteht, wenn Erlöse höher sind als Kosten."
+  },
+  {
+    "id": "lf-02-fach-kalk-004",
+    "question": "Was sind Einzelkosten?",
+    "answers": [
+      { "text": "Direkt zurechenbare Kosten", "correct": true },
+      { "text": "Indirekt verteilte Gemeinkosten", "correct": false },
+      { "text": "Kosten der allgemeinen Verwaltung", "correct": false },
+      { "text": "Zuschläge auf mehrere Kostenträger", "correct": false }
+    ],
+    "explanation": "Merksatz: Einzelkosten können einem Produkt oder Auftrag direkt zugeordnet werden."
+  },
+  {
+    "id": "lf-02-fach-kalk-005",
+    "question": "Was sind Gemeinkosten?",
+    "answers": [
+      { "text": "Nur indirekt zurechenbare Kosten", "correct": true },
+      { "text": "Direkt einem Auftrag zurechenbare Kosten", "correct": false },
+      { "text": "Der Gewinnanteil im Verkaufspreis", "correct": false },
+      { "text": "Der Abzug vom Listeneinkaufspreis", "correct": false }
+    ],
+    "explanation": "Merksatz: Gemeinkosten werden über Zuschlagssätze auf Kostenträger verteilt."
+  },
+  {
+    "id": "lf-02-fach-kalk-006",
+    "question": "Was ist der Listeneinkaufspreis?",
+    "answers": [
+      { "text": "Der Ausgangspreis des Lieferanten", "correct": true },
+      { "text": "Der Einkaufspreis nach Rabatt und Skonto", "correct": false },
+      { "text": "Der Bezugspreis inklusive Bezugskosten", "correct": false },
+      { "text": "Der Verkaufspreis vor Kundenrabatt", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Listeneinkaufspreis ist der zuerst angegebene Einkaufspreis vor Abzügen."
+  },
+  {
+    "id": "lf-02-fach-kalk-007",
+    "question": "Was ist Liefererrabatt?",
+    "answers": [
+      { "text": "Ein Preisnachlass des Lieferanten", "correct": true },
+      { "text": "Ein Preisnachlass für den Kunden", "correct": false },
+      { "text": "Ein Nachlass bei schneller Zahlung", "correct": false },
+      { "text": "Ein Zuschlag für Handlungskosten", "correct": false }
+    ],
+    "explanation": "Merksatz: Liefererrabatt mindert den Listeneinkaufspreis."
+  },
+  {
+    "id": "lf-02-fach-kalk-008",
+    "question": "Was ist Liefererskonto?",
+    "answers": [
+      { "text": "Ein Nachlass bei schneller Zahlung", "correct": true },
+      { "text": "Ein Rabatt auf den Listenverkaufspreis", "correct": false },
+      { "text": "Ein Zuschlag für Bezugsnebenkosten", "correct": false },
+      { "text": "Ein Gewinnanteil im Verkaufspreis", "correct": false }
+    ],
+    "explanation": "Merksatz: Liefererskonto wird bei Zahlung innerhalb einer Skontofrist abgezogen."
+  },
+  {
+    "id": "lf-02-fach-kalk-009",
+    "question": "Was ist der Bareinkaufspreis?",
+    "answers": [
+      { "text": "Der Einkaufspreis nach Rabatt und Skonto", "correct": true },
+      { "text": "Der Ausgangspreis des Lieferanten", "correct": false },
+      { "text": "Der Preis inklusive Bezugskosten", "correct": false },
+      { "text": "Der Verkaufspreis nach Gewinnzuschlag", "correct": false }
+    ],
+    "explanation": "Merksatz: Bareinkaufspreis ist der gekürzte Einkaufspreis nach Liefererrabatt und Liefererskonto."
+  },
+  {
+    "id": "lf-02-fach-kalk-010",
+    "question": "Was sind Bezugskosten?",
+    "answers": [
+      { "text": "Kosten für Beschaffung und Lieferung", "correct": true },
+      { "text": "Kosten für allgemeine Verwaltung", "correct": false },
+      { "text": "Der Gewinnaufschlag im Verkauf", "correct": false },
+      { "text": "Der Nachlass bei Kundenzahlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Bezugskosten sind z. B. Fracht, Verpackung oder Transportversicherung."
+  },
+  {
+    "id": "lf-02-fach-kalk-011",
+    "question": "Was ist der Bezugspreis?",
+    "answers": [
+      { "text": "Bareinkaufspreis plus Bezugskosten", "correct": true },
+      { "text": "Listeneinkaufspreis minus Kundenskonto", "correct": false },
+      { "text": "Selbstkosten plus Gewinnzuschlag", "correct": false },
+      { "text": "Nettoverkaufspreis plus Umsatzsteuer", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Bezugspreis zeigt, was die Ware bis zum eigenen Unternehmen kostet."
+  },
+  {
+    "id": "lf-02-fach-kalk-012",
+    "question": "Was sind Handlungskosten?",
+    "answers": [
+      { "text": "Betriebliche Kosten des Handelsbetriebs", "correct": true },
+      { "text": "Transportkosten bis zum Unternehmen", "correct": false },
+      { "text": "Preisnachlässe des Lieferanten", "correct": false },
+      { "text": "Steuern auf Ausgangsrechnungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Handlungskosten umfassen z. B. Miete, Personal, Verwaltung und Werbung."
+  },
+  {
+    "id": "lf-02-fach-kalk-013",
+    "question": "Was ist der Handlungskostenzuschlag?",
+    "answers": [
+      { "text": "Ein prozentualer Zuschlag für Handlungskosten", "correct": true },
+      { "text": "Ein Abzug vom Listeneinkaufspreis", "correct": false },
+      { "text": "Ein Nachlass bei schneller Kundenzahlung", "correct": false },
+      { "text": "Ein Steueranteil im Bruttoverkaufspreis", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Handlungskostenzuschlag verteilt Gemeinkosten auf die Ware."
+  },
+  {
+    "id": "lf-02-fach-kalk-014",
+    "question": "Was sind Selbstkosten?",
+    "answers": [
+      { "text": "Alle Kosten bis zur Verkaufsbereitschaft", "correct": true },
+      { "text": "Der Verkaufspreis vor Rabattabzug", "correct": false },
+      { "text": "Der Gewinnanteil des Händlers", "correct": false },
+      { "text": "Die Umsatzsteuer auf den Verkauf", "correct": false }
+    ],
+    "explanation": "Merksatz: Selbstkosten bestehen aus Bezugspreis plus Handlungskosten."
+  },
+  {
+    "id": "lf-02-fach-kalk-015",
+    "question": "Was ist der Gewinnzuschlag?",
+    "answers": [
+      { "text": "Ein Aufschlag auf die Selbstkosten", "correct": true },
+      { "text": "Ein Abzug vom Bareinkaufspreis", "correct": false },
+      { "text": "Ein Zuschlag für Transportkosten", "correct": false },
+      { "text": "Ein Nachlass des Lieferanten", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Gewinnzuschlag soll den gewünschten Gewinn im Verkaufspreis berücksichtigen."
+  },
+  {
+    "id": "lf-02-fach-kalk-016",
+    "question": "Was ist der Barverkaufspreis?",
+    "answers": [
+      { "text": "Verkaufspreis nach Gewinn ohne Kundenskonto", "correct": true },
+      { "text": "Einkaufspreis nach Rabatt und Skonto", "correct": false },
+      { "text": "Listenpreis vor Abzug des Kundenrabatts", "correct": false },
+      { "text": "Bruttopreis inklusive Umsatzsteuer", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Barverkaufspreis liegt vor der Einrechnung von Kundenskonto und Kundenrabatt."
+  },
+  {
+    "id": "lf-02-fach-kalk-017",
+    "question": "Was ist Kundenskonto?",
+    "answers": [
+      { "text": "Ein Preisnachlass bei schneller Zahlung", "correct": true },
+      { "text": "Ein Preisnachlass durch den Lieferanten", "correct": false },
+      { "text": "Ein Zuschlag auf Selbstkosten", "correct": false },
+      { "text": "Ein Bestandteil der Bezugskosten", "correct": false }
+    ],
+    "explanation": "Merksatz: Kundenskonto wird Kunden bei Zahlung innerhalb einer kurzen Frist gewährt."
+  },
+  {
+    "id": "lf-02-fach-kalk-018",
+    "question": "Was ist der Zielverkaufspreis?",
+    "answers": [
+      { "text": "Der Verkaufspreis inklusive einkalkuliertem Skonto", "correct": true },
+      { "text": "Der Einkaufspreis inklusive Bezugskosten", "correct": false },
+      { "text": "Der Verkaufspreis inklusive Umsatzsteuer", "correct": false },
+      { "text": "Der Preis nach Liefererrabatt", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Zielverkaufspreis berücksichtigt das mögliche Kundenskonto."
+  },
+  {
+    "id": "lf-02-fach-kalk-019",
+    "question": "Was ist Kundenrabatt?",
+    "answers": [
+      { "text": "Ein Preisnachlass für den Kunden", "correct": true },
+      { "text": "Ein Preisnachlass des Lieferanten", "correct": false },
+      { "text": "Ein Zuschlag für Handlungskosten", "correct": false },
+      { "text": "Ein Abzug wegen schneller Lieferantenzahlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Kundenrabatt wird im Listenverkaufspreis einkalkuliert und später abgezogen."
+  },
+  {
+    "id": "lf-02-fach-kalk-020",
+    "question": "Was ist der Listenverkaufspreis?",
+    "answers": [
+      { "text": "Der Angebotspreis vor Kundenrabatt", "correct": true },
+      { "text": "Der Barverkaufspreis nach Skontoabzug", "correct": false },
+      { "text": "Der Einkaufspreis nach Liefererskonto", "correct": false },
+      { "text": "Der Bezugspreis inklusive Bezugskosten", "correct": false }
+    ],
+    "explanation": "Merksatz: Vom Listenverkaufspreis können Kundenrabatt und Skonto abgezogen werden."
+  },
+  {
+    "id": "lf-02-fach-kalk-021",
+    "question": "Was ist der Nettoverkaufspreis?",
+    "answers": [
+      { "text": "Verkaufspreis ohne Umsatzsteuer", "correct": true },
+      { "text": "Verkaufspreis inklusive Umsatzsteuer", "correct": false },
+      { "text": "Einkaufspreis inklusive Bezugskosten", "correct": false },
+      { "text": "Gewinnaufschlag auf Selbstkosten", "correct": false }
+    ],
+    "explanation": "Merksatz: Netto bedeutet ohne Umsatzsteuer."
+  },
+  {
+    "id": "lf-02-fach-kalk-022",
+    "question": "Was ist der Bruttoverkaufspreis?",
+    "answers": [
+      { "text": "Verkaufspreis inklusive Umsatzsteuer", "correct": true },
+      { "text": "Verkaufspreis ohne Umsatzsteuer", "correct": false },
+      { "text": "Einkaufspreis nach Liefererrabatt", "correct": false },
+      { "text": "Selbstkosten zuzüglich Gewinn", "correct": false }
+    ],
+    "explanation": "Merksatz: Brutto bedeutet inklusive Umsatzsteuer."
+  },
+  {
+    "id": "lf-02-fach-kalk-023",
+    "question": "Was ist Umsatzsteuer?",
+    "answers": [
+      { "text": "Eine Steuer auf Umsätze", "correct": true },
+      { "text": "Ein Nachlass bei schneller Zahlung", "correct": false },
+      { "text": "Ein Aufschlag zur Kostendeckung", "correct": false },
+      { "text": "Ein Anteil am Investitionsrückfluss", "correct": false }
+    ],
+    "explanation": "Merksatz: Umsatzsteuer wird auf steuerpflichtige Verkäufe aufgeschlagen."
+  },
+  {
+    "id": "lf-02-fach-kalk-024",
+    "question": "Was ist Vorsteuer?",
+    "answers": [
+      { "text": "Gezahlte Umsatzsteuer auf Eingangsrechnungen", "correct": true },
+      { "text": "Vereinnahmte Umsatzsteuer auf Verkäufe", "correct": false },
+      { "text": "Ein Gewinnzuschlag auf Selbstkosten", "correct": false },
+      { "text": "Ein Rabatt auf Lieferantenpreise", "correct": false }
+    ],
+    "explanation": "Merksatz: Vorsteuer ist Umsatzsteuer, die ein Unternehmen beim Einkauf zahlt."
+  },
+  {
+    "id": "lf-02-fach-kalk-025",
+    "question": "Was ist eine Vorwärtskalkulation?",
+    "answers": [
+      { "text": "Kalkulation vom Einkaufspreis zum Verkaufspreis", "correct": true },
+      { "text": "Kalkulation vom Verkaufspreis zum Einkaufspreis", "correct": false },
+      { "text": "Kalkulation des möglichen Gewinns", "correct": false },
+      { "text": "Kalkulation der Investitionsdauer", "correct": false }
+    ],
+    "explanation": "Merksatz: Vorwärtskalkulation startet beim Einkauf und endet beim Verkaufspreis."
+  },
+  {
+    "id": "lf-02-fach-kalk-026",
+    "question": "Was ist eine Rückwärtskalkulation?",
+    "answers": [
+      { "text": "Kalkulation vom Verkaufspreis zurück zum Einkaufspreis", "correct": true },
+      { "text": "Kalkulation vom Einkaufspreis zum Verkaufspreis", "correct": false },
+      { "text": "Kalkulation des möglichen Gewinns", "correct": false },
+      { "text": "Kalkulation eines Stundenpreises", "correct": false }
+    ],
+    "explanation": "Merksatz: Rückwärtskalkulation prüft, welcher Einkaufspreis bei gegebenem Verkaufspreis möglich ist."
+  },
+  {
+    "id": "lf-02-fach-kalk-027",
+    "question": "Was ist eine Differenzkalkulation?",
+    "answers": [
+      { "text": "Kalkulation zur Ermittlung des möglichen Gewinns", "correct": true },
+      { "text": "Kalkulation vom Einkauf zum Verkauf", "correct": false },
+      { "text": "Kalkulation vom Verkauf zurück zum Einkauf", "correct": false },
+      { "text": "Kalkulation der Zahlungsfrist", "correct": false }
+    ],
+    "explanation": "Merksatz: Differenzkalkulation zeigt, welcher Gewinn zwischen Kosten und Preis übrig bleibt."
+  },
+  {
+    "id": "lf-02-fach-kalk-028",
+    "question": "Was ist Handelskalkulation?",
+    "answers": [
+      { "text": "Preisermittlung im Handelsbetrieb", "correct": true },
+      { "text": "Finanzierung einer Investition", "correct": false },
+      { "text": "Bewertung eines Lieferanten", "correct": false },
+      { "text": "Ermittlung einer Mängelart", "correct": false }
+    ],
+    "explanation": "Merksatz: Handelskalkulation berechnet Einkauf, Kosten, Gewinn und Verkaufspreis."
+  },
+  {
+    "id": "lf-02-fach-kalk-029",
+    "question": "Was ist der Kalkulationszuschlag?",
+    "answers": [
+      { "text": "Prozentualer Aufschlag auf den Bezugspreis", "correct": true },
+      { "text": "Prozentualer Anteil am Verkaufspreis", "correct": false },
+      { "text": "Regelmäßige Rate aus Zins und Tilgung", "correct": false },
+      { "text": "Abzug vom Listeneinkaufspreis", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Kalkulationszuschlag zeigt den Aufschlag vom Bezugspreis zum Verkaufspreis."
+  },
+  {
+    "id": "lf-02-fach-kalk-030",
+    "question": "Was ist der Kalkulationsfaktor?",
+    "answers": [
+      { "text": "Ein Multiplikator vom Bezugspreis zum Verkaufspreis", "correct": true },
+      { "text": "Ein prozentualer Anteil am Verkaufspreis", "correct": false },
+      { "text": "Ein Abzug vom Listenverkaufspreis", "correct": false },
+      { "text": "Ein Zinssatz für Fremdkapital", "correct": false }
+    ],
+    "explanation": "Merksatz: Mit dem Kalkulationsfaktor lässt sich aus dem Bezugspreis schnell ein Verkaufspreis berechnen."
+  },
+  {
+    "id": "lf-02-fach-kalk-031",
+    "question": "Was ist die Handelsspanne?",
+    "answers": [
+      { "text": "Der prozentuale Anteil am Verkaufspreis", "correct": true },
+      { "text": "Der Aufschlag auf den Bezugspreis", "correct": false },
+      { "text": "Der Zuschlag auf Handlungskosten", "correct": false },
+      { "text": "Der Abzug wegen schneller Zahlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Handelsspanne betrachtet die Differenz bezogen auf den Verkaufspreis."
+  },
+  {
+    "id": "lf-02-fach-kalk-032",
+    "question": "Was ist Stundensatzkalkulation?",
+    "answers": [
+      { "text": "Berechnung eines abrechenbaren Stundenpreises", "correct": true },
+      { "text": "Berechnung eines Warenverkaufspreises", "correct": false },
+      { "text": "Berechnung der Umsatzsteuerzahllast", "correct": false },
+      { "text": "Berechnung der Wareneingangsmenge", "correct": false }
+    ],
+    "explanation": "Merksatz: Stundensatzkalkulation berücksichtigt Lohnkosten und Zuschläge für abrechenbare Dienstleistungen."
+  },
+  {
+    "id": "lf-02-fach-kalk-033",
+    "question": "Was ist ein Gemeinkostenzuschlag?",
+    "answers": [
+      { "text": "Ein Zuschlag zur Deckung indirekter Kosten", "correct": true },
+      { "text": "Ein Preisnachlass für Stammkunden", "correct": false },
+      { "text": "Ein Abzug wegen schneller Zahlung", "correct": false },
+      { "text": "Ein Anteil der Umsatzsteuer", "correct": false }
+    ],
+    "explanation": "Merksatz: Gemeinkostenzuschläge verteilen indirekte Kosten auf Produkte oder Leistungen."
+  },
+  {
+    "id": "lf-02-fach-kalk-034",
+    "question": "Was ist TCO?",
+    "answers": [
+      { "text": "Die Gesamtkosten über die Nutzungsdauer", "correct": true },
+      { "text": "Der einmalige Anschaffungspreis", "correct": false },
+      { "text": "Der Rückfluss einer Investition", "correct": false },
+      { "text": "Der Gewinnanteil im Verkaufspreis", "correct": false }
+    ],
+    "explanation": "Merksatz: TCO betrachtet Anschaffung, Betrieb, Wartung und Folgekosten."
+  },
+  {
+    "id": "lf-02-fach-kalk-035",
+    "question": "Was ist ROI?",
+    "answers": [
+      { "text": "Eine Kennzahl zur Rendite einer Investition", "correct": true },
+      { "text": "Die Gesamtkosten über die Nutzungsdauer", "correct": false },
+      { "text": "Der Zeitpunkt gleicher Kosten und Erlöse", "correct": false },
+      { "text": "Die Rückzahlung einer Darlehensschuld", "correct": false }
+    ],
+    "explanation": "Merksatz: ROI setzt Rückfluss oder Gewinn ins Verhältnis zum eingesetzten Kapital."
+  },
+  {
+    "id": "lf-02-fach-kalk-036",
+    "question": "Was ist die Amortisationszeit?",
+    "answers": [
+      { "text": "Die Zeit bis zur Rückgewinnung der Investition", "correct": true },
+      { "text": "Die Laufzeit eines Lieferantenangebots", "correct": false },
+      { "text": "Die Frist für Kundenskonto", "correct": false },
+      { "text": "Die Dauer einer Wareneingangsprüfung", "correct": false }
+    ],
+    "explanation": "Merksatz: Amortisation ist erreicht, wenn der Nutzen die Investitionskosten ausgeglichen hat."
+  },
+  {
+    "id": "lf-02-fach-kalk-037",
+    "question": "Was ist der Break-even-Point?",
+    "answers": [
+      { "text": "Der Punkt, an dem Erlöse und Kosten gleich sind", "correct": true },
+      { "text": "Der Punkt maximaler Finanzierungskosten", "correct": false },
+      { "text": "Der Zeitpunkt einer Warenlieferung", "correct": false },
+      { "text": "Der Beginn einer Abschreibungsdauer", "correct": false }
+    ],
+    "explanation": "Merksatz: Am Break-even-Point entsteht weder Gewinn noch Verlust."
+  },
+  {
+    "id": "lf-02-fach-kalk-038",
+    "question": "Was sind Fixkosten?",
+    "answers": [
+      { "text": "Kosten, die unabhängig von der Menge anfallen", "correct": true },
+      { "text": "Kosten, die mit jeder Einheit steigen", "correct": false },
+      { "text": "Preisnachlässe beim Einkauf", "correct": false },
+      { "text": "Steuern auf Verkäufe", "correct": false }
+    ],
+    "explanation": "Merksatz: Fixkosten bleiben kurzfristig auch bei veränderter Ausbringungsmenge gleich."
+  },
+  {
+    "id": "lf-02-fach-kalk-039",
+    "question": "Was sind variable Kosten?",
+    "answers": [
+      { "text": "Kosten, die mit der Menge steigen oder fallen", "correct": true },
+      { "text": "Kosten, die kurzfristig konstant bleiben", "correct": false },
+      { "text": "Kosten für geliehenes Kapital", "correct": false },
+      { "text": "Abzüge vom Verkaufspreis", "correct": false }
+    ],
+    "explanation": "Merksatz: Variable Kosten hängen direkt von der Leistungs- oder Produktionsmenge ab."
+  },
+  {
+    "id": "lf-02-fach-kalk-040",
+    "question": "Was ist Deckungsbeitrag?",
+    "answers": [
+      { "text": "Verkaufspreis minus variable Kosten", "correct": true },
+      { "text": "Umsatz minus Umsatzsteuer", "correct": false },
+      { "text": "Fixkosten minus variable Kosten", "correct": false },
+      { "text": "Einkaufspreis plus Bezugskosten", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Deckungsbeitrag hilft, Fixkosten zu decken und Gewinn zu erzielen."
+  },
+  {
+    "id": "lf-02-fach-kalk-041",
+    "question": "Was ist Fixkostendegression?",
+    "answers": [
+      { "text": "Sinkende Fixkosten je Stück bei steigender Menge", "correct": true },
+      { "text": "Steigende variable Kosten je Stück", "correct": false },
+      { "text": "Sinkender Umsatz bei gleicher Menge", "correct": false },
+      { "text": "Konstante Gesamtkosten je Periode", "correct": false }
+    ],
+    "explanation": "Merksatz: Werden Fixkosten auf mehr Stück verteilt, sinken die Fixkosten pro Stück."
+  },
+  {
+    "id": "lf-02-fach-kalk-042",
+    "question": "Was ist AfA?",
+    "answers": [
+      { "text": "Die Abschreibung eines Wirtschaftsguts", "correct": true },
+      { "text": "Die Finanzierung mit geliehenem Kapital", "correct": false },
+      { "text": "Der Verkauf von Forderungen", "correct": false },
+      { "text": "Die Zahlung einer Leasingrate", "correct": false }
+    ],
+    "explanation": "Merksatz: AfA verteilt Anschaffungskosten über die Nutzungsdauer."
+  },
+  {
+    "id": "lf-02-fach-kalk-043",
+    "question": "Was ist Finanzierung?",
+    "answers": [
+      { "text": "Die Beschaffung von Kapital", "correct": true },
+      { "text": "Die Berechnung des Verkaufspreises", "correct": false },
+      { "text": "Die Prüfung einer Lieferung", "correct": false },
+      { "text": "Die Bewertung eines Mangels", "correct": false }
+    ],
+    "explanation": "Merksatz: Finanzierung klärt, wie Investitionen bezahlt werden."
+  },
+  {
+    "id": "lf-02-fach-kalk-044",
+    "question": "Was ist Eigenfinanzierung?",
+    "answers": [
+      { "text": "Finanzierung mit eigenem Kapital", "correct": true },
+      { "text": "Finanzierung mit geliehenem Kapital", "correct": false },
+      { "text": "Finanzierung durch Leasingraten", "correct": false },
+      { "text": "Finanzierung durch Forderungsverkauf", "correct": false }
+    ],
+    "explanation": "Merksatz: Eigenfinanzierung nutzt Mittel des Unternehmens oder der Eigentümer."
+  },
+  {
+    "id": "lf-02-fach-kalk-045",
+    "question": "Was ist Fremdfinanzierung?",
+    "answers": [
+      { "text": "Finanzierung mit geliehenem Kapital", "correct": true },
+      { "text": "Finanzierung mit eigenem Kapital", "correct": false },
+      { "text": "Finanzierung aus zurückbehaltenem Gewinn", "correct": false },
+      { "text": "Finanzierung über Abschreibungsgegenwerte", "correct": false }
+    ],
+    "explanation": "Merksatz: Fremdfinanzierung nutzt Kapital von außen, z. B. Darlehen."
+  },
+  {
+    "id": "lf-02-fach-kalk-046",
+    "question": "Was ist ein Darlehen?",
+    "answers": [
+      { "text": "Geliehenes Kapital mit Rückzahlungspflicht", "correct": true },
+      { "text": "Eigenkapital aus Unternehmensgewinnen", "correct": false },
+      { "text": "Ein Preisnachlass bei Zahlung", "correct": false },
+      { "text": "Ein Verkauf offener Forderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Darlehen wird zurückgezahlt und verursacht meist Zinsen."
+  },
+  {
+    "id": "lf-02-fach-kalk-047",
+    "question": "Was ist ein Fälligkeitsdarlehen?",
+    "answers": [
+      { "text": "Ein Darlehen mit Tilgung am Ende", "correct": true },
+      { "text": "Ein Darlehen mit gleichbleibender Tilgung", "correct": false },
+      { "text": "Ein Darlehen mit gleichbleibender Rate", "correct": false },
+      { "text": "Ein Nutzungsvertrag mit Leasingrate", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Fälligkeitsdarlehen wird die Darlehenssumme erst am Laufzeitende getilgt."
+  },
+  {
+    "id": "lf-02-fach-kalk-048",
+    "question": "Was ist ein Ratendarlehen?",
+    "answers": [
+      { "text": "Ein Darlehen mit gleichbleibender Tilgung", "correct": true },
+      { "text": "Ein Darlehen mit Tilgung am Ende", "correct": false },
+      { "text": "Ein Darlehen mit gleichbleibender Annuität", "correct": false },
+      { "text": "Ein Vertrag zur Nutzung gegen Rate", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Ratendarlehen bleibt die Tilgung gleich, die Zinsen sinken mit der Restschuld."
+  },
+  {
+    "id": "lf-02-fach-kalk-049",
+    "question": "Was ist ein Annuitätendarlehen?",
+    "answers": [
+      { "text": "Ein Darlehen mit gleichbleibender Rate", "correct": true },
+      { "text": "Ein Darlehen mit Tilgung am Laufzeitende", "correct": false },
+      { "text": "Ein Darlehen mit gleichbleibender Tilgung", "correct": false },
+      { "text": "Ein Vertrag über Forderungsabtretung", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Annuitätendarlehen bleibt die Rate gleich, aber Zins- und Tilgungsanteil verändern sich."
+  },
+  {
+    "id": "lf-02-fach-kalk-050",
+    "question": "Was ist eine Annuität?",
+    "answers": [
+      { "text": "Die gleichbleibende Rate aus Zins und Tilgung", "correct": true },
+      { "text": "Die Tilgung der Restschuld am Laufzeitende", "correct": false },
+      { "text": "Der offene Darlehensbetrag", "correct": false },
+      { "text": "Der Preis für geliehenes Kapital", "correct": false }
+    ],
+    "explanation": "Merksatz: Annuität bedeutet regelmäßige gleich hohe Zahlung aus Zinsen und Tilgung."
+  },
+  {
+    "id": "lf-02-fach-kalk-051",
+    "question": "Was ist Tilgung?",
+    "answers": [
+      { "text": "Die Rückzahlung der Darlehensschuld", "correct": true },
+      { "text": "Der Preis für geliehenes Kapital", "correct": false },
+      { "text": "Die regelmäßige Leasingzahlung", "correct": false },
+      { "text": "Die Abtretung einer Forderung", "correct": false }
+    ],
+    "explanation": "Merksatz: Tilgung senkt die verbleibende Restschuld."
+  },
+  {
+    "id": "lf-02-fach-kalk-052",
+    "question": "Was sind Zinsen?",
+    "answers": [
+      { "text": "Der Preis für geliehenes Kapital", "correct": true },
+      { "text": "Die Rückzahlung der Darlehensschuld", "correct": false },
+      { "text": "Der verbleibende Darlehensbetrag", "correct": false },
+      { "text": "Die regelmäßige Leasingrate", "correct": false }
+    ],
+    "explanation": "Merksatz: Zinsen sind Kosten für die Nutzung fremden Kapitals."
+  },
+  {
+    "id": "lf-02-fach-kalk-053",
+    "question": "Was ist Restschuld?",
+    "answers": [
+      { "text": "Der noch offene Darlehensbetrag", "correct": true },
+      { "text": "Die jährliche Abschreibungssumme", "correct": false },
+      { "text": "Der Preis für geliehenes Kapital", "correct": false },
+      { "text": "Die gleichbleibende Darlehensrate", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Restschuld sinkt durch Tilgungszahlungen."
+  },
+  {
+    "id": "lf-02-fach-kalk-054",
+    "question": "Was ist Mittelabfluss?",
+    "answers": [
+      { "text": "Der tatsächliche Abgang von Zahlungsmitteln", "correct": true },
+      { "text": "Der rechnerische Werteverzehr durch AfA", "correct": false },
+      { "text": "Der kalkulierte Gewinnzuschlag", "correct": false },
+      { "text": "Der Nutzwert einer Alternative", "correct": false }
+    ],
+    "explanation": "Merksatz: Mittelabfluss zeigt, wann und wie viel Geld tatsächlich gezahlt wird."
+  },
+  {
+    "id": "lf-02-fach-kalk-055",
+    "question": "Was ist Leasing?",
+    "answers": [
+      { "text": "Nutzung gegen regelmäßige Rate ohne Eigentumserwerb", "correct": true },
+      { "text": "Kauf durch sofortige vollständige Zahlung", "correct": false },
+      { "text": "Finanzierung mit eigenem Kapital", "correct": false },
+      { "text": "Verkauf offener Forderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Leasing wird ein Wirtschaftsgut genutzt, bleibt aber meist Eigentum des Leasinggebers."
+  },
+  {
+    "id": "lf-02-fach-kalk-056",
+    "question": "Was ist eine Leasingrate?",
+    "answers": [
+      { "text": "Die regelmäßige Zahlung für die Nutzung", "correct": true },
+      { "text": "Der offene Darlehensbetrag", "correct": false },
+      { "text": "Der einmalige Liefererrabatt", "correct": false },
+      { "text": "Der Gewinnaufschlag auf Selbstkosten", "correct": false }
+    ],
+    "explanation": "Merksatz: Leasingraten sind laufende Zahlungen während der Leasingdauer."
+  },
+  {
+    "id": "lf-02-fach-kalk-057",
+    "question": "Was ist Restwert beim Leasing?",
+    "answers": [
+      { "text": "Der verbleibende Wert am Vertragsende", "correct": true },
+      { "text": "Die regelmäßige Zahlung während der Nutzung", "correct": false },
+      { "text": "Die Rückzahlung der Darlehensschuld", "correct": false },
+      { "text": "Der Preis für fremdes Kapital", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Restwert kann bei Leasingverträgen für Rückgabe oder Übernahme wichtig sein."
+  },
+  {
+    "id": "lf-02-fach-kalk-058",
+    "question": "Was ist Factoring?",
+    "answers": [
+      { "text": "Der Verkauf von Forderungen", "correct": true },
+      { "text": "Die Abtretung einer Forderung", "correct": false },
+      { "text": "Die Rückzahlung eines Darlehens", "correct": false },
+      { "text": "Die Nutzung gegen Leasingrate", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Factoring verkauft ein Unternehmen Forderungen an einen Factor."
+  },
+  {
+    "id": "lf-02-fach-kalk-059",
+    "question": "Was ist Zession?",
+    "answers": [
+      { "text": "Die Abtretung einer Forderung", "correct": true },
+      { "text": "Der Verkauf vieler Forderungen an einen Factor", "correct": false },
+      { "text": "Die Rückzahlung einer Darlehensschuld", "correct": false },
+      { "text": "Eine Sicherheit durch Bürgschaft", "correct": false }
+    ],
+    "explanation": "Merksatz: Zession bedeutet, dass eine Forderung auf einen neuen Gläubiger übertragen wird."
+  },
+  {
+    "id": "lf-02-fach-kalk-060",
+    "question": "Was ist Bürgschaft?",
+    "answers": [
+      { "text": "Eine Sicherheit durch Einstehen für fremde Schuld", "correct": true },
+      { "text": "Die Abtretung einer Forderung", "correct": false },
+      { "text": "Der Verkauf offener Forderungen", "correct": false },
+      { "text": "Die Nutzung eines Wirtschaftsguts gegen Rate", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei einer Bürgschaft haftet ein Bürge für die Schuld eines anderen."
+  }
+]

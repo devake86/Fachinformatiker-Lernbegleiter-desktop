@@ -1,0 +1,387 @@
+[
+  {
+    "id": "lf-05-sach-data-001",
+    "question": "Was ist der Unterschied zwischen Daten und Informationen?",
+    "answers": [
+      { "text": "Daten sind Darstellungen; Informationen entstehen durch Bedeutung und Zusammenhang", "correct": true },
+      { "text": "Informationen sind Rohwerte ohne Kontext", "correct": false },
+      { "text": "Daten entstehen erst durch Interpretation", "correct": false },
+      { "text": "Informationen sind technische Bitfolgen", "correct": false }
+    ],
+    "explanation": "Daten werden erst durch Interpretation und Kontext zu Informationen."
+  },
+  {
+    "id": "lf-05-sach-data-002",
+    "question": "Warum müssen Informationen in IT-Systemen als Daten dargestellt werden?",
+    "answers": [
+      { "text": "Damit sie gespeichert, verarbeitet oder übertragen werden können", "correct": true },
+      { "text": "Damit Informationen ihren Kontext verlieren", "correct": false },
+      { "text": "Damit sie nur analog verarbeitet werden", "correct": false },
+      { "text": "Damit sie von Software geprüft statt genutzt werden", "correct": false }
+    ],
+    "explanation": "IT-Systeme verarbeiten Daten als maschinenlesbare Darstellung von Informationen."
+  },
+  {
+    "id": "lf-05-sach-data-003",
+    "question": "Welche Aussage zu Informationen ist richtig?",
+    "answers": [
+      { "text": "Informationen können einen Nutzen besitzen und an Träger gebunden sein", "correct": true },
+      { "text": "Informationen sind reine Daten ohne Bedeutung", "correct": false },
+      { "text": "Informationen entstehen unabhängig vom Kontext", "correct": false },
+      { "text": "Informationen werden nur als Zahlen dargestellt", "correct": false }
+    ],
+    "explanation": "Informationen können mehrfach genutzt, übertragen und durch Daten dargestellt werden."
+  },
+  {
+    "id": "lf-05-sach-data-004",
+    "question": "Welche Aussage zu strukturierten Daten passt?",
+    "answers": [
+      { "text": "Sie lassen sich gut in Tabellen oder festen Feldern organisieren", "correct": true },
+      { "text": "Sie liegen typischerweise als freie Texte vor", "correct": false },
+      { "text": "Sie folgen einem offenen, wechselnden Aufbau", "correct": false },
+      { "text": "Sie sind vor allem Bilder und Audiodateien", "correct": false }
+    ],
+    "explanation": "Strukturierte Daten folgen einem klaren Aufbau und sind dadurch gut auswertbar."
+  },
+  {
+    "id": "lf-05-sach-data-005",
+    "question": "Welche Aussage zu unstrukturierten Daten passt?",
+    "answers": [
+      { "text": "Sie besitzen kein einfaches festes Tabellenschema", "correct": true },
+      { "text": "Sie liegen immer in festen Spalten vor", "correct": false },
+      { "text": "Sie bestehen aus klaren Primärschlüsseln", "correct": false },
+      { "text": "Sie sind direkt als Relation aufgebaut", "correct": false }
+    ],
+    "explanation": "Unstrukturierte Daten wie freie Texte, Bilder oder Audio sind weniger klar tabellarisch geordnet."
+  },
+  {
+    "id": "lf-05-sach-data-006",
+    "question": "Welche Aussage beschreibt Primärdaten richtig?",
+    "answers": [
+      { "text": "Sie werden direkt für einen bestimmten Zweck neu erhoben", "correct": true },
+      { "text": "Sie stammen aus vorhandenen Quellen", "correct": false },
+      { "text": "Sie werden aus Archiven wiederverwendet", "correct": false },
+      { "text": "Sie sind sekundär ausgewertete Daten", "correct": false }
+    ],
+    "explanation": "Primärdaten entstehen durch eigene Erhebung für einen konkreten Zweck."
+  },
+  {
+    "id": "lf-05-sach-data-007",
+    "question": "Welche Aussage beschreibt Sekundärdaten richtig?",
+    "answers": [
+      { "text": "Sie sind bereits vorhanden und werden für einen neuen Zweck genutzt", "correct": true },
+      { "text": "Sie werden direkt für eine neue Frage erhoben", "correct": false },
+      { "text": "Sie entstehen nur durch eigene Messungen", "correct": false },
+      { "text": "Sie sind neu erhobene Primärdaten", "correct": false }
+    ],
+    "explanation": "Sekundärdaten werden aus vorhandenen Quellen übernommen oder wiederverwendet."
+  },
+  {
+    "id": "lf-05-sach-data-008",
+    "question": "Warum ist das Dualsystem für Computer besonders geeignet?",
+    "answers": [
+      { "text": "Es lässt sich mit zwei Zuständen technisch einfach darstellen", "correct": true },
+      { "text": "Es nutzt zehn Ziffern wie das Dezimalsystem", "correct": false },
+      { "text": "Es ist kompakter als Hexadezimalzahlen", "correct": false },
+      { "text": "Es verwendet Zeichen von 0 bis F", "correct": false }
+    ],
+    "explanation": "Computerhardware kann zwei Zustände wie 0 und 1 zuverlässig abbilden."
+  },
+  {
+    "id": "lf-05-sach-data-009",
+    "question": "Warum wird das Hexadezimalsystem in der IT häufig verwendet?",
+    "answers": [
+      { "text": "Es lässt sich sehr einfach in Binärzahlen umwandeln", "correct": true },
+      { "text": "Es verwendet nur die Zustände 0 und 1", "correct": false },
+      { "text": "Es ist die interne Sprache aller Prozessoren", "correct": false },
+      { "text": "Es codiert alle Unicode-Zeichen direkt", "correct": false }
+    ],
+    "explanation": "Eine Hexadezimalstelle entspricht genau vier Bit."
+  },
+  {
+    "id": "lf-05-sach-data-010",
+    "question": "Welche Aussage zum Stellenwertsystem ist richtig?",
+    "answers": [
+      { "text": "Der Wert einer Ziffer hängt von ihrer Position ab", "correct": true },
+      { "text": "Der Wert einer Ziffer bleibt positionsgleich", "correct": false },
+      { "text": "Nur Dezimalzahlen nutzen Stellenwerte", "correct": false },
+      { "text": "Binärzahlen nutzen keine Basis", "correct": false }
+    ],
+    "explanation": "In Stellenwertsystemen bestimmt die Position, mit welcher Potenz der Basis gerechnet wird."
+  },
+  {
+    "id": "lf-05-sach-data-011",
+    "question": "Welche Aussage zum Dezimalsystem ist richtig?",
+    "answers": [
+      { "text": "Es verwendet die Basis 10 und die Ziffern 0 bis 9", "correct": true },
+      { "text": "Es verwendet die Basis 2 und zwei Ziffern", "correct": false },
+      { "text": "Es verwendet die Basis 16 und A bis F", "correct": false },
+      { "text": "Es ist eine Zeichenkodierung für Texte", "correct": false }
+    ],
+    "explanation": "Das Dezimalsystem ist das im Alltag übliche Stellenwertsystem mit Basis 10."
+  },
+  {
+    "id": "lf-05-sach-data-012",
+    "question": "Welche Aussage zum Dualsystem ist richtig?",
+    "answers": [
+      { "text": "Es verwendet die Basis 2 und die Ziffern 0 und 1", "correct": true },
+      { "text": "Es verwendet die Basis 10", "correct": false },
+      { "text": "Es verwendet die Zeichen 0 bis 9 und A bis F", "correct": false },
+      { "text": "Es ist ein Farbmodell für Monitore", "correct": false }
+    ],
+    "explanation": "Das Dualsystem bildet Zahlen mit Zweierpotenzen ab."
+  },
+  {
+    "id": "lf-05-sach-data-013",
+    "question": "Welche Aussage zum Hexadezimalsystem ist richtig?",
+    "answers": [
+      { "text": "Es verwendet die Basis 16 und die Zeichen 0 bis 9 sowie A bis F", "correct": true },
+      { "text": "Es verwendet nur die Zeichen 0 und 1", "correct": false },
+      { "text": "Es verwendet die Basis 10", "correct": false },
+      { "text": "Es beschreibt Sampling von Audiodaten", "correct": false }
+    ],
+    "explanation": "Hexadezimalzahlen sind kompakter als Binärzahlen und gut in Vier-Bit-Blöcke übersetzbar."
+  },
+  {
+    "id": "lf-05-sach-data-014",
+    "question": "Was ist ein Vorteil des Dualsystems auf Hardwareebene?",
+    "answers": [
+      { "text": "Zwei Zustände lassen sich technisch robust realisieren", "correct": true },
+      { "text": "Sechzehn Zustände werden pro Bit gespeichert", "correct": false },
+      { "text": "Dezimalzahlen werden direkt verarbeitet", "correct": false },
+      { "text": "Mehrere Spannungsstufen sind erforderlich", "correct": false }
+    ],
+    "explanation": "Digitale Schaltungen können zwei Zustände besonders einfach und zuverlässig unterscheiden."
+  },
+  {
+    "id": "lf-05-sach-data-015",
+    "question": "Warum sind Binärzahlen für Menschen oft schwerer lesbar?",
+    "answers": [
+      { "text": "Sie benötigen für größere Werte viele Stellen", "correct": true },
+      { "text": "Sie verwenden zusätzlich die Zeichen A bis F", "correct": false },
+      { "text": "Sie sind meist kürzer als Dezimalzahlen", "correct": false },
+      { "text": "Sie enthalten keine Stellenwerte", "correct": false }
+    ],
+    "explanation": "Binärzahlen werden schnell lang, weil nur zwei Ziffern zur Verfügung stehen."
+  },
+  {
+    "id": "lf-05-sach-data-016",
+    "question": "Warum wird das Zweierkomplement häufig für negative Zahlen genutzt?",
+    "answers": [
+      { "text": "Negative Zahlen lassen sich damit eindeutig und gut rechenbar darstellen", "correct": true },
+      { "text": "Negative Zahlen werden damit als ASCII gespeichert", "correct": false },
+      { "text": "Es nutzt Dezimalstellen als Vorzeichen", "correct": false },
+      { "text": "Es ist eine Codierung für Rastergrafiken", "correct": false }
+    ],
+    "explanation": "Das Zweierkomplement vermeidet doppelte Null-Darstellungen und ist für Rechenoperationen geeignet."
+  },
+  {
+    "id": "lf-05-sach-data-017",
+    "question": "Wie entsteht im Zweierkomplement die negative Darstellung einer positiven Binärzahl?",
+    "answers": [
+      { "text": "Bits invertieren und anschließend 1 addieren", "correct": true },
+      { "text": "Vorzeichenbit entfernen und neu sortieren", "correct": false },
+      { "text": "Alle Stellen in Dezimalzahlen umwandeln", "correct": false },
+      { "text": "Die Binärzahl als ASCII-Code speichern", "correct": false }
+    ],
+    "explanation": "Beim Zweierkomplement wird invertiert und danach 1 addiert."
+  },
+  {
+    "id": "lf-05-sach-data-018",
+    "question": "Welches Problem kann bei Vorzeichen-Betrag und Einerkomplement auftreten?",
+    "answers": [
+      { "text": "Es kann zwei Darstellungen für die Null geben", "correct": true },
+      { "text": "Negative Werte werden automatisch zu Unicode", "correct": false },
+      { "text": "Positive Werte werden nur dezimal gespeichert", "correct": false },
+      { "text": "Vorzeichen werden als RGB-Werte codiert", "correct": false }
+    ],
+    "explanation": "Vorzeichen-Betrag und Einerkomplement können eine positive und negative Null besitzen."
+  },
+  {
+    "id": "lf-05-sach-data-019",
+    "question": "Wozu dient eine Zeichenkodierung?",
+    "answers": [
+      { "text": "Zeichen werden als maschinenlesbare Zahlenwerte dargestellt", "correct": true },
+      { "text": "Farben werden für Druckmodelle gemischt", "correct": false },
+      { "text": "Audiosignale werden in Messwerte zerlegt", "correct": false },
+      { "text": "Bilder werden als Vektoren skaliert", "correct": false }
+    ],
+    "explanation": "Zeichenkodierungen ordnen Zeichen technische Codes zu."
+  },
+  {
+    "id": "lf-05-sach-data-020",
+    "question": "Welche Aussage zu ASCII passt?",
+    "answers": [
+      { "text": "ASCII codiert grundlegende Zeichen wie Buchstaben, Ziffern und Sonderzeichen", "correct": true },
+      { "text": "ASCII ist eine Unicode-Codierung mit variabler Länge", "correct": false },
+      { "text": "ASCII beschreibt ein Farbmodell für Monitore", "correct": false },
+      { "text": "ASCII speichert Audiosignale als Samples", "correct": false }
+    ],
+    "explanation": "ASCII ist ein älterer Zeichensatz mit begrenztem Zeichenumfang."
+  },
+  {
+    "id": "lf-05-sach-data-021",
+    "question": "Warum wurde Unicode entwickelt?",
+    "answers": [
+      { "text": "Um Zeichen vieler Sprachen und Schriftsysteme einheitlich darstellen zu können", "correct": true },
+      { "text": "Um Binärzahlen kürzer als Hexadezimalzahlen zu machen", "correct": false },
+      { "text": "Um Rastergrafiken ohne Pixel zu speichern", "correct": false },
+      { "text": "Um Tonkanäle in Audiodateien zu trennen", "correct": false }
+    ],
+    "explanation": "Unicode soll internationale Zeichen einheitlich und umfassend abbilden."
+  },
+  {
+    "id": "lf-05-sach-data-022",
+    "question": "Welche Aussage zu UTF-8 passt?",
+    "answers": [
+      { "text": "UTF-8 ist eine verbreitete Unicode-Codierung", "correct": true },
+      { "text": "UTF-8 ist ein Zeichensatz nur für Druckfarben", "correct": false },
+      { "text": "UTF-8 ist ein binäres Speicherpräfix", "correct": false },
+      { "text": "UTF-8 ist ein Rasterbildformat", "correct": false }
+    ],
+    "explanation": "UTF-8 ist eine flexible und weit verbreitete Codierung für Unicode-Zeichen."
+  },
+  {
+    "id": "lf-05-sach-data-023",
+    "question": "Welche Aussage beschreibt Rastergrafiken richtig?",
+    "answers": [
+      { "text": "Sie bestehen aus einzelnen Pixeln", "correct": true },
+      { "text": "Sie bestehen aus mathematischen Pfaden", "correct": false },
+      { "text": "Sie codieren Schriftzeichen als Zahlen", "correct": false },
+      { "text": "Sie beschreiben Tonkanäle einer Audiodatei", "correct": false }
+    ],
+    "explanation": "Rastergrafiken speichern Bilder als Gitter aus Bildpunkten."
+  },
+  {
+    "id": "lf-05-sach-data-024",
+    "question": "Welche Aussage beschreibt Vektorgrafiken richtig?",
+    "answers": [
+      { "text": "Sie bestehen aus geometrischen Formen und lassen sich gut skalieren", "correct": true },
+      { "text": "Sie speichern Bilder als feste Pixelgitter", "correct": false },
+      { "text": "Sie speichern Audiosignale als Messwerte", "correct": false },
+      { "text": "Sie codieren Zeichen als Unicode-Werte", "correct": false }
+    ],
+    "explanation": "Vektorgrafiken beschreiben Formen mathematisch und bleiben beim Skalieren scharf."
+  },
+  {
+    "id": "lf-05-sach-data-025",
+    "question": "Warum können Rastergrafiken bei starker Vergrößerung unscharf wirken?",
+    "answers": [
+      { "text": "Die einzelnen Pixel werden sichtbar", "correct": true },
+      { "text": "Die Vektorpfade werden neu berechnet", "correct": false },
+      { "text": "Die Tonkanäle werden getrennt", "correct": false },
+      { "text": "Die Farbcodierung wird zu ASCII", "correct": false }
+    ],
+    "explanation": "Bei Vergrößerung werden die festen Bildpunkte einer Rastergrafik sichtbar."
+  },
+  {
+    "id": "lf-05-sach-data-026",
+    "question": "Warum sind Vektorgrafiken oft gut für Logos geeignet?",
+    "answers": [
+      { "text": "Sie können ohne Qualitätsverlust skaliert werden", "correct": true },
+      { "text": "Sie bestehen aus festen Pixelrastern", "correct": false },
+      { "text": "Sie speichern Fotos besonders detailnah", "correct": false },
+      { "text": "Sie verwenden Sampling-Raten für Farben", "correct": false }
+    ],
+    "explanation": "Logos müssen oft in verschiedenen Größen scharf dargestellt werden."
+  },
+  {
+    "id": "lf-05-sach-data-027",
+    "question": "Welche Aussage zu RGB passt?",
+    "answers": [
+      { "text": "RGB ist ein additives Farbmodell für Lichtfarben", "correct": true },
+      { "text": "RGB ist ein subtraktives Farbmodell für Druck", "correct": false },
+      { "text": "RGB ist eine Codierung für Unicode-Zeichen", "correct": false },
+      { "text": "RGB beschreibt Binärzahlen mit drei Bit", "correct": false }
+    ],
+    "explanation": "RGB wird typischerweise für Bildschirme verwendet."
+  },
+  {
+    "id": "lf-05-sach-data-028",
+    "question": "Welche Aussage zu CMYK passt?",
+    "answers": [
+      { "text": "CMYK ist ein subtraktives Farbmodell für den Druck", "correct": true },
+      { "text": "CMYK ist ein additives Farbmodell für Bildschirme", "correct": false },
+      { "text": "CMYK ist eine Unicode-Codierung", "correct": false },
+      { "text": "CMYK beschreibt Tonkanäle bei Audio", "correct": false }
+    ],
+    "explanation": "CMYK arbeitet mit Farbpigmenten und wird vor allem im Druck genutzt."
+  },
+  {
+    "id": "lf-05-sach-data-029",
+    "question": "Was beeinflusst die Farbtiefe eines Rasterbildes?",
+    "answers": [
+      { "text": "Wie viele Farben pro Pixel dargestellt werden können", "correct": true },
+      { "text": "Wie viele Pixel ein Bild insgesamt breit ist", "correct": false },
+      { "text": "Wie viele Formen eine Vektorgrafik enthält", "correct": false },
+      { "text": "Wie oft Audio pro Sekunde abgetastet wird", "correct": false }
+    ],
+    "explanation": "Mehr Bit pro Pixel ermöglichen mehr Farbabstufungen."
+  },
+  {
+    "id": "lf-05-sach-data-030",
+    "question": "Was passiert beim Sampling von Audiodaten?",
+    "answers": [
+      { "text": "Ein analoges Signal wird in regelmäßigen Abständen gemessen", "correct": true },
+      { "text": "Ein Bild wird aus geometrischen Pfaden gebildet", "correct": false },
+      { "text": "Zeichen werden als Unicode-Werte gespeichert", "correct": false },
+      { "text": "Farben werden mit CMYK gemischt", "correct": false }
+    ],
+    "explanation": "Beim Sampling werden Messwerte eines analogen Audiosignals digital erfasst."
+  },
+  {
+    "id": "lf-05-sach-data-031",
+    "question": "Was gibt die Sampling-Rate an?",
+    "answers": [
+      { "text": "Wie oft pro Sekunde ein Audiosignal gemessen wird", "correct": true },
+      { "text": "Wie viele Bits ein Messwert verwendet", "correct": false },
+      { "text": "Wie viele Tonkanäle gespeichert werden", "correct": false },
+      { "text": "Wie viele Farben ein Pixel darstellen kann", "correct": false }
+    ],
+    "explanation": "Eine höhere Sampling-Rate bedeutet mehr Messungen pro Sekunde."
+  },
+  {
+    "id": "lf-05-sach-data-032",
+    "question": "Was gibt die Sampling-Tiefe an?",
+    "answers": [
+      { "text": "Wie viele Bits für einen Audio-Messwert verwendet werden", "correct": true },
+      { "text": "Wie oft ein Audiosignal pro Sekunde gemessen wird", "correct": false },
+      { "text": "Wie viele Kanäle eine Audiodatei besitzt", "correct": false },
+      { "text": "Wie viele Farben ein Rasterbild enthält", "correct": false }
+    ],
+    "explanation": "Die Sampling-Tiefe bestimmt die Genauigkeit einzelner gespeicherter Messwerte."
+  },
+  {
+    "id": "lf-05-sach-data-033",
+    "question": "Welche Aussage zu Mono und Stereo ist richtig?",
+    "answers": [
+      { "text": "Mono nutzt einen Tonkanal, Stereo nutzt zwei Tonkanäle", "correct": true },
+      { "text": "Mono nutzt zwei Kanäle, Stereo einen Kanal", "correct": false },
+      { "text": "Mono beschreibt Farbtiefe, Stereo Sampling-Rate", "correct": false },
+      { "text": "Stereo ist eine Codierung für Textzeichen", "correct": false }
+    ],
+    "explanation": "Die Anzahl der Tonkanäle beeinflusst die räumliche Audio-Wiedergabe."
+  },
+  {
+    "id": "lf-05-sach-data-034",
+    "question": "Warum unterscheiden sich KB und KiB?",
+    "answers": [
+      { "text": "KB basiert meist auf 1000 Byte, KiB auf 1024 Byte", "correct": true },
+      { "text": "KB nutzt binäre, KiB dezimale Präfixe", "correct": false },
+      { "text": "KB beschreibt Farben, KiB Tonkanäle", "correct": false },
+      { "text": "KB ist eine Einheit für Sampling-Rate", "correct": false }
+    ],
+    "explanation": "Dezimale Präfixe nutzen 1000er-Schritte, binäre Präfixe nutzen 1024er-Schritte."
+  },
+  {
+    "id": "lf-05-sach-data-035",
+    "question": "Warum kann eine 1-TB-Festplatte im Betriebssystem kleiner als 1 TiB erscheinen?",
+    "answers": [
+      { "text": "Hersteller rechnen oft dezimal, Betriebssysteme teilweise binär", "correct": true },
+      { "text": "Betriebssysteme löschen beim Anschließen Daten", "correct": false },
+      { "text": "1 TB und 1 TiB bezeichnen denselben Bytewert", "correct": false },
+      { "text": "Festplatten werden intern als Audiodaten angezeigt", "correct": false }
+    ],
+    "explanation": "1 TB sind dezimal 1.000.000.000.000 Byte, während 1 TiB binär größer ist."
+  }
+]

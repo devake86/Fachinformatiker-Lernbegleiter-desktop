@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-sach-sozi-001",
+    "question": "Was verbindet die soziale Marktwirtschaft?",
+    "answers": [
+      { "text": "Freie Wirtschaft und soziale Absicherung", "correct": true },
+      { "text": "Freier Markt ohne sozialen Ausgleich", "correct": false },
+      { "text": "Staatliche Planung mit Privateigentum", "correct": false },
+      { "text": "Soziale Absicherung ohne Wettbewerb", "correct": false }
+    ],
+    "explanation": "Die soziale Marktwirtschaft verbindet wirtschaftliche Freiheit mit sozialer Sicherheit."
+  },
+  {
+    "id": "lf-01-sach-sozi-002",
+    "question": "Was bedeutet das Solidaritätsprinzip im sozialen Sicherungssystem?",
+    "answers": [
+      { "text": "Stärkere unterstützen Schwächere gemeinschaftlich", "correct": true },
+      { "text": "Jeder sichert sein Risiko vollständig selbst ab", "correct": false },
+      { "text": "Leistungen richten sich direkt nach Einzelbeitrag", "correct": false },
+      { "text": "Beiträge werden nach individueller Nutzung erhoben", "correct": false }
+    ],
+    "explanation": "Das Solidaritätsprinzip verteilt soziale Risiken auf eine Gemeinschaft."
+  },
+  {
+    "id": "lf-01-sach-sozi-003",
+    "question": "Was bedeutet das Subsidiaritätsprinzip?",
+    "answers": [
+      { "text": "Eigenverantwortung vor Hilfe höherer Stellen", "correct": true },
+      { "text": "Staatliche Hilfe vor eigener Verantwortung", "correct": false },
+      { "text": "Gemeinschaftliche Absicherung nach Einkommen", "correct": false },
+      { "text": "Gleiche Unterstützung unabhängig vom Bedarf", "correct": false }
+    ],
+    "explanation": "Subsidiarität bedeutet Hilfe zur Selbsthilfe, bevor übergeordnete Stellen eingreifen."
+  },
+  {
+    "id": "lf-01-sach-sozi-004",
+    "question": "Welche fünf Zweige gehören zur gesetzlichen Sozialversicherung?",
+    "answers": [
+      { "text": "Kranken-, Unfall-, Renten-, Arbeitslosen- und Pflegeversicherung", "correct": true },
+      { "text": "Kranken-, Renten-, Haftpflicht-, Pflege- und Unfallversicherung", "correct": false },
+      { "text": "Pflege-, Unfall-, Renten-, Steuer- und Arbeitslosenversicherung", "correct": false },
+      { "text": "Kranken-, Auto-, Renten-, Pflege- und Rechtsschutzversicherung", "correct": false }
+    ],
+    "explanation": "Die gesetzliche Sozialversicherung umfasst fünf zentrale Versicherungszweige."
+  },
+  {
+    "id": "lf-01-sach-sozi-005",
+    "question": "Welche Sozialversicherung übernimmt typischerweise medizinische Leistungen wie Arztbesuch oder Krankenhaus?",
+    "answers": [
+      { "text": "Krankenversicherung", "correct": true },
+      { "text": "Unfallversicherung", "correct": false },
+      { "text": "Pflegeversicherung", "correct": false },
+      { "text": "Rentenversicherung", "correct": false }
+    ],
+    "explanation": "Die Krankenversicherung sichert medizinische Versorgung bei Krankheit ab."
+  },
+  {
+    "id": "lf-01-sach-sozi-006",
+    "question": "Welche Sozialversicherung ist bei Arbeitsunfällen und Wegeunfällen zuständig?",
+    "answers": [
+      { "text": "Unfallversicherung", "correct": true },
+      { "text": "Krankenversicherung", "correct": false },
+      { "text": "Arbeitslosenversicherung", "correct": false },
+      { "text": "Pflegeversicherung", "correct": false }
+    ],
+    "explanation": "Die gesetzliche Unfallversicherung schützt bei Arbeitsunfällen, Wegeunfällen und Berufskrankheiten."
+  },
+  {
+    "id": "lf-01-sach-sozi-007",
+    "question": "Welche Sozialversicherung sichert Alter und Erwerbsminderung ab?",
+    "answers": [
+      { "text": "Rentenversicherung", "correct": true },
+      { "text": "Krankenversicherung", "correct": false },
+      { "text": "Unfallversicherung", "correct": false },
+      { "text": "Arbeitslosenversicherung", "correct": false }
+    ],
+    "explanation": "Die Rentenversicherung sichert unter anderem Alter, Erwerbsminderung und Hinterbliebene ab."
+  },
+  {
+    "id": "lf-01-sach-sozi-008",
+    "question": "Welche Sozialversicherung unterstützt bei Arbeitslosigkeit und Arbeitsvermittlung?",
+    "answers": [
+      { "text": "Arbeitslosenversicherung", "correct": true },
+      { "text": "Krankenversicherung", "correct": false },
+      { "text": "Rentenversicherung", "correct": false },
+      { "text": "Unfallversicherung", "correct": false }
+    ],
+    "explanation": "Die Arbeitslosenversicherung unterstützt bei Arbeitslosigkeit, Vermittlung und Arbeitsförderung."
+  },
+  {
+    "id": "lf-01-sach-sozi-009",
+    "question": "Welche Sozialversicherung unterstützt bei Pflegebedürftigkeit?",
+    "answers": [
+      { "text": "Pflegeversicherung", "correct": true },
+      { "text": "Krankenversicherung", "correct": false },
+      { "text": "Rentenversicherung", "correct": false },
+      { "text": "Unfallversicherung", "correct": false }
+    ],
+    "explanation": "Die Pflegeversicherung hilft bei häuslicher oder stationärer Pflege."
+  },
+  {
+    "id": "lf-01-sach-sozi-010",
+    "question": "Wer trägt die Beiträge zur gesetzlichen Unfallversicherung?",
+    "answers": [
+      { "text": "Der Arbeitgeber", "correct": true },
+      { "text": "Arbeitgeber und Arbeitnehmer gemeinsam", "correct": false },
+      { "text": "Der Arbeitnehmer über sein Bruttogehalt", "correct": false },
+      { "text": "Die gesetzliche Krankenversicherung", "correct": false }
+    ],
+    "explanation": "Die gesetzliche Unfallversicherung wird durch Arbeitgeberbeiträge finanziert."
+  },
+  {
+    "id": "lf-01-sach-sozi-011",
+    "question": "Wie werden viele Sozialversicherungsbeiträge grundsätzlich aufgeteilt?",
+    "answers": [
+      { "text": "Arbeitgeber und Arbeitnehmer tragen sie häufig ungefähr zur Hälfte", "correct": true },
+      { "text": "Arbeitgeber tragen alle Sozialversicherungsbeiträge", "correct": false },
+      { "text": "Arbeitnehmer tragen alle Sozialversicherungsbeiträge", "correct": false },
+      { "text": "Beiträge werden vollständig aus Steuern finanziert", "correct": false }
+    ],
+    "explanation": "Viele Sozialversicherungsbeiträge werden zwischen Arbeitgeber und Arbeitnehmer geteilt."
+  },
+  {
+    "id": "lf-01-sach-sozi-012",
+    "question": "Welcher Träger ist für die gesetzliche Unfallversicherung zuständig?",
+    "answers": [
+      { "text": "Berufsgenossenschaften", "correct": true },
+      { "text": "Deutsche Rentenversicherung", "correct": false },
+      { "text": "Bundesagentur für Arbeit", "correct": false },
+      { "text": "Gesetzliche Krankenkassen", "correct": false }
+    ],
+    "explanation": "Berufsgenossenschaften sind Träger der gesetzlichen Unfallversicherung."
+  },
+  {
+    "id": "lf-01-sach-sozi-013",
+    "question": "Welcher Träger ist für die gesetzliche Rentenversicherung zuständig?",
+    "answers": [
+      { "text": "Deutsche Rentenversicherung", "correct": true },
+      { "text": "Berufsgenossenschaften", "correct": false },
+      { "text": "Bundesagentur für Arbeit", "correct": false },
+      { "text": "Gesetzliche Krankenkassen", "correct": false }
+    ],
+    "explanation": "Die Deutsche Rentenversicherung organisiert Leistungen der gesetzlichen Rentenversicherung."
+  },
+  {
+    "id": "lf-01-sach-sozi-014",
+    "question": "Welcher Träger ist für Arbeitslosenversicherung und Arbeitsförderung zuständig?",
+    "answers": [
+      { "text": "Bundesagentur für Arbeit", "correct": true },
+      { "text": "Deutsche Rentenversicherung", "correct": false },
+      { "text": "Berufsgenossenschaft", "correct": false },
+      { "text": "Gesetzliche Krankenkasse", "correct": false }
+    ],
+    "explanation": "Die Bundesagentur für Arbeit ist für Arbeitslosenversicherung, Vermittlung und Förderung zuständig."
+  },
+  {
+    "id": "lf-01-sach-sozi-015",
+    "question": "Was beschreibt das Bruttogehalt?",
+    "answers": [
+      { "text": "Das Gehalt vor Steuern und Sozialabgaben", "correct": true },
+      { "text": "Das ausgezahlte Gehalt nach allen Abzügen", "correct": false },
+      { "text": "Das Gehalt nach Steuern, aber vor Beiträgen", "correct": false },
+      { "text": "Der Arbeitgeberanteil zur Sozialversicherung", "correct": false }
+    ],
+    "explanation": "Bruttogehalt ist das Gehalt vor Abzügen."
+  },
+  {
+    "id": "lf-01-sach-sozi-016",
+    "question": "Was beschreibt das Nettogehalt?",
+    "answers": [
+      { "text": "Das Gehalt nach Steuern und Sozialabgaben", "correct": true },
+      { "text": "Das Gehalt vor gesetzlichen Abzügen", "correct": false },
+      { "text": "Das Gehalt vor Steuern, aber nach Beiträgen", "correct": false },
+      { "text": "Die Summe aus Arbeitgeber- und Arbeitnehmeranteil", "correct": false }
+    ],
+    "explanation": "Nettogehalt ist der Betrag, der nach Abzügen ausgezahlt wird."
+  },
+  {
+    "id": "lf-01-sach-sozi-017",
+    "question": "Welche Abzüge führen typischerweise vom Brutto- zum Nettogehalt?",
+    "answers": [
+      { "text": "Steuern und Sozialversicherungsbeiträge", "correct": true },
+      { "text": "Arbeitgeberanteil und Unternehmensgewinn", "correct": false },
+      { "text": "Umsatzsteuer und betriebliche Fixkosten", "correct": false },
+      { "text": "Kundenrabatte und Materialkosten", "correct": false }
+    ],
+    "explanation": "Vom Bruttogehalt werden unter anderem Lohnsteuer und Sozialversicherungsbeiträge abgezogen."
+  },
+  {
+    "id": "lf-01-sach-sozi-018",
+    "question": "Wozu dienen Lohnsteuerklassen?",
+    "answers": [
+      { "text": "Sie berücksichtigen persönliche Merkmale beim Lohnsteuerabzug", "correct": true },
+      { "text": "Sie bestimmen die Beitragshöhe zur Unfallversicherung", "correct": false },
+      { "text": "Sie ersetzen die Berechnung der Sozialabgaben", "correct": false },
+      { "text": "Sie legen den Arbeitgeberanteil direkt fest", "correct": false }
+    ],
+    "explanation": "Steuerklassen beeinflussen die Höhe des monatlichen Lohnsteuerabzugs."
+  },
+  {
+    "id": "lf-01-sach-sozi-019",
+    "question": "Welche Steuerklasse ist typischerweise für eine Zweitbeschäftigung vorgesehen?",
+    "answers": [
+      { "text": "Steuerklasse 6", "correct": true },
+      { "text": "Steuerklasse 1", "correct": false },
+      { "text": "Steuerklasse 2", "correct": false },
+      { "text": "Steuerklasse 4", "correct": false }
+    ],
+    "explanation": "Steuerklasse 6 wird typischerweise bei einer weiteren Beschäftigung genutzt."
+  },
+  {
+    "id": "lf-01-sach-sozi-020",
+    "question": "Welche Steuerklasse passt typischerweise zu Alleinerziehenden?",
+    "answers": [
+      { "text": "Steuerklasse 2", "correct": true },
+      { "text": "Steuerklasse 1", "correct": false },
+      { "text": "Steuerklasse 4", "correct": false },
+      { "text": "Steuerklasse 6", "correct": false }
+    ],
+    "explanation": "Steuerklasse 2 ist typischerweise für Alleinerziehende vorgesehen."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-fach-wart-001",
+    "question": "Was beschreibt Instandhaltung im IT-Bereich?",
+    "answers": [
+      { "text": "Erhaltung oder Wiederherstellung der Funktionsfähigkeit", "correct": true },
+      { "text": "Überwachung von Systemen und Diensten", "correct": false },
+      { "text": "Bearbeitung einzelner Störungen im Support", "correct": false },
+      { "text": "Planung von Serviceverträgen und Leistungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Instandhaltung hält IT-Systeme funktionsfähig oder stellt sie nach Störungen wieder her."
+  },
+  {
+    "id": "lf-06-fach-wart-002",
+    "question": "Was beschreibt reaktive Instandhaltung?",
+    "answers": [
+      { "text": "Maßnahmen nach einem eingetretenen Vorfall", "correct": true },
+      { "text": "Vorsorgliche Maßnahmen vor einer Störung", "correct": false },
+      { "text": "Wartung auf Basis von Prognosen und Messwerten", "correct": false },
+      { "text": "Regelmäßige Prüfung nach festem Wartungsplan", "correct": false }
+    ],
+    "explanation": "Merksatz: Reaktive Instandhaltung repariert erst nach Eintritt einer Störung."
+  },
+  {
+    "id": "lf-06-fach-wart-003",
+    "question": "Was beschreibt proaktive Instandhaltung?",
+    "answers": [
+      { "text": "Vorsorgliche Maßnahmen zur Vermeidung von Störungen", "correct": true },
+      { "text": "Reparatur nach einem vollständigen Systemausfall", "correct": false },
+      { "text": "Entstörung eines bereits betroffenen Services", "correct": false },
+      { "text": "Wiederherstellung nach Datenverlust", "correct": false }
+    ],
+    "explanation": "Merksatz: Proaktive Instandhaltung soll Störungen verhindern, bevor sie kritisch werden."
+  },
+  {
+    "id": "lf-06-fach-wart-004",
+    "question": "Was beschreibt präventive Wartung?",
+    "answers": [
+      { "text": "Vorsorgliche Wartung zur Senkung des Störungsrisikos", "correct": true },
+      { "text": "Reparatur nach eingetretenem Ausfall", "correct": false },
+      { "text": "Wartung aufgrund aktueller Messwertprognosen", "correct": false },
+      { "text": "Wiederherstellung eines gestörten Services", "correct": false }
+    ],
+    "explanation": "Merksatz: Präventive Wartung verringert die Wahrscheinlichkeit späterer Ausfälle."
+  },
+  {
+    "id": "lf-06-fach-wart-005",
+    "question": "Was beschreibt prädiktive Wartung?",
+    "answers": [
+      { "text": "Vorausschauende Wartung auf Basis von Daten", "correct": true },
+      { "text": "Wartung nach einem bereits eingetretenen Ausfall", "correct": false },
+      { "text": "Wartung nach festem Kalenderintervall", "correct": false },
+      { "text": "Allgemeine Pflege ohne Messwertbezug", "correct": false }
+    ],
+    "explanation": "Merksatz: Prädiktive Wartung nutzt Messwerte, Monitoring oder KI zur Vorhersage von Störungen."
+  },
+  {
+    "id": "lf-06-fach-wart-006",
+    "question": "Was beschreibt Störungsvermeidung?",
+    "answers": [
+      { "text": "Maßnahmen zur Verhinderung von Ausfällen oder Fehlern", "correct": true },
+      { "text": "Bearbeitung bereits eingetretener Incidents", "correct": false },
+      { "text": "Dokumentation bekannter Fehlerursachen", "correct": false },
+      { "text": "Wiederherstellung nach Serviceunterbrechung", "correct": false }
+    ],
+    "explanation": "Merksatz: Störungsvermeidung reduziert Risiken für den laufenden IT-Betrieb."
+  },
+  {
+    "id": "lf-06-fach-wart-007",
+    "question": "Was beschreibt Patchmanagement?",
+    "answers": [
+      { "text": "Planung, Verteilung und Kontrolle von Softwareupdates", "correct": true },
+      { "text": "Überwachung von Virenschutz und Meldungen", "correct": false },
+      { "text": "Prüfung von Passwörtern und Richtlinien", "correct": false },
+      { "text": "Kontrollierte Sicherheitsprüfung durch Angriffe", "correct": false }
+    ],
+    "explanation": "Merksatz: Patchmanagement hält Systeme durch kontrollierte Updates sicher und aktuell."
+  },
+  {
+    "id": "lf-06-fach-wart-008",
+    "question": "Was beschreibt ein Sicherheitsupdate?",
+    "answers": [
+      { "text": "Update zur Behebung sicherheitsrelevanter Schwachstellen", "correct": true },
+      { "text": "Update zur reinen Änderung der Oberfläche", "correct": false },
+      { "text": "Sicherungskopie zur späteren Wiederherstellung", "correct": false },
+      { "text": "Prüfung der Passwortqualität", "correct": false }
+    ],
+    "explanation": "Merksatz: Sicherheitsupdates schließen bekannte Sicherheitslücken."
+  },
+  {
+    "id": "lf-06-fach-wart-009",
+    "question": "Was beschreibt ein Backup?",
+    "answers": [
+      { "text": "Sicherungskopie von Daten zur Wiederherstellung", "correct": true },
+      { "text": "Update zur Behebung von Schwachstellen", "correct": false },
+      { "text": "Überwachung einer Stromversorgung", "correct": false },
+      { "text": "Prüfung eines Systems durch simulierte Angriffe", "correct": false }
+    ],
+    "explanation": "Merksatz: Backups ermöglichen Wiederherstellung nach Verlust, Fehlern oder Angriffen."
+  },
+  {
+    "id": "lf-06-fach-wart-010",
+    "question": "Was beschreibt Datensicherung?",
+    "answers": [
+      { "text": "Planmäßiges Sichern von Daten gegen Verlust", "correct": true },
+      { "text": "Wiederherstellung eines Services nach Störung", "correct": false },
+      { "text": "Verteilung von Softwareupdates auf Systeme", "correct": false },
+      { "text": "Prüfung von Webangeboten auf Sicherheit", "correct": false }
+    ],
+    "explanation": "Merksatz: Datensicherung schützt vor Datenverlust durch geplante Sicherungskopien."
+  },
+  {
+    "id": "lf-06-fach-wart-011",
+    "question": "Was beschreibt USV-Überwachung?",
+    "answers": [
+      { "text": "Kontrolle von Stromversorgung und Batterien", "correct": true },
+      { "text": "Kontrolle von Schutzsoftware und Meldungen", "correct": false },
+      { "text": "Kontrolle von Passwortqualität und Regeln", "correct": false },
+      { "text": "Kontrolle von Webangeboten und Funktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: USV-Überwachung hilft, Stromausfälle und Batterierisiken früh zu erkennen."
+  },
+  {
+    "id": "lf-06-fach-wart-012",
+    "question": "Was beschreibt Antivirus-Überwachung?",
+    "answers": [
+      { "text": "Kontrolle von Schutzsoftware, Meldungen und Bereinigung", "correct": true },
+      { "text": "Kontrolle einer unterbrechungsfreien Stromversorgung", "correct": false },
+      { "text": "Kontrolle von Passwortqualität und Richtlinien", "correct": false },
+      { "text": "Kontrolle von Patches und Updateverteilung", "correct": false }
+    ],
+    "explanation": "Merksatz: Antivirus-Überwachung stellt sicher, dass Schutzsoftware aktiv und wirksam bleibt."
+  },
+  {
+    "id": "lf-06-fach-wart-013",
+    "question": "Was beschreibt ein Passwort-Audit?",
+    "answers": [
+      { "text": "Prüfung von Passwortqualität und Passwortregeln", "correct": true },
+      { "text": "Kontrolle von Schutzsoftware und Virenmeldungen", "correct": false },
+      { "text": "Prüfung von Webangeboten auf Sicherheit", "correct": false },
+      { "text": "Simulation kontrollierter Angriffe auf Systeme", "correct": false }
+    ],
+    "explanation": "Merksatz: Passwort-Audits prüfen, ob Kennwörter und Richtlinien ausreichend sicher sind."
+  },
+  {
+    "id": "lf-06-fach-wart-014",
+    "question": "Was beschreibt ein Penetrationstest?",
+    "answers": [
+      { "text": "Kontrollierte Sicherheitsprüfung durch simulierte Angriffe", "correct": true },
+      { "text": "Regelmäßige Sicherung von Datenbeständen", "correct": false },
+      { "text": "Prüfung von Passwortqualität im Audit", "correct": false },
+      { "text": "Überwachung von Virenschutzmeldungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Penetrationstests prüfen Systeme kontrolliert auf ausnutzbare Schwachstellen."
+  },
+  {
+    "id": "lf-06-fach-wart-015",
+    "question": "Was beschreibt ein Webcheck?",
+    "answers": [
+      { "text": "Prüfung von Webangeboten auf Sicherheit oder Qualität", "correct": true },
+      { "text": "Simulation umfassender Angriffe auf IT-Systeme", "correct": false },
+      { "text": "Kontrolle von Stromversorgung und Batterien", "correct": false },
+      { "text": "Planung und Verteilung von Softwareupdates", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Webcheck prüft Webseiten oder Webanwendungen auf ausgewählte Risiken und Mängel."
+  },
+  {
+    "id": "lf-06-fach-wart-016",
+    "question": "Was beschreibt Medienkompetenz?",
+    "answers": [
+      { "text": "Medien sachgerecht, sicher und verantwortlich nutzen", "correct": true },
+      { "text": "Technische Systeme laufend überwachen", "correct": false },
+      { "text": "Störungen nach Eintritt schnell beheben", "correct": false },
+      { "text": "Serviceverträge und SLAs verwalten", "correct": false }
+    ],
+    "explanation": "Merksatz: Medienkompetenz unterstützt sicheren, verantwortlichen und zielgerichteten Medieneinsatz."
+  },
+  {
+    "id": "lf-06-fach-wart-017",
+    "question": "Was beschreibt eine Schulungsmaßnahme im Servicekontext?",
+    "answers": [
+      { "text": "Geplante Qualifizierung zur Verbesserung von Wissen", "correct": true },
+      { "text": "Technische Überwachung laufender Systeme", "correct": false },
+      { "text": "Kontrollierte Prüfung durch simulierte Angriffe", "correct": false },
+      { "text": "Regelmäßige Pflege und Instandhaltung", "correct": false }
+    ],
+    "explanation": "Merksatz: Schulungsmaßnahmen verbessern Kompetenzen und können Servicequalität erhöhen."
+  },
+  {
+    "id": "lf-06-fach-wart-018",
+    "question": "Was beschreibt Kundenberatung?",
+    "answers": [
+      { "text": "Bedarfsgerechte Unterstützung bei Entscheidungen oder Problemen", "correct": true },
+      { "text": "Prüfung von Passwörtern und Sicherheitsregeln", "correct": false },
+      { "text": "Technische Überwachung von Servern und Netzen", "correct": false },
+      { "text": "Planmäßige Sicherung von Datenbeständen", "correct": false }
+    ],
+    "explanation": "Merksatz: Kundenberatung verbindet Fachwissen mit verständlicher und bedarfsgerechter Kommunikation."
+  },
+  {
+    "id": "lf-06-fach-wart-019",
+    "question": "Was beschreibt eine Bedarfsanalyse?",
+    "answers": [
+      { "text": "Ermittlung tatsächlicher Anforderungen oder Wünsche", "correct": true },
+      { "text": "Beratung mit bereits festgelegter Lösung", "correct": false },
+      { "text": "Schulung zur Verbesserung von Kompetenzen", "correct": false },
+      { "text": "Wartung auf Basis von Messwertprognosen", "correct": false }
+    ],
+    "explanation": "Merksatz: Bedarfsanalyse ermittelt, was Kunden oder Arbeitsplätze wirklich benötigen."
+  },
+  {
+    "id": "lf-06-fach-wart-020",
+    "question": "Was beschreibt präventive Schulung?",
+    "answers": [
+      { "text": "Schulung zur Vorbeugung von Fehlern oder Risiken", "correct": true },
+      { "text": "Schulung nach bereits behobenem Störungsfall", "correct": false },
+      { "text": "Beratung zur Auswahl eines konkreten Produkts", "correct": false },
+      { "text": "Analyse aktueller Kundenanforderungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Präventive Schulungen senken Risiken durch besseres Wissen und richtiges Verhalten."
+  }
+]

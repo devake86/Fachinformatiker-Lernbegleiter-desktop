@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-05-code-py-001",
+    "question": "Was gibt dieser Python-Code aus?\n\nscore = 3\nbonus = 2\nprint(score + bonus)",
+    "answers": [
+      { "text": "5", "correct": true },
+      { "text": "32", "correct": false },
+      { "text": "scorebonus", "correct": false },
+      { "text": "Fehler, weil Variablen nicht addiert werden dürfen", "correct": false }
+    ],
+    "explanation": "Die Variablen enthalten Zahlen. 3 + 2 ergibt 5."
+  },
+  {
+    "id": "lf-05-code-py-002",
+    "question": "Was gibt dieser Python-Code aus?\n\nname = \"Quiz\"\nprint(name)",
+    "answers": [
+      { "text": "Quiz", "correct": true },
+      { "text": "name", "correct": false },
+      { "text": "\"name\"", "correct": false },
+      { "text": "Fehler, weil Strings nicht ausgegeben werden dürfen", "correct": false }
+    ],
+    "explanation": "print(name) gibt den Wert der Variable name aus."
+  },
+  {
+    "id": "lf-05-code-py-003",
+    "question": "Welchen Datentyp hat der Wert?\n\nx = 7",
+    "answers": [
+      { "text": "int", "correct": true },
+      { "text": "float", "correct": false },
+      { "text": "str", "correct": false },
+      { "text": "bool", "correct": false }
+    ],
+    "explanation": "7 ist eine ganze Zahl und hat in Python den Datentyp int."
+  },
+  {
+    "id": "lf-05-code-py-004",
+    "question": "Welchen Datentyp hat der Wert?\n\nx = 7.0",
+    "answers": [
+      { "text": "float", "correct": true },
+      { "text": "int", "correct": false },
+      { "text": "str", "correct": false },
+      { "text": "bool", "correct": false }
+    ],
+    "explanation": "7.0 ist eine Kommazahl und hat in Python den Datentyp float."
+  },
+  {
+    "id": "lf-05-code-py-005",
+    "question": "Welchen Datentyp hat der Wert?\n\nready = True",
+    "answers": [
+      { "text": "bool", "correct": true },
+      { "text": "str", "correct": false },
+      { "text": "int", "correct": false },
+      { "text": "float", "correct": false }
+    ],
+    "explanation": "True ist ein Wahrheitswert und gehört zum Datentyp bool."
+  },
+  {
+    "id": "lf-05-code-py-006",
+    "question": "Was gibt dieser Python-Code aus?\n\nx = \"7\"\ny = \"3\"\nprint(x + y)",
+    "answers": [
+      { "text": "73", "correct": true },
+      { "text": "10", "correct": false },
+      { "text": "7 3", "correct": false },
+      { "text": "Fehler, weil Strings nicht mit + verbunden werden können", "correct": false }
+    ],
+    "explanation": "x und y sind Strings. Das Pluszeichen verkettet sie zu 73."
+  },
+  {
+    "id": "lf-05-code-py-007",
+    "question": "Was gibt dieser Python-Code aus?\n\nx = int(\"7\")\ny = int(\"3\")\nprint(x + y)",
+    "answers": [
+      { "text": "10", "correct": true },
+      { "text": "73", "correct": false },
+      { "text": "7 + 3", "correct": false },
+      { "text": "Fehler, weil int() keine Strings verarbeiten kann", "correct": false }
+    ],
+    "explanation": "int() wandelt die Zeichenketten in ganze Zahlen um. 7 + 3 ergibt 10."
+  },
+  {
+    "id": "lf-05-code-py-008",
+    "question": "Was gibt dieser Python-Code aus?\n\nprint(10 / 4)",
+    "answers": [
+      { "text": "2.5", "correct": true },
+      { "text": "2", "correct": false },
+      { "text": "2 Rest 2", "correct": false },
+      { "text": "Fehler", "correct": false }
+    ],
+    "explanation": "Der Operator / führt eine Division aus und liefert in Python ein float-Ergebnis."
+  },
+  {
+    "id": "lf-05-code-py-009",
+    "question": "Was gibt dieser Python-Code aus?\n\nprint(10 // 4)",
+    "answers": [
+      { "text": "2", "correct": true },
+      { "text": "2.5", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "Fehler", "correct": false }
+    ],
+    "explanation": "// ist die Ganzzahldivision. 10 // 4 ergibt 2."
+  },
+  {
+    "id": "lf-05-code-py-010",
+    "question": "Was gibt dieser Python-Code aus?\n\nprint(10 % 4)",
+    "answers": [
+      { "text": "2", "correct": true },
+      { "text": "2.5", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "10", "correct": false }
+    ],
+    "explanation": "% gibt den Rest der Division zurück. 10 geteilt durch 4 hat Rest 2."
+  },
+  {
+    "id": "lf-05-code-py-011",
+    "question": "Was gibt dieser Python-Code aus?\n\nlevel = 5\nprint(level == 5)",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "level", "correct": false }
+    ],
+    "explanation": "== vergleicht Werte. level hat den Wert 5, daher ist der Vergleich wahr."
+  },
+  {
+    "id": "lf-05-code-py-012",
+    "question": "Was gibt dieser Python-Code aus?\n\nlevel = 5\nprint(level != 5)",
+    "answers": [
+      { "text": "False", "correct": true },
+      { "text": "True", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "Fehler", "correct": false }
+    ],
+    "explanation": "!= bedeutet ungleich. level ist nicht ungleich 5, daher ist das Ergebnis False."
+  },
+  {
+    "id": "lf-05-code-py-013",
+    "question": "Was gibt dieser Python-Code aus?\n\nscore = 80\nif score >= 50:\n    print(\"bestanden\")\nelse:\n    print(\"nicht bestanden\")",
+    "answers": [
+      { "text": "bestanden", "correct": true },
+      { "text": "nicht bestanden", "correct": false },
+      { "text": "score", "correct": false },
+      { "text": "Fehler wegen if", "correct": false }
+    ],
+    "explanation": "80 ist größer oder gleich 50, daher wird der if-Zweig ausgeführt."
+  },
+  {
+    "id": "lf-05-code-py-014",
+    "question": "Was gibt dieser Python-Code aus?\n\nscore = 50\nif score > 50:\n    print(\"hoch\")\nelif score == 50:\n    print(\"mittel\")\nelse:\n    print(\"niedrig\")",
+    "answers": [
+      { "text": "mittel", "correct": true },
+      { "text": "hoch", "correct": false },
+      { "text": "niedrig", "correct": false },
+      { "text": "50", "correct": false }
+    ],
+    "explanation": "score ist genau 50, deshalb trifft die elif-Bedingung zu."
+  },
+  {
+    "id": "lf-05-code-py-015",
+    "question": "Was gibt dieser Python-Code aus?\n\nage = 20\nhas_id = True\nprint(age >= 18 and has_id)",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false },
+      { "text": "20", "correct": false },
+      { "text": "has_id", "correct": false }
+    ],
+    "explanation": "Beide Bedingungen sind wahr. Bei and müssen beide Seiten wahr sein."
+  },
+  {
+    "id": "lf-05-code-py-016",
+    "question": "Was gibt dieser Python-Code aus?\n\nx = 4\nprint(x < 3 or x == 4)",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "Fehler", "correct": false }
+    ],
+    "explanation": "Bei or reicht eine wahre Bedingung. x == 4 ist wahr."
+  },
+  {
+    "id": "lf-05-code-py-017",
+    "question": "Was gibt dieser Python-Code aus?\n\nready = False\nprint(not ready)",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false },
+      { "text": "ready", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "explanation": "not kehrt einen Wahrheitswert um. Aus False wird True."
+  },
+  {
+    "id": "lf-05-code-py-018",
+    "question": "Was gibt dieser Python-Code aus?\n\nfor i in range(3):\n    print(i)",
+    "answers": [
+      { "text": "0 1 2", "correct": true },
+      { "text": "1 2 3", "correct": false },
+      { "text": "0 1 2 3", "correct": false },
+      { "text": "3", "correct": false }
+    ],
+    "explanation": "range(3) erzeugt die Werte 0, 1 und 2."
+  },
+  {
+    "id": "lf-05-code-py-019",
+    "question": "Was gibt dieser Python-Code aus?\n\nfor i in range(2, 5):\n    print(i)",
+    "answers": [
+      { "text": "2 3 4", "correct": true },
+      { "text": "2 3 4 5", "correct": false },
+      { "text": "0 1 2 3 4", "correct": false },
+      { "text": "5", "correct": false }
+    ],
+    "explanation": "range(2, 5) startet bei 2 und endet vor 5."
+  },
+  {
+    "id": "lf-05-code-py-020",
+    "question": "Was gibt dieser Python-Code aus?\n\nfor i in range(2, 9, 3):\n    print(i)",
+    "answers": [
+      { "text": "2 5 8", "correct": true },
+      { "text": "2 3 4 5 6 7 8", "correct": false },
+      { "text": "3 6 9", "correct": false },
+      { "text": "2 5 8 11", "correct": false }
+    ],
+    "explanation": "range(2, 9, 3) zählt ab 2 in Dreierschritten bis vor 9."
+  },
+  {
+    "id": "lf-05-code-py-021",
+    "question": "Was gibt dieser Python-Code aus?\n\nx = 1\nwhile x < 4:\n    print(x)\n    x = x + 1",
+    "answers": [
+      { "text": "1 2 3", "correct": true },
+      { "text": "1 2 3 4", "correct": false },
+      { "text": "0 1 2 3", "correct": false },
+      { "text": "Endlosschleife", "correct": false }
+    ],
+    "explanation": "x wird nach jedem Durchlauf um 1 erhöht. Bei x = 4 endet die Schleife."
+  },
+  {
+    "id": "lf-05-code-py-022",
+    "question": "Was ist an diesem Code problematisch?\n\nx = 1\nwhile x < 4:\n    print(x)",
+    "answers": [
+      { "text": "Die Schleife endet nicht, weil x nicht verändert wird", "correct": true },
+      { "text": "print() darf nicht in while-Schleifen stehen", "correct": false },
+      { "text": "x darf nicht mit 1 starten", "correct": false },
+      { "text": "while darf nur mit Strings genutzt werden", "correct": false }
+    ],
+    "explanation": "Die Bedingung bleibt dauerhaft wahr, weil x im Schleifenblock nicht erhöht wird."
+  },
+  {
+    "id": "lf-05-code-py-023",
+    "question": "Was gibt dieser Python-Code aus?\n\nitems = [\"A\", \"B\", \"C\"]\nprint(items[0])",
+    "answers": [
+      { "text": "A", "correct": true },
+      { "text": "B", "correct": false },
+      { "text": "C", "correct": false },
+      { "text": "0", "correct": false }
+    ],
+    "explanation": "Listenindizes beginnen in Python bei 0. items[0] ist das erste Element."
+  },
+  {
+    "id": "lf-05-code-py-024",
+    "question": "Was gibt dieser Python-Code aus?\n\nitems = [\"A\", \"B\", \"C\"]\nprint(items[2])",
+    "answers": [
+      { "text": "C", "correct": true },
+      { "text": "A", "correct": false },
+      { "text": "B", "correct": false },
+      { "text": "Fehler, weil es keinen Index 2 gibt", "correct": false }
+    ],
+    "explanation": "items[2] ist das dritte Element der Liste, also C."
+  },
+  {
+    "id": "lf-05-code-py-025",
+    "question": "Was gibt dieser Python-Code aus?\n\nitems = [1, 2]\nitems.append(3)\nprint(items)",
+    "answers": [
+      { "text": "[1, 2, 3]", "correct": true },
+      { "text": "[3, 1, 2]", "correct": false },
+      { "text": "[1, 2]", "correct": false },
+      { "text": "Fehler, weil append() keine Zahlen erlaubt", "correct": false }
+    ],
+    "explanation": "append(3) hängt den Wert 3 an das Ende der Liste an."
+  },
+  {
+    "id": "lf-05-code-py-026",
+    "question": "Was gibt dieser Python-Code aus?\n\nitems = [4, 5, 6]\nprint(len(items))",
+    "answers": [
+      { "text": "3", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "6", "correct": false },
+      { "text": "[4, 5, 6]", "correct": false }
+    ],
+    "explanation": "len(items) gibt die Anzahl der Listenelemente zurück."
+  },
+  {
+    "id": "lf-05-code-py-027",
+    "question": "Was gibt dieser Python-Code aus?\n\nnums = [2, 4, 6]\nfor n in nums:\n    print(n)",
+    "answers": [
+      { "text": "2 4 6", "correct": true },
+      { "text": "0 1 2", "correct": false },
+      { "text": "[2, 4, 6]", "correct": false },
+      { "text": "n", "correct": false }
+    ],
+    "explanation": "Die for-Schleife läuft über jedes Element der Liste."
+  },
+  {
+    "id": "lf-05-code-py-028",
+    "question": "Was gibt dieser Python-Code aus?\n\ndef greet():\n    print(\"Hi\")\n\ngreet()",
+    "answers": [
+      { "text": "Hi", "correct": true },
+      { "text": "greet", "correct": false },
+      { "text": "None", "correct": false },
+      { "text": "Fehler, weil Funktionen nicht aufgerufen werden können", "correct": false }
+    ],
+    "explanation": "greet() ruft die Funktion auf. Die Funktion führt print(\"Hi\") aus."
+  },
+  {
+    "id": "lf-05-code-py-029",
+    "question": "Was gibt dieser Python-Code aus?\n\ndef add(a, b):\n    return a + b\n\nprint(add(2, 5))",
+    "answers": [
+      { "text": "7", "correct": true },
+      { "text": "25", "correct": false },
+      { "text": "add", "correct": false },
+      { "text": "None", "correct": false }
+    ],
+    "explanation": "Die Funktion gibt a + b zurück. Mit 2 und 5 ergibt das 7."
+  },
+  {
+    "id": "lf-05-code-py-030",
+    "question": "Was gibt dieser Python-Code aus?\n\ndef double(x):\n    return x * 2\n\nvalue = double(4)\nprint(value)",
+    "answers": [
+      { "text": "8", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "double", "correct": false },
+      { "text": "None", "correct": false }
+    ],
+    "explanation": "double(4) gibt 4 * 2 zurück. Der Rückgabewert wird in value gespeichert."
+  },
+  {
+    "id": "lf-05-code-py-031",
+    "question": "Was gibt dieser Python-Code aus?\n\ndef show(x):\n    print(x)\n\nresult = show(5)\nprint(result)",
+    "answers": [
+      { "text": "5 und danach None", "correct": true },
+      { "text": "5 und danach 5", "correct": false },
+      { "text": "None und danach 5", "correct": false },
+      { "text": "Nur 5", "correct": false }
+    ],
+    "explanation": "show(5) gibt 5 aus, hat aber keinen return-Wert. Daher ist result gleich None."
+  },
+  {
+    "id": "lf-05-code-py-032",
+    "question": "Was gibt dieser Python-Code aus?\n\nimport math\nprint(math.sqrt(16))",
+    "answers": [
+      { "text": "4.0", "correct": true },
+      { "text": "8", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "Fehler, weil sqrt() nicht in math enthalten ist", "correct": false }
+    ],
+    "explanation": "math.sqrt(16) berechnet die Wurzel aus 16 und gibt 4.0 zurück."
+  },
+  {
+    "id": "lf-05-code-py-033",
+    "question": "Welche Library wird hier verwendet?\n\nimport random\nnum = random.randint(1, 6)",
+    "answers": [
+      { "text": "random", "correct": true },
+      { "text": "math", "correct": false },
+      { "text": "tkinter", "correct": false },
+      { "text": "sqlite3", "correct": false }
+    ],
+    "explanation": "Der Code importiert die Library random und nutzt daraus randint()."
+  },
+  {
+    "id": "lf-05-code-py-034",
+    "question": "Was macht dieser Python-Code grundsätzlich?\n\nimport random\nnum = random.randint(1, 6)\nprint(num)",
+    "answers": [
+      { "text": "Er gibt eine zufällige ganze Zahl zwischen 1 und 6 aus", "correct": true },
+      { "text": "Er gibt immer 1 aus", "correct": false },
+      { "text": "Er gibt immer 6 aus", "correct": false },
+      { "text": "Er erzeugt eine zufällige Kommazahl zwischen 1 und 6", "correct": false }
+    ],
+    "explanation": "random.randint(1, 6) erzeugt eine zufällige ganze Zahl inklusive 1 und 6."
+  },
+  {
+    "id": "lf-05-code-py-035",
+    "question": "Was gibt dieser Python-Code aus?\n\ntry:\n    x = int(\"abc\")\nexcept ValueError:\n    print(\"Fehler\")",
+    "answers": [
+      { "text": "Fehler", "correct": true },
+      { "text": "abc", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "Das Programm stürzt ohne Ausgabe ab", "correct": false }
+    ],
+    "explanation": "int(\"abc\") erzeugt einen ValueError. Der except-Zweig fängt diesen Fehler ab."
+  },
+  {
+    "id": "lf-05-code-py-036",
+    "question": "Was gibt dieser Python-Code aus?\n\ntry:\n    x = int(\"12\")\nexcept ValueError:\n    print(\"Fehler\")\nelse:\n    print(\"OK\")",
+    "answers": [
+      { "text": "OK", "correct": true },
+      { "text": "Fehler", "correct": false },
+      { "text": "12", "correct": false },
+      { "text": "ValueError", "correct": false }
+    ],
+    "explanation": "int(\"12\") funktioniert. Da kein Fehler entsteht, wird else ausgeführt."
+  },
+  {
+    "id": "lf-05-code-py-037",
+    "question": "Was gibt dieser Python-Code aus?\n\ntry:\n    print(\"Start\")\nfinally:\n    print(\"Ende\")",
+    "answers": [
+      { "text": "Start und danach Ende", "correct": true },
+      { "text": "Nur Start", "correct": false },
+      { "text": "Nur Ende", "correct": false },
+      { "text": "Fehler, weil finally nur mit except erlaubt ist", "correct": false }
+    ],
+    "explanation": "finally wird am Ende des try-Blocks ausgeführt, unabhängig davon, ob ein Fehler auftritt."
+  },
+  {
+    "id": "lf-05-code-py-038",
+    "question": "Was ist der Basisfall in dieser rekursiven Funktion?\n\ndef total(n):\n    if n == 1:\n        return 1\n    return n + total(n - 1)",
+    "answers": [
+      { "text": "n == 1", "correct": true },
+      { "text": "return n + total(n - 1)", "correct": false },
+      { "text": "def total(n)", "correct": false },
+      { "text": "n - 1", "correct": false }
+    ],
+    "explanation": "Der Basisfall beendet die Rekursion. Hier endet sie, wenn n gleich 1 ist."
+  },
+  {
+    "id": "lf-05-code-py-039",
+    "question": "Was gibt dieser Python-Code aus?\n\ndef total(n):\n    if n == 1:\n        return 1\n    return n + total(n - 1)\n\nprint(total(3))",
+    "answers": [
+      { "text": "6", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "9", "correct": false }
+    ],
+    "explanation": "total(3) berechnet 3 + 2 + 1 und ergibt 6."
+  },
+  {
+    "id": "lf-05-code-py-040",
+    "question": "Welcher Dateimodus öffnet eine Datei zum Lesen?\n\nfile = open(\"quiz.txt\", \"?\")",
+    "answers": [
+      { "text": "r", "correct": true },
+      { "text": "w", "correct": false },
+      { "text": "a", "correct": false },
+      { "text": "x", "correct": false }
+    ],
+    "explanation": "Der Modus r öffnet eine Datei zum Lesen."
+  }
+]

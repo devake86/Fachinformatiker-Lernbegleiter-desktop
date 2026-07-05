@@ -1,0 +1,552 @@
+[
+  {
+    "id": "lf-03-abkz-001",
+    "question": "Wofür steht LAN?",
+    "answers": [
+      { "text": "Local Area Network", "correct": true },
+      { "text": "Linked Access Node", "correct": false },
+      { "text": "Logical Address Network", "correct": false },
+      { "text": "Local Admin Name", "correct": false }
+    ],
+    "explanation": "LAN heißt Local Area Network."
+  },
+  {
+    "id": "lf-03-abkz-002",
+    "question": "Wofür steht WLAN?",
+    "answers": [
+      { "text": "Wireless Local Area Network", "correct": true },
+      { "text": "Wide Local Access Network", "correct": false },
+      { "text": "Wireless Line Adapter Node", "correct": false },
+      { "text": "Web Linked Area Network", "correct": false }
+    ],
+    "explanation": "WLAN heißt Wireless Local Area Network."
+  },
+  {
+    "id": "lf-03-abkz-003",
+    "question": "Wofür steht VLAN?",
+    "answers": [
+      { "text": "Virtual Local Area Network", "correct": true },
+      { "text": "Verified Local Access Node", "correct": false },
+      { "text": "Variable LAN Address Number", "correct": false },
+      { "text": "Virtual Link Admin Network", "correct": false }
+    ],
+    "explanation": "VLAN heißt Virtual Local Area Network."
+  },
+  {
+    "id": "lf-03-abkz-004",
+    "question": "Wofür steht VPN?",
+    "answers": [
+      { "text": "Virtual Private Network", "correct": true },
+      { "text": "Virtual Public Network", "correct": false },
+      { "text": "Verified Port Number", "correct": false },
+      { "text": "Variable Packet Node", "correct": false }
+    ],
+    "explanation": "VPN heißt Virtual Private Network."
+  },
+  {
+    "id": "lf-03-abkz-005",
+    "question": "Wofür steht WAN?",
+    "answers": [
+      { "text": "Wide Area Network", "correct": true },
+      { "text": "Wireless Access Name", "correct": false },
+      { "text": "Wired Admin Network", "correct": false },
+      { "text": "Wide Address Node", "correct": false }
+    ],
+    "explanation": "WAN heißt Wide Area Network."
+  },
+  {
+    "id": "lf-03-abkz-006",
+    "question": "Wofür steht MAN?",
+    "answers": [
+      { "text": "Metropolitan Area Network", "correct": true },
+      { "text": "Managed Access Node", "correct": false },
+      { "text": "Main Admin Network", "correct": false },
+      { "text": "Media Address Name", "correct": false }
+    ],
+    "explanation": "MAN heißt Metropolitan Area Network."
+  },
+  {
+    "id": "lf-03-abkz-007",
+    "question": "Wofür steht GAN?",
+    "answers": [
+      { "text": "Global Area Network", "correct": true },
+      { "text": "Gateway Access Node", "correct": false },
+      { "text": "General Admin Network", "correct": false },
+      { "text": "Global Address Name", "correct": false }
+    ],
+    "explanation": "GAN heißt Global Area Network."
+  },
+  {
+    "id": "lf-03-abkz-008",
+    "question": "Wofür steht PAN?",
+    "answers": [
+      { "text": "Personal Area Network", "correct": true },
+      { "text": "Private Access Node", "correct": false },
+      { "text": "Packet Admin Network", "correct": false },
+      { "text": "Public Area Name", "correct": false }
+    ],
+    "explanation": "PAN heißt Personal Area Network."
+  },
+  {
+    "id": "lf-03-abkz-009",
+    "question": "Wofür steht SAN?",
+    "answers": [
+      { "text": "Storage Area Network", "correct": true },
+      { "text": "Secure Access Node", "correct": false },
+      { "text": "Server Admin Network", "correct": false },
+      { "text": "System Address Name", "correct": false }
+    ],
+    "explanation": "SAN heißt Storage Area Network."
+  },
+  {
+    "id": "lf-03-abkz-010",
+    "question": "Wofür steht LPWAN?",
+    "answers": [
+      { "text": "Low Power Wide Area Network", "correct": true },
+      { "text": "Local Private Wireless Access Node", "correct": false },
+      { "text": "Low Packet Web Area Network", "correct": false },
+      { "text": "Linked Power WAN Adapter Name", "correct": false }
+    ],
+    "explanation": "LPWAN heißt Low Power Wide Area Network."
+  },
+  {
+    "id": "lf-03-abkz-011",
+    "question": "Wofür steht TCP?",
+    "answers": [
+      { "text": "Transmission Control Protocol", "correct": true },
+      { "text": "Transfer Client Port", "correct": false },
+      { "text": "Technical Control Packet", "correct": false },
+      { "text": "Terminal Connection Path", "correct": false }
+    ],
+    "explanation": "TCP heißt Transmission Control Protocol."
+  },
+  {
+    "id": "lf-03-abkz-012",
+    "question": "Wofür steht UDP?",
+    "answers": [
+      { "text": "User Datagram Protocol", "correct": true },
+      { "text": "Universal Data Port", "correct": false },
+      { "text": "User Domain Packet", "correct": false },
+      { "text": "Unified Datagram Path", "correct": false }
+    ],
+    "explanation": "UDP heißt User Datagram Protocol."
+  },
+  {
+    "id": "lf-03-abkz-013",
+    "question": "Wofür steht IP?",
+    "answers": [
+      { "text": "Internet Protocol", "correct": true },
+      { "text": "Internal Port", "correct": false },
+      { "text": "Interface Packet", "correct": false },
+      { "text": "Internet Provider", "correct": false }
+    ],
+    "explanation": "IP heißt Internet Protocol."
+  },
+  {
+    "id": "lf-03-abkz-014",
+    "question": "Wofür steht IPv4?",
+    "answers": [
+      { "text": "Internet Protocol Version 4", "correct": true },
+      { "text": "Internal Port Version 4", "correct": false },
+      { "text": "Internet Provider Version 4", "correct": false },
+      { "text": "Interface Packet Version 4", "correct": false }
+    ],
+    "explanation": "IPv4 heißt Internet Protocol Version 4."
+  },
+  {
+    "id": "lf-03-abkz-015",
+    "question": "Wofür steht IPv6?",
+    "answers": [
+      { "text": "Internet Protocol Version 6", "correct": true },
+      { "text": "Internal Port Version 6", "correct": false },
+      { "text": "Internet Provider Version 6", "correct": false },
+      { "text": "Interface Packet Version 6", "correct": false }
+    ],
+    "explanation": "IPv6 heißt Internet Protocol Version 6."
+  },
+  {
+    "id": "lf-03-abkz-016",
+    "question": "Wofür steht MAC?",
+    "answers": [
+      { "text": "Media Access Control", "correct": true },
+      { "text": "Main Address Client", "correct": false },
+      { "text": "Managed Access Code", "correct": false },
+      { "text": "Media Admin Channel", "correct": false }
+    ],
+    "explanation": "MAC heißt Media Access Control."
+  },
+  {
+    "id": "lf-03-abkz-017",
+    "question": "Wofür steht ARP?",
+    "answers": [
+      { "text": "Address Resolution Protocol", "correct": true },
+      { "text": "Automatic Routing Port", "correct": false },
+      { "text": "Access Remote Protocol", "correct": false },
+      { "text": "Address Relay Packet", "correct": false }
+    ],
+    "explanation": "ARP heißt Address Resolution Protocol."
+  },
+  {
+    "id": "lf-03-abkz-018",
+    "question": "Wofür steht DNS?",
+    "answers": [
+      { "text": "Domain Name System", "correct": true },
+      { "text": "Data Network Service", "correct": false },
+      { "text": "Dynamic Name Server", "correct": false },
+      { "text": "Domain Node Signal", "correct": false }
+    ],
+    "explanation": "DNS heißt Domain Name System."
+  },
+  {
+    "id": "lf-03-abkz-019",
+    "question": "Wofür steht DHCP?",
+    "answers": [
+      { "text": "Dynamic Host Configuration Protocol", "correct": true },
+      { "text": "Domain Host Control Port", "correct": false },
+      { "text": "Direct Hardware Client Protocol", "correct": false },
+      { "text": "Dynamic HTTP Connection Path", "correct": false }
+    ],
+    "explanation": "DHCP heißt Dynamic Host Configuration Protocol."
+  },
+  {
+    "id": "lf-03-abkz-020",
+    "question": "Wofür steht ICMP?",
+    "answers": [
+      { "text": "Internet Control Message Protocol", "correct": true },
+      { "text": "Internal Client Management Port", "correct": false },
+      { "text": "Internet Connection Media Path", "correct": false },
+      { "text": "Interface Control Mail Protocol", "correct": false }
+    ],
+    "explanation": "ICMP heißt Internet Control Message Protocol."
+  },
+  {
+    "id": "lf-03-abkz-021",
+    "question": "Wofür steht HTTP?",
+    "answers": [
+      { "text": "Hypertext Transfer Protocol", "correct": true },
+      { "text": "Host Transfer Terminal Port", "correct": false },
+      { "text": "Hyperlink Text Transport Path", "correct": false },
+      { "text": "Hardware Tunnel Transfer Protocol", "correct": false }
+    ],
+    "explanation": "HTTP heißt Hypertext Transfer Protocol."
+  },
+  {
+    "id": "lf-03-abkz-022",
+    "question": "Wofür steht HTTPS?",
+    "answers": [
+      { "text": "Hypertext Transfer Protocol Secure", "correct": true },
+      { "text": "Host Transfer Protocol Service", "correct": false },
+      { "text": "Hyperlink Text Port Secure", "correct": false },
+      { "text": "Hardware Tunnel Path System", "correct": false }
+    ],
+    "explanation": "HTTPS heißt Hypertext Transfer Protocol Secure."
+  },
+  {
+    "id": "lf-03-abkz-023",
+    "question": "Wofür steht FTP?",
+    "answers": [
+      { "text": "File Transfer Protocol", "correct": true },
+      { "text": "Fast Transport Port", "correct": false },
+      { "text": "Frame Transfer Path", "correct": false },
+      { "text": "File Tunnel Packet", "correct": false }
+    ],
+    "explanation": "FTP heißt File Transfer Protocol."
+  },
+  {
+    "id": "lf-03-abkz-024",
+    "question": "Wofür steht SSH?",
+    "answers": [
+      { "text": "Secure Shell", "correct": true },
+      { "text": "Server Service Host", "correct": false },
+      { "text": "Secure System Header", "correct": false },
+      { "text": "Shared Shell Handler", "correct": false }
+    ],
+    "explanation": "SSH heißt Secure Shell."
+  },
+  {
+    "id": "lf-03-abkz-025",
+    "question": "Wofür steht SMTP?",
+    "answers": [
+      { "text": "Simple Mail Transfer Protocol", "correct": true },
+      { "text": "Secure Mail Transport Port", "correct": false },
+      { "text": "Server Message Tunnel Protocol", "correct": false },
+      { "text": "Simple Media Transfer Packet", "correct": false }
+    ],
+    "explanation": "SMTP heißt Simple Mail Transfer Protocol."
+  },
+  {
+    "id": "lf-03-abkz-026",
+    "question": "Wofür steht POP3?",
+    "answers": [
+      { "text": "Post Office Protocol Version 3", "correct": true },
+      { "text": "Port Output Protocol Version 3", "correct": false },
+      { "text": "Packet Office Port Version 3", "correct": false },
+      { "text": "Public Online Protocol Version 3", "correct": false }
+    ],
+    "explanation": "POP3 heißt Post Office Protocol Version 3."
+  },
+  {
+    "id": "lf-03-abkz-027",
+    "question": "Wofür steht IMAP?",
+    "answers": [
+      { "text": "Internet Message Access Protocol", "correct": true },
+      { "text": "Internal Mail Address Port", "correct": false },
+      { "text": "Internet Media Admin Protocol", "correct": false },
+      { "text": "Interface Message Access Path", "correct": false }
+    ],
+    "explanation": "IMAP heißt Internet Message Access Protocol."
+  },
+  {
+    "id": "lf-03-abkz-028",
+    "question": "Wofür steht NTP?",
+    "answers": [
+      { "text": "Network Time Protocol", "correct": true },
+      { "text": "Network Transfer Port", "correct": false },
+      { "text": "Name Transport Protocol", "correct": false },
+      { "text": "Node Time Packet", "correct": false }
+    ],
+    "explanation": "NTP heißt Network Time Protocol."
+  },
+  {
+    "id": "lf-03-abkz-029",
+    "question": "Wofür steht SNMP?",
+    "answers": [
+      { "text": "Simple Network Management Protocol", "correct": true },
+      { "text": "Secure Network Mail Port", "correct": false },
+      { "text": "Server Name Management Packet", "correct": false },
+      { "text": "Simple Node Message Path", "correct": false }
+    ],
+    "explanation": "SNMP heißt Simple Network Management Protocol."
+  },
+  {
+    "id": "lf-03-abkz-030",
+    "question": "Wofür steht OSI?",
+    "answers": [
+      { "text": "Open Systems Interconnection", "correct": true },
+      { "text": "Online Service Interface", "correct": false },
+      { "text": "Open Server Internet", "correct": false },
+      { "text": "Operating System Integration", "correct": false }
+    ],
+    "explanation": "OSI heißt Open Systems Interconnection."
+  },
+  {
+    "id": "lf-03-abkz-031",
+    "question": "Wofür steht IEEE?",
+    "answers": [
+      { "text": "Institute of Electrical and Electronics Engineers", "correct": true },
+      { "text": "International Ethernet Engineering Entity", "correct": false },
+      { "text": "Internet Electronics Exchange Europe", "correct": false },
+      { "text": "Institute for Enterprise Ethernet Events", "correct": false }
+    ],
+    "explanation": "IEEE heißt Institute of Electrical and Electronics Engineers."
+  },
+  {
+    "id": "lf-03-abkz-032",
+    "question": "Wofür steht ISO?",
+    "answers": [
+      { "text": "International Organization for Standardization", "correct": true },
+      { "text": "Internet Service Operation", "correct": false },
+      { "text": "Internal System Output", "correct": false },
+      { "text": "Integrated Server Option", "correct": false }
+    ],
+    "explanation": "ISO heißt International Organization for Standardization."
+  },
+  {
+    "id": "lf-03-abkz-033",
+    "question": "Wofür steht IEC?",
+    "answers": [
+      { "text": "International Electrotechnical Commission", "correct": true },
+      { "text": "Internet Ethernet Control", "correct": false },
+      { "text": "Internal Electric Client", "correct": false },
+      { "text": "Integrated Equipment Channel", "correct": false }
+    ],
+    "explanation": "IEC heißt International Electrotechnical Commission."
+  },
+  {
+    "id": "lf-03-abkz-034",
+    "question": "Wofür steht ITU?",
+    "answers": [
+      { "text": "International Telecommunication Union", "correct": true },
+      { "text": "Internet Transport Unit", "correct": false },
+      { "text": "Internal Terminal User", "correct": false },
+      { "text": "Integrated Telephony Utility", "correct": false }
+    ],
+    "explanation": "ITU heißt International Telecommunication Union."
+  },
+  {
+    "id": "lf-03-abkz-035",
+    "question": "Wofür steht ANSI?",
+    "answers": [
+      { "text": "American National Standards Institute", "correct": true },
+      { "text": "Advanced Network Service Interface", "correct": false },
+      { "text": "Automatic Name Server Index", "correct": false },
+      { "text": "American Network Security Internet", "correct": false }
+    ],
+    "explanation": "ANSI heißt American National Standards Institute."
+  },
+  {
+    "id": "lf-03-abkz-036",
+    "question": "Wofür steht NIST?",
+    "answers": [
+      { "text": "National Institute of Standards and Technology", "correct": true },
+      { "text": "Network Internet Service Tool", "correct": false },
+      { "text": "National IP Security Transfer", "correct": false },
+      { "text": "New Interface Standard Type", "correct": false }
+    ],
+    "explanation": "NIST heißt National Institute of Standards and Technology."
+  },
+  {
+    "id": "lf-03-abkz-037",
+    "question": "Wofür steht RAID?",
+    "answers": [
+      { "text": "Redundant Array of Independent Disks", "correct": true },
+      { "text": "Remote Access Internet Drive", "correct": false },
+      { "text": "Reliable Admin Interface Disk", "correct": false },
+      { "text": "Redundant Address IP Device", "correct": false }
+    ],
+    "explanation": "RAID heißt Redundant Array of Independent Disks."
+  },
+  {
+    "id": "lf-03-abkz-038",
+    "question": "Wofür steht NAS?",
+    "answers": [
+      { "text": "Network Attached Storage", "correct": true },
+      { "text": "Network Access Switch", "correct": false },
+      { "text": "Name Address Server", "correct": false },
+      { "text": "Node Admin Storage", "correct": false }
+    ],
+    "explanation": "NAS heißt Network Attached Storage."
+  },
+  {
+    "id": "lf-03-abkz-039",
+    "question": "Wofür steht USV?",
+    "answers": [
+      { "text": "Unterbrechungsfreie Stromversorgung", "correct": true },
+      { "text": "Universelle Serververwaltung", "correct": false },
+      { "text": "Unternehmensweite Systemverbindung", "correct": false },
+      { "text": "Unverschlüsselte Serviceverbindung", "correct": false }
+    ],
+    "explanation": "USV heißt Unterbrechungsfreie Stromversorgung."
+  },
+  {
+    "id": "lf-03-abkz-040",
+    "question": "Wofür steht UPS?",
+    "answers": [
+      { "text": "Uninterruptible Power Supply", "correct": true },
+      { "text": "Universal Port Service", "correct": false },
+      { "text": "User Packet Switch", "correct": false },
+      { "text": "Unified Power Signal", "correct": false }
+    ],
+    "explanation": "UPS heißt Uninterruptible Power Supply."
+  },
+  {
+    "id": "lf-03-abkz-041",
+    "question": "Wofür steht PoE?",
+    "answers": [
+      { "text": "Power over Ethernet", "correct": true },
+      { "text": "Port over Endpoint", "correct": false },
+      { "text": "Packet on Ethernet", "correct": false },
+      { "text": "Power of Exchange", "correct": false }
+    ],
+    "explanation": "PoE heißt Power over Ethernet."
+  },
+  {
+    "id": "lf-03-abkz-042",
+    "question": "Wofür steht SSID?",
+    "answers": [
+      { "text": "Service Set Identifier", "correct": true },
+      { "text": "Secure System Interface Data", "correct": false },
+      { "text": "Server Service IP Domain", "correct": false },
+      { "text": "Simple Signal Internet Device", "correct": false }
+    ],
+    "explanation": "SSID heißt Service Set Identifier."
+  },
+  {
+    "id": "lf-03-abkz-043",
+    "question": "Wofür steht PSK?",
+    "answers": [
+      { "text": "Pre-Shared Key", "correct": true },
+      { "text": "Private Server Key", "correct": false },
+      { "text": "Port Security Kernel", "correct": false },
+      { "text": "Public Service Key", "correct": false }
+    ],
+    "explanation": "PSK heißt Pre-Shared Key."
+  },
+  {
+    "id": "lf-03-abkz-044",
+    "question": "Wofür steht WPA?",
+    "answers": [
+      { "text": "Wi-Fi Protected Access", "correct": true },
+      { "text": "Wireless Port Address", "correct": false },
+      { "text": "Wide Packet Access", "correct": false },
+      { "text": "Web Protected Adapter", "correct": false }
+    ],
+    "explanation": "WPA heißt Wi-Fi Protected Access."
+  },
+  {
+    "id": "lf-03-abkz-045",
+    "question": "Wofür steht CIDR?",
+    "answers": [
+      { "text": "Classless Inter-Domain Routing", "correct": true },
+      { "text": "Client Internet Data Route", "correct": false },
+      { "text": "Classful Internal Device Range", "correct": false },
+      { "text": "Central IP Domain Register", "correct": false }
+    ],
+    "explanation": "CIDR heißt Classless Inter-Domain Routing."
+  },
+  {
+    "id": "lf-03-abkz-046",
+    "question": "Wofür steht BYOD?",
+    "answers": [
+      { "text": "Bring Your Own Device", "correct": true },
+      { "text": "Build Your Own Domain", "correct": false },
+      { "text": "Backup Your Online Data", "correct": false },
+      { "text": "Bind Your Office Device", "correct": false }
+    ],
+    "explanation": "BYOD heißt Bring Your Own Device."
+  },
+  {
+    "id": "lf-03-abkz-047",
+    "question": "Wofür steht SaaS?",
+    "answers": [
+      { "text": "Software as a Service", "correct": true },
+      { "text": "Storage as a Server", "correct": false },
+      { "text": "Security as a Switch", "correct": false },
+      { "text": "System as a Standard", "correct": false }
+    ],
+    "explanation": "SaaS heißt Software as a Service."
+  },
+  {
+    "id": "lf-03-abkz-048",
+    "question": "Wofür steht PaaS?",
+    "answers": [
+      { "text": "Platform as a Service", "correct": true },
+      { "text": "Protocol as a Switch", "correct": false },
+      { "text": "Port as a Server", "correct": false },
+      { "text": "Packet as a System", "correct": false }
+    ],
+    "explanation": "PaaS heißt Platform as a Service."
+  },
+  {
+    "id": "lf-03-abkz-049",
+    "question": "Wofür steht IaaS?",
+    "answers": [
+      { "text": "Infrastructure as a Service", "correct": true },
+      { "text": "Internet as a Switch", "correct": false },
+      { "text": "Interface as a Server", "correct": false },
+      { "text": "IP as a Standard", "correct": false }
+    ],
+    "explanation": "IaaS heißt Infrastructure as a Service."
+  },
+  {
+    "id": "lf-03-abkz-050",
+    "question": "Wofür steht XaaS?",
+    "answers": [
+      { "text": "Anything as a Service", "correct": true },
+      { "text": "Exchange as a Switch", "correct": false },
+      { "text": "External as a Server", "correct": false },
+      { "text": "XML as a Standard", "correct": false }
+    ],
+    "explanation": "XaaS heißt Anything as a Service."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-04-sach-lizn-001",
+    "question": "Was schützt das Urheberrecht?",
+    "answers": [
+      { "text": "Geistige Werke wie Texte, Bilder, Musik oder Software", "correct": true },
+      { "text": "Geschäftliche Kennzeichen wie Namen und Logos", "correct": false },
+      { "text": "Nutzungsbedingungen für Softwareprodukte", "correct": false },
+      { "text": "Erlaubnisse zur Nutzung fremder Werke", "correct": false }
+    ],
+    "explanation": "Das Urheberrecht schützt geistige Werke und die Rechte der Urheber."
+  },
+  {
+    "id": "lf-04-sach-lizn-002",
+    "question": "Welche Aussage zum Urheberrecht in Deutschland ist richtig?",
+    "answers": [
+      { "text": "Der Urheber kann nicht vollständig auf sein Urheberrecht verzichten", "correct": true },
+      { "text": "Das Urheberrecht entsteht erst durch Registrierung", "correct": false },
+      { "text": "Das Urheberrecht wird vollständig per Lizenz übertragen", "correct": false },
+      { "text": "Das Urheberrecht schützt vor allem Markennamen", "correct": false }
+    ],
+    "explanation": "Das Urheberrecht ist eng mit der Person des Urhebers verbunden."
+  },
+  {
+    "id": "lf-04-sach-lizn-003",
+    "question": "Was beschreibt Copyright eher im Vergleich zum deutschen Urheberrecht?",
+    "answers": [
+      { "text": "Wirtschaftliche Rechte zur Vervielfältigung und Nutzung", "correct": true },
+      { "text": "Persönlichkeitsrechte des Urhebers am Werk", "correct": false },
+      { "text": "Schutz geschäftlicher Kennzeichen", "correct": false },
+      { "text": "Lizenzpflicht für technische Schutzmaßnahmen", "correct": false }
+    ],
+    "explanation": "Copyright betont vor allem wirtschaftliche Nutzungs- und Vervielfältigungsrechte."
+  },
+  {
+    "id": "lf-04-sach-lizn-004",
+    "question": "Was ist durch das Urheberrecht grundsätzlich nicht geschützt?",
+    "answers": [
+      { "text": "Eine reine Idee ohne konkrete Ausdrucksform", "correct": true },
+      { "text": "Ein konkret formulierter Romantext", "correct": false },
+      { "text": "Ein komponiertes Musikstück", "correct": false },
+      { "text": "Ein geschriebener Software-Quellcode", "correct": false }
+    ],
+    "explanation": "Das Urheberrecht schützt konkrete Werke, nicht bloße Ideen ohne konkrete Gestaltung."
+  },
+  {
+    "id": "lf-04-sach-lizn-005",
+    "question": "Was schützt das Markenrecht?",
+    "answers": [
+      { "text": "Geschäftliche Kennzeichen wie Namen, Logos oder Zeichen", "correct": true },
+      { "text": "Kreative Werke wie Texte und Musik", "correct": false },
+      { "text": "Nutzungsrechte an Softwareprodukten", "correct": false },
+      { "text": "Quellcode unter Open-Source-Lizenzen", "correct": false }
+    ],
+    "explanation": "Das Markenrecht schützt Zeichen, die Waren oder Dienstleistungen unterscheidbar machen."
+  },
+  {
+    "id": "lf-04-sach-lizn-006",
+    "question": "Welches Beispiel kann durch Markenrecht geschützt sein?",
+    "answers": [
+      { "text": "Ein Produktname oder Firmenlogo", "correct": true },
+      { "text": "Ein Romantext eines Autors", "correct": false },
+      { "text": "Ein Software-Quellcode", "correct": false },
+      { "text": "Eine Lizenzvereinbarung für Endnutzer", "correct": false }
+    ],
+    "explanation": "Markenrecht kann Namen, Logos, Zeichen, Klänge oder andere geschäftliche Kennzeichen schützen."
+  },
+  {
+    "id": "lf-04-sach-lizn-007",
+    "question": "Was beschreibt ein Nutzungsrecht?",
+    "answers": [
+      { "text": "Erlaubnis, ein fremdes Werk bestimmter Weise zu nutzen", "correct": true },
+      { "text": "Übertragung des Urheberrechts selbst", "correct": false },
+      { "text": "Schutz eines Logos im Geschäftsverkehr", "correct": false },
+      { "text": "Gemeinfreigabe eines Werks für alle Zwecke", "correct": false }
+    ],
+    "explanation": "Ein Nutzungsrecht erlaubt eine bestimmte Nutzung, ohne das Urheberrecht selbst zu übertragen."
+  },
+  {
+    "id": "lf-04-sach-lizn-008",
+    "question": "Was ist der Unterschied zwischen einfachem und ausschließlichem Nutzungsrecht?",
+    "answers": [
+      { "text": "Ausschließliches Recht kann andere Nutzer ausschließen", "correct": true },
+      { "text": "Einfaches Recht schließt alle anderen Nutzer aus", "correct": false },
+      { "text": "Einfaches Recht überträgt das Urheberrecht selbst", "correct": false },
+      { "text": "Ausschließliches Recht macht das Werk gemeinfrei", "correct": false }
+    ],
+    "explanation": "Ein ausschließliches Nutzungsrecht kann anderen die Nutzung im vereinbarten Umfang verwehren."
+  },
+  {
+    "id": "lf-04-sach-lizn-009",
+    "question": "Was regelt eine Lizenz?",
+    "answers": [
+      { "text": "Bedingungen zur Nutzung eines Werks oder einer Software", "correct": true },
+      { "text": "Entstehung des Urheberrechts durch Registrierung", "correct": false },
+      { "text": "Schutz von Marken im geschäftlichen Verkehr", "correct": false },
+      { "text": "Persönliche Rechte des Urhebers am Werk", "correct": false }
+    ],
+    "explanation": "Eine Lizenz legt Nutzungsrechte und Nutzungsbedingungen fest."
+  },
+  {
+    "id": "lf-04-sach-lizn-010",
+    "question": "Was ist eine EULA?",
+    "answers": [
+      { "text": "Eine Endnutzer-Lizenzvereinbarung für Software", "correct": true },
+      { "text": "Eine Open-Source-Lizenz mit Share-Alike-Pflicht", "correct": false },
+      { "text": "Eine Creative-Commons-Lizenz für Medienwerke", "correct": false },
+      { "text": "Eine Markenregistrierung für Softwareprodukte", "correct": false }
+    ],
+    "explanation": "Eine EULA beschreibt Nutzungsbedingungen und Einschränkungen für Endnutzer."
+  },
+  {
+    "id": "lf-04-sach-lizn-011",
+    "question": "Welche Aussage zu Creative-Commons-Lizenzen ist richtig?",
+    "answers": [
+      { "text": "Sie geben Bedingungen für die Nutzung kreativer Werke vor", "correct": true },
+      { "text": "Sie regeln Nutzungsrechte proprietärer Software", "correct": false },
+      { "text": "Sie schützen Markennamen und Geschäftszeichen", "correct": false },
+      { "text": "Sie übertragen das Urheberrecht vollständig", "correct": false }
+    ],
+    "explanation": "Creative-Commons-Lizenzen machen Nutzungsbedingungen für Werke leichter verständlich."
+  },
+  {
+    "id": "lf-04-sach-lizn-012",
+    "question": "Was bedeutet BY bei Creative Commons?",
+    "answers": [
+      { "text": "Der Urheber muss genannt werden", "correct": true },
+      { "text": "Bearbeitungen dürfen weitergegeben werden", "correct": false },
+      { "text": "Weitergabe erfolgt unter gleicher Lizenz", "correct": false },
+      { "text": "Kommerzielle Nutzung wird eingeschränkt", "correct": false }
+    ],
+    "explanation": "BY bedeutet Namensnennung des Urhebers."
+  },
+  {
+    "id": "lf-04-sach-lizn-013",
+    "question": "Was bedeutet SA bei Creative Commons?",
+    "answers": [
+      { "text": "Weitergabe unter gleichen Bedingungen", "correct": true },
+      { "text": "Nutzung mit Namensnennung des Urhebers", "correct": false },
+      { "text": "Weitergabe bearbeiteter Versionen wird eingeschränkt", "correct": false },
+      { "text": "Kommerzielle Nutzung wird eingeschränkt", "correct": false }
+    ],
+    "explanation": "SA steht für Share Alike und verlangt Weitergabe unter gleichen Bedingungen."
+  },
+  {
+    "id": "lf-04-sach-lizn-014",
+    "question": "Was bedeutet ND bei Creative Commons?",
+    "answers": [
+      { "text": "Keine Weitergabe bearbeiteter Versionen", "correct": true },
+      { "text": "Weitergabe unter gleichen Bedingungen", "correct": false },
+      { "text": "Nutzung mit Namensnennung des Urhebers", "correct": false },
+      { "text": "Einschränkung kommerzieller Nutzung", "correct": false }
+    ],
+    "explanation": "ND steht für No Derivatives und verbietet die Weitergabe bearbeiteter Versionen."
+  },
+  {
+    "id": "lf-04-sach-lizn-015",
+    "question": "Was bedeutet NC bei Creative Commons?",
+    "answers": [
+      { "text": "Keine kommerzielle Nutzung", "correct": true },
+      { "text": "Namensnennung des Urhebers erforderlich", "correct": false },
+      { "text": "Weitergabe unter gleicher Lizenz", "correct": false },
+      { "text": "Bearbeitete Versionen werden eingeschränkt", "correct": false }
+    ],
+    "explanation": "NC steht für Non-Commercial und erlaubt nur nicht kommerzielle Nutzung."
+  },
+  {
+    "id": "lf-04-sach-lizn-016",
+    "question": "Was beschreibt Open-Source-Software?",
+    "answers": [
+      { "text": "Quellcode ist unter Lizenzbedingungen offen zugänglich", "correct": true },
+      { "text": "Software ist kostenlos, aber der Quellcode bleibt geschlossen", "correct": false },
+      { "text": "Software wird testweise oder eingeschränkt bereitgestellt", "correct": false },
+      { "text": "Software wird nach Vorgaben des Rechteinhabers kontrolliert", "correct": false }
+    ],
+    "explanation": "Open Source bedeutet zugänglicher Quellcode, aber nicht automatisch rechtefreie Nutzung."
+  },
+  {
+    "id": "lf-04-sach-lizn-017",
+    "question": "Welche Aussage zu Freeware ist richtig?",
+    "answers": [
+      { "text": "Freeware darf kostenlos genutzt werden", "correct": true },
+      { "text": "Freeware stellt immer den Quellcode offen bereit", "correct": false },
+      { "text": "Freeware erlaubt stets Bearbeitung und Weitergabe", "correct": false },
+      { "text": "Freeware ist typischerweise nur zeitlich getestet", "correct": false }
+    ],
+    "explanation": "Freeware ist kostenlos nutzbar, aber kann trotzdem urheberrechtlich geschützt und lizenziert sein."
+  },
+  {
+    "id": "lf-04-sach-lizn-018",
+    "question": "Welche Aussage zu Shareware ist richtig?",
+    "answers": [
+      { "text": "Shareware darf meist testweise oder eingeschränkt genutzt werden", "correct": true },
+      { "text": "Shareware ist kostenlos ohne Einschränkung nutzbar", "correct": false },
+      { "text": "Shareware stellt typischerweise den Quellcode offen", "correct": false },
+      { "text": "Shareware überträgt das Urheberrecht an Nutzer", "correct": false }
+    ],
+    "explanation": "Shareware erlaubt häufig eine Probe- oder eingeschränkte Nutzung vor dem Kauf."
+  },
+  {
+    "id": "lf-04-sach-lizn-019",
+    "question": "Welche Aussage zu OEM-Software ist richtig?",
+    "answers": [
+      { "text": "Sie ist häufig an ein Gerät oder Hardwarepaket gebunden", "correct": true },
+      { "text": "Sie ist typischerweise an eine benannte Person gebunden", "correct": false },
+      { "text": "Sie ist grundsätzlich eine offene Quellcode-Lizenz", "correct": false },
+      { "text": "Sie erlaubt uneingeschränkte parallele Nutzung", "correct": false }
+    ],
+    "explanation": "OEM-Software wird oft zusammen mit Hardware ausgeliefert und ist häufig daran gebunden."
+  },
+  {
+    "id": "lf-04-sach-lizn-020",
+    "question": "Welche Aussage zu einer Named User License ist richtig?",
+    "answers": [
+      { "text": "Die Lizenz ist an eine namentlich definierte Person gebunden", "correct": true },
+      { "text": "Die Lizenz ist primär an ein bestimmtes Gerät gebunden", "correct": false },
+      { "text": "Die Lizenz erlaubt beliebig viele gleichzeitige Nutzer", "correct": false },
+      { "text": "Die Lizenz gilt als offene Share-Alike-Lizenz", "correct": false }
+    ],
+    "explanation": "Eine Named User License erlaubt die Nutzung durch eine konkret benannte Person."
+  }
+]

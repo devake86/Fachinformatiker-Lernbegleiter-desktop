@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-sach-anal-001",
+    "question": "Was ist das Hauptziel der Problemanalyse im IT-Service?",
+    "answers": [
+      { "text": "Ursachen erkennen und passende Lösungen ableiten", "correct": true },
+      { "text": "Gestörte Services möglichst schnell wiederherstellen", "correct": false },
+      { "text": "Übergangslösungen für den Betrieb dokumentieren", "correct": false },
+      { "text": "Bekannte Fehler in einer Wissensdatenbank pflegen", "correct": false }
+    ],
+    "explanation": "Problemanalyse dient dazu, Ursachen strukturiert zu finden und geeignete Maßnahmen abzuleiten."
+  },
+  {
+    "id": "lf-06-sach-anal-002",
+    "question": "Was steht beim Incident-Management im Vordergrund?",
+    "answers": [
+      { "text": "Den gestörten Service möglichst schnell wiederherstellen", "correct": true },
+      { "text": "Ursachen wiederkehrender Störungen nachhaltig finden", "correct": false },
+      { "text": "Bekannte Fehler dauerhaft dokumentieren", "correct": false },
+      { "text": "Verbesserungen über DMAIC strukturieren", "correct": false }
+    ],
+    "explanation": "Incident-Management konzentriert sich auf schnelle Wiederherstellung des normalen Servicebetriebs."
+  },
+  {
+    "id": "lf-06-sach-anal-003",
+    "question": "Was unterscheidet Problem-Management vom Incident-Management?",
+    "answers": [
+      { "text": "Problem-Management sucht die Ursache hinter Störungen", "correct": true },
+      { "text": "Problem-Management stellt primär Services schnell wieder her", "correct": false },
+      { "text": "Problem-Management bearbeitet nur Standardanfragen", "correct": false },
+      { "text": "Problem-Management nutzt nur Übergangslösungen", "correct": false }
+    ],
+    "explanation": "Incident-Management behebt akute Störungen; Problem-Management sucht nachhaltige Ursachen."
+  },
+  {
+    "id": "lf-06-sach-anal-004",
+    "question": "Wann ist ein Workaround sinnvoll?",
+    "answers": [
+      { "text": "Wenn eine Behelfslösung den Betrieb vorübergehend ermöglicht", "correct": true },
+      { "text": "Wenn die Grundursache bereits dauerhaft behoben ist", "correct": false },
+      { "text": "Wenn ein Known Error vollständig geschlossen wurde", "correct": false },
+      { "text": "Wenn ein Incident zur Ursachenanalyse wird", "correct": false }
+    ],
+    "explanation": "Ein Workaround ist eine Behelfslösung, bis die eigentliche Ursache dauerhaft behoben ist."
+  },
+  {
+    "id": "lf-06-sach-anal-005",
+    "question": "Warum sollten Workarounds dokumentiert werden?",
+    "answers": [
+      { "text": "Damit Übergangslösungen nachvollziehbar bleiben", "correct": true },
+      { "text": "Damit Known Errors ohne Ursache erfasst werden", "correct": false },
+      { "text": "Damit Incidents automatisch priorisiert werden", "correct": false },
+      { "text": "Damit FAQ-Einträge dauerhaft ersetzt werden", "correct": false }
+    ],
+    "explanation": "Dokumentierte Workarounds helfen bei Nachverfolgung, Wiederverwendung und späterer Dauerlösung."
+  },
+  {
+    "id": "lf-06-sach-anal-006",
+    "question": "Was ist ein Known Error?",
+    "answers": [
+      { "text": "Ein bekannter Fehler mit dokumentierter Ursache oder Lösung", "correct": true },
+      { "text": "Eine vorläufige Behelfslösung für den Betrieb", "correct": false },
+      { "text": "Eine häufige Frage mit Standardantwort", "correct": false },
+      { "text": "Ein neuer Incident mit offener Auswirkung", "correct": false }
+    ],
+    "explanation": "Ein Known Error ist ein bekannter Fehler, der im Problemmanagement dokumentiert wird."
+  },
+  {
+    "id": "lf-06-sach-anal-007",
+    "question": "Wozu dient eine FAQ im Servicedesk?",
+    "answers": [
+      { "text": "Häufige Fragen und Standardlösungen bereitzustellen", "correct": true },
+      { "text": "Ausführliche Lösungsartikel zentral zu sammeln", "correct": false },
+      { "text": "Typische Servicefälle als Ticketvorlage zu zeigen", "correct": false },
+      { "text": "Bekannte Fehler mit Ursache zu dokumentieren", "correct": false }
+    ],
+    "explanation": "FAQs unterstützen schnelle und einheitliche Antworten auf häufige Anliegen."
+  },
+  {
+    "id": "lf-06-sach-anal-008",
+    "question": "Welchen Nutzen hat eine Knowledge Base im Support?",
+    "answers": [
+      { "text": "Bekannte Lösungen und Erfahrungen werden wiederverwendbar", "correct": true },
+      { "text": "Häufige Fragen werden nur als Kurzliste beantwortet", "correct": false },
+      { "text": "Servicefälle werden nur als Mustertickets gezeigt", "correct": false },
+      { "text": "Incidents werden automatisch zu Service Requests", "correct": false }
+    ],
+    "explanation": "Eine Knowledge Base sammelt Wissen, damit ähnliche Fälle schneller gelöst werden können."
+  },
+  {
+    "id": "lf-06-sach-anal-009",
+    "question": "Warum sollten gelöste Servicefälle in einer Wissensdatenbank gepflegt werden?",
+    "answers": [
+      { "text": "Damit ähnliche Fälle künftig schneller bearbeitet werden können", "correct": true },
+      { "text": "Damit Workarounds zu dauerhaften Lösungen werden", "correct": false },
+      { "text": "Damit Incident-Management Problem-Management ersetzt", "correct": false },
+      { "text": "Damit FAQ-Einträge einzelne Tickets ersetzen", "correct": false }
+    ],
+    "explanation": "Dokumentierte Lösungen verbessern Wiederverwendung, Qualität und Bearbeitungsgeschwindigkeit."
+  },
+  {
+    "id": "lf-06-sach-anal-010",
+    "question": "Was bedeutet das Pareto-Prinzip bei Problemlösungen?",
+    "answers": [
+      { "text": "Wenige Ursachen können für viele Fälle wichtig sein", "correct": true },
+      { "text": "Ursachen werden in fünf DMAIC-Phasen analysiert", "correct": false },
+      { "text": "Ursachen werden durch Warum-Fragen ermittelt", "correct": false },
+      { "text": "Ursachen werden per Ist/Ist-nicht-Vergleich eingegrenzt", "correct": false }
+    ],
+    "explanation": "Pareto hilft, sich auf die besonders wirksamen Ursachen oder Lösungen zu konzentrieren."
+  },
+  {
+    "id": "lf-06-sach-anal-011",
+    "question": "Welche Reihenfolge passt zum DMAIC-Zyklus?",
+    "answers": [
+      { "text": "Define, Measure, Analyze, Improve, Control", "correct": true },
+      { "text": "Measure, Define, Analyze, Improve, Control", "correct": false },
+      { "text": "Define, Analyze, Measure, Control, Improve", "correct": false },
+      { "text": "Analyze, Define, Measure, Improve, Control", "correct": false }
+    ],
+    "explanation": "DMAIC strukturiert Problemlösung und Verbesserung in fünf Phasen."
+  },
+  {
+    "id": "lf-06-sach-anal-012",
+    "question": "Welche Leitfrage passt zur Define-Phase?",
+    "answers": [
+      { "text": "Was ist das Problem?", "correct": true },
+      { "text": "Wie groß ist das Problem?", "correct": false },
+      { "text": "Was sind die Hauptursachen?", "correct": false },
+      { "text": "Wie bleibt die Verbesserung stabil?", "correct": false }
+    ],
+    "explanation": "In der Define-Phase wird das Problem mit Umfang und Ziel klar beschrieben."
+  },
+  {
+    "id": "lf-06-sach-anal-013",
+    "question": "Welche Leitfrage passt zur Measure-Phase?",
+    "answers": [
+      { "text": "Wie groß ist das Problem?", "correct": true },
+      { "text": "Was ist das Problem?", "correct": false },
+      { "text": "Was sind die Hauptursachen?", "correct": false },
+      { "text": "Welche Lösung wird getestet?", "correct": false }
+    ],
+    "explanation": "In der Measure-Phase wird der Ist-Zustand messbar erfasst."
+  },
+  {
+    "id": "lf-06-sach-anal-014",
+    "question": "Welche Leitfrage passt zur Analyze-Phase?",
+    "answers": [
+      { "text": "Was sind die Hauptursachen?", "correct": true },
+      { "text": "Wie groß ist das Problem?", "correct": false },
+      { "text": "Welche Lösung wird umgesetzt?", "correct": false },
+      { "text": "Wie wird die Wirkung abgesichert?", "correct": false }
+    ],
+    "explanation": "In der Analyze-Phase werden Ursachen und Zusammenhänge untersucht."
+  },
+  {
+    "id": "lf-06-sach-anal-015",
+    "question": "Welche Leitfrage passt zur Improve-Phase?",
+    "answers": [
+      { "text": "Kann eine wirksame Lösung entwickelt werden?", "correct": true },
+      { "text": "Was ist der genaue Problemumfang?", "correct": false },
+      { "text": "Wie wird der Ist-Zustand gemessen?", "correct": false },
+      { "text": "Welche Ursache erklärt das Problem?", "correct": false }
+    ],
+    "explanation": "In der Improve-Phase werden Verbesserungen entwickelt, getestet oder umgesetzt."
+  },
+  {
+    "id": "lf-06-sach-anal-016",
+    "question": "Welche Leitfrage passt zur Control-Phase?",
+    "answers": [
+      { "text": "Kann die Verbesserung dauerhaft abgesichert werden?", "correct": true },
+      { "text": "Welche Daten beschreiben den Ist-Zustand?", "correct": false },
+      { "text": "Welche Hauptursache wird untersucht?", "correct": false },
+      { "text": "Welche Lösung wird erstmals entwickelt?", "correct": false }
+    ],
+    "explanation": "In der Control-Phase wird geprüft, ob die Verbesserung stabil bleibt."
+  },
+  {
+    "id": "lf-06-sach-anal-017",
+    "question": "Wann ist die 5-Why-Methode hilfreich?",
+    "answers": [
+      { "text": "Wenn durch Warum-Fragen die Grundursache gesucht wird", "correct": true },
+      { "text": "Wenn Ursachen nach Wirkung und Aufwand gewichtet werden", "correct": false },
+      { "text": "Wenn Ursachen als Fischgräte gesammelt werden", "correct": false },
+      { "text": "Wenn Probleme per Ist/Ist-nicht eingegrenzt werden", "correct": false }
+    ],
+    "explanation": "5-Why nähert sich durch wiederholtes Nachfragen der eigentlichen Ursache."
+  },
+  {
+    "id": "lf-06-sach-anal-018",
+    "question": "Wozu dient ein Ishikawa-Diagramm?",
+    "answers": [
+      { "text": "Mögliche Ursachen einer Wirkung strukturiert sammeln", "correct": true },
+      { "text": "Grundursachen durch wiederholtes Warum-Fragen suchen", "correct": false },
+      { "text": "Probleme durch Ist/Ist-nicht-Fragen eingrenzen", "correct": false },
+      { "text": "Ursachen nach Pareto-Wirkung priorisieren", "correct": false }
+    ],
+    "explanation": "Das Ishikawa-Diagramm ordnet mögliche Ursachen übersichtlich nach Kategorien."
+  },
+  {
+    "id": "lf-06-sach-anal-019",
+    "question": "Wozu dient die Kepner-Tregoe-Analyse?",
+    "answers": [
+      { "text": "Ein Problem durch Ist- und Ist-nicht-Fragen eingrenzen", "correct": true },
+      { "text": "Ursachen als Fischgräten-Diagramm sammeln", "correct": false },
+      { "text": "Grundursachen durch fünf Warum-Fragen finden", "correct": false },
+      { "text": "Wenige Hauptursachen nach Pareto priorisieren", "correct": false }
+    ],
+    "explanation": "Kepner-Tregoe grenzt unbekannte Ursachen durch gezielten Vergleich ein."
+  },
+  {
+    "id": "lf-06-sach-anal-020",
+    "question": "Warum ist ganzheitliche Betrachtung bei Serviceproblemen wichtig?",
+    "answers": [
+      { "text": "Auch verborgene Umfeldursachen können Störungen auslösen", "correct": true },
+      { "text": "Nur gemessene Symptome werden im DMAIC betrachtet", "correct": false },
+      { "text": "Nur dokumentierte Known Errors werden analysiert", "correct": false },
+      { "text": "Nur Workarounds bestimmen die Problemursache", "correct": false }
+    ],
+    "explanation": "Eine ganzheitliche Analyse berücksichtigt sichtbare Symptome und mögliche Ursachen im Umfeld."
+  }
+]

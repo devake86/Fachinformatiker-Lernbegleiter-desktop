@@ -1,0 +1,387 @@
+[
+  {
+    "id": "lf-04-abkz-001",
+    "question": "Wofür steht AAA im Sicherheitskontext?",
+    "answers": [
+      { "text": "Authentication, Authorization, Accounting", "correct": true },
+      { "text": "Access, Archive, Audit", "correct": false },
+      { "text": "Automatic Attack Analysis", "correct": false },
+      { "text": "Advanced Application Access", "correct": false }
+    ],
+    "explanation": "AAA steht für Authentication, Authorization und Accounting."
+  },
+  {
+    "id": "lf-04-abkz-002",
+    "question": "Wofür steht AES?",
+    "answers": [
+      { "text": "Advanced Encryption Standard", "correct": true },
+      { "text": "Automatic Encoding System", "correct": false },
+      { "text": "Application Entry Service", "correct": false },
+      { "text": "Advanced Endpoint Security", "correct": false }
+    ],
+    "explanation": "AES heißt Advanced Encryption Standard."
+  },
+  {
+    "id": "lf-04-abkz-003",
+    "question": "Wofür steht APT?",
+    "answers": [
+      { "text": "Advanced Persistent Threat", "correct": true },
+      { "text": "Automatic Password Transfer", "correct": false },
+      { "text": "Application Protection Tool", "correct": false },
+      { "text": "Advanced Public Token", "correct": false }
+    ],
+    "explanation": "APT heißt Advanced Persistent Threat."
+  },
+  {
+    "id": "lf-04-abkz-004",
+    "question": "Wofür steht APP im IT-Grundschutz?",
+    "answers": [
+      { "text": "Anwendungen", "correct": true },
+      { "text": "Arbeitsplatzprozesse", "correct": false },
+      { "text": "Authentifizierungsprotokolle", "correct": false },
+      { "text": "Angriffsprüfung", "correct": false }
+    ],
+    "explanation": "APP bezeichnet im IT-Grundschutz die Objektklasse Anwendungen."
+  },
+  {
+    "id": "lf-04-abkz-005",
+    "question": "Wofür steht AVV im Datenschutzkontext?",
+    "answers": [
+      { "text": "Auftragsverarbeitungsvertrag", "correct": true },
+      { "text": "Automatisierte Virenvermeidung", "correct": false },
+      { "text": "Anwendungs- und Versionsverwaltung", "correct": false },
+      { "text": "Allgemeine Verschlüsselungsvorgabe", "correct": false }
+    ],
+    "explanation": "AVV heißt Auftragsverarbeitungsvertrag."
+  },
+  {
+    "id": "lf-04-abkz-006",
+    "question": "Wofür steht BDSG?",
+    "answers": [
+      { "text": "Bundesdatenschutzgesetz", "correct": true },
+      { "text": "Bundesdatenservicegesetz", "correct": false },
+      { "text": "Betriebsdatensicherungsgesetz", "correct": false },
+      { "text": "Benutzerdatenschutzgruppe", "correct": false }
+    ],
+    "explanation": "BDSG heißt Bundesdatenschutzgesetz."
+  },
+  {
+    "id": "lf-04-abkz-007",
+    "question": "Wofür steht BfDI?",
+    "answers": [
+      { "text": "Bundesbeauftragter für den Datenschutz und die Informationsfreiheit", "correct": true },
+      { "text": "Bundesamt für digitale Infrastruktur", "correct": false },
+      { "text": "Beauftragter für Datenintegrität", "correct": false },
+      { "text": "Bundesstelle für Datensicherung im Internet", "correct": false }
+    ],
+    "explanation": "BfDI steht für Bundesbeauftragter für den Datenschutz und die Informationsfreiheit."
+  },
+  {
+    "id": "lf-04-abkz-008",
+    "question": "Wofür steht BSI?",
+    "answers": [
+      { "text": "Bundesamt für Sicherheit in der Informationstechnik", "correct": true },
+      { "text": "Bundesstelle für Softwareintegration", "correct": false },
+      { "text": "Betriebliches Sicherheitsinstitut", "correct": false },
+      { "text": "Benutzerschnittstelle Information", "correct": false }
+    ],
+    "explanation": "BSI heißt Bundesamt für Sicherheit in der Informationstechnik."
+  },
+  {
+    "id": "lf-04-abkz-009",
+    "question": "Wofür steht CC bei Lizenzen?",
+    "answers": [
+      { "text": "Creative Commons", "correct": true },
+      { "text": "Cloud Control", "correct": false },
+      { "text": "Client Certificate", "correct": false },
+      { "text": "Code Compliance", "correct": false }
+    ],
+    "explanation": "CC heißt Creative Commons."
+  },
+  {
+    "id": "lf-04-abkz-010",
+    "question": "Wofür steht CC0?",
+    "answers": [
+      { "text": "Creative-Commons-Freigabe ohne Copyright-Beschränkung", "correct": true },
+      { "text": "Cloud-Control-Version 0", "correct": false },
+      { "text": "Client Certificate ohne Schlüssel", "correct": false },
+      { "text": "Code Check ohne Prüfung", "correct": false }
+    ],
+    "explanation": "CC0 steht für eine möglichst freie Creative-Commons-Freigabe."
+  },
+  {
+    "id": "lf-04-abkz-011",
+    "question": "Wofür steht CEO in CEO-Fraud?",
+    "answers": [
+      { "text": "Chief Executive Officer", "correct": true },
+      { "text": "Certified Encryption Operator", "correct": false },
+      { "text": "Cloud Entry Owner", "correct": false },
+      { "text": "Central Error Output", "correct": false }
+    ],
+    "explanation": "CEO heißt Chief Executive Officer."
+  },
+  {
+    "id": "lf-04-abkz-012",
+    "question": "Wofür steht CISO?",
+    "answers": [
+      { "text": "Chief Information Security Officer", "correct": true },
+      { "text": "Central Internet Service Operator", "correct": false },
+      { "text": "Certified Internal Software Owner", "correct": false },
+      { "text": "Cloud Information Storage Object", "correct": false }
+    ],
+    "explanation": "CISO heißt Chief Information Security Officer."
+  },
+  {
+    "id": "lf-04-abkz-013",
+    "question": "Wofür steht CON im IT-Grundschutz?",
+    "answers": [
+      { "text": "Konzepte und Informationen", "correct": true },
+      { "text": "Container-Netzwerke", "correct": false },
+      { "text": "Cloud-Objekte", "correct": false },
+      { "text": "Client-Operationen", "correct": false }
+    ],
+    "explanation": "CON bezeichnet im IT-Grundschutz Konzepte und Informationen."
+  },
+  {
+    "id": "lf-04-abkz-014",
+    "question": "Wofür steht DDoS?",
+    "answers": [
+      { "text": "Distributed Denial of Service", "correct": true },
+      { "text": "Direct Data over System", "correct": false },
+      { "text": "Digital Defense of Software", "correct": false },
+      { "text": "Distributed Data Security", "correct": false }
+    ],
+    "explanation": "DDoS heißt Distributed Denial of Service."
+  },
+  {
+    "id": "lf-04-abkz-015",
+    "question": "Wofür steht DNS?",
+    "answers": [
+      { "text": "Domain Name System", "correct": true },
+      { "text": "Data Network Security", "correct": false },
+      { "text": "Digital Name Service", "correct": false },
+      { "text": "Distributed Network Storage", "correct": false }
+    ],
+    "explanation": "DNS heißt Domain Name System."
+  },
+  {
+    "id": "lf-04-abkz-016",
+    "question": "Wofür steht DoS?",
+    "answers": [
+      { "text": "Denial of Service", "correct": true },
+      { "text": "Data over Security", "correct": false },
+      { "text": "Digital Object Storage", "correct": false },
+      { "text": "Direct Operating System", "correct": false }
+    ],
+    "explanation": "DoS heißt Denial of Service."
+  },
+  {
+    "id": "lf-04-abkz-017",
+    "question": "Wofür steht DSGVO?",
+    "answers": [
+      { "text": "Datenschutz-Grundverordnung", "correct": true },
+      { "text": "Datensicherheits-Gesamtverordnung", "correct": false },
+      { "text": "Digitale Sicherheitsverordnung", "correct": false },
+      { "text": "Deutsche Server-Grundverordnung", "correct": false }
+    ],
+    "explanation": "DSGVO heißt Datenschutz-Grundverordnung."
+  },
+  {
+    "id": "lf-04-abkz-018",
+    "question": "Wofür steht EULA?",
+    "answers": [
+      { "text": "End User License Agreement", "correct": true },
+      { "text": "Extended Update License Access", "correct": false },
+      { "text": "Encrypted User Login Area", "correct": false },
+      { "text": "External Usage Logging API", "correct": false }
+    ],
+    "explanation": "EULA heißt End User License Agreement."
+  },
+  {
+    "id": "lf-04-abkz-019",
+    "question": "Wofür steht INF im IT-Grundschutz?",
+    "answers": [
+      { "text": "Infrastruktur", "correct": true },
+      { "text": "Informationsfluss", "correct": false },
+      { "text": "Interne Nachweisführung", "correct": false },
+      { "text": "Internet-Firewall", "correct": false }
+    ],
+    "explanation": "INF bezeichnet im IT-Grundschutz Infrastruktur."
+  },
+  {
+    "id": "lf-04-abkz-020",
+    "question": "Wofür steht ISB?",
+    "answers": [
+      { "text": "Informationssicherheitsbeauftragter", "correct": true },
+      { "text": "Interner Systembenutzer", "correct": false },
+      { "text": "Internet-Sicherheitsbereich", "correct": false },
+      { "text": "Informationsspeicherblock", "correct": false }
+    ],
+    "explanation": "ISB heißt Informationssicherheitsbeauftragter."
+  },
+  {
+    "id": "lf-04-abkz-021",
+    "question": "Wofür steht ISMS?",
+    "answers": [
+      { "text": "Informationssicherheitsmanagementsystem", "correct": true },
+      { "text": "Internet-Service-Monitoring-System", "correct": false },
+      { "text": "Interner Software-Migrationsstandard", "correct": false },
+      { "text": "Informationsspeicher-Management-Schnittstelle", "correct": false }
+    ],
+    "explanation": "ISMS heißt Informationssicherheitsmanagementsystem."
+  },
+  {
+    "id": "lf-04-abkz-022",
+    "question": "Wofür steht ISO?",
+    "answers": [
+      { "text": "International Organization for Standardization", "correct": true },
+      { "text": "Internal Security Operation", "correct": false },
+      { "text": "Internet Service Output", "correct": false },
+      { "text": "Integrated Software Object", "correct": false }
+    ],
+    "explanation": "ISO steht für International Organization for Standardization."
+  },
+  {
+    "id": "lf-04-abkz-023",
+    "question": "Wofür steht KMS im Lizenzkontext?",
+    "answers": [
+      { "text": "Key Management Service", "correct": true },
+      { "text": "Kernel Malware Scanner", "correct": false },
+      { "text": "Knowledge Monitoring System", "correct": false },
+      { "text": "Key Malware Signature", "correct": false }
+    ],
+    "explanation": "KMS heißt Key Management Service."
+  },
+  {
+    "id": "lf-04-abkz-024",
+    "question": "Wofür steht KRITIS?",
+    "answers": [
+      { "text": "Kritische Infrastrukturen", "correct": true },
+      { "text": "Kryptografische IT-Systeme", "correct": false },
+      { "text": "Kritische Internet-Schnittstellen", "correct": false },
+      { "text": "Kontrollierte Risiko-IT-Sicherheit", "correct": false }
+    ],
+    "explanation": "KRITIS steht für Kritische Infrastrukturen."
+  },
+  {
+    "id": "lf-04-abkz-025",
+    "question": "Wofür steht MFA?",
+    "answers": [
+      { "text": "Mehr-Faktor-Authentifizierung", "correct": true },
+      { "text": "Malware-Filter-Analyse", "correct": false },
+      { "text": "Mobile Firewall-Anwendung", "correct": false },
+      { "text": "Managed File Access", "correct": false }
+    ],
+    "explanation": "MFA heißt Mehr-Faktor-Authentifizierung."
+  },
+  {
+    "id": "lf-04-abkz-026",
+    "question": "Wofür steht NC bei Creative-Commons-Lizenzen?",
+    "answers": [
+      { "text": "Non-Commercial", "correct": true },
+      { "text": "Network Control", "correct": false },
+      { "text": "No Certificate", "correct": false },
+      { "text": "Named Client", "correct": false }
+    ],
+    "explanation": "NC heißt Non-Commercial."
+  },
+  {
+    "id": "lf-04-abkz-027",
+    "question": "Wofür steht ND bei Creative-Commons-Lizenzen?",
+    "answers": [
+      { "text": "No Derivatives", "correct": true },
+      { "text": "Network Defense", "correct": false },
+      { "text": "Named Device", "correct": false },
+      { "text": "No Data", "correct": false }
+    ],
+    "explanation": "ND heißt No Derivatives."
+  },
+  {
+    "id": "lf-04-abkz-028",
+    "question": "Wofür steht OEM?",
+    "answers": [
+      { "text": "Original Equipment Manufacturer", "correct": true },
+      { "text": "Open Encryption Method", "correct": false },
+      { "text": "Online Endpoint Monitor", "correct": false },
+      { "text": "Object Entry Management", "correct": false }
+    ],
+    "explanation": "OEM heißt Original Equipment Manufacturer."
+  },
+  {
+    "id": "lf-04-abkz-029",
+    "question": "Wofür steht OPS im IT-Grundschutz?",
+    "answers": [
+      { "text": "Betrieb", "correct": true },
+      { "text": "Objektschutz", "correct": false },
+      { "text": "Open-Source-Programme", "correct": false },
+      { "text": "Online-Passwort-Schutz", "correct": false }
+    ],
+    "explanation": "OPS bezeichnet im IT-Grundschutz den Bereich Betrieb."
+  },
+  {
+    "id": "lf-04-abkz-030",
+    "question": "Wofür steht PDCA?",
+    "answers": [
+      { "text": "Plan, Do, Check, Act", "correct": true },
+      { "text": "Protect, Detect, Control, Archive", "correct": false },
+      { "text": "Password, Device, Cloud, Access", "correct": false },
+      { "text": "Plan, Design, Code, Analyze", "correct": false }
+    ],
+    "explanation": "PDCA heißt Plan, Do, Check, Act."
+  },
+  {
+    "id": "lf-04-abkz-031",
+    "question": "Wofür steht SA bei Creative-Commons-Lizenzen?",
+    "answers": [
+      { "text": "Share Alike", "correct": true },
+      { "text": "Security Audit", "correct": false },
+      { "text": "System Access", "correct": false },
+      { "text": "Software Activation", "correct": false }
+    ],
+    "explanation": "SA heißt Share Alike."
+  },
+  {
+    "id": "lf-04-abkz-032",
+    "question": "Wofür steht SBA?",
+    "answers": [
+      { "text": "Schutzbedarfsanalyse", "correct": true },
+      { "text": "Sicherheitsbeauftragten-Auswertung", "correct": false },
+      { "text": "Systematische Benutzeranmeldung", "correct": false },
+      { "text": "Schlüsselbasierte Authentifizierung", "correct": false }
+    ],
+    "explanation": "SBA heißt Schutzbedarfsanalyse."
+  },
+  {
+    "id": "lf-04-abkz-033",
+    "question": "Wofür steht SYS im IT-Grundschutz?",
+    "answers": [
+      { "text": "IT-Systeme", "correct": true },
+      { "text": "Systemische Schwachstellen", "correct": false },
+      { "text": "Sicherheitszertifikate", "correct": false },
+      { "text": "Software-Schnittstellen", "correct": false }
+    ],
+    "explanation": "SYS bezeichnet im IT-Grundschutz IT-Systeme."
+  },
+  {
+    "id": "lf-04-abkz-034",
+    "question": "Wofür steht TOM?",
+    "answers": [
+      { "text": "Technisch-organisatorische Maßnahmen", "correct": true },
+      { "text": "Technische Online-Meldung", "correct": false },
+      { "text": "Trusted Object Management", "correct": false },
+      { "text": "Temporäre Office-Migration", "correct": false }
+    ],
+    "explanation": "TOM heißt technisch-organisatorische Maßnahmen."
+  },
+  {
+    "id": "lf-04-abkz-035",
+    "question": "Wofür steht VPN?",
+    "answers": [
+      { "text": "Virtual Private Network", "correct": true },
+      { "text": "Verified Password Name", "correct": false },
+      { "text": "Virus Protection Node", "correct": false },
+      { "text": "Virtual Process Number", "correct": false }
+    ],
+    "explanation": "VPN heißt Virtual Private Network."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-06-fach-vert-001",
+    "question": "Was beschreibt ein Servicevertrag?",
+    "answers": [
+      { "text": "Vertragliche Grundlage vereinbarter IT-Serviceleistungen", "correct": true },
+      { "text": "Messbare Vereinbarung zu Servicequalität und Zeiten", "correct": false },
+      { "text": "Interne Vereinbarung zwischen Serviceeinheiten", "correct": false },
+      { "text": "Unterstützender Vertrag mit externem Dienstleister", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Servicevertrag regelt Leistungen, Pflichten und Rahmenbedingungen eines IT-Services."
+  },
+  {
+    "id": "lf-06-fach-vert-002",
+    "question": "Was beschreibt ein Service Level Agreement?",
+    "answers": [
+      { "text": "Vereinbarung über Qualität, Zeiten und Umfang eines Services", "correct": true },
+      { "text": "Übergeordneter Vertrag für mehrere Einzelaufträge", "correct": false },
+      { "text": "Interne Vereinbarung zur Unterstützung externer Zusagen", "correct": false },
+      { "text": "Vertrag mit externem Dienstleister zur Serviceabsicherung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein SLA legt messbare Serviceleistungen wie Verfügbarkeit, Antwortzeiten oder Reaktionszeiten fest."
+  },
+  {
+    "id": "lf-06-fach-vert-003",
+    "question": "Was beschreibt ein Operational Level Agreement?",
+    "answers": [
+      { "text": "Interne Vereinbarung zwischen Serviceeinheiten", "correct": true },
+      { "text": "Vereinbarung zwischen Anbieter und Kunde", "correct": false },
+      { "text": "Vertrag mit externem Dienstleister", "correct": false },
+      { "text": "Vertrag zur Datenverarbeitung im Auftrag", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein OLA regelt interne Leistungen, damit externe Servicezusagen eingehalten werden können."
+  },
+  {
+    "id": "lf-06-fach-vert-004",
+    "question": "Was beschreibt ein Underpinning Contract?",
+    "answers": [
+      { "text": "Unterstützender Vertrag mit externem Dienstleister", "correct": true },
+      { "text": "Interne Vereinbarung zwischen Serviceeinheiten", "correct": false },
+      { "text": "Kundenvereinbarung über Servicequalität", "correct": false },
+      { "text": "Rahmenvertrag für spätere Einzelaufträge", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein UC sichert benötigte Leistungen externer Dienstleister für vereinbarte Services ab."
+  },
+  {
+    "id": "lf-06-fach-vert-005",
+    "question": "Was beschreibt ein Auftragsverarbeitungsvertrag?",
+    "answers": [
+      { "text": "Vertrag zur Verarbeitung personenbezogener Daten im Auftrag", "correct": true },
+      { "text": "Vertrag über messbare Servicelevel", "correct": false },
+      { "text": "Vertrag über zeitweise Softwarenutzung", "correct": false },
+      { "text": "Vertrag über regelmäßige Instandhaltung", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein AV-Vertrag regelt die weisungsgebundene Verarbeitung personenbezogener Daten."
+  },
+  {
+    "id": "lf-06-fach-vert-006",
+    "question": "Was beschreibt ein SaaS-Vertrag?",
+    "answers": [
+      { "text": "Vertrag über zeitweise Nutzung von Software als Dienst", "correct": true },
+      { "text": "Vertrag über Erwerb einer Sache gegen Zahlung", "correct": false },
+      { "text": "Vertrag über einen konkret geschuldeten Erfolg", "correct": false },
+      { "text": "Vertrag über Verarbeitung personenbezogener Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein SaaS-Vertrag regelt die Nutzung von Software als bereitgestellten Service."
+  },
+  {
+    "id": "lf-06-fach-vert-007",
+    "question": "Was beschreibt ein Kaufvertrag?",
+    "answers": [
+      { "text": "Vertrag über Erwerb einer Sache gegen Zahlung", "correct": true },
+      { "text": "Vertrag über zeitweise Nutzung gegen Entgelt", "correct": false },
+      { "text": "Vertrag über geschuldete Tätigkeit", "correct": false },
+      { "text": "Vertrag über einen bestimmten Erfolg", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Kaufvertrag wird eine Sache gegen Zahlung übereignet."
+  },
+  {
+    "id": "lf-06-fach-vert-008",
+    "question": "Was beschreibt ein Werkvertrag?",
+    "answers": [
+      { "text": "Vertrag, bei dem ein bestimmter Erfolg geschuldet wird", "correct": true },
+      { "text": "Vertrag über eine geschuldete Tätigkeit", "correct": false },
+      { "text": "Vertrag über zeitweise Nutzungsüberlassung", "correct": false },
+      { "text": "Vertrag über Erwerb einer Sache", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Werkvertrag zählt der vereinbarte Erfolg, zum Beispiel eine funktionsfähige Umsetzung."
+  },
+  {
+    "id": "lf-06-fach-vert-009",
+    "question": "Was beschreibt ein Dienstvertrag?",
+    "answers": [
+      { "text": "Vertrag über eine geschuldete Tätigkeit oder Dienstleistung", "correct": true },
+      { "text": "Vertrag über einen konkret geschuldeten Erfolg", "correct": false },
+      { "text": "Vertrag über Eigentumsübergang einer Sache", "correct": false },
+      { "text": "Vertrag über befristete Nutzung gegen Zahlung", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Dienstvertrag wird eine Tätigkeit geschuldet, nicht zwingend ein bestimmter Erfolg."
+  },
+  {
+    "id": "lf-06-fach-vert-010",
+    "question": "Was beschreibt ein Mietvertrag im IT-Servicekontext?",
+    "answers": [
+      { "text": "Zeitweise Überlassung einer Sache oder Leistung gegen Entgelt", "correct": true },
+      { "text": "Endgültiger Erwerb einer Sache gegen Zahlung", "correct": false },
+      { "text": "Regelmäßige Pflege und Instandhaltung", "correct": false },
+      { "text": "Übergeordnete Vereinbarung für Einzelaufträge", "correct": false }
+    ],
+    "explanation": "Merksatz: Mietverträge regeln die befristete Nutzung gegen Zahlung."
+  },
+  {
+    "id": "lf-06-fach-vert-011",
+    "question": "Was beschreibt ein Leasingvertrag?",
+    "answers": [
+      { "text": "Längerfristige Nutzungsüberlassung gegen Zahlung", "correct": true },
+      { "text": "Einmaliger Erwerb einer Sache gegen Zahlung", "correct": false },
+      { "text": "Geschuldete Tätigkeit als laufende Dienstleistung", "correct": false },
+      { "text": "Regelmäßige Pflege zur Funktionsfähigkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Leasing ermöglicht die Nutzung eines Wirtschaftsguts über einen vereinbarten Zeitraum."
+  },
+  {
+    "id": "lf-06-fach-vert-012",
+    "question": "Was beschreibt ein Wartungsvertrag?",
+    "answers": [
+      { "text": "Vertrag über regelmäßige Pflege oder Instandhaltung", "correct": true },
+      { "text": "Vertrag über einmaligen Erwerb einer Sache", "correct": false },
+      { "text": "Vertrag über befristete reine Nutzung", "correct": false },
+      { "text": "Vertrag über Servicequalität und Reaktionszeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Wartungsvertrag regelt wiederkehrende Maßnahmen zur Erhaltung der Funktionsfähigkeit."
+  },
+  {
+    "id": "lf-06-fach-vert-013",
+    "question": "Was beschreibt ein Rahmenvertrag?",
+    "answers": [
+      { "text": "Übergeordnete Vereinbarung für spätere Einzelaufträge", "correct": true },
+      { "text": "Vereinbarung über konkrete Servicelevel", "correct": false },
+      { "text": "Vertrag über regelmäßige Instandhaltung", "correct": false },
+      { "text": "Vertrag über Datenverarbeitung im Auftrag", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Rahmenvertrag legt allgemeine Bedingungen für wiederkehrende Leistungen fest."
+  },
+  {
+    "id": "lf-06-fach-vert-014",
+    "question": "Was beschreibt Governance im Servicebereich?",
+    "answers": [
+      { "text": "Regeln und Steuerung für verantwortliche Führung", "correct": true },
+      { "text": "Einhaltung von Gesetzen und Verträgen", "correct": false },
+      { "text": "Messbare Vereinbarung zu Servicequalität", "correct": false },
+      { "text": "Beschreibung der zu erbringenden Leistungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Governance sorgt für klare Regeln, Zuständigkeiten und Steuerung im Unternehmen."
+  },
+  {
+    "id": "lf-06-fach-vert-015",
+    "question": "Was beschreibt Compliance?",
+    "answers": [
+      { "text": "Einhaltung von Gesetzen, Verträgen und Vorgaben", "correct": true },
+      { "text": "Steuerung und Zuständigkeiten im Unternehmen", "correct": false },
+      { "text": "Freiheit zur Gestaltung von Verträgen", "correct": false },
+      { "text": "Beschreibung von Umfang und Qualität eines Services", "correct": false }
+    ],
+    "explanation": "Merksatz: Compliance bedeutet regelkonformes Verhalten in rechtlichen und organisatorischen Vorgaben."
+  },
+  {
+    "id": "lf-06-fach-vert-016",
+    "question": "Was beschreibt Vertragsfreiheit?",
+    "answers": [
+      { "text": "Parteien können Verträge grundsätzlich frei gestalten", "correct": true },
+      { "text": "Parteien erfüllen gesetzliche Mängelrechte", "correct": false },
+      { "text": "Parteien halten interne Vorgaben ein", "correct": false },
+      { "text": "Parteien nutzen fest vorgegebene Servicelevel", "correct": false }
+    ],
+    "explanation": "Merksatz: Vertragsfreiheit erlaubt individuelle Vereinbarungen innerhalb gesetzlicher Grenzen."
+  },
+  {
+    "id": "lf-06-fach-vert-017",
+    "question": "Was beschreibt eine Leistungsbeschreibung?",
+    "answers": [
+      { "text": "Genaue Beschreibung der zu erbringenden Leistungen", "correct": true },
+      { "text": "Vereinbarung über interne Serviceeinheiten", "correct": false },
+      { "text": "Regelwerk zur verantwortlichen Unternehmensführung", "correct": false },
+      { "text": "Gesetzliche Rechte bei mangelhafter Sache", "correct": false }
+    ],
+    "explanation": "Merksatz: Leistungsbeschreibungen machen Umfang, Qualität und Grenzen eines Services nachvollziehbar."
+  },
+  {
+    "id": "lf-06-fach-vert-018",
+    "question": "Was beschreibt Gewährleistung?",
+    "answers": [
+      { "text": "Gesetzliche Rechte bei mangelhafter Leistung oder Sache", "correct": true },
+      { "text": "Freiwillige zusätzliche Zusage eines Anbieters", "correct": false },
+      { "text": "Vertragliche Beschreibung eines Serviceumfangs", "correct": false },
+      { "text": "Abrechnung erbrachter Leistungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Gewährleistung betrifft gesetzliche Ansprüche bei Mängeln."
+  },
+  {
+    "id": "lf-06-fach-vert-019",
+    "question": "Was beschreibt Garantie?",
+    "answers": [
+      { "text": "Freiwillige zusätzliche Zusage eines Herstellers oder Anbieters", "correct": true },
+      { "text": "Gesetzlicher Anspruch bei mangelhafter Leistung", "correct": false },
+      { "text": "Genaue Beschreibung vereinbarter Leistungen", "correct": false },
+      { "text": "Vertragliche Grundlage eines IT-Services", "correct": false }
+    ],
+    "explanation": "Merksatz: Garantie ist eine freiwillige Zusage zusätzlich zur gesetzlichen Gewährleistung."
+  },
+  {
+    "id": "lf-06-fach-vert-020",
+    "question": "Was beschreibt eine Rechnung im Servicekontext?",
+    "answers": [
+      { "text": "Dokument zur Abrechnung erbrachter Leistungen", "correct": true },
+      { "text": "Beschreibung vereinbarter Serviceleistungen", "correct": false },
+      { "text": "Vereinbarung über Servicequalität und Zeiten", "correct": false },
+      { "text": "Rechtsanspruch bei mangelhafter Leistung", "correct": false }
+    ],
+    "explanation": "Merksatz: Rechnungen dokumentieren abgerechnete Leistungen und müssen bestimmte Pflichtangaben enthalten."
+  }
+]

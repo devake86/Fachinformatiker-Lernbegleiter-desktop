@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-05-fach-db-001",
+    "question": "Was beschreibt eine Datenbank?",
+    "answers": [
+      { "text": "Eine strukturierte Sammlung zusammengehöriger Daten", "correct": true },
+      { "text": "Ein Verwaltungssystem für gespeicherte Daten", "correct": false },
+      { "text": "Eine einzelne Tabelle mit Datensätzen", "correct": false },
+      { "text": "Eine Abfragesprache für Datenbestände", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Datenbank speichert Daten strukturiert und ermöglicht gezielten Zugriff."
+  },
+  {
+    "id": "lf-05-fach-db-002",
+    "question": "Was beschreibt ein Datenbanksystem?",
+    "answers": [
+      { "text": "Die Kombination aus Datenbasis, DBMS und Zugriffsmöglichkeiten", "correct": true },
+      { "text": "Die tatsächlich gespeicherten Daten einer Datenbank", "correct": false },
+      { "text": "Eine einzelne Relation mit Zeilen und Spalten", "correct": false },
+      { "text": "Ein Modell zur Planung von Entitäten", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Datenbanksystem umfasst Daten, Verwaltung und Zugriff."
+  },
+  {
+    "id": "lf-05-fach-db-003",
+    "question": "Was beschreibt ein DBMS?",
+    "answers": [
+      { "text": "Software zur Verwaltung, Speicherung und Abfrage von Datenbanken", "correct": true },
+      { "text": "Die gespeicherten Nutzdaten einer Datenbank", "correct": false },
+      { "text": "Eine Tabelle im relationalen Datenmodell", "correct": false },
+      { "text": "Ein Schlüssel zur Identifikation eines Datensatzes", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein DBMS verwaltet Datenbanken und stellt Funktionen für Zugriff, Sicherheit und Integrität bereit."
+  },
+  {
+    "id": "lf-05-fach-db-004",
+    "question": "Was beschreibt eine Datenbasis?",
+    "answers": [
+      { "text": "Die tatsächlich gespeicherten Daten einer Datenbank", "correct": true },
+      { "text": "Die Verwaltungssoftware für Datenbanken", "correct": false },
+      { "text": "Die Benutzersicht auf ausgewählte Daten", "correct": false },
+      { "text": "Die Abfragesprache für relationale Tabellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Datenbasis enthält die gespeicherten Daten."
+  },
+  {
+    "id": "lf-05-fach-db-005",
+    "question": "Was beschreibt eine Relation im relationalen Datenmodell?",
+    "answers": [
+      { "text": "Eine Tabelle mit Zeilen und Spalten", "correct": true },
+      { "text": "Eine einzelne Zeile mit zusammengehörigen Werten", "correct": false },
+      { "text": "Eine Spalte mit gleichartigen Datenfeldern", "correct": false },
+      { "text": "Ein Verweis auf eine andere Tabelle", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Relation entspricht im relationalen Modell einer Tabelle."
+  },
+  {
+    "id": "lf-05-fach-db-006",
+    "question": "Was beschreibt ein Attribut in einer Datenbanktabelle?",
+    "answers": [
+      { "text": "Eine Spalte mit gleichartigen Datenfeldern", "correct": true },
+      { "text": "Eine Zeile mit zusammengehörigen Werten", "correct": false },
+      { "text": "Eine einzelne Zelle an Zeile und Spalte", "correct": false },
+      { "text": "Eine gesamte Tabelle im relationalen Modell", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Attribut beschreibt eine Eigenschaft und wird meist als Tabellenspalte dargestellt."
+  },
+  {
+    "id": "lf-05-fach-db-007",
+    "question": "Was beschreibt ein Datensatz?",
+    "answers": [
+      { "text": "Eine Zeile einer Tabelle mit zusammengehörigen Datenfeldern", "correct": true },
+      { "text": "Eine Spalte mit gleichartigen Eigenschaften", "correct": false },
+      { "text": "Eine einzelne Zelle mit einem Wert", "correct": false },
+      { "text": "Eine Beziehung zwischen zwei Tabellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Datensatz fasst die Werte eines Objekts oder Vorgangs in einer Tabellenzeile zusammen."
+  },
+  {
+    "id": "lf-05-fach-db-008",
+    "question": "Was beschreibt ein Datenfeld?",
+    "answers": [
+      { "text": "Eine einzelne Zelle in einer Tabelle", "correct": true },
+      { "text": "Eine ganze Tabellenzeile mit mehreren Werten", "correct": false },
+      { "text": "Eine Tabellenspalte mit gleichartigen Werten", "correct": false },
+      { "text": "Eine Tabelle mit Relationen und Schlüsseln", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Datenfeld ist der einzelne Wert an der Schnittstelle von Zeile und Spalte."
+  },
+  {
+    "id": "lf-05-fach-db-009",
+    "question": "Was beschreibt ein Schlüssel in einer Datenbank?",
+    "answers": [
+      { "text": "Ein Attribut oder eine Attributkombination zur eindeutigen Identifikation", "correct": true },
+      { "text": "Ein Attribut mit wiederholbaren beliebigen Werten", "correct": false },
+      { "text": "Eine Tabelle zur Speicherung von Beziehungen", "correct": false },
+      { "text": "Eine Sicht auf ausgewählte Daten", "correct": false }
+    ],
+    "explanation": "Merksatz: Schlüssel identifizieren Datensätze eindeutig oder stellen Beziehungen her."
+  },
+  {
+    "id": "lf-05-fach-db-010",
+    "question": "Was beschreibt ein Primärschlüssel?",
+    "answers": [
+      { "text": "Ein eindeutiger Schlüssel zur Identifikation eines Datensatzes", "correct": true },
+      { "text": "Ein Verweis auf den Schlüssel einer anderen Tabelle", "correct": false },
+      { "text": "Ein Schlüssel aus mehreren Tabellenbeziehungen", "correct": false },
+      { "text": "Ein Attribut mit mehrfach vorkommenden Werten", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Primärschlüssel macht jeden Datensatz einer Tabelle eindeutig unterscheidbar."
+  },
+  {
+    "id": "lf-05-fach-db-011",
+    "question": "Was beschreibt ein Fremdschlüssel?",
+    "answers": [
+      { "text": "Ein Attribut, das auf den Primärschlüssel einer anderen Tabelle verweist", "correct": true },
+      { "text": "Ein eindeutiger Schlüssel der eigenen Tabelle", "correct": false },
+      { "text": "Ein Schlüssel aus mehreren eigenen Attributen", "correct": false },
+      { "text": "Ein Attribut ohne Beziehung zu anderen Tabellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Fremdschlüssel stellen Beziehungen zwischen Tabellen her."
+  },
+  {
+    "id": "lf-05-fach-db-012",
+    "question": "Was beschreibt ein zusammengesetzter Schlüssel?",
+    "answers": [
+      { "text": "Ein Schlüssel, der aus mehreren Attributen besteht", "correct": true },
+      { "text": "Ein Schlüssel, der auf eine andere Tabelle verweist", "correct": false },
+      { "text": "Ein einzelnes Attribut mit eindeutigen Werten", "correct": false },
+      { "text": "Eine Beziehung mit mehreren Fremdschlüsseln", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein zusammengesetzter Schlüssel identifiziert Datensätze durch mehrere Attribute gemeinsam."
+  },
+  {
+    "id": "lf-05-fach-db-013",
+    "question": "Was beschreibt referenzielle Integrität?",
+    "answers": [
+      { "text": "Beziehungen zwischen Tabellen bleiben durch gültige Schlüsselverweise korrekt", "correct": true },
+      { "text": "Datensätze werden durch Primärschlüssel eindeutig", "correct": false },
+      { "text": "Daten werden durch Normalisierung aufgeteilt", "correct": false },
+      { "text": "Daten bleiben widerspruchsfrei und logisch passend", "correct": false }
+    ],
+    "explanation": "Merksatz: Referenzielle Integrität verhindert ungültige Verweise zwischen Tabellen."
+  },
+  {
+    "id": "lf-05-fach-db-014",
+    "question": "Was beschreibt Datenredundanz?",
+    "answers": [
+      { "text": "Mehrfaches Speichern gleicher Daten", "correct": true },
+      { "text": "Widerspruchsfreie Speicherung zusammenhängender Daten", "correct": false },
+      { "text": "Eindeutige Identifikation eines Datensatzes", "correct": false },
+      { "text": "Gültige Verweise zwischen Tabellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenredundanz bedeutet, dass gleiche Informationen mehrfach gespeichert werden."
+  },
+  {
+    "id": "lf-05-fach-db-015",
+    "question": "Was beschreibt Datenkonsistenz?",
+    "answers": [
+      { "text": "Daten sind widerspruchsfrei und passen logisch zusammen", "correct": true },
+      { "text": "Gleiche Daten werden mehrfach gespeichert", "correct": false },
+      { "text": "Daten werden in möglichst viele Tabellen zerlegt", "correct": false },
+      { "text": "Fremdschlüssel verweisen auf andere Tabellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Konsistente Daten sind widerspruchsfrei und zuverlässig nutzbar."
+  },
+  {
+    "id": "lf-05-fach-db-016",
+    "question": "Was beschreibt Normalisierung?",
+    "answers": [
+      { "text": "Die strukturierte Aufteilung von Daten zur Verringerung von Redundanzen und Anomalien", "correct": true },
+      { "text": "Die Zusammenführung vieler Tabellen zu einer Gesamttabelle", "correct": false },
+      { "text": "Die Prüfung gültiger Verweise zwischen Tabellen", "correct": false },
+      { "text": "Die Auswahl eines eindeutigen Primärschlüssels", "correct": false }
+    ],
+    "explanation": "Merksatz: Normalisierung verbessert Tabellenstrukturen und reduziert Redundanz."
+  },
+  {
+    "id": "lf-05-fach-db-017",
+    "question": "Was beschreibt eine Anomalie in einer Datenbank?",
+    "answers": [
+      { "text": "Ein unerwünschtes Problem beim Einfügen, Ändern oder Löschen von Daten", "correct": true },
+      { "text": "Eine gewünschte Tabellenstruktur nach Normalisierung", "correct": false },
+      { "text": "Ein gültiger Fremdschlüsselverweis", "correct": false },
+      { "text": "Ein eindeutiger Primärschlüssel einer Tabelle", "correct": false }
+    ],
+    "explanation": "Merksatz: Anomalien entstehen oft durch schlechte Tabellenstruktur und Datenredundanz."
+  },
+  {
+    "id": "lf-05-fach-db-018",
+    "question": "Was beschreibt eine Einfügeanomalie?",
+    "answers": [
+      { "text": "Daten können nicht sinnvoll eingefügt werden, ohne unnötige oder fehlende Zusatzdaten", "correct": true },
+      { "text": "Änderungen müssen an mehreren Stellen erfolgen", "correct": false },
+      { "text": "Beim Löschen gehen wichtige Zusatzinformationen verloren", "correct": false },
+      { "text": "Fremdschlüssel verweisen auf ungültige Datensätze", "correct": false }
+    ],
+    "explanation": "Merksatz: Einfügeanomalien erschweren das korrekte Hinzufügen neuer Daten."
+  },
+  {
+    "id": "lf-05-fach-db-019",
+    "question": "Was beschreibt eine Änderungsanomalie?",
+    "answers": [
+      { "text": "Mehrfach gespeicherte Daten müssen an mehreren Stellen geändert werden", "correct": true },
+      { "text": "Neue Daten benötigen unnötige Zusatzinformationen", "correct": false },
+      { "text": "Beim Löschen verschwinden weitere wichtige Daten", "correct": false },
+      { "text": "Ein Fremdschlüssel zeigt auf eine andere Tabelle", "correct": false }
+    ],
+    "explanation": "Merksatz: Änderungsanomalien entstehen, wenn redundante Daten nicht überall gleich angepasst werden."
+  },
+  {
+    "id": "lf-05-fach-db-020",
+    "question": "Was beschreibt eine Löschanomalie?",
+    "answers": [
+      { "text": "Beim Löschen eines Datensatzes gehen unbeabsichtigt weitere wichtige Informationen verloren", "correct": true },
+      { "text": "Daten müssen an mehreren Stellen geändert werden", "correct": false },
+      { "text": "Neue Daten können nur mit Zusatzdaten eingefügt werden", "correct": false },
+      { "text": "Datensätze werden durch Primärschlüssel eindeutig", "correct": false }
+    ],
+    "explanation": "Merksatz: Löschanomalien führen dazu, dass relevante Informationen unbeabsichtigt verschwinden."
+  },
+  {
+    "id": "lf-05-fach-db-021",
+    "question": "Was beschreibt die erste Normalform?",
+    "answers": [
+      { "text": "Alle Attributwerte sind atomar und enthalten keine Wiederholungsgruppen", "correct": true },
+      { "text": "Alle Nicht-Schlüsselattribute hängen vollständig vom Schlüssel ab", "correct": false },
+      { "text": "Nicht-Schlüsselattribute hängen nicht transitiv ab", "correct": false },
+      { "text": "Fremdschlüssel verweisen auf gültige Primärschlüssel", "correct": false }
+    ],
+    "explanation": "Merksatz: Die erste Normalform verlangt atomare, nicht weiter sinnvoll zerlegbare Werte."
+  },
+  {
+    "id": "lf-05-fach-db-022",
+    "question": "Was beschreibt die zweite Normalform?",
+    "answers": [
+      { "text": "Nicht-Schlüsselattribute hängen vollständig vom gesamten Primärschlüssel ab", "correct": true },
+      { "text": ".Attributwerte sind atomar und ohne Wiederholungsgruppen", "correct": false },
+      { "text": "Nicht-Schlüsselattribute haben keine transitiven Abhängigkeiten", "correct": false },
+      { "text": "Tabellenbeziehungen besitzen gültige Fremdschlüssel", "correct": false }
+    ],
+    "explanation": "Merksatz: Die zweite Normalform vermeidet Teilabhängigkeiten von zusammengesetzten Schlüsseln."
+  },
+  {
+    "id": "lf-05-fach-db-023",
+    "question": "Was beschreibt die dritte Normalform?",
+    "answers": [
+      { "text": "Nicht-Schlüsselattribute hängen nicht transitiv von anderen Nicht-Schlüsselattributen ab", "correct": true },
+      { "text": "Attributwerte werden atomar gespeichert", "correct": false },
+      { "text": "Attribute hängen vollständig vom gesamten Schlüssel ab", "correct": false },
+      { "text": "Fremdschlüssel bilden gültige Tabellenverweise", "correct": false }
+    ],
+    "explanation": "Merksatz: Die dritte Normalform vermeidet indirekte Abhängigkeiten zwischen Nicht-Schlüsselattributen."
+  },
+  {
+    "id": "lf-05-fach-db-024",
+    "question": "Was beschreibt das Entity-Relationship-Modell?",
+    "answers": [
+      { "text": "Ein Modell zur Darstellung von Entitäten, Attributen und Beziehungen", "correct": true },
+      { "text": "Ein Modell zur physischen Speicherung von Daten", "correct": false },
+      { "text": "Eine SQL-Sprache zur Abfrage von Tabellen", "correct": false },
+      { "text": "Eine Normalform zur Reduzierung von Redundanz", "correct": false }
+    ],
+    "explanation": "Merksatz: Das ER-Modell hilft, Datenstrukturen vor der Umsetzung zu planen."
+  },
+  {
+    "id": "lf-05-fach-db-025",
+    "question": "Was beschreibt eine Entität?",
+    "answers": [
+      { "text": "Ein eindeutig betrachtbares Objekt, über das Daten gespeichert werden", "correct": true },
+      { "text": "Eine Klasse gleichartiger Objekte", "correct": false },
+      { "text": "Eine semantische Verbindung zwischen Objekten", "correct": false },
+      { "text": "Eine mengenmäßige Beziehungsangabe", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Entität ist ein konkretes Objekt der realen oder virtuellen Welt."
+  },
+  {
+    "id": "lf-05-fach-db-026",
+    "question": "Was beschreibt ein Entitätstyp?",
+    "answers": [
+      { "text": "Eine Klasse gleichartiger Entitäten", "correct": true },
+      { "text": "Ein einzelnes eindeutig betrachtbares Objekt", "correct": false },
+      { "text": "Eine Verbindung zwischen zwei Entitätstypen", "correct": false },
+      { "text": "Ein konkreter Wert eines Attributs", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Entitätstyp fasst ähnliche Entitäten mit gleichen Eigenschaften zusammen."
+  },
+  {
+    "id": "lf-05-fach-db-027",
+    "question": "Was beschreibt eine Beziehung im ER-Modell?",
+    "answers": [
+      { "text": "Eine semantische Verbindung zwischen Entitätstypen", "correct": true },
+      { "text": "Eine Klasse gleichartiger Entitäten", "correct": false },
+      { "text": "Ein einzelnes Objekt mit gespeicherten Daten", "correct": false },
+      { "text": "Die Anzahl möglicher Verbindungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Beziehungen zeigen, wie Entitätstypen fachlich zusammenhängen."
+  },
+  {
+    "id": "lf-05-fach-db-028",
+    "question": "Was beschreibt Kardinalität?",
+    "answers": [
+      { "text": "Die mengenmäßige Beziehung zwischen Entitäten", "correct": true },
+      { "text": "Die fachliche Verbindung zwischen Entitätstypen", "correct": false },
+      { "text": "Die Eigenschaften eines Entitätstyps", "correct": false },
+      { "text": "Die eindeutige Identifikation eines Datensatzes", "correct": false }
+    ],
+    "explanation": "Merksatz: Kardinalitäten beschreiben, wie viele Entitäten miteinander in Beziehung stehen können."
+  },
+  {
+    "id": "lf-05-fach-db-029",
+    "question": "Was beschreibt eine 1:1-Beziehung?",
+    "answers": [
+      { "text": "Eine Entität steht höchstens mit einer Entität der anderen Seite in Beziehung", "correct": true },
+      { "text": "Eine Entität kann mehreren Entitäten zugeordnet sein", "correct": false },
+      { "text": "Viele Entitäten können vielen Entitäten zugeordnet sein", "correct": false },
+      { "text": "Eine Beziehung wird über eine Zwischentabelle aufgelöst", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei 1:1 gehört ein Objekt höchstens zu einem passenden Objekt der anderen Seite."
+  },
+  {
+    "id": "lf-05-fach-db-030",
+    "question": "Was beschreibt eine 1:n-Beziehung?",
+    "answers": [
+      { "text": "Eine Entität kann mit mehreren Entitäten der anderen Seite verbunden sein", "correct": true },
+      { "text": "Eine Entität ist höchstens einer Entität zugeordnet", "correct": false },
+      { "text": "Viele Entitäten sind vielen Entitäten zugeordnet", "correct": false },
+      { "text": "Eine Beziehung benötigt immer zwei Zwischentabellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei 1:n kann ein Datensatz auf der einen Seite mehreren Datensätzen der anderen Seite zugeordnet sein."
+  },
+  {
+    "id": "lf-05-fach-db-031",
+    "question": "Was beschreibt eine m:n-Beziehung?",
+    "answers": [
+      { "text": "Viele Entitäten können mit vielen Entitäten der anderen Seite verbunden sein", "correct": true },
+      { "text": "Eine Entität ist höchstens einer Entität zugeordnet", "correct": false },
+      { "text": "Eine Entität kann mehreren Entitäten einer Seite zugeordnet sein", "correct": false },
+      { "text": "Eine Beziehung besteht aus genau einem Fremdschlüssel", "correct": false }
+    ],
+    "explanation": "Merksatz: m:n-Beziehungen werden im relationalen Modell meist über eine Zwischentabelle aufgelöst."
+  },
+  {
+    "id": "lf-05-fach-db-032",
+    "question": "Was beschreibt eine Zwischentabelle?",
+    "answers": [
+      { "text": "Eine Tabelle zur Auflösung einer m:n-Beziehung", "correct": true },
+      { "text": "Eine Tabelle zur Darstellung einer 1:1-Beziehung", "correct": false },
+      { "text": "Eine Benutzersicht auf ausgewählte Daten", "correct": false },
+      { "text": "Eine Tabelle mit ausschließlich Primärschlüsseln ohne Verweise", "correct": false }
+    ],
+    "explanation": "Merksatz: Zwischentabellen verbinden zwei Tabellen bei m:n-Beziehungen über Fremdschlüssel."
+  },
+  {
+    "id": "lf-05-fach-db-033",
+    "question": "Was beschreibt das externe Schema in der Drei-Schema-Architektur?",
+    "answers": [
+      { "text": "Die Benutzersicht auf ausgewählte Daten", "correct": true },
+      { "text": "Die logische Gesamtsicht auf Daten und Beziehungen", "correct": false },
+      { "text": "Die physische Speicherung und Organisation der Daten", "correct": false },
+      { "text": "Die Datenbasis mit allen gespeicherten Datensätzen", "correct": false }
+    ],
+    "explanation": "Merksatz: Das externe Schema zeigt, welche Daten bestimmte Benutzergruppen sehen."
+  },
+  {
+    "id": "lf-05-fach-db-034",
+    "question": "Was beschreibt das konzeptionelle Schema?",
+    "answers": [
+      { "text": "Die logische Gesamtsicht auf Daten und Beziehungen", "correct": true },
+      { "text": "Die Benutzersicht auf ausgewählte Daten", "correct": false },
+      { "text": "Die physische Organisation der Daten", "correct": false },
+      { "text": "Die lokale Speicherung auf einem Einzelrechner", "correct": false }
+    ],
+    "explanation": "Merksatz: Das konzeptionelle Schema beschreibt logisch, welche Daten und Beziehungen existieren."
+  },
+  {
+    "id": "lf-05-fach-db-035",
+    "question": "Was beschreibt das interne Schema?",
+    "answers": [
+      { "text": "Die physische Speicherung und Organisation der Daten", "correct": true },
+      { "text": "Die Benutzersicht auf ausgewählte Daten", "correct": false },
+      { "text": "Die logische Gesamtsicht auf Beziehungen", "correct": false },
+      { "text": "Das fachliche ER-Modell einer Anwendung", "correct": false }
+    ],
+    "explanation": "Merksatz: Das interne Schema beschreibt, wie Daten technisch gespeichert und organisiert werden."
+  },
+  {
+    "id": "lf-05-fach-db-036",
+    "question": "Was beschreibt eine Stand-Alone-Datenbank?",
+    "answers": [
+      { "text": "Datenbank und Datenbankprogramm befinden sich auf einem einzelnen Rechner", "correct": true },
+      { "text": "Datenbankdateien liegen gemeinsam auf einem Server", "correct": false },
+      { "text": "DBMS und Datenbank laufen zentral auf einem Server", "correct": false },
+      { "text": "Clients senden Anfragen an einen Datenbankserver", "correct": false }
+    ],
+    "explanation": "Merksatz: Stand-Alone bedeutet, dass Datenbank und Anwendung lokal auf einem System liegen."
+  },
+  {
+    "id": "lf-05-fach-db-037",
+    "question": "Was beschreibt eine File-Share-Datenbank?",
+    "answers": [
+      { "text": "Datenbankdateien liegen auf einem Server, das Programm läuft beim Client", "correct": true },
+      { "text": "Datenbank und Anwendung liegen lokal auf einem Einzelrechner", "correct": false },
+      { "text": "DBMS und Datenbank laufen zentral auf einem Server", "correct": false },
+      { "text": "Clients senden SQL-Anfragen an ein Server-DBMS", "correct": false }
+    ],
+    "explanation": "Merksatz: Bei File-Share-Datenbanken greifen Clients auf gemeinsame Datenbankdateien zu."
+  },
+  {
+    "id": "lf-05-fach-db-038",
+    "question": "Was beschreibt eine Client-Server-Datenbank?",
+    "answers": [
+      { "text": "DBMS und Datenbank laufen zentral auf einem Server, Clients stellen Anfragen", "correct": true },
+      { "text": "Datenbank und Anwendung liegen vollständig lokal", "correct": false },
+      { "text": "Clients bearbeiten gemeinsame Datenbankdateien direkt", "correct": false },
+      { "text": "Daten werden ausschließlich in einzelnen Textdateien gespeichert", "correct": false }
+    ],
+    "explanation": "Merksatz: Client-Server-Datenbanken trennen Datenverwaltung auf dem Server vom Zugriff durch Clients."
+  },
+  {
+    "id": "lf-05-fach-db-039",
+    "question": "Was beschreibt eine relationale Datenbank?",
+    "answers": [
+      { "text": "Eine Datenbank, die Daten in Tabellen speichert und Tabellen über Schlüssel verknüpft", "correct": true },
+      { "text": "Eine Datenbank mit dokumentorientierter Speicherung", "correct": false },
+      { "text": "Eine Datenbank mit reiner Schlüssel-Wert-Struktur", "correct": false },
+      { "text": "Eine Datenbank mit Graphknoten und Kanten als Hauptmodell", "correct": false }
+    ],
+    "explanation": "Merksatz: Relationale Datenbanken organisieren Daten in Tabellen und Beziehungen."
+  },
+  {
+    "id": "lf-05-fach-db-040",
+    "question": "Was beschreibt NoSQL?",
+    "answers": [
+      { "text": "Datenbankansätze, die nicht nur auf dem klassischen relationalen SQL-Modell beruhen", "correct": true },
+      { "text": "Ein relationales Modell mit Tabellen und SQL-Abfragen", "correct": false },
+      { "text": "Eine einzelne Tabelle mit Primär- und Fremdschlüssel", "correct": false },
+      { "text": "Ein DBMS ausschließlich für Tabellenbeziehungen", "correct": false }
+    ],
+    "explanation": "Merksatz: NoSQL steht für flexible Datenbankmodelle jenseits rein relationaler Strukturen."
+  }
+]

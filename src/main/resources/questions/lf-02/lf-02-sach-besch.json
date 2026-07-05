@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-02-sach-besch-001",
+    "question": "Warum beginnt eine Beschaffung mit einer Bedarfsanalyse?",
+    "answers": [
+      { "text": "Damit klar ist, was wirklich benötigt wird", "correct": true },
+      { "text": "Damit Angebote direkt verglichen werden", "correct": false },
+      { "text": "Damit Lieferanten sofort ausgewählt werden", "correct": false },
+      { "text": "Damit Wareneingänge schneller gebucht werden", "correct": false }
+    ],
+    "explanation": "Eine Bedarfsanalyse verhindert Fehlbeschaffungen, weil Anforderungen vor der Auswahl geklärt werden."
+  },
+  {
+    "id": "lf-02-sach-besch-002",
+    "question": "Warum werden Kundenanforderungen schriftlich festgehalten?",
+    "answers": [
+      { "text": "Damit sie später nachvollziehbar und prüfbar sind", "correct": true },
+      { "text": "Damit Angebote schneller kalkuliert werden", "correct": false },
+      { "text": "Damit Lieferzeiten verbindlich feststehen", "correct": false },
+      { "text": "Damit Wareneingänge eindeutig gebucht werden", "correct": false }
+    ],
+    "explanation": "Dokumentierte Anforderungen helfen bei Auswahl, Angebot, Umsetzung und Abnahme."
+  },
+  {
+    "id": "lf-02-sach-besch-003",
+    "question": "Warum ist ein Lastenheft vor der Angebotserstellung hilfreich?",
+    "answers": [
+      { "text": "Es beschreibt die Anforderungen des Auftraggebers", "correct": true },
+      { "text": "Es beschreibt die Umsetzung des Auftragnehmers", "correct": false },
+      { "text": "Es dokumentiert gelieferte Warenmengen", "correct": false },
+      { "text": "Es bewertet Lieferanten nach Punkten", "correct": false }
+    ],
+    "explanation": "Das Lastenheft beschreibt, was und wofür der Auftraggeber etwas benötigt."
+  },
+  {
+    "id": "lf-02-sach-besch-004",
+    "question": "Warum wird aus einem Lastenheft oft ein Pflichtenheft abgeleitet?",
+    "answers": [
+      { "text": "Damit die Umsetzung konkret geplant wird", "correct": true },
+      { "text": "Damit Kundenwünsche neu gesammelt werden", "correct": false },
+      { "text": "Damit Liefermengen im Lager geprüft werden", "correct": false },
+      { "text": "Damit Rechnungen formal abgeglichen werden", "correct": false }
+    ],
+    "explanation": "Das Pflichtenheft beschreibt, wie und womit Anforderungen umgesetzt werden."
+  },
+  {
+    "id": "lf-02-sach-besch-005",
+    "question": "Warum ist die Unterscheidung zwischen Lastenheft und Pflichtenheft wichtig?",
+    "answers": [
+      { "text": "Sie trennt Kundenwunsch und Umsetzung", "correct": true },
+      { "text": "Sie trennt Anfrage und Wareneingang", "correct": false },
+      { "text": "Sie trennt Rabatt und Zahlungsziel", "correct": false },
+      { "text": "Sie trennt Lieferschein und Rechnung", "correct": false }
+    ],
+    "explanation": "Das Lastenheft beschreibt die Anforderungen, das Pflichtenheft die geplante Realisierung."
+  },
+  {
+    "id": "lf-02-sach-besch-006",
+    "question": "Warum sollten Muss-Kriterien klar markiert werden?",
+    "answers": [
+      { "text": "Weil sie zwingend erfüllt sein müssen", "correct": true },
+      { "text": "Weil sie optionale Zusatzwünsche beschreiben", "correct": false },
+      { "text": "Weil sie ausgeschlossene Leistungen markieren", "correct": false },
+      { "text": "Weil sie Lieferantenrabatte bewerten", "correct": false }
+    ],
+    "explanation": "Muss-Kriterien sind Pflichtanforderungen und wichtig für Auswahl und Abnahme."
+  },
+  {
+    "id": "lf-02-sach-besch-007",
+    "question": "Warum sind Abgrenzungskriterien in einem Pflichtenheft sinnvoll?",
+    "answers": [
+      { "text": "Sie verhindern Missverständnisse über den Leistungsumfang", "correct": true },
+      { "text": "Sie beschreiben zusätzliche Wunschleistungen", "correct": false },
+      { "text": "Sie ersetzen konkrete Abnahmekriterien", "correct": false },
+      { "text": "Sie bewerten Angebote nach Kosten", "correct": false }
+    ],
+    "explanation": "Abgrenzungskriterien legen fest, was ausdrücklich nicht Teil der Leistung ist."
+  },
+  {
+    "id": "lf-02-sach-besch-008",
+    "question": "Warum sollten funktionale und nicht funktionale Anforderungen getrennt betrachtet werden?",
+    "answers": [
+      { "text": "Funktionen und Qualitätsmerkmale unterscheiden sich", "correct": true },
+      { "text": "Beide beschreiben identische Systemaufgaben", "correct": false },
+      { "text": "Funktionale Anforderungen bewerten Lieferanten", "correct": false },
+      { "text": "Nicht funktionale Anforderungen regeln Skonto", "correct": false }
+    ],
+    "explanation": "Funktionale Anforderungen beschreiben Aufgaben, nicht funktionale Anforderungen Eigenschaften wie Sicherheit oder Leistung."
+  },
+  {
+    "id": "lf-02-sach-besch-009",
+    "question": "Warum sind Abnahmekriterien schon vor der Umsetzung wichtig?",
+    "answers": [
+      { "text": "Damit später objektiv geprüft werden kann", "correct": true },
+      { "text": "Damit Angebote schneller angefragt werden", "correct": false },
+      { "text": "Damit Lieferanten frei kalkulieren können", "correct": false },
+      { "text": "Damit Zahlungsbedingungen feststehen", "correct": false }
+    ],
+    "explanation": "Abnahmekriterien definieren, wann eine Lieferung oder Leistung als erfüllt gilt."
+  },
+  {
+    "id": "lf-02-sach-besch-010",
+    "question": "Warum ist eine Anfrage an Lieferanten meist unverbindlich?",
+    "answers": [
+      { "text": "Sie dient zunächst der Informationseinholung", "correct": true },
+      { "text": "Sie beauftragt eine konkrete Lieferung", "correct": false },
+      { "text": "Sie bestätigt ein verbindliches Angebot", "correct": false },
+      { "text": "Sie dokumentiert gelieferte Ware", "correct": false }
+    ],
+    "explanation": "Mit einer Anfrage werden Konditionen, Preise oder Verfügbarkeit erfragt."
+  },
+  {
+    "id": "lf-02-sach-besch-011",
+    "question": "Warum sollten mehrere Angebote eingeholt werden?",
+    "answers": [
+      { "text": "Damit Preis und Leistung verglichen werden können", "correct": true },
+      { "text": "Damit eine Bestellung direkt entsteht", "correct": false },
+      { "text": "Damit Wareneingänge zusammengefasst werden", "correct": false },
+      { "text": "Damit Anforderungen nachträglich entstehen", "correct": false }
+    ],
+    "explanation": "Mehrere Angebote ermöglichen eine begründete Lieferanten- und Produktauswahl."
+  },
+  {
+    "id": "lf-02-sach-besch-012",
+    "question": "Wann reicht ein rein quantitativer Angebotsvergleich eher aus?",
+    "answers": [
+      { "text": "Wenn Produkte nahezu gleichwertig sind", "correct": true },
+      { "text": "Wenn Servicequalität stark abweicht", "correct": false },
+      { "text": "Wenn technische Merkmale unklar sind", "correct": false },
+      { "text": "Wenn Anforderungen offen bleiben", "correct": false }
+    ],
+    "explanation": "Bei vergleichbaren Produkten kann der Preis stärker im Vordergrund stehen."
+  },
+  {
+    "id": "lf-02-sach-besch-013",
+    "question": "Warum ist ein qualitativer Angebotsvergleich bei IT-Produkten oft nötig?",
+    "answers": [
+      { "text": "Technische Merkmale und Service unterscheiden sich", "correct": true },
+      { "text": "Listenpreise reichen für jede Entscheidung", "correct": false },
+      { "text": "Lieferanten bieten gleiche Garantien", "correct": false },
+      { "text": "Kompatibilität ergibt sich automatisch", "correct": false }
+    ],
+    "explanation": "Bei IT-Produkten zählen neben dem Preis auch Leistung, Kompatibilität, Garantie und Service."
+  },
+  {
+    "id": "lf-02-sach-besch-014",
+    "question": "Warum ist das günstigste Angebot nicht automatisch das wirtschaftlichste?",
+    "answers": [
+      { "text": "Folgekosten und Qualität können schlechter sein", "correct": true },
+      { "text": "Der Listenpreis bildet alle Kosten ab", "correct": false },
+      { "text": "Lieferbedingungen sind dabei entscheidend gleich", "correct": false },
+      { "text": "Rabatte bestimmen den Nutzen vollständig", "correct": false }
+    ],
+    "explanation": "Wirtschaftlichkeit betrachtet Nutzen, Qualität, Folgekosten und Risiken."
+  },
+  {
+    "id": "lf-02-sach-besch-015",
+    "question": "Warum nutzt man eine Entscheidungsmatrix?",
+    "answers": [
+      { "text": "Damit die Auswahl nachvollziehbar wird", "correct": true },
+      { "text": "Damit Kriterien verdeckt bleiben", "correct": false },
+      { "text": "Damit Angebote ungeordnet verglichen werden", "correct": false },
+      { "text": "Damit Bewertungen entfallen", "correct": false }
+    ],
+    "explanation": "Eine Entscheidungsmatrix macht Kriterien, Bewertungen und Ergebnisse transparent."
+  },
+  {
+    "id": "lf-02-sach-besch-016",
+    "question": "Warum werden Kriterien in einer Nutzwertanalyse gewichtet?",
+    "answers": [
+      { "text": "Weil nicht alle Kriterien gleich wichtig sind", "correct": true },
+      { "text": "Weil jeder Punkt denselben Einfluss hat", "correct": false },
+      { "text": "Weil Preise getrennt dokumentiert werden", "correct": false },
+      { "text": "Weil Alternativen identisch bewertet werden", "correct": false }
+    ],
+    "explanation": "Gewichtungen zeigen, welche Kriterien bei der Entscheidung stärker zählen."
+  },
+  {
+    "id": "lf-02-sach-besch-017",
+    "question": "Warum kann eine Nutzwertanalyse trotz Zahlen subjektiv sein?",
+    "answers": [
+      { "text": "Kriterien und Punkte werden durch Menschen festgelegt", "correct": true },
+      { "text": "Alle Gewichtungen entstehen automatisch", "correct": false },
+      { "text": "Punktwerte stammen aus festen Gesetzen", "correct": false },
+      { "text": "Kriterien werden technisch gemessen", "correct": false }
+    ],
+    "explanation": "Kriterienauswahl, Gewichtung und Punktvergabe können subjektive Einschätzungen enthalten."
+  },
+  {
+    "id": "lf-02-sach-besch-018",
+    "question": "Warum sollte die Lieferzeit bei der Angebotsbewertung berücksichtigt werden?",
+    "answers": [
+      { "text": "Sie kann den Projekt- oder Übergabetermin beeinflussen", "correct": true },
+      { "text": "Sie beschreibt die technische Produktqualität", "correct": false },
+      { "text": "Sie ersetzt Garantie- und Serviceangaben", "correct": false },
+      { "text": "Sie bestimmt den Umsatzsteuersatz", "correct": false }
+    ],
+    "explanation": "Eine günstige Lieferung hilft wenig, wenn sie zu spät für den benötigten Einsatz kommt."
+  },
+  {
+    "id": "lf-02-sach-besch-019",
+    "question": "Warum sind Zahlungsbedingungen im Angebotsvergleich relevant?",
+    "answers": [
+      { "text": "Sie beeinflussen Liquidität und tatsächliche Kosten", "correct": true },
+      { "text": "Sie beschreiben technische Leistungsmerkmale", "correct": false },
+      { "text": "Sie ersetzen Lieferzeit und Service", "correct": false },
+      { "text": "Sie gelten unabhängig vom Vertrag", "correct": false }
+    ],
+    "explanation": "Skonto, Zahlungsziel und Finanzierungsbedingungen können die Entscheidung beeinflussen."
+  },
+  {
+    "id": "lf-02-sach-besch-020",
+    "question": "Warum ist Kompatibilität ein wichtiges Beschaffungskriterium?",
+    "answers": [
+      { "text": "Neue Komponenten müssen zur vorhandenen Umgebung passen", "correct": true },
+      { "text": "Neue Komponenten bestimmen den Kaufvertrag", "correct": false },
+      { "text": "Kompatibilität bewertet Lieferfristen", "correct": false },
+      { "text": "Kompatibilität ersetzt Wirtschaftlichkeit", "correct": false }
+    ],
+    "explanation": "Hardware, Software, Schnittstellen und Lizenzen müssen zur bestehenden Infrastruktur passen."
+  },
+  {
+    "id": "lf-02-sach-besch-021",
+    "question": "Warum sollte Energieeffizienz bei IT-Beschaffung berücksichtigt werden?",
+    "answers": [
+      { "text": "Sie beeinflusst Betriebskosten und Nachhaltigkeit", "correct": true },
+      { "text": "Sie beschreibt die Lieferantenbindung", "correct": false },
+      { "text": "Sie bewertet ausschließlich Anschaffungspreise", "correct": false },
+      { "text": "Sie ersetzt technische Anforderungen", "correct": false }
+    ],
+    "explanation": "Energieeffiziente IT kann Kosten senken und Umweltziele unterstützen."
+  },
+  {
+    "id": "lf-02-sach-besch-022",
+    "question": "Warum sollte Ergonomie in die Auswahl eines Arbeitsplatzes einfließen?",
+    "answers": [
+      { "text": "Sie unterstützt gesundes und produktives Arbeiten", "correct": true },
+      { "text": "Sie beschreibt Serverleistung im Rechenzentrum", "correct": false },
+      { "text": "Sie bewertet Lieferantenrabatte", "correct": false },
+      { "text": "Sie ersetzt funktionale Anforderungen", "correct": false }
+    ],
+    "explanation": "Ergonomie reduziert Belastungen und verbessert die Alltagstauglichkeit des Arbeitsplatzes."
+  },
+  {
+    "id": "lf-02-sach-besch-023",
+    "question": "Warum müssen Datenschutzanforderungen schon bei der Beschaffung beachtet werden?",
+    "answers": [
+      { "text": "Die Lösung muss personenbezogene Daten schützen können", "correct": true },
+      { "text": "Datenschutz wird im Lieferschein geregelt", "correct": false },
+      { "text": "Datenschutz ist ein reines Lagerkriterium", "correct": false },
+      { "text": "Wareneingang ersetzt Schutzanforderungen", "correct": false }
+    ],
+    "explanation": "Hardware, Software und Dienste müssen so ausgewählt werden, dass Schutzanforderungen erfüllbar sind."
+  },
+  {
+    "id": "lf-02-sach-besch-024",
+    "question": "Warum ist Make-or-Buy eine Beschaffungsentscheidung?",
+    "answers": [
+      { "text": "Es vergleicht Eigenleistung mit Fremdbezug", "correct": true },
+      { "text": "Es vergleicht Skonto mit Zahlungsziel", "correct": false },
+      { "text": "Es bewertet offene und versteckte Mängel", "correct": false },
+      { "text": "Es trennt Besitz und Eigentum", "correct": false }
+    ],
+    "explanation": "Make-or-Buy klärt, ob eine Leistung selbst erstellt oder extern beschafft wird."
+  },
+  {
+    "id": "lf-02-sach-besch-025",
+    "question": "Warum ist eine Bestellung verbindlicher als eine Anfrage?",
+    "answers": [
+      { "text": "Sie kann direkt einen Kaufauftrag auslösen", "correct": true },
+      { "text": "Sie dient vor allem der Informationseinholung", "correct": false },
+      { "text": "Sie ist eine werbliche Produktdarstellung", "correct": false },
+      { "text": "Sie dokumentiert Wareneingangsmängel", "correct": false }
+    ],
+    "explanation": "Eine Bestellung bezieht sich auf eine konkrete Lieferung oder Leistung und kann Vertragswirkung haben."
+  },
+  {
+    "id": "lf-02-sach-besch-026",
+    "question": "Warum sollte eine Bestellung genaue Angaben enthalten?",
+    "answers": [
+      { "text": "Damit Art, Menge und Bedingungen eindeutig sind", "correct": true },
+      { "text": "Damit Lieferanten mehrere Deutungen nutzen", "correct": false },
+      { "text": "Damit Wareneingänge ungeprüft bleiben", "correct": false },
+      { "text": "Damit Anforderungen nachträglich entstehen", "correct": false }
+    ],
+    "explanation": "Unklare Bestellungen führen leicht zu falschen Lieferungen, Streit oder Verzögerungen."
+  },
+  {
+    "id": "lf-02-sach-besch-027",
+    "question": "Warum ist der Abgleich mit Bestelldokumenten beim Wareneingang wichtig?",
+    "answers": [
+      { "text": "So erkennt man falsche oder unvollständige Lieferungen", "correct": true },
+      { "text": "So entsteht automatisch ein Kaufvertrag", "correct": false },
+      { "text": "So werden Zahlungsbedingungen neu festgelegt", "correct": false },
+      { "text": "So wird der Lieferant endgültig bewertet", "correct": false }
+    ],
+    "explanation": "Beim Wareneingang werden Lieferung, Bestellung und Lieferschein miteinander verglichen."
+  },
+  {
+    "id": "lf-02-sach-besch-028",
+    "question": "Warum wird beim Wareneingang die Menge geprüft?",
+    "answers": [
+      { "text": "Damit fehlende oder zu viele Waren auffallen", "correct": true },
+      { "text": "Damit Qualitätsmerkmale bewertet werden", "correct": false },
+      { "text": "Damit Zahlungsziele berechnet werden", "correct": false },
+      { "text": "Damit Angebote vergleichbar bleiben", "correct": false }
+    ],
+    "explanation": "Die Mengenprüfung stellt sicher, dass die gelieferte Stückzahl zur Bestellung passt."
+  },
+  {
+    "id": "lf-02-sach-besch-029",
+    "question": "Warum wird beim Wareneingang auch die Qualität geprüft?",
+    "answers": [
+      { "text": "Damit Schäden oder falsche Eigenschaften erkannt werden", "correct": true },
+      { "text": "Damit Liefermengen automatisch stimmen", "correct": false },
+      { "text": "Damit Zahlungsfristen verlängert werden", "correct": false },
+      { "text": "Damit Bestellnummern vergeben werden", "correct": false }
+    ],
+    "explanation": "Qualitätsprüfung zeigt, ob die Ware mangelfrei und wie vereinbart geliefert wurde."
+  },
+  {
+    "id": "lf-02-sach-besch-030",
+    "question": "Warum müssen offene Mängel zeitnah gemeldet werden?",
+    "answers": [
+      { "text": "Sonst können Rechte verloren gehen", "correct": true },
+      { "text": "Sonst werden sie zu Wunschkriterien", "correct": false },
+      { "text": "Sonst erhöht sich der Liefererrabatt", "correct": false },
+      { "text": "Sonst entsteht automatisch Eigentum", "correct": false }
+    ],
+    "explanation": "Besonders im Handelskauf müssen erkennbare Mängel rechtzeitig gerügt werden."
+  },
+  {
+    "id": "lf-02-sach-besch-031",
+    "question": "Warum werden Mängel dokumentiert?",
+    "answers": [
+      { "text": "Damit Beanstandungen nachweisbar sind", "correct": true },
+      { "text": "Damit Liefermengen neu kalkuliert werden", "correct": false },
+      { "text": "Damit Angebote automatisch entstehen", "correct": false },
+      { "text": "Damit Zahlungsziele ersetzt werden", "correct": false }
+    ],
+    "explanation": "Mängeldokumentation unterstützt Reklamation, Nachverfolgung und rechtliche Absicherung."
+  },
+  {
+    "id": "lf-02-sach-besch-032",
+    "question": "Warum ist ein Lieferschein beim Wareneingang nützlich?",
+    "answers": [
+      { "text": "Er hilft beim Abgleich der Lieferung", "correct": true },
+      { "text": "Er bestätigt die Abnahme der IT-Leistung", "correct": false },
+      { "text": "Er bewertet Lieferanten nach Nutzwert", "correct": false },
+      { "text": "Er regelt Skonto und Zahlungsziel", "correct": false }
+    ],
+    "explanation": "Der Lieferschein enthält Angaben zur gelieferten Ware und unterstützt die Prüfung."
+  },
+  {
+    "id": "lf-02-sach-besch-033",
+    "question": "Warum sollte der Wareneingang nicht ungeprüft akzeptiert werden?",
+    "answers": [
+      { "text": "Mängel oder Falschlieferungen könnten übersehen werden", "correct": true },
+      { "text": "Lieferungen gelten dann als besser bewertet", "correct": false },
+      { "text": "Bestellungen werden dadurch eindeutiger", "correct": false },
+      { "text": "Angebote werden dadurch vergleichbarer", "correct": false }
+    ],
+    "explanation": "Eine sorgfältige Wareneingangsprüfung schützt vor späteren Problemen und Nachweisschwierigkeiten."
+  },
+  {
+    "id": "lf-02-sach-besch-034",
+    "question": "Warum ist ein Abnahmeprotokoll bei IT-Leistungen sinnvoll?",
+    "answers": [
+      { "text": "Es dokumentiert Prüfung, Zustand und Ergebnis", "correct": true },
+      { "text": "Es beschreibt erste Kundenanforderungen", "correct": false },
+      { "text": "Es ersetzt die technische Umsetzung", "correct": false },
+      { "text": "Es bewertet Lieferantenangebote vorab", "correct": false }
+    ],
+    "explanation": "Ein Abnahmeprotokoll belegt, was geprüft wurde und ob offene Punkte bestehen."
+  },
+  {
+    "id": "lf-02-sach-besch-035",
+    "question": "Warum ist ein Übergabeprotokoll beim Kunden wichtig?",
+    "answers": [
+      { "text": "Die Übergabe wird nachvollziehbar dokumentiert", "correct": true },
+      { "text": "Die Anforderungsanalyse wird dadurch ersetzt", "correct": false },
+      { "text": "Die Installation wird automatisch durchgeführt", "correct": false },
+      { "text": "Die Produktqualität wird dadurch erhöht", "correct": false }
+    ],
+    "explanation": "Das Übergabeprotokoll dokumentiert Ausstattung, Einweisung, Zustand und mögliche offene Punkte."
+  },
+  {
+    "id": "lf-02-sach-besch-036",
+    "question": "Warum sollten Testfälle oder Prüfpunkte vor der Übergabe festgelegt werden?",
+    "answers": [
+      { "text": "Damit die Funktion gezielt geprüft werden kann", "correct": true },
+      { "text": "Damit Testergebnisse offen interpretierbar bleiben", "correct": false },
+      { "text": "Damit Abnahmekriterien später entstehen", "correct": false },
+      { "text": "Damit Lieferanten frei bewerten können", "correct": false }
+    ],
+    "explanation": "Konkrete Prüfpunkte helfen, die Erfüllung der Anforderungen nachzuweisen."
+  },
+  {
+    "id": "lf-02-sach-besch-037",
+    "question": "Warum ist Dokumentation im Beschaffungsprozess wichtig?",
+    "answers": [
+      { "text": "Entscheidungen und Abläufe bleiben nachvollziehbar", "correct": true },
+      { "text": "Lieferungen werden dadurch automatisch korrekt", "correct": false },
+      { "text": "Anforderungen werden dadurch verzichtbar", "correct": false },
+      { "text": "Preise bleiben dadurch dauerhaft gleich", "correct": false }
+    ],
+    "explanation": "Dokumentation unterstützt Nachvollziehbarkeit, Betrieb, Abnahme und spätere Änderungen."
+  },
+  {
+    "id": "lf-02-sach-besch-038",
+    "question": "Warum ist eine vollständige Dokumentation bei späterer Wartung hilfreich?",
+    "answers": [
+      { "text": "Techniker erkennen Aufbau und Entscheidungen schneller", "correct": true },
+      { "text": "Ersatzteile werden dadurch automatisch geliefert", "correct": false },
+      { "text": "Geräte reparieren sich dadurch selbst", "correct": false },
+      { "text": "Wartungsaufgaben werden dadurch gelöscht", "correct": false }
+    ],
+    "explanation": "Dokumentierte Systeme lassen sich leichter betreiben, erweitern und warten."
+  },
+  {
+    "id": "lf-02-sach-besch-039",
+    "question": "Warum sollten Altgeräte bei einer Arbeitsplatzbeschaffung berücksichtigt werden?",
+    "answers": [
+      { "text": "Entsorgung, Datenschutz und Wiederverwertung müssen geplant werden", "correct": true },
+      { "text": "Altgeräte bestimmen den Neupreis vollständig", "correct": false },
+      { "text": "Altgeräte ersetzen die Bedarfsanalyse", "correct": false },
+      { "text": "Altgeräte erhöhen automatisch die Kompatibilität", "correct": false }
+    ],
+    "explanation": "Bei Altgeräten können Datenlöschung, Recycling, Rückgabe oder Wiederverwendung relevant sein."
+  },
+  {
+    "id": "lf-02-sach-besch-040",
+    "question": "Warum sollte der Beschaffungsprozess nach Abschluss reflektiert werden?",
+    "answers": [
+      { "text": "Verbesserungen für zukünftige Beschaffungen werden erkennbar", "correct": true },
+      { "text": "Unterlagen werden dadurch automatisch gelöscht", "correct": false },
+      { "text": "Lieferantenbewertungen werden dadurch vermieden", "correct": false },
+      { "text": "Fehler bleiben dadurch undokumentiert", "correct": false }
+    ],
+    "explanation": "Reflexion hilft, Abläufe, Entscheidungen und Ergebnisse für kommende Beschaffungen zu verbessern."
+  }
+]

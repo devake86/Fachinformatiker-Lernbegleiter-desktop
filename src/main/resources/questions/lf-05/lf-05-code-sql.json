@@ -1,0 +1,442 @@
+[
+  {
+    "id": "lf-05-code-sql-001",
+    "question": "Was liefert diese SQL-Abfrage?\n\nSELECT name\nFROM players;",
+    "answers": [
+      { "text": "Alle Werte der Spalte name aus der Tabelle players", "correct": true },
+      { "text": "Alle Spalten aus der Tabelle players", "correct": false },
+      { "text": "Nur Spieler mit dem Namen players", "correct": false },
+      { "text": "Eine neue Tabelle namens name", "correct": false }
+    ],
+    "explanation": "SELECT name wählt nur die Spalte name aus der Tabelle players aus."
+  },
+  {
+    "id": "lf-05-code-sql-002",
+    "question": "Welche SQL-Abfrage gibt alle Spalten aus der Tabelle players aus?",
+    "answers": [
+      { "text": "SELECT * FROM players;", "correct": true },
+      { "text": "SELECT players FROM *;", "correct": false },
+      { "text": "GET * FROM players;", "correct": false },
+      { "text": "SHOW players *;", "correct": false }
+    ],
+    "explanation": "SELECT * wählt alle Spalten einer Tabelle aus."
+  },
+  {
+    "id": "lf-05-code-sql-003",
+    "question": "Was bewirkt die WHERE-Klausel?\n\nSELECT name\nFROM players\nWHERE score > 100;",
+    "answers": [
+      { "text": "Es werden nur Datensätze mit score größer als 100 ausgewählt", "correct": true },
+      { "text": "Es werden alle Scores auf 100 gesetzt", "correct": false },
+      { "text": "Es wird eine neue Spalte score erstellt", "correct": false },
+      { "text": "Es werden alle Spieler gelöscht", "correct": false }
+    ],
+    "explanation": "WHERE filtert Datensätze nach einer Bedingung."
+  },
+  {
+    "id": "lf-05-code-sql-004",
+    "question": "Welche Abfrage sucht Spieler mit genau 50 Punkten?",
+    "answers": [
+      { "text": "SELECT * FROM players WHERE score = 50;", "correct": true },
+      { "text": "SELECT * FROM players WHERE score == 50;", "correct": false },
+      { "text": "SELECT * FROM players IF score = 50;", "correct": false },
+      { "text": "SELECT * FROM players SET score = 50;", "correct": false }
+    ],
+    "explanation": "In SQL wird Gleichheit in Bedingungen mit = geprüft."
+  },
+  {
+    "id": "lf-05-code-sql-005",
+    "question": "Was liefert diese SQL-Abfrage?\n\nSELECT name\nFROM players\nWHERE level >= 3;",
+    "answers": [
+      { "text": "Namen von Spielern mit Level 3 oder höher", "correct": true },
+      { "text": "Namen von Spielern mit Level kleiner als 3", "correct": false },
+      { "text": "Alle Spieler unabhängig vom Level", "correct": false },
+      { "text": "Eine neue Spalte level", "correct": false }
+    ],
+    "explanation": ">= bedeutet größer oder gleich."
+  },
+  {
+    "id": "lf-05-code-sql-006",
+    "question": "Was bewirkt AND in dieser Abfrage?\n\nSELECT *\nFROM players\nWHERE score > 100 AND level > 5;",
+    "answers": [
+      { "text": "Beide Bedingungen müssen erfüllt sein", "correct": true },
+      { "text": "Nur eine der Bedingungen muss erfüllt sein", "correct": false },
+      { "text": "Die Bedingungen werden ignoriert", "correct": false },
+      { "text": "Die Tabelle wird gelöscht", "correct": false }
+    ],
+    "explanation": "AND verknüpft Bedingungen so, dass alle Bedingungen wahr sein müssen."
+  },
+  {
+    "id": "lf-05-code-sql-007",
+    "question": "Was bewirkt OR in dieser Abfrage?\n\nSELECT *\nFROM players\nWHERE level = 1 OR level = 2;",
+    "answers": [
+      { "text": "Es reicht, wenn eine der Bedingungen erfüllt ist", "correct": true },
+      { "text": "Beide Bedingungen müssen gleichzeitig erfüllt sein", "correct": false },
+      { "text": "Es werden nur Level größer als 2 angezeigt", "correct": false },
+      { "text": "Die Level werden auf 1 oder 2 geändert", "correct": false }
+    ],
+    "explanation": "OR liefert Datensätze, bei denen mindestens eine Bedingung wahr ist."
+  },
+  {
+    "id": "lf-05-code-sql-008",
+    "question": "Was macht NOT in dieser SQL-Abfrage?\n\nSELECT *\nFROM players\nWHERE NOT level = 1;",
+    "answers": [
+      { "text": "Es werden Spieler ausgewählt, deren level nicht 1 ist", "correct": true },
+      { "text": "Es werden nur Spieler mit level 1 ausgewählt", "correct": false },
+      { "text": "Alle Level werden gelöscht", "correct": false },
+      { "text": "Die Bedingung wird verdoppelt", "correct": false }
+    ],
+    "explanation": "NOT kehrt eine Bedingung um."
+  },
+  {
+    "id": "lf-05-code-sql-009",
+    "question": "Was bewirkt ORDER BY score ASC?\n\nSELECT name, score\nFROM players\nORDER BY score ASC;",
+    "answers": [
+      { "text": "Die Ergebnisse werden nach score aufsteigend sortiert", "correct": true },
+      { "text": "Die Ergebnisse werden nach score absteigend sortiert", "correct": false },
+      { "text": "Die Spalte score wird gelöscht", "correct": false },
+      { "text": "Nur der höchste score wird angezeigt", "correct": false }
+    ],
+    "explanation": "ASC sortiert aufsteigend, also von klein nach groß."
+  },
+  {
+    "id": "lf-05-code-sql-010",
+    "question": "Was bewirkt ORDER BY score DESC?\n\nSELECT name, score\nFROM players\nORDER BY score DESC;",
+    "answers": [
+      { "text": "Die Ergebnisse werden nach score absteigend sortiert", "correct": true },
+      { "text": "Die Ergebnisse werden nach score aufsteigend sortiert", "correct": false },
+      { "text": "Die Werte in score werden gelöscht", "correct": false },
+      { "text": "Es werden nur leere Scores angezeigt", "correct": false }
+    ],
+    "explanation": "DESC sortiert absteigend, also von groß nach klein."
+  },
+  {
+    "id": "lf-05-code-sql-011",
+    "question": "Was bewirkt LIMIT 3?\n\nSELECT name\nFROM players\nLIMIT 3;",
+    "answers": [
+      { "text": "Es werden höchstens 3 Datensätze ausgegeben", "correct": true },
+      { "text": "Es werden genau 3 Spalten ausgegeben", "correct": false },
+      { "text": "Es werden alle Datensätze ab ID 3 gelöscht", "correct": false },
+      { "text": "Es werden nur Namen mit 3 Zeichen angezeigt", "correct": false }
+    ],
+    "explanation": "LIMIT begrenzt die Anzahl der ausgegebenen Datensätze."
+  },
+  {
+    "id": "lf-05-code-sql-012",
+    "question": "Welche Abfrage gibt die drei höchsten Scores aus?",
+    "answers": [
+      { "text": "SELECT * FROM players ORDER BY score DESC LIMIT 3;", "correct": true },
+      { "text": "SELECT * FROM players ORDER BY score ASC LIMIT 3;", "correct": false },
+      { "text": "SELECT * FROM players LIMIT score 3;", "correct": false },
+      { "text": "SELECT TOP score FROM players;", "correct": false }
+    ],
+    "explanation": "DESC sortiert die höchsten Werte zuerst, LIMIT 3 begrenzt auf drei Datensätze."
+  },
+  {
+    "id": "lf-05-code-sql-013",
+    "question": "Welche Abfrage sucht Namen, die mit A beginnen?",
+    "answers": [
+      { "text": "SELECT * FROM players WHERE name LIKE 'A%';", "correct": true },
+      { "text": "SELECT * FROM players WHERE name = 'A%';", "correct": false },
+      { "text": "SELECT * FROM players WHERE name STARTS 'A';", "correct": false },
+      { "text": "SELECT * FROM players LIKE name 'A';", "correct": false }
+    ],
+    "explanation": "LIKE 'A%' sucht Zeichenketten, die mit A beginnen."
+  },
+  {
+    "id": "lf-05-code-sql-014",
+    "question": "Was bedeutet das Prozentzeichen in LIKE 'Quiz%'?",
+    "answers": [
+      { "text": "Es steht für beliebig viele folgende Zeichen", "correct": true },
+      { "text": "Es steht immer für genau ein Zeichen", "correct": false },
+      { "text": "Es berechnet einen Prozentwert", "correct": false },
+      { "text": "Es löscht passende Texte", "correct": false }
+    ],
+    "explanation": "% ist ein Platzhalter für beliebig viele Zeichen."
+  },
+  {
+    "id": "lf-05-code-sql-015",
+    "question": "Was liefert diese Abfrage?\n\nSELECT *\nFROM players\nWHERE score BETWEEN 10 AND 20;",
+    "answers": [
+      { "text": "Datensätze mit score zwischen 10 und 20", "correct": true },
+      { "text": "Datensätze mit score kleiner als 10 oder größer als 20", "correct": false },
+      { "text": "Nur Datensätze mit score genau 10", "correct": false },
+      { "text": "Nur Datensätze mit score genau 20", "correct": false }
+    ],
+    "explanation": "BETWEEN prüft, ob ein Wert innerhalb eines Bereichs liegt."
+  },
+  {
+    "id": "lf-05-code-sql-016",
+    "question": "Welche Abfrage findet Datensätze ohne gespeicherte E-Mail-Adresse?",
+    "answers": [
+      { "text": "SELECT * FROM users WHERE email IS NULL;", "correct": true },
+      { "text": "SELECT * FROM users WHERE email = NULL;", "correct": false },
+      { "text": "SELECT * FROM users WHERE email == NULL;", "correct": false },
+      { "text": "SELECT * FROM users WHERE NULL email;", "correct": false }
+    ],
+    "explanation": "NULL wird in SQL mit IS NULL geprüft, nicht mit = NULL."
+  },
+  {
+    "id": "lf-05-code-sql-017",
+    "question": "Welche Abfrage findet Datensätze mit gespeicherter E-Mail-Adresse?",
+    "answers": [
+      { "text": "SELECT * FROM users WHERE email IS NOT NULL;", "correct": true },
+      { "text": "SELECT * FROM users WHERE email != NULL;", "correct": false },
+      { "text": "SELECT * FROM users WHERE email = NOT NULL;", "correct": false },
+      { "text": "SELECT * FROM users WHERE NOT NULL email;", "correct": false }
+    ],
+    "explanation": "IS NOT NULL prüft, ob ein Wert vorhanden ist."
+  },
+  {
+    "id": "lf-05-code-sql-018",
+    "question": "Was macht COUNT(*)?\n\nSELECT COUNT(*)\nFROM players;",
+    "answers": [
+      { "text": "Es zählt die Anzahl der Datensätze", "correct": true },
+      { "text": "Es addiert alle Scores", "correct": false },
+      { "text": "Es zählt nur leere Spalten", "correct": false },
+      { "text": "Es erstellt eine neue Tabelle", "correct": false }
+    ],
+    "explanation": "COUNT(*) zählt Datensätze einer Ergebnismenge."
+  },
+  {
+    "id": "lf-05-code-sql-019",
+    "question": "Was macht SUM(score)?\n\nSELECT SUM(score)\nFROM players;",
+    "answers": [
+      { "text": "Es berechnet die Summe aller score-Werte", "correct": true },
+      { "text": "Es zählt die Anzahl der Spieler", "correct": false },
+      { "text": "Es berechnet den kleinsten Score", "correct": false },
+      { "text": "Es sortiert nach score", "correct": false }
+    ],
+    "explanation": "SUM() bildet die Summe numerischer Werte."
+  },
+  {
+    "id": "lf-05-code-sql-020",
+    "question": "Was macht AVG(score)?\n\nSELECT AVG(score)\nFROM players;",
+    "answers": [
+      { "text": "Es berechnet den Durchschnitt der score-Werte", "correct": true },
+      { "text": "Es berechnet den höchsten Score", "correct": false },
+      { "text": "Es zählt alle Datensätze", "correct": false },
+      { "text": "Es sortiert alle Scores alphabetisch", "correct": false }
+    ],
+    "explanation": "AVG() berechnet den Durchschnitt numerischer Werte."
+  },
+  {
+    "id": "lf-05-code-sql-021",
+    "question": "Was macht MIN(score)?",
+    "answers": [
+      { "text": "Es liefert den kleinsten score-Wert", "correct": true },
+      { "text": "Es liefert den größten score-Wert", "correct": false },
+      { "text": "Es berechnet den Durchschnitt", "correct": false },
+      { "text": "Es zählt alle Datensätze", "correct": false }
+    ],
+    "explanation": "MIN() liefert den kleinsten Wert einer Spalte."
+  },
+  {
+    "id": "lf-05-code-sql-022",
+    "question": "Was macht MAX(score)?",
+    "answers": [
+      { "text": "Es liefert den größten score-Wert", "correct": true },
+      { "text": "Es liefert den kleinsten score-Wert", "correct": false },
+      { "text": "Es berechnet die Anzahl der Werte", "correct": false },
+      { "text": "Es löscht doppelte Werte", "correct": false }
+    ],
+    "explanation": "MAX() liefert den größten Wert einer Spalte."
+  },
+  {
+    "id": "lf-05-code-sql-023",
+    "question": "Was bewirkt GROUP BY level?\n\nSELECT level, COUNT(*)\nFROM players\nGROUP BY level;",
+    "answers": [
+      { "text": "Die Datensätze werden nach level gruppiert und je Gruppe gezählt", "correct": true },
+      { "text": "Alle Level werden gelöscht", "correct": false },
+      { "text": "Nur ein zufälliges Level wird angezeigt", "correct": false },
+      { "text": "Die Tabelle wird nach level umbenannt", "correct": false }
+    ],
+    "explanation": "GROUP BY bildet Gruppen, auf die Aggregatfunktionen wie COUNT() angewendet werden können."
+  },
+  {
+    "id": "lf-05-code-sql-024",
+    "question": "Welche Abfrage zählt Spieler pro Klasse?",
+    "answers": [
+      { "text": "SELECT class_id, COUNT(*) FROM players GROUP BY class_id;", "correct": true },
+      { "text": "SELECT class_id, COUNT(*) FROM players ORDER BY class_id;", "correct": false },
+      { "text": "SELECT class_id FROM players COUNT BY class_id;", "correct": false },
+      { "text": "GROUP players BY class_id SELECT COUNT(*);", "correct": false }
+    ],
+    "explanation": "GROUP BY class_id gruppiert nach Klasse; COUNT(*) zählt die Datensätze je Gruppe."
+  },
+  {
+    "id": "lf-05-code-sql-025",
+    "question": "Was macht DISTINCT?\n\nSELECT DISTINCT level\nFROM players;",
+    "answers": [
+      { "text": "Es gibt jeden level-Wert nur einmal aus", "correct": true },
+      { "text": "Es löscht doppelte level-Werte aus der Tabelle", "correct": false },
+      { "text": "Es sortiert level automatisch absteigend", "correct": false },
+      { "text": "Es zählt alle level-Werte", "correct": false }
+    ],
+    "explanation": "DISTINCT entfernt doppelte Werte nur aus der Ergebnismenge."
+  },
+  {
+    "id": "lf-05-code-sql-026",
+    "question": "Welche Anweisung fügt einen neuen Datensatz ein?",
+    "answers": [
+      { "text": "INSERT INTO players (name, score) VALUES ('Quizbot', 100);", "correct": true },
+      { "text": "ADD INTO players (name, score) VALUES ('Quizbot', 100);", "correct": false },
+      { "text": "CREATE players (name, score) VALUES ('Quizbot', 100);", "correct": false },
+      { "text": "SELECT INTO players ('Quizbot', 100);", "correct": false }
+    ],
+    "explanation": "INSERT INTO fügt neue Datensätze in eine Tabelle ein."
+  },
+  {
+    "id": "lf-05-code-sql-027",
+    "question": "Was macht diese SQL-Anweisung?\n\nUPDATE players\nSET score = 200\nWHERE id = 5;",
+    "answers": [
+      { "text": "Sie setzt score bei dem Datensatz mit id 5 auf 200", "correct": true },
+      { "text": "Sie fügt einen neuen Spieler mit id 5 ein", "correct": false },
+      { "text": "Sie löscht den Spieler mit id 5", "correct": false },
+      { "text": "Sie benennt die Tabelle players um", "correct": false }
+    ],
+    "explanation": "UPDATE ändert vorhandene Datensätze. WHERE begrenzt die Änderung auf id 5."
+  },
+  {
+    "id": "lf-05-code-sql-028",
+    "question": "Warum ist WHERE bei UPDATE oft wichtig?",
+    "answers": [
+      { "text": "Ohne WHERE können alle Datensätze geändert werden", "correct": true },
+      { "text": "Ohne WHERE wird UPDATE nie ausgeführt", "correct": false },
+      { "text": "WHERE erstellt automatisch Backups", "correct": false },
+      { "text": "WHERE löscht die Tabelle", "correct": false }
+    ],
+    "explanation": "Eine UPDATE-Anweisung ohne WHERE betrifft typischerweise alle Datensätze der Tabelle."
+  },
+  {
+    "id": "lf-05-code-sql-029",
+    "question": "Was macht diese SQL-Anweisung?\n\nDELETE FROM players\nWHERE id = 5;",
+    "answers": [
+      { "text": "Sie löscht den Datensatz mit id 5", "correct": true },
+      { "text": "Sie löscht nur die Spalte id", "correct": false },
+      { "text": "Sie setzt id auf 5", "correct": false },
+      { "text": "Sie erstellt einen neuen Datensatz mit id 5", "correct": false }
+    ],
+    "explanation": "DELETE FROM löscht Datensätze. WHERE begrenzt das Löschen auf id 5."
+  },
+  {
+    "id": "lf-05-code-sql-030",
+    "question": "Warum ist WHERE bei DELETE oft wichtig?",
+    "answers": [
+      { "text": "Ohne WHERE können alle Datensätze gelöscht werden", "correct": true },
+      { "text": "Ohne WHERE wird immer nur ein Datensatz gelöscht", "correct": false },
+      { "text": "WHERE macht DELETE zu SELECT", "correct": false },
+      { "text": "WHERE erstellt automatisch eine neue Tabelle", "correct": false }
+    ],
+    "explanation": "DELETE ohne WHERE kann alle Datensätze einer Tabelle entfernen."
+  },
+  {
+    "id": "lf-05-code-sql-031",
+    "question": "Was macht diese SQL-Anweisung?\n\nCREATE TABLE players (\n  id INTEGER,\n  name VARCHAR(50)\n);",
+    "answers": [
+      { "text": "Sie erstellt eine Tabelle players mit den Spalten id und name", "correct": true },
+      { "text": "Sie fügt einen Spieler in die Tabelle players ein", "correct": false },
+      { "text": "Sie löscht die Tabelle players", "correct": false },
+      { "text": "Sie fragt alle Spieler ab", "correct": false }
+    ],
+    "explanation": "CREATE TABLE erstellt eine neue Tabelle mit den angegebenen Spalten."
+  },
+  {
+    "id": "lf-05-code-sql-032",
+    "question": "Welche Anweisung löscht eine Tabelle vollständig?",
+    "answers": [
+      { "text": "DROP TABLE players;", "correct": true },
+      { "text": "DELETE COLUMN players;", "correct": false },
+      { "text": "REMOVE DATABASE players;", "correct": false },
+      { "text": "CLEAR SELECT players;", "correct": false }
+    ],
+    "explanation": "DROP TABLE entfernt die Tabelle selbst."
+  },
+  {
+    "id": "lf-05-code-sql-033",
+    "question": "Welche Anweisung fügt eine Spalte hinzu?",
+    "answers": [
+      { "text": "ALTER TABLE players ADD COLUMN email VARCHAR(100);", "correct": true },
+      { "text": "UPDATE TABLE players ADD email VARCHAR(100);", "correct": false },
+      { "text": "INSERT COLUMN email INTO players;", "correct": false },
+      { "text": "CREATE COLUMN email IN players;", "correct": false }
+    ],
+    "explanation": "ALTER TABLE ... ADD COLUMN ergänzt eine bestehende Tabelle um eine Spalte."
+  },
+  {
+    "id": "lf-05-code-sql-034",
+    "question": "Welche SQL-Anweisung gehört zur DQL?",
+    "answers": [
+      { "text": "SELECT", "correct": true },
+      { "text": "INSERT", "correct": false },
+      { "text": "UPDATE", "correct": false },
+      { "text": "DELETE", "correct": false }
+    ],
+    "explanation": "SELECT gehört zur Data Query Language und dient der Datenabfrage."
+  },
+  {
+    "id": "lf-05-code-sql-035",
+    "question": "Welche SQL-Anweisung gehört zur DDL?",
+    "answers": [
+      { "text": "CREATE TABLE", "correct": true },
+      { "text": "SELECT", "correct": false },
+      { "text": "INSERT INTO", "correct": false },
+      { "text": "UPDATE", "correct": false }
+    ],
+    "explanation": "CREATE TABLE gehört zur Data Definition Language, weil Tabellenstrukturen definiert werden."
+  },
+  {
+    "id": "lf-05-code-sql-036",
+    "question": "Welche SQL-Anweisung gehört zur DML?",
+    "answers": [
+      { "text": "INSERT INTO", "correct": true },
+      { "text": "CREATE TABLE", "correct": false },
+      { "text": "DROP TABLE", "correct": false },
+      { "text": "ALTER TABLE", "correct": false }
+    ],
+    "explanation": "INSERT INTO gehört zur Data Manipulation Language, weil Daten verändert werden."
+  },
+  {
+    "id": "lf-05-code-sql-037",
+    "question": "Was macht ein INNER JOIN grundsätzlich?",
+    "answers": [
+      { "text": "Er verbindet Tabellen und liefert nur passende Datensätze aus beiden Tabellen", "correct": true },
+      { "text": "Er liefert immer alle Datensätze aus beiden Tabellen", "correct": false },
+      { "text": "Er löscht doppelte Tabellen", "correct": false },
+      { "text": "Er erstellt automatisch Primärschlüssel", "correct": false }
+    ],
+    "explanation": "INNER JOIN liefert Datensätze, bei denen die Join-Bedingung in beiden Tabellen passt."
+  },
+  {
+    "id": "lf-05-code-sql-038",
+    "question": "Was ist die Join-Bedingung in dieser Abfrage?\n\nSELECT players.name, classes.title\nFROM players\nINNER JOIN classes\nON players.class_id = classes.id;",
+    "answers": [
+      { "text": "players.class_id = classes.id", "correct": true },
+      { "text": "players.name, classes.title", "correct": false },
+      { "text": "FROM players", "correct": false },
+      { "text": "INNER JOIN classes", "correct": false }
+    ],
+    "explanation": "Die ON-Klausel enthält die Bedingung, nach der Tabellen verbunden werden."
+  },
+  {
+    "id": "lf-05-code-sql-039",
+    "question": "Was gibt diese Abfrage grundsätzlich aus?\n\nSELECT players.name, classes.title\nFROM players\nINNER JOIN classes\nON players.class_id = classes.id;",
+    "answers": [
+      { "text": "Spielernamen zusammen mit dem passenden Klassentitel", "correct": true },
+      { "text": "Nur Klassentitel ohne Spielernamen", "correct": false },
+      { "text": "Alle Tabellenstrukturen der Datenbank", "correct": false },
+      { "text": "Eine neue Tabelle players", "correct": false }
+    ],
+    "explanation": "Die Abfrage verbindet players mit classes und wählt je Spieler den passenden Klassentitel aus."
+  },
+  {
+    "id": "lf-05-code-sql-040",
+    "question": "Welche Abfrage sortiert Namen alphabetisch?",
+    "answers": [
+      { "text": "SELECT name FROM players ORDER BY name ASC;", "correct": true },
+      { "text": "SELECT name FROM players GROUP BY name DESC;", "correct": false },
+      { "text": "SELECT name FROM players WHERE name ASC;", "correct": false },
+      { "text": "SELECT name FROM players SORT name;", "correct": false }
+    ],
+    "explanation": "ORDER BY name ASC sortiert die Ergebnismenge aufsteigend nach name."
+  }
+]

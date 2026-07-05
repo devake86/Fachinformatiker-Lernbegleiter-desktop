@@ -1,0 +1,497 @@
+[
+  {
+    "id": "lf-02-sach-recht-001",
+    "question": "Warum ist Rechtsfähigkeit für Verträge wichtig?",
+    "answers": [
+      { "text": "Nur rechtsfähige Personen können Träger von Rechten und Pflichten sein", "correct": true },
+      { "text": "Geschäftsfähigkeit ersetzt die Rechtsfähigkeit", "correct": false },
+      { "text": "Willenserklärungen entstehen dadurch automatisch", "correct": false },
+      { "text": "Verträge benötigen dadurch keine Parteien", "correct": false }
+    ],
+    "explanation": "Rechtsfähigkeit ist die Grundlage dafür, Rechte und Pflichten aus Verträgen haben zu können."
+  },
+  {
+    "id": "lf-02-sach-recht-002",
+    "question": "Warum unterscheidet man natürliche und juristische Personen?",
+    "answers": [
+      { "text": "Weil sowohl Menschen als auch Organisationen rechtsfähig sein können", "correct": true },
+      { "text": "Weil Menschen als Handelsgesellschaften gelten", "correct": false },
+      { "text": "Weil Organisationen keine Verträge schließen können", "correct": false },
+      { "text": "Weil Verbraucher im Handelsregister stehen", "correct": false }
+    ],
+    "explanation": "Menschen sind natürliche Personen; Organisationen wie Gesellschaften können juristische Personen sein."
+  },
+  {
+    "id": "lf-02-sach-recht-003",
+    "question": "Warum ist Geschäftsfähigkeit beim Vertragsschluss wichtig?",
+    "answers": [
+      { "text": "Sie entscheidet, ob jemand wirksam Rechtsgeschäfte abschließen kann", "correct": true },
+      { "text": "Sie beschreibt die Trägerschaft von Rechten", "correct": false },
+      { "text": "Sie legt handelsrechtliche Buchführungspflichten fest", "correct": false },
+      { "text": "Sie bestimmt die Höhe der Umsatzsteuer", "correct": false }
+    ],
+    "explanation": "Geschäftsfähigkeit betrifft die Wirksamkeit eigener Willenserklärungen."
+  },
+  {
+    "id": "lf-02-sach-recht-004",
+    "question": "Warum sind Rechtsgeschäfte von Geschäftsunfähigen meist unwirksam?",
+    "answers": [
+      { "text": "Sie können den rechtlichen Willen nicht wirksam erklären", "correct": true },
+      { "text": "Sie gelten dadurch als eingetragene Kaufleute", "correct": false },
+      { "text": "Sie werden dadurch Eigentümer jeder Sache", "correct": false },
+      { "text": "Sie schließen Verträge durch Besitzwechsel", "correct": false }
+    ],
+    "explanation": "Geschäftsunfähigkeit schützt Personen, die eigene Rechtsgeschäfte nicht wirksam steuern können."
+  },
+  {
+    "id": "lf-02-sach-recht-005",
+    "question": "Warum braucht ein Kaufvertrag übereinstimmende Willenserklärungen?",
+    "answers": [
+      { "text": "Angebot und Annahme müssen zusammenpassen", "correct": true },
+      { "text": "Anfrage und Werbung bilden den Vertrag", "correct": false },
+      { "text": "Besitz und Eigentum genügen dafür", "correct": false },
+      { "text": "Lieferschein und Rechnung ersetzen die Einigung", "correct": false }
+    ],
+    "explanation": "Ein Kaufvertrag kommt grundsätzlich durch Antrag und Annahme zustande."
+  },
+  {
+    "id": "lf-02-sach-recht-006",
+    "question": "Warum ist eine Anfrage normalerweise noch kein Kaufvertrag?",
+    "answers": [
+      { "text": "Sie dient meist nur der Einholung von Informationen", "correct": true },
+      { "text": "Sie enthält bereits eine verbindliche Annahme", "correct": false },
+      { "text": "Sie legt den Vertragsschluss abschließend fest", "correct": false },
+      { "text": "Sie wirkt wie eine unterschriebene Bestellung", "correct": false }
+    ],
+    "explanation": "Eine Anfrage ist meist unverbindlich und bittet nur um ein Angebot."
+  },
+  {
+    "id": "lf-02-sach-recht-007",
+    "question": "Warum ist eine Werbung meist kein verbindliches Angebot?",
+    "answers": [
+      { "text": "Sie ist meist nur eine unverbindliche Anpreisung", "correct": true },
+      { "text": "Sie enthält bereits die Annahme des Kunden", "correct": false },
+      { "text": "Sie ersetzt konkrete Vertragsbedingungen", "correct": false },
+      { "text": "Sie löst direkt eine Zahlungspflicht aus", "correct": false }
+    ],
+    "explanation": "Werbung soll Interesse wecken, ist aber meist noch kein rechtlich bindendes Angebot."
+  },
+  {
+    "id": "lf-02-sach-recht-008",
+    "question": "Warum sollte ein Angebot genaue Angaben enthalten?",
+    "answers": [
+      { "text": "Damit Leistung, Preis und Bedingungen eindeutig sind", "correct": true },
+      { "text": "Damit die Annahme frei ausgelegt wird", "correct": false },
+      { "text": "Damit Vertragsbestandteile offen bleiben", "correct": false },
+      { "text": "Damit spätere Lieferung nicht bestimmbar ist", "correct": false }
+    ],
+    "explanation": "Ein Angebot sollte wesentliche Vertragsbedingungen wie Ware, Menge, Preis, Lieferzeit und Zahlungsbedingungen enthalten."
+  },
+  {
+    "id": "lf-02-sach-recht-009",
+    "question": "Warum ist die Annahmefrist eines Angebots wichtig?",
+    "answers": [
+      { "text": "Nach Ablauf ist der Anbieter meist nicht mehr gebunden", "correct": true },
+      { "text": "Nach Ablauf entsteht die Annahme automatisch", "correct": false },
+      { "text": "Nach Ablauf wird der Kaufpreis neu berechnet", "correct": false },
+      { "text": "Nach Ablauf wird die Anfrage verbindlich", "correct": false }
+    ],
+    "explanation": "Die Bindung an ein Angebot besteht nur innerhalb der geltenden Annahmefrist."
+  },
+  {
+    "id": "lf-02-sach-recht-010",
+    "question": "Warum ist Formfreiheit im Geschäftsalltag praktisch?",
+    "answers": [
+      { "text": "Viele Rechtsgeschäfte können ohne besondere Form abgeschlossen werden", "correct": true },
+      { "text": "Viele Rechtsgeschäfte benötigen Beurkundung", "correct": false },
+      { "text": "Viele Verträge entstehen durch Formmangel", "correct": false },
+      { "text": "Viele Absprachen werden dadurch ausgeschlossen", "correct": false }
+    ],
+    "explanation": "Formfreiheit ermöglicht schnelle Vertragsabschlüsse, auch mündlich oder durch schlüssiges Verhalten."
+  },
+  {
+    "id": "lf-02-sach-recht-011",
+    "question": "Warum ist Schriftform trotz Formfreiheit oft sinnvoll?",
+    "answers": [
+      { "text": "Vereinbarungen lassen sich später besser nachweisen", "correct": true },
+      { "text": "Mündliche Absprachen werden dadurch wirksamer", "correct": false },
+      { "text": "Leistungen werden dadurch bereits erfüllt", "correct": false },
+      { "text": "Mängelrechte werden dadurch ausgeschlossen", "correct": false }
+    ],
+    "explanation": "Schriftliche Vereinbarungen helfen bei Nachweis, Klarheit und Streitvermeidung."
+  },
+  {
+    "id": "lf-02-sach-recht-012",
+    "question": "Warum muss bei bestimmten Rechtsgeschäften ein Formzwang beachtet werden?",
+    "answers": [
+      { "text": "Bei Nichtbeachtung kann das Geschäft unwirksam sein", "correct": true },
+      { "text": "Bei Formzwang genügt schlüssiges Verhalten", "correct": false },
+      { "text": "Formzwang macht Geschäftsfähigkeit entbehrlich", "correct": false },
+      { "text": "Formzwang betrifft technische Schnittstellen", "correct": false }
+    ],
+    "explanation": "Bei vorgeschriebener Form kann ein Formmangel zur Nichtigkeit führen."
+  },
+  {
+    "id": "lf-02-sach-recht-013",
+    "question": "Warum unterscheidet man Besitz und Eigentum?",
+    "answers": [
+      { "text": "Tatsächliche und rechtliche Herrschaft können auseinanderfallen", "correct": true },
+      { "text": "Besitz beschreibt rechtliches Eigentum", "correct": false },
+      { "text": "Eigentum beschreibt tatsächliche Sachherrschaft", "correct": false },
+      { "text": "Besitz entsteht durch Kaufpreiszahlung", "correct": false }
+    ],
+    "explanation": "Besitz bedeutet tatsächliche Sachherrschaft, Eigentum rechtliche Zugehörigkeit."
+  },
+  {
+    "id": "lf-02-sach-recht-014",
+    "question": "Warum nutzen Verkäufer Eigentumsvorbehalt?",
+    "answers": [
+      { "text": "Sie bleiben bis zur vollständigen Zahlung Eigentümer", "correct": true },
+      { "text": "Sie behalten bis zur Zahlung den Besitz", "correct": false },
+      { "text": "Sie wandeln den Kauf in einen Dienstvertrag um", "correct": false },
+      { "text": "Sie schließen Mängelrechte des Käufers aus", "correct": false }
+    ],
+    "explanation": "Eigentumsvorbehalt sichert den Verkäufer, falls der Käufer nicht vollständig bezahlt."
+  },
+  {
+    "id": "lf-02-sach-recht-015",
+    "question": "Warum ist ein Stückkauf anders als ein Gattungskauf?",
+    "answers": [
+      { "text": "Beim Stückkauf ist eine konkrete einzelne Sache gemeint", "correct": true },
+      { "text": "Beim Stückkauf wird Ware nach Güte gewählt", "correct": false },
+      { "text": "Beim Gattungskauf ist ein Einzelstück festgelegt", "correct": false },
+      { "text": "Beim Gattungskauf entscheidet der Liefertermin", "correct": false }
+    ],
+    "explanation": "Beim Stückkauf ist genau diese Sache vereinbart; beim Gattungskauf nur Art, Menge und Güte."
+  },
+  {
+    "id": "lf-02-sach-recht-016",
+    "question": "Wann ist ein Fixkauf besonders kritisch?",
+    "answers": [
+      { "text": "Wenn der Liefertermin für den Zweck entscheidend ist", "correct": true },
+      { "text": "Wenn die Ware nach Gattung bestimmt wird", "correct": false },
+      { "text": "Wenn die Ware später abgerufen wird", "correct": false },
+      { "text": "Wenn eine Probezeit vereinbart wird", "correct": false }
+    ],
+    "explanation": "Beim Fixkauf kann eine verspätete Lieferung den Vertragszweck zunichtemachen."
+  },
+  {
+    "id": "lf-02-sach-recht-017",
+    "question": "Warum ist ein Terminkauf nicht automatisch ein Fixkauf?",
+    "answers": [
+      { "text": "Beim Terminkauf ist ein Termin vereinbart, aber nicht immer zweckentscheidend", "correct": true },
+      { "text": "Beim Terminkauf fehlt ein bestimmter Liefertermin", "correct": false },
+      { "text": "Beim Fixkauf wird kein Liefertermin vereinbart", "correct": false },
+      { "text": "Beim Fixkauf zählt ausschließlich die Menge", "correct": false }
+    ],
+    "explanation": "Beim Fixkauf ist die Einhaltung des Termins besonders wesentlich."
+  },
+  {
+    "id": "lf-02-sach-recht-018",
+    "question": "Warum ist ein Kauf auf Probe für Käufer vorteilhaft?",
+    "answers": [
+      { "text": "Die Ware kann geprüft und ggf. zurückgegeben werden", "correct": true },
+      { "text": "Die Ware wird nach Art und Güte bestimmt", "correct": false },
+      { "text": "Die Lieferung erfolgt zu einem Fixtermin", "correct": false },
+      { "text": "Die Ware wird später nach Bedarf abgerufen", "correct": false }
+    ],
+    "explanation": "Beim Kauf auf Probe kann die Kaufentscheidung von der Prüfung abhängig sein."
+  },
+  {
+    "id": "lf-02-sach-recht-019",
+    "question": "Warum ist ein Verbrauchsgüterkauf besonders geregelt?",
+    "answers": [
+      { "text": "Verbraucher sollen gegenüber Unternehmern besonders geschützt werden", "correct": true },
+      { "text": "Unternehmer erhalten dadurch Verbraucherschutzrechte", "correct": false },
+      { "text": "Privatkauf und Handelsgeschäft werden gleich behandelt", "correct": false },
+      { "text": "Grundstückskäufe werden dadurch vereinfacht", "correct": false }
+    ],
+    "explanation": "Beim Kauf zwischen Unternehmer und Verbraucher gelten besondere Verbraucherschutzregeln."
+  },
+  {
+    "id": "lf-02-sach-recht-020",
+    "question": "Warum gibt es bei Fernabsatzverträgen besondere Regeln?",
+    "answers": [
+      { "text": "Der Vertrag wird ohne persönlichen Kontakt geschlossen", "correct": true },
+      { "text": "Der Vertrag wird im Ladengeschäft geschlossen", "correct": false },
+      { "text": "Der Vertrag wird notariell beurkundet", "correct": false },
+      { "text": "Der Vertrag betrifft Handelsregistereinträge", "correct": false }
+    ],
+    "explanation": "Bei Fernabsatz werden z. B. Internet, Telefon oder E-Mail genutzt."
+  },
+  {
+    "id": "lf-02-sach-recht-021",
+    "question": "Warum ist die Unterscheidung zwischen Dienstvertrag und Werkvertrag wichtig?",
+    "answers": [
+      { "text": "Beim Werkvertrag wird ein Erfolg geschuldet, beim Dienstvertrag ein Tätigwerden", "correct": true },
+      { "text": "Beim Dienstvertrag steht ein abnahmepflichtiges Werk im Zentrum", "correct": false },
+      { "text": "Beim Werkvertrag wird lediglich sorgfältiges Bemühen geschuldet", "correct": false },
+      { "text": "Beide Vertragsarten haben dieselben Abnahmeregeln", "correct": false }
+    ],
+    "explanation": "Die Vertragspflichten und die Bewertung von Mängeln unterscheiden sich."
+  },
+  {
+    "id": "lf-02-sach-recht-022",
+    "question": "Warum ist beim Werkvertrag die Abnahme wichtig?",
+    "answers": [
+      { "text": "Der vereinbarte Erfolg wird geprüft und bestätigt", "correct": true },
+      { "text": "Die laufende Tätigkeit wird ohne Ergebnis bewertet", "correct": false },
+      { "text": "Die Ware wird nach Menge und Güte bestimmt", "correct": false },
+      { "text": "Die Anfrage wird dadurch verbindlich", "correct": false }
+    ],
+    "explanation": "Beim Werkvertrag ist das hergestellte Ergebnis zentral und muss abgenommen werden."
+  },
+  {
+    "id": "lf-02-sach-recht-023",
+    "question": "Warum ist ein Dienstvertrag für laufenden Support typisch?",
+    "answers": [
+      { "text": "Es wird meist sorgfältiges Tätigwerden geschuldet", "correct": true },
+      { "text": "Es wird ein bestimmtes fertiges Werk geschuldet", "correct": false },
+      { "text": "Es wird eine Sache gegen Zahlung verkauft", "correct": false },
+      { "text": "Es wird Eigentum gegen Rate übertragen", "correct": false }
+    ],
+    "explanation": "Bei Diensten steht die Tätigkeit im Vordergrund, nicht zwingend ein bestimmter Erfolg."
+  },
+  {
+    "id": "lf-02-sach-recht-024",
+    "question": "Warum können AGB im Geschäftsverkehr hilfreich sein?",
+    "answers": [
+      { "text": "Wiederkehrende Vertragsbedingungen werden einheitlich geregelt", "correct": true },
+      { "text": "Individuelle Abreden werden dadurch automatisch wichtiger", "correct": false },
+      { "text": "Mängelprüfungen werden dadurch technisch ersetzt", "correct": false },
+      { "text": "Verträge werden dadurch grundsätzlich unwirksam", "correct": false }
+    ],
+    "explanation": "AGB vereinheitlichen Standardbedingungen wie Lieferung, Zahlung oder Haftung."
+  },
+  {
+    "id": "lf-02-sach-recht-025",
+    "question": "Warum muss ein Käufer die gelieferte Ware prüfen?",
+    "answers": [
+      { "text": "Mängel, Falschlieferungen oder Mengenabweichungen müssen erkannt werden", "correct": true },
+      { "text": "Eigentumsvorbehalt wird dadurch aufgehoben", "correct": false },
+      { "text": "Der Vertrag entsteht dadurch erstmals", "correct": false },
+      { "text": "Die Werbung wird dadurch verbindlich", "correct": false }
+    ],
+    "explanation": "Die Wareneingangsprüfung schützt vor späteren Nachweisproblemen."
+  },
+  {
+    "id": "lf-02-sach-recht-026",
+    "question": "Warum ist beim zweiseitigen Handelskauf die Rügepflicht besonders wichtig?",
+    "answers": [
+      { "text": "Kaufleute müssen Mängel rechtzeitig anzeigen", "correct": true },
+      { "text": "Kaufleute können Lieferungen ungeprüft behandeln", "correct": false },
+      { "text": "Rügepflichten gelten dort erst nach Garantieende", "correct": false },
+      { "text": "Mängelrechte entstehen dort ohne Anzeige", "correct": false }
+    ],
+    "explanation": "Im kaufmännischen Verkehr können verspätete Mängelrügen Rechte gefährden."
+  },
+  {
+    "id": "lf-02-sach-recht-027",
+    "question": "Warum müssen offene Mängel schnell gerügt werden?",
+    "answers": [
+      { "text": "Sie sind sofort erkennbar und müssen zeitnah gemeldet werden", "correct": true },
+      { "text": "Sie zeigen sich erst nach längerer Nutzung", "correct": false },
+      { "text": "Sie betreffen fremde Rechte an der Sache", "correct": false },
+      { "text": "Sie führen direkt zu einer Garantieverlängerung", "correct": false }
+    ],
+    "explanation": "Offene Mängel fallen bei ordentlicher Prüfung sofort auf."
+  },
+  {
+    "id": "lf-02-sach-recht-028",
+    "question": "Warum können versteckte Mängel später gerügt werden?",
+    "answers": [
+      { "text": "Sie werden erst nach der normalen Prüfung erkennbar", "correct": true },
+      { "text": "Sie sind bei Übergabe direkt sichtbar", "correct": false },
+      { "text": "Sie betreffen den vereinbarten Liefertermin", "correct": false },
+      { "text": "Sie entstehen durch fehlende Annahmefrist", "correct": false }
+    ],
+    "explanation": "Versteckte Mängel zeigen sich oft erst im Betrieb oder bei späterer Nutzung."
+  },
+  {
+    "id": "lf-02-sach-recht-029",
+    "question": "Warum ist ein Sachmangel bei IT-Produkten besonders vielfältig möglich?",
+    "answers": [
+      { "text": "Funktion, Menge, Beschaffenheit oder Montageanleitung können betroffen sein", "correct": true },
+      { "text": "Sachmängel betreffen dabei ausschließlich Eigentumslagen", "correct": false },
+      { "text": "Sachmängel entstehen dort nur durch Zahlungstermine", "correct": false },
+      { "text": "Sachmängel beschreiben lediglich Werbeaussagen", "correct": false }
+    ],
+    "explanation": "Bei IT-Produkten können z. B. falsche Ausstattung, Defekte, fehlende Funktionen oder falsche Anleitungen Mängel sein."
+  },
+  {
+    "id": "lf-02-sach-recht-030",
+    "question": "Warum ist eine falsche Softwarelizenz ein Rechtsmangel?",
+    "answers": [
+      { "text": "Die rechtliche Nutzung kann eingeschränkt sein", "correct": true },
+      { "text": "Die physische Beschaffenheit der Hardware ist betroffen", "correct": false },
+      { "text": "Die gelieferte Stückzahl weicht dadurch ab", "correct": false },
+      { "text": "Die Art der gelieferten Ware wechselt dadurch", "correct": false }
+    ],
+    "explanation": "Ein Rechtsmangel liegt vor, wenn Rechte Dritter oder fehlende Nutzungsrechte die Nutzung beeinträchtigen."
+  },
+  {
+    "id": "lf-02-sach-recht-031",
+    "question": "Warum ist ein Quantitätsmangel beim Wareneingang leicht prüfbar?",
+    "answers": [
+      { "text": "Die gelieferte Menge kann mit Bestellung und Lieferschein verglichen werden", "correct": true },
+      { "text": "Die rechtliche Nutzungsbefugnis wird geprüft", "correct": false },
+      { "text": "Die technische Beschaffenheit wird bewertet", "correct": false },
+      { "text": "Die Echtheit der Unterschrift wird bestätigt", "correct": false }
+    ],
+    "explanation": "Beim Quantitätsmangel stimmt die gelieferte Menge nicht mit der vereinbarten Menge überein."
+  },
+  {
+    "id": "lf-02-sach-recht-032",
+    "question": "Warum ist ein Artmangel problematisch?",
+    "answers": [
+      { "text": "Es wurde eine andere Sache als vereinbart geliefert", "correct": true },
+      { "text": "Die richtige Sache wurde in falscher Menge geliefert", "correct": false },
+      { "text": "Die rechtliche Nutzung wird durch Dritte gestört", "correct": false },
+      { "text": "Die Ware wurde mit sichtbarem Schaden geliefert", "correct": false }
+    ],
+    "explanation": "Beim Artmangel stimmt die Art der gelieferten Ware nicht mit der Bestellung überein."
+  },
+  {
+    "id": "lf-02-sach-recht-033",
+    "question": "Warum ist Nacherfüllung oft der erste Schritt bei Mängeln?",
+    "answers": [
+      { "text": "Der Verkäufer soll den Mangel beheben oder Ersatz liefern können", "correct": true },
+      { "text": "Der Käufer soll den Vertrag sofort rückabwickeln", "correct": false },
+      { "text": "Der Kaufpreis wird dadurch unmittelbar erhöht", "correct": false },
+      { "text": "Die Ware gilt dadurch als rechtlich fremd", "correct": false }
+    ],
+    "explanation": "Nacherfüllung kann als Nachbesserung oder Ersatzlieferung erfolgen."
+  },
+  {
+    "id": "lf-02-sach-recht-034",
+    "question": "Wann kommen Rücktritt oder Minderung typischerweise in Betracht?",
+    "answers": [
+      { "text": "Wenn ein Mangel nicht ordnungsgemäß behoben wird", "correct": true },
+      { "text": "Wenn die Ware mangelfrei geliefert wurde", "correct": false },
+      { "text": "Wenn eine Anfrage unverbindlich bleibt", "correct": false },
+      { "text": "Wenn eine Werbung Interesse weckt", "correct": false }
+    ],
+    "explanation": "Rücktritt und Minderung sind Mängelrechte, wenn die Leistung nicht vertragsgemäß ist."
+  },
+  {
+    "id": "lf-02-sach-recht-035",
+    "question": "Warum ist Minderung für den Käufer interessant?",
+    "answers": [
+      { "text": "Er behält die Ware, zahlt aber weniger", "correct": true },
+      { "text": "Er gibt die Ware vollständig zurück", "correct": false },
+      { "text": "Er erhält Nachbesserung statt Preisänderung", "correct": false },
+      { "text": "Er schuldet zusätzlich Schadensersatz", "correct": false }
+    ],
+    "explanation": "Minderung senkt den Kaufpreis wegen eines Mangels."
+  },
+  {
+    "id": "lf-02-sach-recht-036",
+    "question": "Warum unterscheidet man Gewährleistung und Garantie?",
+    "answers": [
+      { "text": "Gewährleistung ist gesetzlich, Garantie ist freiwillig", "correct": true },
+      { "text": "Garantie ist die gesetzliche Mängelhaftung", "correct": false },
+      { "text": "Gewährleistung ist eine Werbezusage", "correct": false },
+      { "text": "Beide regeln ausschließlich Eigentumsvorbehalt", "correct": false }
+    ],
+    "explanation": "Gewährleistung folgt aus dem Gesetz; Garantie ist eine zusätzliche freiwillige Zusage."
+  },
+  {
+    "id": "lf-02-sach-recht-037",
+    "question": "Warum kann eine Garantie für Kunden trotzdem wichtig sein?",
+    "answers": [
+      { "text": "Sie kann zusätzliche Leistungen oder längere Zusagen enthalten", "correct": true },
+      { "text": "Sie ersetzt die gesetzliche Mängelhaftung vollständig", "correct": false },
+      { "text": "Sie macht eine Mängelprüfung entbehrlich", "correct": false },
+      { "text": "Sie entsteht durch jede Anfrage automatisch", "correct": false }
+    ],
+    "explanation": "Garantien können über gesetzliche Mängelrechte hinausgehen, abhängig von den Garantiebedingungen."
+  },
+  {
+    "id": "lf-02-sach-recht-038",
+    "question": "Warum ist eine Mängelrüge zu dokumentieren?",
+    "answers": [
+      { "text": "Mangel, Zeitpunkt und Forderung sind später nachweisbar", "correct": true },
+      { "text": "Der Mangel wird dadurch automatisch behoben", "correct": false },
+      { "text": "Die Rüge wird dadurch unverbindlich", "correct": false },
+      { "text": "Die Ware wird dadurch zum Stückkauf", "correct": false }
+    ],
+    "explanation": "Dokumentation hilft, Rechte zu sichern und den Ablauf nachvollziehbar zu machen."
+  },
+  {
+    "id": "lf-02-sach-recht-039",
+    "question": "Warum ist Annahmeverzug eine Leistungsstörung?",
+    "answers": [
+      { "text": "Der Käufer nimmt eine ordnungsgemäß angebotene Leistung nicht an", "correct": true },
+      { "text": "Der Verkäufer liefert eine mangelhafte Sache", "correct": false },
+      { "text": "Der Käufer erklärt rechtzeitig die Annahme", "correct": false },
+      { "text": "Die Parteien schließen einen Kaufvertrag", "correct": false }
+    ],
+    "explanation": "Annahmeverzug stört die Erfüllung, obwohl die Leistung angeboten wurde."
+  },
+  {
+    "id": "lf-02-sach-recht-040",
+    "question": "Warum ist Schlechtleistung im Kaufvertrag relevant?",
+    "answers": [
+      { "text": "Die gelieferte Leistung entspricht nicht der Vereinbarung", "correct": true },
+      { "text": "Die Leistung wird ordnungsgemäß angeboten", "correct": false },
+      { "text": "Der Käufer nimmt die Ware nicht an", "correct": false },
+      { "text": "Die Werbung bleibt unverbindlich", "correct": false }
+    ],
+    "explanation": "Schlechtleistung liegt vor, wenn eine Leistung fehlerhaft oder mangelhaft erbracht wird."
+  },
+  {
+    "id": "lf-02-sach-recht-041",
+    "question": "Warum ist die Kaufmannseigenschaft bei Wareneingängen wichtig?",
+    "answers": [
+      { "text": "Für Kaufleute können besondere Prüf- und Rügepflichten gelten", "correct": true },
+      { "text": "Für Kaufleute entfällt die Wareneingangsprüfung", "correct": false },
+      { "text": "Kaufmannseigenschaft ersetzt Geschäftsfähigkeit", "correct": false },
+      { "text": "Kaufleute schließen Verträge ohne Willenserklärung", "correct": false }
+    ],
+    "explanation": "Im Handelsrecht sind Untersuchungs- und Rügepflichten besonders wichtig."
+  },
+  {
+    "id": "lf-02-sach-recht-042",
+    "question": "Warum ist ein Istkaufmann rechtlich anders zu behandeln als ein Verbraucher?",
+    "answers": [
+      { "text": "Für Kaufleute gelten besondere handelsrechtliche Regeln", "correct": true },
+      { "text": "Verbraucher handeln als Handelsgewerbe", "correct": false },
+      { "text": "Istkaufleute gelten als natürliche Personen ohne Rechte", "correct": false },
+      { "text": "Istkaufleute haben keine Vertragspflichten", "correct": false }
+    ],
+    "explanation": "Kaufleute unterliegen unter anderem handelsrechtlichen Pflichten und Regeln."
+  },
+  {
+    "id": "lf-02-sach-recht-043",
+    "question": "Warum ist ein zweiseitiger Handelskauf strenger als ein Privatkauf?",
+    "answers": [
+      { "text": "Beide Seiten sind Kaufleute und müssen professionell prüfen", "correct": true },
+      { "text": "Beide Seiten handeln als Verbraucher", "correct": false },
+      { "text": "Beide Seiten umgehen handelsrechtliche Pflichten", "correct": false },
+      { "text": "Mängelrechte entstehen dort ohne Prüfung", "correct": false }
+    ],
+    "explanation": "Bei Kaufleuten wird erwartet, dass sie Lieferungen kaufmännisch sorgfältig prüfen."
+  },
+  {
+    "id": "lf-02-sach-recht-044",
+    "question": "Warum ist ein Werkvertrag bei einer Installation nach Pflichtenheft passend?",
+    "answers": [
+      { "text": "Ein bestimmtes funktionierendes Ergebnis wird geschuldet", "correct": true },
+      { "text": "Eine laufende Tätigkeit ohne Erfolg steht im Mittelpunkt", "correct": false },
+      { "text": "Ein Warenkauf nach Art und Menge steht im Mittelpunkt", "correct": false },
+      { "text": "Eine unverbindliche Informationsanfrage genügt", "correct": false }
+    ],
+    "explanation": "Bei installations- oder umsetzungsbezogenen Leistungen kann der vereinbarte Erfolg im Mittelpunkt stehen."
+  },
+  {
+    "id": "lf-02-sach-recht-045",
+    "question": "Warum sollte man Vertragsart und Leistung genau zuordnen?",
+    "answers": [
+      { "text": "Pflichten, Abnahme und Mängelrechte hängen davon ab", "correct": true },
+      { "text": "Vertragsarten haben dieselben Rechtsfolgen", "correct": false },
+      { "text": "Jede IT-Leistung ist ein Verbrauchsgüterkauf", "correct": false },
+      { "text": "Jede Supportleistung schuldet ein fertiges Werk", "correct": false }
+    ],
+    "explanation": "Kaufvertrag, Dienstvertrag und Werkvertrag unterscheiden sich bei geschuldeter Leistung und Rechtsfolgen."
+  }
+]

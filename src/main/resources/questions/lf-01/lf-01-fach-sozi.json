@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-fach-sozi-001",
+    "question": "Was beschreibt die soziale Marktwirtschaft?",
+    "answers": [
+      { "text": "Freier Markt mit sozialer Absicherung", "correct": true },
+      { "text": "Freier Markt ohne sozialen Ausgleich", "correct": false },
+      { "text": "Staatliche Planung mit Privateigentum", "correct": false },
+      { "text": "Soziale Absicherung ohne Wettbewerb", "correct": false }
+    ],
+    "explanation": "Merksatz: Soziale Marktwirtschaft verbindet wirtschaftliche Freiheit mit sozialer Sicherheit."
+  },
+  {
+    "id": "lf-01-fach-sozi-002",
+    "question": "Was beschreibt das Solidaritätsprinzip?",
+    "answers": [
+      { "text": "Stärkere unterstützen Schwächere im Sozialsystem", "correct": true },
+      { "text": "Jeder sichert sein Risiko vollständig selbst ab", "correct": false },
+      { "text": "Beiträge richten sich nach genutzten Leistungen", "correct": false },
+      { "text": "Leistungen hängen direkt vom Einzelbeitrag ab", "correct": false }
+    ],
+    "explanation": "Merksatz: Solidaritätsprinzip bedeutet gemeinschaftliche Absicherung durch gegenseitige Unterstützung."
+  },
+  {
+    "id": "lf-01-fach-sozi-003",
+    "question": "Was beschreibt das Subsidiaritätsprinzip?",
+    "answers": [
+      { "text": "Eigenverantwortung vor staatlicher Unterstützung", "correct": true },
+      { "text": "Staatliche Hilfe vor eigener Verantwortung", "correct": false },
+      { "text": "Gemeinschaftliche Absicherung nach Einkommen", "correct": false },
+      { "text": "Gleiche Leistung unabhängig vom Bedarf", "correct": false }
+    ],
+    "explanation": "Merksatz: Subsidiarität bedeutet Hilfe zur Selbsthilfe, bevor höhere Stellen eingreifen."
+  },
+  {
+    "id": "lf-01-fach-sozi-004",
+    "question": "Was beschreibt eine Sozialversicherung?",
+    "answers": [
+      { "text": "Gesetzliche Absicherung gegen soziale Risiken", "correct": true },
+      { "text": "Private Absicherung einzelner Unternehmensrisiken", "correct": false },
+      { "text": "Steuerfinanzierte Förderung ohne Beitragsbezug", "correct": false },
+      { "text": "Freiwillige Zusatzleistung des Arbeitgebers", "correct": false }
+    ],
+    "explanation": "Merksatz: Sozialversicherungen sichern zentrale Lebensrisiken wie Krankheit, Pflege, Unfall, Alter und Arbeitslosigkeit ab."
+  },
+  {
+    "id": "lf-01-fach-sozi-005",
+    "question": "Was beschreibt die Krankenversicherung?",
+    "answers": [
+      { "text": "Absicherung bei Krankheit und medizinischer Versorgung", "correct": true },
+      { "text": "Absicherung bei Arbeits- und Wegeunfällen", "correct": false },
+      { "text": "Absicherung bei Pflegebedürftigkeit", "correct": false },
+      { "text": "Absicherung bei Arbeitslosigkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Krankenversicherung finanziert medizinische Leistungen wie Arztbesuch, Krankenhaus und Arzneimittel."
+  },
+  {
+    "id": "lf-01-fach-sozi-006",
+    "question": "Was beschreibt die Unfallversicherung?",
+    "answers": [
+      { "text": "Absicherung bei Arbeits- und Wegeunfällen", "correct": true },
+      { "text": "Absicherung bei Krankheit ohne Arbeitsbezug", "correct": false },
+      { "text": "Absicherung bei Pflegebedürftigkeit", "correct": false },
+      { "text": "Absicherung bei Arbeitslosigkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Die gesetzliche Unfallversicherung schützt bei Arbeitsunfällen, Wegeunfällen und Berufskrankheiten."
+  },
+  {
+    "id": "lf-01-fach-sozi-007",
+    "question": "Was beschreibt die Rentenversicherung?",
+    "answers": [
+      { "text": "Absicherung im Alter und bei Erwerbsminderung", "correct": true },
+      { "text": "Absicherung bei kurzfristiger Krankheit", "correct": false },
+      { "text": "Absicherung bei Arbeits- und Wegeunfällen", "correct": false },
+      { "text": "Absicherung bei vorübergehender Arbeitslosigkeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Rentenversicherung sichert Alter, Erwerbsminderung und Hinterbliebene finanziell ab."
+  },
+  {
+    "id": "lf-01-fach-sozi-008",
+    "question": "Was beschreibt die Arbeitslosenversicherung?",
+    "answers": [
+      { "text": "Absicherung bei Arbeitslosigkeit und Arbeitsförderung", "correct": true },
+      { "text": "Absicherung bei Krankheit und Arztbesuch", "correct": false },
+      { "text": "Absicherung bei Arbeits- und Wegeunfällen", "correct": false },
+      { "text": "Absicherung im Alter und bei Erwerbsminderung", "correct": false }
+    ],
+    "explanation": "Merksatz: Arbeitslosenversicherung hilft bei Arbeitslosigkeit und unterstützt Vermittlung, Beratung und Förderung."
+  },
+  {
+    "id": "lf-01-fach-sozi-009",
+    "question": "Was beschreibt die Pflegeversicherung?",
+    "answers": [
+      { "text": "Absicherung bei Pflegebedürftigkeit", "correct": true },
+      { "text": "Absicherung bei medizinischer Behandlung", "correct": false },
+      { "text": "Absicherung bei Arbeitslosigkeit", "correct": false },
+      { "text": "Absicherung bei Arbeits- und Wegeunfällen", "correct": false }
+    ],
+    "explanation": "Merksatz: Pflegeversicherung unterstützt bei häuslicher oder stationärer Pflege."
+  },
+  {
+    "id": "lf-01-fach-sozi-010",
+    "question": "Was beschreibt ein Sozialversicherungsträger?",
+    "answers": [
+      { "text": "Einrichtung für Beiträge und Leistungen der Versicherung", "correct": true },
+      { "text": "Arbeitgeberstelle für Lohnabrechnung", "correct": false },
+      { "text": "Behörde zur Festlegung der Steuerklasse", "correct": false },
+      { "text": "Betriebsrat für soziale Angelegenheiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Sozialversicherungsträger verwalten Beiträge und Leistungen der jeweiligen Versicherung."
+  },
+  {
+    "id": "lf-01-fach-sozi-011",
+    "question": "Was beschreibt eine Berufsgenossenschaft?",
+    "answers": [
+      { "text": "Träger der gesetzlichen Unfallversicherung", "correct": true },
+      { "text": "Träger der gesetzlichen Rentenversicherung", "correct": false },
+      { "text": "Träger der gesetzlichen Krankenversicherung", "correct": false },
+      { "text": "Träger der Arbeitslosenversicherung", "correct": false }
+    ],
+    "explanation": "Merksatz: Berufsgenossenschaften sind Träger der gesetzlichen Unfallversicherung."
+  },
+  {
+    "id": "lf-01-fach-sozi-012",
+    "question": "Was beschreibt die Deutsche Rentenversicherung?",
+    "answers": [
+      { "text": "Träger der gesetzlichen Rentenversicherung", "correct": true },
+      { "text": "Träger der gesetzlichen Unfallversicherung", "correct": false },
+      { "text": "Träger der Arbeitslosenversicherung", "correct": false },
+      { "text": "Träger der gesetzlichen Pflegeversicherung", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Deutsche Rentenversicherung organisiert gesetzliche Rentenleistungen."
+  },
+  {
+    "id": "lf-01-fach-sozi-013",
+    "question": "Was beschreibt die Bundesagentur für Arbeit?",
+    "answers": [
+      { "text": "Träger für Arbeitslosenversicherung und Förderung", "correct": true },
+      { "text": "Träger der gesetzlichen Krankenversicherung", "correct": false },
+      { "text": "Träger der gesetzlichen Rentenversicherung", "correct": false },
+      { "text": "Träger der gesetzlichen Unfallversicherung", "correct": false }
+    ],
+    "explanation": "Merksatz: Die Bundesagentur für Arbeit ist für Arbeitslosenversicherung, Vermittlung und Förderung zuständig."
+  },
+  {
+    "id": "lf-01-fach-sozi-014",
+    "question": "Was beschreibt das Bruttogehalt?",
+    "answers": [
+      { "text": "Gehalt vor Steuern und Sozialabgaben", "correct": true },
+      { "text": "Ausgezahltes Gehalt nach allen Abzügen", "correct": false },
+      { "text": "Gehalt nach Steuern, aber vor Sozialabgaben", "correct": false },
+      { "text": "Arbeitgeberanteil zur Sozialversicherung", "correct": false }
+    ],
+    "explanation": "Merksatz: Brutto ist das Gehalt vor Abzügen."
+  },
+  {
+    "id": "lf-01-fach-sozi-015",
+    "question": "Was beschreibt das Nettogehalt?",
+    "answers": [
+      { "text": "Gehalt nach Steuern und Sozialabgaben", "correct": true },
+      { "text": "Gehalt vor allen gesetzlichen Abzügen", "correct": false },
+      { "text": "Gehalt vor Steuern, aber nach Sozialabgaben", "correct": false },
+      { "text": "Gesamte Sozialversicherungsbeiträge", "correct": false }
+    ],
+    "explanation": "Merksatz: Netto ist das Geld, das nach Abzügen ausgezahlt wird."
+  },
+  {
+    "id": "lf-01-fach-sozi-016",
+    "question": "Was beschreibt die Lohnsteuer?",
+    "answers": [
+      { "text": "Steuer auf Einkünfte aus nichtselbstständiger Arbeit", "correct": true },
+      { "text": "Beitrag zur gesetzlichen Sozialversicherung", "correct": false },
+      { "text": "Zuschlag auf Sozialversicherungsbeiträge", "correct": false },
+      { "text": "Arbeitgeberbeitrag zur Arbeitsförderung", "correct": false }
+    ],
+    "explanation": "Merksatz: Lohnsteuer ist die Einkommensteuer, die direkt vom Arbeitslohn einbehalten wird."
+  },
+  {
+    "id": "lf-01-fach-sozi-017",
+    "question": "Was beschreibt die Steuerklasse?",
+    "answers": [
+      { "text": "Einordnung für den monatlichen Lohnsteuerabzug", "correct": true },
+      { "text": "Einstufung für Sozialversicherungsleistungen", "correct": false },
+      { "text": "Beitragsgruppe der Krankenversicherung", "correct": false },
+      { "text": "Tarifgruppe zur Entgeltberechnung", "correct": false }
+    ],
+    "explanation": "Merksatz: Steuerklassen beeinflussen die Höhe des monatlichen Lohnsteuerabzugs."
+  },
+  {
+    "id": "lf-01-fach-sozi-018",
+    "question": "Was beschreibt der Solidaritätszuschlag?",
+    "answers": [
+      { "text": "Zuschlag zur Einkommen- beziehungsweise Lohnsteuer", "correct": true },
+      { "text": "Zusatzbeitrag zur Krankenversicherung", "correct": false },
+      { "text": "Beitrag zur Arbeitslosenversicherung", "correct": false },
+      { "text": "Arbeitgeberanteil zur Rentenversicherung", "correct": false }
+    ],
+    "explanation": "Merksatz: Solidaritätszuschlag ist ein steuerlicher Zuschlag auf bestimmte Steuerbeträge."
+  },
+  {
+    "id": "lf-01-fach-sozi-019",
+    "question": "Was beschreibt der Arbeitnehmeranteil?",
+    "answers": [
+      { "text": "Beitragsanteil des Arbeitnehmers zur Sozialversicherung", "correct": true },
+      { "text": "Beitragsanteil des Arbeitgebers zur Sozialversicherung", "correct": false },
+      { "text": "Auszahlungsbetrag nach allen gesetzlichen Abzügen", "correct": false },
+      { "text": "Steueranteil des Arbeitgebers am Bruttogehalt", "correct": false }
+    ],
+    "explanation": "Merksatz: Arbeitnehmeranteil ist der Teil der Sozialversicherungsbeiträge, der vom Bruttogehalt abgeht."
+  },
+  {
+    "id": "lf-01-fach-sozi-020",
+    "question": "Was beschreibt der Arbeitgeberanteil?",
+    "answers": [
+      { "text": "Beitragsanteil des Arbeitgebers zur Sozialversicherung", "correct": true },
+      { "text": "Beitragsanteil des Arbeitnehmers zur Sozialversicherung", "correct": false },
+      { "text": "Ausgezahlter Nettobetrag des Arbeitnehmers", "correct": false },
+      { "text": "Lohnsteueranteil des Arbeitnehmers", "correct": false }
+    ],
+    "explanation": "Merksatz: Arbeitgeberanteil ist der vom Arbeitgeber getragene Teil der Sozialversicherungsbeiträge."
+  }
+]

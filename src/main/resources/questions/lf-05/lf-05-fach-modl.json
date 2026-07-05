@@ -1,0 +1,387 @@
+[
+  {
+    "id": "lf-05-fach-modl-001",
+    "question": "Was beschreibt ein Algorithmus?",
+    "answers": [
+      { "text": "Eine eindeutige Schrittfolge zur Lösung eines Problems", "correct": true },
+      { "text": "Eine Programmiersprache mit festen Befehlen", "correct": false },
+      { "text": "Ein grafisches Modell für Datenbeziehungen", "correct": false },
+      { "text": "Ein ausführbares Programm mit Benutzeroberfläche", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Algorithmus beschreibt schrittweise, wie ein Problem gelöst wird."
+  },
+  {
+    "id": "lf-05-fach-modl-002",
+    "question": "Was beschreibt ein Programm?",
+    "answers": [
+      { "text": "Eine in einer Programmiersprache umgesetzte Folge von Anweisungen", "correct": true },
+      { "text": "Eine sprachnahe Beschreibung eines Algorithmus", "correct": false },
+      { "text": "Eine grafische Darstellung eines Programmablaufs", "correct": false },
+      { "text": "Eine Tabelle mit Bedingungen und Aktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Programm setzt Algorithmen in ausführbare Anweisungen um."
+  },
+  {
+    "id": "lf-05-fach-modl-003",
+    "question": "Was beschreibt Pseudocode?",
+    "answers": [
+      { "text": "Eine verständliche, sprachnahe Beschreibung eines Algorithmus", "correct": true },
+      { "text": "Eine direkt ausführbare Folge von Maschinenbefehlen", "correct": false },
+      { "text": "Eine grafische Darstellung mit genormten Symbolen", "correct": false },
+      { "text": "Eine Tabelle zur Prüfung von Bedingungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Pseudocode beschreibt Logik unabhängig von einer konkreten Programmiersprache."
+  },
+  {
+    "id": "lf-05-fach-modl-004",
+    "question": "Was beschreibt ein Programmablaufplan?",
+    "answers": [
+      { "text": "Eine grafische Darstellung von Ablauf und Entscheidungen eines Programms", "correct": true },
+      { "text": "Eine textnahe Beschreibung der Programmlogik", "correct": false },
+      { "text": "Eine strukturierte Darstellung ohne Sprungpfeile", "correct": false },
+      { "text": "Eine Tabelle mit Bedingungen und Aktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein PAP stellt Programmabläufe mit genormten Symbolen grafisch dar."
+  },
+  {
+    "id": "lf-05-fach-modl-005",
+    "question": "Was beschreibt ein Struktogramm?",
+    "answers": [
+      { "text": "Eine strukturierte Darstellung von Programmabläufen ohne Sprungpfeile", "correct": true },
+      { "text": "Eine grafische Ablaufdarstellung mit Verbindungspfeilen", "correct": false },
+      { "text": "Eine Darstellung von Datenflüssen zwischen Prozessen", "correct": false },
+      { "text": "Eine Tabelle zur Kombination von Regeln und Aktionen", "correct": false }
+    ],
+    "explanation": "Merksatz: Struktogramme zeigen strukturierte Kontrollflüsse wie Sequenz, Auswahl und Wiederholung."
+  },
+  {
+    "id": "lf-05-fach-modl-006",
+    "question": "Was beschreibt ein Datenflussplan?",
+    "answers": [
+      { "text": "Eine Darstellung, wie Daten zwischen Prozessen, Speichern und Schnittstellen fließen", "correct": true },
+      { "text": "Eine Darstellung von Klassen, Attributen und Methoden", "correct": false },
+      { "text": "Eine Darstellung von Programmschritten und Entscheidungen", "correct": false },
+      { "text": "Eine Darstellung von Akteuren und Nutzungsfällen", "correct": false }
+    ],
+    "explanation": "Merksatz: Datenflusspläne zeigen, woher Daten kommen, wohin sie gehen und wie sie verarbeitet werden."
+  },
+  {
+    "id": "lf-05-fach-modl-007",
+    "question": "Was beschreibt eine Entscheidungstabelle?",
+    "answers": [
+      { "text": "Eine tabellarische Darstellung von Bedingungen und daraus folgenden Aktionen", "correct": true },
+      { "text": "Eine grafische Darstellung von Programmverzweigungen", "correct": false },
+      { "text": "Eine strukturierte Darstellung von Schleifen und Sequenzen", "correct": false },
+      { "text": "Eine Modellierung von Entitäten und Beziehungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Entscheidungstabellen helfen, mehrere Bedingungen und Aktionen übersichtlich zu prüfen."
+  },
+  {
+    "id": "lf-05-fach-modl-008",
+    "question": "Was beschreibt eine Modellierungssprache?",
+    "answers": [
+      { "text": "Eine Sprache oder Notation zur strukturierten Darstellung von Systemen oder Abläufen", "correct": true },
+      { "text": "Eine Programmiersprache zur direkten Codeausführung", "correct": false },
+      { "text": "Eine Testmethode zur Prüfung von Quellcode", "correct": false },
+      { "text": "Eine Datenbankabfrage zur Auswertung von Tabellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Modellierungssprachen machen Abläufe, Strukturen oder Beziehungen planbar und verständlich."
+  },
+  {
+    "id": "lf-05-fach-modl-009",
+    "question": "Was beschreibt UML?",
+    "answers": [
+      { "text": "Eine standardisierte Modellierungssprache für Software- und Systementwürfe", "correct": true },
+      { "text": "Eine Programmiersprache zur Umsetzung von Algorithmen", "correct": false },
+      { "text": "Ein Datenbankmodell für Entitäten und Beziehungen", "correct": false },
+      { "text": "Eine Testmethode für Black-Box-Prüfungen", "correct": false }
+    ],
+    "explanation": "Merksatz: UML hilft, Softwarestrukturen und Verhalten einheitlich zu modellieren."
+  },
+  {
+    "id": "lf-05-fach-modl-010",
+    "question": "Was beschreibt ein UML-Klassendiagramm?",
+    "answers": [
+      { "text": "Eine Darstellung von Klassen, Attributen, Methoden und Beziehungen", "correct": true },
+      { "text": "Eine Darstellung von Akteuren und Nutzungsfällen", "correct": false },
+      { "text": "Eine Darstellung von Datenflüssen zwischen Prozessen", "correct": false },
+      { "text": "Eine Darstellung von Testfällen und Testdaten", "correct": false }
+    ],
+    "explanation": "Merksatz: Klassendiagramme zeigen die statische Struktur von Klassen und ihren Beziehungen."
+  },
+  {
+    "id": "lf-05-fach-modl-011",
+    "question": "Was beschreibt ein UML-Anwendungsfalldiagramm?",
+    "answers": [
+      { "text": "Eine Darstellung von Akteuren und deren Nutzungsfällen eines Systems", "correct": true },
+      { "text": "Eine Darstellung von Klassen und Methoden", "correct": false },
+      { "text": "Eine Darstellung von Tabellen und Fremdschlüsseln", "correct": false },
+      { "text": "Eine Darstellung von Schleifen und Entscheidungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Anwendungsfalldiagramme zeigen, wer ein System wofür nutzt."
+  },
+  {
+    "id": "lf-05-fach-modl-012",
+    "question": "Was beschreibt ein Akteur im Anwendungsfalldiagramm?",
+    "answers": [
+      { "text": "Eine externe Rolle, die mit dem System interagiert", "correct": true },
+      { "text": "Eine Funktion, die das System bereitstellt", "correct": false },
+      { "text": "Eine Klasse mit Attributen und Methoden", "correct": false },
+      { "text": "Eine Beziehung zwischen Datenbanktabellen", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Akteur ist eine Rolle außerhalb des Systems, die Funktionen nutzt oder auslöst."
+  },
+  {
+    "id": "lf-05-fach-modl-013",
+    "question": "Was beschreibt ein Anwendungsfall?",
+    "answers": [
+      { "text": "Eine Funktion oder Nutzungssituation, die ein System bereitstellt", "correct": true },
+      { "text": "Eine externe Rolle, die ein System nutzt", "correct": false },
+      { "text": "Eine Klasse mit Attributen und Methoden", "correct": false },
+      { "text": "Eine Testart mit Kenntnis des Quellcodes", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Anwendungsfall beschreibt, was ein System aus Sicht eines Akteurs leisten soll."
+  },
+  {
+    "id": "lf-05-fach-modl-014",
+    "question": "Was beschreibt ERM als Modellierungsmethode?",
+    "answers": [
+      { "text": "Die Modellierung von Entitäten, Attributen und Beziehungen für Datenbanken", "correct": true },
+      { "text": "Die Modellierung von Klassen, Methoden und Vererbung", "correct": false },
+      { "text": "Die Modellierung von Akteuren und Anwendungsfällen", "correct": false },
+      { "text": "Die Modellierung von Programmabläufen mit Symbolen", "correct": false }
+    ],
+    "explanation": "Merksatz: ERM dient der konzeptionellen Planung von Datenbankstrukturen."
+  },
+  {
+    "id": "lf-05-fach-modl-015",
+    "question": "Was beschreibt ein Symbol für Entscheidung in Ablaufmodellen allgemein?",
+    "answers": [
+      { "text": "Eine Stelle, an der abhängig von einer Bedingung verzweigt wird", "correct": true },
+      { "text": "Eine Stelle, an der ein Ablauf gestartet wird", "correct": false },
+      { "text": "Eine Stelle, an der Daten ausgegeben werden", "correct": false },
+      { "text": "Eine Stelle, an der ein Prozessschritt ausgeführt wird", "correct": false }
+    ],
+    "explanation": "Merksatz: Entscheidungen verzweigen Abläufe je nach Bedingung."
+  },
+  {
+    "id": "lf-05-fach-modl-016",
+    "question": "Was beschreibt eine Sequenz in der Programmstruktur?",
+    "answers": [
+      { "text": "Anweisungen werden nacheinander ausgeführt", "correct": true },
+      { "text": "Anweisungen werden bedingt verzweigt", "correct": false },
+      { "text": "Anweisungen werden mehrfach wiederholt", "correct": false },
+      { "text": "Anweisungen werden als Testfall dokumentiert", "correct": false }
+    ],
+    "explanation": "Merksatz: Sequenz bedeutet, dass Schritte in festgelegter Reihenfolge ablaufen."
+  },
+  {
+    "id": "lf-05-fach-modl-017",
+    "question": "Was beschreibt eine Verzweigung in der Programmstruktur?",
+    "answers": [
+      { "text": "Der Ablauf entscheidet abhängig von einer Bedingung zwischen Alternativen", "correct": true },
+      { "text": "Mehrere Anweisungen laufen fest nacheinander ab", "correct": false },
+      { "text": "Ein Anweisungsblock wird mehrfach ausgeführt", "correct": false },
+      { "text": "Ein Testfall wird dokumentiert und ausgewertet", "correct": false }
+    ],
+    "explanation": "Merksatz: Verzweigungen ermöglichen unterschiedliche Abläufe je nach Bedingung."
+  },
+  {
+    "id": "lf-05-fach-modl-018",
+    "question": "Was beschreibt eine Wiederholung in der Programmstruktur?",
+    "answers": [
+      { "text": "Ein Anweisungsblock wird mehrfach ausgeführt", "correct": true },
+      { "text": "Anweisungen werden einmal nacheinander ausgeführt", "correct": false },
+      { "text": "Der Ablauf wählt zwischen Alternativen", "correct": false },
+      { "text": "Ein erwartetes Ergebnis wird dokumentiert", "correct": false }
+    ],
+    "explanation": "Merksatz: Wiederholungen führen Code mehrfach aus, solange oder sooft es nötig ist."
+  },
+  {
+    "id": "lf-05-fach-modl-019",
+    "question": "Was beschreibt ein Testfall?",
+    "answers": [
+      { "text": "Eine definierte Prüfung mit Eingaben, Bedingungen und erwarteten Ergebnissen", "correct": true },
+      { "text": "Die Daten, mit denen eine Prüfung durchgeführt wird", "correct": false },
+      { "text": "Das Ergebnis, das bei korrekter Funktion eintreten soll", "correct": false },
+      { "text": "Die Dokumentation aller Testergebnisse", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Testfall prüft gezielt, ob ein bestimmtes Verhalten korrekt funktioniert."
+  },
+  {
+    "id": "lf-05-fach-modl-020",
+    "question": "Was beschreibt Testdaten?",
+    "answers": [
+      { "text": "Daten, mit denen ein Testfall durchgeführt wird", "correct": true },
+      { "text": "Eine definierte Prüfung mit erwarteten Ergebnissen", "correct": false },
+      { "text": "Das Soll-Ergebnis eines Tests", "correct": false },
+      { "text": "Das Ergebnis der tatsächlichen Testausführung", "correct": false }
+    ],
+    "explanation": "Merksatz: Testdaten sind Eingaben oder Ausgangsdaten für die Prüfung eines Systems."
+  },
+  {
+    "id": "lf-05-fach-modl-021",
+    "question": "Was beschreibt ein erwartetes Ergebnis im Test?",
+    "answers": [
+      { "text": "Das Ergebnis, das bei korrekter Funktion eintreten soll", "correct": true },
+      { "text": "Das Ergebnis, das bei der Testausführung auftritt", "correct": false },
+      { "text": "Die Eingabedaten für einen Testfall", "correct": false },
+      { "text": "Die Dokumentation mehrerer Testläufe", "correct": false }
+    ],
+    "explanation": "Merksatz: Das erwartete Ergebnis ist der Sollwert eines Tests."
+  },
+  {
+    "id": "lf-05-fach-modl-022",
+    "question": "Was beschreibt ein tatsächliches Ergebnis im Test?",
+    "answers": [
+      { "text": "Das Ergebnis, das bei der Testdurchführung wirklich auftritt", "correct": true },
+      { "text": "Das Ergebnis, das laut Testfall eintreten soll", "correct": false },
+      { "text": "Die Eingabedaten eines Tests", "correct": false },
+      { "text": "Die geplante Testbeschreibung vor Ausführung", "correct": false }
+    ],
+    "explanation": "Merksatz: Das tatsächliche Ergebnis wird mit dem erwarteten Ergebnis verglichen."
+  },
+  {
+    "id": "lf-05-fach-modl-023",
+    "question": "Was beschreibt ein Testprotokoll?",
+    "answers": [
+      { "text": "Eine Dokumentation von Testfall, Testdaten, erwartetem und tatsächlichem Ergebnis", "correct": true },
+      { "text": "Eine einzelne Eingabe zur Durchführung eines Tests", "correct": false },
+      { "text": "Eine manuelle Prüfung ohne Programmausführung", "correct": false },
+      { "text": "Eine Testart mit Kenntnis der Programmstruktur", "correct": false }
+    ],
+    "explanation": "Merksatz: Ein Testprotokoll macht Tests nachvollziehbar und auswertbar."
+  },
+  {
+    "id": "lf-05-fach-modl-024",
+    "question": "Was beschreibt ein Schreibtischtest?",
+    "answers": [
+      { "text": "Das gedankliche oder manuelle Prüfen eines Ablaufs ohne Programmausführung", "correct": true },
+      { "text": "Das Prüfen einer Software durch tatsächliche Ausführung", "correct": false },
+      { "text": "Das Testen ohne Kenntnis der inneren Struktur", "correct": false },
+      { "text": "Das Testen des Zusammenspiels mehrerer Komponenten", "correct": false }
+    ],
+    "explanation": "Merksatz: Beim Schreibtischtest wird Code oder Logik Schritt für Schritt theoretisch geprüft."
+  },
+  {
+    "id": "lf-05-fach-modl-025",
+    "question": "Was beschreibt ein Black-Box-Test?",
+    "answers": [
+      { "text": "Ein Test ohne Kenntnis der inneren Programmstruktur", "correct": true },
+      { "text": "Ein Test mit Kenntnis der inneren Programmstruktur", "correct": false },
+      { "text": "Eine Prüfung ohne Ausführung des Programms", "correct": false },
+      { "text": "Eine manuelle Prüfung eines Ablaufs am Schreibtisch", "correct": false }
+    ],
+    "explanation": "Merksatz: Black-Box-Tests prüfen Verhalten von außen anhand von Eingaben und Ausgaben."
+  },
+  {
+    "id": "lf-05-fach-modl-026",
+    "question": "Was beschreibt ein White-Box-Test?",
+    "answers": [
+      { "text": "Ein Test mit Kenntnis der inneren Programmstruktur", "correct": true },
+      { "text": "Ein Test ohne Kenntnis der inneren Programmstruktur", "correct": false },
+      { "text": "Eine Prüfung nur anhand der Benutzeranforderungen", "correct": false },
+      { "text": "Eine Prüfung ohne Blick auf den Programmablauf", "correct": false }
+    ],
+    "explanation": "Merksatz: White-Box-Tests berücksichtigen den inneren Aufbau oder Quellcode eines Programms."
+  },
+  {
+    "id": "lf-05-fach-modl-027",
+    "question": "Was beschreibt ein statischer Test?",
+    "answers": [
+      { "text": "Prüfung ohne Ausführung des Programms", "correct": true },
+      { "text": "Prüfung während oder durch Ausführung des Programms", "correct": false },
+      { "text": "Prüfung des gesamten Systems gegen Anforderungen", "correct": false },
+      { "text": "Prüfung des Zusammenspiels mehrerer Komponenten", "correct": false }
+    ],
+    "explanation": "Merksatz: Statische Tests prüfen Artefakte wie Code oder Dokumentation ohne Programmlauf."
+  },
+  {
+    "id": "lf-05-fach-modl-028",
+    "question": "Was beschreibt ein dynamischer Test?",
+    "answers": [
+      { "text": "Prüfung während oder durch Ausführung des Programms", "correct": true },
+      { "text": "Prüfung ohne Ausführung des Programms", "correct": false },
+      { "text": "Gedankliches Prüfen eines Ablaufs am Schreibtisch", "correct": false },
+      { "text": "Überprüfung von Dokumentation ohne Programmlauf", "correct": false }
+    ],
+    "explanation": "Merksatz: Dynamische Tests prüfen Software im laufenden Verhalten."
+  },
+  {
+    "id": "lf-05-fach-modl-029",
+    "question": "Was beschreibt ein Modultest?",
+    "answers": [
+      { "text": "Der Test einzelner Programmteile oder Funktionen", "correct": true },
+      { "text": "Der Test des Zusammenspiels mehrerer Komponenten", "correct": false },
+      { "text": "Der Test des gesamten Systems gegen Anforderungen", "correct": false },
+      { "text": "Der Test aus Auftraggeber- oder Nutzersicht", "correct": false }
+    ],
+    "explanation": "Merksatz: Modultests prüfen kleine Einheiten wie Funktionen oder Klassen."
+  },
+  {
+    "id": "lf-05-fach-modl-030",
+    "question": "Was beschreibt ein Integrationstest?",
+    "answers": [
+      { "text": "Der Test des Zusammenspiels mehrerer Komponenten", "correct": true },
+      { "text": "Der Test einzelner Programmteile oder Funktionen", "correct": false },
+      { "text": "Der Test des gesamten Systems gegen Anforderungen", "correct": false },
+      { "text": "Der Test zur formalen Abnahme durch Nutzer", "correct": false }
+    ],
+    "explanation": "Merksatz: Integrationstests prüfen, ob Komponenten gemeinsam korrekt funktionieren."
+  },
+  {
+    "id": "lf-05-fach-modl-031",
+    "question": "Was beschreibt ein Systemtest?",
+    "answers": [
+      { "text": "Der Test des gesamten Systems gegen Anforderungen", "correct": true },
+      { "text": "Der Test einzelner Funktionen oder Klassen", "correct": false },
+      { "text": "Der Test des Zusammenspiels ausgewählter Komponenten", "correct": false },
+      { "text": "Der Test ohne Ausführung des Programms", "correct": false }
+    ],
+    "explanation": "Merksatz: Systemtests prüfen das Gesamtsystem aus Anwendersicht oder Anforderungssicht."
+  },
+  {
+    "id": "lf-05-fach-modl-032",
+    "question": "Was beschreibt ein Abnahmetest?",
+    "answers": [
+      { "text": "Die Prüfung, ob die Software aus Auftraggeber- oder Nutzersicht akzeptiert werden kann", "correct": true },
+      { "text": "Der Test einzelner isolierter Programmteile", "correct": false },
+      { "text": "Der Test des Zusammenspiels mehrerer Module", "correct": false },
+      { "text": "Die Prüfung ohne Ausführung des Programms", "correct": false }
+    ],
+    "explanation": "Merksatz: Abnahmetests prüfen, ob die Software die vereinbarten Anforderungen erfüllt."
+  },
+  {
+    "id": "lf-05-fach-modl-033",
+    "question": "Was beschreibt testgetriebene Entwicklung?",
+    "answers": [
+      { "text": "Tests werden vor oder sehr früh zur Steuerung der Entwicklung formuliert", "correct": true },
+      { "text": "Tests werden erst nach vollständiger Auslieferung geplant", "correct": false },
+      { "text": "Tests werden ausschließlich manuell am Schreibtisch durchgeführt", "correct": false },
+      { "text": "Tests dienen nur der Abnahme durch den Auftraggeber", "correct": false }
+    ],
+    "explanation": "Merksatz: Testgetriebene Entwicklung nutzt Tests als Orientierung für die Implementierung."
+  },
+  {
+    "id": "lf-05-fach-modl-034",
+    "question": "Was beschreibt Entwicklungsdokumentation?",
+    "answers": [
+      { "text": "Dokumentation für Entwickler über Aufbau, Code, Schnittstellen und Entscheidungen", "correct": true },
+      { "text": "Dokumentation für Anwender zur Bedienung der Software", "correct": false },
+      { "text": "Dokumentation einzelner Testergebnisse und Testdaten", "correct": false },
+      { "text": "Dokumentation von Anforderungen aus Auftraggebersicht", "correct": false }
+    ],
+    "explanation": "Merksatz: Entwicklungsdokumentation hilft, Software technisch zu verstehen und weiterzuentwickeln."
+  },
+  {
+    "id": "lf-05-fach-modl-035",
+    "question": "Was beschreibt Benutzerdokumentation?",
+    "answers": [
+      { "text": "Dokumentation, die Anwender bei Nutzung und Bedienung der Software unterstützt", "correct": true },
+      { "text": "Dokumentation für Entwickler über Code und Schnittstellen", "correct": false },
+      { "text": "Dokumentation von Testdaten und Testergebnissen", "correct": false },
+      { "text": "Dokumentation der technischen Architekturentscheidung", "correct": false }
+    ],
+    "explanation": "Merksatz: Benutzerdokumentation erklärt Anwendern, wie Software genutzt wird."
+  }
+]

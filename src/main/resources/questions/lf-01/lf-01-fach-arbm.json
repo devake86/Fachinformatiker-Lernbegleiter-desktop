@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lf-01-fach-arbm-001",
+    "question": "Was beschreibt einen Betriebsrat?",
+    "answers": [
+      { "text": "Die Interessenvertretung der Arbeitnehmer im Betrieb", "correct": true },
+      { "text": "Die tarifliche Vertretung einer Gewerkschaft", "correct": false },
+      { "text": "Die Vertretung der Arbeitgeber im Verband", "correct": false },
+      { "text": "Die betriebliche Leitung des Arbeitsschutzes", "correct": false }
+    ],
+    "explanation": "Merksatz: Der Betriebsrat vertritt Arbeitnehmerinteressen gegenüber dem Arbeitgeber."
+  },
+  {
+    "id": "lf-01-fach-arbm-002",
+    "question": "Was beschreibt das Betriebsverfassungsgesetz?",
+    "answers": [
+      { "text": "Die rechtliche Grundlage für betriebliche Mitbestimmung", "correct": true },
+      { "text": "Die Regeln für Tarifverhandlungen", "correct": false },
+      { "text": "Die Grundlage für einzelne Arbeitsverträge", "correct": false },
+      { "text": "Die Ordnung für Sozialversicherungsbeiträge", "correct": false }
+    ],
+    "explanation": "Merksatz: Das BetrVG regelt Zusammenarbeit und Mitbestimmung von Arbeitgeber und Betriebsrat."
+  },
+  {
+    "id": "lf-01-fach-arbm-003",
+    "question": "Was beschreibt eine Betriebsvereinbarung?",
+    "answers": [
+      { "text": "Einen Vertrag zwischen Arbeitgeber und Betriebsrat", "correct": true },
+      { "text": "Einen Tarifvertrag mit einer Gewerkschaft", "correct": false },
+      { "text": "Einen Einzelvertrag mit einem Arbeitnehmer", "correct": false },
+      { "text": "Eine Absprache zwischen Betriebsrat und Gewerkschaft", "correct": false }
+    ],
+    "explanation": "Merksatz: Betriebsvereinbarungen regeln verbindlich betriebliche Angelegenheiten mit Mitbestimmungsbezug."
+  },
+  {
+    "id": "lf-01-fach-arbm-004",
+    "question": "Was beschreibt Mitbestimmung im Betrieb?",
+    "answers": [
+      { "text": "Beteiligung des Betriebsrats an Entscheidungen", "correct": true },
+      { "text": "Ein reines Informationsrecht des Betriebsrats", "correct": false },
+      { "text": "Beratung ohne Zustimmungserfordernis", "correct": false },
+      { "text": "Beteiligung der Gewerkschaft am Tarifvertrag", "correct": false }
+    ],
+    "explanation": "Merksatz: Mitbestimmung bedeutet, dass der Betriebsrat bei bestimmten Entscheidungen beteiligt wird."
+  },
+  {
+    "id": "lf-01-fach-arbm-005",
+    "question": "Was beschreibt Mitwirkung im Betriebsverfassungsrecht?",
+    "answers": [
+      { "text": "Beteiligung ohne vollständiges Entscheidungsrecht", "correct": true },
+      { "text": "Mitentscheidung mit erzwingbarem Vetorecht", "correct": false },
+      { "text": "Abschluss eines Tarifvertrags durch den Betriebsrat", "correct": false },
+      { "text": "Reines Weisungsrecht des Arbeitgebers", "correct": false }
+    ],
+    "explanation": "Merksatz: Mitwirkung beteiligt den Betriebsrat, gibt ihm aber nicht immer ein volles Vetorecht."
+  },
+  {
+    "id": "lf-01-fach-arbm-006",
+    "question": "Was beschreibt die Anhörung bei Kündigungen?",
+    "answers": [
+      { "text": "Der Betriebsrat wird vor einer Kündigung beteiligt", "correct": true },
+      { "text": "Der Betriebsrat muss der Kündigung zustimmen", "correct": false },
+      { "text": "Der Betriebsrat wird erst nach Kündigung informiert", "correct": false },
+      { "text": "Die Gewerkschaft ersetzt die Kündigungsprüfung", "correct": false }
+    ],
+    "explanation": "Merksatz: Vor einer Kündigung muss der Betriebsrat angehört werden."
+  },
+  {
+    "id": "lf-01-fach-arbm-007",
+    "question": "Was beschreibt die Jugend- und Auszubildendenvertretung?",
+    "answers": [
+      { "text": "Vertretung junger Beschäftigter und Auszubildender", "correct": true },
+      { "text": "Der Betriebsrat für ältere Beschäftigte", "correct": false },
+      { "text": "Die Gewerkschaft für alle Tarifbeschäftigten", "correct": false },
+      { "text": "Eine Vertretung nur der Ausbildungsbetriebe", "correct": false }
+    ],
+    "explanation": "Merksatz: Die JAV vertritt Jugendliche und Auszubildende im Betrieb."
+  },
+  {
+    "id": "lf-01-fach-arbm-008",
+    "question": "Was beschreibt ein Tarifvertrag?",
+    "answers": [
+      { "text": "Kollektivvertrag zwischen Gewerkschaft und Arbeitgeberseite", "correct": true },
+      { "text": "Betriebsvereinbarung zwischen Arbeitgeber und Betriebsrat", "correct": false },
+      { "text": "Einzelarbeitsvertrag mit einem Beschäftigten", "correct": false },
+      { "text": "Satzung eines Arbeitgeberverbands", "correct": false }
+    ],
+    "explanation": "Merksatz: Tarifverträge regeln kollektiv Arbeitsbedingungen wie Lohn, Arbeitszeit und Urlaub."
+  },
+  {
+    "id": "lf-01-fach-arbm-009",
+    "question": "Was beschreibt Tarifgebundenheit?",
+    "answers": [
+      { "text": "Bindung an einen geltenden Tarifvertrag", "correct": true },
+      { "text": "Orientierung am Tarifvertrag ohne Rechtsbindung", "correct": false },
+      { "text": "Mitgliedschaft in einem Betriebsrat", "correct": false },
+      { "text": "Bindung an eine Betriebsvereinbarung", "correct": false }
+    ],
+    "explanation": "Merksatz: Tarifgebunden ist, wer rechtlich an einen Tarifvertrag gebunden ist."
+  },
+  {
+    "id": "lf-01-fach-arbm-010",
+    "question": "Was beschreibt Allgemeinverbindlichkeit eines Tarifvertrags?",
+    "answers": [
+      { "text": "Tarifwirkung auch für nicht Tarifgebundene", "correct": true },
+      { "text": "Tarifwirkung nur für Gewerkschaftsmitglieder", "correct": false },
+      { "text": "Tarifwirkung nur in einem einzelnen Betrieb", "correct": false },
+      { "text": "Automatische Verlängerung des Tarifvertrags", "correct": false }
+    ],
+    "explanation": "Merksatz: Allgemeinverbindlichkeit erweitert die Tarifwirkung auf eine ganze Branche oder Region."
+  },
+  {
+    "id": "lf-01-fach-arbm-011",
+    "question": "Was beschreibt Friedenspflicht im Tarifrecht?",
+    "answers": [
+      { "text": "Kein Streik zu tariflich geregelten Forderungen", "correct": true },
+      { "text": "Streikverbot auch für nicht geregelte Themen", "correct": false },
+      { "text": "Pflicht zur Einigung ohne Schlichtung", "correct": false },
+      { "text": "Verbot von Betriebsversammlungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Friedenspflicht schützt die Laufzeit eines Tarifvertrags vor Arbeitskämpfen zu denselben Themen."
+  },
+  {
+    "id": "lf-01-fach-arbm-012",
+    "question": "Was beschreibt ein Manteltarifvertrag?",
+    "answers": [
+      { "text": "Einen Tarifvertrag zu allgemeinen Arbeitsbedingungen", "correct": true },
+      { "text": "Einen Tarifvertrag zur konkreten Entgelthöhe", "correct": false },
+      { "text": "Einen Tarifvertrag für einen einzelnen Arbeitskampf", "correct": false },
+      { "text": "Eine Betriebsvereinbarung über Rahmenarbeitszeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Manteltarifverträge regeln langfristige Rahmenbedingungen wie Arbeitszeit, Urlaub oder Kündigungsfristen."
+  },
+  {
+    "id": "lf-01-fach-arbm-013",
+    "question": "Was beschreibt ein Entgelttarifvertrag?",
+    "answers": [
+      { "text": "Einen Tarifvertrag über Löhne und Gehälter", "correct": true },
+      { "text": "Einen Tarifvertrag über Urlaub und Kündigung", "correct": false },
+      { "text": "Eine Betriebsvereinbarung zur Arbeitszeitverteilung", "correct": false },
+      { "text": "Einen Vertrag über Gewinnanteile", "correct": false }
+    ],
+    "explanation": "Merksatz: Entgelttarifverträge regeln die Bezahlung und häufig auch Ausbildungsvergütungen."
+  },
+  {
+    "id": "lf-01-fach-arbm-014",
+    "question": "Was beschreibt ein Flächentarifvertrag?",
+    "answers": [
+      { "text": "Einen Tarifvertrag für eine Branche oder Region", "correct": true },
+      { "text": "Einen Haustarifvertrag für ein Unternehmen", "correct": false },
+      { "text": "Eine Betriebsvereinbarung für einen Standort", "correct": false },
+      { "text": "Einen Manteltarifvertrag nur zu Arbeitszeiten", "correct": false }
+    ],
+    "explanation": "Merksatz: Flächentarifverträge schaffen einheitliche Standards für Branche oder Region."
+  },
+  {
+    "id": "lf-01-fach-arbm-015",
+    "question": "Was beschreibt ein Streik?",
+    "answers": [
+      { "text": "Eine vorübergehende Arbeitsniederlegung im Arbeitskampf", "correct": true },
+      { "text": "Eine Aussperrung durch die Arbeitgeberseite", "correct": false },
+      { "text": "Eine Betriebsversammlung während der Arbeitszeit", "correct": false },
+      { "text": "Individuelle Arbeitsverweigerung ohne Arbeitskampf", "correct": false }
+    ],
+    "explanation": "Merksatz: Streik ist ein Arbeitskampfmittel zur Durchsetzung kollektiver Interessen."
+  },
+  {
+    "id": "lf-01-fach-arbm-016",
+    "question": "Was beschreibt eine Urabstimmung?",
+    "answers": [
+      { "text": "Abstimmung über Arbeitskampfmaßnahmen", "correct": true },
+      { "text": "Betriebsratswahl vor einer Kündigung", "correct": false },
+      { "text": "Abstimmung der Arbeitgeber über Aussperrung", "correct": false },
+      { "text": "Befragung aller Beschäftigten zur Arbeitszeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Eine Urabstimmung klärt, ob Gewerkschaftsmitglieder zu einem Arbeitskampf bereit sind."
+  },
+  {
+    "id": "lf-01-fach-arbm-017",
+    "question": "Was beschreibt Aussperrung?",
+    "answers": [
+      { "text": "Ein Arbeitskampfmittel der Arbeitgeberseite", "correct": true },
+      { "text": "Ein Arbeitskampfmittel der Gewerkschaft", "correct": false },
+      { "text": "Eine Kündigung einzelner Arbeitnehmer", "correct": false },
+      { "text": "Ein Betriebsratsbeschluss über Arbeitszeit", "correct": false }
+    ],
+    "explanation": "Merksatz: Aussperrung ist die Reaktion der Arbeitgeberseite im Arbeitskampf."
+  },
+  {
+    "id": "lf-01-fach-arbm-018",
+    "question": "Was beschreibt ein Arbeitgeberverband?",
+    "answers": [
+      { "text": "Einen Zusammenschluss von Arbeitgebern zur Interessenvertretung", "correct": true },
+      { "text": "Einen Zusammenschluss von Arbeitnehmern", "correct": false },
+      { "text": "Einen Betriebsrat mehrerer Unternehmen", "correct": false },
+      { "text": "Eine staatliche Stelle für Arbeitsgenehmigungen", "correct": false }
+    ],
+    "explanation": "Merksatz: Arbeitgeberverbände vertreten Arbeitgeberinteressen, besonders bei Tarifverhandlungen."
+  },
+  {
+    "id": "lf-01-fach-arbm-019",
+    "question": "Was beschreibt eine Gewerkschaft?",
+    "answers": [
+      { "text": "Eine Interessenvertretung der Arbeitnehmer", "correct": true },
+      { "text": "Eine Interessenvertretung der Arbeitgeber", "correct": false },
+      { "text": "Ein Organ der betrieblichen Mitbestimmung", "correct": false },
+      { "text": "Eine staatliche Aufsicht über Tarifverträge", "correct": false }
+    ],
+    "explanation": "Merksatz: Gewerkschaften vertreten Arbeitnehmerinteressen, besonders bei Tarifverhandlungen und Arbeitskämpfen."
+  },
+  {
+    "id": "lf-01-fach-arbm-020",
+    "question": "Was beschreibt das Günstigkeitsprinzip?",
+    "answers": [
+      { "text": "Für Arbeitnehmer günstigere Regelungen können Vorrang haben", "correct": true },
+      { "text": "Tarifvertrag verdrängt bessere Einzelabreden", "correct": false },
+      { "text": "Die kostengünstigste Regelung hat Vorrang", "correct": false },
+      { "text": "Betriebsvereinbarung steht über dem Arbeitsvertrag", "correct": false }
+    ],
+    "explanation": "Merksatz: Das Günstigkeitsprinzip schützt Arbeitnehmer, wenn eine individuell bessere Regelung besteht."
+  }
+]
